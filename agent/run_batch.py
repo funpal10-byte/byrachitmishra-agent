@@ -13,10 +13,14 @@ import re
 import sys
 from pathlib import Path
 
-from . import config, generate, render, research
+from . import config, generate, render, research, video
 from .schema import check_voice, validate
 
 DAY_INDEX = {"mon": 0, "tue": 1, "wed": 2, "thu": 3, "fri": 4, "sat": 5, "sun": 6}
+
+# Set the BUILD_REELS repository variable to "false" if you would rather film
+# every Reel yourself and only want the script.
+BUILD_REELS = (os.getenv("BUILD_REELS") or "true").lower() != "false"
 
 
 def slugify(text: str) -> str:
@@ -82,6 +86,13 @@ def write_readable(post: dict, folder: Path, images: list[Path], problems: list[
 
     if post.get("format") == "reel" and post.get("reel_script"):
         a("## Reel script")
+        a("")
+        if (folder / "reel.mp4").exists():
+            a("`reel.mp4` has been generated from this script and will publish "
+              "automatically. To use your own footage instead, replace that file "
+              "and delete `.generated-reel` from this folder.")
+        else:
+            a("No video generated. Film this and drop it in as `reel.mp4`.")
         a("")
         a("| Time | On screen | Voiceover | Direction |")
         a("|---|---|---|---|")
@@ -198,6 +209,16 @@ def main() -> int:
                 images = [cover] if cover else []
         except Exception as exc:
             print(f"[render] FAILED for {folder.name}: {exc}", file=sys.stderr)
+
+        # Reels get a kinetic-typography video built from the script, so they
+        # can publish without you filming anything. A hand-filmed reel.mp4
+        # dropped into the folder is never overwritten.
+        if post.get("format") == "reel" and BUILD_REELS:
+            try:
+                if video.build_reel(post, brand, folder):
+                    post["video"] = "reel.mp4"
+            except Exception as exc:
+                print(f"[video] FAILED for {folder.name}: {type(exc).__name__}: {exc}", file=sys.stderr)
 
         post["images"] = [p.relative_to(config.ROOT).as_posix() for p in images]
         problems = validate(post) + check_voice(post, brand.voice.get("banned_phrases", []))

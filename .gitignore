@@ -4,3 +4,7 @@ __pycache__/
 .venv/
 venv/
 .DS_Store
+
+# Intermediate video frames — cleaned up automatically, but just in case
+.frames/
+preview/

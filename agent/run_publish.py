@@ -61,9 +61,17 @@ def main() -> int:
             post = json.loads(f.read_text(encoding="utf-8"))
             imgs = [f.parent / Path(p).name for p in post.get("images", [])]
             ok = sum(1 for p in imgs if p.exists())
+            note = f"{ok}/{len(imgs)} images"
+            if post.get("format") == "reel":
+                vid = f.parent / "reel.mp4"
+                note = (
+                    f"video {vid.stat().st_size / 1_000_000:.1f} MB"
+                    if vid.exists()
+                    else "NO VIDEO — will be held"
+                )
             print(
                 f"  · {post.get('scheduled_for')} · {post.get('format')} · "
-                f"{post.get('title', '').strip()} · {ok}/{len(imgs)} images present"
+                f"{post.get('title', '').strip()} · {note}"
             )
         return 0
 
@@ -113,6 +121,14 @@ def main() -> int:
         post["published_at"] = dt.datetime.now(brand.timezone).isoformat()
         post["media_id"] = media_id
         f.write_text(json.dumps(post, indent=2, ensure_ascii=False), encoding="utf-8")
+
+        # The video is on Instagram now. Keeping a copy in git would add a few
+        # megabytes a week to a repository that never forgets anything.
+        stale = folder / "reel.mp4"
+        if stale.exists():
+            stale.unlink()
+            (folder / ".generated-reel").unlink(missing_ok=True)
+
         archive(folder)
         print(f"[publish] live: {post.get('title')} → media {media_id}")
 

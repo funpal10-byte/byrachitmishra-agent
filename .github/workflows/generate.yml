@@ -39,6 +39,13 @@ jobs:
           fc-cache -f
           fc-list | grep -ci inter || echo "Inter not found — slides will use the fallback sans"
 
+      # Reels are assembled with ffmpeg. It ships with the runner image, but
+      # check rather than assume — a missing binary here fails five posts.
+      - name: Ensure ffmpeg
+        run: |
+          ffmpeg -version >/dev/null 2>&1 || sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          ffmpeg -version | head -1
+
       - name: Generate batch
         id: batch
         env:
@@ -50,6 +57,11 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
           AGENT_MODEL: ${{ vars.AGENT_MODEL }}
+          # Reel video generation. Set BUILD_REELS to "false" to get scripts
+          # only, or REEL_AI_BACKGROUNDS to "false" to use designed gradients
+          # instead of spending image-generation quota.
+          BUILD_REELS: ${{ vars.BUILD_REELS }}
+          REEL_AI_BACKGROUNDS: ${{ vars.REEL_AI_BACKGROUNDS }}
         run: python -m agent.run_batch
 
       - name: Open review pull request

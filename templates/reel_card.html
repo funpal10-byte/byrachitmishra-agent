@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px;height:1920px;overflow:hidden}
+  body{
+    font-family:{{ d.font_stack | safe }};
+    background:{{ d.bg_alt }};
+    color:#fff;
+    -webkit-font-smoothing:antialiased;
+  }
+  .card{position:relative;width:1080px;height:1920px;overflow:hidden}
+
+  /* Background: an AI-generated image when available, a designed gradient
+     otherwise. Either way it sits behind a scrim so text stays legible. */
+  .bg{position:absolute;inset:0;background:{{ d.bg_alt }}}
+  {% if bg_image %}
+  .bg{
+    background-image:url('{{ bg_image }}');
+    background-size:cover;background-position:center;
+  }
+  {% else %}
+  .bg{
+    background:
+      radial-gradient(120% 80% at 20% 12%, {{ d.accent }}55 0%, transparent 60%),
+      radial-gradient(100% 70% at 85% 88%, #1e3a8a55 0%, transparent 55%),
+      {{ d.bg_alt }};
+  }
+  {% endif %}
+  .scrim{
+    position:absolute;inset:0;
+    background:linear-gradient(180deg, rgba(10,11,13,.58) 0%, rgba(10,11,13,.34) 42%, rgba(10,11,13,.80) 100%);
+  }
+
+  /* Safe area: Instagram's UI covers the top ~14% and bottom ~20% of a Reel,
+     so all text lives in the middle band. */
+  .stage{
+    position:absolute;left:96px;right:96px;top:300px;bottom:420px;
+    display:flex;flex-direction:column;justify-content:center;
+  }
+
+  .kicker{
+    font-size:34px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;
+    color:{{ d.accent }};margin-bottom:36px;
+  }
+  .line{
+    font-size:{{ size }}px;line-height:1.12;letter-spacing:-.025em;font-weight:800;
+    text-shadow:0 4px 40px rgba(0,0,0,.55);
+  }
+  .accentbar{width:150px;height:12px;border-radius:99px;background:{{ d.accent }};margin-bottom:44px}
+
+  .progress{
+    position:absolute;left:96px;right:96px;bottom:250px;
+    height:8px;border-radius:99px;background:rgba(255,255,255,.18);overflow:hidden;
+  }
+  .progress i{display:block;height:100%;border-radius:99px;background:{{ d.accent }};width:{{ pct }}%}
+
+  .handle{
+    position:absolute;left:96px;bottom:180px;
+    font-size:32px;font-weight:600;color:rgba(255,255,255,.62);letter-spacing:.02em;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="bg"></div>
+    <div class="scrim"></div>
+    <div class="stage">
+      <div class="accentbar"></div>
+      {% if kicker %}<div class="kicker">{{ kicker }}</div>{% endif %}
+      <div class="line">{{ text }}</div>
+    </div>
+    <div class="progress"><i></i></div>
+    <div class="handle">{{ d.handle_mark }}</div>
+  </div>
+</body>
+</html>

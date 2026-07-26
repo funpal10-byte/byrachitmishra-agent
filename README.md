@@ -175,12 +175,20 @@ images, and post yourself. Set it up and the posts go live on their own.
 | Add a photography post by hand | Whenever | your call |
 | Add a phrase to `banned_phrases` when a draft sounds off | As it happens | 30 seconds |
 
-**Reels are scripted, not shot.** The agent writes the beat-by-beat script,
-the on-screen text, and the caption, and renders a cover card. You film it.
-That is deliberate — a talking-head Reel from a personal brand account is the
-one thing that cannot be automated without the page losing the thing that
-makes it worth following. When you've filmed it, drop the file into the post's
-folder as `reel.mp4` and the publisher will pick it up.
+**Reels are generated as kinetic typography.** The agent writes the script,
+then builds a 1080×1920 MP4 from it: each beat's on-screen text over an
+AI-generated background, with a slow pan and hard cuts on the beat. It
+publishes automatically like anything else.
+
+What it cannot do is put you on camera, and a talking-head Reel does a
+different job on a personal-brand page. So the generated video is a floor, not
+a ceiling: film your own whenever you want, drop it into the post's folder as
+`reel.mp4`, delete the `.generated-reel` marker beside it, and your footage
+publishes instead. The agent never overwrites a file you supplied.
+
+Two repository variables control this: `BUILD_REELS=false` for scripts only,
+and `REEL_AI_BACKGROUNDS=false` to use designed gradients instead of spending
+image-generation quota.
 
 **Photography stays yours.** The `photography_travel` pillar is marked
 `automate: false` and the agent skips it entirely.
@@ -253,6 +261,7 @@ agent/
   generate.py     brief + pillar → a finished post, with self-correction
   schema.py       the post contract, length limits, and the voice checker
   render.py       HTML → 1080×1350 JPEG slides via headless Chromium
+  video.py        Reel script → 1080×1920 MP4 via Chromium + ffmpeg
   publish.py      Instagram Graph API: containers, publish, token refresh
   run_batch.py    Sunday entrypoint
   run_publish.py  hourly entrypoint
