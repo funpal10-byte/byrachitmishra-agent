@@ -11,6 +11,8 @@ works either way.
 
 from __future__ import annotations
 
+import time
+
 from . import config
 
 
@@ -51,29 +53,58 @@ def _anthropic_generate(
 #  Google Gemini
 # --------------------------------------------------------------------------
 
-# Preference order, best first. Google retires model IDs fairly often, so
-# this is a wish list rather than a promise — anything unavailable is skipped
-# and the resolver falls through to whatever Flash model does exist.
+# Preference order, best first. Deliberately no "-latest" aliases: those move
+# without warning and often carry a much smaller free-tier quota than the
+# pinned IDs they point at. Anything unavailable is skipped.
 _GEMINI_PREFERENCE = (
-    "gemini-flash-latest",
     "gemini-3.6-flash",
     "gemini-3.5-flash",
     "gemini-3.5-flash-lite",
+    "gemini-2.5-flash-lite",
     "gemini-2.5-flash",
 )
 
-_resolved_gemini_model: str | None = None
+_gemini_candidates_cache: list[str] | None = None
+
+# Free-tier quotas are per-minute as well as per-day, and a batch fires five
+# posts back to back. A small gap between calls is the difference between a
+# clean run and a wall of 429s.
+_MIN_GAP_SECONDS = 4.0
+_last_call_at = 0.0
 
 
-def _pick_gemini_model(client) -> str:
-    """Ask the API what it actually offers, rather than trusting a hardcoded
-    name that goes stale the moment Google retires a version."""
-    global _resolved_gemini_model
+def _pace() -> None:
+    global _last_call_at
+    wait = _MIN_GAP_SECONDS - (time.monotonic() - _last_call_at)
+    if wait > 0:
+        time.sleep(wait)
+    _last_call_at = time.monotonic()
+
+
+def _status_code(exc: Exception) -> int | None:
+    for attr in ("code", "status_code"):
+        val = getattr(exc, attr, None)
+        if isinstance(val, int):
+            return val
+    text = str(exc)
+    for code in (429, 400, 404, 403, 500, 503):
+        if str(code) in text[:40]:
+            return code
+    return None
+
+
+def _gemini_candidates(client) -> list[str]:
+    """Ordered list of models worth trying, best first.
+
+    Returns several rather than one so that a model with no free-tier quota
+    can be stepped past at run time instead of failing the whole batch.
+    """
+    global _gemini_candidates_cache
 
     if forced := config.model_name():
-        return forced
-    if _resolved_gemini_model:
-        return _resolved_gemini_model
+        return [forced]
+    if _gemini_candidates_cache:
+        return _gemini_candidates_cache
 
     try:
         available = set()
@@ -83,23 +114,31 @@ def _pick_gemini_model(client) -> str:
                 continue
             available.add((getattr(m, "name", "") or "").removeprefix("models/"))
     except Exception as exc:
-        print(f"[llm] could not list models ({exc}); falling back to {_GEMINI_PREFERENCE[1]}")
-        return _GEMINI_PREFERENCE[1]
+        print(f"[llm] could not list models ({exc}); trying the preference list blind")
+        return list(_GEMINI_PREFERENCE)
 
-    for want in _GEMINI_PREFERENCE:
-        if want in available:
-            _resolved_gemini_model = want
-            break
-    else:
-        # Nothing on the wish list. Take the newest-looking Flash model, since
-        # sorting these IDs descending puts higher version numbers first.
-        flashes = sorted((n for n in available if "flash" in n and "image" not in n), reverse=True)
-        if not flashes:
-            raise LLMError(f"no usable Gemini text model found. Available: {sorted(available)}")
-        _resolved_gemini_model = flashes[0]
+    ranked = [n for n in _GEMINI_PREFERENCE if n in available]
 
-    print(f"[llm] using Gemini model: {_resolved_gemini_model}")
-    return _resolved_gemini_model
+    # Anything else that looks like a usable Flash text model, newest first.
+    # Sorting the IDs descending puts higher version numbers at the front.
+    extras = sorted(
+        (
+            n
+            for n in available
+            if "flash" in n
+            and n not in ranked
+            and not any(bad in n for bad in ("image", "latest", "preview", "tts", "audio", "embedding"))
+        ),
+        reverse=True,
+    )
+    ranked += extras
+
+    if not ranked:
+        raise LLMError(f"no usable Gemini text model found. Available: {sorted(available)}")
+
+    _gemini_candidates_cache = ranked
+    print(f"[llm] Gemini candidates, in order: {', '.join(ranked[:4])}")
+    return ranked
 
 
 def _gemini_generate(
@@ -112,7 +151,6 @@ def _gemini_generate(
     from google.genai import types
 
     client = genai.Client(api_key=config.GOOGLE_API_KEY)
-    model = _pick_gemini_model(client)
 
     contents = [
         types.Content(
@@ -124,43 +162,66 @@ def _gemini_generate(
         for m in messages
     ]
 
-    cfg: dict = {"max_output_tokens": max_tokens}
+    base: dict = {"max_output_tokens": max_tokens}
     if system:
-        cfg["system_instruction"] = system
+        base["system_instruction"] = system
 
     if web_search:
         # Gemini has no per-call search budget the way Anthropic does; the
         # model decides how many searches to run.
-        cfg["tools"] = [types.Tool(google_search=types.GoogleSearch())]
+        base["tools"] = [types.Tool(google_search=types.GoogleSearch())]
     else:
         # Structured output. Not combinable with the search tool, so it is
         # only used on the generation calls, which is where it matters.
-        cfg["response_mime_type"] = "application/json"
+        base["response_mime_type"] = "application/json"
 
-    # Gemini 2.5+ models think by default, and thinking tokens are billed
-    # against max_output_tokens. Left alone, the model can spend the entire
-    # budget reasoning and return an empty response. Switch it off: these are
-    # structured writing tasks, not puzzles.
-    thinking_off = dict(cfg, thinking_config=types.ThinkingConfig(thinking_budget=0))
+    plain = {k: v for k, v in base.items() if k != "response_mime_type"}
 
-    def _call(conf: dict):
-        return client.models.generate_content(
-            model=model,
-            contents=contents,
-            config=types.GenerateContentConfig(**conf),
-        )
+    # Progressively simpler requests. Model families disagree about which of
+    # these options they accept — 2.5 wants thinking disabled so it does not
+    # eat the output budget, 3.x refuses to have it disabled at all — and the
+    # API reports the disagreement as a generic "invalid argument". Rather
+    # than encode which model wants what, try each shape and keep the first
+    # that works.
+    variants = [
+        ("thinking off", dict(base, thinking_config=types.ThinkingConfig(thinking_budget=0))),
+        ("thinking on, wider budget", dict(base, max_output_tokens=max_tokens * 3)),
+        ("plain", dict(plain, max_output_tokens=max_tokens * 3)),
+    ]
 
-    try:
-        resp = _call(thinking_off)
-    except Exception as exc:
-        # Some models refuse to have thinking disabled. Fall back rather than
-        # dying, and give the budget more room so thinking cannot starve the
-        # actual answer.
-        if "thinking" not in str(exc).lower():
-            raise
-        resp = _call(dict(cfg, max_output_tokens=max_tokens * 3))
+    problems: list[str] = []
 
-    return _gemini_text(resp)
+    for model in _gemini_candidates(client)[:3]:
+        quota_hit = False
+        for label, conf in variants:
+            for attempt in range(2):
+                try:
+                    _pace()
+                    resp = client.models.generate_content(
+                        model=model,
+                        contents=contents,
+                        config=types.GenerateContentConfig(**conf),
+                    )
+                    return _gemini_text(resp)
+                except LLMError:
+                    raise
+                except Exception as exc:
+                    code = _status_code(exc)
+                    if code == 429:
+                        if attempt == 0:
+                            print(f"[llm] {model}: rate limited, waiting 30s")
+                            time.sleep(30)
+                            continue
+                        # Out of quota on this model — a different config
+                        # won't help, so move on to the next model.
+                        quota_hit = True
+                    problems.append(f"{model} [{label}]: {str(exc)[:160]}")
+                    break
+            if quota_hit:
+                print(f"[llm] {model}: quota exhausted, trying next model")
+                break
+
+    raise LLMError("every Gemini attempt failed:\n  " + "\n  ".join(problems))
 
 
 def _gemini_text(resp) -> str:
