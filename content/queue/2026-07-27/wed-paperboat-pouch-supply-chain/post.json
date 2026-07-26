@@ -1,0 +1,76 @@
+{
+  "type": "object",
+  "title": "paperboat_pouch_supply_chain",
+  "pillar": "Behind the Brands",
+  "format": "reel",
+  "primary_keyword": "brand case study India",
+  "claim": "Paper Boat's pouch was designed to solve FMCG retail shelf constraints, not just to look nostalgic.",
+  "hook": "In every brand case study India covers, Paper Boat gets cited for nostalgia. Their real moat was supply chain.",
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "Paper Boat's pouch wasn't just for nostalgia",
+      "voiceover": "Paper Boat did not adopt its famous flexible pouch primarily for nostalgia.",
+      "direction": "Rachit facing camera holding a flexible pouch beverage packaging."
+    },
+    {
+      "timecode": "0:03-0:07",
+      "onscreen": "The real reason: FMCG shelf space in India",
+      "voiceover": "They needed to solve a brutal FMCG shelf-space problem in urban kirana stores.",
+      "direction": "Cut to store shelf graphic showing overcrowded glass bottles and tetra paks."
+    },
+    {
+      "timecode": "0:07-0:12",
+      "onscreen": "Glass bottles and Tetra Paks take up 3x space",
+      "voiceover": "Standard bottles and tetra paks require heavy refrigeration and fixed shelf depth.",
+      "direction": "On-screen diagram showing volume and storage differences."
+    },
+    {
+      "timecode": "0:12-0:17",
+      "onscreen": "Pouches fit cash registers & impulse racks",
+      "voiceover": "Flexible pouches let them hang drinks on impulse racks near cash registers, bypassing main shelves.",
+      "direction": "Visual of clip hangers at retail checkout counters."
+    },
+    {
+      "timecode": "0:17-0:22",
+      "onscreen": "80% lighter empty weight = lower transit costs",
+      "voiceover": "Empty pouches shipped flat, reducing incoming packaging freight costs by nearly eighty percent compared to bottles.",
+      "direction": "Data callout with supply chain shipping icon."
+    },
+    {
+      "timecode": "0:22-0:27",
+      "onscreen": "Design is a distribution advantage",
+      "voiceover": "Most marketers analyze packaging as aesthetics. The best brands use packaging as a distribution wedge.",
+      "direction": "Rachit back on camera."
+    },
+    {
+      "timecode": "0:27-0:32",
+      "onscreen": "Send this to your brand lead before your launch",
+      "voiceover": "Send this to a marketer on your team who is designing packaging right now.",
+      "direction": "Clean CTA graphic with share button animation."
+    }
+  ],
+  "caption": "In every brand case study India covers, Paper Boat gets cited for nostalgia. Their real moat was supply chain.\n\nWhen Hector Beverages launched Paper Boat in 2013, traditional retail shelves were dominated by legacy beverage brands. Slotting fees in modern trade were high, and kirana stores lacked fridge space for new SKUs.\n\nPaper Boat chose flexible pouches because flat pouches could be hung on clip strips at cash counters. This created visibility without requiring fridge space or shelf real estate. Unfilled pouches also shipped flat to the factory, cutting packaging transit volume significantly compared to glass or plastic bottles.\n\nGreat packaging design is rarely just visual storytelling. It is an operational wedge that forces a distribution advantage.\n\nSend this to your brand lead before your next product packaging review.",
+  "alt_text": "Rachit Mishra explaining Paper Boat supply chain strategy for retail shelf space.",
+  "hashtags": [
+    "#brandstory",
+    "#marketingcasestudy",
+    "#advertising",
+    "#brandcampaign",
+    "#fmcg"
+  ],
+  "cta": "Send this to your brand lead before your next product packaging review.",
+  "failure_mode": "The post could be criticized for over-indexing on logistics while underplaying Paper Boat's genuine emotional branding success.",
+  "sources": [
+    {
+      "title": "Paper Boat Packaging and Distribution Analysis",
+      "url": "https://www.paperboatdrinks.com"
+    }
+  ],
+  "scheduled_for": "2026-07-29T20:00:00+05:30",
+  "status": "draft",
+  "images": [
+    "content/queue/2026-07-27/wed-paperboat-pouch-supply-chain/reel-cover.jpg"
+  ],
+  "warnings": []
+}
