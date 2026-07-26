@@ -28,8 +28,11 @@ GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "")
 # Which provider writes the posts. Leave LLM_PROVIDER unset and the agent
 # picks whichever key you have supplied — Gemini first, since that is the one
 # with a free tier. Set it explicitly to pin a choice.
+# Gemini deliberately has no default here: model IDs are retired often, so
+# agent/llm.py asks the API which models exist and picks the best available.
+# Set AGENT_MODEL to override that and pin a specific one.
 DEFAULT_MODELS = {
-    "gemini": "gemini-2.5-flash",     # on Google's free tier
+    "gemini": "",                     # auto-resolved at run time
     "anthropic": "claude-sonnet-5",   # paid, better writing
 }
 

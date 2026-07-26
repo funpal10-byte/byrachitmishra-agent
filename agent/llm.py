@@ -51,6 +51,57 @@ def _anthropic_generate(
 #  Google Gemini
 # --------------------------------------------------------------------------
 
+# Preference order, best first. Google retires model IDs fairly often, so
+# this is a wish list rather than a promise — anything unavailable is skipped
+# and the resolver falls through to whatever Flash model does exist.
+_GEMINI_PREFERENCE = (
+    "gemini-flash-latest",
+    "gemini-3.6-flash",
+    "gemini-3.5-flash",
+    "gemini-3.5-flash-lite",
+    "gemini-2.5-flash",
+)
+
+_resolved_gemini_model: str | None = None
+
+
+def _pick_gemini_model(client) -> str:
+    """Ask the API what it actually offers, rather than trusting a hardcoded
+    name that goes stale the moment Google retires a version."""
+    global _resolved_gemini_model
+
+    if forced := config.model_name():
+        return forced
+    if _resolved_gemini_model:
+        return _resolved_gemini_model
+
+    try:
+        available = set()
+        for m in client.models.list():
+            actions = getattr(m, "supported_actions", None) or []
+            if actions and "generateContent" not in actions:
+                continue
+            available.add((getattr(m, "name", "") or "").removeprefix("models/"))
+    except Exception as exc:
+        print(f"[llm] could not list models ({exc}); falling back to {_GEMINI_PREFERENCE[1]}")
+        return _GEMINI_PREFERENCE[1]
+
+    for want in _GEMINI_PREFERENCE:
+        if want in available:
+            _resolved_gemini_model = want
+            break
+    else:
+        # Nothing on the wish list. Take the newest-looking Flash model, since
+        # sorting these IDs descending puts higher version numbers first.
+        flashes = sorted((n for n in available if "flash" in n and "image" not in n), reverse=True)
+        if not flashes:
+            raise LLMError(f"no usable Gemini text model found. Available: {sorted(available)}")
+        _resolved_gemini_model = flashes[0]
+
+    print(f"[llm] using Gemini model: {_resolved_gemini_model}")
+    return _resolved_gemini_model
+
+
 def _gemini_generate(
     system: str,
     messages: list[dict],
@@ -61,6 +112,7 @@ def _gemini_generate(
     from google.genai import types
 
     client = genai.Client(api_key=config.GOOGLE_API_KEY)
+    model = _pick_gemini_model(client)
 
     contents = [
         types.Content(
@@ -93,7 +145,7 @@ def _gemini_generate(
 
     def _call(conf: dict):
         return client.models.generate_content(
-            model=config.model_name(),
+            model=model,
             contents=contents,
             config=types.GenerateContentConfig(**conf),
         )
