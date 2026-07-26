@@ -124,9 +124,16 @@ def write_readable(post: dict, folder: Path, images: list[Path], problems: list[
 
 
 def main() -> int:
-    if not config.ANTHROPIC_API_KEY:
-        print("ANTHROPIC_API_KEY is not set", file=sys.stderr)
+    if not config.api_key():
+        want = "GOOGLE_API_KEY" if config.provider() == "gemini" else "ANTHROPIC_API_KEY"
+        print(
+            f"No API key found. Provider is '{config.provider()}', so add {want} "
+            "to your repository secrets (Settings → Secrets and variables → Actions).",
+            file=sys.stderr,
+        )
         return 1
+
+    print(f"[setup] provider={config.provider()} model={config.model_name()}")
 
     brand = config.load_brand()
     system_prompt = config.load_system_prompt(brand)
