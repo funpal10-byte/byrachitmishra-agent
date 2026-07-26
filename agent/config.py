@@ -22,11 +22,39 @@ PUBLISHED_DIR = CONTENT_DIR / "published"
 
 # --- model + API settings, all overridable from workflow env -----------------
 
-MODEL = os.getenv("AGENT_MODEL", "claude-sonnet-5")
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "")
 
-# Web search tool version. `web_search_20250305` is the widely available
-# baseline; newer versions add filtering options you do not need here.
+# Which provider writes the posts. Leave LLM_PROVIDER unset and the agent
+# picks whichever key you have supplied — Gemini first, since that is the one
+# with a free tier. Set it explicitly to pin a choice.
+DEFAULT_MODELS = {
+    "gemini": "gemini-2.5-flash",     # on Google's free tier
+    "anthropic": "claude-sonnet-5",   # paid, better writing
+}
+
+
+def provider() -> str:
+    explicit = os.getenv("LLM_PROVIDER", "").strip().lower()
+    if explicit:
+        return explicit
+    if GOOGLE_API_KEY:
+        return "gemini"
+    return "anthropic"
+
+
+def api_key() -> str:
+    return GOOGLE_API_KEY if provider() == "gemini" else ANTHROPIC_API_KEY
+
+
+def model_name() -> str:
+    """AGENT_MODEL wins if set, otherwise the provider's sensible default."""
+    return os.getenv("AGENT_MODEL", "").strip() or DEFAULT_MODELS.get(provider(), "")
+
+
+# Anthropic's web search tool version. `web_search_20250305` is the widely
+# available baseline; newer versions add filtering you do not need here.
+# Ignored when running on Gemini, which uses Google Search grounding instead.
 WEB_SEARCH_TOOL = os.getenv("WEB_SEARCH_TOOL", "web_search_20250305")
 
 IG_API_VERSION = os.getenv("IG_API_VERSION", "v25.0")

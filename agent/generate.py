@@ -5,9 +5,7 @@ from __future__ import annotations
 import json
 import re
 
-import anthropic
-
-from . import config
+from . import llm
 from .schema import POST_SCHEMA, check_voice, validate
 
 
@@ -61,8 +59,6 @@ def generate_post(
     brief: str,
     recent_titles: list[str],
 ) -> dict:
-    client = anthropic.Anthropic(api_key=config.ANTHROPIC_API_KEY)
-
     user = USER_TEMPLATE.format(
         pillar_name=pillar.name,
         fmt=fmt,
@@ -82,13 +78,7 @@ def generate_post(
     # a hard limit. Cheaper and more reliable than trying to get it perfect
     # in one shot, and it means overflowing slides never reach the renderer.
     for attempt in range(3):
-        resp = client.messages.create(
-            model=config.MODEL,
-            max_tokens=6000,
-            system=system_prompt,
-            messages=messages,
-        )
-        raw = "".join(b.text for b in resp.content if getattr(b, "type", None) == "text")
+        raw = llm.generate(system=system_prompt, messages=messages, max_tokens=6000)
         post = _extract_json(raw)
         post.setdefault("pillar", pillar.id)
         post.setdefault("format", fmt)

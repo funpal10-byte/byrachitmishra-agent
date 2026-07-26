@@ -42,8 +42,14 @@ jobs:
       - name: Generate batch
         id: batch
         env:
+          # Supply whichever key you have. With only GOOGLE_API_KEY set the
+          # agent runs on Gemini's free tier; with only ANTHROPIC_API_KEY it
+          # runs on Claude. Set the LLM_PROVIDER variable to pin a choice when
+          # you have both.
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          AGENT_MODEL: ${{ vars.AGENT_MODEL || 'claude-sonnet-5' }}
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
+          AGENT_MODEL: ${{ vars.AGENT_MODEL }}
         run: python -m agent.run_batch
 
       - name: Open review pull request

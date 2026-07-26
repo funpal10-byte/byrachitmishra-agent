@@ -58,15 +58,25 @@ is only needed if you want it to publish for you.
 
    Or create it in the GitHub web UI and push this folder to it.
 
-2. **Add your Anthropic API key.**
+2. **Add an API key — free or paid, your choice.**
 
-   Get one at [console.anthropic.com](https://console.anthropic.com). Then in
-   your repo: **Settings → Secrets and variables → Actions → New repository
-   secret**.
+   The agent runs on either Google Gemini or Anthropic Claude. Supply one key
+   and it works out which to use. Add it under **Settings → Secrets and
+   variables → Actions → New repository secret**.
 
-   | Name | Value |
-   |---|---|
-   | `ANTHROPIC_API_KEY` | `sk-ant-...` |
+   | If you want | Get a key from | Secret name |
+   |---|---|---|
+   | **Free** — no card, good enough to start | [aistudio.google.com/apikey](https://aistudio.google.com/apikey) | `GOOGLE_API_KEY` |
+   | **Paid** — noticeably better writing, ~$3/month | [console.anthropic.com](https://console.anthropic.com) | `ANTHROPIC_API_KEY` |
+
+   Two things to know about the free tier: Google's limits are far above what
+   this uses (five posts a week is nothing against a 1,500-requests-a-day
+   allowance), but Google may use free-tier prompts to improve their models.
+   For public Instagram drafts that is probably fine. Decide for yourself.
+
+   **Switching later takes one minute and no code changes.** Add the other
+   key as a second secret, then set the `LLM_PROVIDER` repository *variable*
+   to `gemini` or `anthropic` to pick between them.
 
 3. **Run it once by hand.**
 
@@ -182,12 +192,15 @@ folder as `reel.mp4` and the publisher will pick it up.
 | Item | Cost |
 |---|---|
 | GitHub Actions | Free — public repos get unlimited minutes |
-| Anthropic API | Roughly $1.50–4 a month at five posts a week on Sonnet |
-| Web search (billed through the Anthropic API) | ~$0.08 a month at 8 searches a week |
+| Gemini free tier | ₹0 |
+| Anthropic API, if you switch | Roughly $1.50–4 a month at five posts a week |
 | Instagram API | Free |
 
-To spend more for better writing, set the `AGENT_MODEL` repository variable to
-a larger model. It is the one knob that most changes output quality.
+Two quality knobs, in order of impact. First, `brand/brand.yml` — the
+positioning sentence and the banned-phrases list do more for how the writing
+sounds than any model change. Fix that before anything else. Second,
+`AGENT_MODEL`, a repository variable that overrides the default model for
+whichever provider you're on.
 
 ---
 
@@ -235,7 +248,8 @@ a dry run says so on its first line.
 ```
 agent/
   config.py       loads brand.yml, holds every env-var setting
-  research.py     weekly signal brief via Claude's web search
+  llm.py          the provider switch — Gemini or Claude, one interface
+  research.py     weekly signal brief, using the provider's own web search
   generate.py     brief + pillar → a finished post, with self-correction
   schema.py       the post contract, length limits, and the voice checker
   render.py       HTML → 1080×1350 JPEG slides via headless Chromium

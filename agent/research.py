@@ -1,17 +1,16 @@
 """Weekly research pass.
 
-Uses Claude's server-side web search so the whole agent needs exactly one API
-key. Produces a short "signal brief" — what actually happened this week that is
-worth a post — which is then handed to the generator.
+Uses whichever provider is configured, with its own server-side web search —
+Claude's web_search tool, or Gemini's Google Search grounding. Either way the
+agent needs exactly one API key. Produces a short "signal brief" of what
+actually happened this week, which is then handed to the generator.
 """
 
 from __future__ import annotations
 
 import datetime as dt
 
-import anthropic
-
-from . import config
+from . import llm
 
 
 BRIEF_PROMPT = """You are researching for a brand-strategy and marketing Instagram page.
@@ -44,7 +43,6 @@ Rules:
 
 def weekly_brief(brand) -> str:
     """Return a plain-text brief of this week's signals, with sources."""
-    client = anthropic.Anthropic(api_key=config.ANTHROPIC_API_KEY)
     rc = brand.research
     a = brand.raw["audience"]
 
@@ -55,18 +53,9 @@ def weekly_brief(brand) -> str:
         avoid=", ".join(rc.get("avoid_topics", [])) or "none",
     )
 
-    resp = client.messages.create(
-        model=config.MODEL,
-        max_tokens=4000,
+    return llm.generate(
+        system="",
         messages=[{"role": "user", "content": prompt}],
-        tools=[
-            {
-                "type": config.WEB_SEARCH_TOOL,
-                "name": "web_search",
-                "max_uses": rc.get("max_searches", 8),
-            }
-        ],
-    )
-
-    parts = [b.text for b in resp.content if getattr(b, "type", None) == "text"]
-    return "\n".join(parts).strip()
+        max_tokens=4000,
+        web_search=rc.get("max_searches", 8),
+    ).strip()
