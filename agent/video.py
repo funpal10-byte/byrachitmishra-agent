@@ -24,7 +24,7 @@ from pathlib import Path
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from playwright.sync_api import sync_playwright
 
-from . import config
+from . import assets, config
 
 W, H, FPS = 1080, 1920, 30
 MIN_BEAT, MAX_BEAT = 2.2, 7.0
@@ -96,10 +96,29 @@ def _background_prompt(post: dict, brand) -> str:
     )
 
 
+def choose_background(post: dict, brand, out_dir: Path, index: int = 0) -> Path | None:
+    """Background for the Reel, in order of preference.
+
+    1. A photo you put in images/ — free, consistent, and the only option that
+       works on a free Gemini key.
+    2. A Gemini-generated image, if image generation is available to you.
+    3. Nothing, and the template draws a designed gradient instead.
+    """
+    local = assets.pick_image(post.get("pillar", ""), index)
+    if local:
+        print(f"[video] background: {local.name}")
+        return local
+    return generate_background(post, brand, out_dir)
+
+
 def generate_background(post: dict, brand, out_dir: Path) -> Path | None:
     """One AI background per Reel. Returns None on any failure — the template
     falls back to a designed gradient, which looks intentional rather than
-    broken."""
+    broken.
+
+    Note that Gemini image generation is a paid-tier feature, so on a free key
+    this always returns None. That is expected, not a fault.
+    """
     if not AI_BACKGROUNDS or config.provider() != "gemini" or not config.GOOGLE_API_KEY:
         return None
 
@@ -165,9 +184,6 @@ def generate_background(post: dict, brand, out_dir: Path) -> Path | None:
 #  What is possible is an original or properly-licensed bed mixed into the
 #  video, which is what happens below.
 
-MUSIC_DIR = config.ROOT / "music"
-AUDIO_EXTS = (".mp3", ".m4a", ".aac", ".wav", ".ogg")
-
 # Lyria is Google's music model. It writes original instrumental music, so
 # there is no licensing question at all — but it is a paid-tier feature, so
 # this stays off unless you ask for it.
@@ -214,22 +230,8 @@ def generate_music(post: dict, brand, out_dir: Path, seconds: float) -> Path | N
 
 
 def pick_music(post: dict, brand, index: int = 0) -> Path | None:
-    """Choose a track from the repo's music/ folder.
-
-    Tracks are matched by pillar when a file name contains the pillar id,
-    otherwise anything in the folder is fair game. Selection rotates by index
-    so consecutive Reels do not use the same bed.
-    """
-    if not MUSIC_DIR.exists():
-        return None
-    tracks = sorted(p for p in MUSIC_DIR.iterdir() if p.suffix.lower() in AUDIO_EXTS)
-    if not tracks:
-        return None
-
-    pillar = post.get("pillar", "")
-    matching = [p for p in tracks if pillar and pillar in p.stem.lower()]
-    pool = matching or tracks
-    return pool[index % len(pool)]
+    """A track from the repo's music/ folder, chosen by pillar."""
+    return assets.pick_music(post.get("pillar", ""), index)
 
 
 # --------------------------------------------------------------------------
@@ -410,7 +412,7 @@ def build_reel(post: dict, brand, folder: Path, index: int = 0) -> Path | None:
     work = folder / ".frames"
     work.mkdir(parents=True, exist_ok=True)
     try:
-        bg = generate_background(post, brand, work)
+        bg = choose_background(post, brand, work, index)
         cards = render_cards(post, brand, work, bg)
         if not cards:
             return None

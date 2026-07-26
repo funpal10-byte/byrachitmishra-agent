@@ -62,6 +62,8 @@ jobs:
           # instead of spending image-generation quota.
           BUILD_REELS: ${{ vars.BUILD_REELS }}
           REEL_AI_BACKGROUNDS: ${{ vars.REEL_AI_BACKGROUNDS }}
+          # Set to "true" to put a photo from images/ behind carousel hook slides.
+          SLIDE_PHOTO_HOOK: ${{ vars.SLIDE_PHOTO_HOOK }}
         run: python -m agent.run_batch
 
       - name: Open review pull request

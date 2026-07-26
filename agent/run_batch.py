@@ -169,7 +169,8 @@ def main() -> int:
     seen = recent_titles()
     summary: list[str] = []
     failures: list[str] = []
-    reel_count = 0  # rotates the music bed so two Reels don't share a track
+    reel_count = 0      # rotates music/background so two Reels differ
+    carousel_count = 0  # same idea for carousel hook photos
 
     for slot in brand.slots:
         pillar = pillars.get(slot["pillar"])
@@ -204,7 +205,8 @@ def main() -> int:
         images: list[Path] = []
         try:
             if post.get("format") == "carousel":
-                images = render.render_carousel(post, brand, folder)
+                images = render.render_carousel(post, brand, folder, index=carousel_count)
+                carousel_count += 1
             elif post.get("format") == "reel":
                 cover = render.render_reel_cover(post, brand, folder)
                 images = [cover] if cover else []

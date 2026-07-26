@@ -26,7 +26,27 @@
   }
 
   /* ---- hook slide: dark, oversized, no body copy ---- */
-  .slide.hook{ background:{{ d.bg_alt }}; color:#fff; justify-content:center }
+  .slide.hook{ background:{{ d.bg_alt }}; color:#fff; justify-content:center; position:relative }
+  {% if bg_image %}
+  /* A photo from images/ behind the hook slide, under a scrim heavy enough
+     that the headline stays readable at thumbnail size in the grid. */
+  .slide.hook:before{
+    content:"";position:absolute;inset:0;
+    background-image:url('{{ bg_image }}');background-size:cover;background-position:center;
+  }
+  .slide.hook:after{
+    content:"";position:absolute;inset:0;
+    background:linear-gradient(180deg, rgba(10,11,13,.50) 0%, rgba(10,11,13,.74) 100%);
+  }
+  /* Lift the content above the pseudo-elements. Targeted at the static
+     children only — a blanket `> *` rule would override the absolute
+     positioning on .foot and .swipe and drop them on top of the headline. */
+  .slide.hook .accentbar,
+  .slide.hook .pillar,
+  .slide.hook .headline{ position:relative; z-index:1 }
+  .slide.hook .foot,
+  .slide.hook .swipe{ z-index:2 }
+  {% endif %}
   .slide.hook .headline{ font-size:86px;line-height:1.08;letter-spacing:-.03em;font-weight:700 }
   .slide.hook .accentbar{
     width:120px;height:10px;border-radius:99px;background:{{ d.accent }};margin-bottom:52px;

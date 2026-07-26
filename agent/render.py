@@ -7,12 +7,13 @@ which is already installed in the GitHub Actions runner image.
 
 from __future__ import annotations
 
+import os
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from playwright.sync_api import sync_playwright
 
-from . import config
+from . import assets, config
 
 
 def _await_fonts(page) -> None:
@@ -39,11 +40,18 @@ def _slide_kind(i: int, total: int) -> str:
     return "body"
 
 
-def render_carousel(post: dict, brand, out_dir: Path) -> list[Path]:
+# Photos behind carousel hook slides are opt-in: the typographic look is
+# deliberate, and a grid of photo covers is a different design decision.
+PHOTO_HOOK = (os.getenv("SLIDE_PHOTO_HOOK") or "false").lower() == "true"
+
+
+def render_carousel(post: dict, brand, out_dir: Path, index: int = 0) -> list[Path]:
     """Write one JPEG per slide. Returns the paths in order."""
     slides = post.get("slides") or []
     if not slides:
         return []
+
+    hook_bg = assets.pick_image(post.get("pillar", ""), index) if PHOTO_HOOK else None
 
     d = brand.design
     tpl = _env().get_template("slide.html")
@@ -66,6 +74,7 @@ def render_carousel(post: dict, brand, out_dir: Path) -> list[Path]:
                 pillar=pillar_name.name if pillar_name else "",
                 index=i + 1,
                 total=len(slides),
+                bg_image=(hook_bg.resolve().as_uri() if hook_bg and i == 0 else ""),
                 d=d,
                 W=d["slide_width"],
                 H=d["slide_height"],
