@@ -151,6 +151,88 @@ def generate_background(post: dict, brand, out_dir: Path) -> Path | None:
 
 
 # --------------------------------------------------------------------------
+#  Music
+# --------------------------------------------------------------------------
+#
+#  Worth being clear about what is and is not possible here.
+#
+#  Instagram's trending audio CANNOT be attached to a Reel published through
+#  the API. Not a limitation of this code — the API has no mechanism for it.
+#  Audio has to be baked into the file before upload. So an automated Reel
+#  never gets the discovery lift that trending sounds provide. If a particular
+#  Reel needs that lift, post that one by hand from the app.
+#
+#  What is possible is an original or properly-licensed bed mixed into the
+#  video, which is what happens below.
+
+MUSIC_DIR = config.ROOT / "music"
+AUDIO_EXTS = (".mp3", ".m4a", ".aac", ".wav", ".ogg")
+
+# Lyria is Google's music model. It writes original instrumental music, so
+# there is no licensing question at all — but it is a paid-tier feature, so
+# this stays off unless you ask for it.
+AI_MUSIC = (os.getenv("REEL_AI_MUSIC") or "false").lower() == "true"
+MUSIC_MODELS = ("lyria-3-clip-preview", "lyria-3-pro-preview")
+
+
+def _mood_for(post: dict, brand) -> str:
+    moods = (brand.raw.get("music") or {}).get("moods") or {}
+    return moods.get(post.get("pillar", ""), "calm, minimal, modern")
+
+
+def generate_music(post: dict, brand, out_dir: Path, seconds: float) -> Path | None:
+    """Original instrumental via Lyria. Returns None if unavailable."""
+    if not AI_MUSIC or config.provider() != "gemini" or not config.GOOGLE_API_KEY:
+        return None
+    try:
+        from google import genai
+
+        client = genai.Client(api_key=config.GOOGLE_API_KEY)
+        prompt = (
+            f"An instrumental background bed for a short business video about "
+            f"{post.get('primary_keyword') or 'brand strategy'}. "
+            f"Mood: {_mood_for(post, brand)}. "
+            "Restrained, modern, no vocals, no lyrics, steady pulse, nothing "
+            "attention-grabbing — it sits underneath spoken-word-style text. "
+            f"About {int(max(30, seconds))} seconds."
+        )
+        for model in MUSIC_MODELS:
+            try:
+                resp = client.models.generate_content(model=model, contents=prompt)
+                for part in getattr(resp, "parts", None) or []:
+                    blob = getattr(part, "inline_data", None)
+                    if blob and getattr(blob, "data", None):
+                        path = out_dir / "bed.mp3"
+                        path.write_bytes(blob.data)
+                        print(f"[video] music generated with {model}")
+                        return path
+            except Exception as exc:
+                print(f"[video] {model} unavailable: {str(exc)[:130]}")
+    except Exception as exc:
+        print(f"[video] music generation unavailable: {str(exc)[:130]}")
+    return None
+
+
+def pick_music(post: dict, brand, index: int = 0) -> Path | None:
+    """Choose a track from the repo's music/ folder.
+
+    Tracks are matched by pillar when a file name contains the pillar id,
+    otherwise anything in the folder is fair game. Selection rotates by index
+    so consecutive Reels do not use the same bed.
+    """
+    if not MUSIC_DIR.exists():
+        return None
+    tracks = sorted(p for p in MUSIC_DIR.iterdir() if p.suffix.lower() in AUDIO_EXTS)
+    if not tracks:
+        return None
+
+    pillar = post.get("pillar", "")
+    matching = [p for p in tracks if pillar and pillar in p.stem.lower()]
+    pool = matching or tracks
+    return pool[index % len(pool)]
+
+
+# --------------------------------------------------------------------------
 #  Cards
 # --------------------------------------------------------------------------
 
@@ -223,21 +305,32 @@ def _run(cmd: list[str]) -> None:
         raise VideoError(f"ffmpeg failed:\n{tail}")
 
 
-def assemble(cards: list[Path], durations: list[float], out_file: Path) -> Path:
-    """Ken Burns push on each card, hard cuts between them, silent AAC track.
+def assemble(
+    cards: list[Path],
+    durations: list[float],
+    out_file: Path,
+    music: Path | None = None,
+) -> Path:
+    """Slow pan on each card, hard cuts between them, music bed underneath.
 
-    Instagram is happier with a video that carries an audio stream even when
-    that stream is silence, so one is added rather than shipping video-only.
+    Instagram wants an audio stream even when there is nothing to hear, so a
+    silent one is added when no music is available rather than shipping a
+    video-only file.
     """
     if not shutil.which("ffmpeg"):
         raise VideoError("ffmpeg is not installed on this machine")
+
+    total = sum(durations)
 
     cmd: list[str] = ["ffmpeg", "-y", "-hide_banner", "-loglevel", "error"]
     for card, dur in zip(cards, durations):
         cmd += ["-loop", "1", "-t", f"{dur:.3f}", "-r", str(FPS), "-i", str(card)]
 
-    # Silent audio bed, trimmed to the video length by -shortest.
-    cmd += ["-f", "lavfi", "-i", "anullsrc=channel_layout=stereo:sample_rate=44100"]
+    if music:
+        # Loop the bed in case the track is shorter than the Reel.
+        cmd += ["-stream_loop", "-1", "-i", str(music)]
+    else:
+        cmd += ["-f", "lavfi", "-i", "anullsrc=channel_layout=stereo:sample_rate=44100"]
 
     # Motion is a slow pan across a slightly oversized frame. The obvious tool
     # is zoompan, but it rescales the source on every single frame and takes
@@ -260,16 +353,30 @@ def assemble(cards: list[Path], durations: list[float], out_file: Path) -> Path:
     joined = "".join(f"[v{i}]" for i in range(len(cards)))
     filters.append(f"{joined}concat=n={len(cards)}:v=1:a=0[cat]")
     # A short fade at each end stops the Reel starting and ending abruptly.
-    total = sum(durations)
     filters.append(f"[cat]fade=t=in:st=0:d=0.35,fade=t=out:st={max(0, total - 0.45):.3f}:d=0.45[outv]")
+
+    audio_idx = len(cards)
+    if music:
+        filters.append(
+            f"[{audio_idx}:a]atrim=0:{total:.3f},asetpts=N/SR/TB,"
+            # Normalise so a quiet track and a loud one land in the same place.
+            # -15 LUFS rather than a timid background level: there is no
+            # voiceover here, so the music is the entire audio experience and
+            # should sit where social platforms expect it.
+            f"aformat=channel_layouts=stereo,loudnorm=I=-15:TP=-1.5:LRA=11,"
+            f"afade=t=in:st=0:d=1.0,afade=t=out:st={max(0, total - 2.0):.3f}:d=2.0[aout]"
+        )
+        audio_map = "[aout]"
+    else:
+        audio_map = f"{audio_idx}:a"
 
     cmd += [
         "-filter_complex", ";".join(filters),
         "-map", "[outv]",
-        "-map", f"{len(cards)}:a",
+        "-map", audio_map,
         "-c:v", "libx264", "-profile:v", "high", "-preset", "veryfast", "-crf", "21",
         "-pix_fmt", "yuv420p", "-r", str(FPS), "-g", str(FPS * 2),
-        "-c:a", "aac", "-b:a", "128k", "-ar", "44100",
+        "-c:a", "aac", "-b:a", "128k", "-ar", "44100", "-ac", "2",
         "-movflags", "+faststart", "-shortest",
         str(out_file),
     ]
@@ -292,7 +399,7 @@ def should_generate(folder: Path) -> bool:
     return False
 
 
-def build_reel(post: dict, brand, folder: Path) -> Path | None:
+def build_reel(post: dict, brand, folder: Path, index: int = 0) -> Path | None:
     """Full pipeline. Returns the MP4 path, or None if it could not be built."""
     beats = post.get("reel_script") or []
     if not beats:
@@ -308,8 +415,19 @@ def build_reel(post: dict, brand, folder: Path) -> Path | None:
         if not cards:
             return None
         durations = beat_durations(beats)[: len(cards)]
+
+        # A track you supplied beats one Lyria generates, because a consistent
+        # bed across Reels is worth more than novelty in each one.
+        music = pick_music(post, brand, index) or generate_music(
+            post, brand, work, sum(durations)
+        )
+        if music:
+            print(f"[video] music: {music.name}")
+        else:
+            print("[video] no music available — publishing silent")
+
         out = folder / "reel.mp4"
-        assemble(cards, durations, out)
+        assemble(cards, durations, out, music)
         (folder / ".generated-reel").write_text("generated by agent/video.py\n", encoding="utf-8")
         size_mb = out.stat().st_size / 1_000_000
         print(f"[video] {folder.name}: {sum(durations):.1f}s, {size_mb:.1f} MB")

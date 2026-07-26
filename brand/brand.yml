@@ -167,6 +167,19 @@ design:
   slide_height: 1350   # 4:5, the tallest ratio Instagram shows in feed
 
 # ---------------------------------------------------------------------------
+#  Music beds for generated Reels. Drop tracks into music/ and they get
+#  mixed in automatically — see music/README.md for licensing.
+#  These moods are only used when generating original music with Lyria.
+# ---------------------------------------------------------------------------
+music:
+  moods:
+    brand_strategy: "considered, warm, unhurried, analogue textures"
+    ai_marketing: "forward-leaning, clean electronic pulse, optimistic"
+    behind_the_brands: "documentary, curious, light rhythmic momentum"
+    leadership: "steady, grounded, quietly confident"
+    photography_travel: "spacious, atmospheric, reflective"
+
+# ---------------------------------------------------------------------------
 #  Research. Sources the agent scans each week for signals worth writing
 #  about. Add or remove freely.
 # ---------------------------------------------------------------------------

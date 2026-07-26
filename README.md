@@ -190,6 +190,15 @@ Two repository variables control this: `BUILD_REELS=false` for scripts only,
 and `REEL_AI_BACKGROUNDS=false` to use designed gradients instead of spending
 image-generation quota.
 
+**Music.** Drop instrumental tracks into `music/` and one gets mixed under
+every generated Reel, normalised and faded automatically. `music/README.md`
+covers selection and — more importantly — licensing. Two things to know before
+you plan around it: **Instagram's trending audio cannot be attached to a Reel
+published through the API**, so an automated Reel never gets that discovery
+lift, and **Gemini's image and music generation are paid-tier features**, so on
+a free key backgrounds fall back to designed gradients and Reels publish silent
+unless you supply your own tracks.
+
 **Photography stays yours.** The `photography_travel` pillar is marked
 `automate: false` and the agent skips it entirely.
 

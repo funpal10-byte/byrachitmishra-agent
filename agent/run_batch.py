@@ -169,6 +169,7 @@ def main() -> int:
     seen = recent_titles()
     summary: list[str] = []
     failures: list[str] = []
+    reel_count = 0  # rotates the music bed so two Reels don't share a track
 
     for slot in brand.slots:
         pillar = pillars.get(slot["pillar"])
@@ -215,8 +216,9 @@ def main() -> int:
         # dropped into the folder is never overwritten.
         if post.get("format") == "reel" and BUILD_REELS:
             try:
-                if video.build_reel(post, brand, folder):
+                if video.build_reel(post, brand, folder, index=reel_count):
                     post["video"] = "reel.mp4"
+                reel_count += 1
             except Exception as exc:
                 print(f"[video] FAILED for {folder.name}: {type(exc).__name__}: {exc}", file=sys.stderr)
 
