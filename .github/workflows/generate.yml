@@ -1,0 +1,70 @@
+name: Draft the week
+
+# Sundays at 06:00 IST (00:30 UTC). Also runnable on demand from the Actions
+# tab, which is how you should test it the first time.
+on:
+  schedule:
+    - cron: "30 0 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      # Slides are typeset in Inter. Installing it locally means rendering
+      # never depends on Google Fonts being reachable at run time.
+      - name: Install Inter
+        run: |
+          mkdir -p ~/.fonts
+          curl -fsSL -o /tmp/inter.zip \
+            https://github.com/rsms/inter/releases/download/v4.0/Inter-4.0.zip
+          unzip -oq /tmp/inter.zip -d /tmp/inter
+          find /tmp/inter -name "*.ttf" -exec cp {} ~/.fonts/ \;
+          fc-cache -f
+          fc-list | grep -ci inter || echo "Inter not found — slides will use the fallback sans"
+
+      - name: Generate batch
+        id: batch
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          AGENT_MODEL: ${{ vars.AGENT_MODEL || 'claude-sonnet-5' }}
+        run: python -m agent.run_batch
+
+      - name: Open review pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: draft/week-${{ steps.batch.outputs.week }}
+          commit-message: "Draft: week of ${{ steps.batch.outputs.week }}"
+          title: "📅 Week of ${{ steps.batch.outputs.week }} — ${{ steps.batch.outputs.count }} posts ready"
+          body: |
+            This week's batch is drafted and rendered.
+
+            **To approve everything:** merge this pull request.
+            **To drop a post:** delete its folder from this branch, then merge.
+            **To reject the week:** close this pull request.
+
+            Start at [`${{ steps.batch.outputs.batch_dir }}/README.md`](${{ steps.batch.outputs.batch_dir }}/README.md).
+            Each post folder has a `POST.md` with the caption ready to copy and
+            the rendered slides sitting next to it.
+
+            Anything flagged ⚠️ tripped a length or voice check — read those first.
+          labels: |
+            content
+            needs-review
+          delete-branch: true

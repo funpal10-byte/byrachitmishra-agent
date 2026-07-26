@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  @page { margin:0 }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:{{ W }}px;height:{{ H }}px;overflow:hidden}
+  body{
+    /* `safe` matters: autoescaping would turn the quotes in the font stack
+       into entities and silently break the whole declaration. */
+    font-family:{{ d.font_stack | safe }};
+    background:{{ d.bg }};
+    color:{{ d.ink }};
+    -webkit-font-smoothing:antialiased;
+  }
+
+  .slide{
+    width:{{ W }}px;height:{{ H }}px;
+    padding:96px 88px 80px;
+    display:flex;flex-direction:column;
+    position:relative;
+  }
+
+  /* ---- hook slide: dark, oversized, no body copy ---- */
+  .slide.hook{ background:{{ d.bg_alt }}; color:#fff; justify-content:center }
+  .slide.hook .headline{ font-size:86px;line-height:1.08;letter-spacing:-.03em;font-weight:700 }
+  .slide.hook .accentbar{
+    width:120px;height:10px;border-radius:99px;background:{{ d.accent }};margin-bottom:52px;
+  }
+  .slide.hook .pillar{
+    font-size:26px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;
+    color:{{ d.accent }};margin-bottom:24px;
+  }
+
+  /* ---- cta slide: accent field ---- */
+  .slide.cta{ background:{{ d.accent }}; color:#fff; justify-content:center }
+  .slide.cta .headline{ font-size:72px;line-height:1.1;letter-spacing:-.025em;font-weight:700 }
+  .slide.cta .body{ font-size:38px;line-height:1.45;margin-top:36px;color:rgba(255,255,255,.9) }
+
+  /* ---- body slides ---- */
+  .kicker{
+    font-size:24px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;
+    color:{{ d.accent }};margin-bottom:28px;
+  }
+  .headline{ font-size:62px;line-height:1.14;letter-spacing:-.02em;font-weight:700 }
+  .body{
+    font-size:38px;line-height:1.5;color:{{ d.ink_soft }};margin-top:36px;max-width:26ch;
+  }
+  .slide.body-slide{ justify-content:center }
+  .slide.body-slide .rule{
+    width:100%;height:2px;background:{{ d.rule }};margin:44px 0 0;
+  }
+
+  /* ---- footer, on every slide ---- */
+  .foot{
+    position:absolute;left:88px;right:88px;bottom:56px;
+    display:flex;justify-content:space-between;align-items:center;
+    font-size:26px;font-weight:600;letter-spacing:.02em;
+  }
+  .slide.hook .foot,.slide.cta .foot{ color:rgba(255,255,255,.65) }
+  .slide.body-slide .foot{ color:#9aa0a6 }
+  .num{ font-variant-numeric:tabular-nums }
+
+  .swipe{
+    position:absolute;right:88px;bottom:150px;font-size:30px;font-weight:600;
+    color:rgba(255,255,255,.75);
+  }
+</style>
+</head>
+<body>
+  {% if kind == 'hook' %}
+  <div class="slide hook">
+    <div class="accentbar"></div>
+    {% if pillar %}<div class="pillar">{{ pillar }}</div>{% endif %}
+    <div class="headline">{{ headline }}</div>
+    <div class="swipe">swipe &rsaquo;</div>
+    <div class="foot"><span>{{ d.handle_mark }}</span><span class="num">{{ index }}/{{ total }}</span></div>
+  </div>
+
+  {% elif kind == 'cta' %}
+  <div class="slide cta">
+    <div class="headline">{{ headline }}</div>
+    {% if body %}<div class="body">{{ body }}</div>{% endif %}
+    <div class="foot"><span>{{ d.handle_mark }}</span><span class="num">{{ index }}/{{ total }}</span></div>
+  </div>
+
+  {% else %}
+  <div class="slide body-slide">
+    {% if kicker %}<div class="kicker">{{ kicker }}</div>{% endif %}
+    <div class="headline">{{ headline }}</div>
+    {% if body %}<div class="body">{{ body }}</div>{% endif %}
+    <div class="rule"></div>
+    <div class="foot"><span>{{ d.handle_mark }}</span><span class="num">{{ index }}/{{ total }}</span></div>
+  </div>
+  {% endif %}
+</body>
+</html>

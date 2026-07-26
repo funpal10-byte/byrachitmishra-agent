@@ -1,0 +1,57 @@
+name: Promote approved batch
+
+# Merging a draft pull request into main is the approval signal. This moves
+# the merged batch out of content/queue and into content/approved, where the
+# publisher will pick each post up when its scheduled time arrives.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "content/queue/**"
+
+permissions:
+  contents: write
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Move queue → approved
+        run: |
+          shopt -s nullglob
+          moved=0
+          for batch in content/queue/*/; do
+            name=$(basename "$batch")
+            mkdir -p "content/approved/$name"
+            cp -a "${batch}." "content/approved/$name/"
+            rm -rf "$batch"
+            echo "promoted $name"
+            moved=1
+          done
+          echo "MOVED=$moved" >> "$GITHUB_ENV"
+
+      - name: Mark posts approved
+        if: env.MOVED == '1'
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          for f in pathlib.Path("content/approved").rglob("post.json"):
+              p = json.loads(f.read_text(encoding="utf-8"))
+              if p.get("status") == "draft":
+                  p["status"] = "approved"
+                  f.write_text(json.dumps(p, indent=2, ensure_ascii=False), encoding="utf-8")
+                  print("approved", f.parent.name)
+          PY
+
+      - name: Commit
+        if: env.MOVED == '1'
+        run: |
+          git config user.name  "byrachitmishra-agent"
+          git config user.email "actions@github.com"
+          git add -A content
+          git diff --staged --quiet && exit 0
+          git commit -m "Approve batch — moved to content/approved"
+          git pull --rebase --autostash
+          git push

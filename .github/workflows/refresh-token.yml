@@ -1,0 +1,54 @@
+name: Refresh Instagram token
+
+# Instagram long-lived tokens expire after 60 days. This refreshes on the 1st
+# and 15th of every month and writes the new one straight back into the repo
+# secret, so the account never silently stops publishing.
+#
+# Needs a fine-grained personal access token stored as GH_PAT with
+# "Secrets: read and write" permission on this repository.
+on:
+  schedule:
+    - cron: "0 3 1,15 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: Refresh and rotate the secret
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -z "$IG_ACCESS_TOKEN" ]; then
+            echo "No IG_ACCESS_TOKEN set — nothing to refresh. Skipping."
+            exit 0
+          fi
+          NEW=$(python - <<'PY'
+          import os, sys, requests
+          r = requests.get(
+              "https://graph.instagram.com/refresh_access_token",
+              params={"grant_type": "ig_refresh_token",
+                      "access_token": os.environ["IG_ACCESS_TOKEN"]},
+              timeout=60,
+          )
+          r.raise_for_status()
+          d = r.json()
+          print(d["access_token"])
+          print(f"refreshed, valid for {int(d.get('expires_in', 0)) // 86400} days",
+                file=sys.stderr)
+          PY
+          )
+          gh secret set IG_ACCESS_TOKEN --body "$NEW"
+          echo "Token rotated."

@@ -1,0 +1,182 @@
+# ============================================================================
+#  brand.yml — the single source of truth for the agent.
+#  Everything about voice, pillars, and cadence lives here, not in the code.
+#  Edit this file when your positioning shifts. The agent reads it every run.
+# ============================================================================
+
+identity:
+  name: Rachit Mishra
+  handle: byrachitmishra
+  name_field: "Rachit Mishra | Brand Strategy"
+  positioning: >
+    I take apart how brands actually get built — the strategy, the decisions,
+    and the people behind them — while AI rewrites the whole craft.
+
+audience:
+  core: >
+    Brand and marketing managers, agency planners, and founders aged 25-40,
+    India-first, who own positioning but were never formally taught it.
+  adjacent: >
+    Senior marketers and marketing leaders working out what AI does to their
+    team, their budget, and their job.
+  market: India-first, globally readable. Timezone Asia/Kolkata.
+
+# ---------------------------------------------------------------------------
+#  Pillars. `weight` is the share of a 5-post week (must sum to 5).
+#  `keywords` feed both the research step and the caption keyword targeting.
+# ---------------------------------------------------------------------------
+pillars:
+  - id: brand_strategy
+    name: Brand Strategy
+    weight: 2
+    default_format: carousel
+    keywords:
+      - brand strategy
+      - brand positioning
+      - brand building
+      - brand identity
+      - marketing strategy
+    long_tail:
+      - how to build a brand strategy
+      - difference between branding and marketing
+      - brand positioning statement example
+      - when to rebrand
+      - brand strategy framework
+    hashtags: ["#brandstrategy", "#brandpositioning", "#marketingstrategy", "#brandbuilding", "#branding"]
+
+  - id: ai_marketing
+    name: AI in Marketing
+    weight: 1
+    default_format: reel
+    keywords:
+      - AI in marketing
+      - AI marketing tools
+      - AI for brands
+      - generative AI marketing
+    long_tail:
+      - AI tools for marketers
+      - how AI is changing marketing
+      - AI prompts for marketing
+      - will AI replace marketers
+    hashtags: ["#aimarketing", "#aiinmarketing", "#marketingai", "#futureofmarketing", "#martech"]
+
+  - id: behind_the_brands
+    name: Behind the Brands
+    weight: 1
+    default_format: reel
+    keywords:
+      - brand story
+      - marketing case study
+      - brand campaign
+      - advertising breakdown
+    long_tail:
+      - how this brand became famous
+      - brand case study India
+      - campaign breakdown
+      - why this ad worked
+    hashtags: ["#brandstory", "#marketingcasestudy", "#advertising", "#brandcampaign"]
+
+  - id: leadership
+    name: Leadership
+    weight: 1
+    default_format: carousel
+    keywords:
+      - marketing leadership
+      - leadership lessons
+      - career growth
+      - team management
+    long_tail:
+      - first time manager tips
+      - how to lead a marketing team
+      - marketing career advice
+      - giving feedback to your team
+    hashtags: ["#marketingleadership", "#leadershiplessons", "#careergrowth", "#teamculture", "#leadership"]
+
+  # Photography stays human. The agent never generates these — it only reminds
+  # you. Set weight to 0 and automate: false and it will be skipped entirely.
+  - id: photography_travel
+    name: Photography & Travel
+    weight: 0
+    automate: false
+    default_format: still
+    keywords: ["street photography", "travel photography", "India travel"]
+    long_tail: ["street photography India", "travel photography tips"]
+    hashtags: ["#streetphotography", "#travelphotography", "#indiatravel", "#photowalk"]
+
+# ---------------------------------------------------------------------------
+#  Voice. The banned list matters more than the positive instructions —
+#  it is what stops the output reading like every other marketing account.
+# ---------------------------------------------------------------------------
+voice:
+  description: >
+    Direct, specific, unhurried. Concrete examples and real numbers over
+    adjectives. Opinions stated plainly, not hedged. Short sentences carry
+    weight. Writes like a practitioner talking to a peer, not a coach
+    talking to a beginner.
+  banned_phrases:
+    - "game-changer"
+    - "in today's fast-paced world"
+    - "let's dive in"
+    - "unlock the power of"
+    - "the secret to"
+    - "revolutionize"
+    - "supercharge"
+    - "it's not just X, it's Y"
+    - "here's the thing"
+    - "buckle up"
+  banned_patterns:
+    - Opening with a rhetorical question
+    - Emoji used as bullet points
+    - More than one emoji per caption
+    - Em-dash-heavy sentence construction
+    - Claiming results without a number or a named example
+  must:
+    - Every post makes one specific claim, not a general observation
+    - Every claim is followed by either an example, a number, or a mechanism
+    - The POV line states what Rachit actually thinks, including when it is unfashionable
+
+# ---------------------------------------------------------------------------
+#  Schedule. Times are Asia/Kolkata. The batch generated on Sunday fills
+#  these slots for the week that follows.
+# ---------------------------------------------------------------------------
+schedule:
+  timezone: Asia/Kolkata
+  slots:
+    - { day: mon, time: "08:30", pillar: brand_strategy,    format: carousel }
+    - { day: tue, time: "19:00", pillar: ai_marketing,      format: reel }
+    - { day: wed, time: "20:00", pillar: behind_the_brands, format: reel }
+    - { day: thu, time: "09:30", pillar: leadership,        format: carousel }
+    - { day: sat, time: "10:30", pillar: brand_strategy,    format: carousel }
+
+# ---------------------------------------------------------------------------
+#  Visual system for rendered slides. Change these and every future
+#  carousel changes with them.
+# ---------------------------------------------------------------------------
+design:
+  bg: "#faf9f6"
+  bg_alt: "#14161a"
+  ink: "#14161a"
+  ink_soft: "#4b5158"
+  accent: "#7c3aed"
+  rule: "#e2ded7"
+  # Inter is installed by the workflow. The rest of the stack is a safety net
+  # so a font-install failure degrades to a clean sans rather than a serif.
+  font_stack: "'Inter', 'Inter Variable', 'Helvetica Neue', 'Liberation Sans', 'DejaVu Sans', Arial, sans-serif"
+  handle_mark: "@byrachitmishra"
+  slide_width: 1080
+  slide_height: 1350   # 4:5, the tallest ratio Instagram shows in feed
+
+# ---------------------------------------------------------------------------
+#  Research. Sources the agent scans each week for signals worth writing
+#  about. Add or remove freely.
+# ---------------------------------------------------------------------------
+research:
+  max_searches: 8
+  queries:
+    - "brand positioning news this week"
+    - "AI marketing tools launched this month"
+    - "Indian brand campaign launch this week"
+    - "marketing leadership research report"
+  avoid_topics:
+    - politics
+    - anything requiring a claim about a living person's private conduct
