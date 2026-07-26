@@ -51,7 +51,7 @@
   "cta": "Send this to a team lead who spends too many hours in creative reviews.",
   "failure_mode": "The post could read like generic management advice if the slides do not clearly distinguish between taste edits and strategic constraints.",
   "scheduled_for": "2026-07-30T09:30:00+05:30",
-  "status": "draft",
+  "status": "approved",
   "images": [
     "content/queue/2026-07-27/thu-givingfeedbackframework/slide-01.jpg",
     "content/queue/2026-07-27/thu-givingfeedbackframework/slide-02.jpg",
