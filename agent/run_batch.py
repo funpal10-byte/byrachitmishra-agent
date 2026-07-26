@@ -157,6 +157,7 @@ def main() -> int:
 
     seen = recent_titles()
     summary: list[str] = []
+    failures: list[str] = []
 
     for slot in brand.slots:
         pillar = pillars.get(slot["pillar"])
@@ -172,7 +173,8 @@ def main() -> int:
                 brand, system_prompt, pillar, slot["format"], when, brief, seen
             )
         except Exception as exc:
-            print(f"[write] FAILED for {pillar.name}: {exc}", file=sys.stderr)
+            failures.append(f"{pillar.name}: {type(exc).__name__}: {exc}")
+            print(f"[write] FAILED for {pillar.name}: {type(exc).__name__}: {exc}", file=sys.stderr)
             continue
 
         scheduled = dt.datetime.combine(
@@ -234,6 +236,20 @@ def main() -> int:
             fh.write(f"batch_dir={batch_dir.relative_to(config.ROOT).as_posix()}\n")
             fh.write(f"week={dates['mon']:%Y-%m-%d}\n")
             fh.write(f"count={len(summary)}\n")
+
+    # A run that writes nothing is a failed run, not a successful empty one.
+    # Failing here means the workflow goes red and you find out immediately,
+    # instead of getting a cheerful pull request containing no posts.
+    if not summary:
+        print("\n[FAILED] No posts were written. Reasons:", file=sys.stderr)
+        for f in failures or ["(no pillars were eligible — check brand.yml)"]:
+            print(f"  - {f}", file=sys.stderr)
+        return 1
+
+    if failures:
+        print(f"\n[warn] {len(failures)} of {len(summary) + len(failures)} posts failed:", file=sys.stderr)
+        for f in failures:
+            print(f"  - {f}", file=sys.stderr)
     return 0
 
 

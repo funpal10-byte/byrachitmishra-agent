@@ -75,31 +75,66 @@ def _gemini_generate(
     cfg: dict = {"max_output_tokens": max_tokens}
     if system:
         cfg["system_instruction"] = system
+
     if web_search:
         # Gemini has no per-call search budget the way Anthropic does; the
         # model decides how many searches to run.
         cfg["tools"] = [types.Tool(google_search=types.GoogleSearch())]
+    else:
+        # Structured output. Not combinable with the search tool, so it is
+        # only used on the generation calls, which is where it matters.
+        cfg["response_mime_type"] = "application/json"
 
-    resp = client.models.generate_content(
-        model=config.model_name(),
-        contents=contents,
-        config=types.GenerateContentConfig(**cfg),
-    )
+    # Gemini 2.5+ models think by default, and thinking tokens are billed
+    # against max_output_tokens. Left alone, the model can spend the entire
+    # budget reasoning and return an empty response. Switch it off: these are
+    # structured writing tasks, not puzzles.
+    thinking_off = dict(cfg, thinking_config=types.ThinkingConfig(thinking_budget=0))
 
-    text = getattr(resp, "text", None)
-    if text:
-        return text
+    def _call(conf: dict):
+        return client.models.generate_content(
+            model=config.model_name(),
+            contents=contents,
+            config=types.GenerateContentConfig(**conf),
+        )
 
-    # Fall back to walking the parts if .text is empty, which happens when the
-    # response is split across several parts by the grounding step.
+    try:
+        resp = _call(thinking_off)
+    except Exception as exc:
+        # Some models refuse to have thinking disabled. Fall back rather than
+        # dying, and give the budget more room so thinking cannot starve the
+        # actual answer.
+        if "thinking" not in str(exc).lower():
+            raise
+        resp = _call(dict(cfg, max_output_tokens=max_tokens * 3))
+
+    return _gemini_text(resp)
+
+
+def _gemini_text(resp) -> str:
+    """Pull the text out, and explain clearly when there isn't any."""
+    if getattr(resp, "text", None):
+        return resp.text
+
+    # .text can be empty when the response is split across parts by grounding.
     out: list[str] = []
+    finish = None
     for cand in getattr(resp, "candidates", None) or []:
+        finish = getattr(cand, "finish_reason", None) or finish
         for part in getattr(getattr(cand, "content", None), "parts", None) or []:
             if getattr(part, "text", None):
                 out.append(part.text)
-    if not out:
-        raise LLMError(f"Gemini returned no text. Full response: {resp}")
-    return "".join(out)
+    if out:
+        return "".join(out)
+
+    if finish and "MAX_TOKENS" in str(finish).upper():
+        raise LLMError(
+            "Gemini hit the output token limit before writing anything — usually "
+            "thinking tokens eating the budget. Raise max_tokens or switch model."
+        )
+    if finish and "SAFETY" in str(finish).upper():
+        raise LLMError("Gemini blocked the response on safety filters.")
+    raise LLMError(f"Gemini returned no text (finish_reason={finish}).")
 
 
 # --------------------------------------------------------------------------
