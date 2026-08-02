@@ -1,0 +1,76 @@
+{
+  "title": "indigo_positioning_operational_moat",
+  "pillar": "Behind the Brands",
+  "format": "reel",
+  "primary_keyword": "brand case study India",
+  "claim": "IndiGo built dominant market share in Indian aviation by turning operational predictability into its core brand asset rather than competing on price or customer delight.",
+  "hook": "This brand case study India shows how IndiGo captured 60% market share by ignoring customer delight.",
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "How IndiGo won 60% market share",
+      "voiceover": "Most airlines think passengers buy tickets on price. IndiGo proved they buy on predictability.",
+      "direction": "Rachit speaking directly to camera in a brightly lit studio."
+    },
+    {
+      "timecode": "0:03-0:08",
+      "onscreen": "Price is a weak moat",
+      "voiceover": "In 2006, legacy carriers fought over warm meals and loyalty perks. IndiGo removed all of it.",
+      "direction": "Text overlays beside Rachit as he gestures."
+    },
+    {
+      "timecode": "0:08-0:14",
+      "onscreen": "The 25-minute turnaround",
+      "voiceover": "They enforced a 25-minute ground turnaround. That kept aircraft flying 12 hours a day instead of 10.",
+      "direction": "Graphic showing aircraft turnaround comparison."
+    },
+    {
+      "timecode": "0:14-0:20",
+      "onscreen": "Eliminating friction",
+      "voiceover": "No hot meals meant lighter aircraft, lower fuel burn, and zero kitchen equipment failures on the tarmac.",
+      "direction": "Cut to Rachit emphasizing points with hand gestures."
+    },
+    {
+      "timecode": "0:20-0:26",
+      "onscreen": "Positioning punctuality",
+      "voiceover": "Instead of advertising comfort, every brand campaign focused on a single metric: on-time performance.",
+      "direction": "Split screen with historic IndiGo print ad graphic."
+    },
+    {
+      "timecode": "0:26-0:32",
+      "onscreen": "Consistency beats delight",
+      "voiceover": "When reliability is your core product, competitors offering cheap tickets cannot touch your margins.",
+      "direction": "Rachit back on full screen, speaking directly to camera."
+    },
+    {
+      "timecode": "0:32-0:38",
+      "onscreen": "Send this to your brand team",
+      "voiceover": "Forward this video to a brand manager who is trying to fix positioning with discounts.",
+      "direction": "Rachit points to the share icon."
+    }
+  ],
+  "caption": "This brand case study India shows how IndiGo captured 60% market share by ignoring customer delight.\n\nThey did not win on low fares or loyalty programs. They won by cutting every amenity that delayed departure times.\n\nBy locking down a 25-minute turnaround time, IndiGo achieved 12 hours of flight time per plane daily, compared to the 10-hour industry average. Removing hot meals reduced aircraft weight and eliminated kitchen maintenance delays. They put zero positioning budget into passenger comfort and focused entirely on on-time performance metrics.\n\nMarketing leaders often mistake delight for differentiation. Operational reliability creates a far stronger moat than subjective preference.\n\nForward this to a brand manager who is trying to fix positioning with discounts.",
+  "alt_text": "Rachit Mishra speaking directly to camera about airline marketing strategy and positioning.",
+  "hashtags": [
+    "#brandstory",
+    "#marketingcasestudy",
+    "#advertising",
+    "#brandcampaign",
+    "#positioning"
+  ],
+  "cta": "Forward this to a brand manager who is trying to fix positioning with discounts.",
+  "failure_mode": "The post risks reading like an airline operations case study rather than a brand strategy teardown if the link between operational constraints and positioning is not clear.",
+  "sources": [
+    {
+      "title": "CAPA India Fleet & Operational Efficiency Metrics",
+      "url": "https://capa.aero"
+    }
+  ],
+  "scheduled_for": "2026-08-05T20:00:00+05:30",
+  "status": "draft",
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-08-03/wed-indigo-positioning-operational-moat/reel-cover.jpg"
+  ],
+  "warnings": []
+}
