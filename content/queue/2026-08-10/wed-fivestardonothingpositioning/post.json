@@ -1,0 +1,82 @@
+{
+  "title": "fivestardonothingpositioning",
+  "pillar": "Behind the Brands",
+  "format": "reel",
+  "primary_keyword": "why this ad worked",
+  "claim": "Mondelez defended 5 Star against Snickers by turning a product constraint into a branded cultural state rather than faking a functional USP.",
+  "hook": "Here is why this ad worked when 5 Star was losing impulse market share to Snickers in India.",
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "Why this ad worked so well",
+      "voiceover": "Here is why this ad worked when 5 Star was facing aggressive competition from Snickers.",
+      "direction": "Rachit speaking directly to camera, neutral background."
+    },
+    {
+      "timecode": "0:03-0:08",
+      "onscreen": "The Snickers Threat",
+      "voiceover": "Snickers entered the Indian market with a clear functional promise: hunger satisfaction backed by nuts and nougat.",
+      "direction": "Cut to product category visual on screen."
+    },
+    {
+      "timecode": "0:08-0:14",
+      "onscreen": "5 Star had no feature USP",
+      "voiceover": "5 Star had caramel and chocolate. Changing the formulation to match Snickers would destroy unit economics and margin structure.",
+      "direction": "Back to Rachit on camera."
+    },
+    {
+      "timecode": "0:14-0:20",
+      "onscreen": "Flipping the product flaw",
+      "voiceover": "Instead of faking a functional benefit, Mondelez embraced the product truth. The chewy texture literally forces you to slow down.",
+      "direction": "Simple text graphic comparing Feature vs Behavioral Positioning."
+    },
+    {
+      "timecode": "0:20-0:26",
+      "onscreen": "Eat 5 Star, Do Nothing",
+      "voiceover": "They rebranded that physical chew into 'Eat 5 Star, Do Nothing', turning procrastination into a badge of honor for Gen Z.",
+      "direction": "Cut to 5 Star campaign static visual."
+    },
+    {
+      "timecode": "0:26-0:32",
+      "onscreen": "The Defensive Moat",
+      "voiceover": "It created a defensive moat. Snickers owned hunger, but 5 Star owned downtime without spending millions on product redesign.",
+      "direction": "Rachit on camera."
+    },
+    {
+      "timecode": "0:32-0:38",
+      "onscreen": "The Strategic Lesson",
+      "voiceover": "Positioning is not about inventing features you lack. It is about naming the behavioral state your product already causes.",
+      "direction": "Text overlay with key takeaway sentence."
+    },
+    {
+      "timecode": "0:38-0:42",
+      "onscreen": "Send this to your brand lead",
+      "voiceover": "Send this to a marketer who is trying to out-feature a competitor.",
+      "direction": "Rachit pointing toward screen, clear direct CTA."
+    }
+  ],
+  "caption": "Here is why this ad worked when 5 Star was losing impulse market share to Snickers in India.\n\nWhen a global competitor enters with a clear functional claim like hunger satisfaction, local incumbents usually panic and try to invent features. Mondelez did the opposite.\n\nSnickers had nuts and nougat. 5 Star had caramel. Formulations could not be altered without hurting margins. So Ogilvy looked at the actual physical usage of the product. The heavy caramel chew forces a pause—you cannot easily talk or multitask while eating it.\n\nThat physical constraint became the campaign: Eat 5 Star, Do Nothing. Instead of competing on nut count or calories, 5 Star claimed the emotional state of unbothered procrastination.\n\nPositioning is not about inventing features you do not have. It is about giving a name to the behavior your product already causes.\n\nSend this to a brand lead who is trying to out-feature a competitor instead of owning a consumer state.",
+  "alt_text": "Rachit Mishra explaining the marketing strategy behind 5 Star's Do Nothing ad campaign on video.",
+  "hashtags": [
+    "#whythisadworked",
+    "#brandstory",
+    "#marketingcasestudy",
+    "#brandcampaign",
+    "#advertising"
+  ],
+  "cta": "Send this to a brand lead who is trying to out-feature a competitor instead of owning a consumer state.",
+  "failure_mode": "It risks sounding like standard ad appreciation unless the focus stays tightly on the margin constraints and formulation limits that forced the strategy.",
+  "sources": [
+    {
+      "title": "E4M Ogilvy 5 Star Do Nothing Case Study",
+      "url": "https://www.exchange4media.com"
+    }
+  ],
+  "scheduled_for": "2026-08-12T20:00:00+05:30",
+  "status": "draft",
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-08-10/wed-fivestardonothingpositioning/reel-cover.jpg"
+  ],
+  "warnings": []
+}
