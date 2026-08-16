@@ -57,7 +57,7 @@
     }
   ],
   "scheduled_for": "2026-08-17T08:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "images": [
     "content/queue/2026-08-17/mon-zudio-brand-strategy-tradeoffs/slide-01.jpg",
     "content/queue/2026-08-17/mon-zudio-brand-strategy-tradeoffs/slide-02.jpg",
@@ -67,5 +67,7 @@
     "content/queue/2026-08-17/mon-zudio-brand-strategy-tradeoffs/slide-06.jpg",
     "content/queue/2026-08-17/mon-zudio-brand-strategy-tradeoffs/slide-07.jpg"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-08-16T20:25:22.981727+05:30",
+  "media_id": "18021292667887523"
 }
