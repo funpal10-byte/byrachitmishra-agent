@@ -1,0 +1,74 @@
+name: Reschedule old posts
+
+# Puts unpublished posts from the archive back into rotation on fresh dates.
+# Run it by hand from the Actions tab whenever you have a backlog worth using.
+#
+# Never touches anything already published.
+on:
+  workflow_dispatch:
+    inputs:
+      per_day:
+        description: "Posts per day (1-4). Two is a comfortable maximum."
+        type: choice
+        options: ["1", "2", "3", "4"]
+        default: "2"
+      start:
+        description: "First date, YYYY-MM-DD. Leave blank for tomorrow."
+        type: string
+        default: ""
+      limit:
+        description: "Only reschedule the N oldest. 0 for all."
+        type: string
+        default: "0"
+      include_approved:
+        description: "Also re-date posts still sitting in content/approved"
+        type: boolean
+        default: true
+      dry_run:
+        description: "Preview only — show the plan without moving anything"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+jobs:
+  reschedule:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+          ffmpeg -version >/dev/null 2>&1 || sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+
+      - name: Reschedule
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
+        run: |
+          python tools/reschedule.py \
+            --per-day "${{ inputs.per_day }}" \
+            --limit "${{ inputs.limit }}" \
+            ${{ inputs.start && format('--start {0}', inputs.start) || '' }} \
+            ${{ inputs.include_approved && '--include-approved' || '' }} \
+            ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: Commit
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.name  "byrachitmishra-agent"
+          git config user.email "actions@github.com"
+          git add -A content
+          git diff --staged --quiet && exit 0
+          git commit -m "Reschedule archived posts"
+          git pull --rebase --autostash
+          git push

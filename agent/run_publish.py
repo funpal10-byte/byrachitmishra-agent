@@ -111,7 +111,9 @@ def main() -> int:
         post["status"] = "skipped"
         post["skipped_reason"] = f"more than {STALE_AFTER_HOURS:g}h past its slot"
         f.write_text(json.dumps(post, indent=2, ensure_ascii=False), encoding="utf-8")
-        (f.parent / "reel.mp4").unlink(missing_ok=True)
+        # Keep the video: a skipped post has not been used, and tools/reschedule.py
+        # can put it back into rotation later. Only a published post's video
+        # gets deleted, since that one has served its purpose.
         archive(f.parent)
     if stale:
         print(f"[stale] retired {len(stale)} post(s) that missed their window")
