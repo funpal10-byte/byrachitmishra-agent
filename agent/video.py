@@ -261,6 +261,9 @@ def render_cards(post: dict, brand, out_dir: Path, bg: Path | None) -> list[Path
     )
     tpl = env.get_template("reel_card.html")
     pillar = brand.pillars.get(post.get("pillar", ""))
+    logo_uri = (
+        assets.data_uri(assets.logo("light")) if brand.design.get("show_logo", True) else ""
+    )
     out_dir.mkdir(parents=True, exist_ok=True)
     cards: list[Path] = []
 
@@ -274,8 +277,8 @@ def render_cards(post: dict, brand, out_dir: Path, bg: Path | None) -> list[Path
                 text=text,
                 size=_fit_size(text),
                 kicker=(pillar.name if pillar and i == 0 else ""),
-                # A file:// URL so Chromium can load the generated background.
-                bg_image=(bg.resolve().as_uri() if bg else ""),
+                bg_image=assets.data_uri(bg),
+                logo=logo_uri,
                 pct=round((i + 1) / len(beats) * 100),
                 d=brand.design,
             )

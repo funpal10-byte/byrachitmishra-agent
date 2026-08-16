@@ -275,6 +275,7 @@ agent/
   run_batch.py    Sunday entrypoint
   run_publish.py  hourly entrypoint
 brand/brand.yml   ← everything you'll actually want to edit
+brand/logo/       the RM lockup in three colourways
 prompts/system.md the strategist prompt, filled from brand.yml at run time
 templates/        the slide design
 tools/            preview.py (free design iteration), get_token.py (one-time)

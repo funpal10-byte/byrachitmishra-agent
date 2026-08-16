@@ -53,6 +53,14 @@ def render_carousel(post: dict, brand, out_dir: Path, index: int = 0) -> list[Pa
 
     hook_bg = assets.pick_image(post.get("pillar", ""), index) if PHOTO_HOOK else None
 
+    # Hook and CTA slides are dark, body slides are light, so each needs the
+    # opposite mark. Encoded once here rather than in the template.
+    show_logo = brand.design.get("show_logo", True)
+    marks = {
+        k: (assets.data_uri(assets.logo(k)) if show_logo else "")
+        for k in ("light", "dark", "white")
+    }
+
     d = brand.design
     tpl = _env().get_template("slide.html")
     pillar_name = brand.pillars.get(post.get("pillar", ""))
@@ -74,7 +82,8 @@ def render_carousel(post: dict, brand, out_dir: Path, index: int = 0) -> list[Pa
                 pillar=pillar_name.name if pillar_name else "",
                 index=i + 1,
                 total=len(slides),
-                bg_image=(hook_bg.resolve().as_uri() if hook_bg and i == 0 else ""),
+                bg_image=(assets.data_uri(hook_bg) if i == 0 else ""),
+                logo=marks[{"hook": "light", "cta": "white"}.get(_slide_kind(i, len(slides)), "dark")],
                 d=d,
                 W=d["slide_width"],
                 H=d["slide_height"],
@@ -114,6 +123,7 @@ def render_reel_cover(post: dict, brand, out_dir: Path) -> Path | None:
             pillar=pillar_name.name if pillar_name else "",
             index=1,
             total=1,
+            logo=(assets.data_uri(assets.logo("light")) if d.get("show_logo", True) else ""),
             d=d,
             W=1080,
             H=1920,

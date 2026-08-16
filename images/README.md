@@ -3,6 +3,16 @@
 Drop photos in this folder and the agent uses them behind generated Reels —
 and, if you switch it on, behind carousel hook slides.
 
+**Eight originals are already here**, generated in your brand palette by
+`tools/make_backgrounds.py`. They cost nothing, carry no licence, and change
+when your palette does. To get a different set:
+
+```
+python tools/make_backgrounds.py --seed 42
+```
+
+Add your own photos alongside them whenever you like — the two mix freely.
+
 This is the better option on a free Gemini key, because Gemini's image
 generation is a paid-tier feature. A folder of images you chose also gives the
 page a consistent look, which an AI generating a fresh image every week never

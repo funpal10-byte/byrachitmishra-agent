@@ -31,7 +31,7 @@
   {% endif %}
   .scrim{
     position:absolute;inset:0;
-    background:linear-gradient(180deg, rgba(10,11,13,.58) 0%, rgba(10,11,13,.34) 42%, rgba(10,11,13,.80) 100%);
+    background:linear-gradient(180deg, rgba(10,11,13,.50) 0%, rgba(10,11,13,.26) 42%, rgba(10,11,13,.76) 100%);
   }
 
   /* Safe area: Instagram's UI covers the top ~14% and bottom ~20% of a Reel,
@@ -58,8 +58,15 @@
   .progress i{display:block;height:100%;border-radius:99px;background:{{ d.accent }};width:{{ pct }}%}
 
   .handle{
-    position:absolute;left:96px;bottom:180px;
+    position:absolute;left:96px;bottom:172px;
     font-size:32px;font-weight:600;color:rgba(255,255,255,.62);letter-spacing:.02em;
+  }
+  /* Sits below the progress bar rather than through it: the bar is at 250px
+     and this mark is ~87px tall, which leaves a clear gap. */
+  img.logo{
+    position:absolute;left:96px;bottom:120px;
+    width:{{ d.logo_width | default(230) }}px;height:auto;
+    opacity:{{ d.logo_opacity | default(0.92) }};
   }
 </style>
 </head>
@@ -73,7 +80,7 @@
       <div class="line">{{ text }}</div>
     </div>
     <div class="progress"><i></i></div>
-    <div class="handle">{{ d.handle_mark }}</div>
+    {% if logo %}<img class="logo" src="{{ logo }}" alt="">{% else %}<div class="handle">{{ d.handle_mark }}</div>{% endif %}
   </div>
 </body>
 </html>

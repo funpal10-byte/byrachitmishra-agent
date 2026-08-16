@@ -163,6 +163,11 @@ design:
   # so a font-install failure degrades to a clean sans rather than a serif.
   font_stack: "'Inter', 'Inter Variable', 'Helvetica Neue', 'Liberation Sans', 'DejaVu Sans', Arial, sans-serif"
   handle_mark: "@byrachitmishra"
+  # Logo lockup, bottom-left of every slide and Reel card. Artwork lives in
+  # brand/logo/ — swap those two PNGs to change the mark everywhere.
+  show_logo: true
+  logo_width: 230      # px on a 1080-wide slide
+  logo_opacity: 0.92
   slide_width: 1080
   slide_height: 1350   # 4:5, the tallest ratio Instagram shows in feed
 
