@@ -10,6 +10,11 @@ on:
   schedule:
     - cron: "5 * * * *"
   workflow_dispatch:
+    inputs:
+      force:
+        description: "Publish now — ignore the schedule and post the oldest approved item immediately"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -43,6 +48,7 @@ jobs:
           # posts still go out rather than being retired unpublished.
           MAX_PUBLISH_PER_RUN: ${{ vars.MAX_PUBLISH_PER_RUN }}
           STALE_AFTER_HOURS: ${{ vars.STALE_AFTER_HOURS }}
+          FORCE_PUBLISH: ${{ inputs.force }}
         run: python -m agent.run_publish
 
       - name: Archive published posts

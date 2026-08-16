@@ -27,6 +27,12 @@ from . import config, publish
 MAX_PER_RUN = int(os.getenv("MAX_PUBLISH_PER_RUN") or 2)
 STALE_AFTER_HOURS = float(os.getenv("STALE_AFTER_HOURS") or 24)
 
+# Set by the "Publish now" option on the workflow. Ignores both the schedule
+# and the staleness rule and pushes the oldest approved post straight out.
+# The point is to test the Instagram connection on its own, without waiting
+# for a slot to come round.
+FORCE = (os.getenv("FORCE_PUBLISH") or "false").strip().lower() == "true"
+
 
 def due_posts(now: dt.datetime) -> tuple[list[Path], list[Path]]:
     """Return (ready to publish, too stale to bother).
@@ -48,6 +54,12 @@ def due_posts(now: dt.datetime) -> tuple[list[Path], list[Path]]:
             continue
         when = post.get("scheduled_for")
         if not when:
+            continue
+
+        if FORCE:
+            # Nothing is early and nothing is stale when you've asked for it
+            # by hand.
+            ready.append(f)
             continue
 
         scheduled = dt.datetime.fromisoformat(when)
@@ -86,6 +98,9 @@ def main() -> int:
         f"max_per_run={MAX_PER_RUN} stale_after={STALE_AFTER_HOURS:g}h"
     )
 
+    if FORCE:
+        print("[force] publishing the oldest approved post regardless of schedule")
+
     pending, stale = due_posts(now)
 
     # Retire anything that missed its window, so it never publishes late and
@@ -105,12 +120,13 @@ def main() -> int:
         print(f"[publish] nothing due as of {now:%Y-%m-%d %H:%M %Z}")
         return 0
 
-    if len(pending) > MAX_PER_RUN:
+    limit = 1 if FORCE else MAX_PER_RUN
+    if len(pending) > limit:
         print(
-            f"[publish] {len(pending)} due, publishing {MAX_PER_RUN} this run "
+            f"[publish] {len(pending)} due, publishing {limit} this run "
             f"and the rest on later runs — spacing them out deliberately"
         )
-        pending = pending[:MAX_PER_RUN]
+        pending = pending[:limit]
 
     if not config.PUBLISH_ENABLED:
         print("[publish] DRY RUN — PUBLISH_ENABLED is not true. Would publish:")
