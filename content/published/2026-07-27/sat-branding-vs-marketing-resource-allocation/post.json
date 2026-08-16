@@ -1,0 +1,65 @@
+{
+  "title": "branding_vs_marketing_resource_allocation",
+  "pillar": "Brand Strategy",
+  "format": "carousel",
+  "primary_keyword": "difference between branding and marketing",
+  "claim": "Companies fail at brand building because they treat branding as an expense of marketing instead of a constraint on how marketing is executed.",
+  "hook": "Knowing the difference between branding and marketing saves you from wasting half your annual budget.",
+  "slides": [
+    {
+      "headline": "Branding is not marketing"
+    },
+    {
+      "kicker": "The basic distinction",
+      "headline": "Marketing buys the attention that branding converts",
+      "body": "Marketing is the active acquisition of customers through paid ads, emails, and campaigns. Branding is the reason they do not hesitate to buy once they land on your page."
+    },
+    {
+      "kicker": "The measurement error",
+      "headline": "Stop measuring both with the same metrics",
+      "body": "Marketing lives in the weekly dashboard. Cost per acquisition and return on ad spend are its metrics. Branding lives in search volume, direct traffic, and customer retention over twelve months."
+    },
+    {
+      "kicker": "A real example",
+      "headline": "How Liquid Death built a hundred million dollar brand",
+      "body": "They sell water in a can. Their marketing budget buys media placements, but their brand strategy makes people wear their t-shirts for free. The brand made the product a badge."
+    },
+    {
+      "kicker": "The operational cost",
+      "headline": "When you have no brand your marketing costs double",
+      "body": "Without a clear brand, you pay rent to Google and Meta forever. Every single transaction requires a new paid click. Strong brands earn direct visits that cost zero rupees."
+    },
+    {
+      "kicker": "The implementation",
+      "headline": "Write down your non-negotiables today",
+      "body": "Branding is a filter. Define three things your company will never say and two things your product will never do. If your marketing team can publish anything, you do not have a brand."
+    },
+    {
+      "headline": "Share this with a growth marketer who needs it"
+    }
+  ],
+  "caption": "Knowing the difference between branding and marketing saves you from wasting half your annual budget.\n\nMost early-stage companies collapse these two functions into one single budget line. They hire a performance marketer and ask them to build the brand identity. This is a structural mistake.\n\nMarketing is an active, outward push. It is your ad spend, your cold emails, and your discount campaigns. It drives the transaction today.\n\nBranding is an inward pull. It is the deliberate choice of who you are for, what you price at, and what you refuse to do. It determines your margin tomorrow.\n\nThink of marketing as the fuel and branding as the engine. If you pour premium fuel into a broken engine, you do not go faster; you just waste money.\n\nWhen your brand strategy is clear, your customer acquisition cost drops because your audience already trusts the premise before they see the ad.\n\nSend this to a founder or growth marketer who is tired of rising acquisition costs.",
+  "alt_text": "Text-based slides explaining the structural difference between branding and marketing functions.",
+  "hashtags": [
+    "#brandstrategy",
+    "#brandpositioning",
+    "#marketingstrategy",
+    "#brandbuilding",
+    "#branding"
+  ],
+  "cta": "Send this to a founder or growth marketer who is tired of rising acquisition costs.",
+  "failure_mode": "The post could sound like abstract theory if the Liquid Death example does not ground the operational difference between paid acquisition and organic brand pull.",
+  "scheduled_for": "2026-08-01T10:30:00+05:30",
+  "status": "skipped",
+  "images": [
+    "content/queue/2026-07-27/sat-branding-vs-marketing-resource-allocation/slide-01.jpg",
+    "content/queue/2026-07-27/sat-branding-vs-marketing-resource-allocation/slide-02.jpg",
+    "content/queue/2026-07-27/sat-branding-vs-marketing-resource-allocation/slide-03.jpg",
+    "content/queue/2026-07-27/sat-branding-vs-marketing-resource-allocation/slide-04.jpg",
+    "content/queue/2026-07-27/sat-branding-vs-marketing-resource-allocation/slide-05.jpg",
+    "content/queue/2026-07-27/sat-branding-vs-marketing-resource-allocation/slide-06.jpg",
+    "content/queue/2026-07-27/sat-branding-vs-marketing-resource-allocation/slide-07.jpg"
+  ],
+  "warnings": [],
+  "skipped_reason": "more than 24h past its slot"
+}

@@ -1,0 +1,66 @@
+{
+  "title": "givingfeedbacktoteam",
+  "pillar": "Leadership",
+  "format": "carousel",
+  "primary_keyword": "giving feedback to your team",
+  "claim": "Creative revision loops happen because leaders critique subjective phrasing instead of defining business constraints.",
+  "hook": "When giving feedback to your team, changing words in draft three is usually a sign that your brief was incomplete.",
+  "slides": [
+    {
+      "headline": "Why your team keeps missing the brief"
+    },
+    {
+      "kicker": "The Bad Pattern",
+      "headline": "Adjectives are not actionable direction",
+      "body": "Telling copywriters to make it punchier or asking designers for more pop causes endless draft cycles. It critiques taste without defining the business problem."
+    },
+    {
+      "kicker": "The Root Cause",
+      "headline": "Subjective feedback hides missing strategy",
+      "body": "When you edit phrasing instead of positioning, you force the team to guess what you actually want. Redundant revision loops are usually unstated trade-offs."
+    },
+    {
+      "kicker": "The Fix",
+      "headline": "Critique the constraint, not the output",
+      "body": "Replace subjective notes with clear trade-offs. Specify who the asset must convert and what single idea must take priority over all other points."
+    },
+    {
+      "kicker": "The Framework",
+      "headline": "The three-part feedback audit",
+      "body": "Before sending notes, check three things: what assumption changed, what trade-off is required, and what metric defines success. Skip adjective tweaks entirely."
+    },
+    {
+      "kicker": "The Result",
+      "headline": "Fewer revisions and sharper output",
+      "body": "Clear constraints cut revision cycles from four rounds to two. Your team stops playing guessing games and starts solving the underlying brand problem."
+    },
+    {
+      "headline": "Send this to a manager in your team",
+      "body": "Save this framework for your next creative review, or send it to a team lead who is stuck in endless revision cycles."
+    }
+  ],
+  "caption": "When giving feedback to your team, changing words in draft three is usually a sign that your brief was incomplete.\n\nMost marketing leaders spend hours tweaking adjectives in copy and asking for more pop in visual layouts. This feels like editing, but it is actually guessing.\n\nWhen a review cycle takes four or five iterations, the problem is rarely execution quality. It is strategic ambiguity. Telling a writer to make copy punchier gives them nothing to build on. Telling them that the post must prioritize retention over acquisition changes every sentence they write.\n\nGood creative feedback names the trade-off. It defines what to sacrifice to make the message work.\n\nSubjective editing is lazy management disguised as attention to detail.\n\nSend this to a lead on your team who is managing agency partners or internal reviews this week.",
+  "alt_text": "A text carousel explaining how marketing leaders can improve giving feedback to your team.",
+  "hashtags": [
+    "#marketingleadership",
+    "#leadershiplessons",
+    "#teamculture",
+    "#managementtips",
+    "#peoplemanagement"
+  ],
+  "cta": "Send this to a lead on your team who is managing agency partners or internal reviews this week.",
+  "failure_mode": "If the advice feels like generic corporate management rather than specifically addressing marketing creative reviews, agency planners will scroll past it.",
+  "scheduled_for": "2026-08-13T09:30:00+05:30",
+  "status": "skipped",
+  "images": [
+    "content/queue/2026-08-10/thu-givingfeedbacktoteam/slide-01.jpg",
+    "content/queue/2026-08-10/thu-givingfeedbacktoteam/slide-02.jpg",
+    "content/queue/2026-08-10/thu-givingfeedbacktoteam/slide-03.jpg",
+    "content/queue/2026-08-10/thu-givingfeedbacktoteam/slide-04.jpg",
+    "content/queue/2026-08-10/thu-givingfeedbacktoteam/slide-05.jpg",
+    "content/queue/2026-08-10/thu-givingfeedbacktoteam/slide-06.jpg",
+    "content/queue/2026-08-10/thu-givingfeedbacktoteam/slide-07.jpg"
+  ],
+  "warnings": [],
+  "skipped_reason": "more than 24h past its slot"
+}

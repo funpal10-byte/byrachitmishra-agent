@@ -1,0 +1,72 @@
+{
+  "title": "aipromptsnegativeconstraints",
+  "pillar": "AI in Marketing",
+  "format": "reel",
+  "primary_keyword": "AI prompts for marketing",
+  "claim": "AI prompts for marketing produce generic copy because marketers prompt for adjectives instead of setting negative constraints.",
+  "hook": "Why most AI prompts for marketing produce generic copy, and the three negative constraints that fix it.",
+  "reel_script": [
+    {
+      "timecode": "0:00-0:04",
+      "onscreen": "Why your AI prompts sound generic",
+      "voiceover": "If your AI prompts for marketing produce generic brand copy, you are giving it adjectives instead of negative constraints.",
+      "direction": "Rachit talking directly to camera in office setting."
+    },
+    {
+      "timecode": "0:04-0:10",
+      "onscreen": "Adjectives fail. Constraints work.",
+      "voiceover": "Telling an LLM to write bold, empathetic, and premium copy gives you identical fluff to every competitor in your category.",
+      "direction": "Text overlay showing bad prompt example alongside Rachit."
+    },
+    {
+      "timecode": "0:10-0:18",
+      "onscreen": "Constraint 1: Word limits per sentence",
+      "voiceover": "Constraint one: Set a strict sentence length limit. Force sentences under twelve words. AI defaults to compound sentences when unconstrained.",
+      "direction": "Rachit holding up one finger, talking to camera."
+    },
+    {
+      "timecode": "0:18-0:26",
+      "onscreen": "Constraint 2: Banned word lists",
+      "voiceover": "Constraint two: Ban passive verbs and buzzwords explicitly. List the exact words your brand never uses.",
+      "direction": "Rachit gesturing to text list appearing on screen."
+    },
+    {
+      "timecode": "0:26-0:35",
+      "onscreen": "Constraint 3: Require named proof",
+      "voiceover": "Constraint three: Mandate a mechanism or a number for every claim. Require it to flag claims that lack concrete proof.",
+      "direction": "Rachit talking directly to camera."
+    },
+    {
+      "timecode": "0:35-0:44",
+      "onscreen": "Prompting boundaries > Prompting tone",
+      "voiceover": "Prompting is not creative writing. It is setting guardrails that stop the model from defaulting to average internet copy.",
+      "direction": "Rachit speaking with quiet emphasis."
+    },
+    {
+      "timecode": "0:44-0:50",
+      "onscreen": "Send this to your brand team",
+      "voiceover": "Send this to the brand manager on your team who is building your prompt library this week.",
+      "direction": "Call to action text graphic with Rachit on camera."
+    }
+  ],
+  "caption": "Why most AI prompts for marketing produce generic copy, and the three negative constraints that fix it.\n\nWhen you tell an LLM to sound premium, accessible, and authoritative, it averages those concepts across its training data. The result is copy that sounds like every B2B website built after 2023.\n\nInstead of instructing tone, set structural boundaries:\n\n1. Cap sentence length at 12 words to eliminate run-on phrasing.\n2. Provide an explicit list of forbidden category buzzwords.\n3. Require every claim to include a specific number or named mechanism.\n\nPrompting is not creative writing. It is quality control.\n\nSend this to the marketer on your team writing your AI prompt workflows.",
+  "alt_text": "Rachit Mishra speaking to camera explaining negative constraints for AI prompts in marketing.",
+  "hashtags": [
+    "#aimarketing",
+    "#aiinmarketing",
+    "#martech",
+    "#marketingai",
+    "#futureofmarketing"
+  ],
+  "cta": "Send this to the marketer on your team writing your AI prompt workflows.",
+  "failure_mode": "If the viewer already has technical experience with system prompts, negative constraints will feel obvious rather than insightful.",
+  "sources": [],
+  "scheduled_for": "2026-07-28T19:00:00+05:30",
+  "status": "skipped",
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-07-27/tue-aipromptsnegativeconstraints/reel-cover.jpg"
+  ],
+  "warnings": [],
+  "skipped_reason": "more than 24h past its slot"
+}
