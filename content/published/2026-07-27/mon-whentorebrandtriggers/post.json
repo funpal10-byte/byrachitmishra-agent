@@ -1,0 +1,72 @@
+{
+  "title": "whentorebrandtriggers",
+  "pillar": "Brand Strategy",
+  "format": "carousel",
+  "primary_keyword": "when to rebrand",
+  "claim": "A rebrand is only justified when unit economics, product scope, or distribution channels fundamentally change.",
+  "hook": "Knowing exactly when to rebrand saves millions in wasted agency fees and lost brand equity.",
+  "slides": [
+    {
+      "headline": "When to rebrand your business (and when not to)"
+    },
+    {
+      "kicker": "The wrong reason",
+      "headline": "Do not rebrand just because sales are dropping",
+      "body": "A decline in sales is usually a distribution or product problem. Changing your logo and color palette does not fix a broken growth loop or a weak value proposition."
+    },
+    {
+      "kicker": "Trigger one",
+      "headline": "Your customer profile changed by an order of magnitude",
+      "body": "If you moved from self-serve SMBs paying 50 dollars a month to enterprise accounts paying 50,000 dollars, your visual identity and messaging must reflect high-trust corporate standards."
+    },
+    {
+      "kicker": "Trigger two",
+      "headline": "Your legacy name restricts product category expansion",
+      "body": "When Dunkin Donuts dropped Donuts from its name in 2018, beverage sales made up 60 percent of revenue. The old name was actively suppressing their highest-margin category."
+    },
+    {
+      "kicker": "Trigger three",
+      "headline": "Your distribution channel completely flipped",
+      "body": "A brand designed to catch eyes on a crowded retail shelf looks chaotic on a minimalist e-commerce screen. Packaging designed for physical retail fails in digital-first environments."
+    },
+    {
+      "kicker": "The audit",
+      "headline": "Before hiring an agency run this simple checklist",
+      "body": "Ask if your product value proposition, pricing tier, or sales channel shifted in the last 12 months. If none of these changed, fix your acquisition funnel instead of your logo."
+    },
+    {
+      "headline": "Send this to a founder planning a redesign",
+      "body": "Save this post for your next brand strategy review or forward it to a teammate currently questioning their visual identity."
+    }
+  ],
+  "caption": "Knowing exactly when to rebrand saves millions in wasted agency fees and lost brand equity.\n\nMost corporate rebrands happen for bad reasons. An incoming marketing executive wants to leave a mark, sales dipped for two consecutive quarters, or internal teams grew bored of the visual guidelines. None of these justify altering customer recall.\n\nA rebrand is a structural response to operational shifts. When Dunkin dropped Donuts from its name in 2018, beverage sales already accounted for 60 percent of total revenue. The operational reality had moved, and the existing name was capping margin expansion.\n\nIf your pricing tier, buyer persona, or primary acquisition channel has not changed in the past year, redesigning your identity will not solve your revenue problems.\n\nChanging your logo when your product funnel is broken is expensive procrastination.\n\nSend this to a founder or marketing lead currently debating a rebrand.",
+  "alt_text": "Slide deck explaining when to rebrand based on customer, category, and distribution shifts.",
+  "hashtags": [
+    "#brandstrategy",
+    "#rebranding",
+    "#brandpositioning",
+    "#marketingstrategy",
+    "#brandbuilding"
+  ],
+  "cta": "Send this to a founder or marketing lead currently debating a rebrand.",
+  "failure_mode": "If the Dunkin example feels too widely cited, readers might view the insight as familiar case-study repetition rather than actionable operational advice.",
+  "sources": [
+    {
+      "title": "Dunkin Brand Name Change Analysis 2018",
+      "url": "https://www.cnn.com/2018/09/25/business/dunkin-donuts-new-name/index.html"
+    }
+  ],
+  "scheduled_for": "2026-07-27T08:30:00+05:30",
+  "status": "skipped",
+  "images": [
+    "content/queue/2026-07-27/mon-whentorebrandtriggers/slide-01.jpg",
+    "content/queue/2026-07-27/mon-whentorebrandtriggers/slide-02.jpg",
+    "content/queue/2026-07-27/mon-whentorebrandtriggers/slide-03.jpg",
+    "content/queue/2026-07-27/mon-whentorebrandtriggers/slide-04.jpg",
+    "content/queue/2026-07-27/mon-whentorebrandtriggers/slide-05.jpg",
+    "content/queue/2026-07-27/mon-whentorebrandtriggers/slide-06.jpg",
+    "content/queue/2026-07-27/mon-whentorebrandtriggers/slide-07.jpg"
+  ],
+  "warnings": [],
+  "skipped_reason": "more than 24h past its slot"
+}
