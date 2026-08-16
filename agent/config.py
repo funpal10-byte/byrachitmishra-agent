@@ -60,21 +60,27 @@ def model_name() -> str:
 # Ignored when running on Gemini, which uses Google Search grounding instead.
 WEB_SEARCH_TOOL = os.getenv("WEB_SEARCH_TOOL", "web_search_20250305")
 
-IG_API_VERSION = os.getenv("IG_API_VERSION", "v25.0")
+# NOTE ON `or` VERSUS getenv DEFAULTS, because this has bitten twice:
+# GitHub Actions passes an unset repository variable through as an EMPTY
+# STRING, not as an absent variable. os.getenv(name, default) only returns
+# the default when the name is absent entirely, so an unset variable silently
+# beats the default. Use `os.getenv(name) or default` everywhere.
+
+IG_API_VERSION = os.getenv("IG_API_VERSION") or "v25.0"
 IG_USER_ID = os.getenv("IG_USER_ID", "")
 IG_ACCESS_TOKEN = os.getenv("IG_ACCESS_TOKEN", "")
 
 # Publishing is opt-in. With this unset the agent is a drafting machine and
 # never touches your account.
-PUBLISH_ENABLED = os.getenv("PUBLISH_ENABLED", "false").lower() == "true"
+PUBLISH_ENABLED = (os.getenv("PUBLISH_ENABLED") or "false").strip().lower() == "true"
 
-# Where rendered images are served from, so Meta can fetch them.
-# Defaults to raw.githubusercontent.com for the current repo.
+# Where rendered images are served from, so Meta can fetch them. Defaults to
+# raw.githubusercontent.com for the current repo, which is why the repo needs
+# to be public unless you point this somewhere else.
 GITHUB_REPO = os.getenv("GITHUB_REPOSITORY", "")
-GITHUB_BRANCH = os.getenv("ASSET_BRANCH", "main")
-ASSET_BASE_URL = os.getenv(
-    "ASSET_BASE_URL",
-    f"https://raw.githubusercontent.com/{GITHUB_REPO}/{GITHUB_BRANCH}" if GITHUB_REPO else "",
+GITHUB_BRANCH = os.getenv("ASSET_BRANCH") or "main"
+ASSET_BASE_URL = (os.getenv("ASSET_BASE_URL") or "").strip() or (
+    f"https://raw.githubusercontent.com/{GITHUB_REPO}/{GITHUB_BRANCH}" if GITHUB_REPO else ""
 )
 
 

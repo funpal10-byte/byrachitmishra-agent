@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import os
 import shutil
 import sys
 from pathlib import Path
@@ -20,8 +21,23 @@ from pathlib import Path
 from . import config, publish
 
 
-def due_posts(now: dt.datetime) -> list[Path]:
-    out: list[Path] = []
+# Two guards against dumping a backlog onto the account in one go. A pile of
+# posts appearing at once on a young account reads as spam, which is the one
+# thing you cannot undo. Both are overridable as repository variables.
+MAX_PER_RUN = int(os.getenv("MAX_PUBLISH_PER_RUN") or 2)
+STALE_AFTER_HOURS = float(os.getenv("STALE_AFTER_HOURS") or 24)
+
+
+def due_posts(now: dt.datetime) -> tuple[list[Path], list[Path]]:
+    """Return (ready to publish, too stale to bother).
+
+    A post more than STALE_AFTER_HOURS past its slot has missed its moment —
+    Monday's carousel going out on Thursday evening helps nobody. Those get
+    archived unpublished rather than queued up behind the current ones.
+    """
+    ready: list[Path] = []
+    stale: list[Path] = []
+
     for f in sorted(config.APPROVED_DIR.rglob("post.json")):
         try:
             post = json.loads(f.read_text(encoding="utf-8"))
@@ -33,9 +49,17 @@ def due_posts(now: dt.datetime) -> list[Path]:
         when = post.get("scheduled_for")
         if not when:
             continue
-        if dt.datetime.fromisoformat(when) <= now:
-            out.append(f)
-    return out
+
+        scheduled = dt.datetime.fromisoformat(when)
+        if scheduled > now:
+            continue
+
+        overdue_hours = (now - scheduled).total_seconds() / 3600
+        (stale if overdue_hours > STALE_AFTER_HOURS else ready).append(f)
+
+    # Oldest first, so a small backlog drains in the order it was written.
+    ready.sort(key=lambda p: json.loads(p.read_text(encoding="utf-8"))["scheduled_for"])
+    return ready, stale
 
 
 def archive(folder: Path) -> None:
@@ -49,11 +73,44 @@ def archive(folder: Path) -> None:
 def main() -> int:
     brand = config.load_brand()
     now = dt.datetime.now(brand.timezone)
-    pending = due_posts(now)
+
+    # Print the resolved configuration every run. When publishing silently
+    # does nothing, the reason is nearly always visible in these four lines.
+    print(
+        f"[setup] now={now:%Y-%m-%d %H:%M %Z} · publish_enabled={config.PUBLISH_ENABLED}\n"
+        f"[setup] ig_user_id={'set' if config.IG_USER_ID else 'MISSING'} · "
+        f"token={'set' if config.IG_ACCESS_TOKEN else 'MISSING'} · api={config.IG_API_VERSION}\n"
+        f"[setup] asset_base_url={config.ASSET_BASE_URL or 'MISSING'}\n"
+        f"[setup] approved={len(list(config.APPROVED_DIR.rglob('post.json')))} "
+        f"queued={len(list(config.QUEUE_DIR.rglob('post.json')))} · "
+        f"max_per_run={MAX_PER_RUN} stale_after={STALE_AFTER_HOURS:g}h"
+    )
+
+    pending, stale = due_posts(now)
+
+    # Retire anything that missed its window, so it never publishes late and
+    # never clogs the queue behind current posts.
+    for f in stale:
+        post = json.loads(f.read_text(encoding="utf-8"))
+        print(f"[stale] skipping {f.parent.name} — was due {post.get('scheduled_for')}")
+        post["status"] = "skipped"
+        post["skipped_reason"] = f"more than {STALE_AFTER_HOURS:g}h past its slot"
+        f.write_text(json.dumps(post, indent=2, ensure_ascii=False), encoding="utf-8")
+        (f.parent / "reel.mp4").unlink(missing_ok=True)
+        archive(f.parent)
+    if stale:
+        print(f"[stale] retired {len(stale)} post(s) that missed their window")
 
     if not pending:
         print(f"[publish] nothing due as of {now:%Y-%m-%d %H:%M %Z}")
         return 0
+
+    if len(pending) > MAX_PER_RUN:
+        print(
+            f"[publish] {len(pending)} due, publishing {MAX_PER_RUN} this run "
+            f"and the rest on later runs — spacing them out deliberately"
+        )
+        pending = pending[:MAX_PER_RUN]
 
     if not config.PUBLISH_ENABLED:
         print("[publish] DRY RUN — PUBLISH_ENABLED is not true. Would publish:")
@@ -124,9 +181,9 @@ def main() -> int:
 
         # The video is on Instagram now. Keeping a copy in git would add a few
         # megabytes a week to a repository that never forgets anything.
-        stale = folder / "reel.mp4"
-        if stale.exists():
-            stale.unlink()
+        used_video = folder / "reel.mp4"
+        if used_video.exists():
+            used_video.unlink()
             (folder / ".generated-reel").unlink(missing_ok=True)
 
         archive(folder)

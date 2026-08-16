@@ -38,6 +38,11 @@ jobs:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_API_VERSION: ${{ vars.IG_API_VERSION || 'v25.0' }}
           ASSET_BASE_URL: ${{ vars.ASSET_BASE_URL }}
+          # Backlog guards. Raise MAX_PUBLISH_PER_RUN if you ever want a
+          # queue to drain faster; raise STALE_AFTER_HOURS to let older
+          # posts still go out rather than being retired unpublished.
+          MAX_PUBLISH_PER_RUN: ${{ vars.MAX_PUBLISH_PER_RUN }}
+          STALE_AFTER_HOURS: ${{ vars.STALE_AFTER_HOURS }}
         run: python -m agent.run_publish
 
       - name: Archive published posts
