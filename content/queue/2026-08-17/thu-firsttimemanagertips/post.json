@@ -1,0 +1,65 @@
+{
+  "title": "firsttimemanagertips",
+  "pillar": "Leadership",
+  "format": "carousel",
+  "primary_keyword": "first time manager tips",
+  "claim": "First-time marketing managers slow down output by acting as copy editors rather than establishing clear decision criteria.",
+  "hook": "Most first time manager tips tell you to delegate. Few explain why new leads keep rewriting their team's work.",
+  "slides": [
+    {
+      "headline": "Stop editing your team's copy"
+    },
+    {
+      "kicker": "The Transition Risk",
+      "headline": "You were promoted because you were a great executor",
+      "body": "Continuing to fix headlines and redesign slides yourself creates a bottleneck. Your team stops thinking because they know you will rewrite it anyway."
+    },
+    {
+      "kicker": "The Root Cause",
+      "headline": "You are giving line edits instead of constraints",
+      "body": "When you change a headline from passive to active voice without explaining the strategic reason, you fix one draft. You do not build a scalable team."
+    },
+    {
+      "kicker": "The Framework",
+      "headline": "Replace editing with three explicit boundaries",
+      "body": "Define the audience non-negotiables, the success metric, and the acceptable trade-offs before your team writes the first word."
+    },
+    {
+      "kicker": "Real Example",
+      "headline": "How to review a campaign brief",
+      "body": "Instead of saying this copy feels flat, say this copy targets performance buyers, but the lead stresses brand narrative. Fix the strategic alignment."
+    },
+    {
+      "kicker": "The Outcome",
+      "headline": "Your job is setting criteria, not policing taste",
+      "body": "If the draft meets all defined constraints and trade-offs, let it launch even if you would have phrased it differently."
+    },
+    {
+      "headline": "Scale your marketing team",
+      "body": "Send this to a peer who recently stepped into their first marketing management role."
+    }
+  ],
+  "caption": "Most first time manager tips tell you to delegate. Few explain why new leads keep rewriting their team's work.\n\nWhen you step from senior contributor to manager, your instinct is to treat team output like your own draft. You tweak headlines, alter slide layouts, and rewrite copy.\n\nIt feels like quality control. In practice, it breaks scale and accountability.\n\nIf you edit work without explaining the underlying criteria, your team learns to submit incomplete work because they expect you to rewrite the rest. You become the operational bottleneck.\n\nTo fix this, shift from line-editing to setting input constraints:\n\n1. Define the explicit trade-off (e.g., speed over polish for internal docs).\n2. Define the target metric before work starts.\n3. Pass on subjective preference. If a draft hits the brief and satisfies all constraints, approve it.\n\nLeadership is built on clear decision criteria, not personal taste.\n\nSend this to a colleague who recently stepped into a team lead role.",
+  "alt_text": "Carousel slides outlining first time manager tips for leading a marketing team effectively.",
+  "hashtags": [
+    "#marketingleadership",
+    "#teammanagement",
+    "#firsttimemanager",
+    "#careergrowth",
+    "#leadership"
+  ],
+  "cta": "Send this to a colleague who recently stepped into a team lead role.",
+  "failure_mode": "It risks reading as generic management advice if the distinction between subjective line-editing and strategic constraint-setting is not sharp enough for senior marketers.",
+  "scheduled_for": "2026-08-20T09:30:00+05:30",
+  "status": "draft",
+  "images": [
+    "content/queue/2026-08-17/thu-firsttimemanagertips/slide-01.jpg",
+    "content/queue/2026-08-17/thu-firsttimemanagertips/slide-02.jpg",
+    "content/queue/2026-08-17/thu-firsttimemanagertips/slide-03.jpg",
+    "content/queue/2026-08-17/thu-firsttimemanagertips/slide-04.jpg",
+    "content/queue/2026-08-17/thu-firsttimemanagertips/slide-05.jpg",
+    "content/queue/2026-08-17/thu-firsttimemanagertips/slide-06.jpg",
+    "content/queue/2026-08-17/thu-firsttimemanagertips/slide-07.jpg"
+  ],
+  "warnings": []
+}
