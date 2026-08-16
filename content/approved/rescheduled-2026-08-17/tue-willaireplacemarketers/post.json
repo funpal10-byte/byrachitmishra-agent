@@ -1,0 +1,71 @@
+{
+  "title": "willaireplacemarketers",
+  "pillar": "AI in Marketing",
+  "format": "reel",
+  "primary_keyword": "will AI replace marketers",
+  "claim": "AI will not replace marketers, but it will collapse the execution layer while increasing the demand for brand positioning guardrails.",
+  "hook": "The debate around whether AI will replace marketers misses the real shift happening in agency and brand team headcount.",
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "AI will replace execution, not strategy",
+      "voiceover": "AI will not replace marketers, but it is restructuring junior execution roles across agencies.",
+      "direction": "Rachit talking directly to camera, waist-up shot."
+    },
+    {
+      "timecode": "0:03-0:08",
+      "onscreen": "The volume illusion",
+      "voiceover": "Generating 50 ad variations used to take a junior team three days. Today an LLM does it in under 60 seconds.",
+      "direction": "Cut to close-up with clean text overlay on the left."
+    },
+    {
+      "timecode": "0:08-0:14",
+      "onscreen": "The new bottleneck",
+      "voiceover": "This shifts the bottleneck. The hard part is no longer producing assets; it is evaluating whether those assets fit brand context.",
+      "direction": "Rachit leaning forward, deliberate tone."
+    },
+    {
+      "timecode": "0:14-0:20",
+      "onscreen": "What AI lacks",
+      "voiceover": "AI cannot tell you if a headline dilutes your premium pricing power or breaks a positioning constraint built over five years.",
+      "direction": "Cut to a slightly wider frame."
+    },
+    {
+      "timecode": "0:20-0:26",
+      "onscreen": "Shift from execution to judgment",
+      "voiceover": "The marketers who build high-leverage careers are not writing prompts. They are setting tight positioning guardrails.",
+      "direction": "Rachit gestures to emphasize judgment."
+    },
+    {
+      "timecode": "0:26-0:32",
+      "onscreen": "The modern marketing stack",
+      "voiceover": "Your value is no longer asset output volume. Your value is brand judgment applied to synthetic output.",
+      "direction": "Direct eye contact, delivered at measured pace."
+    },
+    {
+      "timecode": "0:32-0:36",
+      "onscreen": "Send this to your marketing team",
+      "voiceover": "Send this to a marketer on your team who needs to focus less on output and more on positioning.",
+      "direction": "Final frame with CTA text clearly displayed."
+    }
+  ],
+  "caption": "The debate around whether AI will replace marketers misses the real shift happening in agency and brand team headcount.\n\nAI is not replacing marketers. It is collapsing the execution layer.\n\nWhen a team can generate 50 ad copy variations in two minutes using an LLM, writing copy is no longer the bottleneck. The bottleneck becomes evaluating that copy against brand positioning, tone guardrails, and pricing strategy.\n\nIn most consumer brand teams, junior marketers spend up to 70% of their week on execution: drafting social copy, generating script variations, and tweaking copy formats. AI reduces that execution time significantly, but it doubles the demand for judgment.\n\nAn LLM does not know your brand's non-negotiable boundaries unless you define them. The marketers who succeed over the next three years will be those who move from asset production to strategic evaluation.\n\nMy view: Stop measuring your marketing team by how much they produce. Measure them by how sharply they define the guardrails for what AI generates.\n\nSend this to a marketer or agency partner who needs to shift focus from asset volume to positioning strategy.",
+  "alt_text": "Rachit Mishra speaking on video about how AI tools change marketing team structures.",
+  "hashtags": [
+    "#aimarketing",
+    "#aiinmarketing",
+    "#marketingai",
+    "#futureofmarketing",
+    "#martech"
+  ],
+  "cta": "Send this to a marketer or agency partner who needs to shift focus from asset volume to positioning strategy.",
+  "failure_mode": "It could sound like a generic opinion on AI efficiency if it does not clearly articulate that brand positioning judgment is the specific bottleneck AI cannot solve.",
+  "scheduled_for": "2026-08-20T19:00:00+05:30",
+  "status": "approved",
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-08-10/tue-willaireplacemarketers/reel-cover.jpg"
+  ],
+  "warnings": [],
+  "rescheduled_from": "more than 24h past its slot"
+}
