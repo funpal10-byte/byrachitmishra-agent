@@ -67,11 +67,13 @@
     }
   ],
   "scheduled_for": "2026-08-17T19:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "video": "reel.mp4",
   "images": [
     "content/queue/2026-07-27/wed-cadbury-1994-category-expansion/reel-cover.jpg"
   ],
   "warnings": [],
-  "rescheduled_from": "more than 24h past its slot"
+  "rescheduled_from": "more than 24h past its slot",
+  "published_at": "2026-08-17T19:19:51.875124+05:30",
+  "media_id": "18075400997415698"
 }
