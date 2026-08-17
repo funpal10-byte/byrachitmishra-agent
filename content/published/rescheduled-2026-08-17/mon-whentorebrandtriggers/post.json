@@ -57,7 +57,7 @@
     }
   ],
   "scheduled_for": "2026-08-17T08:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "images": [
     "content/queue/2026-07-27/mon-whentorebrandtriggers/slide-01.jpg",
     "content/queue/2026-07-27/mon-whentorebrandtriggers/slide-02.jpg",
@@ -68,5 +68,7 @@
     "content/queue/2026-07-27/mon-whentorebrandtriggers/slide-07.jpg"
   ],
   "warnings": [],
-  "rescheduled_from": "more than 24h past its slot"
+  "rescheduled_from": "more than 24h past its slot",
+  "published_at": "2026-08-17T08:39:19.517399+05:30",
+  "media_id": "18091025333642471"
 }
