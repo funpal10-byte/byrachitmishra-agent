@@ -62,11 +62,13 @@
   "failure_mode": "If the viewer already has technical experience with system prompts, negative constraints will feel obvious rather than insightful.",
   "sources": [],
   "scheduled_for": "2026-08-17T12:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "video": "reel.mp4",
   "images": [
     "content/queue/2026-07-27/tue-aipromptsnegativeconstraints/reel-cover.jpg"
   ],
   "warnings": [],
-  "rescheduled_from": "more than 24h past its slot"
+  "rescheduled_from": "more than 24h past its slot",
+  "published_at": "2026-08-17T12:42:29.199298+05:30",
+  "media_id": "18085603463649775"
 }
