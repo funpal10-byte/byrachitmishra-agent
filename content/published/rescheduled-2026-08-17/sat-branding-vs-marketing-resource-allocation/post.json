@@ -50,7 +50,7 @@
   "cta": "Send this to a founder or growth marketer who is tired of rising acquisition costs.",
   "failure_mode": "The post could sound like abstract theory if the Liquid Death example does not ground the operational difference between paid acquisition and organic brand pull.",
   "scheduled_for": "2026-08-18T12:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "images": [
     "content/queue/2026-07-27/sat-branding-vs-marketing-resource-allocation/slide-01.jpg",
     "content/queue/2026-07-27/sat-branding-vs-marketing-resource-allocation/slide-02.jpg",
@@ -61,5 +61,7 @@
     "content/queue/2026-07-27/sat-branding-vs-marketing-resource-allocation/slide-07.jpg"
   ],
   "warnings": [],
-  "rescheduled_from": "more than 24h past its slot"
+  "rescheduled_from": "more than 24h past its slot",
+  "published_at": "2026-08-18T13:19:06.565738+05:30",
+  "media_id": "18393696196205563"
 }
