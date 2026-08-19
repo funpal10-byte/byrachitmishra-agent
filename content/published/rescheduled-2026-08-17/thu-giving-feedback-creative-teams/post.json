@@ -52,7 +52,7 @@
   "failure_mode": "If the distinction between structural constraints and aesthetic opinion is not sharp enough, managers might misinterpret this as micromanagement rather than clarity.",
   "sources": [],
   "scheduled_for": "2026-08-19T19:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "images": [
     "content/queue/2026-08-03/thu-giving-feedback-creative-teams/slide-01.jpg",
     "content/queue/2026-08-03/thu-giving-feedback-creative-teams/slide-02.jpg",
@@ -63,5 +63,7 @@
     "content/queue/2026-08-03/thu-giving-feedback-creative-teams/slide-07.jpg"
   ],
   "warnings": [],
-  "rescheduled_from": "more than 24h past its slot"
+  "rescheduled_from": "more than 24h past its slot",
+  "published_at": "2026-08-19T19:25:19.905599+05:30",
+  "media_id": "18129310924659392"
 }
