@@ -67,11 +67,13 @@
     }
   ],
   "scheduled_for": "2026-08-19T12:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "video": "reel.mp4",
   "images": [
     "content/queue/2026-08-03/wed-indigo-positioning-operational-moat/reel-cover.jpg"
   ],
   "warnings": [],
-  "rescheduled_from": "more than 24h past its slot"
+  "rescheduled_from": "more than 24h past its slot",
+  "published_at": "2026-08-19T12:30:48.604906+05:30",
+  "media_id": "17963855459964717"
 }
