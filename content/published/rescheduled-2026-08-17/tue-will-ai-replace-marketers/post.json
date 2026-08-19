@@ -61,11 +61,13 @@
   "cta": "Send this to a marketer on your team who needs to spend less time prompting and more time positioning.",
   "failure_mode": "Could land as a generic anti-AI opinion piece if the distinction between draft execution and strategic judgment is not articulated clearly in the first six seconds.",
   "scheduled_for": "2026-08-19T08:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "video": "reel.mp4",
   "images": [
     "content/queue/2026-08-03/tue-will-ai-replace-marketers/reel-cover.jpg"
   ],
   "warnings": [],
-  "rescheduled_from": "more than 24h past its slot"
+  "rescheduled_from": "more than 24h past its slot",
+  "published_at": "2026-08-19T08:37:16.815654+05:30",
+  "media_id": "17890218198671540"
 }
