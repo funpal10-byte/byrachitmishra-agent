@@ -57,7 +57,7 @@
     }
   ],
   "scheduled_for": "2026-08-21T19:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "images": [
     "content/queue/2026-08-10/sat-brand-strategy-framework-tradeoffs/slide-01.jpg",
     "content/queue/2026-08-10/sat-brand-strategy-framework-tradeoffs/slide-02.jpg",
@@ -68,5 +68,7 @@
     "content/queue/2026-08-10/sat-brand-strategy-framework-tradeoffs/slide-07.jpg"
   ],
   "warnings": [],
-  "rescheduled_from": "more than 24h past its slot"
+  "rescheduled_from": "more than 24h past its slot",
+  "published_at": "2026-08-21T19:27:11.540684+05:30",
+  "media_id": "18020623571922994"
 }
