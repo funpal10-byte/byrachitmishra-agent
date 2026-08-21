@@ -51,7 +51,7 @@
   "cta": "Send this to a lead on your team who is managing agency partners or internal reviews this week.",
   "failure_mode": "If the advice feels like generic corporate management rather than specifically addressing marketing creative reviews, agency planners will scroll past it.",
   "scheduled_for": "2026-08-21T12:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "images": [
     "content/queue/2026-08-10/thu-givingfeedbacktoteam/slide-01.jpg",
     "content/queue/2026-08-10/thu-givingfeedbacktoteam/slide-02.jpg",
@@ -62,5 +62,7 @@
     "content/queue/2026-08-10/thu-givingfeedbacktoteam/slide-07.jpg"
   ],
   "warnings": [],
-  "rescheduled_from": "more than 24h past its slot"
+  "rescheduled_from": "more than 24h past its slot",
+  "published_at": "2026-08-21T12:32:57.839508+05:30",
+  "media_id": "18095873870634442"
 }
