@@ -73,11 +73,13 @@
     }
   ],
   "scheduled_for": "2026-08-21T08:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "video": "reel.mp4",
   "images": [
     "content/queue/2026-08-10/wed-fivestardonothingpositioning/reel-cover.jpg"
   ],
   "warnings": [],
-  "rescheduled_from": "more than 24h past its slot"
+  "rescheduled_from": "more than 24h past its slot",
+  "published_at": "2026-08-21T08:43:29.086091+05:30",
+  "media_id": "18140263132570891"
 }
