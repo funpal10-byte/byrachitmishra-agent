@@ -61,11 +61,13 @@
   "cta": "Send this to a brand manager on your team who is designing their team workflow.",
   "failure_mode": "If the distinction between draft synthesis and strategic choice is not sharp enough, the post could sound anti-technology rather than tactical.",
   "scheduled_for": "2026-08-22T08:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "video": "reel.mp4",
   "images": [
     "content/queue/2026-08-17/tue-aitoolsforbrandmanagers/reel-cover.jpg"
   ],
   "warnings": [],
-  "rescheduled_from": "manual reschedule"
+  "rescheduled_from": "manual reschedule",
+  "published_at": "2026-08-22T08:33:47.261216+05:30",
+  "media_id": "18123051016838765"
 }
