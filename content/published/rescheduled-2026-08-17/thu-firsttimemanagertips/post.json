@@ -51,7 +51,7 @@
   "cta": "Send this to a colleague who recently stepped into a team lead role.",
   "failure_mode": "It risks reading as generic management advice if the distinction between subjective line-editing and strategic constraint-setting is not sharp enough for senior marketers.",
   "scheduled_for": "2026-08-22T19:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "images": [
     "content/queue/2026-08-17/thu-firsttimemanagertips/slide-01.jpg",
     "content/queue/2026-08-17/thu-firsttimemanagertips/slide-02.jpg",
@@ -62,5 +62,7 @@
     "content/queue/2026-08-17/thu-firsttimemanagertips/slide-07.jpg"
   ],
   "warnings": [],
-  "rescheduled_from": "manual reschedule"
+  "rescheduled_from": "manual reschedule",
+  "published_at": "2026-08-22T19:10:11.074245+05:30",
+  "media_id": "18183546097364993"
 }
