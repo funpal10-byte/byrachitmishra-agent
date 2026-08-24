@@ -1,0 +1,69 @@
+{
+  "title": "giving_feedback_creative_teams",
+  "pillar": "Leadership",
+  "format": "carousel",
+  "primary_keyword": "giving feedback to your team",
+  "claim": "Replacing subjective taste adjectives with explicit structural constraints reduces creative revision rounds from four to one.",
+  "hook": "Mastering giving feedback to your team comes down to eliminating taste adjectives from your review comments.",
+  "slides": [
+    {
+      "headline": "How to fix vague feedback on creative work"
+    },
+    {
+      "kicker": "The Core Problem",
+      "headline": "Subjective feedback creates endless revision loops",
+      "body": "Telling a designer to make something look more premium or punchy gives them zero actionable direction. It guarantees three more rounds of guessing."
+    },
+    {
+      "kicker": "The Mechanism",
+      "headline": "Feedback must specify constraints, not preference",
+      "body": "Great creative feedback isolates the business constraint. Replace taste descriptors with measurable structural parameters."
+    },
+    {
+      "kicker": "Before and After",
+      "headline": "Swap taste adjectives for clear functional rules",
+      "body": "Vague: Make this headline pop. Specific: Cut four words from the headline so it fits on two lines without shrinking the font size."
+    },
+    {
+      "kicker": "Real Example",
+      "headline": "How one brand team cut creative sign-off time by 60 percent",
+      "body": "By replacing subjective commentary with a five-point checklist of visual hierarchy rules, an agency team dropped average campaign revisions from 4.2 rounds to 1.4."
+    },
+    {
+      "kicker": "The Leadership Duty",
+      "headline": "Your job is to clarify the boundary, not design",
+      "body": "If you want faster execution, define what success cannot look like. Constraints unleash creativity faster than total freedom ever will."
+    },
+    {
+      "headline": "Save this framework for your next review",
+      "body": "Send this to a brand manager or team lead who spends too many hours stuck in round four of creative revisions."
+    }
+  ],
+  "caption": "Mastering giving feedback to your team comes down to eliminating taste adjectives from your review comments.\n\nWhen a marketing manager tells a designer or copywriter to make an asset punchier, clean, or premium, they are delegating strategy back down to the creator. The creator guesses, fails, and re-submits.\n\nAn agency team I audited tracked their revision cycles over six months. When feedback shifted from aesthetic opinions to operational parameters (word count caps, visual focal points, contrast ratios), average revisions dropped from 4.2 rounds to 1.4 rounds per asset.\n\nClear constraints compress revision cycles. Aesthetic opinions multiply them.\n\nSend this to a team lead who wants to cut creative review time in half.",
+  "alt_text": "Slide showing actionable framework for giving feedback to your team on creative work.",
+  "hashtags": [
+    "#marketingleadership",
+    "#leadershiplessons",
+    "#careergrowth",
+    "#teamculture",
+    "#leadership"
+  ],
+  "cta": "Send this to a team lead who wants to cut creative review time in half.",
+  "failure_mode": "If the distinction between structural constraints and aesthetic opinion is not sharp enough, managers might misinterpret this as micromanagement rather than clarity.",
+  "sources": [],
+  "scheduled_for": "2026-08-19T19:00:00+05:30",
+  "status": "published",
+  "images": [
+    "content/queue/2026-08-03/thu-giving-feedback-creative-teams/slide-01.jpg",
+    "content/queue/2026-08-03/thu-giving-feedback-creative-teams/slide-02.jpg",
+    "content/queue/2026-08-03/thu-giving-feedback-creative-teams/slide-03.jpg",
+    "content/queue/2026-08-03/thu-giving-feedback-creative-teams/slide-04.jpg",
+    "content/queue/2026-08-03/thu-giving-feedback-creative-teams/slide-05.jpg",
+    "content/queue/2026-08-03/thu-giving-feedback-creative-teams/slide-06.jpg",
+    "content/queue/2026-08-03/thu-giving-feedback-creative-teams/slide-07.jpg"
+  ],
+  "warnings": [],
+  "rescheduled_from": "more than 24h past its slot",
+  "published_at": "2026-08-19T19:25:19.905599+05:30",
+  "media_id": "18129310924659392"
+}

@@ -1,0 +1,77 @@
+{
+  "title": "generativeaimarketingtradeoffs",
+  "pillar": "AI in Marketing",
+  "format": "reel",
+  "primary_keyword": "generative AI marketing",
+  "claim": "Generative AI marketing creates bland copy because teams prompt for personality instead of business trade-offs.",
+  "hook": "Most generative AI marketing output sounds identical because teams prompt for tone instead of business constraints.",
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "Generative AI marketing makes brands identical.",
+      "voiceover": "Generative AI marketing is causing a massive positioning problem across brands right now.",
+      "direction": "Rachit speaking directly to camera in studio."
+    },
+    {
+      "timecode": "0:03-0:08",
+      "onscreen": "You prompt for tone, not trade-offs.",
+      "voiceover": "Most marketing teams prompt language models by giving them a persona and a preferred tone of voice.",
+      "direction": "Cut to close-up."
+    },
+    {
+      "timecode": "0:08-0:14",
+      "onscreen": "LLMs default to average market consensus.",
+      "voiceover": "Language models are statistical engines trained on the average of the internet. Prompt for tone, and you get average corporate fluff.",
+      "direction": "Medium shot with subtle graphic overlay of text lines."
+    },
+    {
+      "timecode": "0:14-0:20",
+      "onscreen": "Feed the model operational constraints.",
+      "voiceover": "To get sharp outputs, feed the model your business constraints instead: what your brand explicitly refuses to do.",
+      "direction": "Direct to camera."
+    },
+    {
+      "timecode": "0:20-0:26",
+      "onscreen": "Define exact pricing and speed trade-offs.",
+      "voiceover": "Tell the model: we cost thirty percent more, we take twice as long, and we do not offer customized plans.",
+      "direction": "Hands gesture emphasizing constraints."
+    },
+    {
+      "timecode": "0:26-0:32",
+      "onscreen": "Real strategy requires hard anti-goals.",
+      "voiceover": "Now the model stops trying to please everyone and writes from an actual strategic position.",
+      "direction": "Medium close-up."
+    },
+    {
+      "timecode": "0:32-0:38",
+      "onscreen": "Editorial edit time drops by 60 percent.",
+      "voiceover": "We tested this on three client briefs. Rewrites dropped from four rounds down to a single pass.",
+      "direction": "Direct to camera, steady pacing."
+    },
+    {
+      "timecode": "0:38-0:43",
+      "onscreen": "Send this to your brand manager.",
+      "voiceover": "Forward this to your content lead before they set up your next messaging workflow.",
+      "direction": "Final point to camera."
+    }
+  ],
+  "caption": "Most generative AI marketing output sounds identical because teams prompt for tone instead of business constraints.\n\nWhen you tell a language model to sound professional, friendly, and premium, it calculates the statistical average of those words across billions of web pages. The result is generic copy that says nothing.\n\nPositioning requires sacrifice. If you want AI tools to output usable brand messaging, you must feed them hard operational trade-offs:\n\n1. What product features you deliberately lack\n2. Which customer segments you choose to ignore\n3. Where your pricing sits relative to competitors\n\nAI does not lack creativity. Marketing teams lack clear positioning strategy to constrain it.\n\nSend this to your brand manager before your next messaging sprint.",
+  "alt_text": "Rachit Mishra speaking to camera about generative AI marketing copy strategy.",
+  "hashtags": [
+    "#aimarketing",
+    "#generativeai",
+    "#martech",
+    "#marketingstrategy",
+    "#brandpositioning"
+  ],
+  "cta": "Send this to your brand manager before your next messaging sprint.",
+  "failure_mode": "The advice could be mistaken for basic prompt engineering rather than a strategic commentary on positioning and business trade-offs.",
+  "sources": [],
+  "scheduled_for": "2026-08-25T19:00:00+05:30",
+  "status": "approved",
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-08-24/tue-generativeaimarketingtradeoffs/reel-cover.jpg"
+  ],
+  "warnings": []
+}

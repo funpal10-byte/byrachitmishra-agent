@@ -1,0 +1,68 @@
+{
+  "title": "brand_strategy_operational_tradeoffs",
+  "pillar": "Brand Strategy",
+  "format": "carousel",
+  "primary_keyword": "how to build a brand strategy",
+  "claim": "Real brand strategy is defined by what a business deliberately refuses to do, not by its aspirations.",
+  "hook": "Knowing how to build a brand strategy starts with choosing what your business will refuse to do.",
+  "slides": [
+    {
+      "headline": "Real strategy is a list of deliberate sacrifices"
+    },
+    {
+      "kicker": "The Common Trap",
+      "headline": "Most brand strategy decks are just wishlists",
+      "body": "They list target audiences, brand pillars, and tone guidelines. But if your strategy contains no explicit trade-offs, it is just a list of nice intentions."
+    },
+    {
+      "kicker": "The Mechanism",
+      "headline": "A strategy only works when it closes doors",
+      "body": "Positioning requires sacrificing short-term revenue. If your brand guidelines do not alienate at least one customer segment, you have not taken a position."
+    },
+    {
+      "kicker": "Real Example",
+      "headline": "How Southwest built a 47-year profitable run",
+      "body": "Southwest eliminated assigned seating, meals, and hub transfers. By refusing premium features, they cut turnaround times to 15 minutes and kept fleet costs minimal."
+    },
+    {
+      "kicker": "The Framework",
+      "headline": "Three questions to force real trade-offs",
+      "body": "Ask what profitable customer group you will ignore. Ask what standard feature you will refuse to offer. Ask what short-term revenue you will sacrifice to protect positioning."
+    },
+    {
+      "kicker": "The Test",
+      "headline": "Check if your strategy is actually actionable",
+      "body": "Look at your strategy document. If the opposite of your strategy statement sounds like an obvious business mistake, your strategy is useless fluff."
+    },
+    {
+      "headline": "Send this to your brand lead",
+      "body": "If your team is working on positioning this quarter, forward this slide deck before your next strategy review."
+    }
+  ],
+  "caption": "Knowing how to build a brand strategy starts with choosing what your business will refuse to do.\n\nMost strategy documents are useless because they try to capture every possible customer. They define values like quality or customer focus that no competitor would ever reject. Real strategy requires operational sacrifice.\n\nWhen Southwest Airlines built their brand, they eliminated meals, assigned seats, and hub transfers. That operational choice cut plane turnaround time to 15 minutes versus the industry average of 45 minutes, leading to 47 consecutive profitable years.\n\nIf the opposite of your positioning statement sounds like bad management, you do not have a strategy yet.\n\nSend this to a marketer on your team who is writing brand guidelines this month.",
+  "alt_text": "Slide deck explaining how to build a brand strategy around operational sacrifice.",
+  "hashtags": [
+    "#brandstrategy",
+    "#brandpositioning",
+    "#marketingstrategy",
+    "#brandbuilding",
+    "#branding"
+  ],
+  "cta": "Send this to a marketer on your team who is writing brand guidelines this month.",
+  "failure_mode": "The Southwest Airlines example is a classical case study and may feel familiar to senior brand strategists.",
+  "scheduled_for": "2026-08-20T08:30:00+05:30",
+  "status": "published",
+  "images": [
+    "content/queue/2026-08-03/sat-brand-strategy-operational-tradeoffs/slide-01.jpg",
+    "content/queue/2026-08-03/sat-brand-strategy-operational-tradeoffs/slide-02.jpg",
+    "content/queue/2026-08-03/sat-brand-strategy-operational-tradeoffs/slide-03.jpg",
+    "content/queue/2026-08-03/sat-brand-strategy-operational-tradeoffs/slide-04.jpg",
+    "content/queue/2026-08-03/sat-brand-strategy-operational-tradeoffs/slide-05.jpg",
+    "content/queue/2026-08-03/sat-brand-strategy-operational-tradeoffs/slide-06.jpg",
+    "content/queue/2026-08-03/sat-brand-strategy-operational-tradeoffs/slide-07.jpg"
+  ],
+  "warnings": [],
+  "rescheduled_from": "more than 24h past its slot",
+  "published_at": "2026-08-20T08:36:52.957484+05:30",
+  "media_id": "17875543242628433"
+}

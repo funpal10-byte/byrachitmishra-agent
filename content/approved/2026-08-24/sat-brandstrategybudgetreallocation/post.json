@@ -1,0 +1,71 @@
+{
+  "title": "brandstrategybudgetreallocation",
+  "pillar": "Brand Strategy",
+  "format": "carousel",
+  "primary_keyword": "brand strategy",
+  "claim": "A brand strategy only succeeds when it identifies the exact existing customer budget or habit it displaces.",
+  "hook": "A solid brand strategy does not start with who your customer is. It starts with what existing budget you are stealing.",
+  "slides": [
+    {
+      "headline": "Most brand strategies fail because they target demographics."
+    },
+    {
+      "kicker": "THE BUDGET ERROR",
+      "headline": "Demographics do not have wallets. Budgets do.",
+      "body": "Most decks define the ideal customer by age, income, and city tier. But consumers do not allocate new money for new brands. They reallocate existing spend from somewhere else."
+    },
+    {
+      "kicker": "THE REPLACEMENT AUDIT",
+      "headline": "Every new brand is a replacement project.",
+      "body": "When Epigamia launched Greek yogurt in India, they did not target health-conscious millennials. They targeted the 4 PM office snack budget previously spent on samosas and biscuits."
+    },
+    {
+      "kicker": "CATEGORY SUBSTITUTION",
+      "headline": "Define what your product steals money from.",
+      "body": "If you cannot name the exact line item or habit your customer gives up to buy you, your brand strategy is just creative writing. Positioning is budget substitution."
+    },
+    {
+      "kicker": "THE PRICING TEST",
+      "headline": "Direct competitors are rarely your real competition.",
+      "body": "Netflix does not compete with Prime Video for your subscription fee. It competes with sleep, dining out, and mindless scrolling. Your real competitor is whatever holds that time or money now."
+    },
+    {
+      "kicker": "EXECUTION FRAMEWORK",
+      "headline": "Map the displacement before writing the copy.",
+      "body": "Write down three things: the exact item your customer stops buying, the friction they endure during that old habit, and the immediate trade-off your price point demands."
+    },
+    {
+      "headline": "Send this to your brand lead before deck reviews.",
+      "body": "Build positioning around budget reallocation, not imaginary customer personas."
+    }
+  ],
+  "caption": "A solid brand strategy does not start with who your customer is. It starts with what existing budget you are stealing.\n\nWhen Epigamia introduced packaged Greek yogurt to Indian grocery stores, they did not win by pitching protein content to 28-year-old urban professionals. They won by targeting the ₹30 to ₹50 afternoon office snack slot, competing directly against unbranded samosas, chai, and tea biscuits.\n\nConsumers rarely create new budget lines for new brands. They reallocate money they are already spending. If your deck defines your target market as \"urban millennials who value wellness,\" you have written a persona, not a strategy.\n\nPositioning requires naming the exact habit, product, or line item your customer gives up the moment they choose you.\n\nIf you are reviewing positioning decks with your team this quarter, forward this to them before the next review.",
+  "alt_text": "Carousel slides on brand strategy explaining budget reallocation using Epigamia as an example.",
+  "hashtags": [
+    "#brandstrategy",
+    "#brandpositioning",
+    "#marketingstrategy",
+    "#brandbuilding",
+    "#branding"
+  ],
+  "cta": "If you are reviewing positioning decks with your team this quarter, forward this to them before the next review.",
+  "failure_mode": "The post could be misconstrued as suggesting customer demographics do not matter at all, rather than clarifying that budget displacement is the necessary primary filter for actionable positioning.",
+  "sources": [
+    {
+      "title": "Drums Food International / Epigamia Category Creation Case Study",
+      "url": "https://www.epigamia.com"
+    }
+  ],
+  "scheduled_for": "2026-08-29T10:30:00+05:30",
+  "status": "approved",
+  "images": [
+    "content/queue/2026-08-24/sat-brandstrategybudgetreallocation/slide-01.jpg",
+    "content/queue/2026-08-24/sat-brandstrategybudgetreallocation/slide-02.jpg",
+    "content/queue/2026-08-24/sat-brandstrategybudgetreallocation/slide-03.jpg",
+    "content/queue/2026-08-24/sat-brandstrategybudgetreallocation/slide-04.jpg",
+    "content/queue/2026-08-24/sat-brandstrategybudgetreallocation/slide-05.jpg",
+    "content/queue/2026-08-24/sat-brandstrategybudgetreallocation/slide-06.jpg",
+    "content/queue/2026-08-24/sat-brandstrategybudgetreallocation/slide-07.jpg"
+  ],
+  "warnings": []
+}

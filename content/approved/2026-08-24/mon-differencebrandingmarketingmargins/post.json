@@ -1,0 +1,75 @@
+{
+  "title": "differencebrandingmarketingmargins",
+  "pillar": "Brand Strategy",
+  "format": "carousel",
+  "primary_keyword": "difference between branding and marketing",
+  "claim": "Marketing captures short-term demand at a fixed acquisition cost, while branding creates the pricing power that protects long-term gross margins.",
+  "hook": "The difference between branding and marketing isn't visual design versus copy. It shows up in your gross margin.",
+  "slides": [
+    {
+      "headline": "The real difference between branding and marketing"
+    },
+    {
+      "kicker": "The Core Function",
+      "headline": "Marketing buys immediate demand. Branding builds pricing power.",
+      "body": "Marketing runs ads to convert existing intent today. Branding shifts customer preference so you do not have to discount to win sales next year."
+    },
+    {
+      "kicker": "The Financial Proof",
+      "headline": "Hero sells millions of units. Royal Enfield earns more margin.",
+      "body": "Hero MotoCorp operates at 11 to 14 percent EBITDA margins on high volume. Royal Enfield maintains 23 to 26 percent margins on under a million units. That gap is brand equity."
+    },
+    {
+      "kicker": "The CAC Trap",
+      "headline": "Marketing scales linearly. Branding compounds over time.",
+      "body": "When you pause performance ads, direct response traffic stops instantly. Brand strategy builds organic search intent so buyers seek out your product directly."
+    },
+    {
+      "kicker": "Measurement",
+      "headline": "Track marketing by CAC. Track branding by pricing power.",
+      "body": "Measure marketing performance through 30-day ROAS and customer acquisition cost. Measure branding through direct search volume, repeat purchase rates, and price elasticity."
+    },
+    {
+      "kicker": "Budget Allocation",
+      "headline": "Early stage brands run 70 percent performance budget.",
+      "body": "At launch, spend 70 percent on direct response to generate cash flow. As direct organic search hits 20 percent of traffic, shift capital into long-term brand equity to defend margins."
+    },
+    {
+      "headline": "Send this to a founder planning their marketing budget",
+      "body": "Save this framework for your next quarterly strategy review. Follow @byrachitmishra for strategic teardowns."
+    }
+  ],
+  "caption": "The difference between branding and marketing isn't visual design versus copy. It shows up in your gross margin.\n\nMarketing captures existing demand at a fixed customer acquisition cost. When you stop running Meta ads or PPC campaigns, revenue drops instantly. Branding is the long-term positioning work that builds category preference so you do not have to buy every single transaction.\n\nLook at the Indian motorcycle market. Hero MotoCorp sells high volumes at an EBITDA margin around 11 to 14 percent. Royal Enfield sells under a million units annually, but captures a 23 to 26 percent EBITDA margin. That 10 percent margin gap represents the financial value of brand positioning over pure performance distribution.\n\nTrack marketing through 30-day ROAS and acquisition costs. Track branding through unprompted search share, direct website traffic, and price elasticity over 12 to 24 months.\n\nIf your product cannot hold its sales volume when discount codes expire, you have a performance marketing distribution engine, not a brand.\n\nSend this to a brand manager or founder planning next quarter's budget allocation.",
+  "alt_text": "Carousel slides explaining the difference between branding and marketing using automotive margins.",
+  "hashtags": [
+    "#brandstrategy",
+    "#brandpositioning",
+    "#marketingstrategy",
+    "#brandbuilding",
+    "#branding"
+  ],
+  "cta": "Send this to a brand manager or founder planning next quarter's budget allocation.",
+  "failure_mode": "The post could be misconstrued as an argument against performance marketing rather than a clarification of how performance marketing and brand positioning work together financially.",
+  "sources": [
+    {
+      "title": "Eicher Motors Annual Report Financial Summary",
+      "url": "https://www.eichermotors.com"
+    },
+    {
+      "title": "Hero MotoCorp Financial Results",
+      "url": "https://www.heromotocorp.com"
+    }
+  ],
+  "scheduled_for": "2026-08-24T08:30:00+05:30",
+  "status": "approved",
+  "images": [
+    "content/queue/2026-08-24/mon-differencebrandingmarketingmargins/slide-01.jpg",
+    "content/queue/2026-08-24/mon-differencebrandingmarketingmargins/slide-02.jpg",
+    "content/queue/2026-08-24/mon-differencebrandingmarketingmargins/slide-03.jpg",
+    "content/queue/2026-08-24/mon-differencebrandingmarketingmargins/slide-04.jpg",
+    "content/queue/2026-08-24/mon-differencebrandingmarketingmargins/slide-05.jpg",
+    "content/queue/2026-08-24/mon-differencebrandingmarketingmargins/slide-06.jpg",
+    "content/queue/2026-08-24/mon-differencebrandingmarketingmargins/slide-07.jpg"
+  ],
+  "warnings": []
+}

@@ -1,0 +1,82 @@
+{
+  "title": "thums_up_vs_coca_cola_strategy",
+  "pillar": "Behind the Brands",
+  "format": "reel",
+  "primary_keyword": "brand case study India",
+  "claim": "Distribution scale cannot kill a product that owns consumer sensory habits.",
+  "hook": "This brand case study India shows why Coca-Cola failed to replace Thums Up in 1993 despite owning distribution.",
+  "reel_script": [
+    {
+      "timecode": "0:00-0:04",
+      "onscreen": "Coke tried to kill Thums Up in 1993.",
+      "voiceover": "In 1993, Coca-Cola bought Thums Up for sixty million dollars with one main objective: kill it and sell Coke instead.",
+      "direction": "Rachit speaking directly to camera, straightforward tone."
+    },
+    {
+      "timecode": "0:04-0:09",
+      "onscreen": "The plan was simple.",
+      "voiceover": "They cut Thums Up's ad budget to zero and deliberately choked retail supply across major Indian cities.",
+      "direction": "Cut to close-up of Rachit."
+    },
+    {
+      "timecode": "0:09-0:15",
+      "onscreen": "Market share dropped overnight.",
+      "voiceover": "Thums Up market share fell fast. Coke assumed those drinkers would automatically switch to Coca-Cola.",
+      "direction": "Rachit on camera, clean background."
+    },
+    {
+      "timecode": "0:15-0:21",
+      "onscreen": "Instead, Pepsi won.",
+      "voiceover": "They did not. Thums Up drinkers refused Coke's sweeter taste and bought Pepsi instead. Coke lost overall category share.",
+      "direction": "Mid-shot Rachit."
+    },
+    {
+      "timecode": "0:21-0:28",
+      "onscreen": "The formulation secret.",
+      "voiceover": "Thums Up had higher carbonation and spicy notes like cinnamon and nutmeg, built specifically for Indian street food.",
+      "direction": "Rachit speaking with quiet emphasis."
+    },
+    {
+      "timecode": "0:28-0:35",
+      "onscreen": "Coke made a forced U-turn.",
+      "voiceover": "By 1996, Coca-Cola surrendered. They restarted Thums Up factory lines and poured capital back into the brand.",
+      "direction": "Rachit back to direct camera angle."
+    },
+    {
+      "timecode": "0:35-0:42",
+      "onscreen": "A billion-dollar brand today.",
+      "voiceover": "Today, Thums Up is a billion-dollar brand in India. Coke is still sitting in second place.",
+      "direction": "Rachit seated, leaning forward."
+    },
+    {
+      "timecode": "0:42-0:50",
+      "onscreen": "The brand lesson.",
+      "voiceover": "Distribution can force trial, but it cannot override sensory habit. Send this to a strategist planning a product swap.",
+      "direction": "Final still frame of Rachit."
+    }
+  ],
+  "caption": "This brand case study India shows why Coca-Cola failed to replace Thums Up in 1993 despite owning distribution.\n\nWhen Coke acquired Parle's drink portfolio for $60 million, the strategy was to phase out Thums Up and shift volume to flagship Coca-Cola. Coke cut Thums Up marketing spend to zero and pulled trade incentives from distributors.\n\nInstead of moving to Coke, Indian consumers bought Pepsi. Thums Up was formulated with higher carbonation and distinct spice top-notes (cinnamon, nutmeg, clove) tailored for heavy Indian meals. Milder Coca-Cola tasted flat by comparison.\n\nCoke lost nearly 15 percent cola market share in two years before reversing the decision. They had to restart Thums Up bottling lines, restore trade margins, and fund its advertising again. Thums Up eventually became Coke's first billion-dollar brand originating from India.\n\nDistribution scale forces trial, but sensory positioning creates retention.\n\nSend this to a brand manager who thinks shelf space alone creates customer loyalty.",
+  "alt_text": "Rachit speaking on camera explaining how Coca-Cola failed to phase out Thums Up in India.",
+  "hashtags": [
+    "#brandstory",
+    "#marketingcasestudy",
+    "#advertising",
+    "#brandcampaign",
+    "#brandstrategy"
+  ],
+  "cta": "Send this to a brand manager who thinks shelf space alone creates customer loyalty.",
+  "failure_mode": "If the reel focuses too much on business trivia rather than the underlying product formulation and trade incentives, it risks reading like generic corporate history instead of a sharp positioning teardown.",
+  "sources": [
+    {
+      "title": "How Thums Up Beat Coca-Cola",
+      "url": "https://www.livemint.com/Companies/Thums-Up-Coca-Cola-history"
+    }
+  ],
+  "scheduled_for": "2026-08-26T20:00:00+05:30",
+  "status": "approved",
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-08-24/wed-thums-up-vs-coca-cola-strategy/reel-cover.jpg"
+  ],
+  "warnings": []
+}

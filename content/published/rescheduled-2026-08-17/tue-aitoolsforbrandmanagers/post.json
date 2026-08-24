@@ -1,0 +1,73 @@
+{
+  "title": "aitoolsforbrandmanagers",
+  "pillar": "AI in Marketing",
+  "format": "reel",
+  "primary_keyword": "AI tools for marketers",
+  "claim": "Marketing teams abandon AI tools because they try to automate strategic judgment rather than pattern extraction and draft creation.",
+  "hook": "Most AI tools for marketers get abandoned in three weeks because teams try to automate judgment, not draft creation.",
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "Why most AI tools for marketers fail",
+      "voiceover": "Most AI tools for marketers get abandoned after three weeks. Here is why.",
+      "direction": "Rachit talking directly to camera, waist-up framing, quiet office background."
+    },
+    {
+      "timecode": "0:03-0:08",
+      "onscreen": "The wrong job for AI",
+      "voiceover": "Marketing teams try to use AI for strategic judgment instead of draft creation.",
+      "direction": "Cut to closer frame. Text overlay appears cleanly at top third."
+    },
+    {
+      "timecode": "0:08-0:15",
+      "onscreen": "AI averages out the internet",
+      "voiceover": "Ask AI to define your brand positioning, and it will average out the entire internet. You get generic, safe noise every single time.",
+      "direction": "Back to medium shot, slight gesture for emphasis."
+    },
+    {
+      "timecode": "0:15-0:24",
+      "onscreen": "The 100-review test",
+      "voiceover": "Where it works: feed it 100 negative Amazon reviews and ask it to cluster the top five product complaints.",
+      "direction": "On-screen text shows split screen mockup: Raw data on left, clean cluster list on right."
+    },
+    {
+      "timecode": "0:24-0:32",
+      "onscreen": "Research speed: 10 hrs -> 10 mins",
+      "voiceover": "Use AI to compress research time from 10 hours to 10 minutes. Do not use it to decide what to do next.",
+      "direction": "Rachit back on screen, direct eye contact."
+    },
+    {
+      "timecode": "0:32-0:40",
+      "onscreen": "Automate extraction, not trade-offs",
+      "voiceover": "Automate the extraction, not the trade-off. The moment you ask software to make a choice, you dilute your position.",
+      "direction": "Cut to close-up."
+    },
+    {
+      "timecode": "0:40-0:46",
+      "onscreen": "Send this to your brand lead",
+      "voiceover": "Send this to a brand manager who is setting up their AI workflow this quarter.",
+      "direction": "Final shot, clear call to action on screen."
+    }
+  ],
+  "caption": "Most AI tools for marketers get abandoned in three weeks because teams try to automate judgment, not draft creation.\n\nWhen you ask an LLM to write brand positioning, it calculates the mathematical average of its training data. You get phraseology like 'customer-centric innovation' because safe averages are how the model works.\n\nWhere software actually works is pattern extraction. Feed 200 raw customer complaints into a prompt to pull out the three most common points of friction. Use it to transcribe ten sales calls and surface the exact wording customers use when asking about price.\n\nUse AI to compress research time from ten hours to ten minutes. Never use it to decide what sacrifice your brand should make.\n\nAI gives you faster synthesis, but strategic choice remains a human job.\n\nSend this to a brand manager on your team who is designing their team workflow.",
+  "alt_text": "Rachit Mishra speaking on camera about effective workflows for AI tools for marketers.",
+  "hashtags": [
+    "#aimarketing",
+    "#aitools",
+    "#martech",
+    "#brandstrategy",
+    "#marketingai"
+  ],
+  "cta": "Send this to a brand manager on your team who is designing their team workflow.",
+  "failure_mode": "If the distinction between draft synthesis and strategic choice is not sharp enough, the post could sound anti-technology rather than tactical.",
+  "scheduled_for": "2026-08-22T08:30:00+05:30",
+  "status": "published",
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-08-17/tue-aitoolsforbrandmanagers/reel-cover.jpg"
+  ],
+  "warnings": [],
+  "rescheduled_from": "manual reschedule",
+  "published_at": "2026-08-22T08:33:47.261216+05:30",
+  "media_id": "18123051016838765"
+}
