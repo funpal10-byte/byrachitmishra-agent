@@ -142,10 +142,14 @@ voice:
 schedule:
   timezone: Asia/Kolkata
   slots:
-    - { day: mon, time: "08:30", pillar: brand_strategy,    format: carousel }
+    # Reel-heavy while the account is small. Carousels only reach people who
+    # already follow you, so at a low follower count they are a retention
+    # format with nothing to retain. Reels are the only real discovery surface.
+    # Rebalance toward carousels once you are past a few hundred followers.
+    - { day: mon, time: "08:30", pillar: brand_strategy,    format: reel }
     - { day: tue, time: "19:00", pillar: ai_marketing,      format: reel }
     - { day: wed, time: "20:00", pillar: behind_the_brands, format: reel }
-    - { day: thu, time: "09:30", pillar: leadership,        format: carousel }
+    - { day: thu, time: "09:30", pillar: leadership,        format: reel }
     - { day: sat, time: "10:30", pillar: brand_strategy,    format: carousel }
 
 # ---------------------------------------------------------------------------

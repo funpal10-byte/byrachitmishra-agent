@@ -154,10 +154,28 @@ def main() -> int:
         print("[publish] IG_USER_ID / IG_ACCESS_TOKEN missing", file=sys.stderr)
         return 1
 
+    # What is already on the account. Checked against every post before it is
+    # sent, so a lost commit can never cause the same thing to post twice.
+    already_live = publish.recent_captions()
+    if already_live:
+        print(f"[publish] {len(already_live)} existing posts read for duplicate checking")
+
     failures = 0
     for f in pending:
         folder = f.parent
         post = json.loads(f.read_text(encoding="utf-8"))
+
+        first_line = (post.get("caption") or "").strip().splitlines()[0].strip().lower()[:90] \
+            if post.get("caption") else ""
+        if first_line and first_line in already_live:
+            print(f"[dupe] {folder.name} is already on the account — marking published, not resending")
+            post["status"] = "published"
+            post["published_at"] = dt.datetime.now(brand.timezone).isoformat()
+            post["media_id"] = post.get("media_id") or "recovered-duplicate"
+            f.write_text(json.dumps(post, indent=2, ensure_ascii=False), encoding="utf-8")
+            (folder / "reel.mp4").unlink(missing_ok=True)
+            archive(folder)
+            continue
         # Images live beside post.json. Resolve by filename rather than by the
         # path recorded at generation time — the folder moves from queue/ to
         # approved/ to published/, and the recorded path goes stale.

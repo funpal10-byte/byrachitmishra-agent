@@ -51,12 +51,23 @@ jobs:
           FORCE_PUBLISH: ${{ inputs.force }}
         run: python -m agent.run_publish
 
+      # `always()` is load-bearing. Without it, one failing post skips this
+      # step, the successful posts never get their status committed, and the
+      # next hourly run publishes them all over again.
       - name: Archive published posts
+        if: always()
         run: |
           git config user.name  "byrachitmishra-agent"
           git config user.email "actions@github.com"
           git add -A content
           git diff --staged --quiet && exit 0
           git commit -m "Published due posts"
-          git pull --rebase --autostash
-          git push
+          # Retry the push: promote and reschedule workflows write to the same
+          # branch, and a lost push here means a duplicate post next hour.
+          for attempt in 1 2 3; do
+            git pull --rebase --autostash && git push && exit 0
+            echo "push attempt $attempt failed, retrying"
+            sleep 5
+          done
+          echo "::error::Could not push published state after 3 attempts"
+          exit 1

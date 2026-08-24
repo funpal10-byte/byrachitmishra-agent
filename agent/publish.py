@@ -149,6 +149,34 @@ def publish_reel(post: dict, video_url: str, cover_url: str | None = None) -> st
     return published["id"]
 
 
+def recent_captions(limit: int = 40) -> set[str]:
+    """First lines of the captions already live on the account.
+
+    The repo is supposed to be the record of what has been published, but that
+    record only survives if the workflow manages to commit it. Asking Instagram
+    directly removes that dependency: if a post is already up there, it is
+    already up there, whatever the repo thinks.
+
+    Returns an empty set on any failure — this is a safety net, not a gate.
+    """
+    try:
+        data = _get(
+            f"{config.IG_USER_ID}/media",
+            {"fields": "id,caption,timestamp", "limit": limit},
+        )
+    except Exception as exc:
+        print(f"[publish] could not read existing media ({str(exc)[:120]}) — "
+              "duplicate protection is off for this run")
+        return set()
+
+    out: set[str] = set()
+    for item in data.get("data", []):
+        caption = (item.get("caption") or "").strip()
+        if caption:
+            out.add(caption.splitlines()[0].strip().lower()[:90])
+    return out
+
+
 def refresh_token(token: str) -> dict:
     """Long-lived tokens last 60 days and can be refreshed once they are at
     least 24 hours old. Returns {'access_token', 'token_type', 'expires_in'}."""

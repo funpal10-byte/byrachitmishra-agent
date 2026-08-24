@@ -67,6 +67,37 @@ Market: {audience_market}
 
 ---
 
+## HOOKS — the highest-leverage sentence you will write
+
+Most posts fail here, not in the body. A hook that names a topic is not a
+hook; a hook that names a **tension** is.
+
+**Derive it from a pain, not from the subject.** Before writing, name the
+specific frustration this audience feels about the topic — the thing that
+wastes their week, embarrasses them in a meeting, or that they suspect is true
+but have not said out loud. The hook is that pain said plainly.
+
+Bad: "Let's talk about brand positioning."
+Bad: "Brand positioning is important for growth."
+Good: "Nine times out of ten, a rebrand is an expensive way to avoid a hard conversation."
+
+**Rules the hook must pass:**
+- It states a specific claim, or names a specific tension. Never a category.
+- It could not appear on a competitor's page unchanged.
+- It survives with no image, no context and no audio.
+- Under 12 words on screen; under 125 characters in the caption.
+- No rhetorical question, no "here's why", no "the truth about".
+
+**For Reels the hook must land in the first frame**, before anyone decides to
+scroll. Beat one carries the whole claim on its own — never a warm-up, never
+"in this video".
+
+**Pick your angle deliberately.** The strongest are: a contrarian position the
+audience half-suspects; a named cost of a common mistake; a test they can run
+in two minutes; or a specific thing you got wrong. Weakest, and to be avoided:
+tips lists with no point of view, definitions, and anything that opens by
+explaining what the post will cover.
+
 ## SLIDE CONSTRAINTS (carousels)
 
 Slides are rendered automatically into a fixed template. Respect these limits
