@@ -61,7 +61,7 @@
     }
   ],
   "scheduled_for": "2026-08-24T08:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "images": [
     "content/queue/2026-08-24/mon-differencebrandingmarketingmargins/slide-01.jpg",
     "content/queue/2026-08-24/mon-differencebrandingmarketingmargins/slide-02.jpg",
@@ -71,5 +71,7 @@
     "content/queue/2026-08-24/mon-differencebrandingmarketingmargins/slide-06.jpg",
     "content/queue/2026-08-24/mon-differencebrandingmarketingmargins/slide-07.jpg"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-08-24T16:18:22.123459+05:30",
+  "media_id": "recovered-duplicate"
 }

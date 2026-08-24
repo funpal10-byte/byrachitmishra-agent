@@ -51,7 +51,7 @@
   "cta": "Forward this post to your brand manager or strategy team before your next quarterly planning session.",
   "failure_mode": "The post could be dismissed as overly familiar by senior strategists who already know the Royal Enfield turn, or readers might mistake the focus on subtraction as a push to shrink market size prematurely.",
   "scheduled_for": "2026-08-23T08:30:00+05:30",
-  "status": "approved",
+  "status": "skipped",
   "images": [
     "content/queue/2026-08-17/sat-how-to-build-a-brand-strategy-subtraction/slide-01.jpg",
     "content/queue/2026-08-17/sat-how-to-build-a-brand-strategy-subtraction/slide-02.jpg",
@@ -62,5 +62,6 @@
     "content/queue/2026-08-17/sat-how-to-build-a-brand-strategy-subtraction/slide-07.jpg"
   ],
   "warnings": [],
-  "rescheduled_from": "manual reschedule"
+  "rescheduled_from": "manual reschedule",
+  "skipped_reason": "more than 24h past its slot"
 }
