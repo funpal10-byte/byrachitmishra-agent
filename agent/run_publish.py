@@ -3,7 +3,9 @@
 Approval is the pull request merge: merging moves a batch from content/queue
 into content/approved. This script runs hourly, finds approved posts whose
 scheduled time has passed, publishes them, and files them under
-content/published so they are never published twice.
+content/published so they are never published twice. Posts that missed their
+window are retired to content/skipped instead — never to published, which
+would make the repo claim something went out when it did not.
 
 With PUBLISH_ENABLED unset it does a full dry run and prints exactly what it
 would have done — which is how you should run it for the first fortnight.
@@ -74,8 +76,14 @@ def due_posts(now: dt.datetime) -> tuple[list[Path], list[Path]]:
     return ready, stale
 
 
-def archive(folder: Path) -> None:
-    dest = config.PUBLISHED_DIR / folder.parent.name / folder.name
+def archive(folder: Path, published: bool = True) -> None:
+    """Genuinely published posts and retired ones go to different folders.
+
+    Filing a post that never went out under `published/` makes the repo lie
+    about what happened, which is worse than losing the file.
+    """
+    root = config.PUBLISHED_DIR if published else config.SKIPPED_DIR
+    dest = root / folder.parent.name / folder.name
     dest.parent.mkdir(parents=True, exist_ok=True)
     if dest.exists():
         shutil.rmtree(dest)
@@ -114,9 +122,13 @@ def main() -> int:
         # Keep the video: a skipped post has not been used, and tools/reschedule.py
         # can put it back into rotation later. Only a published post's video
         # gets deleted, since that one has served its purpose.
-        archive(f.parent)
+        archive(f.parent, published=False)
     if stale:
-        print(f"[stale] retired {len(stale)} post(s) that missed their window")
+        print(
+            f"[stale] retired {len(stale)} post(s) UNPUBLISHED — they are in "
+            "content/skipped/, not content/published/. Run the Reschedule "
+            "workflow to put them back into rotation."
+        )
 
     if not pending:
         print(f"[publish] nothing due as of {now:%Y-%m-%d %H:%M %Z}")
@@ -161,6 +173,7 @@ def main() -> int:
         print(f"[publish] {len(already_live)} existing posts read for duplicate checking")
 
     failures = 0
+    held_no_video: list[str] = []
     for f in pending:
         folder = f.parent
         post = json.loads(f.read_text(encoding="utf-8"))
@@ -194,7 +207,12 @@ def main() -> int:
             elif fmt == "reel":
                 video = folder / "reel.mp4"
                 if not video.exists():
-                    print(f"[hold] {folder.name}: no reel.mp4 yet, leaving in approved/")
+                    held_no_video.append(folder.name)
+                    print(
+                        f"[hold] {folder.name}: NO reel.mp4 — this Reel cannot publish. "
+                        "Drop a video into that folder, or it will be retired unpublished "
+                        f"once it is {STALE_AFTER_HOURS:g}h past its slot."
+                    )
                     continue
                 cover = images[0] if images else None
                 media_id = publish.publish_reel(
@@ -225,6 +243,12 @@ def main() -> int:
         archive(folder)
         print(f"[publish] live: {post.get('title')} → media {media_id}")
 
+    if held_no_video:
+        print(
+            f"\n[warn] {len(held_no_video)} Reel(s) held for a missing video: "
+            + ", ".join(held_no_video),
+            file=sys.stderr,
+        )
     return 1 if failures else 0
 
 

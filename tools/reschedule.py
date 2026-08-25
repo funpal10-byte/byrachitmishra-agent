@@ -33,7 +33,9 @@ DEFAULT_TIMES = ["08:30", "19:00", "12:30", "21:00"]
 def collect(include_approved: bool) -> list[Path]:
     """Every post.json that is unpublished and reusable, oldest first."""
     found: list[tuple[str, Path]] = []
-    roots = [config.PUBLISHED_DIR] + ([config.APPROVED_DIR] if include_approved else [])
+    roots = [config.SKIPPED_DIR, config.PUBLISHED_DIR]
+    if include_approved:
+        roots.append(config.APPROVED_DIR)
 
     for root in roots:
         for f in root.rglob("post.json"):

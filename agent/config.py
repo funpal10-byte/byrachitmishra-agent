@@ -18,6 +18,8 @@ CONTENT_DIR = ROOT / "content"
 QUEUE_DIR = CONTENT_DIR / "queue"
 APPROVED_DIR = CONTENT_DIR / "approved"
 PUBLISHED_DIR = CONTENT_DIR / "published"
+# Retired unpublished. Kept separate so "published" never means "we gave up".
+SKIPPED_DIR = CONTENT_DIR / "skipped"
 
 
 # --- model + API settings, all overridable from workflow env -----------------
