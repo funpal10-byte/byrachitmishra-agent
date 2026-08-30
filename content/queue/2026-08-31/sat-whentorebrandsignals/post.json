@@ -1,0 +1,65 @@
+{
+  "title": "whentorebrandsignals",
+  "pillar": "Brand Strategy",
+  "format": "carousel",
+  "primary_keyword": "when to rebrand",
+  "claim": "A rebrand is only justified when a company's target buyer or category positioning shifts, not when conversion rates decline due to distribution issues.",
+  "hook": "Knowing when to rebrand comes down to whether you are losing deals on price or on customer fit.",
+  "slides": [
+    {
+      "headline": "Knowing when to rebrand before spending millions"
+    },
+    {
+      "kicker": "THE MISTAKE",
+      "headline": "Redesigning visuals to fix broken retention",
+      "body": "Most teams rebrand when sales slow down. They swap typography and colors hoping to look fresh, but visual refreshes never fix product-market disconnects."
+    },
+    {
+      "kicker": "SIGNAL ONE",
+      "headline": "You are losing deals on fit, not price",
+      "body": "If prospects constantly ask for features you do not build, your positioning is bringing in the wrong buyer profile. That is a positioning signal."
+    },
+    {
+      "kicker": "SIGNAL TWO",
+      "headline": "Your actual buyer changed, but your message did not",
+      "body": "When enterprise accounts start driving 70% of revenue while your site targets SMBs, your visual identity actively suppresses your deal size."
+    },
+    {
+      "kicker": "WHEN NOT TO",
+      "headline": "Do not rebrand if CAC is spiking industry wide",
+      "body": "Spiking customer acquisition costs usually point to ad fatigue or saturated channels, not brand decay. A logo refresh will not lower your CPMs."
+    },
+    {
+      "kicker": "THE DECISION",
+      "headline": "Fix positioning before touching design elements",
+      "body": "Rebranding works only when it reflects a shift in operation, category, or customer segment. Align the underlying strategy before buying assets."
+    },
+    {
+      "headline": "Send this to a founder planning a rebrand this quarter",
+      "body": "Save this checklist for your next brand review. Follow @byrachitmishra for sharp strategy teardowns."
+    }
+  ],
+  "caption": "Knowing when to rebrand comes down to whether you are losing deals on price or on customer fit.\n\nA visual overhaul cannot fix a broken business model or a misaligned target market. When teams see declining conversion, the default reaction is often to change the logo, update the color palette, and buy new domain extensions. But if 70% of your current pipeline comes from enterprise buyers while your messaging speaks to early-stage startups, your brand identity is working against your revenue goals.\n\nA true rebrand signals an operational shift: entering a new category, serving a higher tier customer, or changing how you deliver value. If nothing about your underlying product or operational delivery has changed, a rebrand is just expensive decor.\n\nSend this to a brand manager or founder who is contemplating a rebrand this quarter.",
+  "alt_text": "Text graphic outlining when a company should rebrand based on customer acquisition and market fit.",
+  "hashtags": [
+    "#brandstrategy",
+    "#brandpositioning",
+    "#marketingstrategy",
+    "#brandbuilding",
+    "#branding"
+  ],
+  "cta": "Send this to a brand manager or founder who is contemplating a rebrand this quarter.",
+  "failure_mode": "If the distinction between positioning shifts and visual refreshes isn't razor-sharp, the advice could sound like generic anti-rebrand commentary rather than an actionable strategic audit.",
+  "scheduled_for": "2026-09-05T10:30:00+05:30",
+  "status": "draft",
+  "images": [
+    "content/queue/2026-08-31/sat-whentorebrandsignals/slide-01.jpg",
+    "content/queue/2026-08-31/sat-whentorebrandsignals/slide-02.jpg",
+    "content/queue/2026-08-31/sat-whentorebrandsignals/slide-03.jpg",
+    "content/queue/2026-08-31/sat-whentorebrandsignals/slide-04.jpg",
+    "content/queue/2026-08-31/sat-whentorebrandsignals/slide-05.jpg",
+    "content/queue/2026-08-31/sat-whentorebrandsignals/slide-06.jpg",
+    "content/queue/2026-08-31/sat-whentorebrandsignals/slide-07.jpg"
+  ],
+  "warnings": []
+}
