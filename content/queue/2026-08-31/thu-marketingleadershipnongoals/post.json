@@ -1,0 +1,64 @@
+{
+  "title": "marketingleadershipnongoals",
+  "pillar": "Leadership",
+  "format": "reel",
+  "primary_keyword": "marketing leadership",
+  "claim": "Effective marketing leadership requires setting explicit non-goals to prevent budget and team bandwidth dilution.",
+  "hook": "Real marketing leadership is built on deciding what your brand will intentionally ignore.",
+  "reel_script": [
+    {
+      "timecode": "0:00-0:05",
+      "onscreen": "Marketing leadership is about what you ignore.",
+      "voiceover": "Real marketing leadership is built on deciding what your team will intentionally ignore.",
+      "direction": "Rachit sitting at desk, speaking direct to camera with a calm, deliberate tone."
+    },
+    {
+      "timecode": "0:05-0:12",
+      "onscreen": "Weak leaders approve every good idea.",
+      "voiceover": "Weak marketing leaders say yes to every decent idea. They split focus across five platforms and wonder why campaign reach falls below threshold.",
+      "direction": "Medium close-up. Rachit gestures plainly with open hands."
+    },
+    {
+      "timecode": "0:12-0:19",
+      "onscreen": "Strategy requires explicit subtraction.",
+      "voiceover": "If you try to target three distinct segments at once, you dilute your budget until no single audience sees your messaging enough times to care.",
+      "direction": "Cut to tight framing on Rachit delivering the line without moving."
+    },
+    {
+      "timecode": "0:19-0:26",
+      "onscreen": "Set 3 explicit non-goals every quarter.",
+      "voiceover": "Define three non-goals every quarter. Name the platforms, formats, or campaigns your team will refuse to execute.",
+      "direction": "Rachit writing three quick bullet points on a plain paper pad, then looking back up."
+    },
+    {
+      "timecode": "0:26-0:33",
+      "onscreen": "Protect team bandwidth for main plays.",
+      "voiceover": "When you kill low-impact distractions early, your team spends 100% of their bandwidth executing the single positioning play that builds brand equity.",
+      "direction": "Return to medium direct shot."
+    },
+    {
+      "timecode": "0:33-0:39",
+      "onscreen": "Send this to a leader who needs focus.",
+      "voiceover": "Send this to a marketing manager who is currently balancing too many priorities at once.",
+      "direction": "Rachit leaning in slightly toward the lens."
+    }
+  ],
+  "caption": "Real marketing leadership is built on deciding what your brand will intentionally ignore. When marketing heads try to capture three distinct audiences across five channels simultaneously, campaign budgets get diluted below effective frequency thresholds. Managing a team requires setting explicit non-goals every quarter so resources stay concentrated on core growth drivers. If you cannot name three projects your team deliberately rejected this month, you are managing a queue rather than leading strategy. Send this to a marketing manager who is currently managing too many priorities at once.",
+  "alt_text": "Rachit Mishra sitting at a desk speaking directly to camera about marketing leadership choices.",
+  "hashtags": [
+    "#marketingleadership",
+    "#leadershiplessons",
+    "#careergrowth",
+    "#teamculture",
+    "#leadership"
+  ],
+  "cta": "Send this to a marketing manager who is currently managing too many priorities at once.",
+  "failure_mode": "If the message feels like generic productivity advice rather than a specific resource-allocation rule for marketing leaders.",
+  "scheduled_for": "2026-09-03T09:30:00+05:30",
+  "status": "draft",
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-08-31/thu-marketingleadershipnongoals/reel-cover.jpg"
+  ],
+  "warnings": []
+}

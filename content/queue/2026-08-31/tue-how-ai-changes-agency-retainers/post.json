@@ -1,0 +1,70 @@
+{
+  "title": "how_ai_changes_agency_retainers",
+  "pillar": "AI in Marketing",
+  "format": "reel",
+  "primary_keyword": "how AI is changing marketing",
+  "claim": "AI reduces the cost of creative execution to zero, forcing marketing budgets to shift entirely from paying for production volume to paying for strategic judgment.",
+  "hook": "How AI is changing marketing isn't by replacing creative work, but by making generic execution cost zero.",
+  "reel_script": [
+    {
+      "timecode": "0:00-0:04",
+      "onscreen": "Generic work now costs zero.",
+      "voiceover": "How AI is changing marketing isn't by replacing your job. It is by making generic execution cost zero.",
+      "direction": "Rachit speaking directly to camera, sitting at desk."
+    },
+    {
+      "timecode": "0:04-0:09",
+      "onscreen": "80% of budget was asset creation.",
+      "voiceover": "For twenty years, agency retainers bought asset volume: ten ad variations, five emails, twenty social graphics.",
+      "direction": "Cut to close-up, straightforward delivery."
+    },
+    {
+      "timecode": "0:09-0:15",
+      "onscreen": "Production time drops to seconds.",
+      "voiceover": "AI tools generate those variations in three seconds. If your team is still billing for execution hours, you are paying a tax on slow software.",
+      "direction": "Rachit leans forward slighty."
+    },
+    {
+      "timecode": "0:15-0:21",
+      "onscreen": "Output explodes, attention doesn't.",
+      "voiceover": "When production cost drops to zero, content volume increases tenfold. But consumer attention stays exactly the same.",
+      "direction": "Text overlay on clean shot."
+    },
+    {
+      "timecode": "0:21-0:27",
+      "onscreen": "AI can't pick your trade-offs.",
+      "voiceover": "The bottleneck isn't production anymore. It is filter strength. AI generates a hundred taglines, but cannot choose which operational trade-off your brand will stand behind.",
+      "direction": "Direct camera angle, clear emphasis."
+    },
+    {
+      "timecode": "0:27-0:33",
+      "onscreen": "Pay for judgment, not volume.",
+      "voiceover": "Stop evaluating agency scopes by deliverable count. Start paying for the bad positioning decisions they prevent you from making.",
+      "direction": "Medium shot, calm authority."
+    },
+    {
+      "timecode": "0:33-0:37",
+      "onscreen": "Send this to your brand lead.",
+      "voiceover": "Send this to your brand manager or agency partner before your next scope review.",
+      "direction": "Final wrap-up shot to camera."
+    }
+  ],
+  "caption": "How AI is changing marketing isn't by replacing creative work, but by making generic execution cost zero.\n\nHistorically, brand retainers were priced on deliverable volume: 15 ad variations, 4 email sequences, 20 social banners. Generative tools now produce that baseline output in seconds.\n\nWhen production costs collapse, flooding channels with mid-tier assets creates noise, not market share. The constraint shifts from how fast your team can execute to how sharply your team can filter.\n\nAn algorithm can produce fifty campaign hooks, but it cannot decide which customer segment your positioning explicitly sacrifices.\n\nAI doesn't eliminate marketers; it eliminates the leverage of charging human hours for mechanical execution.\n\nSend this to your brand manager or agency lead before setting your next scope of work.",
+  "alt_text": "Rachit Mishra speaking to camera about how AI changes agency scopes and brand budgets.",
+  "hashtags": [
+    "#aimarketing",
+    "#aiinmarketing",
+    "#marketingai",
+    "#futureofmarketing",
+    "#martech"
+  ],
+  "cta": "Send this to your brand manager or agency lead before setting your next scope of work.",
+  "failure_mode": "The post risks sounding like generic AI commentary if the specific focus on agency scope models and retainer pricing is diluted.",
+  "scheduled_for": "2026-09-01T19:00:00+05:30",
+  "status": "draft",
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-08-31/tue-how-ai-changes-agency-retainers/reel-cover.jpg"
+  ],
+  "warnings": []
+}
