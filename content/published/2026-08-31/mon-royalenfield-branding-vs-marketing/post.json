@@ -73,10 +73,12 @@
     }
   ],
   "scheduled_for": "2026-08-31T08:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "video": "reel.mp4",
   "images": [
     "content/queue/2026-08-31/mon-royalenfield-branding-vs-marketing/reel-cover.jpg"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-08-31T10:53:06.878745+05:30",
+  "media_id": "17985919602102209"
 }
