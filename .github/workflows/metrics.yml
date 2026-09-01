@@ -1,0 +1,55 @@
+name: Metrics
+
+# Pulls per-post reach, saves and sends from Instagram into state/metrics.json
+# and state/METRICS.md. Runs before the Sunday generate job so the generator
+# can read what actually happened last week.
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Sunday 05:30 IST (00:00 UTC) — ahead of generate.yml.
+    - cron: "0 0 * * 0"
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch insights
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_API_VERSION: ${{ vars.IG_API_VERSION }}
+        run: python -m agent.metrics --limit 50
+
+      - name: Commit metrics
+        if: always()
+        run: |
+          git config user.name  "byrachitmishra-agent"
+          git config user.email "actions@github.com"
+          git add state/ || true
+          if git diff --staged --quiet; then
+            echo "no change in metrics"
+            exit 0
+          fi
+          git commit -m "metrics: weekly insights refresh"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "::error::could not push metrics after 3 attempts"
+          exit 1

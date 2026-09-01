@@ -1,0 +1,66 @@
+name: Repurpose
+
+# Turns each queued Instagram post into a LinkedIn draft and a blog outline.
+# Runs after the Sunday generate job, and can be run by hand any time.
+#
+# Nothing here publishes anything. The output is drafts for a human.
+
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Rewrite drafts that already exist"
+        type: boolean
+        default: false
+  schedule:
+    # Sunday 07:30 IST (02:00 UTC) — after generate.yml has opened its PR.
+    - cron: "0 2 * * 0"
+
+permissions:
+  contents: write
+
+jobs:
+  repurpose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Write LinkedIn and blog drafts
+        env:
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python -m agent.repurpose ${{ inputs.force && '--force' || '' }}
+
+      # `always()` for the same reason it is on publish.yml's archive step:
+      # a partial failure must not throw away the drafts that did succeed.
+      - name: Commit drafts
+        if: always()
+        run: |
+          git config user.name  "byrachitmishra-agent"
+          git config user.email "actions@github.com"
+          git add content/ || true
+          if git diff --staged --quiet; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          git commit -m "repurpose: LinkedIn and blog drafts"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              echo "pushed on attempt $i"
+              exit 0
+            fi
+            echo "push attempt $i failed; retrying"
+            sleep 5
+          done
+          echo "::error::could not push drafts after 3 attempts"
+          exit 1

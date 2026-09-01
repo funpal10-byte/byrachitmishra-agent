@@ -1,0 +1,77 @@
+name: From Blog
+
+# Turns articles on rachitmishra.in into queued Instagram posts.
+# Manual only — you decide when to draw down the backlog, and how fast.
+#
+# Ten articles are sitting unused. At 2/day that is a five-day run of posts
+# built on real research rather than a weekly web search.
+
+on:
+  workflow_dispatch:
+    inputs:
+      count:
+        description: "How many articles to convert"
+        type: string
+        default: "2"
+      per_day:
+        description: "Posts per day when scheduling them"
+        type: string
+        default: "1"
+      list_only:
+        description: "Just list unused articles, generate nothing"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  from-blog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Convert articles
+        env:
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          BLOG_FEED_URL: ${{ vars.BLOG_FEED_URL }}
+        run: |
+          if [ "${{ inputs.list_only }}" = "true" ]; then
+            python -m agent.from_blog --list
+          else
+            python -m agent.from_blog \
+              --count "${{ inputs.count }}" \
+              --per-day "${{ inputs.per_day }}"
+          fi
+
+      # Same reason as everywhere else: a partial failure must not discard
+      # the posts that did get written.
+      - name: Commit queued posts
+        if: always()
+        run: |
+          git config user.name  "byrachitmishra-agent"
+          git config user.email "actions@github.com"
+          git add content/ state/ || true
+          if git diff --staged --quiet; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          git commit -m "from_blog: queue posts from published articles"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "::error::could not push after 3 attempts"
+          exit 1
