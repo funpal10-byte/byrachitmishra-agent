@@ -1,0 +1,76 @@
+{
+  "title": "surf_excel_daag_acche_hain_strategy",
+  "pillar": "Behind the Brands",
+  "format": "reel",
+  "primary_keyword": "why this ad worked",
+  "claim": "Surf Excel won market share by repositioning stain creation from a parenting failure into evidence of good character.",
+  "hook": "If you want to understand why this ad worked so well, look at how Surf Excel reframed dirt.",
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "Why Surf Excel stopped selling clean clothes",
+      "voiceover": "In 2005, every detergent brand in India was pitching the exact same benefit: whiter clothes.",
+      "direction": "Rachit on camera talking directly to lens in studio."
+    },
+    {
+      "timecode": "0:03-0:08",
+      "onscreen": "The category trap: Fighting over whiteness",
+      "voiceover": "Nirma, Tide, and Ariel were locked in a feature war. Surf Excel was losing margin trying to out-claim them on stain removal.",
+      "direction": "Visual cut to split screen showing standard detergent packaging of the era."
+    },
+    {
+      "timecode": "0:08-0:14",
+      "onscreen": "The insight: Stains carry emotional guilt",
+      "voiceover": "Lowe Lintas spotted the real tension: mothers felt guilt when kids got dirty, because dirt signaled extra labor and poor supervision.",
+      "direction": "Rachit back on camera holding a plain white shirt."
+    },
+    {
+      "timecode": "0:14-0:20",
+      "onscreen": "Daag Acche Hain: Flipping the negative",
+      "voiceover": "Instead of promising to eliminate dirt faster, they reframed the stain as proof of a child's moral development.",
+      "direction": "Overlay graphic of the iconic 2005 brother fighting the puddle ad campaign."
+    },
+    {
+      "timecode": "0:20-0:25",
+      "onscreen": "If a stain did good, dirt is good",
+      "voiceover": "If getting dirty meant helping someone, the stain was no longer a mistake. It was an achievement.",
+      "direction": "Rachit on camera."
+    },
+    {
+      "timecode": "0:25-0:31",
+      "onscreen": "From product feature to moral permission",
+      "voiceover": "That single positioning shift pulled Surf Excel out of price wars and gave parents permission to pay a premium.",
+      "direction": "Simple animated diagram showing commodity feature vs emotional reframe."
+    },
+    {
+      "timecode": "0:31-0:36",
+      "onscreen": "The takeaway for brand strategy",
+      "voiceover": "When your category is stuck competing on features, stop optimizing the feature. Reframe the consequence.",
+      "direction": "Rachit on camera, closing direct takeaway."
+    }
+  ],
+  "caption": "If you want to understand why this ad worked so well, look at how Surf Excel reframed dirt.\n\nIn 2005, the Indian detergent category was stuck in a brutal feature war. Ariel, Tide, and Nirma were all claiming superior whiteness and faster stain removal. When every competitor claims the exact same functional outcome, price becomes your only differentiator.\n\nSurf Excel broke out by addressing the emotional tension behind the product. For parents, mud on a uniform meant extra labor and implied poor supervision. Lowe Lintas inverted that framing entirely with 'Daag Acche Hain' (Dirt is Good).\n\nIf a child got dirty while standing up for a sibling or helping a teacher, the stain became proof of good upbringing. Detergent was no longer just cleaning powder; it was the tool that removed the penalty of doing the right thing.\n\nGreat positioning does not invent new product features. It changes what the customer feels when the product is used.\n\nSend this to your brand lead before your next campaign positioning meeting.",
+  "alt_text": "Rachit Mishra explaining Surf Excel's advertising strategy on camera.",
+  "hashtags": [
+    "#brandstory",
+    "#marketingcasestudy",
+    "#advertising",
+    "#brandcampaign",
+    "#brandstrategy"
+  ],
+  "cta": "Send this to your brand lead before your next campaign positioning meeting.",
+  "failure_mode": "If the viewer treats this purely as a nostalgic ad breakdown rather than an operational framework for category reframing, the strategic leverage gets lost.",
+  "sources": [
+    {
+      "title": "Lowe Lintas Surf Excel Case Archive",
+      "url": "https://www.lowelintas.in"
+    }
+  ],
+  "scheduled_for": "2026-09-02T20:00:00+05:30",
+  "status": "approved",
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-08-31/wed-surf-excel-daag-acche-hain-strategy/reel-cover.jpg"
+  ],
+  "warnings": []
+}

@@ -68,10 +68,12 @@
   "failure_mode": "The advice could be mistaken for basic prompt engineering rather than a strategic commentary on positioning and business trade-offs.",
   "sources": [],
   "scheduled_for": "2026-08-25T19:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "video": "reel.mp4",
   "images": [
     "content/queue/2026-08-24/tue-generativeaimarketingtradeoffs/reel-cover.jpg"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-08-25T20:27:53.666264+05:30",
+  "media_id": "17947588470267574"
 }
