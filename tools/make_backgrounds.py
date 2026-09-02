@@ -186,8 +186,12 @@ def main() -> int:
     brand = config.load_brand()
     d = brand.design
     base = _hex(d.get("bg_alt", "#14161a"))[None, None, :] * np.ones((H, W, 1))
-    accent = _hex(d.get("accent", "#7c3aed"))
-    second = _hex("#1e3a8a")  # midnight blue, to stop it reading as one-note
+    accent = _hex(d.get("accent", "#b0492a"))
+    # A cool counterpoint stops the set reading as one-note. It was hardcoded
+    # midnight blue, chosen against the old violet accent; with oxide, slate
+    # is the pairing that works. Override it in brand.yml with
+    # `design.bg_second` if you want a different second colour.
+    second = _hex(d.get("bg_second") or "#2f5d6e")
 
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)

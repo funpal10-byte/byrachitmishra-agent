@@ -25,9 +25,16 @@
     position:relative;
   }
 
-  /* ---- hook slide: dark, oversized, no body copy ---- */
-  .slide.hook{ background:{{ d.bg_alt }}; color:#fff; justify-content:center; position:relative }
+  /* ---- hook slide: LIGHT, oversized, no body copy ----
+     Slide one carries text somebody has to actually read, and long text on a
+     dark ground at thumbnail size is measurably harder work. A near-white slab
+     is also a bigger luminance step against a feed of mid-tone photography
+     than any saturated colour, so this is the stronger scroll-stopper too.
+     The exception is a photo hook, which still needs a dark scrim — see the
+     `.photo` variant below. */
+  .slide.hook{ background:{{ d.bg }}; color:{{ d.ink }}; justify-content:center; position:relative }
   {% if bg_image %}
+  .slide.hook{ background:{{ d.bg_alt }}; color:#fff }
   /* A photo from images/ behind the hook slide, under a scrim heavy enough
      that the headline stays readable at thumbnail size in the grid. */
   .slide.hook:before{
@@ -56,10 +63,20 @@
     color:{{ d.accent }};margin-bottom:24px;
   }
 
-  /* ---- cta slide: accent field ---- */
-  .slide.cta{ background:{{ d.accent }}; color:#fff; justify-content:center }
+  /* ---- close slide: the one inversion in the carousel ----
+     Was a full-bleed accent field. A whole slide of oxide is very loud, and
+     more importantly the inversion means something only if it is rare: one
+     dark frame at the end reads as the argument landing. Two would read as
+     noise, which is why nothing else in this template inverts. */
+  .slide.cta{
+    background:{{ d.bg_alt }}; color:#f2f1ee; justify-content:center;
+  }
+  .slide.cta:before{
+    content:"";position:absolute;left:0;top:0;bottom:0;width:14px;
+    background:{{ d.accent }};
+  }
   .slide.cta .headline{ font-size:72px;line-height:1.1;letter-spacing:-.025em;font-weight:700 }
-  .slide.cta .body{ font-size:38px;line-height:1.45;margin-top:36px;color:rgba(255,255,255,.9) }
+  .slide.cta .body{ font-size:38px;line-height:1.45;margin-top:36px;color:rgba(242,241,238,.72) }
 
   /* ---- body slides ---- */
   .kicker{
@@ -87,14 +104,21 @@
     opacity:{{ d.logo_opacity | default(0.92) }};
   }
   .foot .handle{ font-size:24px;font-weight:600;opacity:.75 }
-  .slide.hook .foot,.slide.cta .foot{ color:rgba(255,255,255,.65) }
-  .slide.body-slide .foot{ color:#9aa0a6 }
+  /* The hook is light now, so its footer takes the light-ground treatment;
+     only the close slide (and a photo hook) sit on dark. */
+  .slide.cta .foot{ color:rgba(242,241,238,.62) }
+  .slide.hook .foot,
+  .slide.body-slide .foot{ color:{{ d.ink_soft }} }
   .num{ font-variant-numeric:tabular-nums }
 
   .swipe{
     position:absolute;right:88px;bottom:150px;font-size:30px;font-weight:600;
-    color:rgba(255,255,255,.75);
+    color:{{ d.ink_soft }};
   }
+  {% if bg_image %}
+  .slide.hook .foot{ color:rgba(255,255,255,.65) }
+  .slide.hook .swipe{ color:rgba(255,255,255,.75) }
+  {% endif %}
 </style>
 </head>
 <body>

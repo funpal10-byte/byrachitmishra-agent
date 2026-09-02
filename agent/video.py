@@ -85,14 +85,23 @@ def beat_durations(beats: list[dict]) -> list[float]:
 def _background_prompt(post: dict, brand) -> str:
     pillar = brand.pillars.get(post.get("pillar", ""))
     topic = post.get("primary_keyword") or (pillar.name if pillar else "marketing")
+    # Colours follow brand.yml rather than being hardcoded, so a palette
+    # change carries through to AI backgrounds too. The old prompt asked for
+    # violet and midnight blue, which belonged to the previous accent.
+    d = getattr(brand, "design", {}) or {}
+    accent = d.get("accent") or "#b0492a"
+    base = d.get("bg_alt") or "#16181a"
     return (
         "Abstract editorial background image for a premium business social video. "
         f"Theme: {topic}. "
-        "Dark near-black base with deep violet and midnight blue light, soft "
-        "gradients, subtle geometric structure, gentle film grain. Cinematic, "
-        "restrained, expensive-looking. Vertical 9:16 composition with the centre "
-        "kept visually calm and uncluttered so large white text can sit on top. "
-        "Absolutely no text, no letters, no numbers, no logos, no people, no faces."
+        f"Dark near-black base around {base}, lit with oxide and burnt-orange "
+        f"tones around {accent} and cool slate shadow, soft gradients, subtle "
+        "geometric structure, gentle film grain. The register is heavy industry "
+        "rather than software — furnace light, weathered metal, warm rust — "
+        "cinematic, restrained, expensive-looking. Vertical 9:16 composition "
+        "with the centre kept visually calm and uncluttered so large white text "
+        "can sit on top. Absolutely no text, no letters, no numbers, no logos, "
+        "no people, no faces."
     )
 
 

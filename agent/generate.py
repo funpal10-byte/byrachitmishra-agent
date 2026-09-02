@@ -4,9 +4,33 @@ from __future__ import annotations
 
 import json
 import re
+from pathlib import Path
 
 from . import llm
 from .schema import POST_SCHEMA, check_voice, validate
+
+# Both of these are additive and both fail soft. A missing hook library or an
+# empty metrics file must never stop a week from being generated.
+try:
+    from .metrics import brief_context
+except Exception:  # noqa: BLE001
+    def brief_context(max_examples: int = 5) -> str:  # type: ignore[misc]
+        return ""
+
+_HOOKS_FILE = Path(__file__).resolve().parent.parent / "prompts" / "hooks.md"
+
+
+def _hook_library() -> str:
+    """Opening structures written for this account's register.
+
+    Appended to the system prompt rather than pasted into system.md so the
+    two can be edited independently — the library changes as hooks are tested,
+    the strategist brief does not.
+    """
+    try:
+        return _HOOKS_FILE.read_text(encoding="utf-8")
+    except OSError:
+        return ""
 
 
 USER_TEMPLATE = """Write one Instagram post for this slot.
@@ -59,6 +83,15 @@ def generate_post(
     brief: str,
     recent_titles: list[str],
 ) -> dict:
+    # What actually happened to what we published. Returns an empty string
+    # until there are enough measured posts to say something true, so early
+    # runs are unchanged — feeding the model noise and calling it insight is
+    # worse than telling it nothing.
+    performance = brief_context()
+    full_brief = brief or "(no brief available this week — write evergreen)"
+    if performance:
+        full_brief = f"{full_brief}\n\n{performance}"
+
     user = USER_TEMPLATE.format(
         pillar_name=pillar.name,
         fmt=fmt,
@@ -66,10 +99,14 @@ def generate_post(
         keywords=", ".join(pillar.keywords),
         long_tail="; ".join(pillar.long_tail),
         hashtags=" ".join(pillar.hashtags),
-        brief=brief or "(no brief available this week — write evergreen)",
+        brief=full_brief,
         recent="\n".join(f"- {t}" for t in recent_titles) or "(nothing yet)",
         schema=json.dumps(POST_SCHEMA, indent=2),
     )
+
+    hooks = _hook_library()
+    if hooks:
+        system_prompt = f"{system_prompt}\n\n---\n\n{hooks}"
 
     messages = [{"role": "user", "content": user}]
     post: dict = {}

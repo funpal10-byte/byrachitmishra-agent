@@ -53,8 +53,11 @@ def render_carousel(post: dict, brand, out_dir: Path, index: int = 0) -> list[Pa
 
     hook_bg = assets.pick_image(post.get("pillar", ""), index) if PHOTO_HOOK else None
 
-    # Hook and CTA slides are dark, body slides are light, so each needs the
-    # opposite mark. Encoded once here rather than in the template.
+    # Ground per slide, and therefore which mark reads on it. The hook slide
+    # moved from dark to light (see templates/slide.html), so it now takes the
+    # dark mark like the body slides; only the closing slide is inverted. A
+    # photo hook is the exception — it keeps its dark scrim, so it keeps the
+    # light mark.
     show_logo = brand.design.get("show_logo", True)
     marks = {
         k: (assets.data_uri(assets.logo(k)) if show_logo else "")
@@ -83,7 +86,10 @@ def render_carousel(post: dict, brand, out_dir: Path, index: int = 0) -> list[Pa
                 index=i + 1,
                 total=len(slides),
                 bg_image=(assets.data_uri(hook_bg) if i == 0 else ""),
-                logo=marks[{"hook": "light", "cta": "white"}.get(_slide_kind(i, len(slides)), "dark")],
+                logo=marks[
+                    "light" if (i == 0 and hook_bg) else
+                    {"cta": "white"}.get(_slide_kind(i, len(slides)), "dark")
+                ],
                 d=d,
                 W=d["slide_width"],
                 H=d["slide_height"],

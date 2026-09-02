@@ -25,7 +25,7 @@
   .bg{
     background:
       radial-gradient(120% 80% at 20% 12%, {{ d.accent }}55 0%, transparent 60%),
-      radial-gradient(100% 70% at 85% 88%, #1e3a8a55 0%, transparent 55%),
+      radial-gradient(100% 70% at 85% 88%, {{ d.bg_second | default('#2f5d6e') }}55 0%, transparent 55%),
       {{ d.bg_alt }};
   }
   {% endif %}
@@ -43,19 +43,21 @@
 
   .kicker{
     font-size:34px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;
-    color:{{ d.accent }};margin-bottom:36px;
+    /* Oxide on near-black is about 3.5:1 — too low for text. brand.yml
+       carries a lifted variant for exactly this. */
+    color:{{ d.accent_on_dark | default(d.accent) }};margin-bottom:36px;
   }
   .line{
     font-size:{{ size }}px;line-height:1.12;letter-spacing:-.025em;font-weight:800;
     text-shadow:0 4px 40px rgba(0,0,0,.55);
   }
-  .accentbar{width:150px;height:12px;border-radius:99px;background:{{ d.accent }};margin-bottom:44px}
+  .accentbar{width:150px;height:12px;border-radius:99px;background:{{ d.accent_on_dark | default(d.accent) }};margin-bottom:44px}
 
   .progress{
     position:absolute;left:96px;right:96px;bottom:250px;
     height:8px;border-radius:99px;background:rgba(255,255,255,.18);overflow:hidden;
   }
-  .progress i{display:block;height:100%;border-radius:99px;background:{{ d.accent }};width:{{ pct }}%}
+  .progress i{display:block;height:100%;border-radius:99px;background:{{ d.accent_on_dark | default(d.accent) }};width:{{ pct }}%}
 
   .handle{
     position:absolute;left:96px;bottom:172px;
