@@ -67,10 +67,12 @@
     }
   ],
   "scheduled_for": "2026-09-02T20:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "video": "reel.mp4",
   "images": [
     "content/queue/2026-08-31/wed-surf-excel-daag-acche-hain-strategy/reel-cover.jpg"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-09-03T00:06:40.965244+05:30",
+  "media_id": "18439031743126392"
 }
