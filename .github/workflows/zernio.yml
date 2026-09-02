@@ -1,0 +1,72 @@
+name: Zernio
+
+# Cross-posts a finished Reel to YouTube Shorts (and LinkedIn, if a personal
+# profile turns out to be connectable). Manual only — this publishes to
+# platforms outside the Instagram pipeline and should never fire on a timer
+# until it has been watched working a few times.
+#
+# Run it with mode "check" first. That is read-only and tells us what Zernio
+# can actually see, which decides everything else.
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "check = list accounts (safe). post = cross-post a Reel."
+        type: choice
+        options: [check, post]
+        default: check
+      folder:
+        description: "Post folder, e.g. content/published/2026-09-01-some-post"
+        type: string
+        default: ""
+      only:
+        description: "Limit to one platform (blank = all connected)"
+        type: choice
+        options: ["", youtube, linkedin]
+        default: ""
+      send:
+        description: "Actually publish. Leave OFF for a dry run first."
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  zernio:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Check connected accounts
+        if: inputs.mode == 'check'
+        env:
+          ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
+          ZERNIO_API_BASE: ${{ vars.ZERNIO_API_BASE }}
+        run: python -m agent.zernio --check
+
+      - name: Cross-post a Reel
+        if: inputs.mode == 'post'
+        env:
+          ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
+          ZERNIO_API_BASE: ${{ vars.ZERNIO_API_BASE }}
+          ASSET_BASE_URL: ${{ vars.ASSET_BASE_URL }}
+          GITHUB_REPO: ${{ github.repository }}
+          GITHUB_BRANCH: ${{ github.ref_name }}
+        run: |
+          if [ -z "${{ inputs.folder }}" ]; then
+            echo "::error::mode=post needs a folder"
+            exit 1
+          fi
+          python -m agent.zernio \
+            --post "${{ inputs.folder }}" \
+            ${{ inputs.only != '' && format('--only {0}', inputs.only) || '' }} \
+            ${{ inputs.send && '--send' || '' }}
