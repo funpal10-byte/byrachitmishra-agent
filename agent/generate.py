@@ -17,7 +17,19 @@ except Exception:  # noqa: BLE001
     def brief_context(max_examples: int = 5) -> str:  # type: ignore[misc]
         return ""
 
-_HOOKS_FILE = Path(__file__).resolve().parent.parent / "prompts" / "hooks.md"
+_PROMPT_DIR = Path(__file__).resolve().parent.parent / "prompts"
+
+
+def _read_prompt(name: str) -> str:
+    """A supplementary prompt file, or "" if it is not there.
+
+    Missing files are never fatal: a week must still generate if someone
+    renames or removes one of these.
+    """
+    try:
+        return (_PROMPT_DIR / name).read_text(encoding="utf-8")
+    except OSError:
+        return ""
 
 
 def _hook_library() -> str:
@@ -27,10 +39,7 @@ def _hook_library() -> str:
     two can be edited independently — the library changes as hooks are tested,
     the strategist brief does not.
     """
-    try:
-        return _HOOKS_FILE.read_text(encoding="utf-8")
-    except OSError:
-        return ""
+    return _read_prompt("hooks.md")
 
 
 USER_TEMPLATE = """Write one Instagram post for this slot.
@@ -107,6 +116,14 @@ def generate_post(
     hooks = _hook_library()
     if hooks:
         system_prompt = f"{system_prompt}\n\n---\n\n{hooks}"
+
+    # Carousels carry a fixed frame grammar; Reels do not. Loading it only for
+    # the format that uses it keeps the Reel prompt from being padded with
+    # rules it must then ignore.
+    if fmt == "carousel":
+        grammar = _read_prompt("carousel-grammar.md")
+        if grammar:
+            system_prompt = f"{system_prompt}\n\n---\n\n{grammar}"
 
     messages = [{"role": "user", "content": user}]
     post: dict = {}

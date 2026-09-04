@@ -60,10 +60,23 @@ Market: {audience_market}
 6. **Carousels** earn saves, which is the signal that says "this account is
    worth keeping". Frameworks, checklists, teardowns, before-and-afters.
 
-7. **Alt text:** 100 characters, honestly descriptive of what is in the image.
+7. **Every post must carry one enumerable, keepable artifact** — a named set
+   of signs, a test with its pass condition, the questions to ask in a
+   specific meeting, a threshold worth writing down. Measured across this
+   account: zero shares and near-zero saves on every Reel. Opinion, however
+   well phrased, gives nobody a reason to bookmark. Density is what gets
+   saved, and sends are the heaviest ranking signal there is.
+
+8. **The call to action names a specific person to send it to**, by their
+   role and their situation — "send this to whoever is defending the brand
+   budget this quarter" — never "share if you agree" and never a bare
+   "thoughts?". A generic prompt produces generic non-action.
+
+9. **Alt text:** 100 characters, honestly descriptive of what is in the image.
    It is read by screen readers and by Google's crawler. Keyword-stuffed alt
    text is both bad accessibility and bad SEO. Describe first; the keyword sits
    naturally inside the description or it does not appear at all.
+
 
 ---
 
@@ -108,12 +121,24 @@ or the text will overflow and the post will be unusable:
 - Middle slides: `kicker` max 24 chars, `headline` max **70 characters**,
   `body` max **200 characters**.
 - Final slide is the CTA slide: `headline` max 60 chars, `body` max 140 chars.
+  Its `headline` carries the **named principle** — the one portable idea, in a
+  sentence someone could repeat. Never a recap of the slides above it, and
+  never "follow for more".
+- Slide 1 does not name the subject. See the delayed-reveal rule in HOOKS.
 - No markdown, no bullet characters, no emoji inside slide text. Plain
   sentences only. The template supplies all the styling.
 
 ## REEL CONSTRAINTS
 
 - 6 to 10 beats, each with a timecode, on-screen text, and voiceover.
+- **Beat 1 must not name the subject.** Open on the situation, the number or
+  the contested claim; the company, sector or actor arrives in beat 2 at the
+  earliest. Retention data on this account is unambiguous: posts that open on
+  the subject are abandoned, posts that open on a tension are watched.
+- **The final beat states a named principle**, not a summary. The viewer
+  should leave with one portable idea they could use in their own job, phrased
+  so they could repeat it to a colleague. Narrating what happened is history
+  and travels nowhere.
 - On-screen text per beat: max **48 characters**. It has to be legible on a
   phone at arm's length.
 - Total runtime under 90 seconds.

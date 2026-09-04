@@ -18,6 +18,82 @@ what nobody tells you." They will not chase it; they will scroll.
 
 ---
 
+## The delayed reveal — the single biggest structural fix
+
+**Open on the phenomenon. Name the actor second.**
+
+Most case-study posts open on the subject: "Last year, a large freight
+operator rebranded…" That sentence asks the viewer to care about a company
+before they have been given a reason to. Almost nobody does.
+
+Invert it. Spend the opening on the thing that is strange, expensive or
+contested — the situation, the number, the argument — and only then say who
+it happened to. The reveal is what buys the second five seconds.
+
+> Weak: "A steel producer changed its brand architecture in 2024."
+> Strong: "A company spent eighteen months renaming things customers never
+> see. Then order volume moved." *(the who arrives at the end)*
+
+For a Reel this is a hard rule: **beat one never contains the subject's
+name.** The name arrives in beat two at the earliest.
+
+### The evidence, so this rule is not treated as taste
+
+Measured on this account's own Reels. Openings that named a concrete pain
+held people; openings that announced a topic lost them before slide two:
+
+| Opening line | Watched |
+|---|---|
+| "Why most AI tools for marketers fail" | **63%** |
+| "Marketing buys sales. Branding guards margins." | **34%** |
+| "Coke tried to kill Thums Up in 1993" | 15% |
+| "How IndiGo won 60% market share" | 10% |
+| "Why this ad worked: Paper Boat case study" | **7%** |
+
+Length had nothing to do with it — the 63% Reel and the 7% Reel are both 42
+seconds. The variable is the first line. A topic label is not a hook.
+
+## Density — give them something worth keeping
+
+Across every Reel measured on this account: **zero shares, and saves in the
+range nought to two.** Sends are the strongest ranking input Instagram has,
+so this is the single largest gap in the whole system, larger than reach.
+
+The cause is structural, not stylistic. A post made of well-phrased opinion
+gives a viewer nothing to bookmark. People save things they intend to *use*.
+
+**So every post must contain one enumerable, keepable artifact** — and it has
+to be genuinely usable, not a list for the sake of a list:
+
+- a short set of named signs ("three signs the brief is the problem, not the agency")
+- a test the reader can run this week, with the pass condition stated
+- the specific questions to ask in a particular meeting
+- a threshold, a sequence, or a number worth writing down
+
+State it as a discrete, countable block, not woven through prose. If a viewer
+could not say what they would screenshot, the post has no reason to be saved.
+
+## Every post carries one nameable principle
+
+A post that narrates what happened is disposable — it is history, and the
+viewer takes nothing away. A post that names a mechanism is portable: the
+viewer can use it on Monday, and repeat it to someone else, which is the only
+thing that actually spreads it.
+
+So the closing slide (or the final beat) must state the principle as a
+**short, named idea** the audience can carry off — not a summary of the story
+that preceded it.
+
+> "Brand governance is a queueing problem, not a design problem."
+> "Reputation is priced into procurement long before it is discussed."
+
+Two cautions. The name must be *earned by the mechanism you just showed*, not
+invented to sound clever — a coined phrase with nothing under it reads as
+LinkedIn-guru filler and is worse than plain description. And it must be
+yours: never rename an existing well-known concept to claim it.
+
+---
+
 ## Structures that work for this territory
 
 **The corrected assumption.** State the thing the reader believes, then

@@ -123,9 +123,15 @@ pillars:
       - what a CMO actually does all day
     hashtags: ["#marketingleadership", "#inhousemarketing", "#brandgovernance", "#cmo", "#b2bmarketing"]
 
+  # Weight raised from 1 to 2 on measured evidence: the two highest-retention
+  # posts on the account are both from this pillar (63% and 21% watched), and
+  # it is genuinely Rachit's territory — AI adoption inside a large, governed
+  # marketing organisation. This is NOT licence to write generic AI-anxiety
+  # content, which is the most crowded topic on the platform. The angle stays
+  # enterprise: governance, adoption, what breaks at scale.
   - id: ai_marketing
     name: AI in Marketing
-    weight: 1
+    weight: 2
     default_format: reel
     keywords:
       - AI in marketing
@@ -139,6 +145,34 @@ pillars:
       - AI adoption in a large company
       - marketing technology stack
     hashtags: ["#aimarketing", "#martech", "#marketingtechnology", "#geo", "#b2bmarketing"]
+
+  # The utility pillar. Every post here ships something the reader can USE —
+  # that is the whole point of it. Measured on this account: zero shares and
+  # near-zero saves across every Reel, because opinion gives nobody a reason
+  # to keep anything. Utility is what gets saved and sent.
+  #
+  # The territory is deliberately NOT "automate your Gmail in 5 minutes",
+  # which a thousand accounts already run and which sells nothing Rachit
+  # sells. It is AI inside a large, governed organisation: what survives
+  # legal, what breaks at scale, what a marketing team can actually adopt.
+  - id: ai_in_practice
+    name: AI in Practice
+    weight: 2
+    default_format: carousel
+    keywords:
+      - AI in marketing
+      - marketing automation
+      - AI governance
+      - enterprise AI adoption
+      - AI content workflow
+    long_tail:
+      - what to automate in marketing
+      - AI governance for marketing teams
+      - AI content approval workflow
+      - what AI cannot do in brand work
+      - checks before AI copy goes live
+      - briefing AI on brand voice
+    hashtags: ["#aimarketing", "#martech", "#marketingoperations", "#b2bmarketing", "#aigovernance"]
 
   # Stays human. The agent never writes these — it only leaves the slot open.
   - id: photography_travel
@@ -224,6 +258,14 @@ voice:
       practitioner drawing on the shape of his experience, never on the
       specifics of any organisation he has been inside.
     - Commentary on any live corporate crisis, at any named company
+    - >-
+      NEVER state or imply that this account is produced by an AI agent, and
+      never reference the system that publishes it — no "I built an agent",
+      no mention of automation running this page, no repo, no workflow, no
+      "this post was generated". The hard-won lessons from building it are
+      fair material and should be used freely; their source is not. Write
+      them as what a practitioner knows, never as a behind-the-scenes tour.
+      This is a standing rule, not a preference.
 
   must:
     - Every post makes one specific claim, not a general observation
@@ -243,9 +285,9 @@ schedule:
   slots:
     - { day: mon, time: "08:30", pillar: b2b_brand,      format: reel }
     - { day: tue, time: "19:00", pillar: ai_marketing,   format: reel }
-    - { day: wed, time: "20:00", pillar: inside_the_org, format: reel }
+    - { day: wed, time: "20:00", pillar: ai_in_practice, format: carousel }
     - { day: thu, time: "09:30", pillar: reputation,     format: reel }
-    - { day: sat, time: "10:30", pillar: b2b_brand,      format: carousel }
+    - { day: sat, time: "10:30", pillar: inside_the_org, format: carousel }
 
 # ---------------------------------------------------------------------------
 #  Visual system. Unchanged — the palette and logo already work.
