@@ -1,0 +1,68 @@
+{
+  "title": "ai_tools_for_marketers_execution_fallacy",
+  "pillar": "AI in Marketing",
+  "format": "reel",
+  "primary_keyword": "AI tools for marketers",
+  "claim": "Buying AI tools does not fix a broken strategy; it just helps you produce bad work faster.",
+  "hook": "AI tools for marketers are not failing because of the prompts. They are failing because there is no strategy.",
+  "caption": "AI tools for marketers are not failing because of the prompts. They are failing because there is no strategy.\n\nEvery team I talk to is buying subscriptions and spending hours on workflows. The output volume doubles in week one. By week six, the brand voice is unrecognizable and nothing is converting.\n\nThe bottleneck in marketing was never how fast you could type a variant. It was knowing what position you owned in the market before you started writing.\n\nAdding software to a fuzzy positioning document just scales the confusion.\n\nSend this to whoever on your team is currently defending a massive software subscription budget.\n\n[ai tools for marketers, generative ai marketing, brand strategy, marketing operations]\n\n#aimarketing #aiinmarketing #futureofmarketing",
+  "alt_text": "Rachit Mishra speaking directly to camera about AI tools for marketers and brand strategy.",
+  "hashtags": [
+    "#aimarketing",
+    "#aiinmarketing",
+    "#futureofmarketing"
+  ],
+  "cta": "Send this to whoever on your team is currently defending a massive software subscription budget.",
+  "failure_mode": "Readers might dismiss it as anti-tech sentiment if they think I am arguing against using AI entirely, rather than arguing against using it as a substitute for strategic thinking.",
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "Output volume doubled. Pipeline flat.",
+      "voiceover": "Your team just adopted three new AI tools for marketers and your content output doubled. Your pipeline hasn't moved an inch.",
+      "direction": "Talking head, direct to camera, neutral background."
+    },
+    {
+      "timecode": "0:03-0:08",
+      "onscreen": "The software isn't the strategy",
+      "voiceover": "The software is working exactly as advertised. The strategy behind it is what is missing.",
+      "direction": "Slight push-in on camera."
+    },
+    {
+      "timecode": "0:08-0:14",
+      "onscreen": "Speed scales what is already there",
+      "voiceover": "When your positioning is vague, AI doesn't clarify it. It generates forty variations of your confusion.",
+      "direction": "Cut to b-roll of a messy dashboard or document."
+    },
+    {
+      "timecode": "0:14-0:21",
+      "onscreen": "The bottleneck was never typing speed",
+      "voiceover": "The bottleneck in modern marketing was never how fast your team could write five email variants.",
+      "direction": "Back to talking head."
+    },
+    {
+      "timecode": "0:21-0:28",
+      "onscreen": "The bottleneck is knowing what to ignore",
+      "voiceover": "The bottleneck is deciding what trade-offs your brand is willing to make and what you will intentionally ignore.",
+      "direction": "Emphasis on the word trade-offs."
+    },
+    {
+      "timecode": "0:28-0:35",
+      "onscreen": "Software cannot invent your positioning",
+      "voiceover": "If you cannot write a one-sentence positioning constraint by hand, no prompt library will save you.",
+      "direction": "Hold steady shot."
+    },
+    {
+      "timecode": "0:35-0:42",
+      "onscreen": "Strategy is a constraint problem",
+      "voiceover": "AI execution is a scaling problem. Strategy is a constraint problem. Fix the second one first.",
+      "direction": "Final framing, calm delivery."
+    }
+  ],
+  "scheduled_for": "2026-09-08T19:00:00+05:30",
+  "status": "draft",
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-09-07/tue-ai-tools-for-marketers-execution-fallacy/reel-cover.jpg"
+  ],
+  "warnings": []
+}

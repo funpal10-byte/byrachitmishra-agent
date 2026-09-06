@@ -1,0 +1,74 @@
+{
+  "title": "dmart_operational_positioning_strategy",
+  "pillar": "Behind the Brands",
+  "format": "reel",
+  "primary_keyword": "brand case study India",
+  "claim": "Low-price positioning is funded by operational supply chain leverage rather than marketing budgets.",
+  "hook": "Most retail analysis focuses on ad campaigns. This brand case study India shows why payment terms beat advertising.",
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "The cheapest retail brand does not cut ads.",
+      "voiceover": "The cheapest retailer in India does not win by cutting ad budgets.",
+      "direction": "Rachit on camera, direct look."
+    },
+    {
+      "timecode": "0:03-0:07",
+      "onscreen": "They pay suppliers in 8 days.",
+      "voiceover": "DMart stays cheaper than modern retail by fixing one contract term: vendor payment velocity.",
+      "direction": "Text graphic overlay over DMart store footage."
+    },
+    {
+      "timecode": "0:07-0:11",
+      "onscreen": "Industry standard: 30 to 60 days.",
+      "voiceover": "The industry standard for retail credit is 45 days. DMart settles supplier invoices in 8.",
+      "direction": "Rachit back on camera contrasting the numbers."
+    },
+    {
+      "timecode": "0:11-0:15",
+      "onscreen": "The 2% early payment discount.",
+      "voiceover": "In exchange, suppliers give them a 2% cash discount. DMart passes that 2% directly to consumer prices.",
+      "direction": "Diagram showing cash flow to consumer price reduction."
+    },
+    {
+      "timecode": "0:15-0:19",
+      "onscreen": "Zero rent. 100% owned real estate.",
+      "voiceover": "They also buy store land instead of leasing, cutting another 7% out of operational costs.",
+      "direction": "Onscreen expense comparison chart."
+    },
+    {
+      "timecode": "0:19-0:23",
+      "onscreen": "The Supplier Leverage Checklist:",
+      "voiceover": "Here is the 3-part test for low-cost trade leverage:",
+      "direction": "Rachit introduces the keepable framework."
+    },
+    {
+      "timecode": "0:23-0:27",
+      "onscreen": "1. DPO under 10d  2. Owned land  3. SKU cap",
+      "voiceover": "One: Days payable under 10. Two: Real estate ownership over leasing. Three: SKU cap under 4,000.",
+      "direction": "Clean high-contrast screen readable checklist."
+    },
+    {
+      "timecode": "0:27-0:31",
+      "onscreen": "Positioning is an operating model.",
+      "voiceover": "Positioning is not what you tell customers. It is how your operating model funds your price.",
+      "direction": "Rachit on camera delivering the closing principle."
+    }
+  ],
+  "caption": "Most retail analysis focuses on ad campaigns. This brand case study India shows why payment terms beat advertising.\n\nFMCG brands usually offer higher retail margins to get shelf space. DMart flipped that leverage entirely.\n\nBy reducing payment terms from 45 days to 8, suppliers willingly traded a 2% cash discount for guaranteed working capital.\n\nDMart does not sell shelf space; it sells inventory velocity. If an SKU does not turn over in 14 days, it is delisted.\n\nLow price is not a messaging strategy. It is an operational balance sheet.\n\nSend this to whoever is defending your retail trade margins this quarter.\n\n[brand case study india, retail strategy, dmart case study, positioning]",
+  "alt_text": "Rachit Mishra explaining retail strategy and DMart payment terms on camera.",
+  "hashtags": [
+    "#brandstory",
+    "#marketingcasestudy",
+    "#brandstrategy"
+  ],
+  "cta": "Send this to whoever is defending your retail trade margins this quarter.",
+  "failure_mode": "Viewers might mistake this for a pure financial breakdown rather than a brand positioning lesson if the link between payment velocity and low-price positioning is not made explicit.",
+  "scheduled_for": "2026-09-09T20:00:00+05:30",
+  "status": "draft",
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-09-07/wed-dmart-operational-positioning-strategy/reel-cover.jpg"
+  ],
+  "warnings": []
+}
