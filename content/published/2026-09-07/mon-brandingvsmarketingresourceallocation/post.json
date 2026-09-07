@@ -59,10 +59,12 @@
   "cta": "Send this to the finance lead who wants to cut the brand budget to hit this month's lead target.",
   "failure_mode": "If the difference between the two concepts is explained using purely abstract textbook terms instead of the concrete CAC and aggregator margin examples, the post will read like basic marketing theory rather than a practitioner's tool.",
   "scheduled_for": "2026-09-07T08:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "video": "reel.mp4",
   "images": [
     "content/queue/2026-09-07/mon-brandingvsmarketingresourceallocation/reel-cover.jpg"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-09-07T09:56:06.750623+05:30",
+  "media_id": "18089651294182955"
 }
