@@ -59,10 +59,12 @@
     }
   ],
   "scheduled_for": "2026-09-08T19:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "video": "reel.mp4",
   "images": [
     "content/queue/2026-09-07/tue-ai-tools-for-marketers-execution-fallacy/reel-cover.jpg"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-09-08T19:56:48.457833+05:30",
+  "media_id": "18105301115177529"
 }
