@@ -51,7 +51,7 @@
   "cta": "Send this to a brand manager or founder who is contemplating a rebrand this quarter.",
   "failure_mode": "If the distinction between positioning shifts and visual refreshes isn't razor-sharp, the advice could sound like generic anti-rebrand commentary rather than an actionable strategic audit.",
   "scheduled_for": "2026-09-05T10:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "images": [
     "content/queue/2026-08-31/sat-whentorebrandsignals/slide-01.jpg",
     "content/queue/2026-08-31/sat-whentorebrandsignals/slide-02.jpg",
@@ -61,5 +61,7 @@
     "content/queue/2026-08-31/sat-whentorebrandsignals/slide-06.jpg",
     "content/queue/2026-08-31/sat-whentorebrandsignals/slide-07.jpg"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-09-05T11:07:13.845037+05:30",
+  "media_id": "18138583024717638"
 }
