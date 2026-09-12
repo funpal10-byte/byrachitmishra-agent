@@ -13,7 +13,7 @@ import re
 import sys
 from pathlib import Path
 
-from . import config, generate, render, research, video
+from . import config, experiments, generate, render, research, sources, video
 from .schema import check_voice, validate
 
 DAY_INDEX = {"mon": 0, "tue": 1, "wed": 2, "thu": 3, "fri": 4, "sat": 5, "sun": 6}
@@ -58,6 +58,17 @@ def write_readable(post: dict, folder: Path, images: list[Path], problems: list[
     if post.get("claim"):
         a(f">")
         a(f"> Claim: {post['claim']}")
+    evidence = post.get("evidence") or {}
+    if isinstance(evidence, dict) and evidence.get("detail"):
+        a(f">")
+        a(f"> Proof ({evidence.get('type', 'unspecified')}): {evidence['detail']}")
+        if evidence.get("source_url"):
+            a(f"> Source: {evidence['source_url']}")
+    preflight = post.get("source_preflight") or {}
+    if isinstance(preflight, dict) and preflight.get("status") not in {None, "not_required"}:
+        a(f">")
+        a(f"> Source preflight: {preflight.get('status')}" +
+          (f" (HTTP {preflight['http_status']})" if preflight.get("http_status") else ""))
     a("")
 
     if problems:
@@ -178,7 +189,10 @@ def main() -> int:
             print(f"[skip] {slot['pillar']} is marked manual")
             continue
 
-        when = f"{dates[slot['day']]:%a %d %b} {slot['time']} IST"
+        slot_time, schedule_experiment = experiments.choose_slot_time(
+            slot, dates[slot["day"]]
+        )
+        when = f"{dates[slot['day']]:%a %d %b} {slot_time} IST"
         print(f"[write] {pillar.name} · {slot['format']} · {when}")
 
         try:
@@ -192,11 +206,21 @@ def main() -> int:
 
         scheduled = dt.datetime.combine(
             dates[slot["day"]],
-            dt.time.fromisoformat(slot["time"]),
+            dt.time.fromisoformat(slot_time),
             tzinfo=brand.timezone,
         )
         post["scheduled_for"] = scheduled.isoformat()
         post["status"] = "draft"
+        post["schedule_experiment"] = schedule_experiment
+        post["experiment"] = experiments.post_metadata(post, schedule_experiment)
+        post["source_preflight"] = sources.preflight(post.get("evidence") or {})
+        evidence = post.get("evidence") or {}
+        if (isinstance(evidence, dict) and evidence.get("type") == "source"
+                and evidence.get("source_url") and not post.get("sources")):
+            post["sources"] = [{
+                "title": evidence.get("detail") or "Supporting source",
+                "url": evidence["source_url"],
+            }]
         seen.append(post.get("title", ""))
 
         folder = batch_dir / f"{slot['day']}-{slugify(post.get('title', pillar.id))}"
@@ -248,7 +272,7 @@ def main() -> int:
                 "",
                 *summary,
                 "",
-                "⚠️ means the post tripped a length or voice check — worth a closer look.",
+                "⚠️ means the post tripped a content-quality check — do not merge it unchanged.",
             ]
         ),
         encoding="utf-8",

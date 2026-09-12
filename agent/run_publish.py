@@ -21,6 +21,7 @@ import sys
 from pathlib import Path
 
 from . import config, publish
+from .schema import check_voice, validate
 
 
 # Two guards against dumping a backlog onto the account in one go. A pile of
@@ -52,7 +53,7 @@ def due_posts(now: dt.datetime) -> tuple[list[Path], list[Path]]:
         except Exception as exc:
             print(f"[skip] unreadable {f}: {exc}", file=sys.stderr)
             continue
-        if post.get("status") == "published":
+        if post.get("status") in {"published", "held"}:
             continue
         when = post.get("scheduled_for")
         if not when:
@@ -130,8 +131,30 @@ def main() -> int:
             "workflow to put them back into rotation."
         )
 
+    # Generation is not the only path into approved/. This stops an older
+    # hand-edited or blog-derived post bypassing the opening/evidence contract
+    # just because it reached the publisher before the new gate existed.
+    quality_checked: list[Path] = []
+    for f in pending:
+        post = json.loads(f.read_text(encoding="utf-8"))
+        problems = validate(post) + check_voice(
+            post, brand.voice.get("banned_phrases", [])
+        )
+        if not problems:
+            quality_checked.append(f)
+            continue
+        post["status"] = "held"
+        post["quality_hold"] = problems
+        f.write_text(json.dumps(post, indent=2, ensure_ascii=False), encoding="utf-8")
+        print(
+            f"[hold] {f.parent.name}: content-quality gate failed — "
+            + "; ".join(problems),
+            file=sys.stderr,
+        )
+    pending = quality_checked
+
     if not pending:
-        print(f"[publish] nothing due as of {now:%Y-%m-%d %H:%M %Z}")
+        print(f"[publish] nothing eligible as of {now:%Y-%m-%d %H:%M %Z}")
         return 0
 
     limit = 1 if FORCE else MAX_PER_RUN

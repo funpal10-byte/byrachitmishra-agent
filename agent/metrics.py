@@ -28,10 +28,14 @@ from pathlib import Path
 
 import requests
 
+from . import experiments
+
 ROOT = Path(__file__).resolve().parent.parent
 STATE = ROOT / "state"
 JSON_PATH = STATE / "metrics.json"
 MD_PATH = STATE / "METRICS.md"
+LEDGER_PATH = STATE / "experiments.json"
+TIMING_PATH = STATE / "TIMING.md"
 
 # Same `or` pattern as config.py — GitHub passes unset variables as an EMPTY
 # STRING, so os.getenv(name, default) returns "" rather than the default.
@@ -48,6 +52,10 @@ METRIC_SETS = [
     ["reach", "likes", "comments"],
     ["reach"],
 ]
+
+# These are Reel-only. They are requested separately so a Graph API version
+# that does not expose them cannot make us lose the core reach/save/share data.
+REEL_METRICS = ("ig_reels_avg_watch_time", "ig_reels_video_view_total_time")
 
 
 def _token() -> str:
@@ -109,6 +117,28 @@ def insights(media_id: str) -> dict:
     return {}
 
 
+def reel_insights(media_id: str) -> dict:
+    """Fetch optional retention metrics without breaking older API versions.
+
+    Average watch time is the direct measure of whether the first-frame hook
+    earned attention. It is deliberately additive: accounts or API versions
+    that do not expose a metric still get the rest of the weekly report.
+    """
+    out: dict = {}
+    for metric in REEL_METRICS:
+        try:
+            data = _get(f"{media_id}/insights", {"metric": metric})
+        except RuntimeError as exc:
+            if "does not support" in str(exc) or "nonexisting field" in str(exc).lower() or "400" in str(exc):
+                continue
+            raise
+        for row in data.get("data", []):
+            values = row.get("values") or []
+            if values and isinstance(values[0], dict):
+                out[row["name"]] = values[0].get("value", 0)
+    return out
+
+
 def collect(limit: int = 50) -> dict:
     media = recent_media(limit)
     print(f"[metrics] {len(media)} media items")
@@ -118,25 +148,32 @@ def collect(limit: int = 50) -> dict:
         caption = (m.get("caption") or "").strip()
         first_line = caption.split("\n", 1)[0][:120] if caption else "(no caption)"
         stats = insights(m["id"])
+        product_type = m.get("media_product_type") or m.get("media_type") or ""
+        if "REEL" in product_type.upper():
+            stats.update(reel_insights(m["id"]))
         rows.append(
             {
                 "id": m["id"],
                 "posted": m.get("timestamp"),
-                "type": m.get("media_product_type") or m.get("media_type"),
+                "type": product_type,
                 "permalink": m.get("permalink"),
                 "hook": first_line,
                 **{k: stats.get(k, 0) for k in
                    ("reach", "views", "likes", "comments", "saved", "shares",
                     "total_interactions")},
+                "avg_watch_time": stats.get("ig_reels_avg_watch_time", 0),
+                "total_watch_time": stats.get("ig_reels_video_view_total_time", 0),
             }
         )
         print(f"  {first_line[:60]:<62} reach={stats.get('reach', '-')}")
 
     rows.sort(key=lambda r: r.get("posted") or "", reverse=True)
+    rows = experiments.enrich_rows(rows, ROOT / "content" / "published")
     return {
         "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "count": len(rows),
         "posts": rows,
+        "timing": experiments.timing_recommendations(rows),
     }
 
 
@@ -198,14 +235,16 @@ def summarise(data: dict) -> str:
         lines.append(f"- **{r.get('reach', 0)}** — {r['hook']}")
 
     lines += ["", "## Every post", "",
-              "| Posted | Type | Reach | Saves | Sends | Hook |",
-              "|---|---|---:|---:|---:|---|"]
+              "| Posted | Type | Reach | Saves | Sends | Avg watch time | Hook |",
+              "|---|---|---:|---:|---:|---:|---|"]
     for r in rows:
         posted = (r.get("posted") or "")[:10]
         lines.append(
             f"| {posted} | {r.get('type', '')} | {r.get('reach', 0)} | "
-            f"{r.get('saved', 0)} | {r.get('shares', 0)} | {r['hook'][:70]} |"
+            f"{r.get('saved', 0)} | {r.get('shares', 0)} | "
+            f"{r.get('avg_watch_time', 0)} | {r['hook'][:70]} |"
         )
+    lines += ["", experiments.timing_markdown(data.get("timing", [])).rstrip()]
     return "\n".join(lines) + "\n"
 
 
@@ -242,8 +281,16 @@ def brief_context(max_examples: int = 5) -> str:
         "and do more of it, without repeating the posts themselves:",
     ]
     for r in top:
+        experiment = r.get("experiment")
+        experiment = experiment if isinstance(experiment, dict) else {}
+        pattern = ", ".join(
+            f"{name}={experiment[name]}"
+            for name in ("hook_type", "evidence_type", "format", "pillar")
+            if experiment.get(name)
+        )
         lines.append(
-            f"  - [{r.get('shares', 0)} sends, {r.get('saved', 0)} saves] {r['hook']}"
+            f"  - [{r.get('shares', 0)} sends, {r.get('saved', 0)} saves] "
+            f"{r['hook']}" + (f" ({pattern})" if pattern else "")
         )
     dead = [r for r in rows if not (r.get("shares") or 0) and not (r.get("saved") or 0)]
     if dead:
@@ -269,6 +316,25 @@ def main() -> int:
     STATE.mkdir(parents=True, exist_ok=True)
     JSON_PATH.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
     MD_PATH.write_text(md, encoding="utf-8")
+    ledger = {
+        "fetched_at": data["fetched_at"],
+        "posts": [
+            {
+                "id": row.get("id"),
+                "posted": row.get("posted"),
+                "hook": row.get("hook"),
+                "experiment": row.get("experiment", {}),
+                "reach": row.get("reach", 0),
+                "saved": row.get("saved", 0),
+                "shares": row.get("shares", 0),
+                "avg_watch_time": row.get("avg_watch_time", 0),
+            }
+            for row in data["posts"]
+            if row.get("experiment")
+        ],
+    }
+    LEDGER_PATH.write_text(json.dumps(ledger, indent=2) + "\n", encoding="utf-8")
+    TIMING_PATH.write_text(experiments.timing_markdown(data.get("timing", [])), encoding="utf-8")
     print(f"\n[metrics] wrote {JSON_PATH.relative_to(ROOT)} "
           f"and {MD_PATH.relative_to(ROOT)}")
     return 0

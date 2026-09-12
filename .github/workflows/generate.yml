@@ -46,6 +46,11 @@ jobs:
           ffmpeg -version >/dev/null 2>&1 || sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
           ffmpeg -version | head -1
 
+      - name: Run agent checks
+        run: |
+          python -m compileall -q agent tests
+          python -m unittest discover -s tests -v
+
       - name: Generate batch
         id: batch
         env:
@@ -83,7 +88,7 @@ jobs:
             Each post folder has a `POST.md` with the caption ready to copy and
             the rendered slides sitting next to it.
 
-            Anything flagged ⚠️ tripped a length or voice check — read those first.
+            Anything flagged ⚠️ tripped a content-quality check — do not merge it unchanged.
           labels: |
             content
             needs-review

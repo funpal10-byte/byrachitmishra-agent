@@ -48,8 +48,9 @@ Market: {audience_market}
    makes sense to someone who arrived from a search result and has never heard
    of Rachit.
 
-4. **The first 125 characters** are all anyone sees before "more". The hook and
-   the primary keyword both live there.
+4. **The first 125 characters** are all anyone sees before "more". The first
+   line is the hook; the primary keyword must appear naturally somewhere in
+   that 125-character opening, not be forced into the hook itself.
 
 5. **Reels:** under 90 seconds. Hook as on-screen text within the first second.
    Assume the sound is off — roughly half of all video is watched muted, so the
@@ -98,12 +99,15 @@ Good: "Nine times out of ten, a rebrand is an expensive way to avoid a hard conv
 - It states a specific claim, or names a specific tension. Never a category.
 - It could not appear on a competitor's page unchanged.
 - It survives with no image, no context and no audio.
-- Under 12 words on screen; under 125 characters in the caption.
+- Under 10 words and 48 characters. This is a first-frame reading budget, not
+  a caption budget.
 - No rhetorical question, no "here's why", no "the truth about".
 
 **For Reels the hook must land in the first frame**, before anyone decides to
 scroll. Beat one carries the whole claim on its own — never a warm-up, never
-"in this video".
+"in this video". The `hook`, beat-one `onscreen` text, and the opening words
+of beat-one `voiceover` must be the exact same sentence. The caption's first
+line must also be that sentence. Do not write four versions of the opening.
 
 **Pick your angle deliberately.** The strongest are: a contrarian position the
 audience half-suspects; a named cost of a common mistake; a test they can run
@@ -143,6 +147,25 @@ or the text will overflow and the post will be unusable:
   phone at arm's length.
 - Total runtime under 90 seconds.
 - Beat 1 is the hook and lands within the first second.
+- Beat 1 starts at `0:00`. Its `onscreen` text exactly matches `hook`, and its
+  `voiceover` begins with the exact `hook` before expanding on it.
+
+## PROOF — earn the claim before asking for attention
+
+Every post requires an `evidence` object. Pick one honest type:
+
+- `source`: a factual claim with a direct `source_url`; never invent a precise
+  number because it sounds persuasive.
+- `case_study`: a named company, campaign or decision with the specific fact
+  that proves the claim.
+- `practitioner_observation`: an observed meeting, scope review, customer
+  pattern or operating decision. State the context; do not pretend it is a
+  universal statistic.
+- `framework`: a genuinely usable test, sequence or distinction. Give the
+  pass condition or decision it changes.
+
+If the post has neither proof nor a useful framework, it is an opinion fragment
+and must be sharpened before it is written.
 
 ---
 
@@ -175,7 +198,8 @@ lines between them.
 
 ```
 [Line 1 — the hook. Under 125 characters. The primary keyword phrased the way
-a person would actually say it. This is the only line most people read.]
+a person would actually say it somewhere in the first 125 characters. This is
+the only line most people read.]
 
 [2–5 short paragraphs carrying the ADDITIONAL material — the story, the
 caveat, the cost. Not a summary of the slides.]
@@ -243,6 +267,8 @@ Before you write, do the thinking silently:
 - What is the one specific claim this post makes? If you cannot state it in a
   sentence, the idea is not sharp enough — sharpen it before writing.
 - What is the mechanism, number, or named example that backs it up?
+- Which `evidence` type earns that claim? If it is `source`, include the
+  direct URL. If the number cannot be sourced, remove it.
 - **What does the caption say that the slides do not?** If you cannot answer
   that in a sentence, the caption is a summary and must be rewritten.
 - What would make someone forward this to a colleague rather than just like it?

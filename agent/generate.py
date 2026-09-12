@@ -49,7 +49,8 @@ FORMAT: {fmt}
 GOES LIVE: {when}
 
 Keywords available for this pillar (pick ONE as the primary, and prefer a
-long-tail phrase — it is easier to rank for and it makes a better hook):
+long-tail phrase — it is easier to rank for, but do NOT force it into the
+hook; a sharp opening tension is more important than keyword-shaped wording):
   primary options : {keywords}
   long-tail options: {long_tail}
 
@@ -68,6 +69,15 @@ AVOID REPEATING these recent posts:
 
 Return only the JSON object. Schema:
 {schema}
+
+Non-negotiable opening contract: `hook` is a short tension-led claim, not a
+topic label. It must exactly equal Reel beat 1 `onscreen` text and be the first
+words of Reel beat 1 `voiceover`; for a carousel it must equal slide 1's
+headline. The caption must start with it. Put the primary keyword naturally
+elsewhere in the first 125 caption characters.
+
+Do not use an unsupported number. Supply the required `evidence` object with
+the proof or usable framework that earns the claim.
 """
 
 
@@ -129,8 +139,8 @@ def generate_post(
     post: dict = {}
 
     # One generation pass, then up to two self-corrections if the post breaks
-    # a hard limit. Cheaper and more reliable than trying to get it perfect
-    # in one shot, and it means overflowing slides never reach the renderer.
+    # a hard quality rule. A post that still fails does not enter the queue:
+    # warnings are too easy to merge and then become auto-approved content.
     for attempt in range(3):
         raw = llm.generate(system=system_prompt, messages=messages, max_tokens=6000)
         post = _extract_json(raw)
@@ -142,8 +152,10 @@ def generate_post(
             break
 
         if attempt == 2:
-            post["_warnings"] = problems
-            break
+            raise ValueError(
+                "generated post failed the publish-quality gate after two corrections:\n"
+                + "\n".join(f"- {problem}" for problem in problems)
+            )
 
         messages += [
             {"role": "assistant", "content": raw},

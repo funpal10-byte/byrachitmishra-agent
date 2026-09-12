@@ -36,6 +36,7 @@ import requests
 import yaml
 
 from agent.llm_adapter import complete
+from agent.schema import POST_SCHEMA, validate
 
 ROOT = Path(__file__).resolve().parent.parent
 QUEUE = ROOT / "content" / "queue"
@@ -183,24 +184,20 @@ argument to make it more postable — the sharpness is why it is worth posting.
 Pick the ONE strongest idea in the piece. An article contains several; a post
 carries one. Everything else is cut.
 
-Return ONLY a JSON object, no prose and no code fence:
+Return ONLY a JSON object matching this schema, no prose and no code fence:
 
-{{
-  "pillar": "<one of: {pillars}>",
-  "format": "carousel" | "reel",
-  "hook": "<under 10 words, the opening line, no question mark>",
-  "slides": [
-     {{"heading": "<optional short heading>", "body": "<25-45 words>"}}
-  ],
-  "caption": "<6-10 short lines. The caption ADDS — the story, the caveat, the cost — it never summarises the slides. End with a bracketed line of 3-5 lowercase keyword phrases, comma separated.>",
-  "hashtags": ["#tag", "#tag", "#tag"],
-  "source_url": "<the article URL, unchanged>",
-  "failure_mode": "<one honest sentence: why this post might land badly>"
-}}
+{schema}
 
-Five to seven slides for a carousel. The last slide lands the argument — it is
-the one that inverts to the dark ground, so it must be a sentence that can
-stand alone. For a reel, 5-6 slides read as spoken beats.
+Use the article URL as `evidence.source_url` and explain the exact article
+finding, case or framework in `evidence.detail`. Never invent a precise
+number. For a carousel, write 6-8 `slides` using the schema's `headline`,
+`kicker` and `body` fields. For a Reel, write 6-10 `reel_script` beats.
+
+The hook is a short tension-led claim, not an article title. It must be under
+10 words and 48 characters. The caption begins with it; the primary keyword
+appears naturally in the first 125 caption characters. For a Reel, the hook,
+beat-one `onscreen`, and opening words of beat-one `voiceover` must be exact
+matches. For a carousel, slide one `headline` must exactly match the hook.
 
 The caption must point to the full article once, naturally, near the end —
 "the long version is on my site" — never as a hard sell."""
@@ -245,7 +242,11 @@ def build(article: dict, brand: dict, when: str, schedule_key: str) -> Path | No
 
     try:
         raw = complete(
-            system=SYSTEM.format(voice=_voice(brand), pillars=pillars),
+            system=SYSTEM.format(
+                voice=_voice(brand),
+                pillars=pillars,
+                schema=json.dumps(POST_SCHEMA, indent=2),
+            ),
             user=(f"TITLE: {article['title']}\nURL: {article['link']}\n\n"
                   f"ARTICLE:\n{body}"),
             max_tokens=2600,
@@ -255,20 +256,40 @@ def build(article: dict, brand: dict, when: str, schedule_key: str) -> Path | No
         print(f"  [FAIL] {article['title'][:60]}: {exc}")
         return None
 
-    if not post.get("slides"):
-        print(f"  [FAIL] {article['title'][:60]}: no slides returned")
+    is_carousel = post.get("format") == "carousel"
+    has_content = post.get("slides") if is_carousel else post.get("reel_script")
+    if not has_content:
+        expected = "slides" if is_carousel else "reel_script"
+        print(f"  [FAIL] {article['title'][:60]}: no {expected} returned")
+        return None
+
+    post.setdefault("title", _slug(article["title"]).replace("-", "_"))
+    post.setdefault("evidence", {
+        "type": "source",
+        "detail": f"Adapted from the author's article: {article['title']}",
+        "source_url": article["link"],
+    })
+    if post.get("evidence", {}).get("type") == "source":
+        post["evidence"].setdefault("source_url", article["link"])
+    problems = validate(post)
+    if problems:
+        print(f"  [FAIL] {article['title'][:60]}: " + "; ".join(problems))
         return None
 
     post.setdefault("source_url", article["link"])
     post["source"] = "blog"
-    post[schedule_key] = when
+    post["scheduled_for"] = when
+    if schedule_key != "scheduled_for":
+        post[schedule_key] = when
     post.setdefault("status", "queued")
 
     folder = QUEUE / f"{when[:10]}-{_slug(article['title'])}"
     folder.mkdir(parents=True, exist_ok=True)
     (folder / "post.json").write_text(json.dumps(post, indent=2) + "\n",
                                       encoding="utf-8")
-    print(f"  [ok]   {folder.name}  ({len(post['slides'])} slides, {when})")
+    item_count = len(post.get("slides") or post.get("reel_script") or [])
+    label = "slides" if is_carousel else "beats"
+    print(f"  [ok]   {folder.name}  ({item_count} {label}, {when})")
     return folder
 
 

@@ -190,6 +190,14 @@ Two repository variables control this: `BUILD_REELS=false` for scripts only,
 and `REEL_AI_BACKGROUNDS=false` to use designed gradients instead of spending
 image-generation quota.
 
+**The agent learns in controlled experiments.** Every generated post records
+its hook type, evidence type, format, visual treatment and scheduled window.
+The weekly metrics job joins that ledger to saves, sends, reach and—when the
+Instagram API exposes them—Reel watch-time metrics. It writes
+`state/experiments.json` and `state/TIMING.md`. Timing results are advisory:
+the agent will rotate only an explicitly configured test window and will never
+rewrite your schedule based on a small sample.
+
 **Music.** Drop instrumental tracks into `music/` and one gets mixed under
 every generated Reel, normalised and faded automatically. `music/README.md`
 covers selection and — more importantly — licensing. Two things to know before
@@ -267,6 +275,8 @@ agent/
   config.py       loads brand.yml, holds every env-var setting
   llm.py          the provider switch — Gemini or Claude, one interface
   research.py     weekly signal brief, using the provider's own web search
+  experiments.py  content ledger and conservative timing comparisons
+  sources.py      non-blocking source URL preflight
   generate.py     brief + pillar → a finished post, with self-correction
   schema.py       the post contract, length limits, and the voice checker
   render.py       HTML → 1080×1350 JPEG slides via headless Chromium
