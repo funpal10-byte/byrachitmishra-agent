@@ -1,0 +1,99 @@
+{
+  "title": "difference_between_branding_and_marketing_pricing_power",
+  "pillar": "Brand Strategy",
+  "format": "reel",
+  "primary_keyword": "difference between branding and marketing",
+  "claim": "Marketing generates lead volume, while brand strategy protects pricing power during deal negotiations.",
+  "hook": "Marketing gets leads. Brand stops price wars.",
+  "evidence": {
+    "type": "framework",
+    "detail": "The 3-Step Pricing Friction Audit: evaluates past closed deals across feature-level comparison, procurement discount demands, and payment term concessions to diagnose positioning weakness."
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:04",
+      "onscreen": "Marketing gets leads. Brand stops price wars.",
+      "voiceover": "Marketing gets leads. Brand stops price wars. Most teams celebrate high inbound volume while sales quietly gives away twenty percent discounts.",
+      "direction": "Rachit seated at desk, looking directly into camera with direct, neutral expression."
+    },
+    {
+      "timecode": "0:04-0:10",
+      "onscreen": "Difference between branding and marketing",
+      "voiceover": "The practical difference between branding and marketing shows up in where friction happens inside your sales pipeline.",
+      "direction": "Slight angle change, gesture indicating a divide."
+    },
+    {
+      "timecode": "0:10-0:17",
+      "onscreen": "Marketing builds intent. Brand builds leverage.",
+      "voiceover": "Marketing drives discovery and intent. Brand strategy changes how much proof buyers demand before paying full price without arguing.",
+      "direction": "Rachit leans forward, emphasizing key distinction."
+    },
+    {
+      "timecode": "0:17-0:24",
+      "onscreen": "Run the 3-Step Pricing Friction Audit",
+      "voiceover": "Run this three-step audit on your last five closed deals to see which one is failing.",
+      "direction": "Text graphic overlay appears briefly beside Rachit."
+    },
+    {
+      "timecode": "0:24-0:32",
+      "onscreen": "1. Did they compare feature line items?",
+      "voiceover": "One. Did the prospect evaluate your proposal on a feature spreadsheet, or did they hire you for a specific outcome?",
+      "direction": "Rachit counting step one on hand."
+    },
+    {
+      "timecode": "0:32-0:40",
+      "onscreen": "2. Did procurement demand a scope discount?",
+      "voiceover": "Two. Did procurement demand a custom price reduction just to match a lower-tier vendor?",
+      "direction": "Rachit counting step two."
+    },
+    {
+      "timecode": "0:40-0:48",
+      "onscreen": "3. Did closing require payment concessions?",
+      "voiceover": "Three. Did closing the deal require extending payment terms in ways that eroded your actual margin?",
+      "direction": "Rachit counting step three."
+    },
+    {
+      "timecode": "0:48-0:54",
+      "onscreen": "Margin protection is the ultimate brand audit.",
+      "voiceover": "If you fail these steps, you do not have a lead generation problem. You have a positioning problem.",
+      "direction": "Rachit speaking calmly, concluding point."
+    }
+  ],
+  "caption": "Marketing gets leads. Brand stops price wars.\n\nThe real difference between branding and marketing shows up when procurement opens your proposal. Marketing fills the pipeline with buyers. Brand strategy dictates whether those buyers accept your price or force a discount.\n\nWhen pipeline volume increases but gross margin shrinks, marketing is working while positioning is failing. Generating inbound traffic is simple compared to building enough authority that buyers stop asking for scope reductions.\n\nIf sales routinely gives away 15% to close an inbound deal, marketing budget is simply subsidizing weak market authority.\n\nSend this to whoever is defending your pricing strategy in the next pipeline review.\n\n[difference between branding and marketing, brand strategy framework, pricing power, b2b marketing]",
+  "alt_text": "Rachit Mishra seated at a desk speaking about brand strategy and pricing leverage.",
+  "hashtags": [
+    "#brandstrategy",
+    "#brandpositioning",
+    "#marketingstrategy",
+    "#brandbuilding"
+  ],
+  "cta": "Send this to whoever is defending your pricing strategy in the next pipeline review.",
+  "failure_mode": "Marketers may view price negotiation as purely a sales execution issue rather than a structural positioning failure.",
+  "scheduled_for": "2026-09-14T08:30:00+05:30",
+  "status": "draft",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "08:30"
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "reel",
+    "pillar": "Brand Strategy",
+    "hook_words": 7,
+    "hook_characters": 45,
+    "visual_treatment": "kinetic_typography",
+    "schedule": {
+      "active": false,
+      "selected_time": "08:30"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-09-14/mon-difference-between-branding-and-marketing-pricing-power/reel-cover.jpg"
+  ],
+  "warnings": []
+}

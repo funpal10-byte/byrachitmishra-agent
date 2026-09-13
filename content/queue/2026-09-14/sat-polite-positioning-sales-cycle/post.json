@@ -1,0 +1,94 @@
+{
+  "title": "polite_positioning_sales_cycle",
+  "pillar": "Brand Strategy",
+  "format": "carousel",
+  "primary_keyword": "brand positioning",
+  "claim": "Polite brand positioning increases sales cycle length by failing to reject bad-fit leads before sales engagement.",
+  "hook": "Polite positioning doubles your sales cycle.",
+  "evidence": {
+    "type": "framework",
+    "detail": "A 4-part positioning filter framework (deal size threshold, anti-use-case list, technical hard stops, category boundary) that pre-qualifies prospects before the first sales conversation."
+  },
+  "slides": [
+    {
+      "headline": "Polite positioning doubles your sales cycle."
+    },
+    {
+      "kicker": "THE SALES TAX",
+      "headline": "Broad appeal creates endless RFP cycles",
+      "body": "When positioning is generic, prospects put you in a five-vendor evaluation. Sales reps spend months proving basic fit instead of closing."
+    },
+    {
+      "kicker": "THE FRICTION",
+      "headline": "Unfiltered leads choke deal velocity",
+      "body": "Without sharp exclusion criteria, marketing leads look qualified on paper. Sales spends sixty percent of their capacity educating buyers who will never purchase."
+    },
+    {
+      "kicker": "THE MECHANISM",
+      "headline": "Sharp positioning acts as a pre-filter",
+      "body": "Explicit positioning statements tell eighty percent of the market this is not for them. The remaining twenty percent move through procurement in half the time."
+    },
+    {
+      "kicker": "THE ARTIFACT",
+      "headline": "The 3-point disqualification test",
+      "body": "Does your positioning specify who you lose to, what request you refuse, and which customer profile you actively turn down? If not, it is copywriting."
+    },
+    {
+      "kicker": "THE PROTOCOL",
+      "headline": "Four non-negotiable positioning filters",
+      "body": "1. Minimum deal size threshold. 2. Explicit anti-use-case list. 3. Technical requirement hard stops. 4. Clear category boundary. Put these in your outward deck."
+    },
+    {
+      "kicker": "STEAL THIS",
+      "headline": "Say these three lines in your next meeting",
+      "body": "We do not build for teams under fifty. We do not do custom integrations. We lose every bid based on initial price alone."
+    },
+    {
+      "kicker": "THE TAKEAWAY",
+      "headline": "Positioning is a rejection filter, not an invitation.",
+      "body": "Send this to whoever is defending your sales velocity and deal size this quarter."
+    }
+  ],
+  "caption": "Polite positioning doubles your sales cycle.\n\nWhen your brand positioning tries to appeal to everyone, your sales team pays for it in drawn-out RFP cycles.\n\nMarketing teams often measure success by lead volume. But when positioning lacks sharp trade-offs, sales receives leads that take three months just to qualify.\n\nThe cost is not just wasted sales hours. It leads to custom proposals for bad-fit buyers, discounted pricing to salvage deals, and churn six months after onboarding.\n\nA clear strategy creates productive rejection. It tells wrong-fit buyers to move on before they ever fill out a form.\n\nIf your positioning does not actively turn away at least half the market, it is not doing any strategic work.\n\nSend this to whoever is looking at sales cycle lengths and conversion rates this quarter.\n\n[brand positioning, sales friction, brand strategy framework, lead qualification, deal velocity]",
+  "alt_text": "Text graphic breaking down how sharp brand positioning speeds up sales cycles by rejecting bad fits.",
+  "hashtags": [
+    "#brandpositioning",
+    "#brandstrategy",
+    "#marketingstrategy"
+  ],
+  "cta": "Send this to whoever is looking at sales cycle lengths and conversion rates this quarter.",
+  "failure_mode": "If the post reads as sales advice rather than positioning strategy, brand managers will dismiss it as an account executive problem.",
+  "scheduled_for": "2026-09-19T10:30:00+05:30",
+  "status": "draft",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "10:30"
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "carousel",
+    "pillar": "Brand Strategy",
+    "hook_words": 6,
+    "hook_characters": 44,
+    "visual_treatment": "carousel",
+    "schedule": {
+      "active": false,
+      "selected_time": "10:30"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "images": [
+    "content/queue/2026-09-14/sat-polite-positioning-sales-cycle/slide-01.jpg",
+    "content/queue/2026-09-14/sat-polite-positioning-sales-cycle/slide-02.jpg",
+    "content/queue/2026-09-14/sat-polite-positioning-sales-cycle/slide-03.jpg",
+    "content/queue/2026-09-14/sat-polite-positioning-sales-cycle/slide-04.jpg",
+    "content/queue/2026-09-14/sat-polite-positioning-sales-cycle/slide-05.jpg",
+    "content/queue/2026-09-14/sat-polite-positioning-sales-cycle/slide-06.jpg",
+    "content/queue/2026-09-14/sat-polite-positioning-sales-cycle/slide-07.jpg",
+    "content/queue/2026-09-14/sat-polite-positioning-sales-cycle/slide-08.jpg"
+  ],
+  "warnings": []
+}

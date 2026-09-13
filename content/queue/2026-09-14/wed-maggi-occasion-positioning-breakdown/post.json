@@ -1,0 +1,92 @@
+{
+  "title": "maggi_occasion_positioning_breakdown",
+  "pillar": "Behind the Brands",
+  "format": "reel",
+  "primary_keyword": "why this ad worked",
+  "claim": "Repositioning succeeds when you change the consumption occasion, not when you fight cultural resistance to a product benefit.",
+  "hook": "Selling time-saving meals to mothers failed.",
+  "evidence": {
+    "type": "case_study",
+    "detail": "Nestlé India's 1983 launch of Maggi noodles stalled when marketed as a convenience dinner because urban mothers experienced guilt. Nestlé repositioned the product as an after-school snack ('2-Minute Noodles'), creating a new 4 PM eating occasion."
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "Selling time-saving meals to mothers failed.",
+      "voiceover": "Selling time-saving meals to mothers failed because it triggered guilt instead of relief.",
+      "direction": "Rachit on camera, direct look, crisp delivery."
+    },
+    {
+      "timecode": "0:03-0:08",
+      "onscreen": "In 1983, Nestlé launched Maggi in India.",
+      "voiceover": "In 1983, Nestlé introduced Maggi to urban Indian households as a quick dinner option for working women.",
+      "direction": "Cut to archival image of early Indian packaging."
+    },
+    {
+      "timecode": "0:08-0:13",
+      "onscreen": "Mothers saw quick meals as lazy parenting.",
+      "voiceover": "Adoption stalled. Research revealed mothers felt guilty serving processed shortcuts for main meals.",
+      "direction": "Rachit on camera speaking with deliberate pacing."
+    },
+    {
+      "timecode": "0:13-0:18",
+      "onscreen": "The pivot: after-school hunger, not dinner.",
+      "voiceover": "Instead of pushing convenience harder, Nestlé shifted the occasion to 4 PM when children arrived home hungry.",
+      "direction": "Simple visual graphic showing time shift from 8 PM to 4 PM."
+    },
+    {
+      "timecode": "0:18-0:23",
+      "onscreen": "The 2-minute snack framed care, not shortcuts.",
+      "voiceover": "The two-minute promise stopped being a mother's shortcut and became an act of maternal care.",
+      "direction": "Rachit back on camera."
+    },
+    {
+      "timecode": "0:23-0:28",
+      "onscreen": "It built an empty 4 PM snacking category.",
+      "voiceover": "Maggi didn't win by stealing dinner market share. It created and owned an empty hour on the Indian clock.",
+      "direction": "Text graphic emphasizing Occasion Ownership over Feature Comparison."
+    },
+    {
+      "timecode": "0:28-0:33",
+      "onscreen": "Occasion design beats feature positioning.",
+      "voiceover": "Occasion design beats feature positioning every time you face cultural friction.",
+      "direction": "Rachit closing frame."
+    }
+  ],
+  "caption": "Selling time-saving meals to mothers failed.\n\nTo understand why this ad worked over forty years, look at the friction Nestlé removed. When a product feature triggers buyer guilt, spending more ad money on the feature never fixes conversion.\n\nRun this 3-step Occasion Audit before changing your messaging:\n1. Identify if buyers feel guilt using your efficiency shortcut.\n2. Locate an unowned time slot in your customer's daily routine.\n3. Frame the product as care for someone else, not relief for the buyer.\n\nPositioning fails when it challenges culture. It wins when it owns an occasion.\n\nSend this to the brand manager designing a positioning strategy this quarter.\n\n[why this ad worked, brand case study india, category creation, consumer positioning]",
+  "alt_text": "Rachit Mishra explaining Nestlé Maggi positioning strategy and occasion design in a video breakdown.",
+  "hashtags": [
+    "#brandstory",
+    "#marketingcasestudy",
+    "#advertising"
+  ],
+  "cta": "Send this to the brand manager designing a positioning strategy this quarter.",
+  "failure_mode": "The audience might view this as historical trivia about a legacy packaged goods brand rather than a repeatable positioning framework for modern products.",
+  "scheduled_for": "2026-09-16T20:00:00+05:30",
+  "status": "draft",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "20:00"
+  },
+  "experiment": {
+    "hook_type": "case_study",
+    "evidence_type": "case_study",
+    "format": "reel",
+    "pillar": "Behind the Brands",
+    "hook_words": 6,
+    "hook_characters": 44,
+    "visual_treatment": "kinetic_typography",
+    "schedule": {
+      "active": false,
+      "selected_time": "20:00"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-09-14/wed-maggi-occasion-positioning-breakdown/reel-cover.jpg"
+  ],
+  "warnings": []
+}
