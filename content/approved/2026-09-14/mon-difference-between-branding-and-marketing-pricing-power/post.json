@@ -70,7 +70,7 @@
   "cta": "Send this to whoever is defending your pricing strategy in the next pipeline review.",
   "failure_mode": "Marketers may view price negotiation as purely a sales execution issue rather than a structural positioning failure.",
   "scheduled_for": "2026-09-14T08:30:00+05:30",
-  "status": "draft",
+  "status": "approved",
   "schedule_experiment": {
     "active": false,
     "selected_time": "08:30"

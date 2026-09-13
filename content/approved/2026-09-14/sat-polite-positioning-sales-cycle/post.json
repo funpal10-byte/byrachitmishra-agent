@@ -59,7 +59,7 @@
   "cta": "Send this to whoever is looking at sales cycle lengths and conversion rates this quarter.",
   "failure_mode": "If the post reads as sales advice rather than positioning strategy, brand managers will dismiss it as an account executive problem.",
   "scheduled_for": "2026-09-19T10:30:00+05:30",
-  "status": "draft",
+  "status": "approved",
   "schedule_experiment": {
     "active": false,
     "selected_time": "10:30"

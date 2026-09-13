@@ -69,7 +69,7 @@
   "cta": "Send this to the lead marketer currently rewriting AI drafts on a Sunday night.",
   "failure_mode": "It could be misread as generic anti-AI rhetoric if the 3-point prompt boundary framework isn't clearly explained as a workflow fix.",
   "scheduled_for": "2026-09-15T19:00:00+05:30",
-  "status": "draft",
+  "status": "approved",
   "schedule_experiment": {
     "active": false,
     "selected_time": "19:00"
