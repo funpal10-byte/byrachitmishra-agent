@@ -1,22 +1,10 @@
 {
   "fetched_at": "2026-09-13T01:57:57+00:00",
-  "count": 36,
   "posts": [
     {
       "id": "18075839381445383",
       "posted": "2026-09-12T05:43:47+0000",
-      "type": "FEED",
-      "permalink": "https://www.instagram.com/p/DdLQybmlXd_/",
       "hook": "A usable brand strategy framework should test your pricing power, not your choice of adjectives.",
-      "reach": 10,
-      "views": 24,
-      "likes": 0,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 0,
-      "avg_watch_time": 0,
-      "total_watch_time": 0,
       "experiment": {
         "hook_type": "distinction",
         "evidence_type": "",
@@ -26,23 +14,16 @@
         "hook_characters": 96,
         "visual_treatment": "carousel",
         "schedule": {}
-      }
+      },
+      "reach": 10,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
     },
     {
       "id": "18057684641542150",
       "posted": "2026-09-10T05:53:30+0000",
-      "type": "REELS",
-      "permalink": "https://www.instagram.com/reel/DdGISujkdOZ/",
       "hook": "The best marketing career advice I ever got was to stop defending creative briefs and start defending budgets.",
-      "reach": 13,
-      "views": 22,
-      "likes": 0,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 0,
-      "avg_watch_time": 6913,
-      "total_watch_time": 96791,
       "experiment": {
         "hook_type": "cost",
         "evidence_type": "",
@@ -52,23 +33,16 @@
         "hook_characters": 110,
         "visual_treatment": "kinetic_typography",
         "schedule": {}
-      }
+      },
+      "reach": 13,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 6913
     },
     {
       "id": "18265235224307087",
       "posted": "2026-09-09T16:32:47+0000",
-      "type": "REELS",
-      "permalink": "https://www.instagram.com/reel/DdEsqNkioui/",
       "hook": "Most retail analysis focuses on ad campaigns. This brand case study India shows why payment terms beat advertising.",
-      "reach": 109,
-      "views": 126,
-      "likes": 4,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 4,
-      "avg_watch_time": 3838,
-      "total_watch_time": 426021,
       "experiment": {
         "hook_type": "cost",
         "evidence_type": "",
@@ -78,23 +52,16 @@
         "hook_characters": 115,
         "visual_treatment": "kinetic_typography",
         "schedule": {}
-      }
+      },
+      "reach": 109,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 3838
     },
     {
       "id": "18105301115177529",
       "posted": "2026-09-08T14:26:41+0000",
-      "type": "REELS",
-      "permalink": "https://www.instagram.com/reel/DdB5b4rgtdm/",
       "hook": "AI tools for marketers are not failing because of the prompts. They are failing because there is no strategy.",
-      "reach": 13,
-      "views": 22,
-      "likes": 0,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 0,
-      "avg_watch_time": 6965,
-      "total_watch_time": 97512,
       "experiment": {
         "hook_type": "distinction",
         "evidence_type": "",
@@ -104,23 +71,16 @@
         "hook_characters": 109,
         "visual_treatment": "kinetic_typography",
         "schedule": {}
-      }
+      },
+      "reach": 13,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 6965
     },
     {
       "id": "18089651294182955",
       "posted": "2026-09-07T04:26:01+0000",
-      "type": "REELS",
-      "permalink": "https://www.instagram.com/reel/Dc-P5hqCMxS/",
       "hook": "We confuse the difference between branding and marketing because we track them on the same spreadsheet.",
-      "reach": 16,
-      "views": 29,
-      "likes": 0,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 0,
-      "avg_watch_time": 7565,
-      "total_watch_time": 143735,
       "experiment": {
         "hook_type": "claim",
         "evidence_type": "",
@@ -130,23 +90,16 @@
         "hook_characters": 103,
         "visual_treatment": "kinetic_typography",
         "schedule": {}
-      }
+      },
+      "reach": 16,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 7565
     },
     {
       "id": "18138583024717638",
       "posted": "2026-09-05T05:37:10+0000",
-      "type": "FEED",
-      "permalink": "https://www.instagram.com/p/Dc5Of0DFfcS/",
       "hook": "Knowing when to rebrand comes down to whether you are losing deals on price or on customer fit.",
-      "reach": 20,
-      "views": 65,
-      "likes": 1,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 1,
-      "avg_watch_time": 0,
-      "total_watch_time": 0,
       "experiment": {
         "hook_type": "cost",
         "evidence_type": "",
@@ -156,23 +109,16 @@
         "hook_characters": 95,
         "visual_treatment": "carousel",
         "schedule": {}
-      }
+      },
+      "reach": 20,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
     },
     {
       "id": "17915068275450998",
       "posted": "2026-09-03T05:42:02+0000",
-      "type": "REELS",
-      "permalink": "https://www.instagram.com/reel/Dc0FbM6jaUV/",
       "hook": "Real marketing leadership is built on deciding what your brand will intentionally ignore. When marketing heads try to ca",
-      "reach": 43,
-      "views": 50,
-      "likes": 4,
-      "comments": 0,
-      "saved": 1,
-      "shares": 0,
-      "total_interactions": 6,
-      "avg_watch_time": 50550,
-      "total_watch_time": 2072560,
       "experiment": {
         "hook_type": "claim",
         "evidence_type": "",
@@ -182,23 +128,16 @@
         "hook_characters": 89,
         "visual_treatment": "kinetic_typography",
         "schedule": {}
-      }
+      },
+      "reach": 43,
+      "saved": 1,
+      "shares": 0,
+      "avg_watch_time": 50550
     },
     {
       "id": "18439031743126392",
       "posted": "2026-09-02T18:36:34+0000",
-      "type": "REELS",
-      "permalink": "https://www.instagram.com/reel/Dcy5RGomltX/",
       "hook": "If you want to understand why this ad worked so well, look at how Surf Excel reframed dirt.",
-      "reach": 37,
-      "views": 51,
-      "likes": 1,
-      "comments": 0,
-      "saved": 2,
-      "shares": 0,
-      "total_interactions": 3,
-      "avg_watch_time": 7734,
-      "total_watch_time": 301634,
       "experiment": {
         "hook_type": "claim",
         "evidence_type": "",
@@ -208,23 +147,16 @@
         "hook_characters": 91,
         "visual_treatment": "kinetic_typography",
         "schedule": {}
-      }
+      },
+      "reach": 37,
+      "saved": 2,
+      "shares": 0,
+      "avg_watch_time": 7734
     },
     {
       "id": "18214079809344822",
       "posted": "2026-09-01T21:17:16+0000",
-      "type": "REELS",
-      "permalink": "https://www.instagram.com/reel/Dcwm3OlFS7e/",
       "hook": "How AI is changing marketing isn't by replacing creative work, but by making generic execution cost zero.",
-      "reach": 115,
-      "views": 124,
-      "likes": 5,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 6,
-      "avg_watch_time": 5636,
-      "total_watch_time": 574966,
       "experiment": {
         "hook_type": "cost",
         "evidence_type": "",
@@ -234,23 +166,16 @@
         "hook_characters": 105,
         "visual_treatment": "kinetic_typography",
         "schedule": {}
-      }
+      },
+      "reach": 115,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 5636
     },
     {
       "id": "17985919602102209",
       "posted": "2026-08-31T05:23:00+0000",
-      "type": "REELS",
-      "permalink": "https://www.instagram.com/reel/DcsU3DngZy0/",
       "hook": "The fundamental difference between branding and marketing comes down to gross margin, not creative output.",
-      "reach": 118,
-      "views": 145,
-      "likes": 4,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 5,
-      "avg_watch_time": 14390,
-      "total_watch_time": 1539793,
       "experiment": {
         "hook_type": "distinction",
         "evidence_type": "",
@@ -260,23 +185,16 @@
         "hook_characters": 106,
         "visual_treatment": "kinetic_typography",
         "schedule": {}
-      }
+      },
+      "reach": 118,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 14390
     },
     {
       "id": "18392805310167375",
       "posted": "2026-08-29T09:58:21+0000",
-      "type": "FEED",
-      "permalink": "https://www.instagram.com/p/Dcnq0Gwlkqo/",
       "hook": "A solid brand strategy does not start with who your customer is. It starts with what existing budget you are stealing.",
-      "reach": 87,
-      "views": 151,
-      "likes": 2,
-      "comments": 0,
-      "saved": 3,
-      "shares": 0,
-      "total_interactions": 5,
-      "avg_watch_time": 0,
-      "total_watch_time": 0,
       "experiment": {
         "hook_type": "cost",
         "evidence_type": "",
@@ -286,23 +204,16 @@
         "hook_characters": 118,
         "visual_treatment": "carousel",
         "schedule": {}
-      }
+      },
+      "reach": 87,
+      "saved": 3,
+      "shares": 0,
+      "avg_watch_time": 0
     },
     {
       "id": "17971859009938021",
       "posted": "2026-08-27T09:30:27+0000",
-      "type": "FEED",
-      "permalink": "https://www.instagram.com/p/DcieBvzoCY3/",
       "hook": "The best marketing career advice is simple: move from managing creative outputs to managing budget allocations.",
-      "reach": 104,
-      "views": 169,
-      "likes": 4,
-      "comments": 0,
-      "saved": 1,
-      "shares": 0,
-      "total_interactions": 5,
-      "avg_watch_time": 0,
-      "total_watch_time": 0,
       "experiment": {
         "hook_type": "cost",
         "evidence_type": "",
@@ -312,23 +223,16 @@
         "hook_characters": 111,
         "visual_treatment": "carousel",
         "schedule": {}
-      }
+      },
+      "reach": 104,
+      "saved": 1,
+      "shares": 0,
+      "avg_watch_time": 0
     },
     {
       "id": "17904689841483736",
       "posted": "2026-08-26T14:57:09+0000",
-      "type": "REELS",
-      "permalink": "https://www.instagram.com/reel/Dcgel49lZZy/",
       "hook": "This brand case study India shows why Coca-Cola failed to replace Thums Up in 1993 despite owning distribution.",
-      "reach": 146,
-      "views": 147,
-      "likes": 4,
-      "comments": 0,
-      "saved": 1,
-      "shares": 0,
-      "total_interactions": 6,
-      "avg_watch_time": 7202,
-      "total_watch_time": 871473,
       "experiment": {
         "hook_type": "claim",
         "evidence_type": "",
@@ -338,23 +242,16 @@
         "hook_characters": 111,
         "visual_treatment": "kinetic_typography",
         "schedule": {}
-      }
+      },
+      "reach": 146,
+      "saved": 1,
+      "shares": 0,
+      "avg_watch_time": 7202
     },
     {
       "id": "17947588470267574",
       "posted": "2026-08-25T14:57:44+0000",
-      "type": "REELS",
-      "permalink": "https://www.instagram.com/reel/Dcd53L_mt12/",
       "hook": "Most generative AI marketing output sounds identical because teams prompt for tone instead of business constraints.",
-      "reach": 262,
-      "views": 287,
-      "likes": 8,
-      "comments": 0,
-      "saved": 1,
-      "shares": 0,
-      "total_interactions": 10,
-      "avg_watch_time": 9003,
-      "total_watch_time": 2178812,
       "experiment": {
         "hook_type": "claim",
         "evidence_type": "",
@@ -364,23 +261,16 @@
         "hook_characters": 115,
         "visual_treatment": "kinetic_typography",
         "schedule": {}
-      }
+      },
+      "reach": 262,
+      "saved": 1,
+      "shares": 0,
+      "avg_watch_time": 9003
     },
     {
       "id": "18372343411233292",
       "posted": "2026-08-24T03:13:31+0000",
-      "type": "FEED",
-      "permalink": "https://www.instagram.com/p/DcaEglrmwyR/",
       "hook": "The difference between branding and marketing isn't visual design versus copy. It shows up in your gross margin.",
-      "reach": 112,
-      "views": 160,
-      "likes": 7,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 7,
-      "avg_watch_time": 0,
-      "total_watch_time": 0,
       "experiment": {
         "hook_type": "distinction",
         "evidence_type": "",
@@ -390,23 +280,16 @@
         "hook_characters": 112,
         "visual_treatment": "carousel",
         "schedule": {}
-      }
+      },
+      "reach": 112,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
     },
     {
       "id": "17882894220486971",
       "posted": "2026-08-23T21:31:31+0000",
-      "type": "FEED",
-      "permalink": "https://www.instagram.com/p/DcZdXsgoNn_/",
       "hook": "Most teams learning how to build a brand strategy focus on what to say. The real work is deciding what to ignore.",
-      "reach": 170,
-      "views": 229,
-      "likes": 4,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 4,
-      "avg_watch_time": 0,
-      "total_watch_time": 0,
       "experiment": {
         "hook_type": "claim",
         "evidence_type": "",
@@ -416,23 +299,16 @@
         "hook_characters": 113,
         "visual_treatment": "carousel",
         "schedule": {}
-      }
+      },
+      "reach": 170,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
     },
     {
       "id": "18183546097364993",
       "posted": "2026-08-22T13:40:05+0000",
-      "type": "FEED",
-      "permalink": "https://www.instagram.com/p/DcWCnwMoErS/",
       "hook": "Most first time manager tips tell you to delegate. Few explain why new leads keep rewriting their team's work.",
-      "reach": 165,
-      "views": 212,
-      "likes": 4,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 4,
-      "avg_watch_time": 0,
-      "total_watch_time": 0,
       "experiment": {
         "hook_type": "claim",
         "evidence_type": "",
@@ -442,23 +318,16 @@
         "hook_characters": 110,
         "visual_treatment": "carousel",
         "schedule": {}
-      }
+      },
+      "reach": 165,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
     },
     {
       "id": "18015079547921275",
       "posted": "2026-08-22T07:40:01+0000",
-      "type": "REELS",
-      "permalink": "https://www.instagram.com/reel/DcVZYrWEnCV/",
       "hook": "Analyzing why this ad worked for Paper Boat shows how positioning beat established beverage giants.",
-      "reach": 124,
-      "views": 108,
-      "likes": 3,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 4,
-      "avg_watch_time": 3083,
-      "total_watch_time": 277514,
       "experiment": {
         "hook_type": "claim",
         "evidence_type": "",
@@ -468,23 +337,16 @@
         "hook_characters": 99,
         "visual_treatment": "kinetic_typography",
         "schedule": {}
-      }
+      },
+      "reach": 124,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 3083
     },
     {
       "id": "18123051016838765",
       "posted": "2026-08-22T03:03:40+0000",
-      "type": "REELS",
-      "permalink": "https://www.instagram.com/reel/DcU5wxngbuW/",
       "hook": "Most AI tools for marketers get abandoned in three weeks because teams try to automate judgment, not draft creation.",
-      "reach": 143,
-      "views": 158,
-      "likes": 3,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 3,
-      "avg_watch_time": 26463,
-      "total_watch_time": 3413840,
       "experiment": {
         "hook_type": "distinction",
         "evidence_type": "",
@@ -494,23 +356,16 @@
         "hook_characters": 116,
         "visual_treatment": "kinetic_typography",
         "schedule": {}
-      }
+      },
+      "reach": 143,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 26463
     },
     {
       "id": "18020623571922994",
       "posted": "2026-08-21T13:57:07+0000",
-      "type": "FEED",
-      "permalink": "https://www.instagram.com/p/DcTfx0Um8j0/",
       "hook": "Every practical brand strategy framework starts with sacrifice, not a list of aspirational adjectives.",
-      "reach": 68,
-      "views": 101,
-      "likes": 3,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 3,
-      "avg_watch_time": 0,
-      "total_watch_time": 0,
       "experiment": {
         "hook_type": "distinction",
         "evidence_type": "",
@@ -520,23 +375,16 @@
         "hook_characters": 102,
         "visual_treatment": "carousel",
         "schedule": {}
-      }
+      },
+      "reach": 68,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
     },
     {
       "id": "18095873870634442",
       "posted": "2026-08-21T07:02:53+0000",
-      "type": "FEED",
-      "permalink": "https://www.instagram.com/p/DcSwX66m_yn/",
       "hook": "When giving feedback to your team, changing words in draft three is usually a sign that your brief was incomplete.",
-      "reach": 65,
-      "views": 104,
-      "likes": 3,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 4,
-      "avg_watch_time": 0,
-      "total_watch_time": 0,
       "experiment": {
         "hook_type": "claim",
         "evidence_type": "",
@@ -546,23 +394,16 @@
         "hook_characters": 114,
         "visual_treatment": "carousel",
         "schedule": {}
-      }
+      },
+      "reach": 65,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
     },
     {
       "id": "18140263132570891",
       "posted": "2026-08-21T03:13:22+0000",
-      "type": "REELS",
-      "permalink": "https://www.instagram.com/reel/DcSWEjMEj1r/",
       "hook": "Here is why this ad worked when 5 Star was losing impulse market share to Snickers in India.",
-      "reach": 68,
-      "views": 72,
-      "likes": 1,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 1,
-      "avg_watch_time": 3396,
-      "total_watch_time": 176596,
       "experiment": {
         "hook_type": "claim",
         "evidence_type": "",
@@ -572,23 +413,16 @@
         "hook_characters": 92,
         "visual_treatment": "kinetic_typography",
         "schedule": {}
-      }
+      },
+      "reach": 68,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 3396
     },
     {
       "id": "18469418635117244",
       "posted": "2026-08-20T14:52:10+0000",
-      "type": "REELS",
-      "permalink": "https://www.instagram.com/reel/DcRBQHqlE4G/",
       "hook": "The debate around whether AI will replace marketers misses the real shift happening in agency and brand team headcount.",
-      "reach": 39,
-      "views": 54,
-      "likes": 3,
-      "comments": 0,
-      "saved": 1,
-      "shares": 0,
-      "total_interactions": 4,
-      "avg_watch_time": 5866,
-      "total_watch_time": 222914,
       "experiment": {
         "hook_type": "claim",
         "evidence_type": "",
@@ -598,23 +432,16 @@
         "hook_characters": 119,
         "visual_treatment": "kinetic_typography",
         "schedule": {}
-      }
+      },
+      "reach": 39,
+      "saved": 1,
+      "shares": 0,
+      "avg_watch_time": 5866
     },
     {
       "id": "18435793651125382",
       "posted": "2026-08-20T07:01:40+0000",
-      "type": "FEED",
-      "permalink": "https://www.instagram.com/p/DcQLcJSoAkB/",
       "hook": "Searching for a brand positioning statement example usually leads to the same 4-part template. Here is why it fails.",
-      "reach": 22,
-      "views": 50,
-      "likes": 1,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 1,
-      "avg_watch_time": 0,
-      "total_watch_time": 0,
       "experiment": {
         "hook_type": "correction",
         "evidence_type": "",
@@ -624,23 +451,16 @@
         "hook_characters": 116,
         "visual_treatment": "carousel",
         "schedule": {}
-      }
+      },
+      "reach": 22,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
     },
     {
       "id": "17875543242628433",
       "posted": "2026-08-20T03:06:49+0000",
-      "type": "FEED",
-      "permalink": "https://www.instagram.com/p/DcPwkHIlqs0/",
       "hook": "Knowing how to build a brand strategy starts with choosing what your business will refuse to do.",
-      "reach": 17,
-      "views": 36,
-      "likes": 1,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 1,
-      "avg_watch_time": 0,
-      "total_watch_time": 0,
       "experiment": {
         "hook_type": "claim",
         "evidence_type": "",
@@ -650,39 +470,16 @@
         "hook_characters": 96,
         "visual_treatment": "carousel",
         "schedule": {}
-      }
-    },
-    {
-      "id": "18070647071732966",
-      "posted": "2026-08-19T15:25:25+0000",
-      "type": "REELS",
-      "permalink": "https://www.instagram.com/reel/DcOf4SrMHJI/",
-      "hook": "AI didn't take your job. It took your first draft \u2014 and that was never the valuable part.",
-      "reach": 22,
-      "views": 23,
-      "likes": 3,
-      "comments": 0,
+      },
+      "reach": 17,
       "saved": 0,
       "shares": 0,
-      "total_interactions": 3,
-      "avg_watch_time": 7846,
-      "total_watch_time": 172617
+      "avg_watch_time": 0
     },
     {
       "id": "18129310924659392",
       "posted": "2026-08-19T13:55:15+0000",
-      "type": "FEED",
-      "permalink": "https://www.instagram.com/p/DcOV-Wbkdwb/",
       "hook": "Mastering giving feedback to your team comes down to eliminating taste adjectives from your review comments.",
-      "reach": 13,
-      "views": 34,
-      "likes": 1,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 1,
-      "avg_watch_time": 0,
-      "total_watch_time": 0,
       "experiment": {
         "hook_type": "claim",
         "evidence_type": "",
@@ -692,23 +489,16 @@
         "hook_characters": 108,
         "visual_treatment": "carousel",
         "schedule": {}
-      }
+      },
+      "reach": 13,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
     },
     {
       "id": "17963855459964717",
       "posted": "2026-08-19T07:00:42+0000",
-      "type": "REELS",
-      "permalink": "https://www.instagram.com/reel/DcNmgEBDKim/",
       "hook": "This brand case study India shows how IndiGo captured 60% market share by ignoring customer delight.",
-      "reach": 26,
-      "views": 33,
-      "likes": 1,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 1,
-      "avg_watch_time": 3703,
-      "total_watch_time": 107414,
       "experiment": {
         "hook_type": "claim",
         "evidence_type": "",
@@ -718,23 +508,16 @@
         "hook_characters": 100,
         "visual_treatment": "kinetic_typography",
         "schedule": {}
-      }
+      },
+      "reach": 26,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 3703
     },
     {
       "id": "17890218198671540",
       "posted": "2026-08-19T03:07:09+0000",
-      "type": "REELS",
-      "permalink": "https://www.instagram.com/reel/DcNLyFADIOI/",
       "hook": "The debate over will AI replace marketers misses what actually gets automated: draft generation, not positioning.",
-      "reach": 35,
-      "views": 37,
-      "likes": 1,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 1,
-      "avg_watch_time": 3262,
-      "total_watch_time": 114181,
       "experiment": {
         "hook_type": "distinction",
         "evidence_type": "",
@@ -744,23 +527,16 @@
         "hook_characters": 113,
         "visual_treatment": "kinetic_typography",
         "schedule": {}
-      }
+      },
+      "reach": 35,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 3262
     },
     {
       "id": "17928885951143782",
       "posted": "2026-08-18T13:54:33+0000",
-      "type": "FEED",
-      "permalink": "https://www.instagram.com/p/DcLxGzQoC-3/",
       "hook": "Every standard brand positioning statement example you find online misses the point of positioning: deliberate sacrifice",
-      "reach": 13,
-      "views": 37,
-      "likes": 1,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 1,
-      "avg_watch_time": 0,
-      "total_watch_time": 0,
       "experiment": {
         "hook_type": "claim",
         "evidence_type": "",
@@ -770,23 +546,16 @@
         "hook_characters": 121,
         "visual_treatment": "carousel",
         "schedule": {}
-      }
+      },
+      "reach": 13,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
     },
     {
       "id": "18393696196205563",
       "posted": "2026-08-18T07:49:02+0000",
-      "type": "FEED",
-      "permalink": "https://www.instagram.com/p/DcLHREMFY-s/",
       "hook": "Knowing the difference between branding and marketing saves you from wasting half your annual budget.",
-      "reach": 11,
-      "views": 17,
-      "likes": 1,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 1,
-      "avg_watch_time": 0,
-      "total_watch_time": 0,
       "experiment": {
         "hook_type": "cost",
         "evidence_type": "",
@@ -796,23 +565,16 @@
         "hook_characters": 101,
         "visual_treatment": "carousel",
         "schedule": {}
-      }
+      },
+      "reach": 11,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
     },
     {
       "id": "18066041339728040",
       "posted": "2026-08-18T03:05:01+0000",
-      "type": "FEED",
-      "permalink": "https://www.instagram.com/p/DcKmxnnlUPV/",
       "hook": "If you want to know how to lead a marketing team, stop rewriting their copy and start auditing their creative briefs.",
-      "reach": 11,
-      "views": 19,
-      "likes": 1,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 1,
-      "avg_watch_time": 0,
-      "total_watch_time": 0,
       "experiment": {
         "hook_type": "claim",
         "evidence_type": "",
@@ -822,23 +584,16 @@
         "hook_characters": 117,
         "visual_treatment": "carousel",
         "schedule": {}
-      }
+      },
+      "reach": 11,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
     },
     {
       "id": "18075400997415698",
       "posted": "2026-08-17T13:49:43+0000",
-      "type": "REELS",
-      "permalink": "https://www.instagram.com/reel/DcJLuLhFROK/",
       "hook": "To understand why this ad worked so well in 1994, you have to look at Cadbury's original growth ceiling.",
-      "reach": 29,
-      "views": 35,
-      "likes": 1,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 1,
-      "avg_watch_time": 4899,
-      "total_watch_time": 151877,
       "experiment": {
         "hook_type": "claim",
         "evidence_type": "",
@@ -848,23 +603,16 @@
         "hook_characters": 104,
         "visual_treatment": "kinetic_typography",
         "schedule": {}
-      }
+      },
+      "reach": 29,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 4899
     },
     {
       "id": "18085603463649775",
       "posted": "2026-08-17T07:12:23+0000",
-      "type": "REELS",
-      "permalink": "https://www.instagram.com/reel/DcIePvbFNIY/",
       "hook": "Why most AI prompts for marketing produce generic copy, and the three negative constraints that fix it.",
-      "reach": 50,
-      "views": 72,
-      "likes": 2,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 2,
-      "avg_watch_time": 5008,
-      "total_watch_time": 280460,
       "experiment": {
         "hook_type": "claim",
         "evidence_type": "",
@@ -874,23 +622,16 @@
         "hook_characters": 103,
         "visual_treatment": "kinetic_typography",
         "schedule": {}
-      }
+      },
+      "reach": 50,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 5008
     },
     {
       "id": "18091025333642471",
       "posted": "2026-08-17T03:09:15+0000",
-      "type": "FEED",
-      "permalink": "https://www.instagram.com/p/DcICdL8Fu4I/",
       "hook": "Knowing exactly when to rebrand saves millions in wasted agency fees and lost brand equity.",
-      "reach": 11,
-      "views": 30,
-      "likes": 1,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 1,
-      "avg_watch_time": 0,
-      "total_watch_time": 0,
       "experiment": {
         "hook_type": "claim",
         "evidence_type": "",
@@ -900,23 +641,16 @@
         "hook_characters": 91,
         "visual_treatment": "carousel",
         "schedule": {}
-      }
+      },
+      "reach": 11,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
     },
     {
       "id": "18021292667887523",
       "posted": "2026-08-16T14:55:18+0000",
-      "type": "FEED",
-      "permalink": "https://www.instagram.com/p/DcGudntm5Bh/",
       "hook": "Most marketers learning how to build a brand strategy start with visual guidelines and tone of voice decks.",
-      "reach": 10,
-      "views": 24,
-      "likes": 0,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 0,
-      "avg_watch_time": 0,
-      "total_watch_time": 0,
       "experiment": {
         "hook_type": "claim",
         "evidence_type": "",
@@ -926,8 +660,11 @@
         "hook_characters": 107,
         "visual_treatment": "carousel",
         "schedule": {}
-      }
+      },
+      "reach": 10,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
     }
-  ],
-  "timing": []
+  ]
 }
