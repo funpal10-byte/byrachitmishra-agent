@@ -70,7 +70,7 @@
   "cta": "Send this to whoever is defending your pricing strategy in the next pipeline review.",
   "failure_mode": "Marketers may view price negotiation as purely a sales execution issue rather than a structural positioning failure.",
   "scheduled_for": "2026-09-14T08:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "schedule_experiment": {
     "active": false,
     "selected_time": "08:30"
@@ -95,5 +95,7 @@
   "images": [
     "content/queue/2026-09-14/mon-difference-between-branding-and-marketing-pricing-power/reel-cover.jpg"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-09-14T11:38:12.382450+05:30",
+  "media_id": "18034940417838532"
 }
