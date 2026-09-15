@@ -1,12 +1,24 @@
 # @byrachitmishra — content agent
 
-An agent that researches the week, writes five Instagram posts in your voice,
+The active brief is the root **`brand.yml`**. `brand/brand.yml` is historical.
+See [the September project reset](docs/project-reset.md) for the editorial
+purpose and implementation gaps corrected. Run `python tools/preview_reset.py`
+for three cover concepts, a complete Reel storyboard and a companion carousel.
+These previews use the production renderer and never enter the publishing queue.
+
+An agent that researches the week, writes ten Instagram posts in your voice,
 renders the carousel slides as finished images, and opens a pull request for
 you to approve from your phone. Merge it and the posts publish themselves at
 their scheduled times.
 
 It runs entirely on GitHub Actions. There is no server to maintain and nothing
 running on your laptop.
+
+The ten weekly slots include three blog-adaptation slots. Each weekly run checks
+the configured RSS feed for unused full articles, then renders adaptations through
+the same quality and approval process. If the feed is unavailable or exhausted,
+those slots use clearly recorded evergreen replacements. Blog adaptations count
+toward ten; they are not an additional batch. New weekly posts still require approval.
 
 ```
 Sunday 06:00 IST                  You, whenever                    Hourly
@@ -87,7 +99,7 @@ That is the whole drafting setup. From here it runs every Sunday on its own.
 
 ### Part 2 — Make it yours (20 minutes, worth doing properly)
 
-Everything the agent believes about you lives in **`brand/brand.yml`**. Nothing
+Everything the agent believes about you lives in **`brand.yml`**. Nothing
 is hardcoded. Open it and go through:
 
 - **`identity.positioning`** — the sentence everything hangs off. If this is
@@ -108,7 +120,7 @@ python -m playwright install chromium
 python tools/preview.py     # renders a sample carousel into preview/
 ```
 
-Iterate on `brand/brand.yml` and `templates/slide.html` until the slides look
+Iterate on `brand.yml` and `templates/slide.html` until the slides look
 right. This costs nothing and calls no API.
 
 ### Part 3 — Let it publish (optional, 15 minutes)
@@ -221,7 +233,7 @@ unless you supply your own tracks.
 | Anthropic API, if you switch | Roughly $1.50–4 a month at five posts a week |
 | Instagram API | Free |
 
-Two quality knobs, in order of impact. First, `brand/brand.yml` — the
+Two quality knobs, in order of impact. First, `brand.yml` — the
 positioning sentence and the banned-phrases list do more for how the writing
 sounds than any model change. Fix that before anything else. Second,
 `AGENT_MODEL`, a repository variable that overrides the default model for
@@ -284,7 +296,7 @@ agent/
   publish.py      Instagram Graph API: containers, publish, token refresh
   run_batch.py    Sunday entrypoint
   run_publish.py  hourly entrypoint
-brand/brand.yml   ← everything you'll actually want to edit
+brand.yml         ← the active brand brief
 brand/logo/       the RM lockup in three colourways
 prompts/system.md the strategist prompt, filled from brand.yml at run time
 templates/        the slide design

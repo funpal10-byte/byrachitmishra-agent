@@ -2,6 +2,10 @@ import unittest
 
 from agent.schema import validate
 
+VISUAL = {"kind": "checklist", "items": [
+    {"label": "Scope", "detail": "Name the decision"},
+    {"label": "Owner", "detail": "Name the approver"}], "note": "Suggested check"}
+
 
 def reel_post() -> dict:
     hook = "Stop paying agencies for asset volume"
@@ -20,6 +24,8 @@ def reel_post() -> dict:
         }
         for number, start in enumerate(range(3, 23, 4), 2)
     )
+    beats[1]["visual"] = VISUAL
+    beats[2]["visual"] = VISUAL
     return {
         "title": "agency_scope_review",
         "pillar": "ai_marketing",
@@ -32,6 +38,12 @@ def reel_post() -> dict:
             "detail": "Separate production work from strategic decision work in the scope review.",
         },
         "reel_script": beats,
+        "reel_cover": {
+            "headline": "The agency volume trap",
+            "signal": "ASSETS ≠ DECISIONS",
+            "layout": "split",
+            "visual": VISUAL,
+        },
         "caption": hook + ".\n\nAI agency retainers should reward judgment, not asset count.",
         "alt_text": "Text Reel about reviewing AI agency retainers.",
         "hashtags": ["#aimarketing", "#agencystrategy", "#brandstrategy"],
@@ -41,6 +53,14 @@ def reel_post() -> dict:
 
 
 class HookContractTests(unittest.TestCase):
+    def test_older_approved_posts_keep_original_visual_contract(self):
+        post = reel_post()
+        post.pop("reel_cover")
+        for beat in post["reel_script"]:
+            beat.pop("visual", None)
+        self.assertEqual(validate(post, require_visuals=False), [])
+        self.assertTrue(validate(post))
+
     def test_a_unified_opening_passes(self):
         self.assertEqual(validate(reel_post()), [])
 
@@ -56,6 +76,19 @@ class HookContractTests(unittest.TestCase):
         post = reel_post()
         post["reel_script"][0]["onscreen"] = "Generic work costs zero"
         self.assertIn("Reel beat 1 onscreen text must exactly match hook", validate(post))
+
+    def test_reel_cover_cannot_repeat_the_opening_hook(self):
+        post = reel_post()
+        post["reel_cover"]["headline"] = post["hook"]
+        self.assertIn(
+            "reel cover headline repeats the opening hook — package a different tension",
+            validate(post),
+        )
+
+    def test_reel_cover_requires_a_visual_signal(self):
+        post = reel_post()
+        del post["reel_cover"]["signal"]
+        self.assertIn("reel cover missing signal", validate(post))
 
     def test_factual_source_requires_a_url(self):
         post = reel_post()

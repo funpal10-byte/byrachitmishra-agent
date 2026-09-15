@@ -1,4 +1,4 @@
-"""Configuration loading. Everything tunable lives in brand/brand.yml."""
+"""Configuration loading. The current brief lives in the root brand.yml."""
 
 from __future__ import annotations
 
@@ -11,7 +11,7 @@ from zoneinfo import ZoneInfo
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
-BRAND_FILE = ROOT / "brand" / "brand.yml"
+BRAND_FILE = ROOT / "brand.yml"
 PROMPT_FILE = ROOT / "prompts" / "system.md"
 TEMPLATE_DIR = ROOT / "templates"
 CONTENT_DIR = ROOT / "content"

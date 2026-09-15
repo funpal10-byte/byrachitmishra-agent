@@ -29,7 +29,7 @@ def preflight(evidence: dict) -> dict:
         response = requests.head(url, allow_redirects=True, timeout=8,
                                  headers={"User-Agent": "byrachitmishra-agent/1.0"})
         return {
-            "status": "verified" if response.ok else "unreachable",
+            "status": "reachable" if response.ok else "unreachable",
             "url": url,
             "final_url": response.url,
             "http_status": response.status_code,

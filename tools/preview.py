@@ -2,7 +2,7 @@
 """Render a sample carousel without calling any API.
 
 Use this to tune the look of your slides — colours, type sizes, layout — by
-editing brand/brand.yml and templates/slide.html and re-running. No API key
+editing brand.yml and templates/slide.html and re-running. No API key
 needed, costs nothing.
 
     python tools/preview.py

@@ -1,0 +1,133 @@
+{
+  "title": "ai_approval_queue",
+  "format": "reel",
+  "pillar": "ai_marketing",
+  "primary_keyword": "AI governance",
+  "claim": "Drafting faster cannot remove an approval queue without clear ownership.",
+  "hook": "AI drafts faster. Approval still waits.",
+  "evidence": {
+    "type": "framework",
+    "detail": "Track drafting and waiting separately; assign an approver, source and escalation route before drafting."
+  },
+  "reel_cover": {
+    "headline": "Ready. Still stuck.",
+    "signal": "The approval bottleneck",
+    "layout": "split",
+    "visual": {
+      "kind": "bottleneck",
+      "items": [
+        {
+          "label": "DRAFTS READY",
+          "detail": "AI speeds up production"
+        },
+        {
+          "label": "APPROVAL",
+          "detail": "Still waiting for an owner"
+        }
+      ],
+      "note": "Illustrative workflow"
+    }
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:05",
+      "onscreen": "AI drafts faster. Approval still waits.",
+      "voiceover": "AI drafts faster. Approval still waits.",
+      "direction": "Rendered text and workflow illustration."
+    },
+    {
+      "timecode": "0:05-0:10",
+      "onscreen": "Measure drafting and waiting separately.",
+      "voiceover": "Measure drafting and waiting separately.",
+      "direction": "Rendered text and workflow illustration.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Drafting",
+            "detail": "Time spent producing the copy"
+          },
+          {
+            "label": "Waiting",
+            "detail": "Time until someone can approve"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "timecode": "0:10-0:15",
+      "onscreen": "A reviewer needs more than clean copy.",
+      "voiceover": "A reviewer needs more than clean copy.",
+      "direction": "Rendered text and workflow illustration."
+    },
+    {
+      "timecode": "0:15-0:20",
+      "onscreen": "Give every claim a source and an owner.",
+      "voiceover": "Give every claim a source and an owner.",
+      "direction": "Rendered text and workflow illustration.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Copy only",
+            "detail": "Reviewer must find the evidence"
+          },
+          {
+            "label": "Copy + source",
+            "detail": "Reviewer can check the claim"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:20-0:25",
+      "onscreen": "Agree the approval checks before drafting.",
+      "voiceover": "Agree the approval checks before drafting.",
+      "direction": "Rendered text and workflow illustration.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Owner",
+            "detail": "Name the person who can approve."
+          },
+          {
+            "label": "Evidence",
+            "detail": "Attach the source for each claim."
+          },
+          {
+            "label": "Escalation",
+            "detail": "Agree who resolves a disputed claim."
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:25-0:30",
+      "onscreen": "Own the queue before scaling the output.",
+      "voiceover": "Own the queue before scaling the output.",
+      "direction": "Rendered text and workflow illustration."
+    }
+  ],
+  "caption": "AI drafts faster. Approval still waits.\n\nAI governance starts before the copy arrives.\n\nA reviewer who must find the source and locate the decision owner is doing work the brief left unfinished.\n\nSeparate drafting time from waiting time. Then agree an approver and escalation route before the next brief.\n\nExtra review can be necessary. An ownerless queue is a different problem.\n\nSend this to whoever owns your content approvals.\n\n[ai governance, enterprise marketing, content approval]",
+  "hashtags": [
+    "#aigovernance",
+    "#aimarketing",
+    "#marketingoperations"
+  ],
+  "alt_text": "Draft cards waiting at an approval gate; a Reel about AI governance.",
+  "cta": "Send this to whoever owns your content approvals.",
+  "failure_mode": "A simplified workflow cannot diagnose a real team's delay; measure it before changing review.",
+  "status": "approved",
+  "content_version": 2,
+  "approved_at": "2026-09-15T20:56:52.880892+05:30",
+  "scheduled_for": "2026-09-16T19:00:00+05:30",
+  "video": "reel.mp4",
+  "images": [
+    "reel-cover.jpg"
+  ],
+  "warnings": []
+}

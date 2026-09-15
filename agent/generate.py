@@ -42,6 +42,18 @@ def _hook_library() -> str:
     return _read_prompt("hooks.md")
 
 
+def idea_context() -> str:
+    """Only unfinished, nonempty ideas are editorial inputs; examples are not."""
+    path = _PROMPT_DIR.parent / "ideas.md"
+    if not path.exists():
+        return ""
+    body = path.read_text(encoding="utf-8").split("## Ideas", 1)[-1]
+    ideas = re.findall(r"^- \[ \] (\S.*)$", body, re.M)
+    if not ideas:
+        return ""
+    return "AUTHOR'S IDEA BANK — prefer relevant ideas to news:\n" + "\n".join(ideas)
+
+
 USER_TEMPLATE = """Write one Instagram post for this slot.
 
 PILLAR: {pillar_name}
@@ -78,6 +90,16 @@ elsewhere in the first 125 caption characters.
 
 Do not use an unsupported number. Supply the required `evidence` object with
 the proof or usable framework that earns the claim.
+
+For every Reel, also supply `reel_cover`. This is the profile-grid thumbnail,
+not the first video frame. It needs a *different* 2-6 word tension line and a
+short concrete `signal` (a number, trade-off, or proof fragment already earned
+by the Reel). Never copy, shorten, recolour, or paraphrase the opening hook.
+Choose one `layout`: `signal` for a piece of evidence, `split` for a contrast,
+or `stamp` for a verdict. Make the choice serve this post, and vary it from
+recent Reels. Example: opening hook “Output volume doubled. Pipeline flat.”;
+cover headline “The AI output trap”; signal “MORE CONTENT ≠ DEMAND”; layout
+“split”.
 """
 
 
@@ -108,6 +130,8 @@ def generate_post(
     # worse than telling it nothing.
     performance = brief_context()
     full_brief = brief or "(no brief available this week — write evergreen)"
+    if ideas := idea_context():
+        full_brief = f"{ideas}\n\n{full_brief}"
     if performance:
         full_brief = f"{full_brief}\n\n{performance}"
 
@@ -126,6 +150,7 @@ def generate_post(
     hooks = _hook_library()
     if hooks:
         system_prompt = f"{system_prompt}\n\n---\n\n{hooks}"
+    system_prompt += "\n\n" + _read_prompt("visual-story.md")
 
     # Carousels carry a fixed frame grammar; Reels do not. Loading it only for
     # the format that uses it keeps the Reel prompt from being padded with
@@ -144,8 +169,8 @@ def generate_post(
     for attempt in range(3):
         raw = llm.generate(system=system_prompt, messages=messages, max_tokens=6000)
         post = _extract_json(raw)
-        post.setdefault("pillar", pillar.id)
-        post.setdefault("format", fmt)
+        post["pillar"] = pillar.id
+        post["format"] = fmt
 
         problems = validate(post) + check_voice(post, brand.voice.get("banned_phrases", []))
         if not problems:

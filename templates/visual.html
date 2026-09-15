@@ -1,0 +1,11 @@
+<div class="visual visual-{{ visual.kind }}">
+  <div class="visual-items">
+  {% for item in visual['items'] %}
+    <div class="visual-item">
+      <span class="visual-index">{{ '%02d' | format(loop.index) }}</span>
+      <strong>{{ item.label }}</strong><span class="visual-detail">{{ item.detail }}</span>
+    </div>
+  {% endfor %}
+  </div>
+  <div class="visual-note">{{ visual.note }}</div>
+</div>

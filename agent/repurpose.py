@@ -31,7 +31,7 @@ from agent.llm_adapter import complete
 
 ROOT = Path(__file__).resolve().parent.parent
 QUEUE = ROOT / "content" / "queue"
-BRAND = ROOT / "brand" / "brand.yml"
+BRAND = ROOT / "brand.yml"
 
 
 def _brand() -> dict:

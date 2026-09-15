@@ -119,6 +119,10 @@
   .slide.hook .foot{ color:rgba(255,255,255,.65) }
   .slide.hook .swipe{ color:rgba(255,255,255,.75) }
   {% endif %}
+{% include 'visual.css' %}
+.slide:has(.visual) .headline{font-size:58px}
+.slide:has(.visual) .body{font-size:30px;line-height:1.3;max-width:none;margin-top:24px}
+.slide:has(.visual) .rule{display:none}
 </style>
 </head>
 <body>
@@ -155,6 +159,7 @@
     <div class="headline">{{ headline }}</div>
     {% if body %}<div class="body">{{ body }}</div>{% endif %}
     <div class="rule"></div>
+    {% if visual %}{% include 'visual.html' %}{% endif %}
     <div class="foot">
       <span class="mark">
         {% if logo %}<img class="logo" src="{{ logo }}" alt="">{% else %}<span>{{ d.handle_mark }}</span>{% endif %}

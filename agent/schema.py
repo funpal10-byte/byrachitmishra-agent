@@ -10,6 +10,18 @@ import re
 
 from .sources import valid_http_url
 
+VISUAL_SCHEMA = {
+    "type": "object", "required": ["kind", "items", "note"],
+    "properties": {
+        "kind": {"type": "string", "enum": ["bottleneck", "comparison", "checklist"]},
+        "items": {"type": "array", "minItems": 2, "maxItems": 4,
+                  "items": {"type": "object", "required": ["label", "detail"],
+                            "properties": {"label": {"type": "string", "maxLength": 24},
+                                           "detail": {"type": "string", "maxLength": 48}}}},
+        "note": {"type": "string", "maxLength": 60},
+    },
+}
+
 POST_SCHEMA: dict = {
     "type": "object",
     "required": [
@@ -72,6 +84,7 @@ POST_SCHEMA: dict = {
                     "kicker": {"type": "string", "description": "Max 24 chars. Omit on slide 1."},
                     "headline": {"type": "string", "description": "Max 70 chars (60 on slides 1 and last)."},
                     "body": {"type": "string", "description": "Max 200 chars. Omit on slide 1."},
+                    "visual": VISUAL_SCHEMA,
                 },
             },
         },
@@ -86,6 +99,28 @@ POST_SCHEMA: dict = {
                     "onscreen": {"type": "string", "description": "Max 48 chars. Burned onto the video."},
                     "voiceover": {"type": "string"},
                     "direction": {"type": "string", "description": "What is on camera during this beat."},
+                    "visual": VISUAL_SCHEMA,
+                },
+            },
+        },
+        "reel_cover": {
+            "type": "object",
+            "description": "Required for Reels only. The separate profile-grid cover; it must package the tension without repeating the first frame.",
+            "required": ["headline", "signal", "layout", "visual"],
+            "properties": {
+                "visual": VISUAL_SCHEMA,
+                "headline": {
+                    "type": "string",
+                    "description": "2-6 words, max 36 characters. A distinct curiosity line, not a rewrite of the hook.",
+                },
+                "signal": {
+                    "type": "string",
+                    "description": "Max 24 characters. A concrete number, trade-off, or proof fragment from the Reel, shown as a visual label.",
+                },
+                "layout": {
+                    "type": "string",
+                    "enum": ["signal", "split", "stamp"],
+                    "description": "Choose the visual device that best fits the tension. Vary it deliberately across Reels.",
                 },
             },
         },
@@ -126,6 +161,8 @@ LIMITS = {
     "slide_body": 200,
     "slide_kicker": 24,
     "onscreen": 48,
+    "reel_cover_headline": 36,
+    "reel_cover_signal": 24,
     "caption": 2200,
     "hashtags": 5,
 }
@@ -168,7 +205,7 @@ def _opening_quality_problems(hook: str) -> list[str]:
     return problems
 
 
-def validate(post: dict) -> list[str]:
+def validate(post: dict, require_visuals: bool = True) -> list[str]:
     """Return a list of human-readable problems. Empty list means it is clean.
 
     These are checked after generation and written into the pull request, so a
@@ -195,7 +232,7 @@ def validate(post: dict) -> list[str]:
     too_long("caption", post.get("caption", ""), LIMITS["caption"])
 
     hook = _normalise(post.get("hook", ""))
-    caption_start = _normalise((post.get("caption") or "").splitlines()[0])
+    caption_start = _normalise(((post.get("caption") or "").splitlines() or [""])[0])
     if hook and caption_start != hook:
         problems.append("caption first line must exactly match hook")
     primary_keyword = _normalise(post.get("primary_keyword", ""))
@@ -233,14 +270,45 @@ def validate(post: dict) -> list[str]:
             too_long(f"slide {i + 1} headline", s.get("headline", ""), limit)
             too_long(f"slide {i + 1} body", s.get("body", ""), LIMITS["slide_body"])
             too_long(f"slide {i + 1} kicker", s.get("kicker", ""), LIMITS["slide_kicker"])
+            if require_visuals and 0 < i < len(slides) - 1:
+                problems.extend(validate_visual(s.get("visual"), f"slide {i + 1}"))
+                too_long(f"slide {i + 1} visual body", s.get("body", ""), 120)
         if slides and hook and _normalise(slides[0].get("headline", "")) != hook:
             problems.append("slide 1 headline must exactly match hook")
     elif fmt == "reel":
         beats = post.get("reel_script") or []
+        cover = post.get("reel_cover") or {}
+        if not isinstance(cover, dict):
+            problems.append("reel_cover must be an object")
+            cover = {}
+        for key in ("headline", "signal", "layout"):
+            if require_visuals and not str(cover.get(key, "")).strip():
+                problems.append(f"reel cover missing {key}")
+        cover_headline = str(cover.get("headline", "")).strip()
+        if require_visuals:
+            problems.extend(validate_visual(cover.get("visual"), "reel cover"))
+        cover_words = len(cover_headline.split())
+        too_long("reel cover headline", cover_headline, LIMITS["reel_cover_headline"])
+        too_long("reel cover signal", str(cover.get("signal", "")), LIMITS["reel_cover_signal"])
+        if cover_headline and not 2 <= cover_words <= 6:
+            problems.append(
+                f"reel cover headline has {cover_words} words, expected 2-6 for profile-grid reading"
+            )
+        if cover_headline and hook and _normalise(cover_headline) == hook:
+            problems.append("reel cover headline repeats the opening hook — package a different tension")
+        if cover.get("layout") and cover.get("layout") not in {"signal", "split", "stamp"}:
+            problems.append("reel cover layout must be signal, split or stamp")
         if not 6 <= len(beats) <= 10:
             problems.append(f"reel has {len(beats)} beats, expected 6-10")
         for i, b in enumerate(beats):
             too_long(f"beat {i + 1} onscreen", b.get("onscreen", ""), LIMITS["onscreen"])
+            if b.get("visual"):
+                problems.extend(validate_visual(b["visual"], f"beat {i + 1}"))
+        visuals = [b.get("visual") for b in beats[1:] if isinstance(b.get("visual"), dict)]
+        if require_visuals and len(visuals) < 2:
+            problems.append("Reel needs at least two visual beats after its opener")
+        if require_visuals and not any(v.get("kind") == "checklist" for v in visuals):
+            problems.append("Reel needs a usable checklist visual")
         if beats:
             first = beats[0]
             if hook and _normalise(first.get("onscreen", "")) != hook:
@@ -250,6 +318,29 @@ def validate(post: dict) -> list[str]:
             if not str(first.get("timecode", "")).strip().startswith("0:00-"):
                 problems.append("Reel beat 1 must start at 0:00")
 
+    return problems
+
+
+def validate_visual(visual, label: str) -> list[str]:
+    if not isinstance(visual, dict):
+        return [f"{label} needs a visual object"]
+    problems = []
+    kind = visual.get("kind")
+    if kind not in {"bottleneck", "comparison", "checklist"}:
+        problems.append(f"{label} has an unsupported visual kind")
+    items = visual.get("items")
+    if not isinstance(items, list) or not 2 <= len(items) <= 4:
+        return problems + [f"{label} visual needs 2-4 items"]
+    if kind in {"bottleneck", "comparison"} and len(items) != 2:
+        problems.append(f"{label} {kind} visual needs exactly two items")
+    for item in items:
+        for field, limit in (("label", 24), ("detail", 48)):
+            value = item.get(field) if isinstance(item, dict) else None
+            if not isinstance(value, str) or not value.strip() or len(value) > limit:
+                problems.append(f"{label} visual {field} must be 1-{limit} characters")
+    note = visual.get("note")
+    if not isinstance(note, str) or not note.strip() or len(note) > 60:
+        problems.append(f"{label} visual needs a basis note of 1-60 characters")
     return problems
 
 

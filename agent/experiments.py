@@ -70,8 +70,10 @@ def post_metadata(post: dict, schedule_experiment: dict | None = None) -> dict:
         "hook_words": len(hook.split()),
         "hook_characters": len(hook),
         "visual_treatment": (
-            "kinetic_typography" if post.get("format") == "reel" else "carousel"
+            "visual_explainer" if any(b.get("visual") for b in post.get("reel_script") or [])
+            else "kinetic_typography" if post.get("format") == "reel" else "carousel"
         ),
+        "cover_visual": ((post.get("reel_cover") or {}).get("visual") or {}).get("kind", ""),
         "schedule": schedule_experiment or {},
     }
 

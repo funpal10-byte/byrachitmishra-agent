@@ -1,5 +1,5 @@
 # ============================================================================
-#  brand.yml — the single source of truth for the agent.
+#  HISTORICAL BRIEF — no longer loaded. Edit ../brand.yml instead.
 #  Everything about voice, pillars, and cadence lives here, not in the code.
 #  Edit this file when your positioning shifts. The agent reads it every run.
 # ============================================================================

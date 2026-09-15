@@ -70,6 +70,9 @@
     width:{{ d.logo_width | default(230) }}px;height:auto;
     opacity:{{ d.logo_opacity | default(0.92) }};
   }
+{% include 'visual.css' %}
+.stage:has(.visual) .line{font-size:68px}
+.stage:has(.visual) .visual-note{color:#f5f4f1}
 </style>
 </head>
 <body>
@@ -80,6 +83,7 @@
       <div class="accentbar"></div>
       {% if kicker %}<div class="kicker">{{ kicker }}</div>{% endif %}
       <div class="line">{{ text }}</div>
+      {% if visual %}{% include 'visual.html' %}{% endif %}
     </div>
     <div class="progress"><i></i></div>
     {% if logo %}<img class="logo" src="{{ logo }}" alt="">{% else %}<div class="handle">{{ d.handle_mark }}</div>{% endif %}

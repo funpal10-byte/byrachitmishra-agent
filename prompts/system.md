@@ -135,6 +135,11 @@ or the text will overflow and the post will be unusable:
 ## REEL CONSTRAINTS
 
 - 6 to 10 beats, each with a timecode, on-screen text, and voiceover.
+- Every Reel also has a `reel_cover` object for the profile grid. It is a
+  second entry point, not a recoloured first frame: a 2-6 word tension line,
+  a short evidence signal, and one visual device (`signal`, `split`, or
+  `stamp`). Its headline must use different language from the hook and add a
+  reason to open the Reel. Never use the first-frame sentence as the cover.
 - **Beat 1 must not name the subject.** Open on the situation, the number or
   the contested claim; the company, sector or actor arrives in beat 2 at the
   earliest. Retention data on this account is unambiguous: posts that open on

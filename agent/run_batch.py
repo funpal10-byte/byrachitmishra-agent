@@ -13,7 +13,7 @@ import re
 import sys
 from pathlib import Path
 
-from . import config, experiments, generate, render, research, sources, video
+from . import blog_pool, config, experiments, generate, render, research, sources, video
 from .schema import check_voice, validate
 
 DAY_INDEX = {"mon": 0, "tue": 1, "wed": 2, "thu": 3, "fri": 4, "sat": 5, "sun": 6}
@@ -96,6 +96,11 @@ def write_readable(post: dict, folder: Path, images: list[Path], problems: list[
             a("")
 
     if post.get("format") == "reel" and post.get("reel_script"):
+        if images:
+            a("## Cover")
+            a("")
+            a(f"![Reel cover]({images[0].name})")
+            a("")
         a("## Reel script")
         a("")
         if (folder / "reel.mp4").exists():
@@ -178,6 +183,12 @@ def main() -> int:
         )
 
     seen = recent_titles()
+    try:
+        articles = blog_pool.unused_articles()
+        print(f"[blog] {len(articles)} unused articles available for weekly blog slots")
+    except Exception as exc:
+        articles = []
+        print(f"[blog] feed unavailable; using evergreen for reserved slots: {exc}")
     summary: list[str] = []
     failures: list[str] = []
     reel_count = 0      # rotates music/background so two Reels differ
@@ -193,11 +204,21 @@ def main() -> int:
             slot, dates[slot["day"]]
         )
         when = f"{dates[slot['day']]:%a %d %b} {slot_time} IST"
+        prefix = f"{slot['day']}-{slot_time.replace(':', '')}-"
+        existing = list(batch_dir.glob(prefix + "*/post.json"))
+        existing += list((config.APPROVED_DIR / batch_dir.name).glob(prefix + "*/post.json"))
+        existing += list((config.PUBLISHED_DIR / batch_dir.name).glob(prefix + "*/post.json"))
+        if existing:
+            old = json.loads(existing[0].read_text(encoding="utf-8"))
+            summary.append(f"- **{when}** — [{old.get('title')}]({existing[0].parent.name}/POST.md)")
+            continue
+        article = articles[0] if slot.get("source") == "blog" and articles else None
+        slot_brief = blog_pool.article_brief(article) if article else brief
         print(f"[write] {pillar.name} · {slot['format']} · {when}")
 
         try:
             post = generate.generate_post(
-                brand, system_prompt, pillar, slot["format"], when, brief, seen
+                brand, system_prompt, pillar, slot["format"], when, slot_brief, seen
             )
         except Exception as exc:
             failures.append(f"{pillar.name}: {type(exc).__name__}: {exc}")
@@ -211,6 +232,14 @@ def main() -> int:
         )
         post["scheduled_for"] = scheduled.isoformat()
         post["status"] = "draft"
+        post["content_version"] = 2
+        post["source"] = "blog" if article else "editorial"
+        if article:
+            post["source_url"] = article["link"]
+            post["evidence"] = {"type": "source", "source_url": article["link"],
+                                "detail": post["evidence"]["detail"]}
+        elif slot.get("source") == "blog":
+            post["blog_fallback"] = "No unused full article available; evergreen replacement"
         post["schedule_experiment"] = schedule_experiment
         post["experiment"] = experiments.post_metadata(post, schedule_experiment)
         post["source_preflight"] = sources.preflight(post.get("evidence") or {})
@@ -223,7 +252,7 @@ def main() -> int:
             }]
         seen.append(post.get("title", ""))
 
-        folder = batch_dir / f"{slot['day']}-{slugify(post.get('title', pillar.id))}"
+        folder = batch_dir / f"{prefix}{slugify(post.get('title', pillar.id))}"
         folder.mkdir(parents=True, exist_ok=True)
 
         images: list[Path] = []
@@ -249,11 +278,16 @@ def main() -> int:
                 print(f"[video] FAILED for {folder.name}: {type(exc).__name__}: {exc}", file=sys.stderr)
 
         post["images"] = [p.relative_to(config.ROOT).as_posix() for p in images]
+        if not images or (post.get("format") == "reel" and BUILD_REELS and not (folder / "reel.mp4").exists()):
+            failures.append(f"{folder.name}: required rendered media missing")
+            continue
         problems = validate(post) + check_voice(post, brand.voice.get("banned_phrases", []))
         post["warnings"] = problems
 
         (folder / "post.json").write_text(json.dumps(post, indent=2, ensure_ascii=False), encoding="utf-8")
         write_readable(post, folder, images, problems)
+        if article:
+            articles.pop(0)
 
         flag = " ⚠️" if problems else ""
         summary.append(
@@ -266,7 +300,7 @@ def main() -> int:
             [
                 f"# Week of {dates['mon']:%d %B %Y}",
                 "",
-                "Five posts, drafted and rendered. Open each POST.md, read the caption,",
+                f"{len(summary)} posts drafted. Open each POST.md, read the caption,",
                 "check the images. Merge this pull request to approve the whole batch.",
                 "Delete a folder before merging to drop that post.",
                 "",
@@ -299,7 +333,7 @@ def main() -> int:
         print(f"\n[warn] {len(failures)} of {len(summary) + len(failures)} posts failed:", file=sys.stderr)
         for f in failures:
             print(f"  - {f}", file=sys.stderr)
-    return 0
+    return 1 if failures else 0
 
 
 if __name__ == "__main__":

@@ -25,6 +25,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 from playwright.sync_api import sync_playwright
 
 from . import assets, config
+from .render import launch_browser
 
 W, H, FPS = 1080, 1920, 30
 MIN_BEAT, MAX_BEAT = 2.2, 7.0
@@ -277,13 +278,14 @@ def render_cards(post: dict, brand, out_dir: Path, bg: Path | None) -> list[Path
     cards: list[Path] = []
 
     with sync_playwright() as pw:
-        browser = pw.chromium.launch(args=["--force-color-profile=srgb"])
+        browser = launch_browser(pw)
         page = browser.new_page(viewport={"width": W, "height": H}, device_scale_factor=1)
 
         for i, beat in enumerate(beats):
             text = (beat.get("onscreen") or "").strip()
             html = tpl.render(
                 text=text,
+                visual=beat.get("visual"),
                 size=_fit_size(text),
                 kicker=(pillar.name if pillar and i == 0 else ""),
                 bg_image=assets.data_uri(bg),
@@ -331,12 +333,13 @@ def assemble(
     silent one is added when no music is available rather than shipping a
     video-only file.
     """
-    if not shutil.which("ffmpeg"):
+    encoder = os.getenv("FFMPEG_BINARY") or shutil.which("ffmpeg")
+    if not encoder:
         raise VideoError("ffmpeg is not installed on this machine")
 
     total = sum(durations)
 
-    cmd: list[str] = ["ffmpeg", "-y", "-hide_banner", "-loglevel", "error"]
+    cmd: list[str] = [encoder, "-y", "-hide_banner", "-loglevel", "error"]
     for card, dur in zip(cards, durations):
         cmd += ["-loop", "1", "-t", f"{dur:.3f}", "-r", str(FPS), "-i", str(card)]
 

@@ -40,6 +40,11 @@ def _slide_kind(i: int, total: int) -> str:
     return "body"
 
 
+def launch_browser(pw):
+    channel = os.getenv("RENDER_BROWSER_CHANNEL") or None
+    return pw.chromium.launch(channel=channel, args=["--force-color-profile=srgb"])
+
+
 # Photos behind carousel hook slides are opt-in: the typographic look is
 # deliberate, and a grid of photo covers is a different design decision.
 PHOTO_HOOK = (os.getenv("SLIDE_PHOTO_HOOK") or "false").lower() == "true"
@@ -71,7 +76,7 @@ def render_carousel(post: dict, brand, out_dir: Path, index: int = 0) -> list[Pa
     written: list[Path] = []
 
     with sync_playwright() as pw:
-        browser = pw.chromium.launch(args=["--force-color-profile=srgb"])
+        browser = launch_browser(pw)
         page = browser.new_page(
             viewport={"width": d["slide_width"], "height": d["slide_height"]},
             device_scale_factor=1,
@@ -82,6 +87,7 @@ def render_carousel(post: dict, brand, out_dir: Path, index: int = 0) -> list[Pa
                 kicker=slide.get("kicker", ""),
                 headline=slide.get("headline", ""),
                 body=slide.get("body", ""),
+                visual=slide.get("visual"),
                 pillar=pillar_name.name if pillar_name else "",
                 index=i + 1,
                 total=len(slides),
@@ -105,36 +111,45 @@ def render_carousel(post: dict, brand, out_dir: Path, index: int = 0) -> list[Pa
 
 
 def render_reel_cover(post: dict, brand, out_dir: Path) -> Path | None:
-    """A single title card you can drop on the front of the Reel, or use as
-    the cover frame. Reels themselves still need you to shoot them."""
-    beats = post.get("reel_script") or []
-    if not beats:
+    """Render the Reel's grid cover, deliberately distinct from beat one.
+
+    A profile visitor sees this without autoplay. Reusing the first frame
+    spends the same sentence twice, so the generator supplies a second,
+    compact tension line plus an evidence signal for a separate cover design.
+    """
+    cover = post.get("reel_cover") or {}
+    if not isinstance(cover, dict) or not cover.get("headline"):
         return None
 
     d = brand.design
-    tpl = _env().get_template("slide.html")
+    tpl = _env().get_template("editorial_cover.html")
     pillar_name = brand.pillars.get(post.get("pillar", ""))
     out_dir.mkdir(parents=True, exist_ok=True)
     path = out_dir / "reel-cover.jpg"
 
     with sync_playwright() as pw:
-        browser = pw.chromium.launch(args=["--force-color-profile=srgb"])
-        # 9:16 for a Reel cover rather than the 4:5 carousel ratio.
+        browser = launch_browser(pw)
+        # The content is centre-locked: a Reel cover is 9:16, but the profile
+        # grid crops it to 4:5 (and sometimes closer to square).
         page = browser.new_page(viewport={"width": 1080, "height": 1920}, device_scale_factor=1)
         html = tpl.render(
-            kind="hook",
-            headline=beats[0].get("onscreen", post.get("hook", "")),
-            body="",
-            kicker="",
             pillar=pillar_name.name if pillar_name else "",
-            index=1,
-            total=1,
-            logo=(assets.data_uri(assets.logo("light")) if d.get("show_logo", True) else ""),
+            headline=cover.get("headline", ""),
+            signal=cover.get("signal", ""),
+            layout=cover.get("layout", "signal"),
+            visual=cover.get("visual"),
+            logo=(assets.data_uri(assets.logo("dark")) if d.get("show_logo", True) else ""),
             d=d,
-            W=1080,
-            H=1920,
         )
         page.set_content(html, wait_until="networkidle")
+        _await_fonts(page)
+        if page.evaluate("""() => {
+            const text = document.querySelector('.signal').getBoundingClientRect();
+            const footer = document.querySelector('.brand').getBoundingClientRect();
+            return text.bottom + 20 > footer.top;
+        }"""):
+            browser.close()
+            raise ValueError("Cover content overlaps the brand footer; shorten the copy or visual")
         page.screenshot(path=str(path), type="jpeg", quality=92)
         browser.close()
 

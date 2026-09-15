@@ -43,7 +43,7 @@ QUEUE = ROOT / "content" / "queue"
 PUBLISHED = ROOT / "content" / "published"
 STATE = ROOT / "state"
 SEEN = STATE / "blog_seen.json"
-BRAND = ROOT / "brand" / "brand.yml"
+BRAND = ROOT / "brand.yml"
 
 FEED_URL = os.getenv("BLOG_FEED_URL") or "https://www.rachitmishra.in/feed"
 
@@ -304,6 +304,10 @@ def main() -> int:
     ap.add_argument("--list", action="store_true", help="show unused articles")
     ap.add_argument("--feed", default=FEED_URL)
     args = ap.parse_args()
+
+    if not args.list:
+        print("Blog generation is now part of the ten-post weekly batch. Run python -m agent.run_batch.")
+        return 1
 
     brand = yaml.safe_load(BRAND.read_text(encoding="utf-8")) if BRAND.exists() else {}
     if not brand:

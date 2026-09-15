@@ -117,6 +117,8 @@ def main() -> int:
     for f in stale:
         post = json.loads(f.read_text(encoding="utf-8"))
         print(f"[stale] skipping {f.parent.name} — was due {post.get('scheduled_for')}")
+        if not config.PUBLISH_ENABLED:
+            continue
         post["status"] = "skipped"
         post["skipped_reason"] = f"more than {STALE_AFTER_HOURS:g}h past its slot"
         f.write_text(json.dumps(post, indent=2, ensure_ascii=False), encoding="utf-8")
@@ -137,7 +139,7 @@ def main() -> int:
     quality_checked: list[Path] = []
     for f in pending:
         post = json.loads(f.read_text(encoding="utf-8"))
-        problems = validate(post) + check_voice(
+        problems = validate(post, require_visuals=post.get("content_version", 1) >= 2) + check_voice(
             post, brand.voice.get("banned_phrases", [])
         )
         if not problems:
@@ -145,7 +147,8 @@ def main() -> int:
             continue
         post["status"] = "held"
         post["quality_hold"] = problems
-        f.write_text(json.dumps(post, indent=2, ensure_ascii=False), encoding="utf-8")
+        if config.PUBLISH_ENABLED:
+            f.write_text(json.dumps(post, indent=2, ensure_ascii=False), encoding="utf-8")
         print(
             f"[hold] {f.parent.name}: content-quality gate failed — "
             + "; ".join(problems),

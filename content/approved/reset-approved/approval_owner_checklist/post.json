@@ -1,0 +1,119 @@
+{
+  "title": "approval_owner_checklist",
+  "format": "carousel",
+  "pillar": "ai_in_practice",
+  "primary_keyword": "AI governance",
+  "claim": "Drafting faster cannot remove an approval queue without clear ownership.",
+  "hook": "Every approval needs a named owner.",
+  "evidence": {
+    "type": "framework",
+    "detail": "Track drafting and waiting separately; assign an approver, source and escalation route before drafting."
+  },
+  "caption": "Every approval needs a named owner.\n\nAI governance starts before the copy arrives.\n\nA reviewer who must find the source and locate the decision owner is doing work the brief left unfinished.\n\nSeparate drafting time from waiting time. Then agree an approver and escalation route before the next brief.\n\nExtra review can be necessary. An ownerless queue is a different problem.\n\nSend this to whoever owns your content approvals.\n\n[ai governance, enterprise marketing, content approval]",
+  "hashtags": [
+    "#aigovernance",
+    "#aimarketing",
+    "#marketingoperations"
+  ],
+  "alt_text": "Six slides with an AI governance workflow and an approval checklist.",
+  "cta": "Send this to whoever owns your content approvals.",
+  "failure_mode": "A simplified workflow cannot diagnose a real team's delay; measure it before changing review.",
+  "slides": [
+    {
+      "headline": "Every approval needs a named owner."
+    },
+    {
+      "kicker": "01 / Diagnose",
+      "headline": "Separate writing time from waiting time",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Drafting",
+            "detail": "Time spent producing the copy"
+          },
+          {
+            "label": "Waiting",
+            "detail": "Time until someone can approve"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "kicker": "02 / Locate",
+      "headline": "Find the decision that has no owner",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "DRAFTS READY",
+            "detail": "AI speeds up production"
+          },
+          {
+            "label": "APPROVAL",
+            "detail": "Still waiting for an owner"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "kicker": "03 / Equip",
+      "headline": "Send the evidence with the draft",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Copy only",
+            "detail": "Reviewer must find the evidence"
+          },
+          {
+            "label": "Copy + source",
+            "detail": "Reviewer can check the claim"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "04 / Use this",
+      "headline": "Agree these checks before the next brief",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Owner",
+            "detail": "Name the person who can approve."
+          },
+          {
+            "label": "Evidence",
+            "detail": "Attach the source for each claim."
+          },
+          {
+            "label": "Escalation",
+            "detail": "Agree who resolves a disputed claim."
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "headline": "Own the queue before scaling output",
+      "body": "Send this to whoever owns your content approvals."
+    }
+  ],
+  "status": "approved",
+  "content_version": 2,
+  "approved_at": "2026-09-15T20:56:52.880892+05:30",
+  "scheduled_for": "2026-09-18T10:00:00+05:30",
+  "images": [
+    "slide-01.jpg",
+    "slide-02.jpg",
+    "slide-03.jpg",
+    "slide-04.jpg",
+    "slide-05.jpg",
+    "slide-06.jpg"
+  ],
+  "warnings": []
+}
