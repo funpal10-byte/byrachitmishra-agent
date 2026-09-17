@@ -63,7 +63,7 @@
   "cta": "Send this to whoever is managing campaign sign-offs this quarter.",
   "failure_mode": "If the 3-step sequence feels like generic corporate advice rather than an operational boundary, senior managers will skim past it without changing their meeting structure.",
   "scheduled_for": "2026-09-17T13:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "schedule_experiment": {
     "active": true,
     "selected_time": "13:00",
@@ -98,5 +98,7 @@
   "images": [
     "content/queue/2026-09-14/thu-marketing-review-sequence-velocity/reel-cover.jpg"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-09-17T17:05:17.682553+05:30",
+  "media_id": "17890013403614030"
 }
