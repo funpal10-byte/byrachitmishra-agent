@@ -103,7 +103,7 @@
       "body": "Send this to whoever owns your content approvals."
     }
   ],
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "approved_at": "2026-09-15T20:56:52.880892+05:30",
   "scheduled_for": "2026-09-18T10:00:00+05:30",
@@ -115,5 +115,7 @@
     "slide-05.jpg",
     "slide-06.jpg"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-09-18T10:03:09.608542+05:30",
+  "media_id": "18114091390823039"
 }
