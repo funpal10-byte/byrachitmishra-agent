@@ -1,0 +1,212 @@
+{
+  "type": "object",
+  "required": [
+    "title",
+    "pillar",
+    "format",
+    "primary_keyword",
+    "claim",
+    "hook",
+    "evidence",
+    "caption",
+    "alt_text",
+    "hashtags",
+    "failure_mode"
+  ],
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "pillar": {
+      "type": "string"
+    },
+    "format": {
+      "type": "string"
+    },
+    "primary_keyword": {
+      "type": "string"
+    },
+    "claim": {
+      "type": "string"
+    },
+    "hook": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "object"
+    },
+    "reel_script": {
+      "type": "array"
+    },
+    "reel_cover": {
+      "type": "object"
+    },
+    "caption": {
+      "type": "string"
+    },
+    "alt_text": {
+      "type": "string"
+    },
+    "hashtags": {
+      "type": "array"
+    },
+    "cta": {
+      "type": "string"
+    },
+    "failure_mode": {
+      "type": "string"
+    }
+  },
+  "title": "aioutcomesversusoutputs",
+  "pillar": "ai_marketing",
+  "format": "reel",
+  "primary_keyword": "AI adoption in a large company",
+  "claim": "AI implementation in enterprise marketing is bottle-necked by approval volume rather than content generation speed.",
+  "hook": "Your AI tools do not solve the bottleneck.",
+  "evidence": {
+    "type": "practitioner_observation",
+    "detail": "Observed review cycles in governed corporate marketing teams where generating ten draft options took minutes, but routing a single asset for legal, compliance, and corporate affairs clearance took seven working days."
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "Your AI tools do not solve the bottleneck.",
+      "voiceover": "Your AI tools do not solve the bottleneck. Most plans for AI adoption in a large company focus entirely on creation speed.",
+      "direction": "Rachit stands in a neutral workspace, speaking directly to the camera with a serious, unhurried expression."
+    },
+    {
+      "timecode": "0:03-0:06",
+      "onscreen": "Generating drafts is already free.",
+      "voiceover": "But generating drafts is already free. The actual constraint is never how fast your agency or your team can write copy.",
+      "direction": "He remains on camera, using a quiet hand gesture to emphasise the transition of focus."
+    },
+    {
+      "timecode": "0:06-0:10",
+      "onscreen": "The real work is getting things cleared.",
+      "voiceover": "The real work is getting those pieces cleared. In highly regulated or industrial sectors, a single public claim requires three signatures.",
+      "direction": "A visual split-screen comparison graphic slides in, illustrating the extreme difference in time taken for creation versus governance.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Asset generation",
+            "detail": "Takes seconds using AI tools"
+          },
+          {
+            "label": "Corporate sign-off",
+            "detail": "Takes up to seven working days"
+          }
+        ],
+        "note": "Typical workflow discrepancy"
+      }
+    },
+    {
+      "timecode": "0:10-0:14",
+      "onscreen": "Legal and compliance do not scale with AI.",
+      "voiceover": "Legal, compliance, and corporate affairs do not scale with AI. If your generation capacity goes up tenfold, your approvals simply stall.",
+      "direction": "The screen transitions to a bottleneck graphic, visually mapping out where the workflow queues pile up.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "AI production rate",
+            "detail": "High-volume automated drafts"
+          },
+          {
+            "label": "Legal review queue",
+            "detail": "Single human manual sign-off"
+          }
+        ],
+        "note": "Resource allocation mismatch"
+      }
+    },
+    {
+      "timecode": "0:14-0:18",
+      "onscreen": "The Three-Gate Clearance Check",
+      "voiceover": "Before you invest in more production tools, run your process through this three-gate clearance check to find the real friction.",
+      "direction": "A clean checklist graphic appears on screen, replacing the previous bottleneck visualization.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Technical accuracy",
+            "detail": "Engineering verify performance claims"
+          },
+          {
+            "label": "Regulatory risk",
+            "detail": "Legal review forward-looking statements"
+          },
+          {
+            "label": "Brand consistency",
+            "detail": "Corporate affairs check brand safety"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:18-0:22",
+      "onscreen": "Scale your governance, not your assets.",
+      "voiceover": "Scale your governance mechanism, not your asset volume. If you do not change the clearance process, you are just building a larger backlog.",
+      "direction": "The checklist slides away, returning the focus entirely to Rachit for the final direct delivery."
+    }
+  ],
+  "reel_cover": {
+    "visual": {
+      "kind": "bottleneck",
+      "items": [
+        {
+          "label": "AI asset output",
+          "detail": "100 drafts created in minutes"
+        },
+        {
+          "label": "Governance clearance",
+          "detail": "1 human reviewer working at normal speed"
+        }
+      ],
+      "note": "Illustrative workflow"
+    },
+    "headline": "The corporate AI choke point",
+    "signal": "SPEED VS CLEARANCE",
+    "layout": "split"
+  },
+  "caption": "Your AI tools do not solve the bottleneck.\n\nMost discussions about AI adoption in a large company focus on production speed. Teams boast about generating fifty variations of an asset in seconds.\n\nBut in enterprise brand management, production was never the slow part. \n\nThe real constraint is governance. A draft cannot go public without clearing technical, legal, and regulatory reviews. \n\nIf you multiply your content output by ten without changing your clearance workflow, you do not get ten times the business results. You just get a massive queue of unapproved assets waiting for a human reviewer who still has only eight hours a day.\n\nTrue marketing efficiency is a pipeline problem, not a writing problem.\n\nSend this to whoever is designing your marketing technology stack this quarter.\n\n[ai adoption in a large company, marketing technology, ai governance, brand management]",
+  "alt_text": "Split-screen graphic showing the mismatch between fast draft production and slow human clearance.",
+  "hashtags": [
+    "#aimarketing",
+    "#martech",
+    "#marketingtechnology"
+  ],
+  "cta": "Send this to whoever is designing your marketing technology stack this quarter.",
+  "failure_mode": "If the visual elements look like generic tech mockups instead of realistic process bottlenecks, the enterprise audience will dismiss this as basic advice.",
+  "scheduled_for": "2026-09-25T08:30:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "08:30"
+  },
+  "experiment": {
+    "hook_type": "distinction",
+    "evidence_type": "practitioner_observation",
+    "format": "reel",
+    "pillar": "ai_marketing",
+    "hook_words": 8,
+    "hook_characters": 42,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "bottleneck",
+    "schedule": {
+      "active": false,
+      "selected_time": "08:30"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-09-21/fri-0830-aioutcomesversusoutputs/reel-cover.jpg"
+  ],
+  "warnings": []
+}

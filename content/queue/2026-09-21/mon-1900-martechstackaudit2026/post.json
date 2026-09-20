@@ -1,0 +1,206 @@
+{
+  "title": "martechstackaudit2026",
+  "pillar": "b2b_brand",
+  "format": "carousel",
+  "primary_keyword": "martech stack audit",
+  "claim": "Martech audits fail because they score tool features instead of the organisational decisions those tools were bought to settle.",
+  "hook": "Most martech audits fail to cut a single tool.",
+  "evidence": {
+    "type": "source",
+    "source_url": "https://www.rachitmishra.in/2026/09/20/martech-stack-audit/",
+    "detail": "Gartner survey data showed average martech stack capability utilization falling from 58% in 2020 down to 33% in 2023, while absorbing 25.4% of marketing budgets."
+  },
+  "slides": [
+    {
+      "headline": "Most martech audits fail to cut a single tool."
+    },
+    {
+      "kicker": "01 / THE UTILISATION GAP",
+      "headline": "You are paying full price for one-third capacity.",
+      "body": "Gartner tracked stack usage dropping from 58% in 2020 to 33% in 2023. Teams spend 25% of budget on unused software.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "2020 Utilisation",
+            "detail": "58% capability used"
+          },
+          {
+            "label": "2023 Utilisation",
+            "detail": "33% capability used"
+          }
+        ],
+        "note": "Source: Gartner CMO Spend Survey data"
+      }
+    },
+    {
+      "kicker": "02 / THE WRONG AUDIT",
+      "headline": "Feature lists hide expensive redundancies.",
+      "body": "Standard audits score what tools do. Because every platform does something, nothing gets cut. Score decisions instead.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Standard Audit Focus",
+            "detail": "Features and platform specs"
+          },
+          {
+            "label": "Decision Audit Focus",
+            "detail": "Organisational decisions"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "kicker": "03 / THE POLITICAL TRAP",
+      "headline": "Tools get bought to resolve trust gaps, not tech gaps.",
+      "body": "Tools are often bought to win budget fights. Feature audits will never find political baggage in license terms.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Internal Trust Gap",
+            "detail": "Functions distrust central data"
+          },
+          {
+            "label": "Redundant Purchase",
+            "detail": "Duplicate platform bought"
+          }
+        ],
+        "note": "Observed corporate buying pattern"
+      }
+    },
+    {
+      "kicker": "04 / THE 4-QUESTION TEST",
+      "headline": "Run every platform through four hard checks.",
+      "body": "Fail two or more and the tool belongs on the cut list regardless of how impressive its feature sheet looks.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Specific Decision",
+            "detail": "Can anyone name it without describing features?"
+          },
+          {
+            "label": "Active Users",
+            "detail": "Who logged in during the last 90 days by name?"
+          },
+          {
+            "label": "Stack Overlap",
+            "detail": "Does another tool answer the same question?"
+          },
+          {
+            "label": "60-Day Dark Test",
+            "detail": "Does a real business process break if off?"
+          }
+        ],
+        "note": "Suggested audit check"
+      }
+    },
+    {
+      "kicker": "05 / THE SORTING FRAME",
+      "headline": "Categorise failing software before taking action.",
+      "body": "Never use a blanket removal. Cut orphaned tools instantly, and sunset duplicate platforms over one renewal cycle.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Orphaned Tools",
+            "detail": "Owner left; cut immediately"
+          },
+          {
+            "label": "Duplicate Tech",
+            "detail": "Sunset lower adoption tool"
+          },
+          {
+            "label": "Feature Shelf",
+            "detail": "Downgrade to point solution"
+          },
+          {
+            "label": "Political Tools",
+            "detail": "Migrate view; add sunset date"
+          }
+        ],
+        "note": "Suggested framework"
+      }
+    },
+    {
+      "kicker": "06 / MANAGE STAKEHOLDERS",
+      "headline": "Fix political purchases without reopening fights.",
+      "body": "Do not delete an executive view by force. Give them access in the core platform and set a 12-month sunset clause.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Executive View Demand",
+            "detail": "Build seat in core tool"
+          },
+          {
+            "label": "Standalone Software",
+            "detail": "Apply 12-month sunset clause"
+          }
+        ],
+        "note": "Suggested framework"
+      }
+    },
+    {
+      "headline": "Score the decision, not the software."
+    }
+  ],
+  "caption": "Most martech audits fail to cut a single tool.\n\nConducting a martech stack audit usually ends in frustration because teams evaluate platform capabilities instead of operational decisions.\n\nWhen you score software by its feature list, every enterprise tool passes. They all do something. But Gartner data shows average stack capability utilization fell to just 33% while absorbing a quarter of marketing budgets.\n\nThe hardest software to cut isn't technical; it is political. Tools bought to give a regional leader their own analytics view exist to solve an internal trust gap, not a capability gap. Switching them off without replacing that visibility just reopens the original argument.\n\nRun your stack against decisions, not spec sheets. The redundant software will reveal itself.\n\nFull analysis and audit steps on my blog: https://www.rachitmishra.in/2026/09/20/martech-stack-audit/\n\nSend this to whoever is defending the marketing technology budget this quarter.\n\n[martech stack audit, b2b branding, industrial marketing, brand governance, marketing budget]\n",
+  "alt_text": "Carousel slides outlining how to execute a martech stack audit by scoring decisions over features.",
+  "hashtags": [
+    "#b2bmarketing",
+    "#industrialmarketing",
+    "#b2bbranding"
+  ],
+  "cta": "Send this to whoever is defending the marketing technology budget this quarter.",
+  "failure_mode": "If the audience views this as generic IT procurement advice rather than a strategic brand governance issue, it risks losing resonance with comms leaders.",
+  "sources": [
+    {
+      "title": "Martech Stack Audit: What to Cut in 2026",
+      "url": "https://www.rachitmishra.in/2026/09/20/martech-stack-audit/"
+    }
+  ],
+  "scheduled_for": "2026-09-21T19:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2026/09/20/martech-stack-audit/",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "19:00"
+  },
+  "experiment": {
+    "hook_type": "claim",
+    "evidence_type": "source",
+    "format": "carousel",
+    "pillar": "b2b_brand",
+    "hook_words": 9,
+    "hook_characters": 46,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "19:00"
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2026/09/20/martech-stack-audit/",
+    "final_url": "https://www.rachitmishra.in/2026/09/20/martech-stack-audit/",
+    "http_status": 200
+  },
+  "images": [
+    "content/queue/2026-09-21/mon-1900-martechstackaudit2026/slide-01.jpg",
+    "content/queue/2026-09-21/mon-1900-martechstackaudit2026/slide-02.jpg",
+    "content/queue/2026-09-21/mon-1900-martechstackaudit2026/slide-03.jpg",
+    "content/queue/2026-09-21/mon-1900-martechstackaudit2026/slide-04.jpg",
+    "content/queue/2026-09-21/mon-1900-martechstackaudit2026/slide-05.jpg",
+    "content/queue/2026-09-21/mon-1900-martechstackaudit2026/slide-06.jpg",
+    "content/queue/2026-09-21/mon-1900-martechstackaudit2026/slide-07.jpg",
+    "content/queue/2026-09-21/mon-1900-martechstackaudit2026/slide-08.jpg"
+  ],
+  "warnings": []
+}

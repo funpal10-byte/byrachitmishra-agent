@@ -1,0 +1,180 @@
+{
+  "type": "object",
+  "title": "service_recovery_paradox_b2b",
+  "pillar": "inside_the_org",
+  "format": "carousel",
+  "primary_keyword": "brand governance",
+  "claim": "B2B service recovery cannot be designed for a single buyer; it must resolve conflicts across a buying committee of five to sixteen people.",
+  "hook": "A single apology will not save a B2B contract.",
+  "evidence": {
+    "type": "source",
+    "source_url": "https://www.rachitmishra.in/2026/09/16/service-recovery-paradox/",
+    "detail": "Gartner's 2025 survey of 632 B2B buyers found that buying groups average five to sixteen people, meaning a service recovery attempt must resolve different, competing functional interests to secure a renewal."
+  },
+  "slides": [
+    {
+      "headline": "A single apology will not save a B2B contract."
+    },
+    {
+      "kicker": "The Consumer Myth",
+      "headline": "The service recovery paradox fails in enterprise accounts",
+      "body": "Fixing a failure buys short-term satisfaction. In B2B, it does not buy the contract renewals you depend on.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Consumer Paradox",
+            "detail": "One buyer feels heard and stays loyal"
+          },
+          {
+            "label": "B2B Reality",
+            "detail": "Satisfied contact but account is re-tendered"
+          }
+        ],
+        "note": "Based on de Matos meta-analysis, JSR 2007"
+      }
+    },
+    {
+      "kicker": "The Committee Conflict",
+      "headline": "You are not recovering a relationship with one person",
+      "body": "Gartner research shows buying groups average 5 to 16 people. One gesture cannot satisfy them all.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Single Gesture",
+            "detail": "Account manager offers a credit note"
+          },
+          {
+            "label": "Blocked Decision",
+            "detail": "Procurement and Operations still want answers"
+          }
+        ],
+        "note": "Based on Gartner 2025 buying group survey"
+      }
+    },
+    {
+      "kicker": "The Operational Split",
+      "headline": "Compensation buys satisfaction, not contract renewal",
+      "body": "A credit note settles the ledger. It does not answer if the failure will happen again.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "The Credit Note",
+            "detail": "Satisfies the procurement lead"
+          },
+          {
+            "label": "The Process Change",
+            "detail": "Satisfies the plant director"
+          }
+        ],
+        "note": "Illustrative balance of stakeholder needs"
+      }
+    },
+    {
+      "kicker": "The Recovery Brief",
+      "headline": "A five-part sequence to run within 10 days",
+      "body": "Do not leave recovery to individual styles. Run a playbook for speed, seniority, and process change.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "The Clock",
+            "detail": "Substantive human contact within 4 hours"
+          },
+          {
+            "label": "The Rank",
+            "detail": "Match executive seniority to contract value"
+          },
+          {
+            "label": "The Trade",
+            "detail": "Offer compensation and process fix together"
+          },
+          {
+            "label": "The Record",
+            "detail": "Send written account to all within 10 days"
+          }
+        ],
+        "note": "The Recovery Brief checklist"
+      }
+    },
+    {
+      "kicker": "The Hard Metric",
+      "headline": "The only recovery metric that matters is the 90-day return",
+      "body": "Ditch the automated survey. Book actual checkpoints to verify if your process change worked.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "30-Day Check",
+            "detail": "Verify if internal process change is live"
+          },
+          {
+            "label": "90-Day Check",
+            "detail": "Confirm relationship metrics have stabilized"
+          }
+        ],
+        "note": "Follow-up schedule"
+      }
+    },
+    {
+      "headline": "Recovery is an operational commitment, not a gesture.",
+      "body": "Read the full analysis of the research and the recovery playbook at rachitmishra.in/2026/09/16/service-recovery-paradox/"
+    }
+  ],
+  "caption": "A single apology will not save a B2B contract.\n\nGood brand governance is about managing the entire buying group, not just making a single contact happy after a operational failure.\n\nWhen a shipment is late or a system goes down, we tend to treat it as a customer service problem. We send a credit note and issue an apology.\n\nBut in enterprise accounts, a missed delivery lands inside a committee of five to sixteen stakeholders. The procurement lead wants the billing sorted, but the plant director wants to know why the line stopped. A generic gesture aimed at one looks like negligence to the other.\n\nSatisfaction is not the same as retention. A customer can rate your crisis response highly on an email survey and still quietly sign with your competitor at the next quarterly review.\n\nTrue service recovery is a sequence of operational commitments, not a series of polite emails.\n\nRead the full research breakdown and get the step-by-step checklist on my site: https://www.rachitmishra.in/2026/09/16/service-recovery-paradox/\n\nSend this to whoever is responsible for managing client retention in your enterprise accounts this quarter.\n\n[brand governance, marketing leadership, b2b marketing, stakeholder management]",
+  "alt_text": "A carousel detailing why consumer-style service recovery fails in complex B2B buying committees.",
+  "hashtags": [
+    "#brandgovernance",
+    "#b2bmarketing",
+    "#marketingleadership"
+  ],
+  "cta": "Send this to whoever is responsible for managing client retention in your enterprise accounts this quarter.",
+  "failure_mode": "If the reader does not understand that B2B accounts have multiple functional buyers, the distinction between a credit note and a process change might feel like unnecessary bureaucracy instead of strategic account preservation.",
+  "sources": [
+    {
+      "title": "Service Recovery Paradox: Making the Worst Moment Stick",
+      "url": "https://www.rachitmishra.in/2026/09/16/service-recovery-paradox/"
+    }
+  ],
+  "scheduled_for": "2026-09-27T10:30:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2026/09/16/service-recovery-paradox/",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "10:30"
+  },
+  "experiment": {
+    "hook_type": "distinction",
+    "evidence_type": "source",
+    "format": "carousel",
+    "pillar": "inside_the_org",
+    "hook_words": 9,
+    "hook_characters": 46,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "10:30"
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2026/09/16/service-recovery-paradox/",
+    "final_url": "https://www.rachitmishra.in/2026/09/16/service-recovery-paradox/",
+    "http_status": 200
+  },
+  "images": [
+    "content/queue/2026-09-21/sun-1030-service-recovery-paradox-b2b/slide-01.jpg",
+    "content/queue/2026-09-21/sun-1030-service-recovery-paradox-b2b/slide-02.jpg",
+    "content/queue/2026-09-21/sun-1030-service-recovery-paradox-b2b/slide-03.jpg",
+    "content/queue/2026-09-21/sun-1030-service-recovery-paradox-b2b/slide-04.jpg",
+    "content/queue/2026-09-21/sun-1030-service-recovery-paradox-b2b/slide-05.jpg",
+    "content/queue/2026-09-21/sun-1030-service-recovery-paradox-b2b/slide-06.jpg",
+    "content/queue/2026-09-21/sun-1030-service-recovery-paradox-b2b/slide-07.jpg"
+  ],
+  "warnings": []
+}

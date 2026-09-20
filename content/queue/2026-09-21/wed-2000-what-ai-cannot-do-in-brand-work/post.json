@@ -1,0 +1,188 @@
+{
+  "title": "what_ai_cannot_do_in_brand_work",
+  "pillar": "ai_in_practice",
+  "format": "carousel",
+  "primary_keyword": "what AI cannot do in brand work",
+  "claim": "AI can draft industrial marketing collateral quickly, but human brand governance must handle commercial risk, statutory disclaimers, and legal liability.",
+  "hook": "AI writes copy. It cannot take risk.",
+  "evidence": {
+    "type": "framework",
+    "detail": "A four-point verification gate for AI-assisted enterprise collateral designed to intercept unvetted performance claims and statutory omissions."
+  },
+  "slides": [
+    {
+      "headline": "AI writes copy. It cannot take risk."
+    },
+    {
+      "kicker": "THE ACCELERATION",
+      "headline": "Drafting speed is no longer the bottleneck",
+      "body": "An LLM can generate twenty product spec summaries or tender responses in minutes. Drafting is solved.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Content Generation",
+            "detail": "20 spec drafts in 5 minutes"
+          },
+          {
+            "label": "Legal & Brand Review",
+            "detail": "Blocked on risk and liability"
+          }
+        ],
+        "note": "Observed workflow in enterprise B2B"
+      }
+    },
+    {
+      "kicker": "THE SILENT FAILURES",
+      "headline": "Where AI generated drafts fail in industrial B2B",
+      "body": "Machines predict probable words. They do not understand regulatory commitments, warranties, or competitive posture.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "What AI Produces",
+            "detail": "Plausible technical text"
+          },
+          {
+            "label": "What Brand Requires",
+            "detail": "Defensible legal claims"
+          }
+        ],
+        "note": "Syntax versus accountability"
+      }
+    },
+    {
+      "kicker": "RISK AREA 01",
+      "headline": "Unsanctioned performance guarantees",
+      "body": "AI models default to superlatives. In machinery, an unverified rating becomes an expensive warranty claim.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "AI Draft Claim",
+            "detail": "Zero downtime performance guaranteed"
+          },
+          {
+            "label": "Engineering Reality",
+            "detail": "Operational limits require disclaimers"
+          }
+        ],
+        "note": "Warranty exposure"
+      }
+    },
+    {
+      "kicker": "RISK AREA 02",
+      "headline": "Regulatory and compliance drift",
+      "body": "Generative tools pull global datasets. They regularly miss local statutory disclaimers or trade disclosure norms.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Global Training Data",
+            "detail": "Averages generic legal text"
+          },
+          {
+            "label": "Local Jurisdiction",
+            "detail": "Mandates specific statutory notices"
+          }
+        ],
+        "note": "Compliance exposure"
+      }
+    },
+    {
+      "kicker": "RISK AREA 03",
+      "headline": "Commercial positioning erosion",
+      "body": "When tone is averaged across web data, your equipment sounds identical to competitors using the same models.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Model Default",
+            "detail": "Standard industry buzzwords"
+          },
+          {
+            "label": "Brand Moat",
+            "detail": "Distinct commercial positioning"
+          }
+        ],
+        "note": "Positioning exposure"
+      }
+    },
+    {
+      "kicker": "VERIFICATION",
+      "headline": "Four human checks before copy goes live",
+      "body": "Run every AI draft through this gate before sign-off.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "01 Warranty check",
+            "detail": "Pass: zero unvetted performance metrics"
+          },
+          {
+            "label": "02 Compliance check",
+            "detail": "Pass: local statutory disclaimers present"
+          },
+          {
+            "label": "03 Brand check",
+            "detail": "Pass: zero generic category claims"
+          },
+          {
+            "label": "04 Source check",
+            "detail": "Pass: every claim backed by engineering data"
+          }
+        ],
+        "note": "Suggested sign-off checklist"
+      }
+    },
+    {
+      "headline": "Brand governance is risk management, not editing.",
+      "body": "Use tools to accelerate drafting. Keep senior judgement at the gate where liability lives."
+    }
+  ],
+  "caption": "AI writes copy. It cannot take risk.\n\nUnderstanding what AI cannot do in brand work protects industrial marketing teams from hidden legal exposure.\n\nThe operating mistake is treating LLMs like junior writers who just need better prompts. That misses where the risk lives.\n\nA junior writer knows when they are uncertain. An LLM outputs thermal specs, payload limits, and statutory claims with equal confidence whether accurate or invented.\n\nWhen generation speeds up tenfold, the bottleneck shifts to risk review. Ungoverned speed simply generates liability faster.\n\nEfficiency is worthless if legal withdraws your spec sheet three weeks after launch.\n\nSend this to whoever is setting up your team's AI guidelines this quarter.\n\n[what ai cannot do in brand work, b2b marketing, enterprise ai adoption, brand governance]",
+  "alt_text": "Carousel showing what AI cannot do in brand work and a 4-point risk review gate.",
+  "hashtags": [
+    "#aimarketing",
+    "#marketingoperations",
+    "#aigovernance"
+  ],
+  "cta": "Send this to whoever is setting up your team's AI guidelines this quarter.",
+  "failure_mode": "Could be misread as anti-technology resistance if the distinction between generation speed and legal risk management is not sharply maintained.",
+  "scheduled_for": "2026-09-23T20:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "20:00"
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "carousel",
+    "pillar": "ai_in_practice",
+    "hook_words": 7,
+    "hook_characters": 36,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "20:00"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "images": [
+    "content/queue/2026-09-21/wed-2000-what-ai-cannot-do-in-brand-work/slide-01.jpg",
+    "content/queue/2026-09-21/wed-2000-what-ai-cannot-do-in-brand-work/slide-02.jpg",
+    "content/queue/2026-09-21/wed-2000-what-ai-cannot-do-in-brand-work/slide-03.jpg",
+    "content/queue/2026-09-21/wed-2000-what-ai-cannot-do-in-brand-work/slide-04.jpg",
+    "content/queue/2026-09-21/wed-2000-what-ai-cannot-do-in-brand-work/slide-05.jpg",
+    "content/queue/2026-09-21/wed-2000-what-ai-cannot-do-in-brand-work/slide-06.jpg",
+    "content/queue/2026-09-21/wed-2000-what-ai-cannot-do-in-brand-work/slide-07.jpg",
+    "content/queue/2026-09-21/wed-2000-what-ai-cannot-do-in-brand-work/slide-08.jpg"
+  ],
+  "warnings": []
+}
