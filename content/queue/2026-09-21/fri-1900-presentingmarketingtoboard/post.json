@@ -1,0 +1,179 @@
+{
+  "title": "presentingmarketingtoboard",
+  "pillar": "ai_in_practice",
+  "format": "carousel",
+  "primary_keyword": "what AI cannot do in brand work",
+  "claim": "Presenting marketing to a board that doubts the numbers works only when the slide pack opens with the decision they must make, not what campaign activities occurred.",
+  "hook": "Your board pack fails before slide two",
+  "evidence": {
+    "type": "source",
+    "source_url": "https://www.rachitmishra.in/2026/09/18/presenting-marketing-to-board/",
+    "detail": "Deloitte Digital's survey found 61% of marketing budgets are pre-decided based on revenue or prior spend rather than a fresh case, meaning board presentations must target resource allocation Decisions over campaign highlights."
+  },
+  "slides": [
+    {
+      "headline": "Your board pack fails before slide two"
+    },
+    {
+      "kicker": "The wrong question",
+      "headline": "Activity metrics answer a question nobody asked",
+      "body": "Boards allocate capital. Activity metrics force directors to sit through context before seeing what they must approve.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Marketing metrics",
+            "detail": "Impressions, reach, social likes"
+          },
+          {
+            "label": "Board decision inputs",
+            "detail": "Pipeline influence, deal velocity"
+          }
+        ],
+        "note": "Common reporting misalignments"
+      }
+    },
+    {
+      "kicker": "The structural bias",
+      "headline": "Only 16 percent of boards have marketing expertise",
+      "body": "Skepticism in the boardroom is not hostility. It is a translation problem that your slide deck is required to solve.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Boards with marketers",
+            "detail": "Only 16% of S&P 1500 firms"
+          },
+          {
+            "label": "Revenue growth delta",
+            "detail": "5.78 percentage points faster"
+          }
+        ],
+        "note": "Source: Journal of Marketing study"
+      }
+    },
+    {
+      "kicker": "The slide sequence",
+      "headline": "An eight slide structure that survives a short slot",
+      "body": "With only 15 minutes, every slide must earn either one concrete decision or establish one key commercial fact.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Minute 0 to 1",
+            "detail": "The Ask: the decision needed today"
+          },
+          {
+            "label": "Minute 1 to 2",
+            "detail": "The Consequence: if the answer is no"
+          },
+          {
+            "label": "Minute 2 to 4",
+            "detail": "The Three Metrics: trended over quarters"
+          }
+        ],
+        "note": "The opening 4-minute sequence"
+      }
+    },
+    {
+      "kicker": "Budget allocation",
+      "headline": "Present long-term brand spend as a short-term checkpoint",
+      "body": "Boards think in quarters. Brand spend survives only when you attach an interim checkpoint like category entry coverage.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Brand building",
+            "detail": "60% long-term demand development"
+          },
+          {
+            "label": "Sales activation",
+            "detail": "40% short-term lead conversion"
+          }
+        ],
+        "note": "Standard IPA allocation rule"
+      }
+    },
+    {
+      "kicker": "Handling misses",
+      "headline": "Name your underperformance before they do",
+      "body": "When a campaign fails, put it on slide four. Give an operating mechanism for the miss rather than a creative excuse.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Name the miss",
+            "detail": "Explain what fell short on slide four"
+          },
+          {
+            "label": "Explain mechanism",
+            "detail": "Attribute failure to an operational cause"
+          },
+          {
+            "label": "Separate the ask",
+            "detail": "Keep future spend requests isolated"
+          }
+        ],
+        "note": "Deficit management checklist"
+      }
+    },
+    {
+      "headline": "Move the ask to slide one",
+      "body": "Brand value is protected when the budget is defended as a capital allocation decision, not an expense report. Start with the ask. [rachitmishra.in/2026/09/18/presenting-marketing-to-board/]"
+    }
+  ],
+  "caption": "Your board pack fails before slide two.\n\nUnderstanding what AI cannot do in brand work starts with how you defend your budget in front of directors who think in quarters.\n\nI learned this in an engineering-led company. After missing a target, I stood up with a standard deck full of activities. By the time I reached the ask, the room had already written down marketing as the soft target to cut. \n\nI never did it again. The fix was moving the ask to slide one. \n\nNo board wants a lecture on impressions or how many campaigns you launched. They want to know the capital decision they are making, the consequence of saying no, and three trended metrics they can actually act on.\n\nIf you hide underperforming lines behind creative summaries, you lose credibility. Name the miss first, explain the mechanism, and keep the strategic allocation separate.\n\nRead the complete operational layout at: https://www.rachitmishra.in/2026/09/18/presenting-marketing-to-board/\n\n[b2b branding, marketing operations, brand governance, enterprise ai adoption]\n\n#aimarketing #martech #b2bmarketing",
+  "alt_text": "Slide presentation showing sequence comparison of marketing activity versus board decision metrics.",
+  "hashtags": [
+    "#aimarketing",
+    "#martech",
+    "#b2bmarketing"
+  ],
+  "cta": "Send this to whoever is defending the brand budget this quarter.",
+  "failure_mode": "If the reader believes this is generic management advice rather than a specific translation guide for industrial marketers facing procurement-minded boards.",
+  "sources": [
+    {
+      "title": "Presenting Marketing to a Board That Doesn’t Trust It",
+      "url": "https://www.rachitmishra.in/2026/09/18/presenting-marketing-to-board/"
+    }
+  ],
+  "scheduled_for": "2026-09-25T19:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2026/09/18/presenting-marketing-to-board/",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "19:00"
+  },
+  "experiment": {
+    "hook_type": "correction",
+    "evidence_type": "source",
+    "format": "carousel",
+    "pillar": "ai_in_practice",
+    "hook_words": 7,
+    "hook_characters": 38,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "19:00"
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2026/09/18/presenting-marketing-to-board/",
+    "final_url": "https://www.rachitmishra.in/2026/09/18/presenting-marketing-to-board/",
+    "http_status": 200
+  },
+  "images": [
+    "content/queue/2026-09-21/fri-1900-presentingmarketingtoboard/slide-01.jpg",
+    "content/queue/2026-09-21/fri-1900-presentingmarketingtoboard/slide-02.jpg",
+    "content/queue/2026-09-21/fri-1900-presentingmarketingtoboard/slide-03.jpg",
+    "content/queue/2026-09-21/fri-1900-presentingmarketingtoboard/slide-04.jpg",
+    "content/queue/2026-09-21/fri-1900-presentingmarketingtoboard/slide-05.jpg",
+    "content/queue/2026-09-21/fri-1900-presentingmarketingtoboard/slide-06.jpg",
+    "content/queue/2026-09-21/fri-1900-presentingmarketingtoboard/slide-07.jpg"
+  ],
+  "warnings": []
+}

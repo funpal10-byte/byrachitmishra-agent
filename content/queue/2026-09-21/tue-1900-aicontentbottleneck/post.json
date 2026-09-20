@@ -1,0 +1,140 @@
+{
+  "title": "aicontentbottleneck",
+  "pillar": "ai_marketing",
+  "format": "reel",
+  "primary_keyword": "AI adoption in a large company",
+  "claim": "Scaling content generation with AI without scaling approval capacity creates an operational bottleneck that slows down campaign launch velocity.",
+  "hook": "AI drafts fast. Compliance approvals do not.",
+  "evidence": {
+    "type": "framework",
+    "detail": "A three-part content staging review protocol designed to match draft output with existing compliance and legal team SLA capacities."
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "AI drafts fast. Compliance approvals do not.",
+      "voiceover": "AI drafts fast. Compliance approvals do not. That is the real bottleneck.",
+      "direction": "Clean, high-contrast text card on a dark industrial background."
+    },
+    {
+      "timecode": "0:03-0:08",
+      "onscreen": "The content flood",
+      "voiceover": "When an industrial firm deploys generative tools, draft volume spikes. But the review team remains the same size.",
+      "direction": "Diagram of a wide funnel narrowing sharply to a tiny pipe, representing review capacity.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Draft Volume",
+            "detail": "Up 300% with generative tools"
+          },
+          {
+            "label": "Approval Capacity",
+            "detail": "Flat. Limited by human hours"
+          }
+        ],
+        "note": "The content staging bottleneck"
+      }
+    },
+    {
+      "timecode": "0:08-0:14",
+      "onscreen": "The compliance wall",
+      "voiceover": "In heavily governed sectors, every line must pass legal, technical, and regulatory checks. Those teams do not use AI to read your drafts.",
+      "direction": "Close-up of a document with technical redlines and corrections."
+    },
+    {
+      "timecode": "0:14-0:21",
+      "onscreen": "The operational drag",
+      "voiceover": "Instead of launching faster, your campaign velocity drops because senior reviewers are wading through high-volume noise.",
+      "direction": "A calendar split-screen showing review cycles expanding from days to weeks."
+    },
+    {
+      "timecode": "0:21-0:28",
+      "onscreen": "The 3-point queue test",
+      "voiceover": "Before you scale production, run this content gate test with your legal and technical leads.",
+      "direction": "A checklist graphic appearing on screen item by item.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Review SLA Limit",
+            "detail": "Enforce a strict 48-hour sign-off window"
+          },
+          {
+            "label": "Volume Throttle",
+            "detail": "Cap draft submissions to weekly reviewer limits"
+          },
+          {
+            "label": "Technical Gate",
+            "detail": "Pre-vet accuracy before compliance review"
+          }
+        ],
+        "note": "AI content governance protocol"
+      }
+    },
+    {
+      "timecode": "0:28-0:35",
+      "onscreen": "Scale the bottleneck first",
+      "voiceover": "If you do not scale your review capacity before you scale your writing, you are just building a faster way to wait.",
+      "direction": "Text card displaying the final portable principle."
+    }
+  ],
+  "reel_cover": {
+    "headline": "The AI Staging Trap",
+    "signal": "SPEED vs. GOVERNANCE",
+    "layout": "split",
+    "visual": {
+      "kind": "comparison",
+      "items": [
+        {
+          "label": "Drafting Speed",
+          "detail": "Reduced from hours to seconds"
+        },
+        {
+          "label": "Approval Speed",
+          "detail": "Stuck at 14 business days"
+        }
+      ],
+      "note": "The enterprise marketing reality"
+    }
+  },
+  "caption": "AI drafts fast. Compliance approvals do not.\n\nThis is the hardest lesson of AI adoption in a large company. In heavy industry, the cost of an incorrect claim is measured in regulatory audits and lost commercial trust. Draft speed was never your real operational bottleneck. Sign-off capacity is.\n\nAdding generative tools to your marketing technology stack sounds like an easy win for productivity. But if you triple your output without changing your governance process, you just create a massive backlog for your technical reviewers.\n\nDo not automate production until you have resourced the sign-off queue.\n\nSend this to the lead currently managing your marketing technology stack.\n\n[AI adoption in a large company, marketing technology stack, B2B marketing, marketing governance, enterprise AI]",
+  "alt_text": "Text card showing AI drafts fast compliance approvals do not over a dark background.",
+  "hashtags": [
+    "#aimarketing",
+    "#martech",
+    "#b2bmarketing"
+  ],
+  "cta": "Send this to the lead currently managing your marketing technology stack.",
+  "failure_mode": "The post could read as too generic if it doesn't ground the compliance tension in the specific reality of technical and legal reviews common to industrial sectors.",
+  "scheduled_for": "2026-09-22T19:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "19:00"
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "reel",
+    "pillar": "ai_marketing",
+    "hook_words": 7,
+    "hook_characters": 44,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "comparison",
+    "schedule": {
+      "active": false,
+      "selected_time": "19:00"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-09-21/tue-1900-aicontentbottleneck/reel-cover.jpg"
+  ],
+  "warnings": []
+}

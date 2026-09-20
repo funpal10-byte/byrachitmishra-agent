@@ -1,0 +1,170 @@
+{
+  "title": "defending_b2b_marketing_budget",
+  "pillar": "inside_the_org",
+  "format": "carousel",
+  "primary_keyword": "defending a marketing budget",
+  "claim": "Defending a B2B marketing budget requires framing spend as risk reduction and margin protection, not top-of-funnel reach.",
+  "hook": "You lose budget when you defend awareness.",
+  "evidence": {
+    "type": "practitioner_observation",
+    "detail": "In B2B industrial boardrooms, marketing budgets defended on share of voice get cut by 15-30% during financial reviews, whereas budget tied to tender win-rates and margin protection survives intact."
+  },
+  "slides": [
+    {
+      "headline": "You lose budget when you defend awareness."
+    },
+    {
+      "kicker": "01 / THE CFO LENS",
+      "headline": "Awareness sounds like optional overhead",
+      "body": "When revenue tightens, CFOs cut optional costs. Impressions and recall look like discretionary expenses.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Consumer pitch",
+            "detail": "Defends reach and brand awareness"
+          },
+          {
+            "label": "CFO reality",
+            "detail": "Cuts discretionary top-of-funnel budget"
+          }
+        ],
+        "note": "Observed budget review pattern"
+      }
+    },
+    {
+      "kicker": "02 / PRICING POWER",
+      "headline": "Brand spend actually defends profit margin",
+      "body": "Without brand trust, sales teams rely on price discounts. Strong reputation stops the default discount request.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Weak reputation",
+            "detail": "Sales discounts price to secure tenders"
+          },
+          {
+            "label": "Established brand",
+            "detail": "Defends 5-10% price premium"
+          }
+        ],
+        "note": "Margin protection mechanism"
+      }
+    },
+    {
+      "kicker": "03 / TENDER VELOCITY",
+      "headline": "Reputation shortens procurement cycles",
+      "body": "Procurement committees audit unknown suppliers for months. Credibility speeds safety and technical sign-off.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Unknown vendor",
+            "detail": "6-month technical and safety audit"
+          },
+          {
+            "label": "Verified brand",
+            "detail": "Fast-tracked committee approval"
+          }
+        ],
+        "note": "Sales cycle velocity impact"
+      }
+    },
+    {
+      "kicker": "04 / BUDGET REFRAME",
+      "headline": "Shift from campaign cost to risk mitigation",
+      "body": "Frame spend as insurance for the order book. Show what happens to deal velocity and margins if brand presence drops.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Margin protection",
+            "detail": "Quantify discount prevention value"
+          },
+          {
+            "label": "Audit speed",
+            "detail": "Track vendor pre-qualification time"
+          },
+          {
+            "label": "Committee trust",
+            "detail": "Measure tender committee win rates"
+          }
+        ],
+        "note": "B2B budget defence framework"
+      }
+    },
+    {
+      "kicker": "05 / THE AUDIT",
+      "headline": "Three questions before your next review",
+      "body": "Test every line item in your presentation against CFO priorities before entering the meeting.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Check 1",
+            "detail": "Does this line protect margin or shorten cycles?"
+          },
+          {
+            "label": "Check 2",
+            "detail": "Can sales link this asset to deal velocity?"
+          },
+          {
+            "label": "Check 3",
+            "detail": "What is the commercial cost of removing spend?"
+          }
+        ],
+        "note": "Pre-meeting verification checklist"
+      }
+    },
+    {
+      "headline": "Brand budget defends margin, not impressions.",
+      "body": "Stop pitching awareness to people who manage risk. Send this to whoever is defending a marketing budget this quarter."
+    }
+  ],
+  "caption": "You lose budget when you defend awareness.\n\nWhen defending a marketing budget in B2B, frame spend as risk reduction.\n\nI spent years taking consumer marketing decks into industrial boardrooms. I showed charts of reach and recall. Every year, the budget got trimmed by twenty percent.\n\nThe turn happened when we stopped presenting marketing as top-of-funnel reach and started presenting it as margin insurance.\n\nIn heavy industry, procurement rejects unknown suppliers to reduce risk. Weak reputation forces sales to discount price to close orders.\n\nIf your marketing spend does not protect pricing power, the board is right to cut it.\n\nSend this to whoever is defending a marketing budget this quarter.\n\n[defending a marketing budget, b2b marketing, brand governance, marketing leadership, in house marketing]",
+  "alt_text": "Seven slides showing how to defend a B2B marketing budget using margin protection frameworks.",
+  "hashtags": [
+    "#marketingleadership",
+    "#inhousemarketing",
+    "#brandgovernance",
+    "#b2bmarketing",
+    "#cmo"
+  ],
+  "cta": "Send this to whoever is defending a marketing budget this quarter.",
+  "failure_mode": "The post could be misconstrued as advising marketers to abandon top-of-funnel brand building entirely, rather than changing how it is framed to financial stakeholders.",
+  "scheduled_for": "2026-09-26T10:30:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "10:30"
+  },
+  "experiment": {
+    "hook_type": "cost",
+    "evidence_type": "practitioner_observation",
+    "format": "carousel",
+    "pillar": "inside_the_org",
+    "hook_words": 7,
+    "hook_characters": 42,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "10:30"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "images": [
+    "content/queue/2026-09-21/sat-1030-defending-b2b-marketing-budget/slide-01.jpg",
+    "content/queue/2026-09-21/sat-1030-defending-b2b-marketing-budget/slide-02.jpg",
+    "content/queue/2026-09-21/sat-1030-defending-b2b-marketing-budget/slide-03.jpg",
+    "content/queue/2026-09-21/sat-1030-defending-b2b-marketing-budget/slide-04.jpg",
+    "content/queue/2026-09-21/sat-1030-defending-b2b-marketing-budget/slide-05.jpg",
+    "content/queue/2026-09-21/sat-1030-defending-b2b-marketing-budget/slide-06.jpg",
+    "content/queue/2026-09-21/sat-1030-defending-b2b-marketing-budget/slide-07.jpg"
+  ],
+  "warnings": []
+}

@@ -1,0 +1,140 @@
+{
+  "title": "reputationriskpricing",
+  "pillar": "reputation",
+  "format": "reel",
+  "primary_keyword": "corporate reputation management",
+  "claim": "Corporate reputation is a commercial risk pricing mechanism, not a sentiment metric.",
+  "hook": "Reputation is just unpaid risk.",
+  "evidence": {
+    "type": "framework",
+    "detail": "A commercial risk framework that treats corporate reputation as an insurance premium. In industrial procurement, a buyer does not choose a vendor based on liking them; they discount vendors with weak reputations to cover the professional risk of the vendor failing."
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:05",
+      "onscreen": "Reputation is just unpaid risk.",
+      "voiceover": "Reputation is just unpaid risk. When you work in heavy industries like manufacturing, logistics, or infrastructure, people do not buy from you because they like your corporate reputation management efforts.",
+      "direction": "Rachit at his desk, speaking directly to camera. Hard cut to a close-up of a contract paper being signed."
+    },
+    {
+      "timecode": "0:05-0:12",
+      "onscreen": "Procurement is risk management.",
+      "voiceover": "Your buyer is a procurement committee. Their chief objective is not to find the most exciting partner. Their chief objective is not to get fired if a delivery fails or a regulator steps in.",
+      "direction": "Text overlays onto b-roll footage of a steel warehouse. The visual checklist of buyer risks appears on screen.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Delivery delay",
+            "detail": "Stops production lines instantly."
+          },
+          {
+            "label": "Regulatory penalty",
+            "detail": "Halts operations across the plant."
+          },
+          {
+            "label": "Supplier bankruptcy",
+            "detail": "Strands capital equipment projects."
+          }
+        ],
+        "note": "The hidden procurement risk audit"
+      }
+    },
+    {
+      "timecode": "0:12-0:20",
+      "onscreen": "Weak reputation is discounted.",
+      "voiceover": "If your reputation is unproven or volatile, the buyer does not simply say no. They price that risk into their negotiation. They demand a steep discount to cover the professional exposure of choosing you.",
+      "direction": "Rachit back on screen, holding up a physical notebook to ground the explanation."
+    },
+    {
+      "timecode": "0:20-0:28",
+      "onscreen": "Strong reputation is a premium.",
+      "voiceover": "A strong corporate reputation is not about warm feelings. It is an insurance policy for the buyer. They pay your premium because it protects them from internal scrutiny.",
+      "direction": "Hard cut to a split screen showing two generic industrial bids side by side.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Unproven Bid",
+            "detail": "Requires 20% discount to offset board anxiety."
+          },
+          {
+            "label": "Reputable Bid",
+            "detail": "Accepted at full price; zero pushback."
+          }
+        ],
+        "note": "How reputation acts as a price protector"
+      }
+    },
+    {
+      "timecode": "0:28-0:36",
+      "onscreen": "The cost of anonymity is margin.",
+      "voiceover": "When your technical capability is identical to your competitor's, reputation is the only variable that cannot be easily matched. Anonymity is simply a tax you pay on every deal.",
+      "direction": "Medium shot of Rachit talking directly to the camera, emphasizing the commercial trade-off."
+    },
+    {
+      "timecode": "0:36-0:45",
+      "onscreen": "Reputation protects margins.",
+      "voiceover": "Do not defend your communications budget with sentiment scores or media impressions. Show how reputation protects your margins in the final round of bidding.",
+      "direction": "Close-up of Rachit speaking with emphasis. Natural lighting."
+    }
+  ],
+  "reel_cover": {
+    "headline": "Why buyers discount you",
+    "signal": "MARGIN INSURANCE",
+    "layout": "split",
+    "visual": {
+      "kind": "bottleneck",
+      "items": [
+        {
+          "label": "Weak Reputation",
+          "detail": "Buyer demands 20% discount for risk."
+        },
+        {
+          "label": "Proven Reputation",
+          "detail": "Contract signed at premium price."
+        }
+      ],
+      "note": "The hidden cost of unmanaged risk"
+    }
+  },
+  "caption": "Reputation is just unpaid risk.\n\nIn industrial procurement, corporate reputation management is not an exercise in getting people to like you. Nobody on a heavy engineering or steel procurement committee is buying because of a warm sentiment score.\n\nThey are managing professional exposure.\n\nWhen your brand has a weak or volatile reputation, the buying committee does not always walk away. Instead, they discount you. They demand a lower price to justify the internal career risk of choosing an unproven partner.\n\nYour reputation is the insurance premium they pay to sleep at night.\n\nStop defending your communications budget with media impressions. Show how reputation protects margins when the commercial negotiation gets tough.\n\n[corporate reputation management, corporate communications, b2b branding, risk mitigation, industrial marketing]",
+  "alt_text": "Text on screen explaining why industrial buyers discount unproven vendors to manage internal risk.",
+  "hashtags": [
+    "#corporatecommunications",
+    "#reputation",
+    "#publicrelations"
+  ],
+  "cta": "Send this to whoever is defending the corporate communications budget this quarter.",
+  "failure_mode": "It might read as too theoretical if the viewer does not work in high-value, long-cycle B2B environments where procurement committees exist.",
+  "scheduled_for": "2026-09-23T08:30:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "08:30"
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "reel",
+    "pillar": "reputation",
+    "hook_words": 5,
+    "hook_characters": 31,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "bottleneck",
+    "schedule": {
+      "active": false,
+      "selected_time": "08:30"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-09-21/wed-0830-reputationriskpricing/reel-cover.jpg"
+  ],
+  "warnings": []
+}

@@ -1,0 +1,154 @@
+{
+  "title": "crisiscommunicationmistakes",
+  "pillar": "reputation",
+  "format": "reel",
+  "primary_keyword": "crisis communication mistakes",
+  "claim": "In a corporate crisis, legal statements designed to minimize liability actively destroy trust by failing to disclose operational facts.",
+  "hook": "Legal statements destroy trust in a crisis",
+  "evidence": {
+    "type": "practitioner_observation",
+    "detail": "Observed corporate crisis response sequences where legal counsel delays public disclosure to limit financial liability, resulting in regulator intervention and double-digit trust metrics decline before facts are established."
+  },
+  "failure_mode": "Could sound like generic anti-lawyer complaining if it does not give a concrete operational rule for balancing legal holding text with public facts.",
+  "alt_text": "Text graphic listing four rules for corporate crisis response during industrial incidents.",
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "Legal statements destroy trust in a crisis",
+      "voiceover": "Legal statements destroy trust in a crisis when they prioritize liability over facts.",
+      "direction": "Dark background with plain bold white text displaying the opening claim."
+    },
+    {
+      "timecode": "0:03-0:07",
+      "onscreen": "Lawyers write to minimize legal liability",
+      "voiceover": "When an operational incident occurs, legal teams instinctively draft holding text to protect against litigation.",
+      "direction": "Text changes to highlight the tension between legal safety and operational transparency.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Legal timeline",
+            "detail": "Solves for litigation three years out"
+          },
+          {
+            "label": "Public timeline",
+            "detail": "Solves for narrative in thirty minutes"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "timecode": "0:07-0:12",
+      "onscreen": "Regulators and public demand facts",
+      "voiceover": "But stakeholders do not evaluate liability. They evaluate whether you understand what broke inside your facility.",
+      "direction": "Text updates to show stakeholder expectations during an industrial incident."
+    },
+    {
+      "timecode": "0:12-0:18",
+      "onscreen": "Four rules for crisis holding text",
+      "voiceover": "To prevent crisis communication mistakes, run your holding statement through this four-part checklist before release.",
+      "direction": "Graphic transitions to a structured checklist layout.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "State physical facts",
+            "detail": "What happened, where, and exact timestamp"
+          },
+          {
+            "label": "Isolate containment",
+            "detail": "Action taken to halt further site impact"
+          },
+          {
+            "label": "Name authority",
+            "detail": "Which regulator or agency is on site"
+          },
+          {
+            "label": "Define next update",
+            "detail": "Exact time window for subsequent release"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:18-0:23",
+      "onscreen": "Silence is read as admission of fault",
+      "voiceover": "If you withhold known physical facts while lawyers polish phrases, the public assumes the worst possible cause.",
+      "direction": "Graphic shows the contrast between legal drafting time and public narrative control."
+    },
+    {
+      "timecode": "0:23-0:28",
+      "onscreen": "Facts build trust. Adjectives destroy it.",
+      "voiceover": "Facts build trust. Adjectives destroy it. State what is verified, state what is unknown, and state when you return.",
+      "direction": "Final summary card displaying the named principle."
+    }
+  ],
+  "reel_cover": {
+    "headline": "The Crisis Legal Trap",
+    "signal": "FACTS OVER LIABILITY",
+    "layout": "stamp",
+    "visual": {
+      "kind": "comparison",
+      "items": [
+        {
+          "label": "Legal Response",
+          "detail": "Deny liability, delay release, omit facts"
+        },
+        {
+          "label": "Operational Response",
+          "detail": "State knowns, state containment, set timeline"
+        }
+      ],
+      "note": "Illustrative workflow"
+    }
+  },
+  "caption": "Legal statements destroy trust in a crisis.\n\nMost crisis communication mistakes start with legal delay. Counsel solves for litigation three years away. Communications solves for market reaction in thirty minutes.\n\nIn an industrial site incident, legal filler signals zero operational control.\n\nYour first statement needs verified physical facts: site, time, containment step, and next update window.\n\nFacts build trust. Adjectives destroy it.\n\nSend this to the head of corporate affairs or legal counsel preparing your emergency response playbook.\n\n[crisis communication mistakes, corporate communications, corporate reputation, crisis management, reputation risk]",
+  "hashtags": [
+    "#corporatecommunications",
+    "#reputation",
+    "#crisiscommunication"
+  ],
+  "cta": "Send this to the head of corporate affairs or legal counsel preparing your emergency response playbook.",
+  "scheduled_for": "2026-09-24T17:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": true,
+    "selected_time": "17:00",
+    "candidates": [
+      "13:00",
+      "17:00"
+    ],
+    "week_index": 1
+  },
+  "experiment": {
+    "hook_type": "claim",
+    "evidence_type": "practitioner_observation",
+    "format": "reel",
+    "pillar": "reputation",
+    "hook_words": 7,
+    "hook_characters": 42,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "comparison",
+    "schedule": {
+      "active": true,
+      "selected_time": "17:00",
+      "candidates": [
+        "13:00",
+        "17:00"
+      ],
+      "week_index": 1
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-09-21/thu-1700-crisiscommunicationmistakes/reel-cover.jpg"
+  ],
+  "warnings": []
+}
