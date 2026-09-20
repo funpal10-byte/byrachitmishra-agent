@@ -1,15 +1,235 @@
 {
-  "fetched_at": "2026-09-13T01:57:57+00:00",
-  "count": 36,
+  "fetched_at": "2026-09-20T02:15:04+00:00",
+  "count": 44,
   "posts": [
+    {
+      "id": "17891059578436275",
+      "posted": "2026-09-19T05:45:32+0000",
+      "type": "FEED",
+      "permalink": "https://www.instagram.com/p/DddSlbZjvYi/",
+      "hook": "Polite positioning doubles your sales cycle.",
+      "reach": 9,
+      "views": 23,
+      "likes": 0,
+      "comments": 0,
+      "saved": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "avg_watch_time": 0,
+      "total_watch_time": 0,
+      "experiment": {
+        "hook_type": "framework",
+        "evidence_type": "framework",
+        "format": "carousel",
+        "pillar": "Brand Strategy",
+        "hook_words": 6,
+        "hook_characters": 44,
+        "visual_treatment": "carousel",
+        "schedule": {
+          "active": false,
+          "selected_time": "10:30"
+        }
+      }
+    },
+    {
+      "id": "18114091390823039",
+      "posted": "2026-09-18T04:33:05+0000",
+      "type": "FEED",
+      "permalink": "https://www.instagram.com/p/DdalfPIgEfb/",
+      "hook": "Every approval needs a named owner.",
+      "reach": 9,
+      "views": 37,
+      "likes": 0,
+      "comments": 0,
+      "saved": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "avg_watch_time": 0,
+      "total_watch_time": 0,
+      "experiment": {
+        "hook_type": "framework",
+        "evidence_type": "framework",
+        "format": "carousel",
+        "pillar": "ai_in_practice",
+        "hook_words": 6,
+        "hook_characters": 35,
+        "visual_treatment": "carousel",
+        "cover_visual": "",
+        "schedule": {}
+      }
+    },
+    {
+      "id": "17890013403614030",
+      "posted": "2026-09-17T11:35:11+0000",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/DdYw7HgDAWF/",
+      "hook": "Checking visuals first delays every launch.",
+      "reach": 60,
+      "views": 76,
+      "likes": 0,
+      "comments": 0,
+      "saved": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "avg_watch_time": 3870,
+      "total_watch_time": 263206,
+      "experiment": {
+        "hook_type": "claim",
+        "evidence_type": "practitioner_observation",
+        "format": "reel",
+        "pillar": "Leadership",
+        "hook_words": 6,
+        "hook_characters": 43,
+        "visual_treatment": "kinetic_typography",
+        "schedule": {
+          "active": true,
+          "selected_time": "13:00",
+          "candidates": [
+            "13:00",
+            "17:00"
+          ],
+          "week_index": 0
+        }
+      }
+    },
+    {
+      "id": "18109153220595454",
+      "posted": "2026-09-16T18:09:49+0000",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/DdW5VWQF9rN/",
+      "hook": "Selling time-saving meals to mothers failed.",
+      "reach": 12,
+      "views": 22,
+      "likes": 0,
+      "comments": 0,
+      "saved": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "avg_watch_time": 4046,
+      "total_watch_time": 48552,
+      "experiment": {
+        "hook_type": "case_study",
+        "evidence_type": "case_study",
+        "format": "reel",
+        "pillar": "Behind the Brands",
+        "hook_words": 6,
+        "hook_characters": 44,
+        "visual_treatment": "kinetic_typography",
+        "schedule": {
+          "active": false,
+          "selected_time": "20:00"
+        }
+      }
+    },
+    {
+      "id": "17969491116140412",
+      "posted": "2026-09-16T18:09:14+0000",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/DdW5RMwEVxi/",
+      "hook": "AI drafts faster. Approval still waits.",
+      "reach": 11,
+      "views": 16,
+      "likes": 0,
+      "comments": 0,
+      "saved": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "avg_watch_time": 5646,
+      "total_watch_time": 67756,
+      "experiment": {
+        "hook_type": "framework",
+        "evidence_type": "framework",
+        "format": "reel",
+        "pillar": "ai_marketing",
+        "hook_words": 6,
+        "hook_characters": 39,
+        "visual_treatment": "visual_explainer",
+        "cover_visual": "bottleneck",
+        "schedule": {}
+      }
+    },
+    {
+      "id": "18058160186535037",
+      "posted": "2026-09-15T18:07:50+0000",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/DdUUTz2FIQI/",
+      "hook": "Editing AI content costs more than writing it.",
+      "reach": 82,
+      "views": 90,
+      "likes": 0,
+      "comments": 0,
+      "saved": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "avg_watch_time": 1758,
+      "total_watch_time": 145917,
+      "experiment": {
+        "hook_type": "cost",
+        "evidence_type": "practitioner_observation",
+        "format": "reel",
+        "pillar": "AI in Marketing",
+        "hook_words": 8,
+        "hook_characters": 46,
+        "visual_treatment": "kinetic_typography",
+        "schedule": {
+          "active": false,
+          "selected_time": "19:00"
+        }
+      }
+    },
+    {
+      "id": "18034940417838532",
+      "posted": "2026-09-14T06:08:05+0000",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/DdQdHJ5jkY9/",
+      "hook": "Marketing gets leads. Brand stops price wars.",
+      "reach": 12,
+      "views": 24,
+      "likes": 0,
+      "comments": 0,
+      "saved": 1,
+      "shares": 0,
+      "total_interactions": 1,
+      "avg_watch_time": 8697,
+      "total_watch_time": 121768,
+      "experiment": {
+        "hook_type": "framework",
+        "evidence_type": "framework",
+        "format": "reel",
+        "pillar": "Brand Strategy",
+        "hook_words": 7,
+        "hook_characters": 45,
+        "visual_treatment": "kinetic_typography",
+        "schedule": {
+          "active": false,
+          "selected_time": "08:30"
+        }
+      }
+    },
+    {
+      "id": "18624969928020656",
+      "posted": "2026-09-13T17:29:11+0000",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/DdPF9rOMWzo/",
+      "hook": "#ganeshchaturthi #ganeshji  #trendingreel  #trialreel",
+      "reach": 4,
+      "views": 4,
+      "likes": 0,
+      "comments": 1,
+      "saved": 0,
+      "shares": 0,
+      "total_interactions": 1,
+      "avg_watch_time": 1077,
+      "total_watch_time": 5389
+    },
     {
       "id": "18075839381445383",
       "posted": "2026-09-12T05:43:47+0000",
       "type": "FEED",
       "permalink": "https://www.instagram.com/p/DdLQybmlXd_/",
       "hook": "A usable brand strategy framework should test your pricing power, not your choice of adjectives.",
-      "reach": 10,
-      "views": 24,
+      "reach": 17,
+      "views": 48,
       "likes": 0,
       "comments": 0,
       "saved": 0,
@@ -25,6 +245,7 @@
         "hook_words": 15,
         "hook_characters": 96,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -34,15 +255,15 @@
       "type": "REELS",
       "permalink": "https://www.instagram.com/reel/DdGISujkdOZ/",
       "hook": "The best marketing career advice I ever got was to stop defending creative briefs and start defending budgets.",
-      "reach": 13,
-      "views": 22,
+      "reach": 15,
+      "views": 23,
       "likes": 0,
       "comments": 0,
       "saved": 0,
       "shares": 0,
       "total_interactions": 0,
-      "avg_watch_time": 6913,
-      "total_watch_time": 96791,
+      "avg_watch_time": 6566,
+      "total_watch_time": 98496,
       "experiment": {
         "hook_type": "cost",
         "evidence_type": "",
@@ -51,6 +272,7 @@
         "hook_words": 18,
         "hook_characters": 110,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -60,15 +282,15 @@
       "type": "REELS",
       "permalink": "https://www.instagram.com/reel/DdEsqNkioui/",
       "hook": "Most retail analysis focuses on ad campaigns. This brand case study India shows why payment terms beat advertising.",
-      "reach": 109,
-      "views": 126,
+      "reach": 111,
+      "views": 128,
       "likes": 4,
       "comments": 0,
       "saved": 0,
       "shares": 0,
       "total_interactions": 4,
-      "avg_watch_time": 3838,
-      "total_watch_time": 426021,
+      "avg_watch_time": 3774,
+      "total_watch_time": 426556,
       "experiment": {
         "hook_type": "cost",
         "evidence_type": "",
@@ -77,6 +299,7 @@
         "hook_words": 18,
         "hook_characters": 115,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -86,15 +309,15 @@
       "type": "REELS",
       "permalink": "https://www.instagram.com/reel/DdB5b4rgtdm/",
       "hook": "AI tools for marketers are not failing because of the prompts. They are failing because there is no strategy.",
-      "reach": 13,
-      "views": 22,
+      "reach": 15,
+      "views": 24,
       "likes": 0,
       "comments": 0,
       "saved": 0,
       "shares": 0,
       "total_interactions": 0,
-      "avg_watch_time": 6965,
-      "total_watch_time": 97512,
+      "avg_watch_time": 6478,
+      "total_watch_time": 103662,
       "experiment": {
         "hook_type": "distinction",
         "evidence_type": "",
@@ -103,6 +326,7 @@
         "hook_words": 19,
         "hook_characters": 109,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -112,15 +336,15 @@
       "type": "REELS",
       "permalink": "https://www.instagram.com/reel/Dc-P5hqCMxS/",
       "hook": "We confuse the difference between branding and marketing because we track them on the same spreadsheet.",
-      "reach": 16,
-      "views": 29,
+      "reach": 17,
+      "views": 31,
       "likes": 0,
       "comments": 0,
       "saved": 0,
       "shares": 0,
       "total_interactions": 0,
-      "avg_watch_time": 7565,
-      "total_watch_time": 143735,
+      "avg_watch_time": 7320,
+      "total_watch_time": 146407,
       "experiment": {
         "hook_type": "claim",
         "evidence_type": "",
@@ -129,6 +353,7 @@
         "hook_words": 16,
         "hook_characters": 103,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -138,8 +363,8 @@
       "type": "FEED",
       "permalink": "https://www.instagram.com/p/Dc5Of0DFfcS/",
       "hook": "Knowing when to rebrand comes down to whether you are losing deals on price or on customer fit.",
-      "reach": 20,
-      "views": 65,
+      "reach": 21,
+      "views": 66,
       "likes": 1,
       "comments": 0,
       "saved": 0,
@@ -155,6 +380,7 @@
         "hook_words": 18,
         "hook_characters": 95,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -181,6 +407,7 @@
         "hook_words": 13,
         "hook_characters": 89,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -190,15 +417,15 @@
       "type": "REELS",
       "permalink": "https://www.instagram.com/reel/Dcy5RGomltX/",
       "hook": "If you want to understand why this ad worked so well, look at how Surf Excel reframed dirt.",
-      "reach": 37,
-      "views": 51,
+      "reach": 38,
+      "views": 52,
       "likes": 1,
       "comments": 0,
       "saved": 2,
       "shares": 0,
       "total_interactions": 3,
-      "avg_watch_time": 7734,
-      "total_watch_time": 301634,
+      "avg_watch_time": 7552,
+      "total_watch_time": 302092,
       "experiment": {
         "hook_type": "claim",
         "evidence_type": "",
@@ -207,6 +434,7 @@
         "hook_words": 18,
         "hook_characters": 91,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -233,6 +461,7 @@
         "hook_words": 17,
         "hook_characters": 105,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -259,6 +488,7 @@
         "hook_words": 15,
         "hook_characters": 106,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -285,6 +515,7 @@
         "hook_words": 21,
         "hook_characters": 118,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -311,6 +542,7 @@
         "hook_words": 16,
         "hook_characters": 111,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -320,15 +552,15 @@
       "type": "REELS",
       "permalink": "https://www.instagram.com/reel/Dcgel49lZZy/",
       "hook": "This brand case study India shows why Coca-Cola failed to replace Thums Up in 1993 despite owning distribution.",
-      "reach": 146,
-      "views": 147,
+      "reach": 147,
+      "views": 148,
       "likes": 4,
       "comments": 0,
       "saved": 1,
       "shares": 0,
       "total_interactions": 6,
-      "avg_watch_time": 7202,
-      "total_watch_time": 871473,
+      "avg_watch_time": 7152,
+      "total_watch_time": 872581,
       "experiment": {
         "hook_type": "claim",
         "evidence_type": "",
@@ -337,6 +569,7 @@
         "hook_words": 18,
         "hook_characters": 111,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -363,6 +596,7 @@
         "hook_words": 16,
         "hook_characters": 115,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -389,6 +623,7 @@
         "hook_words": 18,
         "hook_characters": 112,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -415,6 +650,7 @@
         "hook_words": 22,
         "hook_characters": 113,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -441,6 +677,7 @@
         "hook_words": 19,
         "hook_characters": 110,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -467,6 +704,7 @@
         "hook_words": 15,
         "hook_characters": 99,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -493,6 +731,7 @@
         "hook_words": 19,
         "hook_characters": 116,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -519,6 +758,7 @@
         "hook_words": 14,
         "hook_characters": 102,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -545,6 +785,7 @@
         "hook_words": 20,
         "hook_characters": 114,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -571,6 +812,7 @@
         "hook_words": 18,
         "hook_characters": 92,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -597,6 +839,7 @@
         "hook_words": 19,
         "hook_characters": 119,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -623,6 +866,7 @@
         "hook_words": 19,
         "hook_characters": 116,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -649,6 +893,7 @@
         "hook_words": 17,
         "hook_characters": 96,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -691,6 +936,7 @@
         "hook_words": 16,
         "hook_characters": 108,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -717,6 +963,7 @@
         "hook_words": 16,
         "hook_characters": 100,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -743,6 +990,7 @@
         "hook_words": 16,
         "hook_characters": 113,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -769,6 +1017,7 @@
         "hook_words": 16,
         "hook_characters": 121,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -795,6 +1044,7 @@
         "hook_words": 15,
         "hook_characters": 101,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -821,6 +1071,7 @@
         "hook_words": 21,
         "hook_characters": 117,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -847,6 +1098,7 @@
         "hook_words": 19,
         "hook_characters": 104,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -873,6 +1125,7 @@
         "hook_words": 17,
         "hook_characters": 103,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -882,8 +1135,8 @@
       "type": "FEED",
       "permalink": "https://www.instagram.com/p/DcICdL8Fu4I/",
       "hook": "Knowing exactly when to rebrand saves millions in wasted agency fees and lost brand equity.",
-      "reach": 11,
-      "views": 30,
+      "reach": 12,
+      "views": 31,
       "likes": 1,
       "comments": 0,
       "saved": 0,
@@ -899,6 +1152,7 @@
         "hook_words": 15,
         "hook_characters": 91,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       }
     },
@@ -908,8 +1162,8 @@
       "type": "FEED",
       "permalink": "https://www.instagram.com/p/DcGudntm5Bh/",
       "hook": "Most marketers learning how to build a brand strategy start with visual guidelines and tone of voice decks.",
-      "reach": 10,
-      "views": 24,
+      "reach": 11,
+      "views": 25,
       "likes": 0,
       "comments": 0,
       "saved": 0,
@@ -925,9 +1179,17 @@
         "hook_words": 18,
         "hook_characters": 107,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       }
     }
   ],
-  "timing": []
+  "timing": [
+    {
+      "window": "Sat 11:00 \u00b7 Brand Strategy/carousel",
+      "posts": 3,
+      "median_save_share_per_1000_reach": 0.0,
+      "mean_avg_watch_time": null
+    }
+  ]
 }

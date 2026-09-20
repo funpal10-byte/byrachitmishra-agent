@@ -1,6 +1,161 @@
 {
-  "fetched_at": "2026-09-13T01:57:57+00:00",
+  "fetched_at": "2026-09-20T02:15:04+00:00",
   "posts": [
+    {
+      "id": "17891059578436275",
+      "posted": "2026-09-19T05:45:32+0000",
+      "hook": "Polite positioning doubles your sales cycle.",
+      "experiment": {
+        "hook_type": "framework",
+        "evidence_type": "framework",
+        "format": "carousel",
+        "pillar": "Brand Strategy",
+        "hook_words": 6,
+        "hook_characters": 44,
+        "visual_treatment": "carousel",
+        "schedule": {
+          "active": false,
+          "selected_time": "10:30"
+        }
+      },
+      "reach": 9,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
+    },
+    {
+      "id": "18114091390823039",
+      "posted": "2026-09-18T04:33:05+0000",
+      "hook": "Every approval needs a named owner.",
+      "experiment": {
+        "hook_type": "framework",
+        "evidence_type": "framework",
+        "format": "carousel",
+        "pillar": "ai_in_practice",
+        "hook_words": 6,
+        "hook_characters": 35,
+        "visual_treatment": "carousel",
+        "cover_visual": "",
+        "schedule": {}
+      },
+      "reach": 9,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
+    },
+    {
+      "id": "17890013403614030",
+      "posted": "2026-09-17T11:35:11+0000",
+      "hook": "Checking visuals first delays every launch.",
+      "experiment": {
+        "hook_type": "claim",
+        "evidence_type": "practitioner_observation",
+        "format": "reel",
+        "pillar": "Leadership",
+        "hook_words": 6,
+        "hook_characters": 43,
+        "visual_treatment": "kinetic_typography",
+        "schedule": {
+          "active": true,
+          "selected_time": "13:00",
+          "candidates": [
+            "13:00",
+            "17:00"
+          ],
+          "week_index": 0
+        }
+      },
+      "reach": 60,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 3870
+    },
+    {
+      "id": "18109153220595454",
+      "posted": "2026-09-16T18:09:49+0000",
+      "hook": "Selling time-saving meals to mothers failed.",
+      "experiment": {
+        "hook_type": "case_study",
+        "evidence_type": "case_study",
+        "format": "reel",
+        "pillar": "Behind the Brands",
+        "hook_words": 6,
+        "hook_characters": 44,
+        "visual_treatment": "kinetic_typography",
+        "schedule": {
+          "active": false,
+          "selected_time": "20:00"
+        }
+      },
+      "reach": 12,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 4046
+    },
+    {
+      "id": "17969491116140412",
+      "posted": "2026-09-16T18:09:14+0000",
+      "hook": "AI drafts faster. Approval still waits.",
+      "experiment": {
+        "hook_type": "framework",
+        "evidence_type": "framework",
+        "format": "reel",
+        "pillar": "ai_marketing",
+        "hook_words": 6,
+        "hook_characters": 39,
+        "visual_treatment": "visual_explainer",
+        "cover_visual": "bottleneck",
+        "schedule": {}
+      },
+      "reach": 11,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 5646
+    },
+    {
+      "id": "18058160186535037",
+      "posted": "2026-09-15T18:07:50+0000",
+      "hook": "Editing AI content costs more than writing it.",
+      "experiment": {
+        "hook_type": "cost",
+        "evidence_type": "practitioner_observation",
+        "format": "reel",
+        "pillar": "AI in Marketing",
+        "hook_words": 8,
+        "hook_characters": 46,
+        "visual_treatment": "kinetic_typography",
+        "schedule": {
+          "active": false,
+          "selected_time": "19:00"
+        }
+      },
+      "reach": 82,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 1758
+    },
+    {
+      "id": "18034940417838532",
+      "posted": "2026-09-14T06:08:05+0000",
+      "hook": "Marketing gets leads. Brand stops price wars.",
+      "experiment": {
+        "hook_type": "framework",
+        "evidence_type": "framework",
+        "format": "reel",
+        "pillar": "Brand Strategy",
+        "hook_words": 7,
+        "hook_characters": 45,
+        "visual_treatment": "kinetic_typography",
+        "schedule": {
+          "active": false,
+          "selected_time": "08:30"
+        }
+      },
+      "reach": 12,
+      "saved": 1,
+      "shares": 0,
+      "avg_watch_time": 8697
+    },
     {
       "id": "18075839381445383",
       "posted": "2026-09-12T05:43:47+0000",
@@ -13,9 +168,10 @@
         "hook_words": 15,
         "hook_characters": 96,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       },
-      "reach": 10,
+      "reach": 17,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
@@ -32,12 +188,13 @@
         "hook_words": 18,
         "hook_characters": 110,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       },
-      "reach": 13,
+      "reach": 15,
       "saved": 0,
       "shares": 0,
-      "avg_watch_time": 6913
+      "avg_watch_time": 6566
     },
     {
       "id": "18265235224307087",
@@ -51,12 +208,13 @@
         "hook_words": 18,
         "hook_characters": 115,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       },
-      "reach": 109,
+      "reach": 111,
       "saved": 0,
       "shares": 0,
-      "avg_watch_time": 3838
+      "avg_watch_time": 3774
     },
     {
       "id": "18105301115177529",
@@ -70,12 +228,13 @@
         "hook_words": 19,
         "hook_characters": 109,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       },
-      "reach": 13,
+      "reach": 15,
       "saved": 0,
       "shares": 0,
-      "avg_watch_time": 6965
+      "avg_watch_time": 6478
     },
     {
       "id": "18089651294182955",
@@ -89,12 +248,13 @@
         "hook_words": 16,
         "hook_characters": 103,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       },
-      "reach": 16,
+      "reach": 17,
       "saved": 0,
       "shares": 0,
-      "avg_watch_time": 7565
+      "avg_watch_time": 7320
     },
     {
       "id": "18138583024717638",
@@ -108,9 +268,10 @@
         "hook_words": 18,
         "hook_characters": 95,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       },
-      "reach": 20,
+      "reach": 21,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
@@ -127,6 +288,7 @@
         "hook_words": 13,
         "hook_characters": 89,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       },
       "reach": 43,
@@ -146,12 +308,13 @@
         "hook_words": 18,
         "hook_characters": 91,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       },
-      "reach": 37,
+      "reach": 38,
       "saved": 2,
       "shares": 0,
-      "avg_watch_time": 7734
+      "avg_watch_time": 7552
     },
     {
       "id": "18214079809344822",
@@ -165,6 +328,7 @@
         "hook_words": 17,
         "hook_characters": 105,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       },
       "reach": 115,
@@ -184,6 +348,7 @@
         "hook_words": 15,
         "hook_characters": 106,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       },
       "reach": 118,
@@ -203,6 +368,7 @@
         "hook_words": 21,
         "hook_characters": 118,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       },
       "reach": 87,
@@ -222,6 +388,7 @@
         "hook_words": 16,
         "hook_characters": 111,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       },
       "reach": 104,
@@ -241,12 +408,13 @@
         "hook_words": 18,
         "hook_characters": 111,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       },
-      "reach": 146,
+      "reach": 147,
       "saved": 1,
       "shares": 0,
-      "avg_watch_time": 7202
+      "avg_watch_time": 7152
     },
     {
       "id": "17947588470267574",
@@ -260,6 +428,7 @@
         "hook_words": 16,
         "hook_characters": 115,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       },
       "reach": 262,
@@ -279,6 +448,7 @@
         "hook_words": 18,
         "hook_characters": 112,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       },
       "reach": 112,
@@ -298,6 +468,7 @@
         "hook_words": 22,
         "hook_characters": 113,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       },
       "reach": 170,
@@ -317,6 +488,7 @@
         "hook_words": 19,
         "hook_characters": 110,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       },
       "reach": 165,
@@ -336,6 +508,7 @@
         "hook_words": 15,
         "hook_characters": 99,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       },
       "reach": 124,
@@ -355,6 +528,7 @@
         "hook_words": 19,
         "hook_characters": 116,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       },
       "reach": 143,
@@ -374,6 +548,7 @@
         "hook_words": 14,
         "hook_characters": 102,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       },
       "reach": 68,
@@ -393,6 +568,7 @@
         "hook_words": 20,
         "hook_characters": 114,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       },
       "reach": 65,
@@ -412,6 +588,7 @@
         "hook_words": 18,
         "hook_characters": 92,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       },
       "reach": 68,
@@ -431,6 +608,7 @@
         "hook_words": 19,
         "hook_characters": 119,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       },
       "reach": 39,
@@ -450,6 +628,7 @@
         "hook_words": 19,
         "hook_characters": 116,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       },
       "reach": 22,
@@ -469,6 +648,7 @@
         "hook_words": 17,
         "hook_characters": 96,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       },
       "reach": 17,
@@ -488,6 +668,7 @@
         "hook_words": 16,
         "hook_characters": 108,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       },
       "reach": 13,
@@ -507,6 +688,7 @@
         "hook_words": 16,
         "hook_characters": 100,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       },
       "reach": 26,
@@ -526,6 +708,7 @@
         "hook_words": 16,
         "hook_characters": 113,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       },
       "reach": 35,
@@ -545,6 +728,7 @@
         "hook_words": 16,
         "hook_characters": 121,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       },
       "reach": 13,
@@ -564,6 +748,7 @@
         "hook_words": 15,
         "hook_characters": 101,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       },
       "reach": 11,
@@ -583,6 +768,7 @@
         "hook_words": 21,
         "hook_characters": 117,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       },
       "reach": 11,
@@ -602,6 +788,7 @@
         "hook_words": 19,
         "hook_characters": 104,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       },
       "reach": 29,
@@ -621,6 +808,7 @@
         "hook_words": 17,
         "hook_characters": 103,
         "visual_treatment": "kinetic_typography",
+        "cover_visual": "",
         "schedule": {}
       },
       "reach": 50,
@@ -640,9 +828,10 @@
         "hook_words": 15,
         "hook_characters": 91,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       },
-      "reach": 11,
+      "reach": 12,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
@@ -659,9 +848,10 @@
         "hook_words": 18,
         "hook_characters": 107,
         "visual_treatment": "carousel",
+        "cover_visual": "",
         "schedule": {}
       },
-      "reach": 10,
+      "reach": 11,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
