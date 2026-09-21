@@ -164,7 +164,7 @@
     }
   ],
   "scheduled_for": "2026-09-21T19:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "blog",
   "source_url": "https://www.rachitmishra.in/2026/09/20/martech-stack-audit/",
@@ -202,5 +202,7 @@
     "content/queue/2026-09-21/mon-1900-martechstackaudit2026/slide-07.jpg",
     "content/queue/2026-09-21/mon-1900-martechstackaudit2026/slide-08.jpg"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-09-21T19:28:46.187866+05:30",
+  "media_id": "17892835644427350"
 }
