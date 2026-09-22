@@ -73,7 +73,7 @@ jobs:
         run: python -m agent.run_batch
 
       - name: Open review pull request
-        if: always() && steps.batch.outputs.count != '' && steps.batch.outputs.count != '0'
+        if: success() && steps.batch.outputs.count != '' && steps.batch.outputs.count != '0'
         uses: peter-evans/create-pull-request@v6
         with:
           branch: draft/week-${{ steps.batch.outputs.week }}

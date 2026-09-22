@@ -78,6 +78,25 @@ def post_metadata(post: dict, schedule_experiment: dict | None = None) -> dict:
     }
 
 
+def visual_manifest(post: dict) -> list[str]:
+    """Return the infographic types rendered into a generated post."""
+    visuals: list[dict] = []
+    if post.get("format") == "carousel":
+        visuals.extend(
+            slide.get("visual") for slide in post.get("slides") or []
+            if isinstance(slide, dict) and isinstance(slide.get("visual"), dict)
+        )
+    elif post.get("format") == "reel":
+        cover = post.get("reel_cover") or {}
+        if isinstance(cover, dict) and isinstance(cover.get("visual"), dict):
+            visuals.append(cover["visual"])
+        visuals.extend(
+            beat.get("visual") for beat in post.get("reel_script") or []
+            if isinstance(beat, dict) and isinstance(beat.get("visual"), dict)
+        )
+    return [str(visual.get("kind")) for visual in visuals if visual.get("kind")]
+
+
 def published_metadata(content_root: Path) -> tuple[dict[str, dict], dict[str, dict]]:
     """Index published post metadata by media ID and caption opening."""
     by_id: dict[str, dict] = {}

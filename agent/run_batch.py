@@ -69,6 +69,19 @@ def write_readable(post: dict, folder: Path, images: list[Path], problems: list[
         a(f">")
         a(f"> Source preflight: {preflight.get('status')}" +
           (f" (HTTP {preflight['http_status']})" if preflight.get("http_status") else ""))
+    visual_kinds = post.get("rendered_visuals") or []
+    if visual_kinds:
+        a(f">")
+        a(f"> Rendered infographics: {len(visual_kinds)} — {', '.join(visual_kinds)}")
+    reel_assets = post.get("reel_assets") or {}
+    if post.get("format") == "reel" and isinstance(reel_assets, dict):
+        background = reel_assets.get("background") or {}
+        music = reel_assets.get("music") or {}
+        if isinstance(background, dict) and isinstance(music, dict):
+            background_note = background.get("file") or background.get("source", "unknown")
+            music_note = music.get("file") or music.get("source", "unknown")
+            a(f">")
+            a(f"> Reel assets: image `{background_note}` · music `{music_note}`")
     a("")
 
     if problems:
@@ -281,6 +294,7 @@ def main() -> int:
         if not images or (post.get("format") == "reel" and BUILD_REELS and not (folder / "reel.mp4").exists()):
             failures.append(f"{folder.name}: required rendered media missing")
             continue
+        post["rendered_visuals"] = experiments.visual_manifest(post)
         problems = validate(post) + check_voice(post, brand.voice.get("banned_phrases", []))
         post["warnings"] = problems
 
@@ -312,7 +326,9 @@ def main() -> int:
         encoding="utf-8",
     )
 
-    print(f"[done] {len(summary)} posts written to {batch_dir}")
+    expected = len([slot for slot in brand.slots if brand.pillars.get(slot["pillar"], None)
+                    and brand.pillars[slot["pillar"]].automate])
+    print(f"[done] {len(summary)}/{expected} posts written to {batch_dir}")
     # Expose the batch path to later workflow steps.
     if out := os.getenv("GITHUB_OUTPUT"):
         with open(out, "a", encoding="utf-8") as fh:
@@ -320,20 +336,14 @@ def main() -> int:
             fh.write(f"week={dates['mon']:%Y-%m-%d}\n")
             fh.write(f"count={len(summary)}\n")
 
-    # A run that writes nothing is a failed run, not a successful empty one.
-    # Failing here means the workflow goes red and you find out immediately,
-    # instead of getting a cheerful pull request containing no posts.
-    if not summary:
-        print("\n[FAILED] No posts were written. Reasons:", file=sys.stderr)
-        for f in failures or ["(no pillars were eligible — check brand.yml)"]:
+    # A partial week is a failure too. Shipping a quiet nine-post PR when one
+    # scheduled slot failed is how cadence regresses without anybody noticing.
+    if failures or len(summary) != expected:
+        print("\n[FAILED] The batch is incomplete. Reasons:", file=sys.stderr)
+        for f in failures or [f"expected {expected} automated slots, wrote {len(summary)}"]:
             print(f"  - {f}", file=sys.stderr)
         return 1
-
-    if failures:
-        print(f"\n[warn] {len(failures)} of {len(summary) + len(failures)} posts failed:", file=sys.stderr)
-        for f in failures:
-            print(f"  - {f}", file=sys.stderr)
-    return 1 if failures else 0
+    return 0
 
 
 if __name__ == "__main__":

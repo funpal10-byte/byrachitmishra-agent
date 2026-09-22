@@ -244,6 +244,18 @@ def pick_music(post: dict, brand, index: int = 0) -> Path | None:
     return assets.pick_music(post.get("pillar", ""), index)
 
 
+def _asset_record(
+    path: Path | None, folder: Path, local_source: str, fallback: str
+) -> dict[str, str]:
+    """Describe the selected Reel asset in the post's review metadata."""
+    if not path:
+        return {"source": fallback}
+    try:
+        return {"source": local_source, "file": path.relative_to(folder).as_posix()}
+    except ValueError:
+        return {"source": "generated", "file": path.name}
+
+
 # --------------------------------------------------------------------------
 #  Cards
 # --------------------------------------------------------------------------
@@ -438,6 +450,12 @@ def build_reel(post: dict, brand, folder: Path, index: int = 0) -> Path | None:
         music = pick_music(post, brand, index) or generate_music(
             post, brand, work, sum(durations)
         )
+        post["reel_assets"] = {
+            "background": _asset_record(
+                bg, assets.IMAGE_DIR, "images_folder", "designed_gradient"
+            ),
+            "music": _asset_record(music, assets.MUSIC_DIR, "music_folder", "silent_track"),
+        }
         if music:
             print(f"[video] music: {music.name}")
         else:

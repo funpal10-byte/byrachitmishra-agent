@@ -1,5 +1,6 @@
 import unittest
 
+from agent.experiments import visual_manifest
 from agent.schema import validate
 
 VISUAL = {"kind": "checklist", "items": [
@@ -89,6 +90,16 @@ class HookContractTests(unittest.TestCase):
         post = reel_post()
         del post["reel_cover"]["signal"]
         self.assertIn("reel cover missing signal", validate(post))
+
+    def test_reel_visual_manifest_includes_cover_and_beat_graphics(self):
+        self.assertEqual(visual_manifest(reel_post()), ["checklist", "checklist", "checklist"])
+
+    def test_reel_visual_manifest_is_empty_without_infographics(self):
+        post = reel_post()
+        post["reel_cover"].pop("visual")
+        for beat in post["reel_script"]:
+            beat.pop("visual", None)
+        self.assertEqual(visual_manifest(post), [])
 
     def test_factual_source_requires_a_url(self):
         post = reel_post()
