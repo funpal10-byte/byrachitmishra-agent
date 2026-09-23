@@ -150,7 +150,7 @@
   "cta": "Send this to whoever is setting up your team's AI guidelines this quarter.",
   "failure_mode": "Could be misread as anti-technology resistance if the distinction between generation speed and legal risk management is not sharply maintained.",
   "scheduled_for": "2026-09-23T20:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -184,5 +184,7 @@
     "content/queue/2026-09-21/wed-2000-what-ai-cannot-do-in-brand-work/slide-07.jpg",
     "content/queue/2026-09-21/wed-2000-what-ai-cannot-do-in-brand-work/slide-08.jpg"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-09-23T22:19:10.244335+05:30",
+  "media_id": "17958511809228172"
 }
