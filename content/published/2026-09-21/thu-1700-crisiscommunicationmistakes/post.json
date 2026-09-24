@@ -112,7 +112,7 @@
   ],
   "cta": "Send this to the head of corporate affairs or legal counsel preparing your emergency response playbook.",
   "scheduled_for": "2026-09-24T17:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -150,5 +150,7 @@
   "images": [
     "content/queue/2026-09-21/thu-1700-crisiscommunicationmistakes/reel-cover.jpg"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-09-24T20:27:15.164331+05:30",
+  "media_id": "18011059661763514"
 }
