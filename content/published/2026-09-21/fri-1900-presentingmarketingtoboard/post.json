@@ -138,7 +138,7 @@
     }
   ],
   "scheduled_for": "2026-09-25T19:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "blog",
   "source_url": "https://www.rachitmishra.in/2026/09/18/presenting-marketing-to-board/",
@@ -175,5 +175,7 @@
     "content/queue/2026-09-21/fri-1900-presentingmarketingtoboard/slide-06.jpg",
     "content/queue/2026-09-21/fri-1900-presentingmarketingtoboard/slide-07.jpg"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-09-25T19:09:47.704015+05:30",
+  "media_id": "18167591872461217"
 }
