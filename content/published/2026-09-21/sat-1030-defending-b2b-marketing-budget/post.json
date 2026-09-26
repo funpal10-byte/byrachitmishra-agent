@@ -133,7 +133,7 @@
   "cta": "Send this to whoever is defending a marketing budget this quarter.",
   "failure_mode": "The post could be misconstrued as advising marketers to abandon top-of-funnel brand building entirely, rather than changing how it is framed to financial stakeholders.",
   "scheduled_for": "2026-09-26T10:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -166,5 +166,7 @@
     "content/queue/2026-09-21/sat-1030-defending-b2b-marketing-budget/slide-06.jpg",
     "content/queue/2026-09-21/sat-1030-defending-b2b-marketing-budget/slide-07.jpg"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-09-26T13:03:47.792657+05:30",
+  "media_id": "17893370301428625"
 }
