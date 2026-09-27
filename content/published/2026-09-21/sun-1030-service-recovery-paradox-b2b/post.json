@@ -139,7 +139,7 @@
     }
   ],
   "scheduled_for": "2026-09-27T10:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "blog",
   "source_url": "https://www.rachitmishra.in/2026/09/16/service-recovery-paradox/",
@@ -176,5 +176,7 @@
     "content/queue/2026-09-21/sun-1030-service-recovery-paradox-b2b/slide-06.jpg",
     "content/queue/2026-09-21/sun-1030-service-recovery-paradox-b2b/slide-07.jpg"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-09-27T13:32:18.530662+05:30",
+  "media_id": "17969308026174525"
 }
