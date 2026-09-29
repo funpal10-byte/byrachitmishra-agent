@@ -16,6 +16,13 @@ permissions:
   contents: write
   pull-requests: write
 
+# A duplicate manual dispatch can spend a full extra batch of model quota and
+# race to open the same review branch. Keep the newest request; it has the
+# same resumable queue and is therefore the safest one to continue.
+concurrency:
+  group: weekly-content-draft
+  cancel-in-progress: true
+
 jobs:
   draft:
     runs-on: ubuntu-latest
