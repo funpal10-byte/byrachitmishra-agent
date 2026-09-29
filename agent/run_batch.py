@@ -28,8 +28,22 @@ def slugify(text: str) -> str:
 
 
 def next_week_dates(brand, today: dt.date) -> dict[str, dt.date]:
-    """Map each slot's day name to a date in the week starting the coming Monday."""
-    monday = today + dt.timedelta(days=(7 - today.weekday()) % 7 or 7)
+    """Map each slot to the next Monday, or an explicitly requested Monday.
+
+    `BATCH_WEEK_START` is only used by a manual recovery run. It makes a
+    missed Sunday batch recoverable on Monday without moving every post a
+    week later. Scheduled runs deliberately leave it unset.
+    """
+    requested = (os.getenv("BATCH_WEEK_START") or "").strip()
+    if requested:
+        try:
+            monday = dt.date.fromisoformat(requested)
+        except ValueError as exc:
+            raise ValueError("BATCH_WEEK_START must use YYYY-MM-DD") from exc
+        if monday.weekday() != 0:
+            raise ValueError("BATCH_WEEK_START must be a Monday")
+    else:
+        monday = today + dt.timedelta(days=(7 - today.weekday()) % 7 or 7)
     return {d: monday + dt.timedelta(days=i) for d, i in DAY_INDEX.items()}
 
 

@@ -1,6 +1,9 @@
 import unittest
+from unittest.mock import patch
+from datetime import date
 from agent.schema import validate_visual
 from agent.config import load_brand, BRAND_FILE, ROOT
+from agent.run_batch import next_week_dates
 
 
 class EditorialContractTests(unittest.TestCase):
@@ -22,3 +25,14 @@ class EditorialContractTests(unittest.TestCase):
 
     def test_bad_visual_data_is_a_quality_error(self):
         self.assertTrue(validate_visual({"kind": "checklist", "items": [None, {}]}, "example"))
+
+    def test_batch_week_start_allows_a_missed_week_to_be_recovered(self):
+        with patch.dict("os.environ", {"BATCH_WEEK_START": "2026-09-28"}):
+            dates = next_week_dates(None, date(2026, 9, 29))
+        self.assertEqual(dates["mon"], date(2026, 9, 28))
+        self.assertEqual(dates["sun"], date(2026, 10, 4))
+
+    def test_batch_week_start_rejects_a_non_monday(self):
+        with patch.dict("os.environ", {"BATCH_WEEK_START": "2026-09-29"}):
+            with self.assertRaisesRegex(ValueError, "must be a Monday"):
+                next_week_dates(None, date(2026, 9, 29))

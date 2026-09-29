@@ -6,6 +6,11 @@ on:
   schedule:
     - cron: "30 0 * * 0"
   workflow_dispatch:
+    inputs:
+      week_start:
+        description: "Recovery only: Monday to generate (YYYY-MM-DD). Leave blank for next week."
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -70,7 +75,20 @@ jobs:
           REEL_AI_BACKGROUNDS: ${{ vars.REEL_AI_BACKGROUNDS }}
           # Set to "true" to put a photo from images/ behind carousel hook slides.
           SLIDE_PHOTO_HOOK: ${{ vars.SLIDE_PHOTO_HOOK }}
-        run: python -m agent.run_batch
+          # A manual recovery can fill the week that a scheduled run missed,
+          # instead of calculating the following Monday.
+          BATCH_WEEK_START: ${{ inputs.week_start }}
+        run: |
+          # run_batch writes completed slots before it exits. A retry therefore
+          # resumes only the failed slot instead of spending a second batch's
+          # API quota or duplicating posts.
+          for attempt in 1 2 3; do
+            python -m agent.run_batch && exit 0
+            echo "Batch attempt $attempt failed; retrying any unfinished slot."
+            sleep $((attempt * 15))
+          done
+          echo "::error::The batch remained incomplete after 3 attempts."
+          exit 1
 
       - name: Open review pull request
         if: success() && steps.batch.outputs.count != '' && steps.batch.outputs.count != '0'
