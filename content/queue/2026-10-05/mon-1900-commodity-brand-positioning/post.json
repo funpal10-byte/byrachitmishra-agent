@@ -1,0 +1,168 @@
+{
+  "title": "commodity brand positioning",
+  "pillar": "b2b_brand",
+  "format": "carousel",
+  "primary_keyword": "how to brand a commodity product",
+  "claim": "Commodity products cannot win on product features, so positioning must create an operational risk for choosing anyone else.",
+  "hook": "A commodity has no features to sell.",
+  "evidence": {
+    "type": "practitioner_observation",
+    "detail": "Observed across multiple industrial supplier tenders where identical steel or chemical specifications force buyers to evaluate risk, logistics stability, and plant audit history rather than product performance."
+  },
+  "slides": [
+    {
+      "headline": "A commodity has no features to sell."
+    },
+    {
+      "kicker": "The Trap",
+      "headline": "When products are identical, marketing defaults to price.",
+      "body": "Lowering prices invites margin erosion and signals desperation to procurement committees.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Product Reality",
+            "detail": "Identical grade and ISO spec"
+          },
+          {
+            "label": "Default Response",
+            "detail": "Competing purely on landed cost"
+          }
+        ],
+        "note": "Standard industrial commodity dilemma"
+      }
+    },
+    {
+      "kicker": "The Shift",
+      "headline": "Stop selling the steel. Start selling the certainty.",
+      "body": "Buyers do not risk their careers on the product. They risk their careers on whether the delivery arrives on Tuesday.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Product Focus",
+            "detail": "Tensile strength and chemistry"
+          },
+          {
+            "label": "Risk Focus",
+            "detail": "Supply continuity and audit trails"
+          }
+        ],
+        "note": "Procurement committee priorities"
+      }
+    },
+    {
+      "kicker": "The Mechanism",
+      "headline": "Positioning in industrial markets is risk transference.",
+      "body": "Your brand premium is insurance against plant downtime.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Audit History",
+            "detail": "Document zero plant stoppages"
+          },
+          {
+            "label": "Buffer Stock",
+            "detail": "Prove regional inventory depth"
+          }
+        ],
+        "note": "Building operational credibility"
+      }
+    },
+    {
+      "kicker": "The Tradeoff",
+      "headline": "This requires abandoning half your product claims.",
+      "body": "Every page spent on technical specs is a page not spent on proving operational resilience.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Engineering Desk",
+            "detail": "Demands more feature datasheets"
+          },
+          {
+            "label": "Buyer Reality",
+            "detail": "Wants proof of no line stoppages"
+          }
+        ],
+        "note": "Internal messaging conflict"
+      }
+    },
+    {
+      "kicker": "Application",
+      "headline": "Audit your collateral against one single question.",
+      "body": "Does this page prove our product is better, or does it prove our supply chain is unbreakable?",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Spec Sheets",
+            "detail": "Move to technical appendix"
+          },
+          {
+            "label": "Risk Evidence",
+            "detail": "Lead the commercial deck"
+          }
+        ],
+        "note": "Collateral restructuring check"
+      }
+    },
+    {
+      "headline": "Commodity brands sell the sleep the buyer loses.",
+      "body": "Send this to whoever is tired of arguing about price in B2B procurement meetings."
+    }
+  ],
+  "caption": "A commodity has no features to sell.\n\nLearning how to brand a commodity product starts with the buyer's delivery risk.\n\nMost industrial marketers double down on technical datasheets. That fails because the procurement committee already has the ISO certificate on file.\n\nThey are not buying better steel. They are buying the elimination of plant downtime.\n\nPositioning a commodity means making your competitors look like a logistical gamble.",
+  "alt_text": "Carousel slides explaining how B2B commodity positioning relies on risk transference.",
+  "hashtags": [
+    "#b2bmarketing",
+    "#industrialmarketing",
+    "#brandstrategy"
+  ],
+  "cta": "Send this to whoever is tired of arguing about price in B2B procurement meetings.",
+  "failure_mode": "Could be misread as basic sales advice rather than a structural brand positioning shift.",
+  "scheduled_for": "2026-10-05T19:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "blog_fallback": "No unused full article available; evergreen replacement",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "19:00"
+  },
+  "experiment": {
+    "hook_type": "claim",
+    "evidence_type": "practitioner_observation",
+    "format": "carousel",
+    "pillar": "b2b_brand",
+    "hook_words": 7,
+    "hook_characters": 36,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "19:00"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "images": [
+    "content/queue/2026-10-05/mon-1900-commodity-brand-positioning/slide-01.jpg",
+    "content/queue/2026-10-05/mon-1900-commodity-brand-positioning/slide-02.jpg",
+    "content/queue/2026-10-05/mon-1900-commodity-brand-positioning/slide-03.jpg",
+    "content/queue/2026-10-05/mon-1900-commodity-brand-positioning/slide-04.jpg",
+    "content/queue/2026-10-05/mon-1900-commodity-brand-positioning/slide-05.jpg",
+    "content/queue/2026-10-05/mon-1900-commodity-brand-positioning/slide-06.jpg",
+    "content/queue/2026-10-05/mon-1900-commodity-brand-positioning/slide-07.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "comparison",
+    "checklist",
+    "bottleneck",
+    "checklist"
+  ],
+  "warnings": []
+}

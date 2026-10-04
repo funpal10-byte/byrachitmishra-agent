@@ -85,8 +85,10 @@ Return only the JSON object. Schema:
 Non-negotiable opening contract: `hook` is a short tension-led claim, not a
 topic label. It must exactly equal Reel beat 1 `onscreen` text and be the first
 words of Reel beat 1 `voiceover`; for a carousel it must equal slide 1's
-headline. The caption must start with it. Put the primary keyword naturally
-elsewhere in the first 125 caption characters.
+headline. The caption's first line must contain ONLY the hook, followed by
+two newline characters. Put the primary keyword naturally in the next
+sentence, within the first 125 caption characters. Interior carousel bodies
+must be complete sentences of at most 120 characters; rewrite, never truncate.
 
 Do not use an unsupported number. Supply the required `evidence` object with
 the proof or usable framework that earns the claim.
@@ -120,42 +122,31 @@ def _normalise_generated_opening(post: dict) -> dict:
 
     Models commonly add punctuation, markdown or a preamble to an otherwise
     strong hook. That is not an editorial reason to throw away an entire
-    weekly batch. Keep the model's copy, but make the required first line
-    canonical and make sure its chosen search phrase appears early enough.
+    weekly batch. Keep the model's copy and make the first line canonical.
+    Keyword placement and shortening remain editorial correction tasks.
     """
     hook = str(post.get("hook") or "").strip()
     caption = str(post.get("caption") or "").strip()
-    keyword = str(post.get("primary_keyword") or "").strip()
     if hook:
         lines = caption.splitlines()
         while lines and not lines[0].strip():
             lines.pop(0)
         if lines:
-            # Replace rather than prepend: the model's opening paraphrase
-            # would otherwise repeat the hook and weaken the caption.
-            lines[0] = hook
+            opening = lines[0].strip().strip('*')
+            if opening.casefold().startswith(hook.casefold()):
+                remainder = opening[len(hook):].lstrip('.!? :;—–-')
+                lines[0:1] = [hook] + (["", remainder] if remainder else [])
+            else:
+                # Preserve different opening copy so correction can rewrite
+                # it without silently losing the first paragraph.
+                lines[0:0] = [hook, ""]
         else:
             lines = [hook]
         caption = "\n".join(lines).strip()
 
-        early_caption = re.sub(r"\s+", " ", caption[:125]).casefold()
-        if keyword and keyword.casefold() not in early_caption:
-            # A short bridge is more natural than a keyword label, and keeps
-            # the remaining model-written caption intact.
-            remainder = "\n".join(lines[1:]).strip()
-            bridge = f"In {keyword}, this is the decision that changes the outcome."
-            caption = f"{hook}\n\n{bridge}" + (f"\n\n{remainder}" if remainder else "")
         post["caption"] = caption
 
-    # Carousel bodies become text inside an infographic. Trim only the
-    # exceptional overflow at a word boundary so a single verbose sentence
-    # cannot block the whole batch after the model has already self-corrected.
-    if post.get("format") == "carousel":
-        for slide in post.get("slides") or []:
-            body = str(slide.get("body") or "").strip()
-            if len(body) > 120:
-                clipped = body[:120].rsplit(" ", 1)[0].rstrip(" ,;:-")
-                slide["body"] = clipped or body[:120]
+    # Never truncate prose to pass validation: the model must rewrite it.
     return post
 
 

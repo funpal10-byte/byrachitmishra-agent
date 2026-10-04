@@ -1,0 +1,239 @@
+{
+  "type": "object",
+  "required": [
+    "title",
+    "pillar",
+    "format",
+    "primary_keyword",
+    "claim",
+    "hook",
+    "evidence",
+    "caption",
+    "alt_text",
+    "hashtags",
+    "failure_mode"
+  ],
+  "title": "corporate_reputation_cost_audit",
+  "pillar": "reputation",
+  "format": "reel",
+  "primary_keyword": "corporate reputation",
+  "claim": "Corporate reputation is not protected by communication exercises; it is defended by operational thresholds that procurement committees verify before any purchase order is issued.",
+  "hook": "Reputation is priced in before they call you.",
+  "evidence": {
+    "type": "practitioner_observation",
+    "detail": "Observed across industrial procurement cycles where technical compliance is verified through safety audit trails and community clearance records long before commercial terms are discussed."
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:05",
+      "onscreen": "Reputation is priced in before they call you.",
+      "voiceover": "Reputation is priced in before they call you. Most corporate communications teams believe reputation is managed through press releases and crisis holding statements.",
+      "direction": "Direct cut to a clean, quiet industrial office setting. Plain spoken delivery.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "PR statement",
+            "detail": "Written after the incident occurs"
+          },
+          {
+            "label": "Procurement audit",
+            "detail": "Reviewed 18 months prior to contract"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "timecode": "0:05-0:10",
+      "onscreen": "The committee never reads your press release.",
+      "voiceover": "The procurement committee never reads your press release. They look at your regulatory filings, safety records, and local community grievance logs.",
+      "direction": "Camera angle shifts slightly. Text overlays cleanly.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Visible brand",
+            "detail": "Advertisements and social posts"
+          },
+          {
+            "label": "Actual filter",
+            "detail": "Regulatory compliance history"
+          }
+        ],
+        "note": "Industrial procurement criteria"
+      }
+    },
+    {
+      "timecode": "0:10-0:16",
+      "onscreen": "Three checks verify your corporate reputation.",
+      "voiceover": "Here are three checks that actually determine if your corporate reputation holds up under audit.",
+      "direction": "Clear transition to a structured list format on screen.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "1. Incident trail",
+            "detail": "Are past safety fines published openly?"
+          },
+          {
+            "label": "2. Vendor stability",
+            "detail": "Do sub-contractors pass labour checks?"
+          },
+          {
+            "label": "3. Permit history",
+            "detail": "Are environmental clearances current?"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:16-0:21",
+      "onscreen": "Risk is measured in operational pauses.",
+      "voiceover": "Risk is measured in operational pauses. A factory shut down by regulators is an supply chain failure, not a brand failure.",
+      "direction": "B-roll of industrial yard, quiet and slow, reinforcing the operational theme.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "The media story",
+            "detail": "Lasts three business days"
+          },
+          {
+            "label": "The shut-down order",
+            "detail": "Stops revenue for three months"
+          }
+        ],
+        "note": "Impact scale"
+      }
+    },
+    {
+      "timecode": "0:21-0:26",
+      "onscreen": "Communication doesn't replace compliance.",
+      "voiceover": "Communication doesn't create credibility. It gives credibility a voice once the operational proof is already established.",
+      "direction": "Final direct framing to camera, holding the cadence steady.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Narrative layer",
+            "detail": "Controlled by communications team"
+          },
+          {
+            "label": "Structural layer",
+            "detail": "Controlled by engineering and legal"
+          }
+        ],
+        "note": "Reputation architecture"
+      }
+    },
+    {
+      "timecode": "0:26-0:31",
+      "onscreen": "Reputation is an engineering output.",
+      "voiceover": "Treat reputation as an engineering output, not a marketing campaign.",
+      "direction": "Hold on final text card.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "The Principle",
+            "detail": "Reputation is an engineering output."
+          },
+          {
+            "label": "The Action",
+            "detail": "Audit compliance before writing the release."
+          }
+        ],
+        "note": "Core takeaway"
+      }
+    }
+  ],
+  "reel_cover": {
+    "headline": "The procurement audit trail",
+    "signal": "VERIFIED BEFORE CALL",
+    "layout": "split",
+    "visual": {
+      "kind": "bottleneck",
+      "items": [
+        {
+          "label": "PR narrative",
+          "detail": "Handled by communications"
+        },
+        {
+          "label": "Risk audit",
+          "detail": "Handled by procurement"
+        }
+      ],
+      "note": "Audit reality"
+    }
+  },
+  "caption": "Reputation is priced in before they call you.\n\nCorporate reputation shapes the risks a buyer sees before the first meeting.\n\nWhen a procurement committee reviews an enterprise vendor, they do not evaluate campaign creative. They look at regulatory filings, plant safety incidents, and community dispute records from years prior.\n\nCommunication doesn't create credibility. It gives credibility a voice once the operational proof is already in place.\n\nSend this to whoever is defending your corporate reputation budget against short-term campaign requests this quarter.",
+  "alt_text": "Industrial compliance audit checklist showing regulatory verification steps.",
+  "hashtags": [
+    "#corporatecommunications",
+    "#reputation",
+    "#publicrelations"
+  ],
+  "cta": "Send this to whoever is defending your corporate reputation budget against short-term campaign requests this quarter.",
+  "failure_mode": "Readers might mistake this for generic advice about PR crisis management unless they recognise the industrial procurement audit reality.",
+  "scheduled_for": "2026-10-08T17:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": true,
+    "selected_time": "17:00",
+    "candidates": [
+      "13:00",
+      "17:00"
+    ],
+    "week_index": 1
+  },
+  "experiment": {
+    "hook_type": "cost",
+    "evidence_type": "practitioner_observation",
+    "format": "reel",
+    "pillar": "reputation",
+    "hook_words": 8,
+    "hook_characters": 45,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "bottleneck",
+    "schedule": {
+      "active": true,
+      "selected_time": "17:00",
+      "candidates": [
+        "13:00",
+        "17:00"
+      ],
+      "week_index": 1
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "reel_assets": {
+    "background": {
+      "source": "images_folder",
+      "file": "reputation-reflection.png"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (11).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-10-05/thu-1700-corporate-reputation-cost-audit/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "bottleneck",
+    "bottleneck",
+    "comparison",
+    "checklist",
+    "comparison",
+    "comparison",
+    "checklist"
+  ],
+  "warnings": []
+}

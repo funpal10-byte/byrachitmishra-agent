@@ -71,13 +71,19 @@ class HookContractTests(unittest.TestCase):
         post["caption"] = "**Stop paying agencies for asset volume.**\n\nJudgment beats asset count."
         post = _normalise_generated_opening(post)
         self.assertEqual(post["caption"].splitlines()[0], post["hook"])
-        self.assertIn(post["primary_keyword"], post["caption"][:125])
+        self.assertNotIn("this is the decision", post["caption"])
         self.assertIn("Judgment beats asset count.", post["caption"])
 
-    def test_generated_carousel_body_is_trimmed_for_visual_legibility(self):
+    def test_generated_carousel_body_is_preserved_for_editorial_correction(self):
         post = {"format": "carousel", "slides": [{"body": "word " * 30}]}
         post = _normalise_generated_opening(post)
-        self.assertLessEqual(len(post["slides"][0]["body"]), 120)
+        self.assertEqual(post["slides"][0]["body"], "word " * 30)
+
+    def test_opening_preserves_same_line_following_sentence(self):
+        post = reel_post()
+        post["caption"] = post["hook"] + ". AI agency retainers need a scope review."
+        result = _normalise_generated_opening(post)
+        self.assertEqual(result["caption"], post["hook"] + "\n\nAI agency retainers need a scope review.")
 
     def test_topic_label_is_rejected(self):
         post = reel_post()
