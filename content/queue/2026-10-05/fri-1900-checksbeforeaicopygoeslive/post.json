@@ -1,0 +1,181 @@
+{
+  "type": "object",
+  "required": [
+    "title",
+    "pillar",
+    "format",
+    "primary_keyword",
+    "claim",
+    "hook",
+    "evidence",
+    "caption",
+    "alt_text",
+    "hashtags",
+    "failure_mode"
+  ],
+  "title": "checksbeforeaicopygoeslive",
+  "pillar": "ai_in_practice",
+  "format": "carousel",
+  "primary_keyword": "checks before AI copy goes live",
+  "claim": "AI-generated text fails in industrial sectors because it misses the unwritten operating constraints that protect B2B margins and corporate reputation.",
+  "hook": "AI content lacks unwritten operational rules.",
+  "evidence": {
+    "type": "framework",
+    "detail": "A three-part compliance framework designed to catch regulatory, liability, and positioning errors in AI-generated copy before publication."
+  },
+  "slides": [
+    {
+      "headline": "AI content lacks unwritten operational rules."
+    },
+    {
+      "kicker": "The Context Gap",
+      "headline": "Large language models only know what is public",
+      "body": "LLMs write plausible copy but miss the unwritten boundaries that protect B2B margins and legal liability.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "AI copy assumes",
+            "detail": "Standard industry practices and generalisations"
+          },
+          {
+            "label": "Your reality has",
+            "detail": "Specific regional limits and liability caps"
+          }
+        ],
+        "note": "The risk profile gap in automated text generation"
+      }
+    },
+    {
+      "kicker": "The Margin Threat",
+      "headline": "Generative copy defaults to commodity claims",
+      "body": "AI defaults to commodity terms. Claiming low cost destroys pricing power in B2B procurement.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "AI default word",
+            "detail": "Cost-effective solutions for operations"
+          },
+          {
+            "label": "B2B risk",
+            "detail": "Signals commodity pricing to procurement"
+          }
+        ],
+        "note": "How generic vocabulary weakens enterprise pricing power"
+      }
+    },
+    {
+      "kicker": "The Liability Trap",
+      "headline": "General training data misses specific regulations",
+      "body": "A model does not know that changing a technical term to sound friendly can alter legal liability.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Model output",
+            "detail": "Simplified, easy-to-read product claim"
+          },
+          {
+            "label": "Legal bottleneck",
+            "detail": "Creates unintended compliance exposure"
+          }
+        ],
+        "note": "Standard workflow risk in industrial communications"
+      }
+    },
+    {
+      "kicker": "The Quality Filter",
+      "headline": "Three mandatory checks before AI copy goes live",
+      "body": "Reject drafts that fail these tests. Do not edit for style until you have edited for commercial exposure.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Liability Check",
+            "detail": "Verify no regulatory or warranty terms changed"
+          },
+          {
+            "label": "Margin Check",
+            "detail": "Remove commoditising words like cost-effective"
+          },
+          {
+            "label": "Technical Check",
+            "detail": "Ensure operational tolerances are exact"
+          }
+        ],
+        "note": "Three-part pre-flight compliance framework"
+      }
+    },
+    {
+      "kicker": "The Next Meeting",
+      "headline": "Say this to your team on Monday",
+      "body": "We do not check AI copy for style. We check it to see what unwritten risk it introduces.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Check vocabulary",
+            "detail": "Is our specific differentiation protected?"
+          },
+          {
+            "label": "Check liability",
+            "detail": "Are performance claims legally bounded?"
+          }
+        ],
+        "note": "Operational rule: Governance precedes grammar."
+      }
+    }
+  ],
+  "caption": "AI content lacks unwritten operational rules.\n\nMost tools focus on checks before AI copy goes live that look at grammar or tone. But in B2B heavy industry, those are the wrong metrics.\n\nAn LLM can write beautifully about logistics, steel, or infrastructure. What it cannot do is know the unwritten commercial parameters of your business.\n\nIt does not know that calling a service \"cost-effective\" gives away your pricing power in a procurement committee.\n\nIt does not know that simplifying technical specifications to sound friendly can alter the legal boundaries of your product warranty.\n\nGovernance is not about making copy sound human. It is about protecting the margin.\n\nSend this to whoever is setting up your marketing automation workflow this quarter.\n\n[checks before AI copy goes live, AI governance, B2B branding, industrial marketing]",
+  "alt_text": "Compliance checks required before AI copy goes live in industrial B2B marketing.",
+  "hashtags": [
+    "#aigovernance",
+    "#b2bmarketing",
+    "#marketingoperations"
+  ],
+  "cta": "Send this to whoever is setting up your marketing automation workflow this quarter.",
+  "failure_mode": "If the checklist feels like generic editing advice rather than high-stakes commercial risk management, the post will lose its senior B2B relevance.",
+  "scheduled_for": "2026-10-09T19:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "blog_fallback": "No unused full article available; evergreen replacement",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "19:00"
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "carousel",
+    "pillar": "ai_in_practice",
+    "hook_words": 6,
+    "hook_characters": 45,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "19:00"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "images": [
+    "content/queue/2026-10-05/fri-1900-checksbeforeaicopygoeslive/slide-01.jpg",
+    "content/queue/2026-10-05/fri-1900-checksbeforeaicopygoeslive/slide-02.jpg",
+    "content/queue/2026-10-05/fri-1900-checksbeforeaicopygoeslive/slide-03.jpg",
+    "content/queue/2026-10-05/fri-1900-checksbeforeaicopygoeslive/slide-04.jpg",
+    "content/queue/2026-10-05/fri-1900-checksbeforeaicopygoeslive/slide-05.jpg",
+    "content/queue/2026-10-05/fri-1900-checksbeforeaicopygoeslive/slide-06.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "comparison",
+    "bottleneck",
+    "checklist",
+    "checklist"
+  ],
+  "warnings": []
+}

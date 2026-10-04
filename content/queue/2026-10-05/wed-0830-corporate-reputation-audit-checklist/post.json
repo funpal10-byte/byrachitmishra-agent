@@ -1,0 +1,211 @@
+{
+  "title": "corporate reputation audit checklist",
+  "pillar": "reputation",
+  "format": "reel",
+  "primary_keyword": "corporate reputation management",
+  "claim": "Corporate reputation is tested long before a crisis hits, during routine supplier onboarding where compliance checks fail due to administrative drift.",
+  "hook": "Reputation dies in procurement.",
+  "evidence": {
+    "type": "practitioner_observation",
+    "detail": "Observed across multi-year industrial supply chains where regulatory clearance slips due to unmonitored sub-tier partner compliance, eroding stakeholder trust before any public incident occurs."
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "Reputation dies in procurement.",
+      "voiceover": "Reputation dies in procurement long before any public crisis makes the front page.",
+      "direction": "Static shot of an industrial facility entrance with steady movement.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Vendor onboarding",
+            "detail": "Cleared on price, missed on compliance"
+          },
+          {
+            "label": "Audit gap",
+            "detail": "Sub-tier risk left unmonitored for years"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "timecode": "0:03-0:08",
+      "onscreen": "The vendor nobody audited.",
+      "voiceover": "The vulnerability is rarely the flagship plant. It is the sub-contractor two tiers down who skipped an environmental clearance.",
+      "direction": "Close up on documentation review.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Checked publicly",
+            "detail": "Core facilities and tier one partners"
+          },
+          {
+            "label": "Ignored quietly",
+            "detail": "Logistics and raw material sub-tiers"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "timecode": "0:08-0:13",
+      "onscreen": "Run this four-point test.",
+      "voiceover": "Effective corporate reputation management requires testing your supply chain before regulators do it for you.",
+      "direction": "Cut to clear text layout.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Trace tier two",
+            "detail": "List all sub-contractors handling waste"
+          },
+          {
+            "label": "Check permits",
+            "detail": "Verify active local environmental filings"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:13-0:18",
+      "onscreen": "Map every active sub-tier.",
+      "voiceover": "Start by mapping every sub-contractor handling materials or waste inside your active project sites.",
+      "direction": "Showing data flow on screen.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Contract review",
+            "detail": "Ensure direct audit rights exist"
+          },
+          {
+            "label": "Permit validation",
+            "detail": "Inspect physical documentation on site"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:18-0:23",
+      "onscreen": "Verify physical records.",
+      "voiceover": "Never rely on a checked box in a portal. Request the physical, stamped permit from the local authority.",
+      "direction": "Close up of folders being updated.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Self-certification",
+            "detail": "High risk of expired paperwork"
+          },
+          {
+            "label": "Physical audit",
+            "detail": "Stamped records verified on site"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:23-0:28",
+      "onscreen": "Trust is operational.",
+      "voiceover": "Corporate reputation is not a communications output. It is an operational audit trail.",
+      "direction": "Return to presenter.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Communications",
+            "detail": "Explains the past after the fact"
+          },
+          {
+            "label": "Operations",
+            "detail": "Decides whether the breach happens"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    }
+  ],
+  "reel_cover": {
+    "visual": {
+      "kind": "checklist",
+      "items": [
+        {
+          "label": "Tier two audit",
+          "detail": "Verify compliance down the chain"
+        },
+        {
+          "label": "Permit check",
+          "detail": "Confirm active local filings"
+        }
+      ],
+      "note": "Suggested check"
+    },
+    "headline": "The unmonitored tier",
+    "signal": "TIER TWO RISK",
+    "layout": "signal"
+  },
+  "caption": "Reputation dies in procurement.\n\nIn corporate reputation management, this is the decision that changes the outcome.\n\nMost industrial firms spend weeks polishing annual sustainability reports while leaving sub-tier supplier onboarding to manual spreadsheets. When a regulatory breach happens two levels down, the press release does not save the contract.\n\nTrust is structural, not rhetorical.\n\nSend this to whoever oversees vendor compliance and risk this quarter.\n\n[corporate reputation management, corporate communications, stakeholder trust, procurement risk, regulatory compliance]",
+  "alt_text": "Text overlay reading reputation dies in procurement with supply chain compliance audit checklist.",
+  "hashtags": [
+    "#corporatecommunications",
+    "#reputation",
+    "#publicrelations"
+  ],
+  "cta": "Send this to whoever oversees vendor compliance and risk this quarter.",
+  "failure_mode": "Could be dismissed as standard supply chain advice if the link between operational compliance and reputational fallout is not made explicit enough.",
+  "scheduled_for": "2026-10-07T08:30:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "08:30"
+  },
+  "experiment": {
+    "hook_type": "claim",
+    "evidence_type": "practitioner_observation",
+    "format": "reel",
+    "pillar": "reputation",
+    "hook_words": 4,
+    "hook_characters": 31,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "checklist",
+    "schedule": {
+      "active": false,
+      "selected_time": "08:30"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "reel_assets": {
+    "background": {
+      "source": "images_folder",
+      "file": "reputation-reflection.png"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (12).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-10-05/wed-0830-corporate-reputation-audit-checklist/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "checklist",
+    "bottleneck",
+    "comparison",
+    "checklist",
+    "checklist",
+    "comparison",
+    "bottleneck"
+  ],
+  "warnings": []
+}

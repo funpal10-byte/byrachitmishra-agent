@@ -1,0 +1,156 @@
+{
+  "type": "object",
+  "title": "commoditybrandpremium",
+  "pillar": "b2b_brand",
+  "format": "reel",
+  "primary_keyword": "how to brand a commodity product",
+  "claim": "Industrial brand premium is built by standardizing operational reliability to lower the buyer's internal risk, not by messaging.",
+  "hook": "Buyers do not pay more for better messaging.",
+  "evidence": {
+    "type": "practitioner_observation",
+    "detail": "Observed commercial negotiations in cement and bulk chemicals where the brand premium was calculated as a discount against the transaction costs of switching suppliers, not product features."
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "Buyers do not pay more for better messaging.",
+      "voiceover": "Buyers do not pay more for better messaging. When you sell a commodity, your brand is not an emotional choice.",
+      "direction": "Rachit at his desk, speaking directly to camera."
+    },
+    {
+      "timecode": "0:03-0:09",
+      "onscreen": "They pay more to avoid an internal crisis.",
+      "voiceover": "They pay a premium to protect their own operations. Your value is not what your product does; it is what happens if it fails to show up.",
+      "direction": "Graphic transition displaying a bottleneck breakdown.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Supplier delays",
+            "detail": "Raw material shipment misses production window"
+          },
+          {
+            "label": "Blocked decision",
+            "detail": "Line stops, costing 40,000 USD per hour"
+          }
+        ],
+        "note": "Illustrative workflow bottleneck"
+      }
+    },
+    {
+      "timecode": "0:09-0:15",
+      "onscreen": "Your real competitor is the buyer's anxiety.",
+      "voiceover": "In industrial procurement, the person who signs your contract has to defend that decision to their own board if something goes wrong.",
+      "direction": "Transition back to Rachit speaking."
+    },
+    {
+      "timecode": "0:15-0:22",
+      "onscreen": "Run the friction check.",
+      "voiceover": "To build a premium, stop looking at your competitors' ads. Run this friction check on your delivery pipeline instead.",
+      "direction": "Graphic overlay of a checklist.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Delivery SLA",
+            "detail": "On-time delivery rate exceeding 99.2%"
+          },
+          {
+            "label": "Response time",
+            "detail": "Technical support response within two hours"
+          },
+          {
+            "label": "Audit readiness",
+            "detail": "Compliance documentation pre-packaged"
+          }
+        ],
+        "note": "Suggested check for commodity suppliers"
+      }
+    },
+    {
+      "timecode": "0:22-0:30",
+      "onscreen": "Premium is operational security.",
+      "voiceover": "When your delivery, support, and compliance are consistently predictable, you remove their personal risk. That is why they pay more.",
+      "direction": "Rachit speaking to camera."
+    },
+    {
+      "timecode": "0:30-0:35",
+      "onscreen": "Brand is risk reduction.",
+      "voiceover": "Brand in B2B is not about making people feel good. It is the cost of buying insurance against operational failure.",
+      "direction": "Final tight crop on Rachit."
+    }
+  ],
+  "reel_cover": {
+    "headline": "Commodity pricing traps",
+    "signal": "99.2% DELIVERY SLA",
+    "layout": "split",
+    "visual": {
+      "kind": "comparison",
+      "items": [
+        {
+          "label": "Underbidder proposal",
+          "detail": "Lower unit price but unproven logistics"
+        },
+        {
+          "label": "Premium brand choice",
+          "detail": "Slight premium with guaranteed uptime"
+        }
+      ],
+      "note": "Illustrative procurement decision"
+    }
+  },
+  "caption": "Buyers do not pay more for better messaging.\n\nWhen figuring out how to brand a commodity product, many industrial businesses reach for the consumer playbook. They try to find an emotional narrative for steel, bulk chemicals, or logistics.\n\nYour buyer does not care about your narrative. They care about keeping their line running. \n\nThe brand premium in heavy industry is actually a risk discount. The procurement committee is not paying extra because they like your brand guidelines. They are paying extra because your operational predictability protects them from internal blame.\n\nIf you want to charge a premium, standardize your operations until your reliability is a bankable asset. \n\nMarketing gives that operational reality a voice. It cannot replace it.\n\nSend this to whoever is defending your pricing strategy in the commercial review this week.\n\n[how to brand a commodity product, industrial marketing, b2b brand strategy, manufacturing, pricing power]",
+  "alt_text": "Split screen comparing a cheap unproven supplier with a premium reliable brand choice.",
+  "hashtags": [
+    "#b2bmarketing",
+    "#industrialmarketing",
+    "#b2bbranding"
+  ],
+  "cta": "Send this to whoever is defending your pricing strategy in the commercial review this week.",
+  "failure_mode": "If the viewer expects a creative copywriting hack, they might find the focus on operational SLAs boring, but this is the reality of B2B procurement.",
+  "scheduled_for": "2026-10-05T08:30:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "08:30"
+  },
+  "experiment": {
+    "hook_type": "cost",
+    "evidence_type": "practitioner_observation",
+    "format": "reel",
+    "pillar": "b2b_brand",
+    "hook_words": 8,
+    "hook_characters": 44,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "comparison",
+    "schedule": {
+      "active": false,
+      "selected_time": "08:30"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "reel_assets": {
+    "background": {
+      "source": "images_folder",
+      "file": "b2b_brand-steel-grid.png"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (1).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-10-05/mon-0830-commoditybrandpremium/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "bottleneck",
+    "checklist"
+  ],
+  "warnings": []
+}

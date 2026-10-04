@@ -1,0 +1,184 @@
+{
+  "title": "aigovernanceformarketingteams",
+  "pillar": "ai_in_practice",
+  "format": "carousel",
+  "primary_keyword": "AI governance for marketing teams",
+  "claim": "AI governance in industrial marketing fails because teams treat it as an IT security audit instead of a brand compliance protocol.",
+  "hook": "AI governance is failing your marketing team.",
+  "evidence": {
+    "type": "practitioner_observation",
+    "detail": "Observed review cycles where enterprise IT cleared AI tools for data security, but left zero protocols for technical accuracy, regulatory claims, or specification drift in heavy industry collateral."
+  },
+  "slides": [
+    {
+      "headline": "AI governance is failing your marketing team."
+    },
+    {
+      "kicker": "The wrong gate",
+      "headline": "IT security clears the tool, not the output",
+      "body": "Enterprise AI adoption usually stalls because legal and IT run a data audit. They check where prompts go. They never",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "IT Audit Focus",
+            "detail": "Data privacy and API token security"
+          },
+          {
+            "label": "Brand Risk",
+            "detail": "Invented product specs in a technical brief"
+          }
+        ],
+        "note": "Observed corporate AI approval split"
+      }
+    },
+    {
+      "kicker": "The hazard",
+      "headline": "Speed hides specification drift",
+      "body": "When content output triples using AI content workflows, technical reviewers cannot keep pace. False tolerances slip",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Generation",
+            "detail": "Forty data sheets produced in one afternoon"
+          },
+          {
+            "label": "Review Queue",
+            "detail": "One engineer verifying load limits"
+          }
+        ],
+        "note": "Industrial marketing capacity constraint"
+      }
+    },
+    {
+      "kicker": "The standard",
+      "headline": "Marketing automation needs strict boundary rules",
+      "body": "Generative tools excel at syntax but fail at physics. Without negative constraints on technical claims, teams end up",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Allowed Use",
+            "detail": "Drafting structural outlines and case summaries"
+          },
+          {
+            "label": "Banned Use",
+            "detail": "Generating product load ratings or alloy specs"
+          }
+        ],
+        "note": "Operational boundary rule for engineering firms"
+      }
+    },
+    {
+      "kicker": "The protocol",
+      "headline": "Four checks before any AI copy goes live",
+      "body": "Run every automated draft through a mandatory verification sequence before publication. Skip one, and your liability",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Source Check",
+            "detail": "Verify technical claims against filings"
+          },
+          {
+            "label": "Tone Check",
+            "detail": "Strip out hype and consumer phrasing"
+          }
+        ],
+        "note": "Mandatory publication gate"
+      }
+    },
+    {
+      "kicker": "The threshold",
+      "headline": "Governance is a queueing problem",
+      "body": "Brand governance is not a design problem or a legal restriction. It is managing the velocity of unverified output",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Input Velocity",
+            "detail": "Unlimited generation via custom prompts"
+          },
+          {
+            "label": "Review Capacity",
+            "detail": "Limited hours of senior technical oversight"
+          }
+        ],
+        "note": "Structural bottleneck in industrial comms"
+      }
+    },
+    {
+      "kicker": "The principle",
+      "headline": "AI governance is a verification pipeline",
+      "body": "The point of AI governance for marketing teams is not restricting tools. It is matching publication speed to the actual",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Rule",
+            "detail": "Treat generated copy as unverified draft"
+          },
+          {
+            "label": "Action",
+            "detail": "Send this to whoever reviews AI copy today"
+          }
+        ],
+        "note": "Core governance rule"
+      }
+    }
+  ],
+  "caption": "AI governance is failing your marketing team.\n\nIn AI governance for marketing teams, this is the decision that changes the outcome.\n\nMost enterprises treat AI risk as an IT issue. They worry about data privacy while their teams use marketing automation to generate unverified technical specifications for heavy machinery.\n\nWhen a consumer brand hallucinates a feature, customer support handles it. When an industrial brand hallucinates a load rating, a procurement committee walks away permanently.\n\nSet the boundary rules before you scale the output.\n\nSend this to whoever is defending AI content standards this quarter.\n\n[enterprise ai adoption, ai governance for marketing teams, marketing operations, b2b marketing]",
+  "alt_text": "Carousel on why AI governance fails when treated as an IT security audit.",
+  "hashtags": [
+    "#aimarketing",
+    "#martech",
+    "#aigovernance"
+  ],
+  "cta": "Send this to whoever is defending AI content standards this quarter.",
+  "failure_mode": "Could be read as generic anti-AI commentary if the distinction between consumer hallucination and industrial liability is not sharp enough.",
+  "sources": [],
+  "scheduled_for": "2026-10-07T20:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "20:00"
+  },
+  "experiment": {
+    "hook_type": "claim",
+    "evidence_type": "practitioner_observation",
+    "format": "carousel",
+    "pillar": "ai_in_practice",
+    "hook_words": 7,
+    "hook_characters": 45,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "20:00"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "images": [
+    "content/queue/2026-10-05/wed-2000-aigovernanceformarketingteams/slide-01.jpg",
+    "content/queue/2026-10-05/wed-2000-aigovernanceformarketingteams/slide-02.jpg",
+    "content/queue/2026-10-05/wed-2000-aigovernanceformarketingteams/slide-03.jpg",
+    "content/queue/2026-10-05/wed-2000-aigovernanceformarketingteams/slide-04.jpg",
+    "content/queue/2026-10-05/wed-2000-aigovernanceformarketingteams/slide-05.jpg",
+    "content/queue/2026-10-05/wed-2000-aigovernanceformarketingteams/slide-06.jpg",
+    "content/queue/2026-10-05/wed-2000-aigovernanceformarketingteams/slide-07.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "bottleneck",
+    "comparison",
+    "checklist",
+    "bottleneck",
+    "checklist"
+  ],
+  "warnings": []
+}

@@ -1,0 +1,167 @@
+{
+  "title": "defending a marketing budget",
+  "pillar": "inside_the_org",
+  "format": "carousel",
+  "primary_keyword": "defending a marketing budget",
+  "claim": "You lose budget when you defend awareness because procurement and sales measure pipeline speed, not reach.",
+  "hook": "Awareness is not a metric that protects budget.",
+  "evidence": {
+    "type": "practitioner_observation",
+    "detail": "Observed across industrial capital goods sales cycles where marketing requests are routinely cut during flat quarters because awareness metrics cannot be linked to tender movement."
+  },
+  "slides": [
+    {
+      "headline": "Awareness is not a metric that protects budget."
+    },
+    {
+      "kicker": "The finance translation",
+      "headline": "Reach cannot be converted into cash flow on demand.",
+      "body": "When a CFO asks where last quarter's impressions went, saying brand recall will not stop a budget cut. Finance measures",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "What marketing reports",
+            "detail": "Impressions, share of voice, reach"
+          },
+          {
+            "label": "What finance tracks",
+            "detail": "Working capital and pipeline velocity"
+          }
+        ],
+        "note": "Standard board pack versus treasury requirements"
+      }
+    },
+    {
+      "kicker": "The sales disconnect",
+      "headline": "Sales teams do not care about top-of-funnel volume.",
+      "body": "More leads from unqualified accounts only create administrative drag for field engineers. Sales wants fewer, warmer",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Incoming volume",
+            "detail": "High lead count from broad digital campaigns"
+          },
+          {
+            "label": "The block",
+            "detail": "Sales rejects 80 percent as dead ends"
+          }
+        ],
+        "note": "Observed lead routing review in heavy machinery"
+      }
+    },
+    {
+      "kicker": "The pivot",
+      "headline": "Tie your brand spend to procurement risk reduction.",
+      "body": "Industrial buyers do not buy because they saw an ad. They buy because regulatory compliance and vendor risk are lower",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Consumer argument",
+            "detail": "Emotional resonance drives consideration"
+          },
+          {
+            "label": "Industrial reality",
+            "detail": "Brand familiarity removes tender risk"
+          }
+        ],
+        "note": "Enterprise procurement decision criteria"
+      }
+    },
+    {
+      "kicker": "The budget defense",
+      "headline": "Stop defending marketing as an investment in growth.",
+      "body": "Defend it as insurance against pricing pressure. Commodity suppliers without brand equity lose two points of margin on",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Price premium defense",
+            "detail": "Show margin protection on unprompted tenders"
+          },
+          {
+            "label": "Sales compression",
+            "detail": "Track months saved when specifiers know parts"
+          }
+        ],
+        "note": "Metrics that survive a CFO review"
+      }
+    },
+    {
+      "kicker": "How to apply it",
+      "headline": "Three questions to change your budget review.",
+      "body": "Remove impressions from your quarterly deck. Replace them with tender inclusion rates, specification lock-ins, and",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Drop reach metrics",
+            "detail": "Never lead a budget defense with impressions"
+          },
+          {
+            "label": "Track spec inclusion",
+            "detail": "Measure how often drawings are pre-approved"
+          }
+        ],
+        "note": "Required shifts for industrial marketing reviews"
+      }
+    },
+    {
+      "headline": "Budget survival is a function of risk mitigation, not reach.",
+      "body": "Defend marketing budget by showing how it lowers procurement friction for the buyer."
+    }
+  ],
+  "caption": "Awareness is not a metric that protects budget.\n\nIn defending a marketing budget, this is the decision that changes the outcome.\n\nMost in-house marketers lose their allocation during lean quarters because they report impressions to a committee that only tracks working capital and tender conversion.\n\nWhen you defend defending a marketing budget with reach, you invite a cut. Defend it with risk reduction instead.\n\nSend this to whoever is defending the brand budget this quarter.\n\n[b2b marketing, industrial branding, marketing budget, stakeholder management]",
+  "alt_text": "Carousel slides explaining why awareness metrics fail to protect B2B marketing budgets.",
+  "hashtags": [
+    "#marketingleadership",
+    "#inhousemarketing",
+    "#brandgovernance"
+  ],
+  "cta": "Send this to whoever is defending the brand budget this quarter.",
+  "failure_mode": "Could be read as generic advice about proving ROI if readers do not connect it specifically to industrial procurement cycles.",
+  "scheduled_for": "2026-10-10T10:30:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "10:30"
+  },
+  "experiment": {
+    "hook_type": "cost",
+    "evidence_type": "practitioner_observation",
+    "format": "carousel",
+    "pillar": "inside_the_org",
+    "hook_words": 8,
+    "hook_characters": 47,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "10:30"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "images": [
+    "content/queue/2026-10-05/sat-1030-defending-a-marketing-budget/slide-01.jpg",
+    "content/queue/2026-10-05/sat-1030-defending-a-marketing-budget/slide-02.jpg",
+    "content/queue/2026-10-05/sat-1030-defending-a-marketing-budget/slide-03.jpg",
+    "content/queue/2026-10-05/sat-1030-defending-a-marketing-budget/slide-04.jpg",
+    "content/queue/2026-10-05/sat-1030-defending-a-marketing-budget/slide-05.jpg",
+    "content/queue/2026-10-05/sat-1030-defending-a-marketing-budget/slide-06.jpg",
+    "content/queue/2026-10-05/sat-1030-defending-a-marketing-budget/slide-07.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "bottleneck",
+    "comparison",
+    "checklist",
+    "checklist"
+  ],
+  "warnings": []
+}
