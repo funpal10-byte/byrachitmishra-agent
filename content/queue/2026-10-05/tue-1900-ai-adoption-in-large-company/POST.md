@@ -43,8 +43,6 @@ Software without governance is just expensive noise.
 
 Send this to whoever is defending the new software budget this quarter.
 
-[ai adoption in a large company, martech stack, marketing technology, enterprise governance]
-
 #aimarketing #martech #b2bmarketing
 ```
 

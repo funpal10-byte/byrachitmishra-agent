@@ -66,8 +66,6 @@ Governance is not about making copy sound human. It is about protecting the marg
 
 Send this to whoever is setting up your marketing automation workflow this quarter.
 
-[checks before AI copy goes live, AI governance, B2B branding, industrial marketing]
-
 #aigovernance #b2bmarketing #marketingoperations
 ```
 

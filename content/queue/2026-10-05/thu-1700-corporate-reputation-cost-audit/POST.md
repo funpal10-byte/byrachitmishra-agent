@@ -34,15 +34,13 @@
 ```
 Reputation is priced in before they call you.
 
-In corporate reputation, this is the decision that changes the outcome.
+Corporate reputation shapes the risks a buyer sees before the first meeting.
 
 When a procurement committee reviews an enterprise vendor, they do not evaluate campaign creative. They look at regulatory filings, plant safety incidents, and community dispute records from years prior.
 
 Communication doesn't create credibility. It gives credibility a voice once the operational proof is already in place.
 
 Send this to whoever is defending your corporate reputation budget against short-term campaign requests this quarter.
-
-[corporate reputation, stakeholder trust, corporate communications, procurement risk]
 
 #corporatecommunications #reputation #publicrelations
 ```

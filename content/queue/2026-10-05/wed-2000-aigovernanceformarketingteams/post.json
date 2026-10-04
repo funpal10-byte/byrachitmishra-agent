@@ -16,7 +16,7 @@
     {
       "kicker": "The wrong gate",
       "headline": "IT security clears the tool, not the output",
-      "body": "Enterprise AI adoption usually stalls because legal and IT run a data audit. They check where prompts go. They never",
+      "body": "Data security approval does not verify generated product claims. Assign an owner for technical accuracy.",
       "visual": {
         "kind": "comparison",
         "items": [
@@ -35,7 +35,7 @@
     {
       "kicker": "The hazard",
       "headline": "Speed hides specification drift",
-      "body": "When content output triples using AI content workflows, technical reviewers cannot keep pace. False tolerances slip",
+      "body": "If draft volume exceeds review capacity, unverified specifications can reach publication. Limit the release rate.",
       "visual": {
         "kind": "bottleneck",
         "items": [
@@ -48,13 +48,13 @@
             "detail": "One engineer verifying load limits"
           }
         ],
-        "note": "Industrial marketing capacity constraint"
+        "note": "Illustrative workload, not a measured result"
       }
     },
     {
       "kicker": "The standard",
       "headline": "Marketing automation needs strict boundary rules",
-      "body": "Generative tools excel at syntax but fail at physics. Without negative constraints on technical claims, teams end up",
+      "body": "Define which tasks AI may assist with. Require approved source documents for every technical claim.",
       "visual": {
         "kind": "comparison",
         "items": [
@@ -72,8 +72,8 @@
     },
     {
       "kicker": "The protocol",
-      "headline": "Four checks before any AI copy goes live",
-      "body": "Run every automated draft through a mandatory verification sequence before publication. Skip one, and your liability",
+      "headline": "Two checks before any AI copy goes live",
+      "body": "Check technical claims against approved documents, then check tone. Record who approved the final draft.",
       "visual": {
         "kind": "checklist",
         "items": [
@@ -92,7 +92,7 @@
     {
       "kicker": "The threshold",
       "headline": "Governance is a queueing problem",
-      "body": "Brand governance is not a design problem or a legal restriction. It is managing the velocity of unverified output",
+      "body": "Match publication volume to the time available for technical review. Keep unverified drafts out of the release queue.",
       "visual": {
         "kind": "bottleneck",
         "items": [
@@ -111,7 +111,7 @@
     {
       "kicker": "The principle",
       "headline": "AI governance is a verification pipeline",
-      "body": "The point of AI governance for marketing teams is not restricting tools. It is matching publication speed to the actual",
+      "body": "Treat generated copy as a draft. Give reviewers enough time to verify it before publication.",
       "visual": {
         "kind": "checklist",
         "items": [
@@ -128,7 +128,7 @@
       }
     }
   ],
-  "caption": "AI governance is failing your marketing team.\n\nIn AI governance for marketing teams, this is the decision that changes the outcome.\n\nMost enterprises treat AI risk as an IT issue. They worry about data privacy while their teams use marketing automation to generate unverified technical specifications for heavy machinery.\n\nWhen a consumer brand hallucinates a feature, customer support handles it. When an industrial brand hallucinates a load rating, a procurement committee walks away permanently.\n\nSet the boundary rules before you scale the output.\n\nSend this to whoever is defending AI content standards this quarter.\n\n[enterprise ai adoption, ai governance for marketing teams, marketing operations, b2b marketing]",
+  "caption": "AI governance is failing your marketing team.\n\nAI governance for marketing teams needs an owner for technical accuracy.\n\nMost enterprises treat AI risk as an IT issue. They worry about data privacy while their teams use marketing automation to generate unverified technical specifications for heavy machinery.\n\nWhen a consumer brand hallucinates a feature, customer support handles it. When an industrial brand hallucinates a load rating, a procurement committee walks away permanently.\n\nSet the boundary rules before you scale the output.\n\nSend this to whoever is defending AI content standards this quarter.",
   "alt_text": "Carousel on why AI governance fails when treated as an IT security audit.",
   "hashtags": [
     "#aimarketing",

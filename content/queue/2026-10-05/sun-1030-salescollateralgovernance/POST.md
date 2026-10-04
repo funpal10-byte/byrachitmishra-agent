@@ -60,7 +60,7 @@ Send this to whoever is setting the commercial marketing roadmap this quarter.
 ```
 Sales collateral almost never closes B2B deals.
 
-In working with sales as a marketer, this is the decision that changes the outcome.
+Working with sales as a marketer starts with the buyer's unanswered questions.
 
 When you ask a commercial head what marketing materials they need, they will usually ask for a fresh brochure or a custom deck for next week's meeting.
 
@@ -73,8 +73,6 @@ If marketing functions as an internal design agency for commercial teams, you sp
 Your job is not to make sales reps feel comfortable in the meeting. It is to make your product easier to defend inside the buyer's organization.
 
 Send this to whoever is setting the commercial marketing roadmap this quarter.
-
-[working with sales as a marketer, b2b marketing strategy, brand governance, in-house marketing, sales enablement]
 
 #marketingleadership #inhousemarketing #brandgovernance #cmo #b2bmarketing
 ```

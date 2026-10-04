@@ -60,17 +60,13 @@ Send this to whoever is tired of arguing about price in B2B procurement meetings
 ```
 A commodity has no features to sell.
 
-In how to brand a commodity product, this is the decision that changes the outcome.
+Learning how to brand a commodity product starts with the buyer's delivery risk.
 
 Most industrial marketers double down on technical datasheets. That fails because the procurement committee already has the ISO certificate on file.
 
 They are not buying better steel. They are buying the elimination of plant downtime.
 
 Positioning a commodity means making your competitors look like a logistical gamble.
-
-[b2b branding, industrial marketing, brand strategy, manufacturing marketing]
-
-#b2bmarketing #industrialmarketing #brandstrategy
 
 #b2bmarketing #industrialmarketing #brandstrategy
 ```

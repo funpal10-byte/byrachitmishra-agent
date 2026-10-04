@@ -21,31 +21,31 @@
 
 **2.** The finance translation
 ### Reach cannot be converted into cash flow on demand.
-When a CFO asks where last quarter's impressions went, saying brand recall will not stop a budget cut. Finance measures
+Connect awareness to commercial outcomes. Reach alone cannot explain cash flow or protect a budget.
 
 ![slide 2](slide-02.jpg)
 
 **3.** The sales disconnect
 ### Sales teams do not care about top-of-funnel volume.
-More leads from unqualified accounts only create administrative drag for field engineers. Sales wants fewer, warmer
+Unqualified leads create work for field engineers. Measure qualified opportunities as well as lead volume.
 
 ![slide 3](slide-03.jpg)
 
 **4.** The pivot
 ### Tie your brand spend to procurement risk reduction.
-Industrial buyers do not buy because they saw an ad. They buy because regulatory compliance and vendor risk are lower
+Show how your work helps buyers assess compliance, delivery reliability and vendor risk.
 
 ![slide 4](slide-04.jpg)
 
 **5.** The budget defense
 ### Stop defending marketing as an investment in growth.
-Defend it as insurance against pricing pressure. Commodity suppliers without brand equity lose two points of margin on
+Explain the growth case and the risk case. Use your own deal evidence to show where marketing protects margin.
 
 ![slide 5](slide-05.jpg)
 
 **6.** How to apply it
 ### Three questions to change your budget review.
-Remove impressions from your quarterly deck. Replace them with tender inclusion rates, specification lock-ins, and
+Pair reach with tender inclusion, specification approval and sales cycle data. State what each metric can prove.
 
 ![slide 6](slide-06.jpg)
 
@@ -60,15 +60,13 @@ Defend marketing budget by showing how it lowers procurement friction for the bu
 ```
 Awareness is not a metric that protects budget.
 
-In defending a marketing budget, this is the decision that changes the outcome.
+Defending a marketing budget means connecting activity to commercial outcomes.
 
 Most in-house marketers lose their allocation during lean quarters because they report impressions to a committee that only tracks working capital and tender conversion.
 
-When you defend defending a marketing budget with reach, you invite a cut. Defend it with risk reduction instead.
+Use reach to explain exposure. Use deal and customer evidence to explain commercial impact.
 
 Send this to whoever is defending the brand budget this quarter.
-
-[b2b marketing, industrial branding, marketing budget, stakeholder management]
 
 #marketingleadership #inhousemarketing #brandgovernance
 ```

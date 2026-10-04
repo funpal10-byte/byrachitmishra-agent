@@ -34,15 +34,13 @@
 ```
 Reputation dies in procurement.
 
-In corporate reputation management, this is the decision that changes the outcome.
+Corporate reputation management includes the checks behind every supplier approval.
 
 Most industrial firms spend weeks polishing annual sustainability reports while leaving sub-tier supplier onboarding to manual spreadsheets. When a regulatory breach happens two levels down, the press release does not save the contract.
 
 Trust is structural, not rhetorical.
 
 Send this to whoever oversees vendor compliance and risk this quarter.
-
-[corporate reputation management, corporate communications, stakeholder trust, procurement risk, regulatory compliance]
 
 #corporatecommunications #reputation #publicrelations
 ```

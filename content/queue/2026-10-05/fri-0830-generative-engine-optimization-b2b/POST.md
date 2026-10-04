@@ -44,8 +44,6 @@ Marketing copy targets human perception. Machine retrieval requires structured e
 
 Send this to the team managing your website architecture and search strategy.
 
-[generative engine optimisation for b2b, ai in marketing, enterprise martech, b2b search, technical seo]
-
 #aimarketing #martech #b2bmarketing
 ```
 

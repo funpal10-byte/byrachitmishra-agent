@@ -46,8 +46,6 @@ Marketing gives that operational reality a voice. It cannot replace it.
 
 Send this to whoever is defending your pricing strategy in the commercial review this week.
 
-[how to brand a commodity product, industrial marketing, b2b brand strategy, manufacturing, pricing power]
-
 #b2bmarketing #industrialmarketing #b2bbranding
 ```
 

@@ -21,37 +21,37 @@
 
 **2.** The wrong gate
 ### IT security clears the tool, not the output
-Enterprise AI adoption usually stalls because legal and IT run a data audit. They check where prompts go. They never
+Data security approval does not verify generated product claims. Assign an owner for technical accuracy.
 
 ![slide 2](slide-02.jpg)
 
 **3.** The hazard
 ### Speed hides specification drift
-When content output triples using AI content workflows, technical reviewers cannot keep pace. False tolerances slip
+If draft volume exceeds review capacity, unverified specifications can reach publication. Limit the release rate.
 
 ![slide 3](slide-03.jpg)
 
 **4.** The standard
 ### Marketing automation needs strict boundary rules
-Generative tools excel at syntax but fail at physics. Without negative constraints on technical claims, teams end up
+Define which tasks AI may assist with. Require approved source documents for every technical claim.
 
 ![slide 4](slide-04.jpg)
 
 **5.** The protocol
-### Four checks before any AI copy goes live
-Run every automated draft through a mandatory verification sequence before publication. Skip one, and your liability
+### Two checks before any AI copy goes live
+Check technical claims against approved documents, then check tone. Record who approved the final draft.
 
 ![slide 5](slide-05.jpg)
 
 **6.** The threshold
 ### Governance is a queueing problem
-Brand governance is not a design problem or a legal restriction. It is managing the velocity of unverified output
+Match publication volume to the time available for technical review. Keep unverified drafts out of the release queue.
 
 ![slide 6](slide-06.jpg)
 
 **7.** The principle
 ### AI governance is a verification pipeline
-The point of AI governance for marketing teams is not restricting tools. It is matching publication speed to the actual
+Treat generated copy as a draft. Give reviewers enough time to verify it before publication.
 
 ![slide 7](slide-07.jpg)
 
@@ -60,7 +60,7 @@ The point of AI governance for marketing teams is not restricting tools. It is m
 ```
 AI governance is failing your marketing team.
 
-In AI governance for marketing teams, this is the decision that changes the outcome.
+AI governance for marketing teams needs an owner for technical accuracy.
 
 Most enterprises treat AI risk as an IT issue. They worry about data privacy while their teams use marketing automation to generate unverified technical specifications for heavy machinery.
 
@@ -69,8 +69,6 @@ When a consumer brand hallucinates a feature, customer support handles it. When 
 Set the boundary rules before you scale the output.
 
 Send this to whoever is defending AI content standards this quarter.
-
-[enterprise ai adoption, ai governance for marketing teams, marketing operations, b2b marketing]
 
 #aimarketing #martech #aigovernance
 ```
