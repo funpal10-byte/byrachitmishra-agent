@@ -1,6 +1,29 @@
 {
-  "fetched_at": "2026-09-27T02:24:51+00:00",
+  "fetched_at": "2026-10-04T03:19:35+00:00",
   "posts": [
+    {
+      "id": "17969308026174525",
+      "posted": "2026-09-27T08:02:14+0000",
+      "hook": "A single apology will not save a B2B contract.",
+      "experiment": {
+        "hook_type": "distinction",
+        "evidence_type": "source",
+        "format": "carousel",
+        "pillar": "inside_the_org",
+        "hook_words": 9,
+        "hook_characters": 46,
+        "visual_treatment": "carousel",
+        "cover_visual": "",
+        "schedule": {
+          "active": false,
+          "selected_time": "10:30"
+        }
+      },
+      "reach": 22,
+      "saved": 2,
+      "shares": 1,
+      "avg_watch_time": 0
+    },
     {
       "id": "17893370301428625",
       "posted": "2026-09-26T07:33:43+0000",
@@ -19,8 +42,8 @@
           "selected_time": "10:30"
         }
       },
-      "reach": 6,
-      "saved": 0,
+      "reach": 36,
+      "saved": 1,
       "shares": 0,
       "avg_watch_time": 0
     },
@@ -42,8 +65,8 @@
           "selected_time": "19:00"
         }
       },
-      "reach": 5,
-      "saved": 0,
+      "reach": 29,
+      "saved": 1,
       "shares": 0,
       "avg_watch_time": 0
     },
@@ -65,10 +88,10 @@
           "selected_time": "08:30"
         }
       },
-      "reach": 15,
+      "reach": 41,
       "saved": 0,
       "shares": 0,
-      "avg_watch_time": 1552
+      "avg_watch_time": 2989
     },
     {
       "id": "18011059661763514",
@@ -93,10 +116,10 @@
           "week_index": 1
         }
       },
-      "reach": 9,
+      "reach": 26,
       "saved": 0,
       "shares": 0,
-      "avg_watch_time": 2482
+      "avg_watch_time": 2644
     },
     {
       "id": "17958511809228172",
@@ -116,7 +139,7 @@
           "selected_time": "20:00"
         }
       },
-      "reach": 12,
+      "reach": 23,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
@@ -139,10 +162,10 @@
           "selected_time": "08:30"
         }
       },
-      "reach": 17,
+      "reach": 30,
       "saved": 0,
       "shares": 0,
-      "avg_watch_time": 3174
+      "avg_watch_time": 2897
     },
     {
       "id": "18351610363221895",
@@ -162,10 +185,10 @@
           "selected_time": "19:00"
         }
       },
-      "reach": 12,
+      "reach": 25,
       "saved": 0,
       "shares": 0,
-      "avg_watch_time": 6690
+      "avg_watch_time": 4639
     },
     {
       "id": "17892835644427350",
@@ -185,7 +208,7 @@
           "selected_time": "19:00"
         }
       },
-      "reach": 10,
+      "reach": 23,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
@@ -207,7 +230,7 @@
           "selected_time": "10:30"
         }
       },
-      "reach": 14,
+      "reach": 22,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
@@ -227,7 +250,7 @@
         "cover_visual": "",
         "schedule": {}
       },
-      "reach": 12,
+      "reach": 17,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
@@ -254,10 +277,10 @@
           "week_index": 0
         }
       },
-      "reach": 65,
+      "reach": 67,
       "saved": 0,
       "shares": 0,
-      "avg_watch_time": 3856
+      "avg_watch_time": 3782
     },
     {
       "id": "18109153220595454",
@@ -276,10 +299,10 @@
           "selected_time": "20:00"
         }
       },
-      "reach": 16,
+      "reach": 18,
       "saved": 0,
       "shares": 0,
-      "avg_watch_time": 5515
+      "avg_watch_time": 5207
     },
     {
       "id": "17969491116140412",
@@ -296,10 +319,10 @@
         "cover_visual": "bottleneck",
         "schedule": {}
       },
-      "reach": 13,
+      "reach": 16,
       "saved": 0,
       "shares": 0,
-      "avg_watch_time": 5186
+      "avg_watch_time": 5901
     },
     {
       "id": "18058160186535037",
@@ -318,10 +341,10 @@
           "selected_time": "19:00"
         }
       },
-      "reach": 83,
+      "reach": 85,
       "saved": 0,
       "shares": 0,
-      "avg_watch_time": 1791
+      "avg_watch_time": 1773
     },
     {
       "id": "18034940417838532",
@@ -340,10 +363,10 @@
           "selected_time": "08:30"
         }
       },
-      "reach": 14,
+      "reach": 16,
       "saved": 1,
       "shares": 0,
-      "avg_watch_time": 10865
+      "avg_watch_time": 9739
     },
     {
       "id": "18075839381445383",
@@ -360,7 +383,7 @@
         "cover_visual": "",
         "schedule": {}
       },
-      "reach": 20,
+      "reach": 21,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
@@ -380,10 +403,10 @@
         "cover_visual": "",
         "schedule": {}
       },
-      "reach": 17,
+      "reach": 18,
       "saved": 0,
       "shares": 0,
-      "avg_watch_time": 6274
+      "avg_watch_time": 5944
     },
     {
       "id": "18265235224307087",
@@ -400,7 +423,7 @@
         "cover_visual": "",
         "schedule": {}
       },
-      "reach": 111,
+      "reach": 112,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 3774
@@ -420,7 +443,7 @@
         "cover_visual": "",
         "schedule": {}
       },
-      "reach": 15,
+      "reach": 16,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 6478
@@ -440,10 +463,10 @@
         "cover_visual": "",
         "schedule": {}
       },
-      "reach": 18,
+      "reach": 19,
       "saved": 0,
       "shares": 0,
-      "avg_watch_time": 7050
+      "avg_watch_time": 6823
     },
     {
       "id": "18138583024717638",
@@ -460,7 +483,7 @@
         "cover_visual": "",
         "schedule": {}
       },
-      "reach": 21,
+      "reach": 22,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
@@ -480,7 +503,7 @@
         "cover_visual": "",
         "schedule": {}
       },
-      "reach": 43,
+      "reach": 44,
       "saved": 1,
       "shares": 0,
       "avg_watch_time": 50550
@@ -500,7 +523,7 @@
         "cover_visual": "",
         "schedule": {}
       },
-      "reach": 38,
+      "reach": 39,
       "saved": 2,
       "shares": 0,
       "avg_watch_time": 7552
@@ -520,7 +543,7 @@
         "cover_visual": "",
         "schedule": {}
       },
-      "reach": 115,
+      "reach": 116,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 5636
@@ -540,7 +563,7 @@
         "cover_visual": "",
         "schedule": {}
       },
-      "reach": 118,
+      "reach": 119,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 14390
@@ -640,7 +663,7 @@
         "cover_visual": "",
         "schedule": {}
       },
-      "reach": 112,
+      "reach": 113,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
@@ -660,7 +683,7 @@
         "cover_visual": "",
         "schedule": {}
       },
-      "reach": 170,
+      "reach": 171,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
@@ -920,7 +943,7 @@
         "cover_visual": "",
         "schedule": {}
       },
-      "reach": 13,
+      "reach": 14,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
@@ -940,7 +963,7 @@
         "cover_visual": "",
         "schedule": {}
       },
-      "reach": 11,
+      "reach": 12,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
@@ -984,26 +1007,6 @@
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 4899
-    },
-    {
-      "id": "18085603463649775",
-      "posted": "2026-08-17T07:12:23+0000",
-      "hook": "Why most AI prompts for marketing produce generic copy, and the three negative constraints that fix it.",
-      "experiment": {
-        "hook_type": "claim",
-        "evidence_type": "",
-        "format": "reel",
-        "pillar": "AI in Marketing",
-        "hook_words": 17,
-        "hook_characters": 103,
-        "visual_treatment": "kinetic_typography",
-        "cover_visual": "",
-        "schedule": {}
-      },
-      "reach": 50,
-      "saved": 0,
-      "shares": 0,
-      "avg_watch_time": 5008
     }
   ]
 }
