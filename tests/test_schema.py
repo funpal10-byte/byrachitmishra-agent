@@ -1,6 +1,7 @@
 import unittest
 
 from agent.experiments import visual_manifest
+from agent.generate import _normalise_generated_opening
 from agent.schema import validate
 
 VISUAL = {"kind": "checklist", "items": [
@@ -64,6 +65,19 @@ class HookContractTests(unittest.TestCase):
 
     def test_a_unified_opening_passes(self):
         self.assertEqual(validate(reel_post()), [])
+
+    def test_generated_opening_is_canonicalised_without_losing_caption_copy(self):
+        post = reel_post()
+        post["caption"] = "**Stop paying agencies for asset volume.**\n\nJudgment beats asset count."
+        post = _normalise_generated_opening(post)
+        self.assertEqual(post["caption"].splitlines()[0], post["hook"])
+        self.assertIn(post["primary_keyword"], post["caption"][:125])
+        self.assertIn("Judgment beats asset count.", post["caption"])
+
+    def test_generated_carousel_body_is_trimmed_for_visual_legibility(self):
+        post = {"format": "carousel", "slides": [{"body": "word " * 30}]}
+        post = _normalise_generated_opening(post)
+        self.assertLessEqual(len(post["slides"][0]["body"]), 120)
 
     def test_topic_label_is_rejected(self):
         post = reel_post()

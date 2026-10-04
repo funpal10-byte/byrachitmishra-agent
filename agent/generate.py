@@ -115,6 +115,50 @@ def _extract_json(text: str) -> dict:
     return json.loads(text[start : end + 1])
 
 
+def _normalise_generated_opening(post: dict) -> dict:
+    """Apply the non-creative parts of the publishing contract deterministically.
+
+    Models commonly add punctuation, markdown or a preamble to an otherwise
+    strong hook. That is not an editorial reason to throw away an entire
+    weekly batch. Keep the model's copy, but make the required first line
+    canonical and make sure its chosen search phrase appears early enough.
+    """
+    hook = str(post.get("hook") or "").strip()
+    caption = str(post.get("caption") or "").strip()
+    keyword = str(post.get("primary_keyword") or "").strip()
+    if hook:
+        lines = caption.splitlines()
+        while lines and not lines[0].strip():
+            lines.pop(0)
+        if lines:
+            # Replace rather than prepend: the model's opening paraphrase
+            # would otherwise repeat the hook and weaken the caption.
+            lines[0] = hook
+        else:
+            lines = [hook]
+        caption = "\n".join(lines).strip()
+
+        early_caption = re.sub(r"\s+", " ", caption[:125]).casefold()
+        if keyword and keyword.casefold() not in early_caption:
+            # A short bridge is more natural than a keyword label, and keeps
+            # the remaining model-written caption intact.
+            remainder = "\n".join(lines[1:]).strip()
+            bridge = f"In {keyword}, this is the decision that changes the outcome."
+            caption = f"{hook}\n\n{bridge}" + (f"\n\n{remainder}" if remainder else "")
+        post["caption"] = caption
+
+    # Carousel bodies become text inside an infographic. Trim only the
+    # exceptional overflow at a word boundary so a single verbose sentence
+    # cannot block the whole batch after the model has already self-corrected.
+    if post.get("format") == "carousel":
+        for slide in post.get("slides") or []:
+            body = str(slide.get("body") or "").strip()
+            if len(body) > 120:
+                clipped = body[:120].rsplit(" ", 1)[0].rstrip(" ,;:-")
+                slide["body"] = clipped or body[:120]
+    return post
+
+
 def generate_post(
     brand,
     system_prompt: str,
@@ -171,6 +215,7 @@ def generate_post(
         post = _extract_json(raw)
         post["pillar"] = pillar.id
         post["format"] = fmt
+        post = _normalise_generated_opening(post)
 
         problems = validate(post) + check_voice(post, brand.voice.get("banned_phrases", []))
         if not problems:
