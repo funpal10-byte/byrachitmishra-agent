@@ -123,7 +123,7 @@
   "cta": "Send this to whoever is tired of arguing about price in B2B procurement meetings.",
   "failure_mode": "Could be misread as basic sales advice rather than a structural brand positioning shift.",
   "scheduled_for": "2026-10-05T19:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "blog_fallback": "No unused full article available; evergreen replacement",
@@ -164,5 +164,7 @@
     "bottleneck",
     "checklist"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-10-05T23:50:29.312575+05:30",
+  "media_id": "17874354783636829"
 }
