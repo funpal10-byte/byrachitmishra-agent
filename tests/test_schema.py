@@ -66,6 +66,16 @@ class HookContractTests(unittest.TestCase):
     def test_a_unified_opening_passes(self):
         self.assertEqual(validate(reel_post()), [])
 
+    def test_specific_question_can_connect_cover_to_payoff(self):
+        post = reel_post()
+        hook = "Why pay more for identical steel?"
+        post["hook"] = hook
+        post["primary_keyword"] = "steel procurement"
+        post["caption"] = hook + "\n\nIn steel procurement, delivery reliability can justify a premium."
+        post["reel_script"][0]["onscreen"] = hook
+        post["reel_script"][0]["voiceover"] = hook + " Check delivery reliability."
+        self.assertEqual(validate(post), [])
+
     def test_generated_opening_is_canonicalised_without_losing_caption_copy(self):
         post = reel_post()
         post["caption"] = "**Stop paying agencies for asset volume.**\n\nJudgment beats asset count."

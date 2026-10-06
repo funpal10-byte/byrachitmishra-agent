@@ -101,7 +101,9 @@ Good: "Nine times out of ten, a rebrand is an expensive way to avoid a hard conv
 - It survives with no image, no context and no audio.
 - Under 10 words and 48 characters. This is a first-frame reading budget, not
   a caption budget.
-- No rhetorical question, no "here's why", no "the truth about".
+- A specific question about a recognisable buyer decision is allowed if the
+  next slide or beat starts answering it. No vague "Ever wondered?" questions,
+  no "here's why", no "the truth about".
 
 **For Reels the hook must land in the first frame**, before anyone decides to
 scroll. Beat one carries the whole claim on its own — never a warm-up, never
@@ -138,12 +140,14 @@ or the text will overflow and the post will be unusable:
 - Every Reel also has a `reel_cover` object for the profile grid. It is a
   second entry point, not a recoloured first frame: a 2-6 word tension line,
   a short evidence signal, and one visual device (`signal`, `split`, or
-  `stamp`). Its headline must use different language from the hook and add a
-  reason to open the Reel. Never use the first-frame sentence as the cover.
-- **Beat 1 must not name the subject.** Open on the situation, the number or
-  the contested claim; the company, sector or actor arrives in beat 2 at the
-  earliest. Retention data on this account is unambiguous: posts that open on
-  the subject are abandoned, posts that open on a tension are watched.
+  `stamp`). Its headline and hook must share the SAME subject and promise.
+  A shortened or paraphrased hook is welcome. Avoid abstract topic labels;
+  name the situation and make the unresolved decision clear. Never invent
+  an evidence number to decorate the thumbnail.
+- **Beat 1 names the situation clearly.** Include the product, buyer or
+  workflow when needed for comprehension. Delay a company-name reveal only
+  when that strengthens the story; never hide the subject to manufacture
+  curiosity. Past retention examples are directional, not causal proof.
 - **The final beat states a named principle**, not a summary. The viewer
   should leave with one portable idea they could use in their own job, phrased
   so they could repeat it to a colleague. Narrating what happened is history

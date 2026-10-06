@@ -111,7 +111,7 @@ POST_SCHEMA: dict = {
                 "visual": VISUAL_SCHEMA,
                 "headline": {
                     "type": "string",
-                    "description": "2-6 words, max 36 characters. A distinct curiosity line, not a rewrite of the hook.",
+                    "description": "2-6 words, max 36 characters. A concrete situation with an unresolved tension. Must connect to the hook's subject and payoff; paraphrasing is welcome.",
                 },
                 "signal": {
                     "type": "string",
@@ -184,8 +184,8 @@ def _opening_quality_problems(hook: str) -> list[str]:
     """
     plain = _normalise(hook)
     problems: list[str] = []
-    if "?" in hook:
-        problems.append("hook is a question — open with a claim or tension instead")
+    if re.search(r"^(ever wondered|did you know|want to know)\b", plain):
+        problems.append("hook asks a generic question — name a specific situation and payoff")
     topic_openers = (
         r"^(how|when|what)\s+(ai|marketing|branding|brand|leadership|to\b|this\b)",
         r"^(a|an|the)\s+(guide|case study|breakdown)\b",

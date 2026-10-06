@@ -93,15 +93,25 @@ must be complete sentences of at most 120 characters; rewrite, never truncate.
 Do not use an unsupported number. Supply the required `evidence` object with
 the proof or usable framework that earns the claim.
 
-For every Reel, also supply `reel_cover`. This is the profile-grid thumbnail,
-not the first video frame. It needs a *different* 2-6 word tension line and a
-short concrete `signal` (a number, trade-off, or proof fragment already earned
-by the Reel). Never copy, shorten, recolour, or paraphrase the opening hook.
-Choose one `layout`: `signal` for a piece of evidence, `split` for a contrast,
-or `stamp` for a verdict. Make the choice serve this post, and vary it from
-recent Reels. Example: opening hook “Output volume doubled. Pipeline flat.”;
-cover headline “The AI output trap”; signal “MORE CONTENT ≠ DEMAND”; layout
-“split”.
+Write the cover, hook and payoff as ONE connected promise. Before choosing,
+silently compare three openings for concrete audience relevance, clarity,
+curiosity and whether the body delivers. Return only the winning post JSON.
+For a Reel, `reel_cover.headline` is 2-6 words: name a familiar object or
+decision and the unresolved tension. A shortened or paraphrased hook is
+welcome; do not copy the whole first-frame sentence. Repeat the subject
+where needed for clarity. Avoid standalone labels like "The Enterprise AI
+Trap", "Commodity pricing traps" or "The unmonitored tier".
+The hook sharpens that SAME tension; beat two begins its explanation, and
+the rest provides a concrete check the reader can use. Do not reveal a
+different subject after the viewer taps. Carousel slide one and slide two
+must follow the same promise-to-payoff relationship.
+Example: cover "Same steel. Higher price."; hook "Why pay more for identical
+steel?"; beat two explains how delivery reliability reduces buyer risk.
+Use this structure only where the post actually supports it.
+The short `signal` supports the SAME promise. Never invent a precise number
+for a thumbnail, even if another generated field repeats it. A number needs
+evidence from the supplied source; otherwise use a plain-language contrast.
+Choose `layout` from `signal`, `split`, or `stamp` to fit the visual.
 """
 
 

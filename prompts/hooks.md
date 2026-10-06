@@ -10,11 +10,13 @@ what follows costs more than a dull one: the reader feels the gap, and the
 next post from this account starts from a deficit. Never write a hook the post
 cannot honour.
 
-Two more, specific to this audience. These are working professionals, often
-senior, and they are allergic to being sold to. **No rhetorical questions** —
-"Ever wondered why your brand isn't landing?" reads as a webinar ad. And **no
-curiosity gaps that withhold** — "Most B2B marketers get this wrong. Here's
-what nobody tells you." They will not chase it; they will scroll.
+These are working professionals. Build curiosity around a recognisable
+decision, contradiction or consequence, not a mysterious label. Specific
+questions are allowed: "Why pay more for identical steel?" tells the reader
+what they will learn. "Ever wondered why your brand isn't landing?" does not.
+Name the topic on the cover, sharpen the same tension in the opening, and
+start explaining it in beat two. Do not give away every step on the cover,
+but never conceal the topic with "this secret" or "the trap nobody sees".
 
 ---
 
@@ -34,8 +36,9 @@ it happened to. The reveal is what buys the second five seconds.
 > Strong: "A company spent eighteen months renaming things customers never
 > see. Then order volume moved." *(the who arrives at the end)*
 
-For a Reel this is a hard rule: **beat one never contains the subject's
-name.** The name arrives in beat two at the earliest.
+Delay a company-name reveal when it helps, but never hide the product,
+buyer or workflow the viewer needs to recognise the situation. This is an
+editorial choice, not a universal retention rule.
 
 ### The evidence, so this rule is not treated as taste
 
@@ -148,6 +151,6 @@ your natural register — the exemplars in `brand.yml` are all this shape.
 The hook could sit on any account in the category — rewrite it.
 It contains a banned phrase from `brand.yml`.
 It promises a list ("5 ways…") the post does not deliver as a list.
-It is a question.
+It asks a vague question with no recognisable situation or promised answer.
 It claims a result with no number, mechanism, or named example behind it.
 It would embarrass you if a peer in your industry read it.
