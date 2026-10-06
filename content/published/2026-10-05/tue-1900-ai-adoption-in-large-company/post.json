@@ -128,7 +128,7 @@
   "cta": "Send this to whoever is defending the new software budget this quarter.",
   "failure_mode": "Readers might view this as anti-technology rather than a critique of procurement sequencing.",
   "scheduled_for": "2026-10-06T19:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -172,5 +172,7 @@
     "comparison",
     "checklist"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-10-06T20:33:03.656806+05:30",
+  "media_id": "17933633124144111"
 }
