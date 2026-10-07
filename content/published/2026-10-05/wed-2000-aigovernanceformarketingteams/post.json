@@ -139,7 +139,7 @@
   "failure_mode": "Could be read as generic anti-AI commentary if the distinction between consumer hallucination and industrial liability is not sharp enough.",
   "sources": [],
   "scheduled_for": "2026-10-07T20:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -180,5 +180,7 @@
     "bottleneck",
     "checklist"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-10-07T21:01:02.882456+05:30",
+  "media_id": "18629977225041086"
 }
