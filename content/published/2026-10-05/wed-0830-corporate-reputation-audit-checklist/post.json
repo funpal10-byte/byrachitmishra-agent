@@ -160,7 +160,7 @@
   "cta": "Send this to whoever oversees vendor compliance and risk this quarter.",
   "failure_mode": "Could be dismissed as standard supply chain advice if the link between operational compliance and reputational fallout is not made explicit enough.",
   "scheduled_for": "2026-10-07T08:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -207,5 +207,7 @@
     "comparison",
     "bottleneck"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-10-07T12:39:47.837537+05:30",
+  "media_id": "18117461206978816"
 }
