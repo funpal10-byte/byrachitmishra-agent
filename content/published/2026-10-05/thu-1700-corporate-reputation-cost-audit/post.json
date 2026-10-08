@@ -178,7 +178,7 @@
   "cta": "Send this to whoever is defending your corporate reputation budget against short-term campaign requests this quarter.",
   "failure_mode": "Readers might mistake this for generic advice about PR crisis management unless they recognise the industrial procurement audit reality.",
   "scheduled_for": "2026-10-08T17:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -235,5 +235,7 @@
     "comparison",
     "checklist"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-10-08T21:54:09.835632+05:30",
+  "media_id": "17992968594058816"
 }
