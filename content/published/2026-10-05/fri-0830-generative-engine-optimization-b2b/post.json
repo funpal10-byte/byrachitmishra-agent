@@ -104,7 +104,7 @@
   "cta": "Send this to the team managing your website architecture and search strategy.",
   "failure_mode": "Could be misconstrued as general SEO advice if the emphasis on B2B technical documentation and AI parser behavior is not clear.",
   "scheduled_for": "2026-10-09T08:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -147,5 +147,7 @@
     "comparison",
     "checklist"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-10-09T14:26:17.275440+05:30",
+  "media_id": "17973415626129878"
 }
