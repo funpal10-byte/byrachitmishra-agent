@@ -137,7 +137,7 @@
   "cta": "Send this to whoever is setting up your marketing automation workflow this quarter.",
   "failure_mode": "If the checklist feels like generic editing advice rather than high-stakes commercial risk management, the post will lose its senior B2B relevance.",
   "scheduled_for": "2026-10-09T19:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "blog_fallback": "No unused full article available; evergreen replacement",
@@ -177,5 +177,7 @@
     "checklist",
     "checklist"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-10-09T21:37:20.414322+05:30",
+  "media_id": "17907229089591092"
 }
