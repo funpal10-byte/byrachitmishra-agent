@@ -1,6 +1,218 @@
 {
-  "fetched_at": "2026-10-04T03:19:35+00:00",
+  "fetched_at": "2026-10-11T02:47:35+00:00",
   "posts": [
+    {
+      "id": "18062669030549188",
+      "posted": "2026-10-10T08:24:34+0000",
+      "hook": "Awareness is not a metric that protects budget.",
+      "experiment": {
+        "hook_type": "cost",
+        "evidence_type": "practitioner_observation",
+        "format": "carousel",
+        "pillar": "inside_the_org",
+        "hook_words": 8,
+        "hook_characters": 47,
+        "visual_treatment": "carousel",
+        "cover_visual": "",
+        "schedule": {
+          "active": false,
+          "selected_time": "10:30"
+        }
+      },
+      "reach": 4,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
+    },
+    {
+      "id": "17907229089591092",
+      "posted": "2026-10-09T16:07:16+0000",
+      "hook": "AI content lacks unwritten operational rules.",
+      "experiment": {
+        "hook_type": "framework",
+        "evidence_type": "framework",
+        "format": "carousel",
+        "pillar": "ai_in_practice",
+        "hook_words": 6,
+        "hook_characters": 45,
+        "visual_treatment": "carousel",
+        "cover_visual": "",
+        "schedule": {
+          "active": false,
+          "selected_time": "19:00"
+        }
+      },
+      "reach": 6,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
+    },
+    {
+      "id": "17973415626129878",
+      "posted": "2026-10-09T08:56:10+0000",
+      "hook": "AI search does not read your marketing copy.",
+      "experiment": {
+        "hook_type": "framework",
+        "evidence_type": "framework",
+        "format": "reel",
+        "pillar": "ai_marketing",
+        "hook_words": 8,
+        "hook_characters": 44,
+        "visual_treatment": "visual_explainer",
+        "cover_visual": "comparison",
+        "schedule": {
+          "active": false,
+          "selected_time": "08:30"
+        }
+      },
+      "reach": 10,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 2623
+    },
+    {
+      "id": "17992968594058816",
+      "posted": "2026-10-08T16:24:04+0000",
+      "hook": "Reputation is priced in before they call you.",
+      "experiment": {
+        "hook_type": "cost",
+        "evidence_type": "practitioner_observation",
+        "format": "reel",
+        "pillar": "reputation",
+        "hook_words": 8,
+        "hook_characters": 45,
+        "visual_treatment": "visual_explainer",
+        "cover_visual": "bottleneck",
+        "schedule": {
+          "active": true,
+          "selected_time": "17:00",
+          "candidates": [
+            "13:00",
+            "17:00"
+          ],
+          "week_index": 1
+        }
+      },
+      "reach": 9,
+      "saved": 1,
+      "shares": 0,
+      "avg_watch_time": 3005
+    },
+    {
+      "id": "18629977225041086",
+      "posted": "2026-10-07T15:30:59+0000",
+      "hook": "AI governance is failing your marketing team.",
+      "experiment": {
+        "hook_type": "claim",
+        "evidence_type": "practitioner_observation",
+        "format": "carousel",
+        "pillar": "ai_in_practice",
+        "hook_words": 7,
+        "hook_characters": 45,
+        "visual_treatment": "carousel",
+        "cover_visual": "",
+        "schedule": {
+          "active": false,
+          "selected_time": "20:00"
+        }
+      },
+      "reach": 8,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
+    },
+    {
+      "id": "18117461206978816",
+      "posted": "2026-10-07T07:09:42+0000",
+      "hook": "Reputation dies in procurement.",
+      "experiment": {
+        "hook_type": "claim",
+        "evidence_type": "practitioner_observation",
+        "format": "reel",
+        "pillar": "reputation",
+        "hook_words": 4,
+        "hook_characters": 31,
+        "visual_treatment": "visual_explainer",
+        "cover_visual": "checklist",
+        "schedule": {
+          "active": false,
+          "selected_time": "08:30"
+        }
+      },
+      "reach": 11,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 1826
+    },
+    {
+      "id": "17933633124144111",
+      "posted": "2026-10-06T15:02:52+0000",
+      "hook": "Buy the tool. Argue later.",
+      "experiment": {
+        "hook_type": "claim",
+        "evidence_type": "practitioner_observation",
+        "format": "reel",
+        "pillar": "ai_marketing",
+        "hook_words": 5,
+        "hook_characters": 26,
+        "visual_treatment": "visual_explainer",
+        "cover_visual": "comparison",
+        "schedule": {
+          "active": false,
+          "selected_time": "19:00"
+        }
+      },
+      "reach": 10,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 1648
+    },
+    {
+      "id": "17874354783636829",
+      "posted": "2026-10-05T18:20:24+0000",
+      "hook": "A commodity has no features to sell.",
+      "experiment": {
+        "hook_type": "claim",
+        "evidence_type": "practitioner_observation",
+        "format": "carousel",
+        "pillar": "b2b_brand",
+        "hook_words": 7,
+        "hook_characters": 36,
+        "visual_treatment": "carousel",
+        "cover_visual": "",
+        "schedule": {
+          "active": false,
+          "selected_time": "19:00"
+        }
+      },
+      "reach": 8,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
+    },
+    {
+      "id": "18032044616906390",
+      "posted": "2026-10-05T08:52:46+0000",
+      "hook": "Buyers do not pay more for better messaging.",
+      "experiment": {
+        "hook_type": "cost",
+        "evidence_type": "practitioner_observation",
+        "format": "reel",
+        "pillar": "b2b_brand",
+        "hook_words": 8,
+        "hook_characters": 44,
+        "visual_treatment": "visual_explainer",
+        "cover_visual": "comparison",
+        "schedule": {
+          "active": false,
+          "selected_time": "08:30"
+        }
+      },
+      "reach": 9,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 5309
+    },
     {
       "id": "17969308026174525",
       "posted": "2026-09-27T08:02:14+0000",
@@ -19,7 +231,7 @@
           "selected_time": "10:30"
         }
       },
-      "reach": 22,
+      "reach": 26,
       "saved": 2,
       "shares": 1,
       "avg_watch_time": 0
@@ -42,7 +254,7 @@
           "selected_time": "10:30"
         }
       },
-      "reach": 36,
+      "reach": 38,
       "saved": 1,
       "shares": 0,
       "avg_watch_time": 0
@@ -65,7 +277,7 @@
           "selected_time": "19:00"
         }
       },
-      "reach": 29,
+      "reach": 31,
       "saved": 1,
       "shares": 0,
       "avg_watch_time": 0
@@ -88,7 +300,7 @@
           "selected_time": "08:30"
         }
       },
-      "reach": 41,
+      "reach": 42,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 2989
@@ -139,7 +351,7 @@
           "selected_time": "20:00"
         }
       },
-      "reach": 23,
+      "reach": 24,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
@@ -208,7 +420,7 @@
           "selected_time": "19:00"
         }
       },
-      "reach": 23,
+      "reach": 24,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
@@ -847,166 +1059,6 @@
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
-    },
-    {
-      "id": "17875543242628433",
-      "posted": "2026-08-20T03:06:49+0000",
-      "hook": "Knowing how to build a brand strategy starts with choosing what your business will refuse to do.",
-      "experiment": {
-        "hook_type": "claim",
-        "evidence_type": "",
-        "format": "carousel",
-        "pillar": "Brand Strategy",
-        "hook_words": 17,
-        "hook_characters": 96,
-        "visual_treatment": "carousel",
-        "cover_visual": "",
-        "schedule": {}
-      },
-      "reach": 17,
-      "saved": 0,
-      "shares": 0,
-      "avg_watch_time": 0
-    },
-    {
-      "id": "18129310924659392",
-      "posted": "2026-08-19T13:55:15+0000",
-      "hook": "Mastering giving feedback to your team comes down to eliminating taste adjectives from your review comments.",
-      "experiment": {
-        "hook_type": "claim",
-        "evidence_type": "",
-        "format": "carousel",
-        "pillar": "Leadership",
-        "hook_words": 16,
-        "hook_characters": 108,
-        "visual_treatment": "carousel",
-        "cover_visual": "",
-        "schedule": {}
-      },
-      "reach": 13,
-      "saved": 0,
-      "shares": 0,
-      "avg_watch_time": 0
-    },
-    {
-      "id": "17963855459964717",
-      "posted": "2026-08-19T07:00:42+0000",
-      "hook": "This brand case study India shows how IndiGo captured 60% market share by ignoring customer delight.",
-      "experiment": {
-        "hook_type": "claim",
-        "evidence_type": "",
-        "format": "reel",
-        "pillar": "Behind the Brands",
-        "hook_words": 16,
-        "hook_characters": 100,
-        "visual_treatment": "kinetic_typography",
-        "cover_visual": "",
-        "schedule": {}
-      },
-      "reach": 26,
-      "saved": 0,
-      "shares": 0,
-      "avg_watch_time": 3703
-    },
-    {
-      "id": "17890218198671540",
-      "posted": "2026-08-19T03:07:09+0000",
-      "hook": "The debate over will AI replace marketers misses what actually gets automated: draft generation, not positioning.",
-      "experiment": {
-        "hook_type": "distinction",
-        "evidence_type": "",
-        "format": "reel",
-        "pillar": "AI in Marketing",
-        "hook_words": 16,
-        "hook_characters": 113,
-        "visual_treatment": "kinetic_typography",
-        "cover_visual": "",
-        "schedule": {}
-      },
-      "reach": 35,
-      "saved": 0,
-      "shares": 0,
-      "avg_watch_time": 3262
-    },
-    {
-      "id": "17928885951143782",
-      "posted": "2026-08-18T13:54:33+0000",
-      "hook": "Every standard brand positioning statement example you find online misses the point of positioning: deliberate sacrifice",
-      "experiment": {
-        "hook_type": "claim",
-        "evidence_type": "",
-        "format": "carousel",
-        "pillar": "Brand Strategy",
-        "hook_words": 16,
-        "hook_characters": 121,
-        "visual_treatment": "carousel",
-        "cover_visual": "",
-        "schedule": {}
-      },
-      "reach": 14,
-      "saved": 0,
-      "shares": 0,
-      "avg_watch_time": 0
-    },
-    {
-      "id": "18393696196205563",
-      "posted": "2026-08-18T07:49:02+0000",
-      "hook": "Knowing the difference between branding and marketing saves you from wasting half your annual budget.",
-      "experiment": {
-        "hook_type": "cost",
-        "evidence_type": "",
-        "format": "carousel",
-        "pillar": "Brand Strategy",
-        "hook_words": 15,
-        "hook_characters": 101,
-        "visual_treatment": "carousel",
-        "cover_visual": "",
-        "schedule": {}
-      },
-      "reach": 12,
-      "saved": 0,
-      "shares": 0,
-      "avg_watch_time": 0
-    },
-    {
-      "id": "18066041339728040",
-      "posted": "2026-08-18T03:05:01+0000",
-      "hook": "If you want to know how to lead a marketing team, stop rewriting their copy and start auditing their creative briefs.",
-      "experiment": {
-        "hook_type": "claim",
-        "evidence_type": "",
-        "format": "carousel",
-        "pillar": "Leadership",
-        "hook_words": 21,
-        "hook_characters": 117,
-        "visual_treatment": "carousel",
-        "cover_visual": "",
-        "schedule": {}
-      },
-      "reach": 11,
-      "saved": 0,
-      "shares": 0,
-      "avg_watch_time": 0
-    },
-    {
-      "id": "18075400997415698",
-      "posted": "2026-08-17T13:49:43+0000",
-      "hook": "To understand why this ad worked so well in 1994, you have to look at Cadbury's original growth ceiling.",
-      "experiment": {
-        "hook_type": "claim",
-        "evidence_type": "",
-        "format": "reel",
-        "pillar": "Behind the Brands",
-        "hook_words": 19,
-        "hook_characters": 104,
-        "visual_treatment": "kinetic_typography",
-        "cover_visual": "",
-        "schedule": {}
-      },
-      "reach": 29,
-      "saved": 0,
-      "shares": 0,
-      "avg_watch_time": 4899
     }
   ]
 }

@@ -1,20 +1,20 @@
 # Metrics
 
-_Fetched 2026-10-04T03:19:35+00:00_
+_Fetched 2026-10-11T02:47:35+00:00_
 
 - Posts measured: **50**
-- Total reach: **2,783**
-- Mean reach per post: **55.7**
+- Total reach: **2,690**
+- Mean reach per post: **53.8**
 - Best single post: **262**
-- Total saves: **15**  ·  sends: **1**
+- Total saves: **16**  ·  sends: **1**
 
 ## Most sent and saved
 
-- **1 sends · 2 saves · 22 reach** — A single apology will not save a B2B contract.
+- **1 sends · 2 saves · 26 reach** — A single apology will not save a B2B contract.
 - **0 sends · 3 saves · 87 reach** — A solid brand strategy does not start with who your customer is. It starts with what existing budget you are stealing.
 - **0 sends · 2 saves · 39 reach** — If you want to understand why this ad worked so well, look at how Surf Excel reframed dirt.
-- **0 sends · 1 saves · 36 reach** — You lose budget when you defend awareness.
-- **0 sends · 1 saves · 29 reach** — Your board pack fails before slide two.
+- **0 sends · 1 saves · 9 reach** — Reputation is priced in before they call you.
+- **0 sends · 1 saves · 38 reach** — You lose budget when you defend awareness.
 
 ## Widest reach
 
@@ -28,15 +28,24 @@ _Fetched 2026-10-04T03:19:35+00:00_
 
 | Posted | Type | Reach | Saves | Sends | Avg watch time | Hook |
 |---|---|---:|---:|---:|---:|---|
-| 2026-09-27 | FEED | 22 | 2 | 1 | 0 | A single apology will not save a B2B contract. |
-| 2026-09-26 | FEED | 36 | 1 | 0 | 0 | You lose budget when you defend awareness. |
-| 2026-09-25 | FEED | 29 | 1 | 0 | 0 | Your board pack fails before slide two. |
-| 2026-09-25 | REELS | 41 | 0 | 0 | 2989 | Your AI tools do not solve the bottleneck. |
+| 2026-10-10 | FEED | 4 | 0 | 0 | 0 | Awareness is not a metric that protects budget. |
+| 2026-10-09 | FEED | 6 | 0 | 0 | 0 | AI content lacks unwritten operational rules. |
+| 2026-10-09 | REELS | 10 | 0 | 0 | 2623 | AI search does not read your marketing copy. |
+| 2026-10-08 | REELS | 9 | 1 | 0 | 3005 | Reputation is priced in before they call you. |
+| 2026-10-07 | FEED | 8 | 0 | 0 | 0 | AI governance is failing your marketing team. |
+| 2026-10-07 | REELS | 11 | 0 | 0 | 1826 | Reputation dies in procurement. |
+| 2026-10-06 | REELS | 10 | 0 | 0 | 1648 | Buy the tool. Argue later. |
+| 2026-10-05 | FEED | 8 | 0 | 0 | 0 | A commodity has no features to sell. |
+| 2026-10-05 | REELS | 9 | 0 | 0 | 5309 | Buyers do not pay more for better messaging. |
+| 2026-09-27 | FEED | 26 | 2 | 1 | 0 | A single apology will not save a B2B contract. |
+| 2026-09-26 | FEED | 38 | 1 | 0 | 0 | You lose budget when you defend awareness. |
+| 2026-09-25 | FEED | 31 | 1 | 0 | 0 | Your board pack fails before slide two. |
+| 2026-09-25 | REELS | 42 | 0 | 0 | 2989 | Your AI tools do not solve the bottleneck. |
 | 2026-09-24 | REELS | 26 | 0 | 0 | 2644 | Legal statements destroy trust in a crisis. |
-| 2026-09-23 | FEED | 23 | 0 | 0 | 0 | AI writes copy. It cannot take risk. |
+| 2026-09-23 | FEED | 24 | 0 | 0 | 0 | AI writes copy. It cannot take risk. |
 | 2026-09-23 | REELS | 30 | 0 | 0 | 2897 | Reputation is just unpaid risk. |
 | 2026-09-22 | REELS | 25 | 0 | 0 | 4639 | AI drafts fast. Compliance approvals do not. |
-| 2026-09-21 | FEED | 23 | 0 | 0 | 0 | Most martech audits fail to cut a single tool. |
+| 2026-09-21 | FEED | 24 | 0 | 0 | 0 | Most martech audits fail to cut a single tool. |
 | 2026-09-19 | FEED | 22 | 0 | 0 | 0 | Polite positioning doubles your sales cycle. |
 | 2026-09-18 | FEED | 17 | 0 | 0 | 0 | Every approval needs a named owner. |
 | 2026-09-17 | REELS | 67 | 0 | 0 | 3782 | Checking visuals first delays every launch. |
@@ -69,15 +78,6 @@ _Fetched 2026-10-04T03:19:35+00:00_
 | 2026-08-21 | REELS | 68 | 0 | 0 | 3396 | Here is why this ad worked when 5 Star was losing impulse market share |
 | 2026-08-20 | REELS | 39 | 1 | 0 | 5866 | The debate around whether AI will replace marketers misses the real sh |
 | 2026-08-20 | FEED | 22 | 0 | 0 | 0 | Searching for a brand positioning statement example usually leads to t |
-| 2026-08-20 | FEED | 17 | 0 | 0 | 0 | Knowing how to build a brand strategy starts with choosing what your b |
-| 2026-08-19 | REELS | 22 | 0 | 0 | 7846 | AI didn't take your job. It took your first draft — and that was never |
-| 2026-08-19 | FEED | 13 | 0 | 0 | 0 | Mastering giving feedback to your team comes down to eliminating taste |
-| 2026-08-19 | REELS | 26 | 0 | 0 | 3703 | This brand case study India shows how IndiGo captured 60% market share |
-| 2026-08-19 | REELS | 35 | 0 | 0 | 3262 | The debate over will AI replace marketers misses what actually gets au |
-| 2026-08-18 | FEED | 14 | 0 | 0 | 0 | Every standard brand positioning statement example you find online mis |
-| 2026-08-18 | FEED | 12 | 0 | 0 | 0 | Knowing the difference between branding and marketing saves you from w |
-| 2026-08-18 | FEED | 11 | 0 | 0 | 0 | If you want to know how to lead a marketing team, stop rewriting their |
-| 2026-08-17 | REELS | 29 | 0 | 0 | 4899 | To understand why this ad worked so well in 1994, you have to look at  |
 
 # Timing experiments
 
