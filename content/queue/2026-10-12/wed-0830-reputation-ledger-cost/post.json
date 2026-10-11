@@ -1,0 +1,236 @@
+{
+  "title": "reputation_ledger_cost",
+  "pillar": "reputation",
+  "format": "reel",
+  "primary_keyword": "what reputation actually costs",
+  "claim": "Corporate reputation is a balance sheet asset that depreciates when communications teams measure coverage instead of procurement friction.",
+  "hook": "Your reputation ledger has no line item.",
+  "evidence": {
+    "type": "practitioner_observation",
+    "detail": "Observed across multiple industrial enterprise transitions where communications audits measured volume of media mentions while procurement committees quietly extended supplier vetting cycles by six months."
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "Your reputation ledger has no line item.",
+      "voiceover": "Your reputation ledger has no line item. Yet every time a procurement committee takes six months to clear your vendor code, you are paying for it.",
+      "direction": "Static shot of a blank general ledger page with a pen resting beside it.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Media sentiment",
+            "detail": "High review scores"
+          },
+          {
+            "label": "Procurement delay",
+            "detail": "Six months added"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "timecode": "0:03-0:07",
+      "onscreen": "Media volume is not enterprise trust.",
+      "voiceover": "Most corporate communications teams measure success by press clippings and share of voice. None of those metrics appear in a risk committee review.",
+      "direction": "Close-up of a communications dashboard showing rising mention volume alongside flat enterprise sales.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Activity metric",
+            "detail": "Press clippings volume"
+          },
+          {
+            "label": "Commercial metric",
+            "detail": "Vendor approval duration"
+          }
+        ],
+        "note": "Practitioner observation"
+      }
+    },
+    {
+      "timecode": "0:07-0:12",
+      "onscreen": "Run this three-part trust audit.",
+      "voiceover": "If you want to know what your reputation actually costs, run this three-part audit before your next board deck goes live.",
+      "direction": "Cut to a clean checklist graphic appearing on screen.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Tender cycle",
+            "detail": "Track onboarding time"
+          },
+          {
+            "label": "Discount cost",
+            "detail": "Measure price pressure"
+          },
+          {
+            "label": "Regulatory lag",
+            "detail": "Count permit delays"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:12-0:16",
+      "onscreen": "Track vendor onboarding time.",
+      "voiceover": "First, track your vendor onboarding time across eight quarters to see where institutional friction actually lives.",
+      "direction": "Zoom in on the tender cycle line of the checklist graphic.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Tender cycle",
+            "detail": "Track onboarding time"
+          },
+          {
+            "label": "Quarterly view",
+            "detail": "Compare eight quarters"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:16-0:21",
+      "onscreen": "Measure price concessions.",
+      "voiceover": "Second, measure the price concessions demanded by buyers who perceive higher regulatory risk in your supply chain.",
+      "direction": "Zoom in on the discount cost line of the checklist graphic.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Discount cost",
+            "detail": "Measure price pressure"
+          },
+          {
+            "label": "Risk factor",
+            "detail": "Assess regulatory exposure"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:21-0:26",
+      "onscreen": "Count permit approval lags.",
+      "voiceover": "Third, count permit approval delays against your regional competitors to isolate external friction from internal execution.",
+      "direction": "Zoom in on the regulatory lag line of the checklist graphic.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Regulatory lag",
+            "detail": "Count permit delays"
+          },
+          {
+            "label": "Peer benchmark",
+            "detail": "Compare local rivals"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:26-0:30",
+      "onscreen": "Reputation is a risk discount.",
+      "voiceover": "Reputation is not how well you are liked. It is the risk discount buyers apply before they trust you with an eighteen-month contract.",
+      "direction": "Return to camera. Direct delivery.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "High trust",
+            "detail": "Shorter tender cycles"
+          },
+          {
+            "label": "Low trust",
+            "detail": "Extended vetting"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    }
+  ],
+  "reel_cover": {
+    "visual": {
+      "kind": "comparison",
+      "items": [
+        {
+          "label": "Clippings",
+          "detail": "Measured by communications teams"
+        },
+        {
+          "label": "Vetting time",
+          "detail": "Managed by procurement committees"
+        }
+      ],
+      "note": "Illustrative workflow"
+    },
+    "headline": "The Hidden Cost of Silence",
+    "signal": "Risk discount",
+    "layout": "split"
+  },
+  "caption": "Your reputation ledger has no line item.\n\nUnderstanding what reputation actually costs requires looking where communications audits never go. When procurement committees add six months to your vendor vetting cycle, that delay is the invoice for an unmanaged brand.\n\nMost teams treat corporate reputation as a PR exercise. In heavy industry, it is a risk mitigation mechanism that directly influences your cost of capital and tender conversion rates.\n\nSend this to whoever is defending the communications budget against a sales team asking for immediate leads.\n\n[corporate reputation, stakeholder trust, b2b communications, corporate communications]",
+  "alt_text": "A blank ledger page illustrating how corporate reputation affects procurement cycles.",
+  "hashtags": [
+    "#corporatecommunications",
+    "#reputation",
+    "#publicrelations"
+  ],
+  "cta": "Send this to whoever is defending the communications budget against a sales team asking for immediate leads.",
+  "failure_mode": "Readers might mistake this for generic advice about PR measurement unless they have sat through a procurement committee review where brand safety dictated the vendor selection.",
+  "scheduled_for": "2026-10-14T08:30:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "08:30"
+  },
+  "experiment": {
+    "hook_type": "claim",
+    "evidence_type": "practitioner_observation",
+    "format": "reel",
+    "pillar": "reputation",
+    "hook_words": 7,
+    "hook_characters": 40,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "comparison",
+    "schedule": {
+      "active": false,
+      "selected_time": "08:30"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "reel_assets": {
+    "background": {
+      "source": "images_folder",
+      "file": "reputation-reflection.png"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (12).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-10-12/wed-0830-reputation-ledger-cost/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "bottleneck",
+    "comparison",
+    "checklist",
+    "checklist",
+    "checklist",
+    "checklist",
+    "bottleneck"
+  ],
+  "warnings": []
+}

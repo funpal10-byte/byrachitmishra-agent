@@ -1,0 +1,176 @@
+{
+  "title": "brandingcommodityproducts",
+  "pillar": "b2b_brand",
+  "format": "reel",
+  "primary_keyword": "how to brand a commodity product",
+  "claim": "Commodity products secure premium pricing by branding operational SLA guarantees rather than product specifications.",
+  "hook": "Spec sheets do not command a premium.",
+  "evidence": {
+    "type": "framework",
+    "detail": "A commercial positioning framework replacing standard specification claims with operational guarantees (vendor-managed inventory, automated delay penalties, and batch traceability) to shift procurement focus from unit price to plant outage risk."
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:04",
+      "onscreen": "Spec sheets do not command a premium.",
+      "voiceover": "Spec sheets do not command a premium. When two chemical or raw material suppliers offer identical purity, procurement buys on price unless you brand the delivery contract.",
+      "direction": "Clean dark background with split graphical contrast between spec matrix and commercial agreement."
+    },
+    {
+      "timecode": "0:04-0:12",
+      "onscreen": "Procurement prices risk, not product.",
+      "voiceover": "Procurement committees do not buy product features. They buy risk mitigation for plant operations.",
+      "direction": "Visual comparison graphic showing spec parity versus SLA contrast.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Product Spec",
+            "detail": "Identical ISO standards across all vendors"
+          },
+          {
+            "label": "Contract Brand",
+            "detail": "Guaranteed 4-hour emergency turnaround"
+          }
+        ],
+        "note": "Industrial buying criteria comparison"
+      }
+    },
+    {
+      "timecode": "0:12-0:20",
+      "onscreen": "Brand the terms, not the molecule.",
+      "voiceover": "If you want to understand how to brand a commodity product, stop trying to make steel, resin, or freight sound emotional. Brand the service level agreement.",
+      "direction": "Text overlay with supply chain delivery workflow."
+    },
+    {
+      "timecode": "0:20-0:32",
+      "onscreen": "Three commercial terms that build margin.",
+      "voiceover": "There are three specific terms that turn an interchangeable supplier into an essential operational partner.",
+      "direction": "Onscreen checklist graphic highlighting three operational guarantees.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Stock holding",
+            "detail": "Vendor-managed inventory at plant gate"
+          },
+          {
+            "label": "Delivery SLA",
+            "detail": "Penalties paid automatically on delay"
+          },
+          {
+            "label": "Batch traceability",
+            "detail": "Instant digital lab certification"
+          }
+        ],
+        "note": "Commodity differentiation checklist"
+      }
+    },
+    {
+      "timecode": "0:32-0:42",
+      "onscreen": "Quantify plant downtime cost.",
+      "voiceover": "When your brand promises zero unbudgeted downtime, a procurement buyer can defend paying twelve percent more to their committee.",
+      "direction": "Visual showing line downtime costs vs unit price delta."
+    },
+    {
+      "timecode": "0:42-0:52",
+      "onscreen": "Audit your sales presentations.",
+      "voiceover": "Check your commercial deck. If slide three is still listing product parameters instead of operational guarantees, you are positioning as an interchangeable vendor.",
+      "direction": "Interactive slide checklist visual.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Slide 1-3 check",
+            "detail": "Focuses on plant outcome not product specs"
+          },
+          {
+            "label": "SLA prominence",
+            "detail": "Guarantees stated before unit pricing"
+          }
+        ],
+        "note": "Sales deck positioning check"
+      }
+    },
+    {
+      "timecode": "0:52-0:58",
+      "onscreen": "Brand is an operational guarantee.",
+      "voiceover": "Brand is an operational guarantee. When the product is standard, the commercial contract is your brand.",
+      "direction": "Closing screen with bold principal summary."
+    }
+  ],
+  "reel_cover": {
+    "headline": "Premium pricing on identical specs",
+    "signal": "Operational SLA model",
+    "layout": "split",
+    "visual": {
+      "kind": "comparison",
+      "items": [
+        {
+          "label": "Spec-focused vendor",
+          "detail": "Compete on lowest unit price"
+        },
+        {
+          "label": "Guaranteed SLA brand",
+          "detail": "Compete on plant risk reduction"
+        }
+      ],
+      "note": "Commodity positioning model"
+    }
+  },
+  "caption": "Spec sheets do not command a premium.\n\nLearning how to brand a commodity product requires shifting from product specifications to operational guarantees.\n\nIn industrial markets, every technical specification eventually converges. When your chemical, steel, or logistics offering meets standard engineering benchmarks, procurement treats you as interchangeable.\n\nThe mistake marketing teams make is trying to build an emotional narrative around a standard specification. A plant manager does not care about brand fluff during a supply disruption. They care about line downtime.\n\nThe real margin sits in commercial architecture. When you guarantee vendor-managed inventory, automatic delay rebates, and sub-hour batch certification, you convert unit price discussions into plant risk calculations.\n\nCommodity branding is contract design.\n\nSend this to a commercial leader preparing for next quarter's contract renewals.\n\n[b2b branding, how to brand a commodity product, industrial marketing, brand architecture, manufacturing marketing]",
+  "alt_text": "Visual framework showing how to brand a commodity product using operational guarantees and SLAs.",
+  "hashtags": [
+    "#b2bbranding",
+    "#industrialmarketing",
+    "#b2bmarketing"
+  ],
+  "cta": "Send this to a commercial leader preparing for next quarter's contract renewals.",
+  "failure_mode": "The audience might assume this advice only applies to heavily standardized bulk raw materials, missing its direct application to enterprise software SLAs and contract logistics.",
+  "scheduled_for": "2026-10-12T08:30:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "08:30"
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "reel",
+    "pillar": "b2b_brand",
+    "hook_words": 7,
+    "hook_characters": 37,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "comparison",
+    "schedule": {
+      "active": false,
+      "selected_time": "08:30"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "reel_assets": {
+    "background": {
+      "source": "images_folder",
+      "file": "b2b_brand-steel-grid.png"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (1).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-10-12/mon-0830-brandingcommodityproducts/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "comparison",
+    "checklist",
+    "checklist"
+  ],
+  "warnings": []
+}

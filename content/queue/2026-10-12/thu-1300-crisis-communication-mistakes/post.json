@@ -1,0 +1,166 @@
+{
+  "title": "crisis_communication_mistakes",
+  "pillar": "reputation",
+  "format": "reel",
+  "primary_keyword": "crisis communication mistakes",
+  "claim": "In B2B industrial crises, legal reviews prioritize immediate liability containment over commercial relationship retention, costing millions in canceled vendor contracts.",
+  "hook": "Your legal team is ruining your crisis response.",
+  "evidence": {
+    "type": "framework",
+    "detail": "A 3-part legal vs commercial crisis review checklist balancing liability containment against long-tail contract retention."
+  },
+  "failure_mode": "If the post sounds like an attack on corporate lawyers rather than a governance framework, it loses credibility with senior communicators who must work alongside legal.",
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "Your legal team is ruining your crisis response.",
+      "voiceover": "Your legal team is ruining your crisis response. When an operational breakdown hits, legal drafts a response designed to do exactly one thing: eliminate court liability.",
+      "direction": "Text on dark slate background with a stark red review stamp visual."
+    },
+    {
+      "timecode": "0:03-0:08",
+      "onscreen": "Zero legal exposure can mean zero customer trust",
+      "voiceover": "Zero legal exposure can mean zero customer trust. The legal response removes empathy, delays statements by 48 hours, and refuses to explain the failure.",
+      "direction": "Split screen contrasting legal defense priorities versus commercial contract risks.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Legal priority",
+            "detail": "Zero admitted liability in court"
+          },
+          {
+            "label": "Commercial risk",
+            "detail": "Buyer left with no board explanation"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "timecode": "0:08-0:14",
+      "onscreen": "Legal guards courtrooms. Brand guards contracts.",
+      "voiceover": "Legal guards courtrooms. Brand guards contracts. A liability-free statement often forces your commercial buyers to invoke default clauses because you gave them no narrative to defend you to their board.",
+      "direction": "Text over workflow showing approval bottleneck."
+    },
+    {
+      "timecode": "0:14-0:20",
+      "onscreen": "Run this audit before signing off statements.",
+      "voiceover": "Run this 3-point audit before signing off on any holding statement.",
+      "direction": "Transition frame introducing the governance framework."
+    },
+    {
+      "timecode": "0:20-0:28",
+      "onscreen": "3-point holding statement audit",
+      "voiceover": "First, state what failed without conceding fault. Second, give buyers a narrative for their board. Third, commit to a clear update time.",
+      "direction": "Checklist graphic appears on screen.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Cause acknowledgment",
+            "detail": "State what failed without conceding fault"
+          },
+          {
+            "label": "Customer impact",
+            "detail": "Give buyers a line to tell their board"
+          },
+          {
+            "label": "Remediation clock",
+            "detail": "Commit to a specific update time"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:28-0:34",
+      "onscreen": "Reputation is contract retention.",
+      "voiceover": "Reputation is contract retention. If your statement survives legal review but causes your top three clients to open an audit, the response failed.",
+      "direction": "Text statement on dark industrial background."
+    }
+  ],
+  "reel_cover": {
+    "headline": "Legal approvals vs retention",
+    "signal": "3-point crisis check",
+    "layout": "stamp",
+    "visual": {
+      "kind": "comparison",
+      "items": [
+        {
+          "label": "Legal Priority",
+          "detail": "Zero admitted liability in court"
+        },
+        {
+          "label": "Commercial Reality",
+          "detail": "Buyer needs narrative for board"
+        }
+      ],
+      "note": "Illustrative workflow"
+    }
+  },
+  "caption": "Your legal team is ruining your crisis response.\n\nAvoiding common crisis communication mistakes requires managing the gap between legal safety and buyer retention.\n\nIn B2B heavy industry, an operational issue rarely ends in a lawsuit. It ends in a procurement audit.\n\nWhen a plant trips or a shipment delays, legal counsel wants no admission, zero commitments, and maximum ambiguity. That strategy avoids courtroom liability while quietly destroying your commercial contracts.\n\nYour buyers have to explain your failure to their own internal risk committees. If your holding statement gives them zero operational context, they cannot defend you. Their safest option is to trigger default clauses or diversify suppliers.\n\nLegal counsel optimizes for zero legal exposure. Corporate communications must optimize for contract retention. If your crisis response survives legal sign-off but forces a strategic account to issue a tender, you lost the real risk battle.\n\nSend this to whoever is redlining your crisis comms protocol this week.\n\n[crisis communication mistakes, corporate reputation, crisis management, b2b comms, corporate communications]",
+  "alt_text": "Comparison chart showing legal priority of zero liability versus commercial need for client trust.",
+  "hashtags": [
+    "#corporatecommunications",
+    "#crisiscommunication",
+    "#reputation"
+  ],
+  "cta": "Send this to whoever is redlining your crisis comms protocol this week.",
+  "sources": [],
+  "scheduled_for": "2026-10-15T13:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": true,
+    "selected_time": "13:00",
+    "candidates": [
+      "13:00",
+      "17:00"
+    ],
+    "week_index": 0
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "reel",
+    "pillar": "reputation",
+    "hook_words": 8,
+    "hook_characters": 48,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "comparison",
+    "schedule": {
+      "active": true,
+      "selected_time": "13:00",
+      "candidates": [
+        "13:00",
+        "17:00"
+      ],
+      "week_index": 0
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "reel_assets": {
+    "background": {
+      "source": "images_folder",
+      "file": "reputation-reflection.png"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (11).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-10-12/thu-1300-crisis-communication-mistakes/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "comparison",
+    "checklist"
+  ],
+  "warnings": []
+}

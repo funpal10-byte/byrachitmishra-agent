@@ -1,0 +1,199 @@
+{
+  "title": "ai_prompts_that_argue",
+  "pillar": "ai_in_practice",
+  "format": "carousel",
+  "primary_keyword": "AI governance for marketing teams",
+  "claim": "Useful AI prompts force disagreement instead of generating volume.",
+  "hook": "Prompts make you faster at being wrong.",
+  "evidence": {
+    "type": "source",
+    "source_url": "https://www.rachitmishra.in/2026/09/28/ai-prompts-for-marketers/",
+    "detail": "McKinsey's 2026 State of AI survey found 80% report productivity gains while only 37% report EBIT impact."
+  },
+  "slides": [
+    {
+      "headline": "Prompts make you faster at being wrong."
+    },
+    {
+      "kicker": "The productivity gap",
+      "headline": "Eighty percent faster. Zero net impact.",
+      "body": "McKinsey found eighty percent report individual productivity gains, but only thirty-seven percent see EBIT impact.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Productivity",
+            "detail": "80% report faster individual output"
+          },
+          {
+            "label": "EBIT Impact",
+            "detail": "Only 37% see measurable financial return"
+          }
+        ],
+        "note": "McKinsey 2026 State of AI survey data"
+      }
+    },
+    {
+      "kicker": "The output trap",
+      "headline": "Volume shares better than judgement.",
+      "body": "A list titled fifty prompts performs well because fifty is bigger than twelve. Every one generates unvetted output.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "More prompts",
+            "detail": "Generates volume without testing claims"
+          },
+          {
+            "label": "False confidence",
+            "detail": "Plausible drafts replace critical review"
+          }
+        ],
+        "note": "Content operation workflow observation"
+      }
+    },
+    {
+      "kicker": "The jagged frontier",
+      "headline": "When people fall asleep at the wheel.",
+      "body": "A BCG field experiment showed AI users worked twenty-five percent faster, but accuracy dropped on complex tasks.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Routine tasks",
+            "detail": "Speed and quality both increase significantly"
+          },
+          {
+            "label": "Complex reasoning",
+            "detail": "Unchecked output drops human accuracy"
+          }
+        ],
+        "note": "Harvard, Wharton and BCG field experiment"
+      }
+    },
+    {
+      "kicker": "The fix",
+      "headline": "Force the model to disagree with you.",
+      "body": "A prompt worth keeping attacks your brief, stresses your positioning, or red-teams your plan before it writes.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Stress-test",
+            "detail": "Attack positioning as a skeptical buyer"
+          },
+          {
+            "label": "Red-team",
+            "detail": "Argue the strongest case against the plan"
+          }
+        ],
+        "note": "Core prompt engineering principles"
+      }
+    },
+    {
+      "kicker": "The criteria",
+      "headline": "Test every prompt against one question.",
+      "body": "If the model agreed with you by default, you learned nothing. Rewrite it to force a weak point or missing proof.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Default agreement",
+            "detail": "Discard prompts that merely validate your view"
+          },
+          {
+            "label": "Forced friction",
+            "detail": "Keep prompts that surface hidden objections"
+          }
+        ],
+        "note": "Usability test for marketing prompts"
+      }
+    },
+    {
+      "kicker": "Application",
+      "headline": "Run this test on your next brief.",
+      "body": "Ask AI to list every assumption the brief makes without stating it, and three questions to ask before starting work.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Extract assumptions",
+            "detail": "Examine audience and budget premises"
+          },
+          {
+            "label": "Block solutions",
+            "detail": "Forbid ideas until questions are answered"
+          }
+        ],
+        "note": "Operational briefing checklist"
+      }
+    },
+    {
+      "headline": "Judgement is the bottleneck.",
+      "body": "AI governance for marketing teams starts when you stop optimising for speed and start optimising for friction. Read the full twelve-prompt list on my site."
+    }
+  ],
+  "caption": "Prompts make you faster at being wrong.\n\nAI governance for marketing teams fails when we treat language models as copywriters instead of sparring partners. If a prompt's output agrees with you by default, it is decorating a decision you had already made.\n\nThe twelve prompts I actually reuse are built to argue, interrogate briefs, and red-team plans before a single draft gets written. The full list and source prompts are on my site: https://www.rachitmishra.in/2026/09/28/ai-prompts-for-marketers/\n\nSend this to whoever is defending their AI tool budget this quarter.\n\n[ai governance for marketing teams, marketing operations, enterprise ai adoption, ai content workflow]\n\n#aimarketing #martech #marketingoperations",
+  "alt_text": "Carousel slides on why AI prompts must force disagreement rather than generate unvetted volume.",
+  "hashtags": [
+    "#aimarketing",
+    "#martech",
+    "#marketingoperations"
+  ],
+  "cta": "Send this to whoever is defending their AI tool budget this quarter.",
+  "failure_mode": "Readers might skip the prompt mechanics and treat it as a generic anti-AI opinion piece.",
+  "sources": [
+    {
+      "title": "AI Prompts for Marketers: The 12 I Actually Reuse",
+      "url": "https://www.rachitmishra.in/2026/09/28/ai-prompts-for-marketers/"
+    }
+  ],
+  "scheduled_for": "2026-10-16T19:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2026/09/28/ai-prompts-for-marketers/",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "19:00"
+  },
+  "experiment": {
+    "hook_type": "correction",
+    "evidence_type": "source",
+    "format": "carousel",
+    "pillar": "ai_in_practice",
+    "hook_words": 7,
+    "hook_characters": 39,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "19:00"
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2026/09/28/ai-prompts-for-marketers/",
+    "final_url": "https://www.rachitmishra.in/2026/09/28/ai-prompts-for-marketers/",
+    "http_status": 200
+  },
+  "images": [
+    "content/queue/2026-10-12/fri-1900-ai-prompts-that-argue/slide-01.jpg",
+    "content/queue/2026-10-12/fri-1900-ai-prompts-that-argue/slide-02.jpg",
+    "content/queue/2026-10-12/fri-1900-ai-prompts-that-argue/slide-03.jpg",
+    "content/queue/2026-10-12/fri-1900-ai-prompts-that-argue/slide-04.jpg",
+    "content/queue/2026-10-12/fri-1900-ai-prompts-that-argue/slide-05.jpg",
+    "content/queue/2026-10-12/fri-1900-ai-prompts-that-argue/slide-06.jpg",
+    "content/queue/2026-10-12/fri-1900-ai-prompts-that-argue/slide-07.jpg",
+    "content/queue/2026-10-12/fri-1900-ai-prompts-that-argue/slide-08.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "bottleneck",
+    "comparison",
+    "checklist",
+    "checklist",
+    "checklist"
+  ],
+  "warnings": []
+}
