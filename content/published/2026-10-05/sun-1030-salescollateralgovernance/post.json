@@ -138,7 +138,7 @@
   "failure_mode": "It could be misinterpreted as anti-sales sentiment rather than a governance framework for marketing capacity.",
   "sources": [],
   "scheduled_for": "2026-10-11T10:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "blog_fallback": "No unused full article available; evergreen replacement",
@@ -179,5 +179,7 @@
     "comparison",
     "checklist"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-10-11T11:06:46.636188+05:30",
+  "media_id": "17938109907377782"
 }
