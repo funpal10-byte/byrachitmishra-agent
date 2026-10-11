@@ -1,0 +1,207 @@
+{
+  "title": "internalcommbrandchannel",
+  "pillar": "b2b_brand",
+  "format": "carousel",
+  "primary_keyword": "B2B brand positioning",
+  "claim": "Internal communication failure degrades B2B brand positioning because managers translate brand promises into internal cost targets.",
+  "hook": "Your brand is changing at every manager's desk.",
+  "evidence": {
+    "type": "source",
+    "source_url": "https://www.rachitmishra.in/2026/09/30/internal-communication-strategy/",
+    "detail": "McKinsey research on organizational transformations found senior leaders were 86% likely to say they role model desired behaviours while only 50% of employees agreed."
+  },
+  "slides": [
+    {
+      "headline": "Your brand is changing at every manager's desk."
+    },
+    {
+      "kicker": "The breakdown",
+      "headline": "The corporate message cascade always distorts the brand promise.",
+      "body": "Every layer strips detail. Speed promises become cost targets by the plant floor.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Head Office Promise",
+            "detail": "Speed to customer"
+          },
+          {
+            "label": "Plant Floor Delivery",
+            "detail": "Cost reduction priority"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "kicker": "The operational gap",
+      "headline": "Leadership overestimates how clearly the brand strategy lands.",
+      "body": "McKinsey data shows 86% of leaders think they model values, but 50% of staff see it.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Leaders Who Believe It",
+            "detail": "86 percent report clear alignment"
+          },
+          {
+            "label": "Employees Who See It",
+            "detail": "50 percent observe the behaviour"
+          }
+        ],
+        "note": "McKinsey transformation study"
+      }
+    },
+    {
+      "kicker": "The channel flaw",
+      "headline": "Frontline teams experience the brand through broken channels.",
+      "body": "Field crews miss email blasts. They rely on shift briefings that drop positioning.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Corporate Channels",
+            "detail": "Intranets and desk emails"
+          },
+          {
+            "label": "Frontline Reality",
+            "detail": "No laptop, zero desk time"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "kicker": "The measurement fix",
+      "headline": "Replace email open rates with message fidelity testing.",
+      "body": "Clicks measure delivery. Check if supervisors state market promises unprompted.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Legacy Metric",
+            "detail": "Town hall attendance rates"
+          },
+          {
+            "label": "Brand Channel Metric",
+            "detail": "Unprompted fidelity at site"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "The audit framework",
+      "headline": "Run a fortnightly fidelity check across frontline sites.",
+      "body": "Sample fifteen staff across sites. Record verbatim promises. Score alignment.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Sample 15 Staff",
+            "detail": "Focus on site supervisors"
+          },
+          {
+            "label": "Ask 2 Questions",
+            "detail": "Record verbatim promises"
+          },
+          {
+            "label": "Score Alignment",
+            "detail": "Accurate, partial, wrong"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "The diagnostic",
+      "headline": "Three checks to audit your internal brand channel.",
+      "body": "Test your internal positioning strength with these operational metrics.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Frontline Audit",
+            "detail": "Can supervisors state promise"
+          },
+          {
+            "label": "Channel Reach",
+            "detail": "Do workers get site scripts"
+          },
+          {
+            "label": "Metric Shift",
+            "detail": "Are verbatim answers logged"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "headline": "Internal comms is a brand channel, not HR admin.",
+      "body": "If a supervisor cannot state your brand promise, you do not have an internal comms problem. You have a brand that only exists in marketing."
+    }
+  ],
+  "caption": "Your brand is changing at every manager's desk.\n\nMaintaining B2B brand positioning is fundamentally an operational alignment challenge. When head office launches a new brand strategy, every management layer translates that promise through their own operational targets.\n\nBy the time a positioning promise about delivery speed reaches a plant shift briefing, it frequently becomes an instruction about cost reduction. Nobody lied. Each manager simply translated the corporate message into local incentives.\n\nTracking open rates on executive newsletters tells you nothing about brand consistency. The real test is message fidelity: whether a frontline site supervisor can state your customer promise in their own words without prompting.\n\nInternal communication belongs with whoever owns the brand promise.\n\nThe full analysis is on my site: https://www.rachitmishra.in/2026/09/30/internal-communication-strategy/\n\nSend this to whoever is responsible for brand governance across multi-site operations.\n\n[b2b brand positioning, b2b branding, industrial marketing, brand architecture, manufacturing marketing]\n\n#b2bbranding #industrialmarketing #brandstrategy",
+  "alt_text": "Carousel slides on internal communications and B2B brand positioning.",
+  "hashtags": [
+    "#b2bbranding",
+    "#industrialmarketing",
+    "#brandstrategy"
+  ],
+  "cta": "Send this to whoever is responsible for brand governance across multi-site operations.",
+  "failure_mode": "It could be misread as general HR advice if the distinction between brand message fidelity and internal employee engagement is not kept explicit.",
+  "sources": [
+    {
+      "title": "Internal Communication Strategy Is a Brand Channel",
+      "url": "https://www.rachitmishra.in/2026/09/30/internal-communication-strategy/"
+    }
+  ],
+  "scheduled_for": "2026-10-12T19:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2026/09/30/internal-communication-strategy/",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "19:00"
+  },
+  "experiment": {
+    "hook_type": "claim",
+    "evidence_type": "source",
+    "format": "carousel",
+    "pillar": "b2b_brand",
+    "hook_words": 8,
+    "hook_characters": 47,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "19:00"
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2026/09/30/internal-communication-strategy/",
+    "final_url": "https://www.rachitmishra.in/2026/09/30/internal-communication-strategy/",
+    "http_status": 200
+  },
+  "images": [
+    "content/queue/2026-10-12/mon-1900-internalcommbrandchannel/slide-01.jpg",
+    "content/queue/2026-10-12/mon-1900-internalcommbrandchannel/slide-02.jpg",
+    "content/queue/2026-10-12/mon-1900-internalcommbrandchannel/slide-03.jpg",
+    "content/queue/2026-10-12/mon-1900-internalcommbrandchannel/slide-04.jpg",
+    "content/queue/2026-10-12/mon-1900-internalcommbrandchannel/slide-05.jpg",
+    "content/queue/2026-10-12/mon-1900-internalcommbrandchannel/slide-06.jpg",
+    "content/queue/2026-10-12/mon-1900-internalcommbrandchannel/slide-07.jpg",
+    "content/queue/2026-10-12/mon-1900-internalcommbrandchannel/slide-08.jpg"
+  ],
+  "rendered_visuals": [
+    "bottleneck",
+    "comparison",
+    "bottleneck",
+    "comparison",
+    "checklist",
+    "checklist"
+  ],
+  "warnings": []
+}

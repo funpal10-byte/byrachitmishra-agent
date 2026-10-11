@@ -1,0 +1,165 @@
+{
+  "type": "object",
+  "pillar": "inside_the_org",
+  "format": "carousel",
+  "primary_keyword": "defending a marketing budget",
+  "claim": "When commercial leadership asks why brand budget exists while sales targets are missed, quoting awareness metrics guarantees a budget cut.",
+  "hook": "Awareness is why budgets get cut.",
+  "evidence": {
+    "type": "practitioner_observation",
+    "detail": "Observed quarterly review cycles across industrial equipment and logistics firms where abstract brand metrics failed to survive commercial scrutiny."
+  },
+  "title": "defendingmarketingbudget",
+  "slides": [
+    {
+      "headline": "Awareness is why budgets get cut."
+    },
+    {
+      "kicker": "The Boardroom Trap",
+      "headline": "Awareness metrics invite procurement scrutiny.",
+      "body": "Reporting raw reach gives finance instant permission to cut your plan by noon.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "What brand teams report",
+            "detail": "Impression growth and reach figures"
+          },
+          {
+            "label": "What finance calculates",
+            "detail": "Cost per unverified eyeball"
+          }
+        ],
+        "note": "Quarterly review disparity"
+      }
+    },
+    {
+      "kicker": "The Sales Reality",
+      "headline": "Sales teams do not need more visibility.",
+      "body": "Sellers need pre-sold credibility to clear long procurement cycles.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Requested budget",
+            "detail": "General brand awareness campaigns"
+          },
+          {
+            "label": "Actual bottleneck",
+            "detail": "Procurement committee hesitation"
+          }
+        ],
+        "note": "Industrial sales cycle reality"
+      }
+    },
+    {
+      "kicker": "The Alternative",
+      "headline": "Defend the margin protection instead.",
+      "body": "Show how governance protects pricing power so sales does not discount.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Old argument",
+            "detail": "We need to stay top of mind"
+          },
+          {
+            "label": "Defensible argument",
+            "detail": "We reduce vendor evaluation risk"
+          }
+        ],
+        "note": "Value defense shift"
+      }
+    },
+    {
+      "kicker": "The Audit Test",
+      "headline": "Run this test before your next budget deck.",
+      "body": "Ask sales if extra impressions help close. If they hesitate, rewrite the slide.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Check buyer risk",
+            "detail": "Does the brand reduce committee friction?"
+          },
+          {
+            "label": "Check pricing",
+            "detail": "Does it protect margins against rivals?"
+          }
+        ],
+        "note": "Pre-meeting audit test"
+      }
+    },
+    {
+      "kicker": "The Core Rule",
+      "headline": "Brand equity is risk reduction for buyers.",
+      "body": "If you cannot explain how your work lowers buyer risk, you are asking for a donation.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Failed framing",
+            "detail": "Brand as a communication expense"
+          },
+          {
+            "label": "Defensible framing",
+            "detail": "Brand as commercial risk mitigation"
+          }
+        ],
+        "note": "Final structural distinction"
+      }
+    }
+  ],
+  "caption": "Awareness is why budgets get cut.\n\nDefending a marketing budget in an industrial organisation requires abandoning consumer metrics entirely. When you report impressions to a commercial committee looking at missed tonnage targets, you are handing them the knife.\n\nFinance understands risk reduction. They do not understand share of voice.\n\nSend this to whoever is defending the brand budget this quarter.\n\n[defending a marketing budget, in-house marketing, stakeholder management, brand governance]\n\n#marketingleadership #inhousemarketing #brandgovernance #cmo #b2bmarketing",
+  "alt_text": "Carousel slides outlining why awareness metrics fail when defending industrial marketing budgets.",
+  "hashtags": [
+    "#marketingleadership",
+    "#inhousemarketing",
+    "#brandgovernance",
+    "#cmo",
+    "#b2bmarketing"
+  ],
+  "cta": "Send this to whoever is defending the brand budget this quarter.",
+  "failure_mode": "Readers might confuse this with general finance advice rather than specific industrial marketing positioning.",
+  "scheduled_for": "2026-10-17T10:30:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "10:30"
+  },
+  "experiment": {
+    "hook_type": "cost",
+    "evidence_type": "practitioner_observation",
+    "format": "carousel",
+    "pillar": "inside_the_org",
+    "hook_words": 6,
+    "hook_characters": 33,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "10:30"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "images": [
+    "content/queue/2026-10-12/sat-1030-defendingmarketingbudget/slide-01.jpg",
+    "content/queue/2026-10-12/sat-1030-defendingmarketingbudget/slide-02.jpg",
+    "content/queue/2026-10-12/sat-1030-defendingmarketingbudget/slide-03.jpg",
+    "content/queue/2026-10-12/sat-1030-defendingmarketingbudget/slide-04.jpg",
+    "content/queue/2026-10-12/sat-1030-defendingmarketingbudget/slide-05.jpg",
+    "content/queue/2026-10-12/sat-1030-defendingmarketingbudget/slide-06.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "bottleneck",
+    "comparison",
+    "checklist",
+    "comparison"
+  ],
+  "warnings": []
+}

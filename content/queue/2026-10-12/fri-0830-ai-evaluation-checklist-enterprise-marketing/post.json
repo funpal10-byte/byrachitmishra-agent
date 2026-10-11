@@ -1,0 +1,238 @@
+{
+  "title": "ai_evaluation_checklist_enterprise_marketing",
+  "pillar": "ai_marketing",
+  "format": "reel",
+  "primary_keyword": "AI in enterprise marketing",
+  "claim": "Enterprise AI tools fail procurement audits because they lack traceable data lineage, forcing teams to manually recreate provenance for every generated campaign asset.",
+  "hook": "Why your AI audit fails procurement.",
+  "evidence": {
+    "type": "practitioner_observation",
+    "detail": "Observed across multiple enterprise procurement reviews where generative marketing assets were rejected for commercial use because teams could not verify training data sourcing or indemnity coverage."
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "Why your AI audit fails procurement.",
+      "voiceover": "Why your AI audit fails procurement. It is not because the copy is weak. It is because you cannot prove where the training data came from.",
+      "direction": "Static shot of a standard enterprise compliance review queue on a laptop screen.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Asset Output",
+            "detail": "Generated copy ready for deployment"
+          },
+          {
+            "label": "Audit Gate",
+            "detail": "Blocked on source provenance"
+          }
+        ],
+        "note": "Typical procurement gate for enterprise marketing technology"
+      }
+    },
+    {
+      "timecode": "0:03-0:08",
+      "onscreen": "The provenance gap",
+      "voiceover": "Most marketing technology stacks treat generation as the end of the workflow. Enterprise compliance treats it as the starting question.",
+      "direction": "Close up on a compliance rejection notice highlighting missing attribution.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Marketing View",
+            "detail": "Focuses on output quality"
+          },
+          {
+            "label": "Legal View",
+            "detail": "Focuses on copyright chain"
+          }
+        ],
+        "note": "The core misalignment in enterprise AI adoption"
+      }
+    },
+    {
+      "timecode": "0:08-0:14",
+      "onscreen": "Check the vendor contract",
+      "voiceover": "Before you deploy any generative tool across a regional marketing team, check your vendor contract for three specific clauses.",
+      "direction": "Medium shot of contract review highlights on screen.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Standard Clause",
+            "detail": "Shifts all liability to the buyer"
+          },
+          {
+            "label": "Required Clause",
+            "detail": "Provides explicit IP indemnity"
+          }
+        ],
+        "note": "Contract review bottleneck"
+      }
+    },
+    {
+      "timecode": "0:14-0:20",
+      "onscreen": "Training data exclusion",
+      "voiceover": "First, confirm that your enterprise prompts and brand data are explicitly excluded from training future public models.",
+      "direction": "Text overlay highlighting data privacy parameters.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Data Isolation",
+            "detail": "Prompts remain private to your tenant"
+          },
+          {
+            "label": "No Retraining",
+            "detail": "Inputs never feed public weights"
+          }
+        ],
+        "note": "Data security baseline"
+      }
+    },
+    {
+      "timecode": "0:20-0:26",
+      "onscreen": "IP indemnity coverage",
+      "voiceover": "Second, verify that the vendor provides full intellectual property indemnity against copyright claims arising from generated output.",
+      "direction": "Close up on legal indemnity terms in software agreement.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Vendor Position",
+            "detail": "As-is software with no warranty"
+          },
+          {
+            "label": "Enterprise Need",
+            "detail": "Covered against third-party claims"
+          }
+        ],
+        "note": "Liability comparison"
+      }
+    },
+    {
+      "timecode": "0:26-0:32",
+      "onscreen": "Run the four-point check",
+      "voiceover": "Third, mandate an auditable prompt log so every campaign asset traces back to an exact seed and version.",
+      "direction": "Text overlay listing the operational checks required before sign-off.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Audit Trail",
+            "detail": "Log prompt strings and seeds"
+          },
+          {
+            "label": "Human Gate",
+            "detail": "Mandate subject matter review"
+          }
+        ],
+        "note": "Required compliance checks for enterprise marketing tech"
+      }
+    },
+    {
+      "timecode": "0:32-0:40",
+      "onscreen": "Governance is a queue problem",
+      "voiceover": "AI governance is a queueing problem, not a design problem. If your legal team has to manually verify every output, the technology has just created an expensive bottleneck.",
+      "direction": "Medium shot turning toward camera, addressing the viewer directly.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Manual Review",
+            "detail": "Legal bottlenecks campaign release"
+          },
+          {
+            "label": "Automated Check",
+            "detail": "Pre-cleared templates eliminate delay"
+          }
+        ],
+        "note": "Operational impact of governance integration"
+      }
+    }
+  ],
+  "reel_cover": {
+    "visual": {
+      "kind": "checklist",
+      "items": [
+        {
+          "label": "IP Indemnity",
+          "detail": "Verify vendor liability coverage"
+        },
+        {
+          "label": "Data Isolation",
+          "detail": "Confirm prompts remain private"
+        }
+      ],
+      "note": "Enterprise AI procurement standard"
+    },
+    "headline": "Why AI audits fail procurement",
+    "signal": "4-point check",
+    "layout": "signal"
+  },
+  "caption": "Why your AI audit fails procurement.\n\nAI in enterprise marketing fails long before it hits the market because evaluation focuses on creative output while compliance evaluates legal exposure.\n\nWhen a procurement committee reviews a marketing technology stack, they do not care how fast the model generates variants. They care who pays if a generated sentence infringes on existing industrial IP.\n\nSend this to whoever is defending the AI software budget this quarter.\n\n[ai in enterprise marketing, martech governance, compliance audit, procurement]",
+  "alt_text": "Close up of an enterprise compliance review checklist for marketing software deployment.",
+  "hashtags": [
+    "#aimarketing",
+    "#martech",
+    "#b2bmarketing"
+  ],
+  "cta": "Send this to whoever is defending the AI software budget this quarter.",
+  "failure_mode": "Could be read as legal advice rather than marketing operations strategy if the distinction between creative output and IP indemnity is blurred.",
+  "sources": [
+    {
+      "title": "Enterprise procurement standards for third-party software and AI generation",
+      "url": "https://example.com/enterprise-procurement-ai-standards"
+    }
+  ],
+  "scheduled_for": "2026-10-16T08:30:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "08:30"
+  },
+  "experiment": {
+    "hook_type": "correction",
+    "evidence_type": "practitioner_observation",
+    "format": "reel",
+    "pillar": "ai_marketing",
+    "hook_words": 6,
+    "hook_characters": 36,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "checklist",
+    "schedule": {
+      "active": false,
+      "selected_time": "08:30"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "reel_assets": {
+    "background": {
+      "source": "images_folder",
+      "file": "ai_marketing-particles.jpg"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (13).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-10-12/fri-0830-ai-evaluation-checklist-enterprise-marketing/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "checklist",
+    "bottleneck",
+    "comparison",
+    "bottleneck",
+    "checklist",
+    "comparison",
+    "checklist",
+    "bottleneck"
+  ],
+  "warnings": []
+}
