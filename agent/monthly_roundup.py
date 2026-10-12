@@ -29,12 +29,30 @@ def month_window(month, now):
     return start, end
 
 
-def schedule_time(end, now):
+def schedule_time(end, now, weekly_slots=()):
     # Extra slot at 19:30, clear of existing 19:00/20:00 weekly slots.
     nominal = end.replace(day=2, hour=19, minute=30, second=0, microsecond=0)
     if nominal <= now:
         nominal = (now + dt.timedelta(days=2)).replace(hour=19, minute=30, second=0, microsecond=0)
-    return nominal
+    # The existing publisher checks hourly. Avoid sharing its pickup hour
+    # with a normal weekly slot (notably Wednesday's 20:00 carousel).
+    for _ in range(12):
+        pickup = nominal.replace(minute=0) + dt.timedelta(hours=1)
+        collision = False
+        for slot in weekly_slots:
+            if slot.get("day") != nominal.strftime("%a").lower():
+                continue
+            for clock in slot.get("time_candidates") or [slot["time"]]:
+                hour, minute = map(int, clock.split(":"))
+                slot_pickup = nominal.replace(hour=hour, minute=0)
+                if minute:
+                    slot_pickup += dt.timedelta(hours=1)
+                if slot_pickup == pickup:
+                    collision = True
+        if not collision:
+            return nominal
+        nominal += dt.timedelta(hours=1)
+    raise ValueError("No separate publishing window found for the monthly carousel")
 
 
 def existing_month(month):
@@ -121,7 +139,7 @@ def main():
     if not articles:
         print(f"[skip] No published blogs for {month}; no empty newsletter promotion created")
         return 0
-    when = schedule_time(end, now)
+    when = schedule_time(end, now, brand.slots)
     if args.preview:
         post = preview_post(articles, start)
     else:
