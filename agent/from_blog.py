@@ -97,6 +97,27 @@ def fetch_feed(url: str = FEED_URL) -> list[dict]:
             "body": body,
             "words": len(body.split()),
         })
+    # A newsletter may need excerpt-only RSS. Hydrate those entries from the
+    # same site's public WordPress API so weekly adaptations still get the
+    # actual article. Never treat an excerpt as a full source or widen hosts.
+    short = [entry for entry in items if entry["words"] < 150]
+    if short:
+        from urllib.parse import urlparse
+        from .wordpress import canonical_url, fetch_articles
+        parsed = urlparse(url)
+        site = f"https://{parsed.netloc}"
+        local = [entry for entry in short if canonical_url(entry["link"])[0] == canonical_url(site)[0]]
+        slugs = [urlparse(entry["link"]).path.rstrip("/").split("/")[-1] for entry in local]
+        if slugs:
+            try:
+                full = {canonical_url(article["link"]): article
+                        for article in fetch_articles(site, slugs=slugs)}
+                for entry in local:
+                    article = full.get(canonical_url(entry["link"]))
+                    if article and article["words"] >= 150:
+                        entry.update(body=article["body"], words=article["words"])
+            except Exception as exc:
+                print(f"[blog] full-article hydration unavailable: {exc}", file=sys.stderr)
     return items
 
 
