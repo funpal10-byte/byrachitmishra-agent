@@ -157,7 +157,7 @@
     }
   ],
   "scheduled_for": "2026-10-12T19:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "blog",
   "source_url": "https://www.rachitmishra.in/2026/09/30/internal-communication-strategy/",
@@ -203,5 +203,7 @@
     "checklist",
     "checklist"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-10-13T00:28:46.360145+05:30",
+  "media_id": "18491186971100670"
 }
