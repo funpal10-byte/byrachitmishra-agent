@@ -1,0 +1,82 @@
+name: Draft monthly newsletter carousel
+on:
+  schedule:
+    - cron: "0 3 1 * *" # 1st, 08:30 IST
+  workflow_dispatch:
+    inputs:
+      month:
+        description: "Completed month YYYY-MM; blank means previous month"
+        required: false
+        type: string
+      preview:
+        description: "Render a source-backed preview outside the publishing queue (no model calls)"
+        type: boolean
+        default: true
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: monthly-newsletter-draft
+  cancel-in-progress: false
+jobs:
+  draft:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install existing renderer dependencies
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+      - name: Install existing Inter typeface
+        run: |
+          mkdir -p ~/.fonts
+          curl -fsSL -o /tmp/inter.zip https://github.com/rsms/inter/releases/download/v4.0/Inter-4.0.zip
+          unzip -oq /tmp/inter.zip -d /tmp/inter
+          find /tmp/inter -name "*.ttf" -exec cp {} ~/.fonts/ \;
+          fc-cache -f
+      - name: Check agent compatibility
+        run: python -m unittest discover -s tests -v
+      - name: Draft the monthly post
+        id: monthly
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
+          AGENT_MODEL: ${{ vars.AGENT_MODEL }}
+          REQUESTED_MONTH: ${{ inputs.month }}
+          PREVIEW_ONLY: ${{ github.event_name == 'workflow_dispatch' && inputs.preview == true }}
+        run: |
+          args=()
+          if [ -n "$REQUESTED_MONTH" ]; then args+=(--month "$REQUESTED_MONTH"); fi
+          if [ "$PREVIEW_ONLY" = "true" ]; then args+=(--preview); fi
+          python -m agent.monthly_roundup "${args[@]}"
+      - name: Save preview for download
+        if: github.event_name == 'workflow_dispatch' && inputs.preview == true
+        uses: actions/upload-artifact@v7
+        with:
+          name: newsletter-carousel-preview
+          path: preview/newsletter/
+          if-no-files-found: warn
+      - name: Open normal content approval pull request
+        if: steps.monthly.outputs.count == '1' && !(github.event_name == 'workflow_dispatch' && inputs.preview == true)
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: draft/newsletter-${{ steps.monthly.outputs.month }}
+          add-paths: content/queue/newsletter-*/**
+          commit-message: "Draft monthly newsletter carousel: ${{ steps.monthly.outputs.month }}"
+          title: "Monthly roundup ${{ steps.monthly.outputs.month }} — extra Instagram carousel"
+          body: |
+            One extra monthly post in the existing RM style. The ten weekly slots are unchanged.
+            Review `${{ steps.monthly.outputs.batch_dir }}/monthly-reading-roundup/POST.md` and `MONTH-SOURCES.json`.
+            Merge to approve through the existing promote/publish flow; close to reject.
+            The normal hourly publisher and its PUBLISH_ENABLED setting remain unchanged.
+            This post does not claim that a newsletter edition has already been sent or published.
+          labels: |
+            content
+            needs-review
+          delete-branch: true
