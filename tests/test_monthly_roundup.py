@@ -37,6 +37,12 @@ class MonthlyTests(unittest.TestCase):
         self.assertIn("15 blogs", post["caption"])
         self.assertEqual(len(post["slides"]), 6)
 
+    def test_hourly_publisher_window_does_not_collide(self):
+        december = self.now.replace(month=12, day=1, hour=0, minute=0)
+        when = monthly.schedule_time(december, self.now, [
+            {"day": "wed", "time": "20:00"}, {"day": "wed", "time": "08:30"}])
+        self.assertEqual(when.strftime("%Y-%m-%d %H:%M"), "2026-12-02 20:30")
+
     def test_deduplication_in_approved_and_published_queues(self):
         with tempfile.TemporaryDirectory() as tmp:
             base = Path(tmp)
