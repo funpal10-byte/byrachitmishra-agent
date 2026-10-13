@@ -126,7 +126,7 @@
   "failure_mode": "If B2B marketers mistake GEO for simple keyword optimization rather than structural content re-architecture, the tactical advice might feel like a minor website update instead of a fundamental publishing pivot.",
   "sources": [],
   "scheduled_for": "2026-10-13T19:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -169,5 +169,7 @@
     "checklist",
     "checklist"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-10-13T23:03:48.489553+05:30",
+  "media_id": "18121172704869107"
 }
