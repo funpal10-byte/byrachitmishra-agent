@@ -34,8 +34,8 @@ _DEFAULTS = {
     "bg_alt": "#16181a",
     "ink": "#14161a",
     "ink_soft": "#52575c",
-    "accent": "#b0492a",
-    "accent_on_dark": "#e0855f",
+    "accent": "#006A4E",
+    "accent_on_dark": "#80C7AA",
     "rule": "#dedbd5",
 }
 

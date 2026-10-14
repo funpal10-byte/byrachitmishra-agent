@@ -299,16 +299,16 @@ schedule:
 #  Visual system. Unchanged — the palette and logo already work.
 # ---------------------------------------------------------------------------
 design:
-  # Oxide palette, adopted Sept 2026. The previous accent (#7c3aed) is the
-  # default AI/SaaS purple — fine in isolation, but against a grid about
-  # steel, freight and procurement it signalled software startup. Oxide comes
-  # out of the subject's own material: rust, furnace, warm metal.
+  # Bottle green, October 2026. Plain paper and charcoal grounds keep text
+  # readable; photos remain available as assets but are not text backgrounds.
   bg: "#f5f4f1"        # paper, a shade cooler than the old warm cream
   bg_alt: "#16181a"    # inverted ground — used sparingly, see slide_roles
   ink: "#14161a"
   ink_soft: "#52575c"  # lifted for contrast at slide scale
-  accent: "#b0492a"
-  accent_on_dark: "#e0855f"   # oxide is too dark to read on bg_alt
+  accent: "#006A4E"           # bottle green on paper / with white text
+  accent_on_dark: "#80C7AA"   # readable green for small text on charcoal
+  reel_background: solid     # no photography behind Reel text
+  carousel_photo_hooks: false
   rule: "#dedbd5"
 
   # Light where people READ, dark where people WATCH, and dark once more as

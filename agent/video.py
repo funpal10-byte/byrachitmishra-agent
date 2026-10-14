@@ -90,15 +90,15 @@ def _background_prompt(post: dict, brand) -> str:
     # change carries through to AI backgrounds too. The old prompt asked for
     # violet and midnight blue, which belonged to the previous accent.
     d = getattr(brand, "design", {}) or {}
-    accent = d.get("accent") or "#b0492a"
+    accent = d.get("accent") or "#006A4E"
     base = d.get("bg_alt") or "#16181a"
     return (
         "Abstract editorial background image for a premium business social video. "
         f"Theme: {topic}. "
-        f"Dark near-black base around {base}, lit with oxide and burnt-orange "
+        f"Dark near-black base around {base}, lit with the brand accent "
         f"tones around {accent} and cool slate shadow, soft gradients, subtle "
         "geometric structure, gentle film grain. The register is heavy industry "
-        "rather than software — furnace light, weathered metal, warm rust — "
+        "rather than software — brushed metal and restrained architectural forms — "
         "cinematic, restrained, expensive-looking. Vertical 9:16 composition "
         "with the centre kept visually calm and uncluttered so large white text "
         "can sit on top. Absolutely no text, no letters, no numbers, no logos, "
@@ -114,6 +114,8 @@ def choose_background(post: dict, brand, out_dir: Path, index: int = 0) -> Path 
     2. A Gemini-generated image, if image generation is available to you.
     3. Nothing, and the template draws a designed gradient instead.
     """
+    if brand.design.get("reel_background", "solid") == "solid":
+        return None
     local = assets.pick_image(post.get("pillar", ""), index)
     if local:
         print(f"[video] background: {local.name}")

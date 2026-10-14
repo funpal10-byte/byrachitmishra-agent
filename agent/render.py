@@ -56,7 +56,8 @@ def render_carousel(post: dict, brand, out_dir: Path, index: int = 0) -> list[Pa
     if not slides:
         return []
 
-    hook_bg = assets.pick_image(post.get("pillar", ""), index) if PHOTO_HOOK else None
+    use_photo = PHOTO_HOOK and brand.design.get("carousel_photo_hooks", False)
+    hook_bg = assets.pick_image(post.get("pillar", ""), index) if use_photo else None
 
     # Ground per slide, and therefore which mark reads on it. The hook slide
     # moved from dark to light (see templates/slide.html), so it now takes the

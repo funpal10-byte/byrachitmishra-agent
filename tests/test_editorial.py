@@ -11,7 +11,7 @@ class EditorialContractTests(unittest.TestCase):
         brand = load_brand()
         self.assertEqual(BRAND_FILE, ROOT / "brand.yml")
         self.assertIn("heavy industry", brand.identity["positioning"])
-        self.assertEqual(brand.design["accent"], "#b0492a")
+        self.assertEqual(brand.design["accent"], "#006A4E")
         self.assertTrue(all(s["pillar"] in brand.pillars for s in brand.slots))
         self.assertEqual(len(brand.slots), 10)
         self.assertEqual(sum(s.get("source") == "blog" for s in brand.slots), 3)

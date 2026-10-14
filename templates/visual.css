@@ -1,4 +1,4 @@
-.visual{--paper:#f5f4f1;--ink:#16181a;--oxide:#b0492a;margin-top:40px;width:100%;position:relative;color:var(--ink)}
+.visual{--paper:{{ d.bg }};--ink:{{ d.ink }};--oxide:{{ d.accent }};margin-top:40px;width:100%;position:relative;color:var(--ink)}
 .visual-items{display:flex;gap:22px;align-items:stretch}
 .visual-item{background:var(--paper);border:2px solid #d4cfc5;flex:1;min-width:0;padding:32px;position:relative;display:flex;flex-direction:column;justify-content:center}
 .visual-index{font:600 22px monospace;color:var(--oxide);margin-bottom:20px}
