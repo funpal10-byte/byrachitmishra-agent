@@ -1,0 +1,198 @@
+{
+  "title": "ai_content_approval_workflow",
+  "pillar": "ai_in_practice",
+  "format": "carousel",
+  "primary_keyword": "AI content approval workflow",
+  "claim": "AI content approval requires structural decision lanes rather than one central inbox.",
+  "hook": "AI drafts faster than your legal team can read.",
+  "evidence": {
+    "type": "source",
+    "source_url": "https://www.rachitmishra.in/2026/10/13/brand-governance-framework/",
+    "detail": "Brand governance framework operating model for separating routine collateral from red-risk claims."
+  },
+  "slides": [
+    {
+      "headline": "AI drafts faster than your legal team can read."
+    },
+    {
+      "kicker": "The Bottleneck",
+      "headline": "Central teams cannot review every generated asset.",
+      "body": "Speed collapses when routine collateral sits in the same queue as high-risk product claims.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Incoming volume",
+            "detail": "10x output from local teams and agencies"
+          },
+          {
+            "label": "Review capacity",
+            "detail": "One central brand inbox for everything"
+          }
+        ],
+        "note": "Operational reality in large enterprises"
+      }
+    },
+    {
+      "kicker": "Lane One",
+      "headline": "Green work moves through approved templates.",
+      "body": "Routine collateral using verified wording and standard templates should be approved locally without central delay.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Asset type",
+            "detail": "Standard collateral on approved templates"
+          },
+          {
+            "label": "Approval route",
+            "detail": "Designated local owner signs off directly"
+          }
+        ],
+        "note": "Green work lane"
+      }
+    },
+    {
+      "kicker": "Lane Two",
+      "headline": "Amber work changes context or language.",
+      "body": "Existing claims moving to a new audience or region require an identified specialist reviewer.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Asset type",
+            "detail": "Existing claims in new regional context"
+          },
+          {
+            "label": "Approval route",
+            "detail": "Assigned specialist reviewer checks context"
+          }
+        ],
+        "note": "Amber work lane"
+      }
+    },
+    {
+      "kicker": "Lane Three",
+      "headline": "Red work changes the commercial promise.",
+      "body": "New performance claims, sustainability assertions, or naming updates require accountable business and legal owners.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Asset type",
+            "detail": "New performance or sustainability claim"
+          },
+          {
+            "label": "Approval route",
+            "detail": "Business leader and legal review"
+          }
+        ],
+        "note": "Red work lane"
+      }
+    },
+    {
+      "kicker": "The Mechanism",
+      "headline": "Build a claim register before another template library.",
+      "body": "Record exact wording, supporting evidence, permitted uses, and review dates to prevent localized drift.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Exact wording",
+            "detail": "Verbatim approved phrasing recorded"
+          },
+          {
+            "label": "Evidence trail",
+            "detail": "Test results and limitations attached"
+          }
+        ],
+        "note": "Claim register structure"
+      }
+    },
+    {
+      "kicker": "Application",
+      "headline": "Run a thirty day governance pilot.",
+      "body": "Audit where decisions stall this week. Map owners next week. Pilot the three lanes with one team before expanding.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Week one",
+            "detail": "Audit recent stalled briefs and delays"
+          },
+          {
+            "label": "Week three",
+            "detail": "Pilot approval lanes with one location"
+          }
+        ],
+        "note": "Rollout sequence"
+      }
+    },
+    {
+      "headline": "Governance is a routing problem, not a design problem."
+    }
+  ],
+  "caption": "AI drafts faster than your legal team can read.\n\nSetting up an effective AI content approval workflow means separating routine collateral from claims that alter the commercial promise.\n\nMost teams make the mistake of routing everything through a central inbox. That creates bottlenecks where regional managers wait weeks for sign-off on minor local collateral.\n\nInstead, separate decisions into green, amber, and red lanes based on risk and context. If the template is approved and the claim is unchanged, let the local owner sign off.\n\nSave this checklist before your team scales up generative copy output this quarter.\n\n[aimarketing, enterprise ai adoption, brand governance, marketing operations]\n\n#aimarketing #martech #b2bmarketing",
+  "alt_text": "Carousel slides detailing an enterprise AI content approval workflow with three decision lanes.",
+  "hashtags": [
+    "#aimarketing",
+    "#martech",
+    "#b2bmarketing"
+  ],
+  "cta": "Send this to whoever is managing brand compliance for AI generated content this quarter.",
+  "failure_mode": "Readers might assume this applies only to generative text when it applies equally to technical spec sheets and regional collateral.",
+  "sources": [
+    {
+      "title": "Brand Governance Framework: Who Decides What?",
+      "url": "https://www.rachitmishra.in/2026/10/13/brand-governance-framework/"
+    }
+  ],
+  "scheduled_for": "2026-10-23T19:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2026/10/13/brand-governance-framework/",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "19:00"
+  },
+  "experiment": {
+    "hook_type": "claim",
+    "evidence_type": "source",
+    "format": "carousel",
+    "pillar": "ai_in_practice",
+    "hook_words": 9,
+    "hook_characters": 47,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "19:00"
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2026/10/13/brand-governance-framework/",
+    "final_url": "https://www.rachitmishra.in/2026/10/13/brand-governance-framework/",
+    "http_status": 200
+  },
+  "images": [
+    "content/queue/2026-10-19/fri-1900-ai-content-approval-workflow/slide-01.jpg",
+    "content/queue/2026-10-19/fri-1900-ai-content-approval-workflow/slide-02.jpg",
+    "content/queue/2026-10-19/fri-1900-ai-content-approval-workflow/slide-03.jpg",
+    "content/queue/2026-10-19/fri-1900-ai-content-approval-workflow/slide-04.jpg",
+    "content/queue/2026-10-19/fri-1900-ai-content-approval-workflow/slide-05.jpg",
+    "content/queue/2026-10-19/fri-1900-ai-content-approval-workflow/slide-06.jpg",
+    "content/queue/2026-10-19/fri-1900-ai-content-approval-workflow/slide-07.jpg",
+    "content/queue/2026-10-19/fri-1900-ai-content-approval-workflow/slide-08.jpg"
+  ],
+  "rendered_visuals": [
+    "bottleneck",
+    "comparison",
+    "comparison",
+    "comparison",
+    "checklist",
+    "checklist"
+  ],
+  "warnings": []
+}

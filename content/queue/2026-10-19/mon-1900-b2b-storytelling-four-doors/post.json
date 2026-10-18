@@ -1,0 +1,226 @@
+{
+  "title": "b2b_storytelling_four_doors",
+  "pillar": "b2b_brand",
+  "format": "carousel",
+  "primary_keyword": "B2B brand positioning",
+  "claim": "Commoditised B2B categories fail at storytelling because they search inside the product instead of the consequence of failure.",
+  "hook": "Your product sheet is not a story.",
+  "evidence": {
+    "type": "source",
+    "source_url": "https://www.rachitmishra.in/2026/09/22/b2b-storytelling-examples/",
+    "detail": "Research by Ehrenberg-Bass Institute and LinkedIn B2B Institute indicates 95% of buyers are out of market, requiring memory structures built through narrative rather than immediate product specifications."
+  },
+  "slides": [
+    {
+      "headline": "Your product sheet is not a story."
+    },
+    {
+      "kicker": "The Inward Trap",
+      "headline": "Why boring industries write bad stories",
+      "body": "When specs match, attribute briefs fail.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Product brief",
+            "detail": "Tonnage and turnaround"
+          },
+          {
+            "label": "Buyer reality",
+            "detail": "Risk and operational exposure"
+          }
+        ],
+        "note": "Common briefing error in industrial marketing"
+      }
+    },
+    {
+      "kicker": "The Evidence",
+      "headline": "Buyers are asking for creative work",
+      "body": "60% cite lack of emotion in industrial ads.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Missing element",
+            "detail": "Lack of emotional appeal"
+          },
+          {
+            "label": "Commercial lift",
+            "detail": "40% higher purchase consideration"
+          }
+        ],
+        "note": "LinkedIn and Magna buyer study data"
+      }
+    },
+    {
+      "kicker": "The Working Model",
+      "headline": "The four doors into an unstoryable category",
+      "body": "Start with consequence, then dependants.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Consequence",
+            "detail": "What breaks at three in the morning"
+          },
+          {
+            "label": "The Dependant",
+            "detail": "Who relies on this downstream"
+          },
+          {
+            "label": "The Constraint",
+            "detail": "What difficult trade-off your buyer manages"
+          },
+          {
+            "label": "The Craft",
+            "detail": "How hard it is to make well"
+          }
+        ],
+        "note": "Systematic door sequencing for commodities"
+      }
+    },
+    {
+      "kicker": "Door One in Action",
+      "headline": "Selling precision through suspended trucks",
+      "body": "Volvo dramatised steering failure consequences.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Product claim",
+            "detail": "Steering precision under load"
+          },
+          {
+            "label": "Narrative execution",
+            "detail": "Stunt suspension between trucks"
+          }
+        ],
+        "note": "Case study from Forsman and Bodenfors"
+      }
+    },
+    {
+      "kicker": "Door Three",
+      "headline": "Sell the constraint, not the commodity",
+      "body": "Speak to price volatility and stability.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Board pressure",
+            "detail": "Demanding operational stability"
+          },
+          {
+            "label": "Plant reality",
+            "detail": "Managing unpredictable supply"
+          }
+        ],
+        "note": "Typical industrial buyer constraint"
+      }
+    },
+    {
+      "kicker": "Monday Morning Test",
+      "headline": "Run the four doors on your hardest product line",
+      "body": "List downtime consequences and find humans.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "List failures",
+            "detail": "Note downtime consequences"
+          },
+          {
+            "label": "Find the human",
+            "detail": "Identify who makes the call"
+          },
+          {
+            "label": "Check logo test",
+            "detail": "Verify competitor uniqueness"
+          }
+        ],
+        "note": "Usable team exercise for products"
+      }
+    },
+    {
+      "headline": "The story is never in the product.",
+      "body": "The long version with full source notes is on rachitmishra.in under B2B storytelling examples.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Specification",
+            "detail": "Wins the meeting after the story"
+          },
+          {
+            "label": "Narrative",
+            "detail": "Stored in memory until they buy"
+          }
+        ],
+        "note": "Core strategic principle"
+      }
+    }
+  ],
+  "caption": "Your product sheet is not a story.\n\nGood B2B brand positioning starts by looking outside the factory gate. When your category is built on tonnage and delivery windows, marketing teams default to listing attributes that every competitor matches within a percentage point.\n\nThat approach fails because buyers are out of market ninety-five percent of the time. Specifications get evaluated when a deal is active, but memory structures are built long before procurement makes the call.\n\nWhen the product yields no narrative tension, examine what happens when it fails, who depends on it downstream, or what constraints your buyer manages under pressure. The full breakdown of how to run this exercise is on my site: https://www.rachitmishra.in/2026/09/22/b2b-storytelling-examples/\n\nIf a competitor can put their logo on your campaign unchanged, it is not a story. It is a category description.\n\nSend this to whoever is still trying to turn an engineering specification into an ad.\n\n[b2b brand positioning, industrial marketing, brand strategy, manufacturing marketing, b2b storytelling]",
+  "alt_text": "Carousel slides detailing B2B storytelling examples across industrial and boring categories.",
+  "hashtags": [
+    "#industrialmarketing",
+    "#brandstrategy",
+    "#b2bbranding"
+  ],
+  "cta": "Send this to whoever is still trying to turn an engineering specification into an ad.",
+  "failure_mode": "Industrial marketers might dismiss storytelling as irrelevant to heavy procurement committees without reading the Ehrenberg-Bass timing argument.",
+  "scheduled_for": "2026-10-19T19:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2026/09/22/b2b-storytelling-examples/",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "19:00"
+  },
+  "experiment": {
+    "hook_type": "distinction",
+    "evidence_type": "source",
+    "format": "carousel",
+    "pillar": "b2b_brand",
+    "hook_words": 7,
+    "hook_characters": 34,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "19:00"
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2026/09/22/b2b-storytelling-examples/",
+    "final_url": "https://www.rachitmishra.in/2026/09/22/b2b-storytelling-examples/",
+    "http_status": 200
+  },
+  "sources": [
+    {
+      "title": "Research by Ehrenberg-Bass Institute and LinkedIn B2B Institute indicates 95% of buyers are out of market, requiring memory structures built through narrative rather than immediate product specifications.",
+      "url": "https://www.rachitmishra.in/2026/09/22/b2b-storytelling-examples/"
+    }
+  ],
+  "images": [
+    "content/queue/2026-10-19/mon-1900-b2b-storytelling-four-doors/slide-01.jpg",
+    "content/queue/2026-10-19/mon-1900-b2b-storytelling-four-doors/slide-02.jpg",
+    "content/queue/2026-10-19/mon-1900-b2b-storytelling-four-doors/slide-03.jpg",
+    "content/queue/2026-10-19/mon-1900-b2b-storytelling-four-doors/slide-04.jpg",
+    "content/queue/2026-10-19/mon-1900-b2b-storytelling-four-doors/slide-05.jpg",
+    "content/queue/2026-10-19/mon-1900-b2b-storytelling-four-doors/slide-06.jpg",
+    "content/queue/2026-10-19/mon-1900-b2b-storytelling-four-doors/slide-07.jpg",
+    "content/queue/2026-10-19/mon-1900-b2b-storytelling-four-doors/slide-08.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "comparison",
+    "checklist",
+    "comparison",
+    "bottleneck",
+    "checklist",
+    "comparison"
+  ],
+  "warnings": []
+}

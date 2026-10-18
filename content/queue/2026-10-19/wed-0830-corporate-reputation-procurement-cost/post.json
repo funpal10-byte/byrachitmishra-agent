@@ -1,0 +1,210 @@
+{
+  "title": "corporate reputation procurement cost",
+  "pillar": "reputation",
+  "format": "reel",
+  "primary_keyword": "corporate reputation management",
+  "claim": "Corporate reputation is priced into procurement long before commercial terms are discussed, functioning as an invisible risk discount.",
+  "hook": "Reputation is priced in before they call you.",
+  "evidence": {
+    "type": "practitioner_observation",
+    "detail": "Observed review cycles across heavy equipment and industrial logistics where procurement committees filter out vendors with regulatory exposure before reviewing pricing sheets."
+  },
+  "reel_cover": {
+    "headline": "The cost of a weak reputation",
+    "signal": "Pre-bid exclusion",
+    "layout": "stamp",
+    "visual": {
+      "kind": "bottleneck",
+      "items": [
+        {
+          "label": "Vendor shortlist",
+          "detail": "Suppliers vetted for regulatory risk"
+        },
+        {
+          "label": "Commercial review",
+          "detail": "Pricing negotiated only after trust clears"
+        }
+      ],
+      "note": "Observed industrial procurement filtering mechanism"
+    }
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "Reputation is priced in before they call you.",
+      "voiceover": "Reputation is priced in before they call you. In industrial procurement, trust is evaluated before anyone looks at a single line of your proposal.",
+      "direction": "Static shot looking across an industrial desk with procurement files.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Tender submission",
+            "detail": "Proposals submitted by three vendors"
+          },
+          {
+            "label": "Compliance filter",
+            "detail": "Unverified record drops bids"
+          }
+        ],
+        "note": "Procurement committee review gate"
+      }
+    },
+    {
+      "timecode": "0:03-0:08",
+      "onscreen": "Risk discounts apply before negotiation.",
+      "voiceover": "Buyers do not wait for a crisis to factor in risk. If your plant emissions or community disputes make local news, procurement adds a hidden safety buffer.",
+      "direction": "Cut to close-up of a risk assessment matrix.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Low trust vendor",
+            "detail": "Assigned 15 percent risk buffer"
+          },
+          {
+            "label": "Trusted supplier",
+            "detail": "Assigned standard margin"
+          }
+        ],
+        "note": "Industrial procurement risk weighting"
+      }
+    },
+    {
+      "timecode": "0:08-0:14",
+      "onscreen": "Run this procurement trust check today.",
+      "voiceover": "Here is a simple check to run on your pipeline this week. Ask your sales lead which accounts stalled during compliance review, not during pricing talks.",
+      "direction": "Direct cut to camera, measured cadence.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Check stalled deals",
+            "detail": "Review accounts stuck at compliance"
+          },
+          {
+            "label": "Audit public record",
+            "detail": "Check what regulators see"
+          }
+        ],
+        "note": "Usable stakeholder trust audit"
+      }
+    },
+    {
+      "timecode": "0:14-0:20",
+      "onscreen": "Sales teams feel the invisible penalty.",
+      "voiceover": "Your sales team then spends months discounting prices to make up for a corporate reputation issue they did not create and cannot fix alone.",
+      "direction": "Pan across a manufacturing floor showing assembly lines.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Sales pipeline",
+            "detail": "Deals moving slowly through review"
+          },
+          {
+            "label": "Margin pressure",
+            "detail": "Discounting to offset trust gap"
+          }
+        ],
+        "note": "Commercial impact of weak trust"
+      }
+    },
+    {
+      "timecode": "0:20-0:26",
+      "onscreen": "Corporate reputation is a balance sheet asset.",
+      "voiceover": "Corporate reputation management is not about public relations campaigns. It is risk reduction that protects your margin when sales teams are not in the room.",
+      "direction": "Hold steady on a clean industrial backdrop.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "PR view",
+            "detail": "Manage media coverage"
+          },
+          {
+            "label": "Operational view",
+            "detail": "Eliminate regulatory risk"
+          }
+        ],
+        "note": "Structural distinction in governance"
+      }
+    },
+    {
+      "timecode": "0:26-0:32",
+      "onscreen": "Protect trust before bidding begins.",
+      "voiceover": "Fix the regulatory record before you send the bid. That is where commercial margins are actually defended.",
+      "direction": "Fade to final title card with clean typography.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Verify compliance",
+            "detail": "Clear public record first"
+          },
+          {
+            "label": "Protect margin",
+            "detail": "Remove invisible risk discount"
+          }
+        ],
+        "note": "Final operating takeaway"
+      }
+    }
+  ],
+  "caption": "Reputation is priced in before they call you.\n\nEffective corporate reputation management starts long before a sales team picks up the phone. When you sell steel, logistics, or industrial equipment, procurement committees are not grading your brand ads. They are evaluating your regulatory exposure, your community record, and your plant stability.\n\nIf those signals carry friction, your commercial team spends months arguing against a risk discount they did not create.\n\nSend this to whoever is defending the brand budget against the sales team this quarter.\n\n[corporate reputation management, B2B trust, industrial procurement, stakeholder trust]",
+  "alt_text": "An industrial desk with procurement documents and a risk matrix.",
+  "hashtags": [
+    "#corporatecommunications",
+    "#reputation",
+    "#publicrelations"
+  ],
+  "cta": "Send this to whoever is defending the brand budget against the sales team this quarter.",
+  "failure_mode": "Could be misread as a general PR homily if the industrial procurement angle is not emphasized.",
+  "scheduled_for": "2026-10-21T08:30:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "08:30"
+  },
+  "experiment": {
+    "hook_type": "cost",
+    "evidence_type": "practitioner_observation",
+    "format": "reel",
+    "pillar": "reputation",
+    "hook_words": 8,
+    "hook_characters": 45,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "bottleneck",
+    "schedule": {
+      "active": false,
+      "selected_time": "08:30"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "reel_assets": {
+    "background": {
+      "source": "designed_gradient"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (12).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-10-19/wed-0830-corporate-reputation-procurement-cost/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "bottleneck",
+    "bottleneck",
+    "comparison",
+    "checklist",
+    "bottleneck",
+    "comparison",
+    "checklist"
+  ],
+  "warnings": []
+}
