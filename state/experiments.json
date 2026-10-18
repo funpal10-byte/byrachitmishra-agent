@@ -1,6 +1,241 @@
 {
-  "fetched_at": "2026-10-11T02:47:35+00:00",
+  "fetched_at": "2026-10-18T02:01:46+00:00",
   "posts": [
+    {
+      "id": "18109476848353587",
+      "posted": "2026-10-17T09:13:15+0000",
+      "hook": "Awareness is why budgets get cut.",
+      "experiment": {
+        "hook_type": "cost",
+        "evidence_type": "practitioner_observation",
+        "format": "carousel",
+        "pillar": "inside_the_org",
+        "hook_words": 6,
+        "hook_characters": 33,
+        "visual_treatment": "carousel",
+        "cover_visual": "",
+        "schedule": {
+          "active": false,
+          "selected_time": "10:30"
+        }
+      },
+      "reach": 10,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
+    },
+    {
+      "id": "18232041556325181",
+      "posted": "2026-10-16T17:21:10+0000",
+      "hook": "Prompts make you faster at being wrong.",
+      "experiment": {
+        "hook_type": "correction",
+        "evidence_type": "source",
+        "format": "carousel",
+        "pillar": "ai_in_practice",
+        "hook_words": 7,
+        "hook_characters": 39,
+        "visual_treatment": "carousel",
+        "cover_visual": "",
+        "schedule": {
+          "active": false,
+          "selected_time": "19:00"
+        }
+      },
+      "reach": 7,
+      "saved": 0,
+      "shares": 1,
+      "avg_watch_time": 0
+    },
+    {
+      "id": "18108041858361673",
+      "posted": "2026-10-16T07:04:05+0000",
+      "hook": "Why your AI audit fails procurement.",
+      "experiment": {
+        "hook_type": "correction",
+        "evidence_type": "practitioner_observation",
+        "format": "reel",
+        "pillar": "ai_marketing",
+        "hook_words": 6,
+        "hook_characters": 36,
+        "visual_treatment": "visual_explainer",
+        "cover_visual": "checklist",
+        "schedule": {
+          "active": false,
+          "selected_time": "08:30"
+        }
+      },
+      "reach": 11,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 6708
+    },
+    {
+      "id": "17960910396213579",
+      "posted": "2026-10-15T13:21:06+0000",
+      "hook": "Your legal team is ruining your crisis response.",
+      "experiment": {
+        "hook_type": "framework",
+        "evidence_type": "framework",
+        "format": "reel",
+        "pillar": "reputation",
+        "hook_words": 8,
+        "hook_characters": 48,
+        "visual_treatment": "visual_explainer",
+        "cover_visual": "comparison",
+        "schedule": {
+          "active": true,
+          "selected_time": "13:00",
+          "candidates": [
+            "13:00",
+            "17:00"
+          ],
+          "week_index": 0
+        }
+      },
+      "reach": 8,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 12000
+    },
+    {
+      "id": "18112382294605031",
+      "posted": "2026-10-14T18:31:14+0000",
+      "hook": "AI copy will pass grammar and still ruin you.",
+      "experiment": {
+        "hook_type": "framework",
+        "evidence_type": "framework",
+        "format": "carousel",
+        "pillar": "ai_in_practice",
+        "hook_words": 9,
+        "hook_characters": 45,
+        "visual_treatment": "carousel",
+        "cover_visual": "",
+        "schedule": {
+          "active": false,
+          "selected_time": "20:00"
+        }
+      },
+      "reach": 5,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
+    },
+    {
+      "id": "18153109528523028",
+      "posted": "2026-10-14T07:29:34+0000",
+      "hook": "Your reputation ledger has no line item.",
+      "experiment": {
+        "hook_type": "claim",
+        "evidence_type": "practitioner_observation",
+        "format": "reel",
+        "pillar": "reputation",
+        "hook_words": 7,
+        "hook_characters": 40,
+        "visual_treatment": "visual_explainer",
+        "cover_visual": "comparison",
+        "schedule": {
+          "active": false,
+          "selected_time": "08:30"
+        }
+      },
+      "reach": 13,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 1883
+    },
+    {
+      "id": "18121172704869107",
+      "posted": "2026-10-13T17:33:41+0000",
+      "hook": "AI search ignores your marketing blog.",
+      "experiment": {
+        "hook_type": "framework",
+        "evidence_type": "framework",
+        "format": "reel",
+        "pillar": "ai_marketing",
+        "hook_words": 6,
+        "hook_characters": 38,
+        "visual_treatment": "visual_explainer",
+        "cover_visual": "comparison",
+        "schedule": {
+          "active": false,
+          "selected_time": "19:00"
+        }
+      },
+      "reach": 7,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 4102
+    },
+    {
+      "id": "18491186971100670",
+      "posted": "2026-10-12T18:58:42+0000",
+      "hook": "Your brand is changing at every manager's desk.",
+      "experiment": {
+        "hook_type": "claim",
+        "evidence_type": "source",
+        "format": "carousel",
+        "pillar": "b2b_brand",
+        "hook_words": 8,
+        "hook_characters": 47,
+        "visual_treatment": "carousel",
+        "cover_visual": "",
+        "schedule": {
+          "active": false,
+          "selected_time": "19:00"
+        }
+      },
+      "reach": 6,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
+    },
+    {
+      "id": "18490812493110259",
+      "posted": "2026-10-12T09:05:14+0000",
+      "hook": "Spec sheets do not command a premium.",
+      "experiment": {
+        "hook_type": "framework",
+        "evidence_type": "framework",
+        "format": "reel",
+        "pillar": "b2b_brand",
+        "hook_words": 7,
+        "hook_characters": 37,
+        "visual_treatment": "visual_explainer",
+        "cover_visual": "comparison",
+        "schedule": {
+          "active": false,
+          "selected_time": "08:30"
+        }
+      },
+      "reach": 9,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 6370
+    },
+    {
+      "id": "17938109907377782",
+      "posted": "2026-10-11T05:36:42+0000",
+      "hook": "Sales collateral almost never closes B2B deals.",
+      "experiment": {
+        "hook_type": "framework",
+        "evidence_type": "framework",
+        "format": "carousel",
+        "pillar": "inside_the_org",
+        "hook_words": 7,
+        "hook_characters": 47,
+        "visual_treatment": "carousel",
+        "cover_visual": "",
+        "schedule": {
+          "active": false,
+          "selected_time": "10:30"
+        }
+      },
+      "reach": 9,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
+    },
     {
       "id": "18062669030549188",
       "posted": "2026-10-10T08:24:34+0000",
@@ -19,7 +254,7 @@
           "selected_time": "10:30"
         }
       },
-      "reach": 4,
+      "reach": 6,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
@@ -65,10 +300,10 @@
           "selected_time": "08:30"
         }
       },
-      "reach": 10,
+      "reach": 11,
       "saved": 0,
       "shares": 0,
-      "avg_watch_time": 2623
+      "avg_watch_time": 2465
     },
     {
       "id": "17992968594058816",
@@ -185,7 +420,7 @@
           "selected_time": "19:00"
         }
       },
-      "reach": 8,
+      "reach": 9,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
@@ -859,206 +1094,6 @@
       "saved": 1,
       "shares": 0,
       "avg_watch_time": 9003
-    },
-    {
-      "id": "18372343411233292",
-      "posted": "2026-08-24T03:13:31+0000",
-      "hook": "The difference between branding and marketing isn't visual design versus copy. It shows up in your gross margin.",
-      "experiment": {
-        "hook_type": "distinction",
-        "evidence_type": "",
-        "format": "carousel",
-        "pillar": "Brand Strategy",
-        "hook_words": 18,
-        "hook_characters": 112,
-        "visual_treatment": "carousel",
-        "cover_visual": "",
-        "schedule": {}
-      },
-      "reach": 113,
-      "saved": 0,
-      "shares": 0,
-      "avg_watch_time": 0
-    },
-    {
-      "id": "17882894220486971",
-      "posted": "2026-08-23T21:31:31+0000",
-      "hook": "Most teams learning how to build a brand strategy focus on what to say. The real work is deciding what to ignore.",
-      "experiment": {
-        "hook_type": "claim",
-        "evidence_type": "",
-        "format": "carousel",
-        "pillar": "Brand Strategy",
-        "hook_words": 22,
-        "hook_characters": 113,
-        "visual_treatment": "carousel",
-        "cover_visual": "",
-        "schedule": {}
-      },
-      "reach": 171,
-      "saved": 0,
-      "shares": 0,
-      "avg_watch_time": 0
-    },
-    {
-      "id": "18183546097364993",
-      "posted": "2026-08-22T13:40:05+0000",
-      "hook": "Most first time manager tips tell you to delegate. Few explain why new leads keep rewriting their team's work.",
-      "experiment": {
-        "hook_type": "claim",
-        "evidence_type": "",
-        "format": "carousel",
-        "pillar": "Leadership",
-        "hook_words": 19,
-        "hook_characters": 110,
-        "visual_treatment": "carousel",
-        "cover_visual": "",
-        "schedule": {}
-      },
-      "reach": 165,
-      "saved": 0,
-      "shares": 0,
-      "avg_watch_time": 0
-    },
-    {
-      "id": "18015079547921275",
-      "posted": "2026-08-22T07:40:01+0000",
-      "hook": "Analyzing why this ad worked for Paper Boat shows how positioning beat established beverage giants.",
-      "experiment": {
-        "hook_type": "claim",
-        "evidence_type": "",
-        "format": "reel",
-        "pillar": "Behind the Brands",
-        "hook_words": 15,
-        "hook_characters": 99,
-        "visual_treatment": "kinetic_typography",
-        "cover_visual": "",
-        "schedule": {}
-      },
-      "reach": 124,
-      "saved": 0,
-      "shares": 0,
-      "avg_watch_time": 3083
-    },
-    {
-      "id": "18123051016838765",
-      "posted": "2026-08-22T03:03:40+0000",
-      "hook": "Most AI tools for marketers get abandoned in three weeks because teams try to automate judgment, not draft creation.",
-      "experiment": {
-        "hook_type": "distinction",
-        "evidence_type": "",
-        "format": "reel",
-        "pillar": "AI in Marketing",
-        "hook_words": 19,
-        "hook_characters": 116,
-        "visual_treatment": "kinetic_typography",
-        "cover_visual": "",
-        "schedule": {}
-      },
-      "reach": 143,
-      "saved": 0,
-      "shares": 0,
-      "avg_watch_time": 26463
-    },
-    {
-      "id": "18020623571922994",
-      "posted": "2026-08-21T13:57:07+0000",
-      "hook": "Every practical brand strategy framework starts with sacrifice, not a list of aspirational adjectives.",
-      "experiment": {
-        "hook_type": "distinction",
-        "evidence_type": "",
-        "format": "carousel",
-        "pillar": "Brand Strategy",
-        "hook_words": 14,
-        "hook_characters": 102,
-        "visual_treatment": "carousel",
-        "cover_visual": "",
-        "schedule": {}
-      },
-      "reach": 68,
-      "saved": 0,
-      "shares": 0,
-      "avg_watch_time": 0
-    },
-    {
-      "id": "18095873870634442",
-      "posted": "2026-08-21T07:02:53+0000",
-      "hook": "When giving feedback to your team, changing words in draft three is usually a sign that your brief was incomplete.",
-      "experiment": {
-        "hook_type": "claim",
-        "evidence_type": "",
-        "format": "carousel",
-        "pillar": "Leadership",
-        "hook_words": 20,
-        "hook_characters": 114,
-        "visual_treatment": "carousel",
-        "cover_visual": "",
-        "schedule": {}
-      },
-      "reach": 65,
-      "saved": 0,
-      "shares": 0,
-      "avg_watch_time": 0
-    },
-    {
-      "id": "18140263132570891",
-      "posted": "2026-08-21T03:13:22+0000",
-      "hook": "Here is why this ad worked when 5 Star was losing impulse market share to Snickers in India.",
-      "experiment": {
-        "hook_type": "claim",
-        "evidence_type": "",
-        "format": "reel",
-        "pillar": "Behind the Brands",
-        "hook_words": 18,
-        "hook_characters": 92,
-        "visual_treatment": "kinetic_typography",
-        "cover_visual": "",
-        "schedule": {}
-      },
-      "reach": 68,
-      "saved": 0,
-      "shares": 0,
-      "avg_watch_time": 3396
-    },
-    {
-      "id": "18469418635117244",
-      "posted": "2026-08-20T14:52:10+0000",
-      "hook": "The debate around whether AI will replace marketers misses the real shift happening in agency and brand team headcount.",
-      "experiment": {
-        "hook_type": "claim",
-        "evidence_type": "",
-        "format": "reel",
-        "pillar": "AI in Marketing",
-        "hook_words": 19,
-        "hook_characters": 119,
-        "visual_treatment": "kinetic_typography",
-        "cover_visual": "",
-        "schedule": {}
-      },
-      "reach": 39,
-      "saved": 1,
-      "shares": 0,
-      "avg_watch_time": 5866
-    },
-    {
-      "id": "18435793651125382",
-      "posted": "2026-08-20T07:01:40+0000",
-      "hook": "Searching for a brand positioning statement example usually leads to the same 4-part template. Here is why it fails.",
-      "experiment": {
-        "hook_type": "correction",
-        "evidence_type": "",
-        "format": "carousel",
-        "pillar": "Brand Strategy",
-        "hook_words": 19,
-        "hook_characters": 116,
-        "visual_treatment": "carousel",
-        "cover_visual": "",
-        "schedule": {}
-      },
-      "reach": 22,
-      "saved": 0,
-      "shares": 0,
-      "avg_watch_time": 0
     }
   ]
 }
