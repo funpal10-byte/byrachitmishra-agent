@@ -149,7 +149,7 @@
     }
   ],
   "scheduled_for": "2026-10-18T10:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "blog",
   "source_url": "https://www.rachitmishra.in/2026/09/26/marketing-attribution-alternatives/",
@@ -195,5 +195,7 @@
     "checklist",
     "comparison"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-10-18T11:17:02.646159+05:30",
+  "media_id": "18220665598355219"
 }
