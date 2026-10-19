@@ -1,0 +1,166 @@
+{
+  "title": "promptlibrariesvsrisk",
+  "pillar": "ai_marketing",
+  "format": "reel",
+  "primary_keyword": "AI adoption in a large company",
+  "claim": "Enterprise AI adoption fails in B2B marketing when teams rely on prompt guides instead of defining non-negotiable operational boundaries.",
+  "hook": "Prompt libraries will not protect your brand.",
+  "evidence": {
+    "type": "practitioner_observation",
+    "detail": "Observed enterprise AI rollouts where prompt templates increased draft velocity while increasing legal rework due to unchecked technical spec hallucinations in commercial collateral."
+  },
+  "reel_cover": {
+    "headline": "Prompt guides vs brand risk",
+    "signal": "Boundary over prompt",
+    "layout": "split",
+    "visual": {
+      "kind": "comparison",
+      "items": [
+        {
+          "label": "Prompt libraries",
+          "detail": "Suggest style but allow hallucinations"
+        },
+        {
+          "label": "Boundary rules",
+          "detail": "Hard exclusions that stop illegal specs"
+        }
+      ],
+      "note": "Suggested check"
+    }
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "Prompt libraries will not protect your brand.",
+      "voiceover": "Prompt libraries will not protect your brand. In a B2B enterprise, standard prompt templates give teams permission to output fluent draft text, but zero guardrails against liability.",
+      "direction": "Text headline over dark graphic background."
+    },
+    {
+      "timecode": "0:03-0:07",
+      "onscreen": "Style rules fail when specs matter",
+      "voiceover": "When a customer buys heavy machinery, freight contracts, or chemicals, an AI hallucination in a technical spec sheet is a legal liability.",
+      "direction": "Pacing shot over technical specification document."
+    },
+    {
+      "timecode": "0:07-0:12",
+      "onscreen": "The prompt trap vs boundary rules",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Prompt Guidance",
+            "detail": "Tells the AI how to sound persuasive"
+          },
+          {
+            "label": "Boundary Rule",
+            "detail": "Defines what figures AI can never write"
+          }
+        ],
+        "note": "Enterprise AI adoption framework"
+      },
+      "voiceover": "Most marketing tech stacks focus on how to prompt. B2B brand governance requires hard negative constraints."
+    },
+    {
+      "timecode": "0:12-0:17",
+      "onscreen": "Rule 1: Anchor on verified data",
+      "voiceover": "First, the Fact-Anchor Rule. AI must pull technical numbers and tolerances from an audited database, never generate them from memory.",
+      "direction": "Graphic showing verified database query."
+    },
+    {
+      "timecode": "0:17-0:22",
+      "onscreen": "Rule 2: Exclude unapproved terms",
+      "voiceover": "Second, Programmatic Exclusion. Define compliance terms AI is legally prohibited from using without explicit sign-off.",
+      "direction": "Highlighting prohibited terms on screen."
+    },
+    {
+      "timecode": "0:22-0:27",
+      "onscreen": "The 3-point B2B AI boundary checklist",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Data Source",
+            "detail": "Is every figure tied to an audited spec sheet?"
+          },
+          {
+            "label": "Negative List",
+            "detail": "Are unverified claims blocked automatically?"
+          },
+          {
+            "label": "Sign-off",
+            "detail": "Does a subject expert verify non-standard copy?"
+          }
+        ],
+        "note": "Suggested check"
+      },
+      "voiceover": "Third, Source Auditability. Every published paragraph must map back to a human-approved technical document."
+    },
+    {
+      "timecode": "0:27-0:32",
+      "onscreen": "Speed without boundaries creates debt",
+      "voiceover": "Accelerating draft speed without strict boundaries does not build scale. It just compounds enterprise risk.",
+      "direction": "Chart comparing draft velocity against audit debt."
+    },
+    {
+      "timecode": "0:32-0:36",
+      "onscreen": "Governance is an operational boundary",
+      "voiceover": "Governance is not prompt engineering. It is an operational boundary.",
+      "direction": "Closing title slide with summary line."
+    }
+  ],
+  "caption": "Prompt libraries will not protect your brand.\n\nWhen scaling AI adoption in a large company, marketing teams usually distribute prompt guides. They focus on tone, length, and style.\n\nIn B2B industrial marketing, tone rarely breaks you. Technical specifications, warranty terms, and regulatory claims do.\n\nIf an AI tool generates a technical specification for heavy machinery or freight contracts, a hallucinated tolerance figure creates legal risk. Better prompts cannot fix probabilistic model outputs.\n\nPrompting accelerates draft speed. Hard boundaries protect liability.\n\nSend this to whoever is building your team's martech guidelines this quarter.\n\n[ai adoption in a large company, ai governance, martech, b2b marketing, industrial marketing]",
+  "alt_text": "Graphic showing a contrast between prompt libraries and operational AI boundary rules for B2B teams.",
+  "hashtags": [
+    "#aimarketing",
+    "#martech",
+    "#marketingtechnology",
+    "#aigovernance",
+    "#b2bmarketing"
+  ],
+  "cta": "Send this to whoever is building your team's martech guidelines this quarter.",
+  "failure_mode": "Could be misinterpreted as an anti-AI stance rather than an operational governance framework for enterprise accuracy.",
+  "scheduled_for": "2026-10-20T19:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "19:00"
+  },
+  "experiment": {
+    "hook_type": "distinction",
+    "evidence_type": "practitioner_observation",
+    "format": "reel",
+    "pillar": "ai_marketing",
+    "hook_words": 7,
+    "hook_characters": 45,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "comparison",
+    "schedule": {
+      "active": false,
+      "selected_time": "19:00"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "reel_assets": {
+    "background": {
+      "source": "designed_gradient"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (10).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-10-19/tue-1900-promptlibrariesvsrisk/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "comparison",
+    "checklist"
+  ],
+  "warnings": []
+}

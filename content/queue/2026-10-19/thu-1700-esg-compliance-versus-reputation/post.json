@@ -1,0 +1,165 @@
+{
+  "title": "esg_compliance_versus_reputation",
+  "pillar": "reputation",
+  "format": "reel",
+  "primary_keyword": "ESG communication that is not greenwashing",
+  "claim": "Audit compliance does not build stakeholder trust because buyers treat regulatory disclosures as a legal minimum rather than a commercial differentiator.",
+  "hook": "ESG reporting will not protect your reputation.",
+  "evidence": {
+    "type": "framework",
+    "detail": "The ESG Disclosure Gap: Audited compliance metrics satisfy legal obligations but fail to build buyer trust unless paired with operational trade-off data."
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "ESG reporting will not protect your reputation.",
+      "voiceover": "ESG reporting will not protect your reputation. Passing an audit just means you are legally allowed to operate.",
+      "direction": "Text appears over clean minimalist background with a document approval stamp animation."
+    },
+    {
+      "timecode": "0:03-0:07",
+      "onscreen": "Compliance is a legal floor, not proof.",
+      "voiceover": "Most corporate communications teams treat the annual ESG filing like a reputation strategy.",
+      "direction": "Text overlay switches to industrial background graphic."
+    },
+    {
+      "timecode": "0:07-0:12",
+      "onscreen": "Procurement committee review",
+      "voiceover": "It isn't. When a procurement committee reviews your bid, audit compliance is just the entry ticket.",
+      "direction": "Visual slide shows bottleneck graphic of procurement checklist.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Audit Filing",
+            "detail": "Passes legal minimum threshold"
+          },
+          {
+            "label": "Commercial Bid",
+            "detail": "Requires operational proof"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "timecode": "0:12-0:17",
+      "onscreen": "Buyers look for operational trade-offs.",
+      "voiceover": "Trust is built on how you handle trade-offs when input costs surge or supply chains break.",
+      "direction": "Clean typography transition."
+    },
+    {
+      "timecode": "0:17-0:22",
+      "onscreen": "The 3-point ESG credibility test",
+      "voiceover": "Run this three-point test on your ESG communication before publishing.",
+      "direction": "Checklist animation overlay.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Cost Disclosed",
+            "detail": "State what the climate target cost to hit"
+          },
+          {
+            "label": "Vendor Penalty",
+            "detail": "Define consequences for supplier non-compliance"
+          },
+          {
+            "label": "Scope Limits",
+            "detail": "Name the operational areas not yet covered"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:22-0:28",
+      "onscreen": "Reputation lives in operational decisions.",
+      "voiceover": "If your report only lists metrics and hides the costs, it reads as PR. Stakeholder trust is built in the trade-offs.",
+      "direction": "Final text frame with clear emphasis."
+    }
+  ],
+  "reel_cover": {
+    "headline": "ESG compliance vs real trust",
+    "signal": "Audit vs Strategy",
+    "layout": "split",
+    "visual": {
+      "kind": "comparison",
+      "items": [
+        {
+          "label": "Audit Filing",
+          "detail": "Regulatory compliance floor"
+        },
+        {
+          "label": "Reputation",
+          "detail": "Operational trade-off proof"
+        }
+      ],
+      "note": "Suggested check"
+    }
+  },
+  "caption": "ESG reporting will not protect your reputation.\n\nExecuting ESG communication that is not greenwashing requires showing the decisions that actually cost money.\n\nAudited filings satisfy regulators. They do not convince a procurement committee or a community group that you will do the right thing when margins tighten.\n\nWhen a company publishes target metrics without disclosing the operational trade-offs required to reach them, readers assume the report was written by legal and polished by PR.\n\nIf your sustainability disclosures list achievements without naming what they cost or where the scope stops, you are publishing marketing copy, not building credibility.\n\nReal reputation is built on how transparently you handle business constraints, not how neatly you design a compliance PDF.\n\nSend this to whoever is preparing your corporate sustainability disclosures this quarter.\n\n[corporate reputation, esg communication that is not greenwashing, corporate communications, stakeholder trust, b2b reputation]",
+  "alt_text": "Text graphic listing three ESG communication checks on a dark gray background.",
+  "hashtags": [
+    "#corporatecommunications",
+    "#reputation",
+    "#esg"
+  ],
+  "cta": "Send this to whoever is preparing your corporate sustainability disclosures this quarter.",
+  "failure_mode": "It risks reading like generic ESG critique if the operational trade-off framework in beat 5 is skimmed over.",
+  "sources": [],
+  "scheduled_for": "2026-10-22T17:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": true,
+    "selected_time": "17:00",
+    "candidates": [
+      "13:00",
+      "17:00"
+    ],
+    "week_index": 1
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "reel",
+    "pillar": "reputation",
+    "hook_words": 7,
+    "hook_characters": 47,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "comparison",
+    "schedule": {
+      "active": true,
+      "selected_time": "17:00",
+      "candidates": [
+        "13:00",
+        "17:00"
+      ],
+      "week_index": 1
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "reel_assets": {
+    "background": {
+      "source": "designed_gradient"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (11).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-10-19/thu-1700-esg-compliance-versus-reputation/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "bottleneck",
+    "checklist"
+  ],
+  "warnings": []
+}

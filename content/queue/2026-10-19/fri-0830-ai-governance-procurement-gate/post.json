@@ -1,0 +1,155 @@
+{
+  "title": "ai_governance_procurement_gate",
+  "pillar": "ai_marketing",
+  "format": "reel",
+  "primary_keyword": "AI governance",
+  "claim": "Autonomous AI marketing systems fail in heavy industry because procurement teams audit compliance before they ever read creative copy.",
+  "hook": "AI generated copy fails every procurement audit.",
+  "evidence": {
+    "type": "practitioner_observation",
+    "detail": "Observed enterprise procurement reviews for industrial engineering suppliers where generative copy without traceable sourcing was rejected for non-compliance with ISO standards."
+  },
+  "reel_cover": {
+    "visual": {
+      "kind": "bottleneck",
+      "items": [
+        {
+          "label": "Prompt output",
+          "detail": "Generated claims pass creative review."
+        },
+        {
+          "label": "Audit gate",
+          "detail": "Procurement blocks unverified data."
+        }
+      ],
+      "note": "Enterprise review workflow"
+    },
+    "headline": "AI copy fails procurement audits",
+    "signal": "Zero audit trails",
+    "layout": "stamp"
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "AI generated copy fails every procurement audit.",
+      "voiceover": "AI generated copy fails every procurement audit. Not because it sounds robotic, but because enterprise buyers require verifiable proof.",
+      "direction": "Close up on a printed procurement specification sheet marked with red review stamps."
+    },
+    {
+      "timecode": "0:03-0:09",
+      "onscreen": "Speed creates liability.",
+      "voiceover": "Speed is what generative tools sell. Liability is what large industrial buyers actually buy against.",
+      "direction": "Pan across a stack of heavy industrial equipment compliance manuals."
+    },
+    {
+      "timecode": "0:09-0:16",
+      "onscreen": "The enterprise gap",
+      "voiceover": "When your marketing team uses AI to write product capability claims, you introduce unmonitored risk into an eighteen-month sales cycle.",
+      "direction": "Medium shot of an office workspace with enterprise software dashboards visible.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Consumer speed",
+            "detail": "Fast iterations"
+          },
+          {
+            "label": "Enterprise risk",
+            "detail": "Strict verification"
+          }
+        ],
+        "note": "Workflow divergence"
+      }
+    },
+    {
+      "timecode": "0:16-0:24",
+      "onscreen": "Run this compliance test",
+      "voiceover": "Before you let algorithms write another product spec, run this three-point governance check across your output.",
+      "direction": "Cut to a clean checklist graphic against a neutral industrial background."
+    },
+    {
+      "timecode": "0:24-0:35",
+      "onscreen": "Governance checklist",
+      "voiceover": "First, can you trace every claim to a regulated standard? Second, is the data source publicly verifiable? Third, will legal indemnify the prompt output?",
+      "direction": "Detailed checklist view highlighting the verification steps one by one.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Trace claims",
+            "detail": "Tie every statement to an ISO standard"
+          },
+          {
+            "label": "Verify sources",
+            "detail": "Ensure data is publicly checkable"
+          },
+          {
+            "label": "Legal signoff",
+            "detail": "Confirm indemnity for AI outputs"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:35-0:42",
+      "onscreen": "AI governance is risk control",
+      "voiceover": "Effective AI governance in marketing is not about creative output quality. It is about whether your buyers can defend your claims to their board.",
+      "direction": "Return to presenter looking directly at the camera."
+    }
+  ],
+  "caption": "AI generated copy fails every procurement audit.\n\nEffective AI governance matters most when selling industrial commodities where every technical assertion must survive a legal review board before an invoice gets signed.\n\nConsumer marketing rewards speed and volume. Enterprise procurement rewards verifiable consistency.\n\nSend this to whoever is defending your marketing technology stack against compliance reviews this quarter.\n\n[AI governance, enterprise marketing, marketing technology, procurement compliance]",
+  "alt_text": "Audit documents with compliance stamps and a checklist graphic for marketing systems",
+  "hashtags": [
+    "#aimarketing",
+    "#martech",
+    "#b2bmarketing"
+  ],
+  "cta": "Send this to whoever is defending your marketing technology stack against compliance reviews this quarter.",
+  "failure_mode": "Readers might mistake this for generic anti-AI sentiment rather than a specific operational warning about enterprise procurement rules.",
+  "sources": [],
+  "scheduled_for": "2026-10-23T08:30:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "08:30"
+  },
+  "experiment": {
+    "hook_type": "correction",
+    "evidence_type": "practitioner_observation",
+    "format": "reel",
+    "pillar": "ai_marketing",
+    "hook_words": 7,
+    "hook_characters": 48,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "bottleneck",
+    "schedule": {
+      "active": false,
+      "selected_time": "08:30"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "reel_assets": {
+    "background": {
+      "source": "designed_gradient"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (13).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-10-19/fri-0830-ai-governance-procurement-gate/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "bottleneck",
+    "comparison",
+    "checklist"
+  ],
+  "warnings": []
+}

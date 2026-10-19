@@ -1,0 +1,167 @@
+{
+  "type": "object",
+  "pillar": "inside_the_org",
+  "format": "carousel",
+  "primary_keyword": "defending a marketing budget",
+  "claim": "Budget defense fails when marketing brings opinion instead of operational risk metrics to the commercial review.",
+  "hook": "Why the sales team is right to cut your budget",
+  "title": "defendingmarketingbudgetb2b",
+  "evidence": {
+    "type": "practitioner_observation",
+    "detail": "Observed commercial reviews across industrial sales cycles where brand expenditure was routinely reduced until mapped directly to procurement committee risk reduction rather than lead volume."
+  },
+  "slides": [
+    {
+      "headline": "Why the sales team is right to cut your budget"
+    },
+    {
+      "kicker": "The Deficit",
+      "headline": "You measure leads. Sales measures accounts that signed.",
+      "body": "When a commercial team fights for margin, campaign reach sounds like an overhead expense they cannot afford.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Marketing View",
+            "detail": "Measured by reach and form fills"
+          },
+          {
+            "label": "Commercial View",
+            "detail": "Measured by margin protection"
+          }
+        ],
+        "note": "Typical disconnect in industrial budget reviews"
+      }
+    },
+    {
+      "kicker": "The Translation",
+      "headline": "Brand spend is risk insurance for procurement committees",
+      "body": "An industrial buyer risks their job on vendor choice. Brand presence removes that risk.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Unknown Vendor",
+            "detail": "Triggers extended committee review"
+          },
+          {
+            "label": "Known Reputation",
+            "detail": "Passes evaluation without scrutiny"
+          }
+        ],
+        "note": "How reputation enters an enterprise tender"
+      }
+    },
+    {
+      "kicker": "The Shift",
+      "headline": "Stop defending creative. Start defending margin stability.",
+      "body": "Show how much faster a tender clears when the risk committee already recognises your name.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Old Defense",
+            "detail": "We need this spend for awareness"
+          },
+          {
+            "label": "New Defense",
+            "detail": "This spend shortens review cycles"
+          }
+        ],
+        "note": "Language shift required in budget defense"
+      }
+    },
+    {
+      "kicker": "The Application",
+      "headline": "Three metrics to bring to your next budget review",
+      "body": "Tie every rupee of brand investment to sales cycle velocity, specification inclusion rates, and pricing power.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "1. Velocity",
+            "detail": "Days saved in procurement cycle"
+          },
+          {
+            "label": "2. Inclusion",
+            "detail": "Unprompted tender list presence"
+          },
+          {
+            "label": "3. Margin",
+            "detail": "Win rates against cheaper rivals"
+          }
+        ],
+        "note": "Operational metrics for brand teams"
+      }
+    },
+    {
+      "kicker": "The Principle",
+      "headline": "Reputation is priced in before procurement asks",
+      "body": "If you cannot show how your work protects margin, the sales team will keep treating you as a cost centre.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Cost Centre",
+            "detail": "First line cut during pressure"
+          },
+          {
+            "label": "Risk Shield",
+            "detail": "Protected asset in competitive bidding"
+          }
+        ],
+        "note": "The two ways commercial teams view brand"
+      }
+    }
+  ],
+  "caption": "Why the sales team is right to cut your budget\n\nDefending a marketing budget fails when you argue about impressions in a room where everyone else is worried about margin.\n\nIndustrial buyers do not buy from ads. They buy to eliminate risk. If your brand work cannot show how it shortens tender cycles or protects pricing power against commoditisation, the commercial team is right to treat it as overhead.\n\nStop talking about reach. Start talking about risk reduction.\n\nSend this to whoever is defending the brand budget this quarter.\n\n[defending a marketing budget, b2b marketing, industrial marketing, marketing leadership, in-house marketing]",
+  "alt_text": "Carousel slide about defending a marketing budget in industrial b2b companies.",
+  "hashtags": [
+    "#marketingleadership",
+    "#inhousemarketing",
+    "#b2bmarketing"
+  ],
+  "cta": "Send this to whoever is defending the brand budget this quarter.",
+  "failure_mode": "Readers might assume this applies only to ad spend rather than the wider operational definition of brand reputation in industrial sales.",
+  "scheduled_for": "2026-10-24T10:30:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "10:30"
+  },
+  "experiment": {
+    "hook_type": "cost",
+    "evidence_type": "practitioner_observation",
+    "format": "carousel",
+    "pillar": "inside_the_org",
+    "hook_words": 10,
+    "hook_characters": 46,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "10:30"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "images": [
+    "content/queue/2026-10-19/sat-1030-defendingmarketingbudgetb2b/slide-01.jpg",
+    "content/queue/2026-10-19/sat-1030-defendingmarketingbudgetb2b/slide-02.jpg",
+    "content/queue/2026-10-19/sat-1030-defendingmarketingbudgetb2b/slide-03.jpg",
+    "content/queue/2026-10-19/sat-1030-defendingmarketingbudgetb2b/slide-04.jpg",
+    "content/queue/2026-10-19/sat-1030-defendingmarketingbudgetb2b/slide-05.jpg",
+    "content/queue/2026-10-19/sat-1030-defendingmarketingbudgetb2b/slide-06.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "bottleneck",
+    "checklist",
+    "checklist",
+    "comparison"
+  ],
+  "warnings": []
+}
