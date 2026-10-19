@@ -103,7 +103,7 @@
   "cta": "Send this to whoever is defending your pricing strategy in procurement meetings this quarter.",
   "failure_mode": "If the viewer works in custom engineering rather than true commodities, the emphasis on delivery SLAs over technical features may feel overstated.",
   "scheduled_for": "2026-10-19T08:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -145,5 +145,7 @@
     "comparison",
     "checklist"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-10-19T13:10:50.700016+05:30",
+  "media_id": "17879099064631986"
 }
