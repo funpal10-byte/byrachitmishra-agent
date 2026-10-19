@@ -109,7 +109,7 @@
   "failure_mode": "Readers might mistake this for generic anti-AI sentiment rather than a specific operational warning about enterprise procurement rules.",
   "sources": [],
   "scheduled_for": "2026-10-23T08:30:00+05:30",
-  "status": "draft",
+  "status": "approved",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
