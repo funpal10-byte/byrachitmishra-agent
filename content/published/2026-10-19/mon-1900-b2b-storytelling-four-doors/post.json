@@ -169,7 +169,7 @@
   "cta": "Send this to whoever is still trying to turn an engineering specification into an ad.",
   "failure_mode": "Industrial marketers might dismiss storytelling as irrelevant to heavy procurement committees without reading the Ehrenberg-Bass timing argument.",
   "scheduled_for": "2026-10-19T19:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "blog",
   "source_url": "https://www.rachitmishra.in/2026/09/22/b2b-storytelling-examples/",
@@ -222,5 +222,7 @@
     "checklist",
     "comparison"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-10-19T21:01:59.196380+05:30",
+  "media_id": "17970257126961152"
 }
