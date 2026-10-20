@@ -120,7 +120,7 @@
   "cta": "Send this to whoever is building your team's martech guidelines this quarter.",
   "failure_mode": "Could be misinterpreted as an anti-AI stance rather than an operational governance framework for enterprise accuracy.",
   "scheduled_for": "2026-10-20T19:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -162,5 +162,7 @@
     "comparison",
     "checklist"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-10-20T22:21:40.815765+05:30",
+  "media_id": "18119677216748763"
 }
