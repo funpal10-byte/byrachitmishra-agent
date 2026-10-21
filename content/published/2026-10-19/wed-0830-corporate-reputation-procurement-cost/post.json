@@ -160,7 +160,7 @@
   "cta": "Send this to whoever is defending the brand budget against the sales team this quarter.",
   "failure_mode": "Could be misread as a general PR homily if the industrial procurement angle is not emphasized.",
   "scheduled_for": "2026-10-21T08:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -206,5 +206,7 @@
     "comparison",
     "checklist"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-10-21T10:02:31.748120+05:30",
+  "media_id": "recovered-duplicate"
 }
