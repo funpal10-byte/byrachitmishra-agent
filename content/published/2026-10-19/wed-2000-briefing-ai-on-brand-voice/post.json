@@ -135,7 +135,7 @@
   "cta": "Send this to the person managing your brand system prompts this week.",
   "failure_mode": "If the negative constraint concept reads as basic prompt engineering advice rather than brand governance, it loses its enterprise focus.",
   "scheduled_for": "2026-10-21T20:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -175,5 +175,7 @@
     "checklist",
     "comparison"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-10-21T20:39:09.591857+05:30",
+  "media_id": "18081447422361281"
 }
