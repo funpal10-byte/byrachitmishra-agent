@@ -124,7 +124,7 @@
   "cta": "Send this to whoever is defending the brand budget this quarter.",
   "failure_mode": "Readers might assume this applies only to ad spend rather than the wider operational definition of brand reputation in industrial sales.",
   "scheduled_for": "2026-10-24T10:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -163,5 +163,7 @@
     "checklist",
     "comparison"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-10-24T12:42:47.911254+05:30",
+  "media_id": "18134500615666088"
 }
