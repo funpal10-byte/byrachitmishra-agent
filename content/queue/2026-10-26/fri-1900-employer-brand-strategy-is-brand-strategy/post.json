@@ -1,0 +1,177 @@
+{
+  "title": "employer_brand_strategy_is_brand_strategy",
+  "pillar": "ai_in_practice",
+  "format": "carousel",
+  "primary_keyword": "employer branding strategy",
+  "claim": "Employer brand is downstream of corporate reputation, not a standalone HR project.",
+  "hook": "A careers page cannot fix a broken reputation.",
+  "evidence": {
+    "type": "source",
+    "source_url": "https://www.rachitmishra.in/2026/09/12/employer-branding-strategy/",
+    "detail": "Randstad Employer Brand Research 2025 and Glassdoor candidate research data on review volume and conversion impact."
+  },
+  "slides": [
+    {
+      "headline": "A careers page cannot fix a broken reputation."
+    },
+    {
+      "kicker": "The Recruitment Trap",
+      "headline": "HR rewrites the careers page. The pipeline stays dry.",
+      "body": "Candidates research channels the company does not own long before they ever open a careers page.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Company Action",
+            "detail": "Rewriting careers page copy every quarter"
+          },
+          {
+            "label": "Candidate Research",
+            "detail": "Reading review sites and employee networks"
+          }
+        ],
+        "note": "Where candidates look vs where HR spends"
+      }
+    },
+    {
+      "kicker": "The External Signal",
+      "headline": "Review sites are the brand tracker you never commissioned.",
+      "body": "Eighty-three percent of job seekers read reviews before applying, weighing independent data over company claims.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Glassdoor Ratings",
+            "detail": "Read by 83% of applicants before clicking"
+          },
+          {
+            "label": "AmbitionBox Volume",
+            "detail": "Millions of reviews across Indian employers"
+          }
+        ],
+        "note": "Candidate research behavior"
+      }
+    },
+    {
+      "kicker": "The Operating Limit",
+      "headline": "A recruitment campaign cannot outrun your customer brand.",
+      "body": "Candidates form their view from product quality, market news, and vendor reputation long before looking for open roles.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Customer Brand",
+            "detail": "Weak product or poor market reputation"
+          },
+          {
+            "label": "Hiring Result",
+            "detail": "Cost per hire doubles for unliked brands"
+          }
+        ],
+        "note": "Reputation spillover across audiences"
+      }
+    },
+    {
+      "kicker": "The Shared Asset",
+      "headline": "Two brand teams for one reputation creates public contradiction.",
+      "body": "Employer brand and customer brand must share a positioning document, a tone of voice, and executive oversight.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Siloed Budgets",
+            "detail": "HR and marketing running separate narratives"
+          },
+          {
+            "label": "Unified Position",
+            "detail": "One reputation governed across both audiences"
+          }
+        ],
+        "note": "Organizational alignment test"
+      }
+    },
+    {
+      "kicker": "The Metric Shift",
+      "headline": "Track the rating on the dashboard, not just the campaign.",
+      "body": "Put review site trends beside customer metrics on board decks. Manage reputation where it is actually measured.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Review Tracking",
+            "detail": "Monitor 24-month rating trends"
+          },
+          {
+            "label": "Board Review",
+            "detail": "Review HR metrics alongside commercial NPS"
+          }
+        ],
+        "note": "Quarterly governance checklist"
+      }
+    },
+    {
+      "headline": "Employer brand is brand strategy aimed at the labour market."
+    }
+  ],
+  "caption": "A careers page cannot fix a broken reputation.\n\nTreating employer branding strategy as a separate recruitment marketing project is an expensive mistake. Candidates research your company on independent channels long before they apply.\n\nThe long version of this analysis on employer brand strategy is available on my site: https://www.rachitmishra.in/2026/09/12/employer-branding-strategy/\n\nIf your ratings have not moved in two years, a new banner will not change the outcome.\n\nSend this to whoever is defending the recruitment marketing budget this quarter.\n\n[employer branding strategy, b2b branding, corporate reputation, marketing operations]",
+  "alt_text": "Carousel slides showing why employer brand strategy depends on customer reputation and review sites.",
+  "hashtags": [
+    "#b2bmarketing",
+    "#marketingoperations",
+    "#aigovernance"
+  ],
+  "cta": "Send this to whoever is defending the recruitment marketing budget this quarter.",
+  "failure_mode": "Readers might assume this is generic HR advice rather than a structural critique of how industrial companies waste brand budget on recruitment.",
+  "scheduled_for": "2026-10-30T19:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2026/09/12/employer-branding-strategy/",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "19:00"
+  },
+  "experiment": {
+    "hook_type": "distinction",
+    "evidence_type": "source",
+    "format": "carousel",
+    "pillar": "ai_in_practice",
+    "hook_words": 8,
+    "hook_characters": 46,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "19:00"
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2026/09/12/employer-branding-strategy/",
+    "final_url": "https://www.rachitmishra.in/2026/09/12/employer-branding-strategy/",
+    "http_status": 200
+  },
+  "sources": [
+    {
+      "title": "Randstad Employer Brand Research 2025 and Glassdoor candidate research data on review volume and conversion impact.",
+      "url": "https://www.rachitmishra.in/2026/09/12/employer-branding-strategy/"
+    }
+  ],
+  "images": [
+    "content/queue/2026-10-26/fri-1900-employer-brand-strategy-is-brand-strategy/slide-01.jpg",
+    "content/queue/2026-10-26/fri-1900-employer-brand-strategy-is-brand-strategy/slide-02.jpg",
+    "content/queue/2026-10-26/fri-1900-employer-brand-strategy-is-brand-strategy/slide-03.jpg",
+    "content/queue/2026-10-26/fri-1900-employer-brand-strategy-is-brand-strategy/slide-04.jpg",
+    "content/queue/2026-10-26/fri-1900-employer-brand-strategy-is-brand-strategy/slide-05.jpg",
+    "content/queue/2026-10-26/fri-1900-employer-brand-strategy-is-brand-strategy/slide-06.jpg",
+    "content/queue/2026-10-26/fri-1900-employer-brand-strategy-is-brand-strategy/slide-07.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "checklist",
+    "bottleneck",
+    "comparison",
+    "checklist"
+  ],
+  "warnings": []
+}

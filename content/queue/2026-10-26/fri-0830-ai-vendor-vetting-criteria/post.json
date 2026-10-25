@@ -1,0 +1,157 @@
+{
+  "title": "ai_vendor_vetting_criteria",
+  "pillar": "ai_marketing",
+  "format": "reel",
+  "primary_keyword": "AI adoption in a large company",
+  "claim": "Enterprise AI tools fail in marketing not from bad outputs, but from unmanaged legal liability and data privacy exposure in the supply chain.",
+  "hook": "90% of AI risk sits in your vendor contract.",
+  "evidence": {
+    "type": "framework",
+    "detail": "A 4-point procurement sanity check for enterprise marketing technology evaluation: training data indemnity, data retention window, downstream model ownership, and liability cap alignment."
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "90% of AI risk sits in your vendor contract.",
+      "voiceover": "90% of AI risk sits in your vendor contract, not in the prompt window.",
+      "direction": "Text overlays dark background with industrial corporate grid pattern."
+    },
+    {
+      "timecode": "0:03-0:07",
+      "onscreen": "Copy paste is easy. Legal sign-off is not.",
+      "voiceover": "Generative tools look simple at the desk. But scaling AI adoption in a large company breaks at legal sign-off.",
+      "direction": "Text overlay with clean typography."
+    },
+    {
+      "timecode": "0:07-0:12",
+      "onscreen": "Where is your brand data retained?",
+      "voiceover": "Most enterprise teams check output quality. Almost none check if input prompts train public base models by default.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Prompt Inputs",
+            "detail": "Unchecked enterprise data entering model"
+          },
+          {
+            "label": "Vendor Terms",
+            "detail": "Default opt-in to public model training"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "timecode": "0:12-0:18",
+      "onscreen": "The 4-point AI procurement checklist",
+      "voiceover": "Before signing any enterprise marketing technology vendor, run this four-step legal audit.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Zero Retention",
+            "detail": "Inputs deleted within 30 days"
+          },
+          {
+            "label": "No Re-Training",
+            "detail": "Data excluded from global base models"
+          },
+          {
+            "label": "IP Indemnity",
+            "detail": "Vendor covers copyright output claims"
+          },
+          {
+            "label": "Full Output Ownership",
+            "detail": "Enterprise owns generated assets"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:18-0:23",
+      "onscreen": "If they fail one point, block the license.",
+      "voiceover": "If an AI software vendor cannot sign all four conditions in writing, do not deploy them across your communications team.",
+      "direction": "Clear bold text on screen."
+    },
+    {
+      "timecode": "0:23-0:28",
+      "onscreen": "Governance protects speed.",
+      "voiceover": "AI governance is not a brake on marketing execution. It is the boundary that allows enterprise scale without legal rollback.",
+      "direction": "Final summary card."
+    }
+  ],
+  "reel_cover": {
+    "headline": "AI vendors: 4 terms to mandate",
+    "signal": "4-point checklist",
+    "layout": "stamp",
+    "visual": {
+      "kind": "checklist",
+      "items": [
+        {
+          "label": "Model Training",
+          "detail": "Contractual opt-out verified"
+        },
+        {
+          "label": "IP Liability",
+          "detail": "Vendor indemnity confirmed"
+        }
+      ],
+      "note": "Suggested check"
+    }
+  },
+  "caption": "90% of AI risk sits in your vendor contract.\n\nSuccessful AI adoption in a large company is rarely stopped by prompt quality. It gets killed six months later when legal reviews the enterprise software agreement.\n\nMost B2B communications leads test tools for speed and output style. Meanwhile, the software vendor retains prompt inputs to train public base models, exposing confidential product specifications to public indexing.\n\nIf your martech vendor cannot grant full copyright indemnity and guarantee zero data retention for training, you are taking on unmanaged corporate risk.\n\nGovernance is not the enemy of speed. Clear boundaries are what allow large organizations to deploy tools safely.\n\nSend this to whoever is evaluating AI software vendors for your team this quarter.\n\n[ai adoption in a large company, marketing technology, enterprise marketing, AI governance, martech procurement]",
+  "alt_text": "Text graphic showing a 4-point contract checklist for evaluating enterprise marketing AI software.",
+  "hashtags": [
+    "#aimarketing",
+    "#martech",
+    "#marketingtechnology"
+  ],
+  "cta": "Send this to whoever is evaluating AI software vendors for your team this quarter.",
+  "failure_mode": "If the checklist feels too oriented toward legal procurement, pure creative leads might skim past, but for B2B brand leaders in enterprise environments, this trade-off is the exact point of failure.",
+  "sources": [],
+  "scheduled_for": "2026-10-30T08:30:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "08:30"
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "reel",
+    "pillar": "ai_marketing",
+    "hook_words": 9,
+    "hook_characters": 44,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "checklist",
+    "schedule": {
+      "active": false,
+      "selected_time": "08:30"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "reel_assets": {
+    "background": {
+      "source": "designed_gradient"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (13).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-10-26/fri-0830-ai-vendor-vetting-criteria/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "checklist",
+    "bottleneck",
+    "checklist"
+  ],
+  "warnings": []
+}

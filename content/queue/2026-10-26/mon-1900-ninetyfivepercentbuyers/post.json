@@ -1,0 +1,182 @@
+{
+  "title": "ninetyfivepercentbuyers",
+  "pillar": "b2b_brand",
+  "format": "carousel",
+  "primary_keyword": "b2b brand strategy",
+  "claim": "B2B marketers over-invest in active demand capture because finance measures quarterly pipeline rather than multi-year replacement cycles.",
+  "hook": "Ninety-five percent of buyers are not shopping.",
+  "evidence": {
+    "type": "source",
+    "source_url": "https://www.rachitmishra.in/2026/09/14/95-5-rule-b2b-marketing/",
+    "detail": "In long purchase-cycle categories, roughly 95 percent of buyers are out-of-market at any moment, derived from purchase cycle length rather than survey intent."
+  },
+  "slides": [
+    {
+      "headline": "Ninety-five percent of buyers are not shopping."
+    },
+    {
+      "kicker": "THE ARITHMETIC",
+      "headline": "The 95-5 split comes from purchase cycles",
+      "body": "Divide your period by the replacement cycle. A 7-year fleet replacement leaves under 4 percent in-market each quarter.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "7-Year Cycle",
+            "detail": "3.6 percent in-market per quarter"
+          },
+          {
+            "label": "1-Year Cycle",
+            "detail": "25 percent in-market per quarter"
+          }
+        ],
+        "note": "Calculated ratio by cycle length"
+      }
+    },
+    {
+      "kicker": "THE TRAP",
+      "headline": "Quarterly metrics force focus on short cycles",
+      "body": "Finance measures quarterly pipeline. Only active buyers produce it today, so short-term tactics swallow the budget.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Out-of-Market 95%",
+            "detail": "Blocked by quarterly KPI targets"
+          },
+          {
+            "label": "In-Market 5%",
+            "detail": "Captures 80% of current ad spend"
+          }
+        ],
+        "note": "Budget allocation vs buyer pool"
+      }
+    },
+    {
+      "kicker": "THE SHIFT",
+      "headline": "Two budgets build very different pipelines",
+      "body": "Focusing only on active demand leaves you bidding against rivals. Building broad reach puts you on the shortlist first.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Capture 5 Percent",
+            "detail": "Search and retargeting competition"
+          },
+          {
+            "label": "Build 100 Percent",
+            "detail": "Brand reach before tender opens"
+          }
+        ],
+        "note": "Long-term positioning impact"
+      }
+    },
+    {
+      "kicker": "THE FRAMEWORK",
+      "headline": "Three steps to realign finance and marketing",
+      "body": "Rebuilding your B2B plan requires changing the measurement contract with finance before shifting media spend.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Compute Real Cycle",
+            "detail": "Divide window by true interpurchase years"
+          },
+          {
+            "label": "Split Reporting",
+            "detail": "Separate pipeline from broad reach metrics"
+          },
+          {
+            "label": "Define Return Window",
+            "detail": "Set multi-year payback expectations"
+          }
+        ],
+        "note": "Suggested finance negotiation protocol"
+      }
+    },
+    {
+      "kicker": "DECISION CHECK",
+      "headline": "Audit your budget against cycle reality",
+      "body": "Run this check to see if your current media split matches how your industrial buyers actually enter the market.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Cycle Match Pass",
+            "detail": "Brand spend aligns with multi-year replacement"
+          },
+          {
+            "label": "Dashboard Split Pass",
+            "detail": "Out-of-market reach measured on cycle time"
+          }
+        ],
+        "note": "Pass conditions for marketing strategy"
+      }
+    },
+    {
+      "headline": "Build for the hundred percent before they shop.",
+      "body": "Re-negotiate your marketing contract with finance based on actual purchase cycles. Read the full analysis at rachitmishra.in"
+    }
+  ],
+  "caption": "Ninety-five percent of buyers are not shopping.\n\nMost B2B brand strategy focuses on active demand. The hardest meeting in B2B marketing isn't with your agency. It's with the CFO when you ask for budget that won't show up in quarterly pipeline.\n\nWhen we shifted media weight toward out-of-market buyers, leads didn't spike in week two. They couldn't—those accounts were years away from replacing equipment.\n\nWhat changed was tender participation later. When their window opened, we were already on the shortlist.\n\nIf finance measures you on quarterly pipeline alone, you will always over-invest in search ads and under-invest in category presence.\n\nSend this to whoever is defending the brand budget in your next review meeting.\n\n[b2b brand strategy, b2b branding, industrial marketing, manufacturing marketing, brand architecture]",
+  "cta": "Send this to whoever is defending the brand budget in your next review meeting.",
+  "alt_text": "Diagram showing purchase cycle math and how B2B brand budget splits across buyers.",
+  "hashtags": [
+    "#b2bmarketing",
+    "#industrialmarketing",
+    "#brandstrategy"
+  ],
+  "failure_mode": "If the reader operates in a short-cycle SaaS category where buyers renew annually, the 95-5 math weakens and the post may read as irrelevant.",
+  "sources": [
+    {
+      "title": "The 95-5 Rule: Marketing to Buyers Who Aren’t Buying",
+      "url": "https://www.rachitmishra.in/2026/09/14/95-5-rule-b2b-marketing/"
+    }
+  ],
+  "scheduled_for": "2026-10-26T19:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2026/09/14/95-5-rule-b2b-marketing/",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "19:00"
+  },
+  "experiment": {
+    "hook_type": "distinction",
+    "evidence_type": "source",
+    "format": "carousel",
+    "pillar": "b2b_brand",
+    "hook_words": 7,
+    "hook_characters": 47,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "19:00"
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2026/09/14/95-5-rule-b2b-marketing/",
+    "final_url": "https://www.rachitmishra.in/2026/09/14/95-5-rule-b2b-marketing/",
+    "http_status": 200
+  },
+  "images": [
+    "content/queue/2026-10-26/mon-1900-ninetyfivepercentbuyers/slide-01.jpg",
+    "content/queue/2026-10-26/mon-1900-ninetyfivepercentbuyers/slide-02.jpg",
+    "content/queue/2026-10-26/mon-1900-ninetyfivepercentbuyers/slide-03.jpg",
+    "content/queue/2026-10-26/mon-1900-ninetyfivepercentbuyers/slide-04.jpg",
+    "content/queue/2026-10-26/mon-1900-ninetyfivepercentbuyers/slide-05.jpg",
+    "content/queue/2026-10-26/mon-1900-ninetyfivepercentbuyers/slide-06.jpg",
+    "content/queue/2026-10-26/mon-1900-ninetyfivepercentbuyers/slide-07.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "bottleneck",
+    "comparison",
+    "checklist",
+    "checklist"
+  ],
+  "warnings": []
+}

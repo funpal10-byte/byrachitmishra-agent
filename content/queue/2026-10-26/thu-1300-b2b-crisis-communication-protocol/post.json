@@ -1,0 +1,174 @@
+{
+  "title": "b2b_crisis_communication_protocol",
+  "pillar": "reputation",
+  "format": "reel",
+  "primary_keyword": "crisis communication mistakes",
+  "claim": "In enterprise B2B disruptions, withholding operational bad news until a complete solution exists destroys client trust far faster than the outage itself.",
+  "hook": "Holding back bad news costs B2B trust.",
+  "evidence": {
+    "type": "framework",
+    "detail": "The 4-hour disclosure framework for B2B supply disruptions: immediate disruption alert at hour 4, scope and schedule impact at hour 24, fixed daily updates until resolution."
+  },
+  "reel_cover": {
+    "headline": "Plant outage: tell buyers when?",
+    "signal": "4-hour alert protocol",
+    "layout": "split",
+    "visual": {
+      "kind": "checklist",
+      "items": [
+        {
+          "label": "4-Hour Alert",
+          "detail": "Notify account lead immediately"
+        },
+        {
+          "label": "24-Hour Scope",
+          "detail": "Share volume impact numbers"
+        },
+        {
+          "label": "Daily Cadence",
+          "detail": "Fixed time updates until resolved"
+        }
+      ],
+      "note": "Suggested check"
+    }
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "Holding back bad news costs B2B trust.",
+      "voiceover": "Holding back bad news costs B2B trust. When an industrial supplier faces a plant outage, leadership often waits to inform buyers.",
+      "direction": "Dark textured background with high-contrast text overlay."
+    },
+    {
+      "timecode": "0:03-0:07",
+      "onscreen": "Buyers hate surprise shutdowns.",
+      "voiceover": "They wait until they have a complete recovery plan. But enterprise buyers do not need a perfect answer on day one; they need lead time.",
+      "direction": "Graphic overlay illustrating operational delay approval process.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Factory outage",
+            "detail": "Unplanned line shutdown"
+          },
+          {
+            "label": "Buyer alert",
+            "detail": "Held 48 hrs for management review"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "timecode": "0:07-0:11",
+      "onscreen": "Silence forces buyers to guess.",
+      "voiceover": "When you stay silent, procurement assumes the worst, alerts their leadership, and starts qualifying alternate suppliers.",
+      "direction": "Clean typography shift to emphasize client risk assessment."
+    },
+    {
+      "timecode": "0:11-0:15",
+      "onscreen": "Early bad news protects contracts.",
+      "voiceover": "Admitting a delay within four hours with partial data builds far more trust than a polished explanation delivered three days late.",
+      "direction": "Split view contrasting early raw updates against delayed polished comms."
+    },
+    {
+      "timecode": "0:15-0:21",
+      "onscreen": "Run the B2B Crisis Protocol.",
+      "voiceover": "Here is the 3-step notification protocol for enterprise account management.",
+      "direction": "Checklist sequence detailing step-by-step incident notification.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "4-Hour Alert",
+            "detail": "Acknowledge outage and direct impact"
+          },
+          {
+            "label": "24-Hour Scope",
+            "detail": "State volume affected and new schedules"
+          },
+          {
+            "label": "Daily Cadence",
+            "detail": "Fixed daily updates regardless of status"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:21-0:26",
+      "onscreen": "Transparency retains enterprise accounts.",
+      "voiceover": "B2B buyers forgive equipment failures and logistics delays. They do not forgive being caught off guard in front of their own customers.",
+      "direction": "Text focus emphasizing client relationship retention."
+    },
+    {
+      "timecode": "0:26-0:29",
+      "onscreen": "Predictability is brand protection.",
+      "voiceover": "Predictability in a crisis is brand protection.",
+      "direction": "Final summary card displaying named principle."
+    }
+  ],
+  "caption": "Holding back bad news costs B2B trust.\n\nMost crisis communication mistakes in enterprise accounts come from waiting for board approval on a solution before telling buyers about an outage.\n\nYour client knows heavy industry has downtime. They are calculating whether you will make them look incompetent to their own customers.\n\nAn imperfect alert at hour four lets them adjust schedules. A polished apology at hour seventy-two forces them to halt production.\n\nCorporate reputation is not built on flawless uptime. It is built on zero surprises.\n\nSend this to whoever leads key account communications or operational risk.\n\n[crisis communication mistakes, corporate reputation management, corporate communications, b2b trust, stakeholder trust]",
+  "alt_text": "Text graphic displaying a 3-step crisis communication checklist for B2B industrial plant outages.",
+  "hashtags": [
+    "#corporatecommunications",
+    "#reputation",
+    "#crisiscommunication"
+  ],
+  "cta": "Send this to whoever leads key account communications or operational risk.",
+  "failure_mode": "Internal operations leaders may argue that announcing an outage before fixing it risks causing unnecessary client panic.",
+  "scheduled_for": "2026-10-29T13:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": true,
+    "selected_time": "13:00",
+    "candidates": [
+      "13:00",
+      "17:00"
+    ],
+    "week_index": 0
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "reel",
+    "pillar": "reputation",
+    "hook_words": 7,
+    "hook_characters": 38,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "checklist",
+    "schedule": {
+      "active": true,
+      "selected_time": "13:00",
+      "candidates": [
+        "13:00",
+        "17:00"
+      ],
+      "week_index": 0
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "reel_assets": {
+    "background": {
+      "source": "designed_gradient"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (11).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-10-26/thu-1300-b2b-crisis-communication-protocol/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "checklist",
+    "bottleneck",
+    "checklist"
+  ],
+  "warnings": []
+}
