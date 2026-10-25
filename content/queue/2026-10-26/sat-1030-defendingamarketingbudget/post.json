@@ -1,0 +1,179 @@
+{
+  "title": "defendingamarketingbudget",
+  "pillar": "inside_the_org",
+  "format": "carousel",
+  "primary_keyword": "defending a marketing budget",
+  "claim": "Marketing budgets get cut in industrial firms because teams present spending by activity instead of business liability coverage.",
+  "hook": "Your marketing budget gets cut on activities.",
+  "evidence": {
+    "type": "framework",
+    "detail": "A decision framework framing marketing line items as risk mitigation costs rather than campaign expenses during executive budget defense."
+  },
+  "slides": [
+    {
+      "headline": "Your marketing budget gets cut on activities."
+    },
+    {
+      "kicker": "01 / THE MISALIGNMENT",
+      "headline": "Finance sees marketing as an optional operational expense",
+      "body": "When you show a board deck filled with event spend, rebrands, and media buys, finance sees overhead to trim.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Marketing Proposal",
+            "detail": "Requests budget for campaigns and media buys"
+          },
+          {
+            "label": "Finance View",
+            "detail": "Identifies discretionary overhead to reduce"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "02 / THE REFRAME",
+      "headline": "Map every rupee directly to commercial risk",
+      "body": "Industrial buyers leave when trust breaks. Reframing marketing as liability insurance changes the budget conversation.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Discretionary Spend",
+            "detail": "Brand awareness and collateral refreshes"
+          },
+          {
+            "label": "Risk Mitigation",
+            "detail": "Protecting contract renewal and margin power"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "03 / THE AUDIT",
+      "headline": "Separate your budget into three defensive categories",
+      "body": "Categorize every line item by the business vulnerability it protects against before entering the finance review.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Margin Defense",
+            "detail": "Prevents pricing pressure from buyers"
+          },
+          {
+            "label": "Pipeline Protection",
+            "detail": "Secures revenue against single-buyer churn"
+          },
+          {
+            "label": "Talent Retention",
+            "detail": "Reduces key recruitment replacement costs"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "04 / THE EXECUTION",
+      "headline": "Run this review before submitting your next budget",
+      "body": "Test your line items against financial trade-offs to ensure every dollar defends existing corporate revenue.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Link to Revenue Risk",
+            "detail": "Tie line items to specific contract values"
+          },
+          {
+            "label": "Name the Cost of Zero",
+            "detail": "Show financial fallout of cutting the item"
+          },
+          {
+            "label": "Align to Sales Targets",
+            "detail": "Match spend to long sales cycle milestones"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "05 / MONDAY MEETING",
+      "headline": "Three phrases to reframe your next budget review",
+      "body": "Use these precise phrases in your next executive meeting to defend your allocation.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Risk Protection",
+            "detail": "This budget secures 80 percent of renewals"
+          },
+          {
+            "label": "Margin Shield",
+            "detail": "Cuts directly increase client price sensitivity"
+          },
+          {
+            "label": "Pipeline Defense",
+            "detail": "Spend protects key account buyer access"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "headline": "Budgets protect downside before funding growth.",
+      "body": "Send this to whoever is defending the brand budget this quarter."
+    }
+  ],
+  "caption": "Your marketing budget gets cut on activities.\n\nWhen defending a marketing budget to a CFO in heavy industry, presenting a list of campaigns and collateral updates invites immediate cuts.\n\nFinance leaders evaluate discretionary spend by its impact on cash preservation. If your line items read as activities rather than risk controls, they look like optional overhead.\n\nThe fix is to translate every line item into revenue protection. You are not buying a trade show booth; you are securing access to procurement decision-makers for five key enterprise accounts.\n\nMarketing in enterprise B2B is operational insurance against margin erosion.\n\nSend this to whoever is defending the brand budget this quarter.\n\n[defending a marketing budget, in-house marketing, brand governance, b2b marketing]",
+  "alt_text": "A framework graphic contrasting activity-based marketing budgets with risk mitigation budgets.",
+  "hashtags": [
+    "#marketingleadership",
+    "#inhousemarketing",
+    "#brandgovernance"
+  ],
+  "cta": "Send this to whoever is defending the brand budget this quarter.",
+  "failure_mode": "If the post reads like generic corporate budget advice rather than addressing the specific tension between industrial marketing leaders and CFOs, it fails.",
+  "scheduled_for": "2026-10-31T10:30:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "10:30"
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "carousel",
+    "pillar": "inside_the_org",
+    "hook_words": 7,
+    "hook_characters": 45,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "10:30"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "images": [
+    "content/queue/2026-10-26/sat-1030-defendingamarketingbudget/slide-01.jpg",
+    "content/queue/2026-10-26/sat-1030-defendingamarketingbudget/slide-02.jpg",
+    "content/queue/2026-10-26/sat-1030-defendingamarketingbudget/slide-03.jpg",
+    "content/queue/2026-10-26/sat-1030-defendingamarketingbudget/slide-04.jpg",
+    "content/queue/2026-10-26/sat-1030-defendingamarketingbudget/slide-05.jpg",
+    "content/queue/2026-10-26/sat-1030-defendingamarketingbudget/slide-06.jpg",
+    "content/queue/2026-10-26/sat-1030-defendingamarketingbudget/slide-07.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "comparison",
+    "checklist",
+    "checklist",
+    "checklist"
+  ],
+  "warnings": []
+}

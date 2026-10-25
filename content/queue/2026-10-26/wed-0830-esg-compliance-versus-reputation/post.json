@@ -1,0 +1,170 @@
+{
+  "title": "esg_compliance_versus_reputation",
+  "pillar": "reputation",
+  "format": "reel",
+  "primary_keyword": "ESG communication that is not greenwashing",
+  "claim": "Corporate reputation in B2B is damaged when ESG communications focus on target years rather than operational trade-offs.",
+  "hook": "ESG claims fail without trade-offs.",
+  "evidence": {
+    "type": "framework",
+    "detail": "A 3-part operational audit for enterprise ESG communications: verifying current operational baselines, naming the cost trade-off, and defining explicit failure conditions."
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "ESG claims fail without trade-offs.",
+      "voiceover": "ESG claims fail without trade-offs. Most corporate comms teams publish twenty-year climate goals that no current board member will be alive to enforce.",
+      "direction": "Clean, minimal text display on dark metallic background."
+    },
+    {
+      "timecode": "0:03-0:08",
+      "onscreen": "Procurement audits operations, not vision.",
+      "voiceover": "Procurement committees do not award heavy industrial contracts based on a vision statement for 2045. They look at your current operating audit.",
+      "direction": "Text transition emphasizing procurement reality.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "2045 Net-Zero Target",
+            "detail": "Ignored by industrial buyers"
+          },
+          {
+            "label": "Current Plant Baseline",
+            "detail": "Verified by customer compliance"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "timecode": "0:08-0:14",
+      "onscreen": "Vague targets look like unpriced risk.",
+      "voiceover": "When your ESG comms leads with distant targets without naming the capital cost to get there, enterprise buyers do not read ambition. They read unpriced financial risk.",
+      "direction": "Text highlighting the buyer perspective."
+    },
+    {
+      "timecode": "0:14-0:20",
+      "onscreen": "The 3-point ESG audit for B2B comms.",
+      "voiceover": "If you want ESG communication that is not greenwashing, run every draft through three tests before publishing.",
+      "direction": "Text introduction to the actionable framework.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Baseline Check",
+            "detail": "State current audited operating metrics today"
+          },
+          {
+            "label": "Cost Trade-off",
+            "detail": "Name the capital expenditure spent this year"
+          },
+          {
+            "label": "Failure Metric",
+            "detail": "Define what happens if target is missed"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:20-0:26",
+      "onscreen": "1. State the baseline numbers today.",
+      "voiceover": "First: State where the plant operates today. Absolute numbers, verified by third-party audit, not percentage reductions against a convenient historical benchmark.",
+      "direction": "Text displaying rule one."
+    },
+    {
+      "timecode": "0:26-0:32",
+      "onscreen": "2. Name the financial trade-off.",
+      "voiceover": "Second: Name the cost. If your lower-carbon steel costs twelve percent more to produce, state it. Procurement respects margin reality far more than frictionless claims.",
+      "direction": "Text displaying rule two."
+    },
+    {
+      "timecode": "0:32-0:38",
+      "onscreen": "3. Publish the condition for failure.",
+      "voiceover": "Third: Name the failure condition. Credibility comes from telling stakeholders what happens if a capital project misses its deadline.",
+      "direction": "Text displaying rule three."
+    },
+    {
+      "timecode": "0:38-0:44",
+      "onscreen": "Trust relies on real constraints.",
+      "voiceover": "Corporate reputation is built on operational constraints. If your ESG statement sounds like it was written by a marketing agency, keep it out of the annual report.",
+      "direction": "Final summary line on screen."
+    }
+  ],
+  "reel_cover": {
+    "headline": "ESG targets without trade-offs",
+    "signal": "3-point audit check",
+    "layout": "stamp",
+    "visual": {
+      "kind": "checklist",
+      "items": [
+        {
+          "label": "Baseline Audit",
+          "detail": "Current operating numbers"
+        },
+        {
+          "label": "Capital Spent",
+          "detail": "Year-one implementation cost"
+        },
+        {
+          "label": "Penalty Term",
+          "detail": "Consequence if target fails"
+        }
+      ],
+      "note": "Suggested check"
+    }
+  },
+  "caption": "ESG claims fail without trade-offs.\n\nExecuting ESG communication that is not greenwashing requires treating disclosures like financial filings rather than brand campaigns.\n\nIndustrial buyers and regulators know that decarbonisation costs money, alters supply chains, and creates operational bottlenecks. When corporate communications removes those friction points to tell a clean story, it creates immediate scepticism inside procurement committees.\n\nCredibility comes from friction. Publishing the trade-off—the extra cost per ton, the capital commitment required, or the operational limit—signals that the company understands its own business model.\n\nIf your ESG disclosures read like consumer advertising, they belong nowhere near an enterprise customer or a regulatory filing.\n\nSend this to whoever is writing your corporate sustainability report this quarter.\n\n[esg communication that is not greenwashing, corporate reputation management, esg communications, b2b reputation, corporate communications]",
+  "alt_text": "Text graphic detailing a three-step corporate reputation audit for enterprise ESG comms.",
+  "hashtags": [
+    "#corporatecommunications",
+    "#reputation",
+    "#esg"
+  ],
+  "cta": "Send this to whoever is writing your corporate sustainability report this quarter.",
+  "failure_mode": "The post could read as anti-sustainability if the distinction between vague PR targets and audited operational trade-offs is not sharply maintained.",
+  "scheduled_for": "2026-10-28T08:30:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "08:30"
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "reel",
+    "pillar": "reputation",
+    "hook_words": 5,
+    "hook_characters": 35,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "checklist",
+    "schedule": {
+      "active": false,
+      "selected_time": "08:30"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "reel_assets": {
+    "background": {
+      "source": "designed_gradient"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (12).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-10-26/wed-0830-esg-compliance-versus-reputation/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "checklist",
+    "comparison",
+    "checklist"
+  ],
+  "warnings": []
+}

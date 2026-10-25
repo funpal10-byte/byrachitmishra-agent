@@ -1,0 +1,200 @@
+{
+  "title": "ai_governance_signoff_gate",
+  "pillar": "ai_in_practice",
+  "format": "carousel",
+  "primary_keyword": "AI governance for marketing teams",
+  "claim": "AI copy bottlenecks in B2B because teams check word quality instead of regulatory liability.",
+  "hook": "AI copy fails at signoff, not generation.",
+  "evidence": {
+    "type": "framework",
+    "detail": "A three-tier liability audit model that replaces generic copy-editing with regulatory, technical, and commercial risk checks for industrial marketing teams."
+  },
+  "slides": [
+    {
+      "headline": "AI copy fails at signoff, not generation."
+    },
+    {
+      "kicker": "The Bottleneck",
+      "headline": "Speed at generation creates a traffic jam at legal.",
+      "body": "Drafting takes two minutes. Review takes two weeks. Teams edit adjectives when they should audit claims.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "AI Generation",
+            "detail": "50 technical posts generated in 10 minutes"
+          },
+          {
+            "label": "Legal Signoff",
+            "detail": "Blocked on factual liability and specs"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "kicker": "The Flaw",
+      "headline": "Style guides cannot catch regulatory liabilities.",
+      "body": "Prompt templates fix tone of voice. They do not check if a tolerance claim violates a compliance filing.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Standard Review",
+            "detail": "Checks brand tone, grammar, and formatting"
+          },
+          {
+            "label": "Governance Review",
+            "detail": "Checks spec limits, liabilities, and disclosures"
+          }
+        ],
+        "note": "Illustrative comparison"
+      }
+    },
+    {
+      "kicker": "The Framework",
+      "headline": "Run a liability audit before human editing.",
+      "body": "Categorize every claim into three risk tiers before sending copy to technical or legal approvers.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Tier 1: General",
+            "detail": "Industry trends. Fast-track human spot-check."
+          },
+          {
+            "label": "Tier 2: Technical",
+            "detail": "Product specs. Requires engineering signoff."
+          },
+          {
+            "label": "Tier 3: Commercial",
+            "detail": "Pricing, SLAs, legal terms. Full legal audit."
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "The Execution",
+      "headline": "Filter hard claims out of soft messaging.",
+      "body": "Isolate performance data, compliance numbers, and regional standards into verified data tables first.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Isolate Specs",
+            "detail": "Separate numbers from narrative text"
+          },
+          {
+            "label": "Source Verification",
+            "detail": "Attach public filing link to every hard claim"
+          },
+          {
+            "label": "Signoff Mapping",
+            "detail": "Route only unverified claims to legal"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "The Protocol",
+      "headline": "Give legal a pass condition, not a document.",
+      "body": "Do not ask legal to read full drafts. Ask them to verify specific claims against pre-approved parameters.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Check 1: Parameters",
+            "detail": "Does statement match baseline datasheet?"
+          },
+          {
+            "label": "Check 2: Absolute Claims",
+            "detail": "Are words like non-flammable flagged?"
+          },
+          {
+            "label": "Check 3: Attribution",
+            "detail": "Is third-party data traced to source?"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "The Standard",
+      "headline": "Signoff speed is an architecture problem.",
+      "body": "Build clear liability parameters into your workflow. Speed follows clarity, not better prompts.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Without Governance",
+            "detail": "Slow edits, higher risk, legal friction"
+          },
+          {
+            "label": "With Governance",
+            "detail": "Clear gates, fast signoff, zero exposure"
+          }
+        ],
+        "note": "Illustrative comparison"
+      }
+    },
+    {
+      "headline": "Governance precedes velocity.",
+      "body": "Clear risk parameters unlock faster deployment than any prompt library ever will."
+    }
+  ],
+  "caption": "AI copy fails at signoff, not generation.\n\nEstablishing clear AI governance for marketing teams requires moving past style guides and tackling regulatory exposure directly.\n\nIn enterprise industrial marketing, generation is easy. Approval is where campaigns die. The team generates twenty technical posts in minutes, then spends three weeks arguing with compliance over adjectives.\n\nThe fix is not training legal to read faster. The fix is changing what you ask them to do. Legal should never review tone; they should verify claim boundaries.\n\nWhen you separate narrative copy from verifiable technical data, signoff times drop from weeks to hours.\n\nSpeed is a workflow structure, not a prompt skill.\n\nSend this to whoever is responsible for managing brand risk and content approvals this quarter.\n\n[ai governance for marketing teams, enterprise ai adoption, marketing automation, b2b marketing, brand governance]",
+  "alt_text": "Diagram showing an AI content signoff gate and liability audit workflow for marketing teams.",
+  "hashtags": [
+    "#aigovernance",
+    "#b2bmarketing",
+    "#marketingoperations"
+  ],
+  "cta": "Send this to whoever is responsible for managing brand risk and content approvals this quarter.",
+  "failure_mode": "If the risk categories feel too generic, the reader might view this as standard content strategy rather than a governance framework for regulated industries.",
+  "scheduled_for": "2026-10-28T20:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "20:00"
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "carousel",
+    "pillar": "ai_in_practice",
+    "hook_words": 7,
+    "hook_characters": 41,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "20:00"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "images": [
+    "content/queue/2026-10-26/wed-2000-ai-governance-signoff-gate/slide-01.jpg",
+    "content/queue/2026-10-26/wed-2000-ai-governance-signoff-gate/slide-02.jpg",
+    "content/queue/2026-10-26/wed-2000-ai-governance-signoff-gate/slide-03.jpg",
+    "content/queue/2026-10-26/wed-2000-ai-governance-signoff-gate/slide-04.jpg",
+    "content/queue/2026-10-26/wed-2000-ai-governance-signoff-gate/slide-05.jpg",
+    "content/queue/2026-10-26/wed-2000-ai-governance-signoff-gate/slide-06.jpg",
+    "content/queue/2026-10-26/wed-2000-ai-governance-signoff-gate/slide-07.jpg",
+    "content/queue/2026-10-26/wed-2000-ai-governance-signoff-gate/slide-08.jpg"
+  ],
+  "rendered_visuals": [
+    "bottleneck",
+    "comparison",
+    "checklist",
+    "checklist",
+    "checklist",
+    "comparison"
+  ],
+  "warnings": []
+}
