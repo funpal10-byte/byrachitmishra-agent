@@ -1,45 +1,62 @@
 # Metrics
 
-_Fetched 2026-10-18T02:01:46+00:00_
+_Fetched 2026-10-25T02:13:55+00:00_
 
 - Posts measured: **50**
-- Total reach: **1,801**
-- Mean reach per post: **36.0**
-- Best single post: **262**
-- Total saves: **15**  ·  sends: **2**
+- Total reach: **960**
+- Mean reach per post: **19.2**
+- Best single post: **112**
+- Total saves: **6**  ·  sends: **2**
+
+> **Read this before drawing conclusions.** At this volume and
+> reach, the gap between the best and worst post here is noise,
+> not signal. Instagram shows a new account's post to a small
+> test audience; if it does not convert, distribution stops. No
+> hook, format, hashtag or posting time changes that. Treat this
+> file as a baseline being established, not as a verdict on any
+> individual post.
 
 ## Most sent and saved
 
 - **1 sends · 2 saves · 26 reach** — A single apology will not save a B2B contract.
-- **1 sends · 0 saves · 7 reach** — Prompts make you faster at being wrong.
-- **0 sends · 3 saves · 87 reach** — A solid brand strategy does not start with who your customer is. It starts with what existing budget you are stealing.
-- **0 sends · 2 saves · 39 reach** — If you want to understand why this ad worked so well, look at how Surf Excel reframed dirt.
+- **1 sends · 0 saves · 8 reach** — Prompts make you faster at being wrong.
 - **0 sends · 1 saves · 9 reach** — Reputation is priced in before they call you.
+- **0 sends · 1 saves · 38 reach** — You lose budget when you defend awareness.
+- **0 sends · 1 saves · 31 reach** — Your board pack fails before slide two.
 
 ## Widest reach
 
-- **262** — Most generative AI marketing output sounds identical because teams prompt for tone instead of business constraints.
-- **147** — This brand case study India shows why Coca-Cola failed to replace Thums Up in 1993 despite owning distribution.
-- **119** — The fundamental difference between branding and marketing comes down to gross margin, not creative output.
-- **116** — How AI is changing marketing isn't by replacing creative work, but by making generic execution cost zero.
 - **112** — Most retail analysis focuses on ad campaigns. This brand case study India shows why payment terms beat advertising.
+- **85** — Editing AI content costs more than writing it.
+- **67** — Checking visuals first delays every launch.
+- **42** — Your AI tools do not solve the bottleneck.
+- **38** — You lose budget when you defend awareness.
 
 ## Every post
 
 | Posted | Type | Reach | Saves | Sends | Avg watch time | Hook |
 |---|---|---:|---:|---:|---:|---|
-| 2026-10-17 | FEED | 10 | 0 | 0 | 0 | Awareness is why budgets get cut. |
-| 2026-10-16 | FEED | 7 | 0 | 1 | 0 | Prompts make you faster at being wrong. |
+| 2026-10-24 | FEED | 6 | 0 | 0 | 0 | Why the sales team is right to cut your budget |
+| 2026-10-23 | FEED | 7 | 0 | 0 | 0 | AI drafts faster than your legal team can read. |
+| 2026-10-23 | REELS | 14 | 0 | 0 | 1618 | AI generated copy fails every procurement audit. |
+| 2026-10-22 | REELS | 11 | 0 | 0 | 2893 | ESG reporting will not protect your reputation. |
+| 2026-10-21 | FEED | 9 | 0 | 0 | 0 | Style guides break AI copy. |
+| 2026-10-20 | REELS | 9 | 0 | 0 | 2340 | Prompt libraries will not protect your brand. |
+| 2026-10-19 | FEED | 5 | 0 | 0 | 0 | Your product sheet is not a story. |
+| 2026-10-19 | REELS | 21 | 0 | 0 | 4036 | Why pay more for identical steel? |
+| 2026-10-18 | FEED | 7 | 0 | 0 | 0 | Your attribution dashboard is lying to you. |
+| 2026-10-17 | FEED | 12 | 0 | 0 | 0 | Awareness is why budgets get cut. |
+| 2026-10-16 | FEED | 8 | 0 | 1 | 0 | Prompts make you faster at being wrong. |
 | 2026-10-16 | REELS | 11 | 0 | 0 | 6708 | Why your AI audit fails procurement. |
-| 2026-10-15 | REELS | 8 | 0 | 0 | 12000 | Your legal team is ruining your crisis response. |
-| 2026-10-14 | FEED | 5 | 0 | 0 | 0 | AI copy will pass grammar and still ruin you. |
-| 2026-10-14 | REELS | 13 | 0 | 0 | 1883 | Your reputation ledger has no line item. |
+| 2026-10-15 | REELS | 9 | 0 | 0 | 11082 | Your legal team is ruining your crisis response. |
+| 2026-10-14 | FEED | 7 | 0 | 0 | 0 | AI copy will pass grammar and still ruin you. |
+| 2026-10-14 | REELS | 14 | 0 | 0 | 1870 | Your reputation ledger has no line item. |
 | 2026-10-13 | REELS | 7 | 0 | 0 | 4102 | AI search ignores your marketing blog. |
 | 2026-10-12 | FEED | 6 | 0 | 0 | 0 | Your brand is changing at every manager's desk. |
 | 2026-10-12 | REELS | 9 | 0 | 0 | 6370 | Spec sheets do not command a premium. |
-| 2026-10-11 | FEED | 9 | 0 | 0 | 0 | Sales collateral almost never closes B2B deals. |
-| 2026-10-10 | FEED | 6 | 0 | 0 | 0 | Awareness is not a metric that protects budget. |
-| 2026-10-09 | FEED | 6 | 0 | 0 | 0 | AI content lacks unwritten operational rules. |
+| 2026-10-11 | FEED | 10 | 0 | 0 | 0 | Sales collateral almost never closes B2B deals. |
+| 2026-10-10 | FEED | 7 | 0 | 0 | 0 | Awareness is not a metric that protects budget. |
+| 2026-10-09 | FEED | 7 | 0 | 0 | 0 | AI content lacks unwritten operational rules. |
 | 2026-10-09 | REELS | 11 | 0 | 0 | 2465 | AI search does not read your marketing copy. |
 | 2026-10-08 | REELS | 9 | 1 | 0 | 3005 | Reputation is priced in before they call you. |
 | 2026-10-07 | FEED | 8 | 0 | 0 | 0 | AI governance is failing your marketing team. |
@@ -69,20 +86,7 @@ _Fetched 2026-10-18T02:01:46+00:00_
 | 2026-09-09 | REELS | 112 | 0 | 0 | 3774 | Most retail analysis focuses on ad campaigns. This brand case study In |
 | 2026-09-08 | REELS | 16 | 0 | 0 | 6478 | AI tools for marketers are not failing because of the prompts. They ar |
 | 2026-09-07 | REELS | 19 | 0 | 0 | 6823 | We confuse the difference between branding and marketing because we tr |
-| 2026-09-05 | FEED | 22 | 0 | 0 | 0 | Knowing when to rebrand comes down to whether you are losing deals on  |
-| 2026-09-03 | REELS | 44 | 1 | 0 | 50550 | Real marketing leadership is built on deciding what your brand will in |
-| 2026-09-02 | REELS | 39 | 2 | 0 | 7552 | If you want to understand why this ad worked so well, look at how Surf |
-| 2026-09-01 | REELS | 116 | 0 | 0 | 5636 | How AI is changing marketing isn't by replacing creative work, but by  |
-| 2026-08-31 | REELS | 119 | 0 | 0 | 14390 | The fundamental difference between branding and marketing comes down t |
-| 2026-08-29 | FEED | 87 | 3 | 0 | 0 | A solid brand strategy does not start with who your customer is. It st |
-| 2026-08-27 | FEED | 104 | 1 | 0 | 0 | The best marketing career advice is simple: move from managing creativ |
-| 2026-08-26 | REELS | 147 | 1 | 0 | 7152 | This brand case study India shows why Coca-Cola failed to replace Thum |
-| 2026-08-25 | REELS | 262 | 1 | 0 | 9003 | Most generative AI marketing output sounds identical because teams pro |
 
 # Timing experiments
 
-These are descriptive results, not automatic schedule changes. Compare windows only after enough like-for-like posts exist.
-
-| IST window | Posts | Median saves + shares / 1,000 reach | Mean Reel watch time |
-|---|---:|---:|---:|
-| Sat 11:00 · Brand Strategy/carousel | 3 | 0.0 | — |
+Not enough comparable posts yet. The agent will report a window only after it has at least three observations.
