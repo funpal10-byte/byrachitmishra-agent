@@ -121,7 +121,7 @@
   "failure_mode": "If the viewer works in custom engineering rather than high-volume commodities, they might view delivery guarantees as pure operations rather than a positioning choice.",
   "sources": [],
   "scheduled_for": "2026-10-26T08:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -163,5 +163,7 @@
     "comparison",
     "checklist"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-10-26T11:31:38.749635+05:30",
+  "media_id": "recovered-duplicate"
 }
