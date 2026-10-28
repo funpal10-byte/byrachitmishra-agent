@@ -154,7 +154,7 @@
   "cta": "Send this to whoever is responsible for managing brand risk and content approvals this quarter.",
   "failure_mode": "If the risk categories feel too generic, the reader might view this as standard content strategy rather than a governance framework for regulated industries.",
   "scheduled_for": "2026-10-28T20:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -196,5 +196,7 @@
     "checklist",
     "comparison"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-10-28T21:27:43.905308+05:30",
+  "media_id": "17911923354309801"
 }
