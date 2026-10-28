@@ -124,7 +124,7 @@
   "cta": "Send this to whoever is writing your corporate sustainability report this quarter.",
   "failure_mode": "The post could read as anti-sustainability if the distinction between vague PR targets and audited operational trade-offs is not sharply maintained.",
   "scheduled_for": "2026-10-28T08:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -166,5 +166,7 @@
     "comparison",
     "checklist"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-10-28T13:49:19.948595+05:30",
+  "media_id": "17959095666255367"
 }
