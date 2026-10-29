@@ -118,7 +118,7 @@
   "cta": "Send this to whoever leads key account communications or operational risk.",
   "failure_mode": "Internal operations leaders may argue that announcing an outage before fixing it risks causing unnecessary client panic.",
   "scheduled_for": "2026-10-29T13:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -170,5 +170,7 @@
     "bottleneck",
     "checklist"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-10-29T19:39:29.951782+05:30",
+  "media_id": "18136473676759509"
 }
