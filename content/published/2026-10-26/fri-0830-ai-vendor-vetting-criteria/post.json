@@ -111,7 +111,7 @@
   "failure_mode": "If the checklist feels too oriented toward legal procurement, pure creative leads might skim past, but for B2B brand leaders in enterprise environments, this trade-off is the exact point of failure.",
   "sources": [],
   "scheduled_for": "2026-10-30T08:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -153,5 +153,7 @@
     "bottleneck",
     "checklist"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-10-30T12:31:15.416309+05:30",
+  "media_id": "18453413956133973"
 }
