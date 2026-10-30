@@ -123,7 +123,7 @@
   "cta": "Send this to whoever is defending the recruitment marketing budget this quarter.",
   "failure_mode": "Readers might assume this is generic HR advice rather than a structural critique of how industrial companies waste brand budget on recruitment.",
   "scheduled_for": "2026-10-30T19:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "blog",
   "source_url": "https://www.rachitmishra.in/2026/09/12/employer-branding-strategy/",
@@ -173,5 +173,7 @@
     "comparison",
     "checklist"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-10-30T19:31:51.215397+05:30",
+  "media_id": "17924370942221305"
 }
