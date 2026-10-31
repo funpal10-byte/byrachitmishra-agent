@@ -135,7 +135,7 @@
   "cta": "Send this to whoever is defending the brand budget this quarter.",
   "failure_mode": "If the post reads like generic corporate budget advice rather than addressing the specific tension between industrial marketing leaders and CFOs, it fails.",
   "scheduled_for": "2026-10-31T10:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -175,5 +175,7 @@
     "checklist",
     "checklist"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-10-31T10:55:12.268609+05:30",
+  "media_id": "18349842235270766"
 }
