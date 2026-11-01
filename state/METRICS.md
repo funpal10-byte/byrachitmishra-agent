@@ -1,12 +1,12 @@
 # Metrics
 
-_Fetched 2026-10-25T02:13:55+00:00_
+_Fetched 2026-11-01T03:06:24+00:00_
 
 - Posts measured: **50**
-- Total reach: **960**
-- Mean reach per post: **19.2**
-- Best single post: **112**
-- Total saves: **6**  ·  sends: **2**
+- Total reach: **769**
+- Mean reach per post: **15.4**
+- Best single post: **67**
+- Total saves: **5**  ·  sends: **2**
 
 > **Read this before drawing conclusions.** At this volume and
 > reach, the gap between the best and worst post here is noise,
@@ -19,34 +19,43 @@ _Fetched 2026-10-25T02:13:55+00:00_
 ## Most sent and saved
 
 - **1 sends · 2 saves · 26 reach** — A single apology will not save a B2B contract.
-- **1 sends · 0 saves · 8 reach** — Prompts make you faster at being wrong.
+- **1 sends · 0 saves · 10 reach** — Prompts make you faster at being wrong.
 - **0 sends · 1 saves · 9 reach** — Reputation is priced in before they call you.
 - **0 sends · 1 saves · 38 reach** — You lose budget when you defend awareness.
 - **0 sends · 1 saves · 31 reach** — Your board pack fails before slide two.
 
 ## Widest reach
 
-- **112** — Most retail analysis focuses on ad campaigns. This brand case study India shows why payment terms beat advertising.
-- **85** — Editing AI content costs more than writing it.
 - **67** — Checking visuals first delays every launch.
 - **42** — Your AI tools do not solve the bottleneck.
 - **38** — You lose budget when you defend awareness.
+- **31** — Your board pack fails before slide two.
+- **30** — Reputation is just unpaid risk.
 
 ## Every post
 
 | Posted | Type | Reach | Saves | Sends | Avg watch time | Hook |
 |---|---|---:|---:|---:|---:|---|
-| 2026-10-24 | FEED | 6 | 0 | 0 | 0 | Why the sales team is right to cut your budget |
-| 2026-10-23 | FEED | 7 | 0 | 0 | 0 | AI drafts faster than your legal team can read. |
-| 2026-10-23 | REELS | 14 | 0 | 0 | 1618 | AI generated copy fails every procurement audit. |
+| 2026-10-31 | FEED | 3 | 0 | 0 | 0 | Your marketing budget gets cut on activities. |
+| 2026-10-30 | FEED | 6 | 0 | 0 | 0 | A careers page cannot fix a broken reputation. |
+| 2026-10-30 | REELS | 19 | 0 | 0 | 2392 | 90% of AI risk sits in your vendor contract. |
+| 2026-10-29 | REELS | 16 | 0 | 0 | 1510 | Holding back bad news costs B2B trust. |
+| 2026-10-28 | FEED | 7 | 0 | 0 | 0 | AI copy fails at signoff, not generation. |
+| 2026-10-28 | REELS | 16 | 0 | 0 | 2668 | ESG claims fail without trade-offs. |
+| 2026-10-27 | REELS | 11 | 0 | 0 | 3223 | AI search ignores your ad copy. |
+| 2026-10-26 | FEED | 8 | 0 | 0 | 0 | Ninety-five percent of buyers are not shopping. |
+| 2026-10-25 | FEED | 9 | 0 | 0 | 0 | Personalization has a hard ceiling. |
+| 2026-10-24 | FEED | 10 | 0 | 0 | 0 | Why the sales team is right to cut your budget |
+| 2026-10-23 | FEED | 8 | 0 | 0 | 0 | AI drafts faster than your legal team can read. |
+| 2026-10-23 | REELS | 15 | 0 | 0 | 1569 | AI generated copy fails every procurement audit. |
 | 2026-10-22 | REELS | 11 | 0 | 0 | 2893 | ESG reporting will not protect your reputation. |
-| 2026-10-21 | FEED | 9 | 0 | 0 | 0 | Style guides break AI copy. |
-| 2026-10-20 | REELS | 9 | 0 | 0 | 2340 | Prompt libraries will not protect your brand. |
-| 2026-10-19 | FEED | 5 | 0 | 0 | 0 | Your product sheet is not a story. |
-| 2026-10-19 | REELS | 21 | 0 | 0 | 4036 | Why pay more for identical steel? |
-| 2026-10-18 | FEED | 7 | 0 | 0 | 0 | Your attribution dashboard is lying to you. |
-| 2026-10-17 | FEED | 12 | 0 | 0 | 0 | Awareness is why budgets get cut. |
-| 2026-10-16 | FEED | 8 | 0 | 1 | 0 | Prompts make you faster at being wrong. |
+| 2026-10-21 | FEED | 12 | 0 | 0 | 0 | Style guides break AI copy. |
+| 2026-10-20 | REELS | 12 | 0 | 0 | 2476 | Prompt libraries will not protect your brand. |
+| 2026-10-19 | FEED | 8 | 0 | 0 | 0 | Your product sheet is not a story. |
+| 2026-10-19 | REELS | 22 | 0 | 0 | 4564 | Why pay more for identical steel? |
+| 2026-10-18 | FEED | 8 | 0 | 0 | 0 | Your attribution dashboard is lying to you. |
+| 2026-10-17 | FEED | 14 | 0 | 0 | 0 | Awareness is why budgets get cut. |
+| 2026-10-16 | FEED | 10 | 0 | 1 | 0 | Prompts make you faster at being wrong. |
 | 2026-10-16 | REELS | 11 | 0 | 0 | 6708 | Why your AI audit fails procurement. |
 | 2026-10-15 | REELS | 9 | 0 | 0 | 11082 | Your legal team is ruining your crisis response. |
 | 2026-10-14 | FEED | 7 | 0 | 0 | 0 | AI copy will pass grammar and still ruin you. |
@@ -77,16 +86,11 @@ _Fetched 2026-10-25T02:13:55+00:00_
 | 2026-09-18 | FEED | 17 | 0 | 0 | 0 | Every approval needs a named owner. |
 | 2026-09-17 | REELS | 67 | 0 | 0 | 3782 | Checking visuals first delays every launch. |
 | 2026-09-16 | REELS | 18 | 0 | 0 | 5207 | Selling time-saving meals to mothers failed. |
-| 2026-09-16 | REELS | 16 | 0 | 0 | 5901 | AI drafts faster. Approval still waits. |
-| 2026-09-15 | REELS | 85 | 0 | 0 | 1773 | Editing AI content costs more than writing it. |
-| 2026-09-14 | REELS | 16 | 1 | 0 | 9739 | Marketing gets leads. Brand stops price wars. |
-| 2026-09-13 | REELS | 4 | 0 | 0 | 1077 | #ganeshchaturthi #ganeshji  #trendingreel  #trialreel |
-| 2026-09-12 | FEED | 21 | 0 | 0 | 0 | A usable brand strategy framework should test your pricing power, not  |
-| 2026-09-10 | REELS | 18 | 0 | 0 | 5944 | The best marketing career advice I ever got was to stop defending crea |
-| 2026-09-09 | REELS | 112 | 0 | 0 | 3774 | Most retail analysis focuses on ad campaigns. This brand case study In |
-| 2026-09-08 | REELS | 16 | 0 | 0 | 6478 | AI tools for marketers are not failing because of the prompts. They ar |
-| 2026-09-07 | REELS | 19 | 0 | 0 | 6823 | We confuse the difference between branding and marketing because we tr |
 
 # Timing experiments
 
-Not enough comparable posts yet. The agent will report a window only after it has at least three observations.
+These are descriptive results, not automatic schedule changes. Compare windows only after enough like-for-like posts exist.
+
+| IST window | Posts | Median saves + shares / 1,000 reach | Mean Reel watch time |
+|---|---:|---:|---:|
+| Sun 11:00 · inside_the_org/carousel | 3 | 0.0 | — |
