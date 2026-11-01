@@ -1,0 +1,186 @@
+{
+  "title": "ai_content_approval_workflow",
+  "pillar": "ai_in_practice",
+  "format": "carousel",
+  "primary_keyword": "AI content approval workflow",
+  "claim": "AI draft verification requires checking evidence and boundaries, not just fixing tone.",
+  "hook": "AI copy breaks at facts, not tone.",
+  "evidence": {
+    "type": "source",
+    "source_url": "https://www.rachitmishra.in/2026/10/23/executive-linkedin-strategy/",
+    "detail": "Executive LinkedIn Strategy framework establishing that AI-assisted drafting requires verifying facts, explicit permissions, and business boundaries rather than relying on automated generation alone."
+  },
+  "slides": [
+    {
+      "headline": "AI copy breaks at facts, not tone."
+    },
+    {
+      "kicker": "1. THE WORKFLOW TRAP",
+      "headline": "Editing tone misses invented facts",
+      "body": "Models generate fluent text easily. The failure point is unverified claims and manufactured anecdotes.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Surface Review",
+            "detail": "Fixes cadence, style, and tone"
+          },
+          {
+            "label": "Governance Gate",
+            "detail": "Verifies facts, permissions, and sources"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "2. EVIDENCE CHECK",
+      "headline": "Verify the proof before approving",
+      "body": "Every claim needs a clear basis. Confirm all references before sending drafts to review.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Named Context",
+            "detail": "Is the operational scenario real?"
+          },
+          {
+            "label": "Data Basis",
+            "detail": "Are figures backed by approved reports?"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "3. BOUNDARY CHECK",
+      "headline": "Set hard sign-off boundaries early",
+      "body": "AI cannot assess commercial sensitivity. Decide upfront which facts require specialist review.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Draft Output",
+            "detail": "Generated text with unvetted claims"
+          },
+          {
+            "label": "Approval Gate",
+            "detail": "Blocked until specialist review passes"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "kicker": "4. THE VERIFICATION GATE",
+      "headline": "Run four checks on every AI draft",
+      "body": "Filter every generated piece through a clear audit before passing it to final publishing.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "1. Fact Origin",
+            "detail": "Trace every assertion to a source"
+          },
+          {
+            "label": "2. Permissions",
+            "detail": "Confirm customer or partner clearance"
+          },
+          {
+            "label": "3. Boundary",
+            "detail": "Check forward-looking statement rules"
+          },
+          {
+            "label": "4. Voice Check",
+            "detail": "Ensure reasoning matches practice"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "5. EXECUTION",
+      "headline": "Steal these review checks for Monday",
+      "body": "Does this text state an unverified fact? Did the model invent this detail? Who owns this claim?",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Source Test",
+            "detail": "Reject unverified assertions"
+          },
+          {
+            "label": "Owner Sign-off",
+            "detail": "Assign explicit review responsibility"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "headline": "AI speeds up drafting. Sign-off guards reputation.",
+      "body": "Generative tools assist structure, but human sign-off must verify facts. Full guide at rachitmishra.in"
+    }
+  ],
+  "caption": "AI copy breaks at facts, not tone.\n\nBuilding an enterprise AI content approval workflow usually starts with tone guidelines. That is the wrong place to focus.\n\nLanguage models generate convincing text easily. The risk in industrial and enterprise communication is never a weak transition sentence; it is a hallucinated metric, an invented customer anecdote, or an unapproved forward-looking statement.\n\nWhen teams use AI tools for drafting, the approval process must shift from copyediting to verification. That means checking whether every claim has an underlying source, whether customer context requires explicit sign-off, and whether sensitive operational facts belong in public.\n\nSpeed in drafting is useless if it creates a bottleneck at legal review.\n\nSend this to whoever is setting up your team's AI approval workflow this quarter.\n\n[ai content approval workflow, ai governance, b2b marketing, enterprise ai adoption]\n\n#aigovernance #martech #marketingoperations",
+  "alt_text": "Carousel slides outlining an AI content verification workflow for B2B marketing teams.",
+  "hashtags": [
+    "#aigovernance",
+    "#martech",
+    "#marketingoperations"
+  ],
+  "cta": "Send this to whoever is setting up your team's AI approval workflow this quarter.",
+  "failure_mode": "It could be mistaken for generic AI advice if the distinction between tone editing and factual verification is not stated sharply on slides 2 and 3.",
+  "sources": [
+    {
+      "title": "Executive LinkedIn Strategy: Build Trust Without Becoming a Content Machine",
+      "url": "https://www.rachitmishra.in/2026/10/23/executive-linkedin-strategy/"
+    }
+  ],
+  "scheduled_for": "2026-11-06T19:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2026/10/23/executive-linkedin-strategy/",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "19:00"
+  },
+  "experiment": {
+    "hook_type": "distinction",
+    "evidence_type": "source",
+    "format": "carousel",
+    "pillar": "ai_in_practice",
+    "hook_words": 7,
+    "hook_characters": 34,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "19:00"
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2026/10/23/executive-linkedin-strategy/",
+    "final_url": "https://www.rachitmishra.in/2026/10/23/executive-linkedin-strategy/",
+    "http_status": 200
+  },
+  "images": [
+    "content/queue/2026-11-02/fri-1900-ai-content-approval-workflow/slide-01.jpg",
+    "content/queue/2026-11-02/fri-1900-ai-content-approval-workflow/slide-02.jpg",
+    "content/queue/2026-11-02/fri-1900-ai-content-approval-workflow/slide-03.jpg",
+    "content/queue/2026-11-02/fri-1900-ai-content-approval-workflow/slide-04.jpg",
+    "content/queue/2026-11-02/fri-1900-ai-content-approval-workflow/slide-05.jpg",
+    "content/queue/2026-11-02/fri-1900-ai-content-approval-workflow/slide-06.jpg",
+    "content/queue/2026-11-02/fri-1900-ai-content-approval-workflow/slide-07.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "checklist",
+    "bottleneck",
+    "checklist",
+    "checklist"
+  ],
+  "warnings": []
+}

@@ -1,0 +1,192 @@
+{
+  "title": "defending_marketing_budget_procurement",
+  "pillar": "inside_the_org",
+  "format": "carousel",
+  "primary_keyword": "defending a marketing budget",
+  "claim": "B2B marketing budgets get cut in committee because marketers defend pipeline volume instead of defending unit acquisition cost and sales cycle velocity.",
+  "hook": "You lose budget when you defend awareness.",
+  "evidence": {
+    "type": "framework",
+    "detail": "A three-part defense test for commercial budget reviews: substituting top-of-funnel reach metrics with commercial velocity, margin protection, and sales access thresholds."
+  },
+  "slides": [
+    {
+      "headline": "You lose budget when you defend awareness."
+    },
+    {
+      "kicker": "1. THE FINANCE GAP",
+      "headline": "Procurement evaluates risk, not interest.",
+      "body": "When sales slows down, CFOs cut uncommitted cash. Brand campaigns without commercial metrics lose funding first.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Marketing Pitch",
+            "detail": "Defends reach, impressions, and brand sentiment"
+          },
+          {
+            "label": "Finance Mandate",
+            "detail": "Demands lower customer acquisition cost"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "kicker": "2. THE METRIC TRAP",
+      "headline": "Volume leads do not protect margins.",
+      "body": "Flooding sales with raw leads lowers deal quality. Sales then reports that marketing output is unhelpful.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "High Lead Volume",
+            "detail": "Unqualified top-of-funnel inquiries"
+          },
+          {
+            "label": "Sales Rejection",
+            "detail": "Longer deal cycles and margin discounting"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "kicker": "3. THE POSITIONING",
+      "headline": "Position brand as margin insurance.",
+      "body": "Strong reputations prevent discounting. Frame brand spending as the cost of maintaining contract pricing.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Commodity Seller",
+            "detail": "Competes on price and accepts low margins"
+          },
+          {
+            "label": "Category Leader",
+            "detail": "Commands pricing power and buyer preference"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "kicker": "4. THE SHIFT",
+      "headline": "Measure pipeline velocity over reach.",
+      "body": "Track how brand equity shortens security reviews and committee sign-offs. Velocity is a metric finance respects.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Cycle Duration",
+            "detail": "Measure days from first meeting to contract"
+          },
+          {
+            "label": "Sole-Source Rate",
+            "detail": "Track percentage of non-tendered deals"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "5. THE EXECUTION",
+      "headline": "Run the three-point defense check.",
+      "body": "Audit your budget proposal against three criteria before submitting it to the commercial committee.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Margin Protection",
+            "detail": "Shows how reputation reduces price discounting"
+          },
+          {
+            "label": "Cycle Reduction",
+            "detail": "Proves marketing accelerates committee approvals"
+          },
+          {
+            "label": "Win-Rate Floor",
+            "detail": "Demonstrates impact on deal close ratios"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "6. STEAL THIS METRIC",
+      "headline": "Defend the cost of sales, not cost per click.",
+      "body": "When you reduce sales drag, the budget becomes an investment in sales efficiency rather than overhead.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Discretionary Cost",
+            "detail": "Campaigns measured by ad impressions"
+          },
+          {
+            "label": "Sales Efficiency",
+            "detail": "Infrastructure that lowers acquisition cost"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "headline": "Brand protects price. Sales takes volume.",
+      "body": "Stop justifying marketing as awareness. Defend it as the infrastructure that keeps unit acquisition costs stable under pressure."
+    }
+  ],
+  "caption": "You lose budget when you defend awareness.\n\nWhen defending a marketing budget in front of a commercial committee, talking about impression volume or brand equity scores usually fails.\n\nFinance teams operate on risk reduction. Sales leaders operate on quarterly volume. If marketing presents top-of-funnel reach while sales is missing targets, the budget is seen as overhead.\n\nThe fix is to change what the budget defends. Do not defend market awareness. Defend sales velocity and margin stability.\n\nShow how a strong reputation stops buyers from demanding price concessions during late-stage procurement. Show how it cuts weeks out of committee reviews because the buyer already knows your operating standard.\n\nWhen brand investment is framed as sales efficiency, cutting it becomes a risk to net margins rather than a quick cost saving.\n\nPoint of view: If your marketing budget can be cut without sales raising an alarm, you built a campaign engine instead of commercial infrastructure.\n\nSend this to whoever is defending the brand budget in the next planning cycle.\n\n[defending a marketing budget, b2b marketing, brand governance, marketing leadership]\n\n#marketingleadership #inhousemarketing #brandgovernance",
+  "alt_text": "Slide deck explaining how to defend a B2B marketing budget using sales velocity and margins.",
+  "hashtags": [
+    "#marketingleadership",
+    "#inhousemarketing",
+    "#brandgovernance"
+  ],
+  "cta": "Send this to whoever is defending the brand budget in the next planning cycle.",
+  "failure_mode": "If the reader works in consumer D2C where top-of-funnel reach directly drives instant sales volume, framing awareness as a weak metric might read as counterintuitive unless they operate in B2B heavy industry.",
+  "scheduled_for": "2026-11-07T10:30:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "10:30"
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "carousel",
+    "pillar": "inside_the_org",
+    "hook_words": 7,
+    "hook_characters": 42,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "10:30"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "images": [
+    "content/queue/2026-11-02/sat-1030-defending-marketing-budget-procurement/slide-01.jpg",
+    "content/queue/2026-11-02/sat-1030-defending-marketing-budget-procurement/slide-02.jpg",
+    "content/queue/2026-11-02/sat-1030-defending-marketing-budget-procurement/slide-03.jpg",
+    "content/queue/2026-11-02/sat-1030-defending-marketing-budget-procurement/slide-04.jpg",
+    "content/queue/2026-11-02/sat-1030-defending-marketing-budget-procurement/slide-05.jpg",
+    "content/queue/2026-11-02/sat-1030-defending-marketing-budget-procurement/slide-06.jpg",
+    "content/queue/2026-11-02/sat-1030-defending-marketing-budget-procurement/slide-07.jpg",
+    "content/queue/2026-11-02/sat-1030-defending-marketing-budget-procurement/slide-08.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "bottleneck",
+    "comparison",
+    "checklist",
+    "checklist",
+    "comparison"
+  ],
+  "warnings": []
+}

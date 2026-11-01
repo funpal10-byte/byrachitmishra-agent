@@ -1,0 +1,154 @@
+{
+  "title": "esg_audit_gate_reputation",
+  "pillar": "reputation",
+  "format": "reel",
+  "primary_keyword": "ESG communication that is not greenwashing",
+  "claim": "Corporate reputation in industrial supply chains is ruined by unverified subcontractor ESG claims rather than primary operations.",
+  "hook": "Your supply chain is ruining your ESG trust.",
+  "evidence": {
+    "type": "framework",
+    "detail": "A three-stage procurement audit gate for tier-2 supplier ESG compliance: mandatory audit verification, baseline data matching, and contractual liability allocation."
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "Your supply chain is ruining your ESG trust.",
+      "voiceover": "Your supply chain is ruining your ESG trust. Most industrial greenwashing accusations don't come from your primary operations.",
+      "direction": "Clean typography over plain technical graphic showing supply chain layers."
+    },
+    {
+      "timecode": "0:03-0:08",
+      "onscreen": "Tier-2 vendors trigger 80% of ESG claims.",
+      "voiceover": "They come from tier-2 and tier-3 subcontractors claiming compliance standards that nobody verified on the ground.",
+      "direction": "Motion graphic illustrating procurement flow splitting into tier 1, tier 2, and tier 3 suppliers.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Self-Declared ESG",
+            "detail": "Tier-2 vendor unverified safety log"
+          },
+          {
+            "label": "Regulatory Review",
+            "detail": "Corporate liability assigned to primary buyer"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "timecode": "0:08-0:14",
+      "onscreen": "Self-declared compliance is a liability.",
+      "voiceover": "When a regulator or reporter audits a supply chain, self-declared questionnaires from vendors offer zero legal or reputational defence.",
+      "direction": "Text transition showing questionnaire checkbox changing to red liability marker."
+    },
+    {
+      "timecode": "0:14-0:22",
+      "onscreen": "Run the 3-step Vendor ESG Gate.",
+      "voiceover": "To fix ESG communication that is not greenwashing, run this three-step audit gate before publishing your sustainability report.",
+      "direction": "Graphic showing 3-step checklist layout.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "1. 3rd-Party Audit",
+            "detail": "Require verified independent facility data"
+          },
+          {
+            "label": "2. Utility Audit",
+            "detail": "Cross-check carbon metrics with power bills"
+          },
+          {
+            "label": "3. Joint Liability",
+            "detail": "Add contract clauses for misreported data"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:22-0:28",
+      "onscreen": "Reputation is governed at procurement.",
+      "voiceover": "If you cannot audit the raw operational data of a supplier, delete their metrics from your corporate communications completely.",
+      "direction": "Text graphic showing data deletion threshold line."
+    },
+    {
+      "timecode": "0:28-0:34",
+      "onscreen": "Unverified metrics are just claims.",
+      "voiceover": "Corporate reputation is governed at procurement, not in the public relations office.",
+      "direction": "Final screen displaying principle in bold text."
+    }
+  ],
+  "reel_cover": {
+    "headline": "Tier-2 vendors ruin ESG trust",
+    "signal": "3-Step Audit Gate",
+    "layout": "stamp",
+    "visual": {
+      "kind": "bottleneck",
+      "items": [
+        {
+          "label": "Vendor Metric",
+          "detail": "Unchecked vendor emission log"
+        },
+        {
+          "label": "Corporate Report",
+          "detail": "Public greenwashing risk created"
+        }
+      ],
+      "note": "Illustrative workflow"
+    }
+  },
+  "caption": "Your supply chain is ruining your ESG trust.\n\nBuilding ESG communication that is not greenwashing requires looking past your own factories. Most reputational exposure sits two layers down the supply chain in unverified vendor declarations.\n\nWhen corporate communications publishes aggregate carbon or safety metrics based on vendor self-reporting, it takes on all the risk for data it does not control.\n\nA single regulatory enquiry into a tier-2 subcontractor erases five years of sustainability reporting in forty-eight hours.\n\nIf procurement cannot verify the raw operational data behind a supplier's claim, leave that metric out of your report entirely. Omission costs far less than a forced retraction.\n\nReputation is governed at procurement, not in the public relations office.\n\nSend this to whoever oversees vendor onboarding and corporate sustainability reporting.\n\n[esg communication that is not greenwashing, corporate reputation, supply chain audit, b2b risk]",
+  "alt_text": "Text-based video graphic explaining how vendor ESG compliance impacts corporate reputation.",
+  "hashtags": [
+    "#corporatecommunications",
+    "#reputation",
+    "#esg"
+  ],
+  "cta": "Send this to whoever oversees vendor onboarding and corporate sustainability reporting.",
+  "failure_mode": "May sound like a procurement compliance lecture if the link back to public reputation exposure is not kept sharp throughout.",
+  "scheduled_for": "2026-11-04T08:30:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "08:30"
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "reel",
+    "pillar": "reputation",
+    "hook_words": 8,
+    "hook_characters": 44,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "bottleneck",
+    "schedule": {
+      "active": false,
+      "selected_time": "08:30"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "reel_assets": {
+    "background": {
+      "source": "designed_gradient"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (12).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-11-02/wed-0830-esg-audit-gate-reputation/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "bottleneck",
+    "bottleneck",
+    "checklist"
+  ],
+  "warnings": []
+}

@@ -1,0 +1,200 @@
+{
+  "title": "briefing_ai_on_brand_voice",
+  "pillar": "ai_in_practice",
+  "format": "carousel",
+  "primary_keyword": "briefing AI on brand voice",
+  "claim": "AI models generate generic copy because teams feed them style adjectives instead of negative operational rules.",
+  "hook": "Adjectives ruin your AI prompts.",
+  "evidence": {
+    "type": "framework",
+    "detail": "A prompt engineering test for corporate comms: replace tone adjectives with explicit negative constraints and forbidden industry cliches."
+  },
+  "slides": [
+    {
+      "headline": "Adjectives ruin your AI prompts."
+    },
+    {
+      "kicker": "01 / THE WRONG INPUT",
+      "headline": "Adjectives produce average text",
+      "body": "Tone adjectives pull the web statistical average. You end up with generic corporate filler.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Prompt Adjectives",
+            "detail": "Professional, bold, innovative, human"
+          },
+          {
+            "label": "Model Output",
+            "detail": "In today's fast-paced landscape..."
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "kicker": "02 / THE SOLUTION",
+      "headline": "Define what the model cannot say",
+      "body": "Models follow boundaries better than mood words. When briefing AI on brand voice, ban specific terms.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Ban buzzwords",
+            "detail": "Zero instances of game-changer or unlock"
+          },
+          {
+            "label": "Ban preamble",
+            "detail": "No warm-ups or introductory summaries"
+          },
+          {
+            "label": "Ban vague claims",
+            "detail": "Every statement requires a mechanism"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "03 / PROMPT REFACTOR",
+      "headline": "Swap tone guidelines for constraints",
+      "body": "Replace style guides with operational limits. Give the model hard stops instead of open-ended descriptors.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Tone Guideline",
+            "detail": "Write in an authoritative tone."
+          },
+          {
+            "label": "Hard Constraint",
+            "detail": "Max 18 words per line. No questions."
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "kicker": "04 / AUDIT METHOD",
+      "headline": "Run the generic copy test",
+      "body": "If output works for a competitor by swapping names, your prompt constraints failed.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Competitor Swap",
+            "detail": "Fails if text fits rival unchanged"
+          },
+          {
+            "label": "Evidence Check",
+            "detail": "Requires one spec, standard, or figure"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "05 / PROTOCOL",
+      "headline": "The four prompt boundary rules",
+      "body": "Add these four rules to your custom instructions before generating public comms.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Rule 1",
+            "detail": "No meta-talk or introductory fillers"
+          },
+          {
+            "label": "Rule 2",
+            "detail": "No unbacked claims of quality or speed"
+          },
+          {
+            "label": "Rule 3",
+            "detail": "Use active verbs and short sentences"
+          },
+          {
+            "label": "Rule 4",
+            "detail": "State the tradeoff when naming a feature"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "06 / TAKEAWAY",
+      "headline": "Rules shape voice better than adjectives",
+      "body": "Brand voice is not created by asking for personality. It is enforced by setting strict limits on output.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Style Guidelines",
+            "detail": "Vague adjectives produce generic text"
+          },
+          {
+            "label": "Negative Rules",
+            "detail": "Explicit boundaries force precise output"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "headline": "Precision comes from exclusion.",
+      "body": "Send this to whoever is writing your team's AI prompt guidelines this week."
+    }
+  ],
+  "caption": "Adjectives ruin your AI prompts.\n\nWhen briefing AI on brand voice, most teams copy and paste their marketing style guide: \"make it bold, authoritative, and human.\" Then they wonder why the output sounds like every other enterprise software brochure written in the last two years.\n\nLanguage models treat tone adjectives as statistical weighted averages. Asking for \"innovative\" simply pulls the most common, generic phrases associated with innovation across the web.\n\nIf you want custom output, stop describing the vibe. Start writing negative constraints. Tell the model what it is explicitly forbidden to say, which words to ban, and what sentence structures to avoid.\n\nSetting boundaries shapes writing faster than asking for personality.\n\nSend this to whoever is building your team's custom prompts this quarter.\n\n[briefing ai on brand voice, ai content workflow, ai governance, b2b marketing]\n\n#aimarketing #martech #b2bmarketing",
+  "alt_text": "Carousel slides explaining how to brief AI on brand voice using negative prompt constraints.",
+  "hashtags": [
+    "#aimarketing",
+    "#martech",
+    "#b2bmarketing"
+  ],
+  "cta": "Send this to whoever is building your team's custom prompts this quarter.",
+  "failure_mode": "It might read like generic prompt engineering advice if the B2B comms context is not heavily emphasized in the slide copy.",
+  "scheduled_for": "2026-11-04T20:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "20:00"
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "carousel",
+    "pillar": "ai_in_practice",
+    "hook_words": 5,
+    "hook_characters": 32,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "20:00"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "images": [
+    "content/queue/2026-11-02/wed-2000-briefing-ai-on-brand-voice/slide-01.jpg",
+    "content/queue/2026-11-02/wed-2000-briefing-ai-on-brand-voice/slide-02.jpg",
+    "content/queue/2026-11-02/wed-2000-briefing-ai-on-brand-voice/slide-03.jpg",
+    "content/queue/2026-11-02/wed-2000-briefing-ai-on-brand-voice/slide-04.jpg",
+    "content/queue/2026-11-02/wed-2000-briefing-ai-on-brand-voice/slide-05.jpg",
+    "content/queue/2026-11-02/wed-2000-briefing-ai-on-brand-voice/slide-06.jpg",
+    "content/queue/2026-11-02/wed-2000-briefing-ai-on-brand-voice/slide-07.jpg",
+    "content/queue/2026-11-02/wed-2000-briefing-ai-on-brand-voice/slide-08.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "checklist",
+    "comparison",
+    "checklist",
+    "checklist",
+    "bottleneck"
+  ],
+  "warnings": []
+}
