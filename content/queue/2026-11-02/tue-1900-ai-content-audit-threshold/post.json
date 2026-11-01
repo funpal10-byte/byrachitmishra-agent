@@ -1,0 +1,167 @@
+{
+  "title": "ai_content_audit_threshold",
+  "pillar": "ai_marketing",
+  "format": "reel",
+  "primary_keyword": "AI adoption in a large company",
+  "claim": "Scaling AI content generation without an error-density threshold creates an expensive compliance and editing backlog in industrial enterprise marketing.",
+  "hook": "Faster drafting creates a slower approval queue.",
+  "evidence": {
+    "type": "framework",
+    "detail": "A three-point pre-review audit filter for enterprise marketing teams: verify technical specs against regulatory filings, check hallucinated operational claims, and enforce explicit negative constraints before human sign-off."
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:04",
+      "onscreen": "Faster drafting creates a slower approval queue.",
+      "voiceover": "Faster drafting creates a slower approval queue. When enterprise marketing teams scale output using generative tools, the bottleneck simply shifts down the line.",
+      "direction": "Text overlay on simple dark graphic showing draft output rising while approval velocity drops."
+    },
+    {
+      "timecode": "0:04-0:09",
+      "onscreen": "Drafting time down 80%. Edit time up 3x.",
+      "voiceover": "Drafting time drops by eighty percent, but review time triples because legal and technical SMEs are filtering low-density text.",
+      "direction": "Clean metric graphic comparing draft generation speed versus internal technical sign-off duration.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Drafting speed",
+            "detail": "80% reduction in initial writing time"
+          },
+          {
+            "label": "Review duration",
+            "detail": "3x increase in SME editing time"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:09-0:16",
+      "onscreen": "The issue is unchecked AI adoption.",
+      "voiceover": "AI adoption in a large company breaks down when speed is measured at generation rather than final sign-off.",
+      "direction": "Diagram showing the shift of team effort from initial copywriting to downstream technical correction."
+    },
+    {
+      "timecode": "0:16-0:23",
+      "onscreen": "3-point pre-review audit filter",
+      "voiceover": "To fix the review queue, deploy a three-point audit filter before any generated text reaches subject matter experts.",
+      "direction": "On-screen checklist graphic detailing the three governance filters.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "1. Fact anchor",
+            "detail": "Verify specs against regulatory filings"
+          },
+          {
+            "label": "2. Operational check",
+            "detail": "Remove hallucinated performance claims"
+          },
+          {
+            "label": "3. Governance gate",
+            "detail": "Enforce explicit negative constraints"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:23-0:28",
+      "onscreen": "Reject drafts without source anchors.",
+      "voiceover": "First, reject any generated copy that lacks explicit source anchors from audited internal documentation.",
+      "direction": "Focus on step one of the checklist graphic."
+    },
+    {
+      "timecode": "0:28-0:33",
+      "onscreen": "Filter out generic category fluff.",
+      "voiceover": "Second, purge generic adjective stackings that sound polished but say nothing about your specific product performance.",
+      "direction": "Focus on step two of the checklist graphic."
+    },
+    {
+      "timecode": "0:33-0:38",
+      "onscreen": "Enforce strict negative constraints.",
+      "voiceover": "Third, apply negative constraints to automatically strip out unapproved claims before compliance sees them.",
+      "direction": "Focus on step three of the checklist graphic."
+    },
+    {
+      "timecode": "0:38-0:44",
+      "onscreen": "Approval speed is your real AI metric.",
+      "voiceover": "Approval speed is your real AI metric. Measure time-to-publish, not time-to-first-draft.",
+      "direction": "Final summary frame displaying the core governing principle."
+    }
+  ],
+  "reel_cover": {
+    "headline": "Fast AI drafts. Blocked approvals.",
+    "signal": "Edit time 3x higher",
+    "layout": "signal",
+    "visual": {
+      "kind": "bottleneck",
+      "items": [
+        {
+          "label": "Generative drafting",
+          "detail": "High volume text output generated in seconds"
+        },
+        {
+          "label": "SME sign-off gate",
+          "detail": "Compliance queue blocked by unverified claims"
+        }
+      ],
+      "note": "Illustrative workflow"
+    }
+  },
+  "caption": "Faster drafting creates a slower approval queue.\n\nAccelerating draft production with AI adoption in a large company usually creates a hidden operational cost: a massive review backlog for technical leadership.\n\nWhen a team goes from writing two technical whitepapers a month to drafting ten, legal, regulatory, and engineering leads become the bottleneck. They are forced to act as line editors for AI-generated text that sounds authoritative but lacks precision.\n\nIf a draft takes ten minutes to generate but three hours for a domain expert to verify and correct, your workflow is slower than it was before.\n\nThe fix is not asking experts to review faster. The fix is setting a strict pre-review audit filter. If a draft does not cite verified technical documentation or violates brand negative constraints, it never enters the approval queue.\n\nMeasure AI performance by time-to-publish, not time-to-draft.\n\nSend this to whoever is setting content governance rules for your team this quarter.\n\n[ai adoption in a large company, marketing technology stack, AI governance, enterprise marketing, martech]\n\n#aimarketing #martech #b2bmarketing",
+  "alt_text": "Graphic detailing a three-step audit filter for AI content governance in B2B marketing.",
+  "hashtags": [
+    "#aimarketing",
+    "#martech",
+    "#b2bmarketing"
+  ],
+  "cta": "Send this to whoever is setting content governance rules for your team this quarter.",
+  "failure_mode": "If the audit checklist reads as basic editing advice rather than a structural governance gate for enterprise review queues, senior comms leaders will dismiss it.",
+  "sources": [],
+  "scheduled_for": "2026-11-03T19:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "19:00"
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "reel",
+    "pillar": "ai_marketing",
+    "hook_words": 7,
+    "hook_characters": 48,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "bottleneck",
+    "schedule": {
+      "active": false,
+      "selected_time": "19:00"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "reel_assets": {
+    "background": {
+      "source": "designed_gradient"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (10).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-11-02/tue-1900-ai-content-audit-threshold/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "bottleneck",
+    "comparison",
+    "checklist"
+  ],
+  "warnings": []
+}

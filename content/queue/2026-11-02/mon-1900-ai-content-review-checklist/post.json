@@ -1,0 +1,207 @@
+{
+  "title": "ai_content_review_checklist",
+  "pillar": "b2b_brand",
+  "format": "carousel",
+  "primary_keyword": "B2B brand strategy",
+  "claim": "AI content review requires testing specific factual claims against verified operational sources, not just editing prose.",
+  "hook": "Fluent writing is not evidence of a true claim.",
+  "evidence": {
+    "type": "source",
+    "source_url": "https://www.rachitmishra.in/2026/10/27/ai-content-review-checklist/",
+    "detail": "An editorial checklist protocol establishing a three-part source test (existence, fit, currency) and operational verification gates for AI-generated brand claims."
+  },
+  "slides": [
+    {
+      "headline": "Fluent writing is not evidence of a true claim."
+    },
+    {
+      "kicker": "01 CLAIM LEDGER",
+      "headline": "Extract assertions before reviewing grammar.",
+      "body": "Isolate every statistic, date, and comparison into a clean ledger. Verify facts independently of sentence flow.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Isolate assertions",
+            "detail": "Extract numbers, capabilities, and dates"
+          },
+          {
+            "label": "Assign ownership",
+            "detail": "Match each claim to a verified source"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "02 SOURCE VALIDATION",
+      "headline": "Apply the three-part source test.",
+      "body": "Confirm existence, fit, and currency. A source must be real, relevant to your market, and currently valid.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Existence test",
+            "detail": "Verify the original record exists"
+          },
+          {
+            "label": "Context fit",
+            "detail": "Confirm geography and scope match"
+          },
+          {
+            "label": "Currency check",
+            "detail": "Ensure terms and regulations are active"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "03 OPERATIONAL SIGN-OFF",
+      "headline": "Verify product promises with operations.",
+      "body": "Language from old sales collateral can state uncontracted terms. Route capability claims directly to owners.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "AI Draft Claim",
+            "detail": "Nationwide same-day service promised"
+          },
+          {
+            "label": "Operations Reality",
+            "detail": "Coverage limited to contracted hubs"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "kicker": "04 CONSEQUENCE ROUTING",
+      "headline": "Set approval gates by exposure level.",
+      "body": "General copy needs standard editing. Claims touching safety, compliance, or financial data require expert sign-off.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Explanatory Content",
+            "detail": "Editor and subject expert review"
+          },
+          {
+            "label": "Regulated Claims",
+            "detail": "Technical and legal verification gate"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "05 MANDATORY PROTOCOL",
+      "headline": "Run this review sequence on every draft.",
+      "body": "Enforce basic verification gates before publishing any AI-generated industrial collateral.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Source verification",
+            "detail": "Primary document checked by reviewer"
+          },
+          {
+            "label": "Operational match",
+            "detail": "Commercial team approves service claims"
+          },
+          {
+            "label": "Data audit",
+            "detail": "No confidential inputs leaked to public tools"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "06 GOVERNANCE EXECUTION",
+      "headline": "Steal these review rules for your team.",
+      "body": "Can the named author defend every fact in this draft? If not, the piece is not ready to publish.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "The Author Test",
+            "detail": "Author can explain and defend all facts"
+          },
+          {
+            "label": "Source Traceability",
+            "detail": "Every claim traces to a primary document"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "headline": "Proof lives in operations, not language.",
+      "body": "A draft is ready to go live only when the professional named on it can personally defend every underlying assertion."
+    }
+  ],
+  "caption": "Fluent writing is not evidence of a true claim.\n\nWhen evaluating AI content within a B2B brand strategy, polished prose often masks unsupported assumptions. Generative models produce authoritative language by default, regardless of whether the underlying facts match your operating reality.\n\nFixing style is easy; verifying accuracy is where reputational risk lives. If a draft claims a service capability or regulatory standard that operations cannot deliver, smooth sentence structure only accelerates commercial exposure.\n\nReviewing the claims ledger instead of paragraph syntax isolates the risk early. If the named author cannot defend the primary source behind a specific metric, the piece stays in draft.\n\nThe complete editorial framework is published on my site: https://www.rachitmishra.in/2026/10/27/ai-content-review-checklist/\n\nSend this to the communications lead managing your editorial sign-off queue.\n\n[b2b brand strategy, b2b branding, industrial marketing, brand governance, AI risk management]",
+  "alt_text": "Carousel slides detailing a human review checklist for verifying AI-generated brand claims.",
+  "hashtags": [
+    "#b2bmarketing",
+    "#industrialmarketing",
+    "#b2bbranding"
+  ],
+  "cta": "Send this to the communications lead managing your editorial sign-off queue.",
+  "failure_mode": "The slides could be misread as basic proofreading advice if the audience misses the focus on operational source verification.",
+  "sources": [
+    {
+      "title": "AI Content Review Checklist: What a Human Must Verify Before Publishing",
+      "url": "https://www.rachitmishra.in/2026/10/27/ai-content-review-checklist/"
+    }
+  ],
+  "scheduled_for": "2026-11-02T19:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2026/10/27/ai-content-review-checklist/",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "19:00"
+  },
+  "experiment": {
+    "hook_type": "distinction",
+    "evidence_type": "source",
+    "format": "carousel",
+    "pillar": "b2b_brand",
+    "hook_words": 9,
+    "hook_characters": 47,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "19:00"
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2026/10/27/ai-content-review-checklist/",
+    "final_url": "https://www.rachitmishra.in/2026/10/27/ai-content-review-checklist/",
+    "http_status": 200
+  },
+  "images": [
+    "content/queue/2026-11-02/mon-1900-ai-content-review-checklist/slide-01.jpg",
+    "content/queue/2026-11-02/mon-1900-ai-content-review-checklist/slide-02.jpg",
+    "content/queue/2026-11-02/mon-1900-ai-content-review-checklist/slide-03.jpg",
+    "content/queue/2026-11-02/mon-1900-ai-content-review-checklist/slide-04.jpg",
+    "content/queue/2026-11-02/mon-1900-ai-content-review-checklist/slide-05.jpg",
+    "content/queue/2026-11-02/mon-1900-ai-content-review-checklist/slide-06.jpg",
+    "content/queue/2026-11-02/mon-1900-ai-content-review-checklist/slide-07.jpg",
+    "content/queue/2026-11-02/mon-1900-ai-content-review-checklist/slide-08.jpg"
+  ],
+  "rendered_visuals": [
+    "checklist",
+    "checklist",
+    "bottleneck",
+    "comparison",
+    "checklist",
+    "checklist"
+  ],
+  "warnings": []
+}

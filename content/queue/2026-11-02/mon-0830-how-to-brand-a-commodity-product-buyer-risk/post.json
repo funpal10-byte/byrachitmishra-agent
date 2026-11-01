@@ -1,0 +1,158 @@
+{
+  "title": "how_to_brand_a_commodity_product_buyer_risk",
+  "pillar": "b2b_brand",
+  "format": "reel",
+  "primary_keyword": "how to brand a commodity product",
+  "claim": "Commodity products command premium margins by eliminating buyer risk at the procurement evaluation stage, not by inventing product differentiation.",
+  "hook": "Why pay more for identical steel?",
+  "evidence": {
+    "type": "framework",
+    "detail": "A procurement evaluation framework assessing commodity margins against four operational risk vectors: delivery variance, specs compliance, response latency, and liability coverage."
+  },
+  "reel_cover": {
+    "headline": "Same spec. Premium price.",
+    "signal": "Risk vs margin",
+    "layout": "split",
+    "visual": {
+      "kind": "comparison",
+      "items": [
+        {
+          "label": "Lowest Quote",
+          "detail": "High delivery variance and unhedged downtime"
+        },
+        {
+          "label": "Premium Quote",
+          "detail": "Guaranteed SLA and audit-ready traceability"
+        }
+      ],
+      "note": "Suggested check"
+    }
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "Why pay more for identical steel?",
+      "voiceover": "Why pay more for identical steel? In industrial markets, specs are standardized.",
+      "direction": "Clean typography over neutral slate background."
+    },
+    {
+      "timecode": "0:03-0:08",
+      "onscreen": "Procurement does not buy story.",
+      "voiceover": "Procurement does not buy storytelling when ordering raw materials or heavy components.",
+      "direction": "Text transition emphasizing procurement reality."
+    },
+    {
+      "timecode": "0:08-0:14",
+      "onscreen": "Buyers pay to eliminate risk.",
+      "voiceover": "They pay extra to make sure their plant line does not stop because of late delivery or failed compliance.",
+      "direction": "Comparison chart showing risk exposure vs margin capture.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Unbranded Commodity",
+            "detail": "Procurement bears risk of operational delay"
+          },
+          {
+            "label": "Governed Brand",
+            "detail": "Supplier absorbs risk via SLA guarantees"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:14-0:21",
+      "onscreen": "Commodity Brand Checklist",
+      "voiceover": "If you are figuring out how to brand a commodity product, stop looking for emotional angles. Audit these four operational assurances instead.",
+      "direction": "Diagram displaying four operational metrics.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Delivery SLA",
+            "detail": "Guaranteed lead times with penalty clauses"
+          },
+          {
+            "label": "Traceability",
+            "detail": "Batch-level quality certificates on demand"
+          },
+          {
+            "label": "Response Time",
+            "detail": "Direct escalation route for field issues"
+          },
+          {
+            "label": "Contract Terms",
+            "detail": "Simplified liability and audit cover"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:21-0:28",
+      "onscreen": "Margin lives in operational certainty.",
+      "voiceover": "When your product is identical to your competitor's, your brand is the certainty that the buyer will not get blamed for choosing you.",
+      "direction": "Text slide showing margin origin."
+    },
+    {
+      "timecode": "0:28-0:34",
+      "onscreen": "Brand is a risk discount.",
+      "voiceover": "B2B brand premium is simply the price a buyer pays to eliminate career risk.",
+      "direction": "Final summary card."
+    }
+  ],
+  "caption": "Why pay more for identical steel?\n\nIf you want to know how to brand a commodity product, look at the procurement committee instead of the spec sheet. When physical specifications are benchmarked by industry standards, marketing teams often panic and try consumer positioning tactics.\n\nThat fails because industrial buyers do not care about your brand story. They care about supply chain continuity.\n\nA procurement manager rarely gets promoted for saving five percent on a commodity input, but they can easily get fired if a late delivery halts production.\n\nThe margin premium does not come from claiming superior quality when the lab reports say you are identical. It comes from embedding operational certainty into the transaction.\n\nBrand premium in B2B is the price of eliminated operational risk.\n\nSend this to whoever is defending industrial pricing strategy against discount demands this quarter.\n\n[how to brand a commodity product, b2b branding, industrial marketing, manufacturing marketing, b2b brand strategy]",
+  "alt_text": "Text graphic showing a commodity brand checklist evaluating delivery SLA and risk elimination.",
+  "hashtags": [
+    "#b2bmarketing",
+    "#industrialmarketing",
+    "#b2bbranding"
+  ],
+  "cta": "Send this to whoever is defending industrial pricing strategy against discount demands this quarter.",
+  "failure_mode": "Could be misconstrued as saying product quality does not matter, whereas the point is that baseline parity forces differentiation onto operational reliability.",
+  "scheduled_for": "2026-11-02T08:30:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "08:30"
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "reel",
+    "pillar": "b2b_brand",
+    "hook_words": 6,
+    "hook_characters": 33,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "comparison",
+    "schedule": {
+      "active": false,
+      "selected_time": "08:30"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "reel_assets": {
+    "background": {
+      "source": "designed_gradient"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (1).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-11-02/mon-0830-how-to-brand-a-commodity-product-buyer-risk/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "comparison",
+    "checklist"
+  ],
+  "warnings": []
+}

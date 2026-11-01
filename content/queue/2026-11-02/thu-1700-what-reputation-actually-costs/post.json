@@ -1,0 +1,171 @@
+{
+  "title": "what_reputation_actually_costs",
+  "pillar": "reputation",
+  "format": "reel",
+  "primary_keyword": "what reputation actually costs",
+  "claim": "Corporate reputation in industrial B2B is not measured by brand sentiment, but by the financial premium buyers pay to avoid operational risk.",
+  "hook": "Reputation is insurance against vendor risk.",
+  "evidence": {
+    "type": "framework",
+    "detail": "A 3-part evaluation framework used by industrial procurement committees to price vendor risk versus raw unit cost."
+  },
+  "reel_cover": {
+    "visual": {
+      "kind": "comparison",
+      "items": [
+        {
+          "label": "Lowest Bidder",
+          "detail": "Unproven vendor with 12% delay history"
+        },
+        {
+          "label": "Incumbent Brand",
+          "detail": "15% price premium with guaranteed uptime"
+        }
+      ],
+      "note": "Illustrative workflow"
+    },
+    "headline": "Why buyers pay 15% brand premiums",
+    "signal": "Risk vs Unit Cost",
+    "layout": "split"
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "Reputation is insurance against vendor risk.",
+      "voiceover": "Reputation is insurance against vendor risk. When a plant manager chooses a supplier, they are not buying a story.",
+      "direction": "Rachit looking directly at camera in a neutral office setting."
+    },
+    {
+      "timecode": "0:03-0:08",
+      "onscreen": "Procurement pays extra to avoid failure.",
+      "voiceover": "Procurement committees routinely pay a fifteen percent premium for the exact same physical spec. They pay to protect their operations.",
+      "direction": "Cut to split comparison graphic showing lowest bidder versus incumbent brand.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Lowest Bidder",
+            "detail": "Unproven vendor with 12% delay history"
+          },
+          {
+            "label": "Incumbent Brand",
+            "detail": "15% price premium with guaranteed uptime"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "timecode": "0:08-0:14",
+      "onscreen": "3 tests buyers use to price vendor risk:",
+      "voiceover": "Here are the three explicit tests industrial buyers use to calculate what reputation actually costs in a tender.",
+      "direction": "Text transition showing headline list with checklist visual overlay.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "1. Escalation Path",
+            "detail": "Who answers when a plant stops at 2 AM?"
+          },
+          {
+            "label": "2. Regulatory Margin",
+            "detail": "Does the vendor absorb audit risk?"
+          },
+          {
+            "label": "3. Financial Buffer",
+            "detail": "Can they survive a supply chain shock?"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:14-0:20",
+      "onscreen": "1. Escalation path clarity",
+      "voiceover": "First: escalation clarity. If a conveyor line stops at two in the morning, does senior leadership get involved immediately?",
+      "direction": "Rachit speaking to camera."
+    },
+    {
+      "timecode": "0:20-0:26",
+      "onscreen": "2. Regulatory liability transfer",
+      "voiceover": "Second: regulatory compliance. A strong brand absorbs audit risk so the buyer does not have to answer to regulators alone.",
+      "direction": "Rachit speaking to camera."
+    },
+    {
+      "timecode": "0:26-0:32",
+      "onscreen": "3. Balance sheet resilience",
+      "voiceover": "Third: balance sheet depth. The buyer needs to know you can survive a supply chain shock without defaulting on delivery.",
+      "direction": "Rachit speaking to camera."
+    },
+    {
+      "timecode": "0:32-0:38",
+      "onscreen": "Brand reputation is risk governance.",
+      "voiceover": "Corporate communications does not build reputation out of thin air. It makes operational risk management visible to the buyer.",
+      "direction": "Text overlay on clean background."
+    }
+  ],
+  "caption": "Reputation is insurance against vendor risk.\n\nUnderstanding what reputation actually costs changes how you talk to commercial teams. In heavy industry, nobody pays extra because they like your brand guidelines.\n\nThey pay extra because selecting an unknown vendor creates internal personal risk for the buyer. If a low-cost supplier delays a plant launch by three weeks, the procurement officer takes the blame. If an established market leader delays it, the delay is logged as an industry-wide supply disruption.\n\nThat asymmetric risk profile is where the margin lives.\n\nCorporate communications is not an exercise in optimism. It is the practice of documenting and proving operational reliability before the tender is opened.\n\nSend this to whoever is defending the brand budget to a CFO this quarter.\n\n[corporate reputation, industrial b2b, procurement risk, b2b marketing, brand premium]\n\n#corporatecommunications #reputation #publicrelations",
+  "alt_text": "Text graphic listing three vendor risk tests: escalation path, regulatory margin, balance sheet.",
+  "hashtags": [
+    "#corporatecommunications",
+    "#reputation",
+    "#publicrelations"
+  ],
+  "cta": "Send this to whoever is defending the brand budget to a CFO this quarter.",
+  "failure_mode": "If the risk premium mechanism is not clear, this could read like generic advice on why brand matters instead of a hard commercial trade-off.",
+  "sources": [],
+  "scheduled_for": "2026-11-05T17:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": true,
+    "selected_time": "17:00",
+    "candidates": [
+      "13:00",
+      "17:00"
+    ],
+    "week_index": 1
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "reel",
+    "pillar": "reputation",
+    "hook_words": 6,
+    "hook_characters": 44,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "comparison",
+    "schedule": {
+      "active": true,
+      "selected_time": "17:00",
+      "candidates": [
+        "13:00",
+        "17:00"
+      ],
+      "week_index": 1
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "reel_assets": {
+    "background": {
+      "source": "designed_gradient"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (11).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-11-02/thu-1700-what-reputation-actually-costs/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "comparison",
+    "checklist"
+  ],
+  "warnings": []
+}

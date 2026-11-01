@@ -1,0 +1,211 @@
+{
+  "title": "communication_scorecard_framework",
+  "pillar": "inside_the_org",
+  "format": "carousel",
+  "primary_keyword": "brand governance",
+  "claim": "Combining reach, understanding, and behavior into one single success metric prevents leadership from making strategic decisions.",
+  "hook": "Reach metrics stop decisions.",
+  "evidence": {
+    "type": "source",
+    "source_url": "https://www.rachitmishra.in/2026/10/20/communication-measurement-framework/",
+    "detail": "A structured communication measurement framework separates outputs, out-takes, outcomes, and business impact instead of combining them into a single score."
+  },
+  "slides": [
+    {
+      "headline": "Reach metrics stop decisions."
+    },
+    {
+      "kicker": "THE MISSTEPS",
+      "headline": "Combining every metric into one score hides operational risk",
+      "body": "Impressions show distribution. Merging them hides failures.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Single Score",
+            "detail": "High reach hides low clarity"
+          },
+          {
+            "label": "Layered Metrics",
+            "detail": "Separates distribution from recall"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "kicker": "LAYER 1",
+      "headline": "Track delivery separate from comprehension",
+      "body": "Outputs track delivery. Out-takes test recall.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Output",
+            "detail": "Material delivered to audience"
+          },
+          {
+            "label": "Out-take",
+            "detail": "Audience recalls core terms"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "kicker": "LAYER 2",
+      "headline": "Measure behavior change before claiming impact",
+      "body": "Outcomes capture actions. Impact measures results.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Outcome",
+            "detail": "Issues routed correctly"
+          },
+          {
+            "label": "Impact",
+            "detail": "Unresolved cases decrease"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "kicker": "THE SCORECARD",
+      "headline": "The structure of a one-page leadership scorecard",
+      "body": "Include objectives, baselines, and data limits.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Baseline",
+            "detail": "Fixed observation period"
+          },
+          {
+            "label": "Comprehension",
+            "detail": "Open question scoring sample"
+          },
+          {
+            "label": "Behavior",
+            "detail": "Operational action tracked"
+          },
+          {
+            "label": "Limits",
+            "detail": "External variables noted"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "APPLICATION",
+      "headline": "How to measure understanding on a small budget",
+      "body": "Ask open scenario questions before showing copy.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Scenario",
+            "detail": "Ask where to raise issue"
+          },
+          {
+            "label": "Scoring",
+            "detail": "Rule set before reading"
+          },
+          {
+            "label": "Sampling",
+            "detail": "Same sites each quarter"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "MEETING READY",
+      "headline": "Phrases to defend measurement rigor in leadership meetings",
+      "body": "Delivery is not comprehension. Remove unused data.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Audit",
+            "detail": "Remove unused operational data"
+          },
+          {
+            "label": "Owner",
+            "detail": "Assign next action date"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "headline": "Reports must end with decisions.",
+      "body": "Read the full framework on practical B2B communication measurement on my website. Send this to whoever is building your team's scorecard."
+    }
+  ],
+  "caption": "Reach metrics stop decisions.\n\nEffective brand governance relies on reporting structures that force operational choices rather than aggregate vanity totals. Combining impressions, press mentions, and internal feedback into a single composite index hides local operational failures.\n\nA board deck showing millions of potential impressions provides zero insight into whether key account managers understand a service change. Operational diagnostics belong in channel management files, not the executive summary.\n\nWhen building a governance scorecard, isolate delivery metrics from recall tests and behavior tracking. Every line on the summary page must support a specific operational decision, complete with explicit limits and alternative explanations.\n\nMeasurement isn't about proving value through inflated totals; it is about providing clear inputs for resource allocation.\n\nThe detailed framework is available at rachitmishra.in\n\nSend this to whoever is defending your team's measurement framework this quarter.\n\n[brand governance, in-house marketing, marketing leadership, stakeholder management, b2b marketing]\n\n#brandgovernance #inhousemarketing #marketingleadership",
+  "alt_text": "Slide deck explaining how to structure a B2B communication measurement scorecard.",
+  "hashtags": [
+    "#brandgovernance",
+    "#inhousemarketing",
+    "#marketingleadership"
+  ],
+  "cta": "Send this to whoever is defending your team's measurement framework this quarter.",
+  "failure_mode": "The post could be mistaken for generic advice if the distinction between outputs, out-takes, and outcomes is not clearly tied to executive decision-making.",
+  "sources": [
+    {
+      "title": "Communication Measurement Framework: From Reach to Decisions",
+      "url": "https://www.rachitmishra.in/2026/10/20/communication-measurement-framework/"
+    }
+  ],
+  "scheduled_for": "2026-11-08T10:30:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2026/10/20/communication-measurement-framework/",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "10:30"
+  },
+  "experiment": {
+    "hook_type": "claim",
+    "evidence_type": "source",
+    "format": "carousel",
+    "pillar": "inside_the_org",
+    "hook_words": 4,
+    "hook_characters": 29,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "10:30"
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2026/10/20/communication-measurement-framework/",
+    "final_url": "https://www.rachitmishra.in/2026/10/20/communication-measurement-framework/",
+    "http_status": 200
+  },
+  "images": [
+    "content/queue/2026-11-02/sun-1030-communication-scorecard-framework/slide-01.jpg",
+    "content/queue/2026-11-02/sun-1030-communication-scorecard-framework/slide-02.jpg",
+    "content/queue/2026-11-02/sun-1030-communication-scorecard-framework/slide-03.jpg",
+    "content/queue/2026-11-02/sun-1030-communication-scorecard-framework/slide-04.jpg",
+    "content/queue/2026-11-02/sun-1030-communication-scorecard-framework/slide-05.jpg",
+    "content/queue/2026-11-02/sun-1030-communication-scorecard-framework/slide-06.jpg",
+    "content/queue/2026-11-02/sun-1030-communication-scorecard-framework/slide-07.jpg",
+    "content/queue/2026-11-02/sun-1030-communication-scorecard-framework/slide-08.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "bottleneck",
+    "bottleneck",
+    "checklist",
+    "checklist",
+    "checklist"
+  ],
+  "warnings": []
+}
