@@ -121,7 +121,7 @@
   "failure_mode": "If the audit checklist reads as basic editing advice rather than a structural governance gate for enterprise review queues, senior comms leaders will dismiss it.",
   "sources": [],
   "scheduled_for": "2026-11-03T19:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -163,5 +163,7 @@
     "comparison",
     "checklist"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-11-03T20:30:37.962338+05:30",
+  "media_id": "18077476376468649"
 }
