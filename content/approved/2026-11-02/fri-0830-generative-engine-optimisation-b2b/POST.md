@@ -71,7 +71,3 @@ Readers may apply Google-specific eligibility guidance to every AI service; the 
 ## Sources
 
 - [AI features and your website — Google Search Central](https://developers.google.com/search/docs/appearance/ai-features)
-
-
-## Review status
-DRAFT: corrected reel.mp4 must be uploaded before this post is approved for publishing.
