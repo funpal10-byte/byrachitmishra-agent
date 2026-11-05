@@ -115,7 +115,7 @@
   "failure_mode": "If the risk premium mechanism is not clear, this could read like generic advice on why brand matters instead of a hard commercial trade-off.",
   "sources": [],
   "scheduled_for": "2026-11-05T17:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -167,5 +167,7 @@
     "comparison",
     "checklist"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-11-05T20:53:15.751718+05:30",
+  "media_id": "18287097469290443"
 }
