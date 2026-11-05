@@ -3,106 +3,106 @@
   "pillar": "ai_marketing",
   "format": "reel",
   "primary_keyword": "generative engine optimisation for B2B",
-  "claim": "AI search engines prioritize structured technical specifications and compliance data over traditional SEO content when answering enterprise procurement queries.",
-  "hook": "AI search ignores your polished blog posts.",
+  "claim": "For Google's AI search features, SEO fundamentals remain relevant and no special schema is required. Clear, accessible evidence helps buyers understand a supplier's claims.",
+  "hook": "AI visibility starts with readable evidence.",
   "evidence": {
     "type": "framework",
-    "detail": "A three-part content structure test (structured spec sheets, regulatory tables, machine-readable pricing tiers) that ensures enterprise technical data is surfaced by generative answer engines."
+    "detail": "A practical audit of crawl access, visible technical evidence and source accuracy. Google's guidance says AI Overviews and AI Mode require no special schema; these checks do not guarantee inclusion or citation."
   },
   "reel_script": [
     {
       "timecode": "0:00-0:04",
-      "onscreen": "AI search ignores your polished blog posts.",
-      "voiceover": "AI search ignores your polished blog posts. When a procurement team asks Perplexity or ChatGPT for vendor options, the model bypasses thought leadership."
+      "onscreen": "AI visibility starts with readable evidence.",
+      "voiceover": "AI visibility starts with readable evidence. Start with useful pages, not promises of a secret ranking shortcut."
     },
     {
       "timecode": "0:04-0:09",
-      "onscreen": "Generative engines look for hard data.",
-      "voiceover": "Generative engine optimisation for B2B requires a complete shift in format. AI engines extract facts, not narrative."
+      "onscreen": "Google AI search still uses SEO fundamentals.",
+      "voiceover": "For Google's AI Overviews and AI Mode, ordinary SEO fundamentals still matter. No special schema is required."
     },
     {
       "timecode": "0:09-0:15",
-      "onscreen": "Traditional SEO vs GEO inputs",
-      "voiceover": "Traditional search rewarded long-form articles. Generative engines look for structured specs, regulatory compliance codes, and exact operational thresholds.",
-      "visual": {
-        "kind": "comparison",
-        "items": [
-          {
-            "label": "Traditional SEO",
-            "detail": "Keyword density, long narrative blogs"
-          },
-          {
-            "label": "Generative SEO",
-            "detail": "Structured JSON-LD, spec tables, compliance"
-          }
-        ],
-        "note": "Illustrative workflow"
-      }
-    },
-    {
-      "timecode": "0:15-0:22",
-      "onscreen": "Run this 3-point GEO readiness audit",
-      "voiceover": "Here is a three-part audit to check if your technical product data is readable by generative search systems.",
+      "onscreen": "Check access before adding markup.",
+      "voiceover": "Check that your important pages can be crawled, are indexed, and are eligible to show a search snippet.",
       "visual": {
         "kind": "checklist",
         "items": [
           {
-            "label": "Schema markup",
-            "detail": "Convert product tables to standard JSON-LD"
+            "label": "Crawl access",
+            "detail": "Check robots and access restrictions"
           },
           {
-            "label": "Regulatory codes",
-            "detail": "Publish raw ISO and compliance standard IDs"
-          },
-          {
-            "label": "Parameter tables",
-            "detail": "Expose explicit numeric operational limits"
+            "label": "Index eligibility",
+            "detail": "Inspect the canonical page in Search Console"
           }
         ],
-        "note": "Suggested check"
+        "note": "Google-specific eligibility checks"
+      }
+    },
+    {
+      "timecode": "0:15-0:22",
+      "onscreen": "Make technical claims easy to check.",
+      "voiceover": "Put relevant specifications, operating limits and dated evidence in visible text. Use tables when they help a buyer compare.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Visible evidence",
+            "detail": "Clear specifications, units and operating limits"
+          },
+          {
+            "label": "Traceable sources",
+            "detail": "Dates, scope and verifiable references"
+          },
+          {
+            "label": "Accurate markup",
+            "detail": "Structured data matches visible content"
+          }
+        ],
+        "note": "Practical content review"
       }
     },
     {
       "timecode": "0:22-0:28",
-      "onscreen": "Raw technical specs beat brand stories.",
-      "voiceover": "If your technical parameters sit inside locked PDFs or fuzzy brand copy, AI search tools simply skip your catalog."
+      "onscreen": "Narrative and evidence can work together.",
+      "voiceover": "Useful articles can provide context alongside technical evidence. Do not assume AI search ignores blogs or all PDFs."
     },
     {
       "timecode": "0:28-0:34",
-      "onscreen": "Optimize for extraction, not attention.",
-      "voiceover": "Optimize for machine extraction, not human skimming. That is how your product enters the short-list."
+      "onscreen": "Improve clarity. Never promise a citation.",
+      "voiceover": "Make the page useful to people first. These checks do not guarantee that Google or another AI system will cite it."
     }
   ],
   "reel_cover": {
-    "headline": "AI Search Ignores Brand Content",
-    "signal": "GEO Audit",
+    "headline": "Make Your Evidence Easy to Find",
+    "signal": "AI Search Readiness",
     "layout": "split",
     "visual": {
       "kind": "comparison",
       "items": [
         {
-          "label": "Human Reader",
-          "detail": "Seeks narrative, positioning, and context"
+          "label": "Search eligibility",
+          "detail": "Crawl access, indexability and useful text"
         },
         {
-          "label": "AI Search",
-          "detail": "Extracts schema tables and compliance data"
+          "label": "Buyer confidence",
+          "detail": "Specific claims, sources and operating limits"
         }
       ],
-      "note": "Illustrative workflow"
+      "note": "No special AI schema required"
     }
   },
-  "caption": "AI search ignores your polished blog posts.\n\nMastering generative engine optimisation for B2B means accepting that large language models do not read content the way humans do. When an enterprise buyer uses AI to screen vendors, the model looks for extractable facts, not brand storytelling.\n\nIf your product specs, ISO certifications, and operating limits are buried inside marketing prose or locked PDFs, the crawler skips them completely.\n\nThe fix is architectural. You need structured schema, machine-readable tables, and explicit compliance references published on open web pages.\n\nIn B2B industrial sales, machine readability is becoming the new baseline for top-of-funnel discovery.\n\nSend this to whoever is responsible for your website strategy and technical SEO.\n\n[generative engine optimisation for b2b, b2b marketing, search engine optimization, martech]",
-  "alt_text": "Text graphic showing a comparison between traditional SEO blogs and machine-readable data tables.",
+  "caption": "AI visibility starts with readable evidence.\n\nGenerative engine optimisation for B2B starts with useful pages, not a secret ranking shortcut.\n\nFor Google's AI Overviews and AI Mode, SEO fundamentals still apply. Google says there is no special schema or extra technical requirement for these features.\n\nFor a B2B website, start with three practical checks:\n\n1. Can important pages be crawled, indexed and shown with a snippet?\n2. Are specifications, operating limits and supporting evidence available in useful, visible text?\n3. Are sources current, and does any structured data match what the page actually says?\n\nTables can make complex information easier to compare. Articles can provide context. Neither format guarantees inclusion, ranking or citation, and other AI services may work differently.\n\nBuild pages that help buyers verify the promise, rather than chase a supposed AI-only shortcut.\n\nSource: Google Search Central — AI features and your website.\nhttps://developers.google.com/search/docs/appearance/ai-features\n\nSend this to whoever owns your website's technical content.\n\n[generative engine optimisation for b2b, b2b marketing, search engine optimization, martech]",
+  "alt_text": "AI-search checks for crawl access, visible evidence and accurate markup; no citation guarantee.",
   "hashtags": [
     "#aimarketing",
     "#martech",
     "#b2bmarketing"
   ],
-  "cta": "Send this to whoever is responsible for your website strategy and technical SEO.",
-  "failure_mode": "Could be dismissed as standard SEO advice if the emphasis on industrial product specs and compliance data isn't clear.",
+  "cta": "Send this to whoever owns your website's technical content.",
+  "failure_mode": "Readers may apply Google-specific eligibility guidance to every AI service; the caption explicitly limits the claim and makes no inclusion guarantee.",
   "scheduled_for": "2026-11-06T08:30:00+05:30",
-  "status": "approved",
+  "status": "held",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -137,12 +137,21 @@
   },
   "video": "reel.mp4",
   "images": [
-    "content/queue/2026-11-02/fri-0830-generative-engine-optimisation-b2b/reel-cover.jpg"
+    "reel-cover.jpg"
   ],
   "rendered_visuals": [
-    "comparison",
-    "comparison",
-    "checklist"
+    "checklist",
+    "checklist",
+    "comparison"
   ],
-  "warnings": []
+  "warnings": [],
+  "sources": [
+    {
+      "title": "AI features and your website — Google Search Central",
+      "url": "https://developers.google.com/search/docs/appearance/ai-features"
+    }
+  ],
+  "quality_hold": [
+    "Draft review: replace reel.mp4 with the corrected local render before restoring approved status. Do not merge while the old video is present."
+  ]
 }

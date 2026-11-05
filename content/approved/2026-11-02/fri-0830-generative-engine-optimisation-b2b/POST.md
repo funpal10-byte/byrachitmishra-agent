@@ -4,11 +4,11 @@
 
 > Targeting: `generative engine optimisation for B2B`
 >
-> Claim: AI search engines prioritize structured technical specifications and compliance data over traditional SEO content when answering enterprise procurement queries.
+> Claim: For Google's AI search features, SEO fundamentals remain relevant and no special schema is required. Clear, accessible evidence helps buyers understand a supplier's claims.
 >
-> Proof (framework): A three-part content structure test (structured spec sheets, regulatory tables, machine-readable pricing tiers) that ensures enterprise technical data is surfaced by generative answer engines.
+> Proof (framework): A practical audit of crawl access, visible technical evidence and source accuracy. Google's guidance says AI Overviews and AI Mode require no special schema; these checks do not guarantee inclusion or citation.
 >
-> Rendered infographics: 3 — comparison, comparison, checklist
+> Rendered infographics: 3 — checklist, checklist, comparison
 >
 > Reel assets: image `designed_gradient` · music `bed-something (13).mp3`
 
@@ -22,27 +22,36 @@
 
 | Time | On screen | Voiceover | Direction |
 |---|---|---|---|
-| 0:00-0:04 | **AI search ignores your polished blog posts.** | AI search ignores your polished blog posts. When a procurement team asks Perplexity or ChatGPT for vendor options, the model bypasses thought leadership. |  |
-| 0:04-0:09 | **Generative engines look for hard data.** | Generative engine optimisation for B2B requires a complete shift in format. AI engines extract facts, not narrative. |  |
-| 0:09-0:15 | **Traditional SEO vs GEO inputs** | Traditional search rewarded long-form articles. Generative engines look for structured specs, regulatory compliance codes, and exact operational thresholds. |  |
-| 0:15-0:22 | **Run this 3-point GEO readiness audit** | Here is a three-part audit to check if your technical product data is readable by generative search systems. |  |
-| 0:22-0:28 | **Raw technical specs beat brand stories.** | If your technical parameters sit inside locked PDFs or fuzzy brand copy, AI search tools simply skip your catalog. |  |
-| 0:28-0:34 | **Optimize for extraction, not attention.** | Optimize for machine extraction, not human skimming. That is how your product enters the short-list. |  |
+| 0:00-0:04 | **AI visibility starts with readable evidence.** | AI visibility starts with readable evidence. Start with useful pages, not promises of a secret ranking shortcut. |  |
+| 0:04-0:09 | **Google AI search still uses SEO fundamentals.** | For Google's AI Overviews and AI Mode, ordinary SEO fundamentals still matter. No special schema is required. |  |
+| 0:09-0:15 | **Check access before adding markup.** | Check that your important pages can be crawled, are indexed, and are eligible to show a search snippet. |  |
+| 0:15-0:22 | **Make technical claims easy to check.** | Put relevant specifications, operating limits and dated evidence in visible text. Use tables when they help a buyer compare. |  |
+| 0:22-0:28 | **Narrative and evidence can work together.** | Useful articles can provide context alongside technical evidence. Do not assume AI search ignores blogs or all PDFs. |  |
+| 0:28-0:34 | **Improve clarity. Never promise a citation.** | Make the page useful to people first. These checks do not guarantee that Google or another AI system will cite it. |  |
 
 ## Caption — copy from here
 
 ```
-AI search ignores your polished blog posts.
+AI visibility starts with readable evidence.
 
-Mastering generative engine optimisation for B2B means accepting that large language models do not read content the way humans do. When an enterprise buyer uses AI to screen vendors, the model looks for extractable facts, not brand storytelling.
+Generative engine optimisation for B2B starts with useful pages, not a secret ranking shortcut.
 
-If your product specs, ISO certifications, and operating limits are buried inside marketing prose or locked PDFs, the crawler skips them completely.
+For Google's AI Overviews and AI Mode, SEO fundamentals still apply. Google says there is no special schema or extra technical requirement for these features.
 
-The fix is architectural. You need structured schema, machine-readable tables, and explicit compliance references published on open web pages.
+For a B2B website, start with three practical checks:
 
-In B2B industrial sales, machine readability is becoming the new baseline for top-of-funnel discovery.
+1. Can important pages be crawled, indexed and shown with a snippet?
+2. Are specifications, operating limits and supporting evidence available in useful, visible text?
+3. Are sources current, and does any structured data match what the page actually says?
 
-Send this to whoever is responsible for your website strategy and technical SEO.
+Tables can make complex information easier to compare. Articles can provide context. Neither format guarantees inclusion, ranking or citation, and other AI services may work differently.
+
+Build pages that help buyers verify the promise, rather than chase a supposed AI-only shortcut.
+
+Source: Google Search Central — AI features and your website.
+https://developers.google.com/search/docs/appearance/ai-features
+
+Send this to whoever owns your website's technical content.
 
 [generative engine optimisation for b2b, b2b marketing, search engine optimization, martech]
 
@@ -52,9 +61,17 @@ Send this to whoever is responsible for your website strategy and technical SEO.
 ## Alt text
 
 ```
-Text graphic showing a comparison between traditional SEO blogs and machine-readable data tables.
+AI-search checks for crawl access, visible evidence and accurate markup; no citation guarantee.
 ```
 
 ## How this post could fail
 
-Could be dismissed as standard SEO advice if the emphasis on industrial product specs and compliance data isn't clear.
+Readers may apply Google-specific eligibility guidance to every AI service; the caption explicitly limits the claim and makes no inclusion guarantee.
+
+## Sources
+
+- [AI features and your website — Google Search Central](https://developers.google.com/search/docs/appearance/ai-features)
+
+
+## Review status
+DRAFT: corrected reel.mp4 must be uploaded before this post is approved for publishing.

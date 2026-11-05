@@ -92,4 +92,4 @@ It could be mistaken for generic AI advice if the distinction between tone editi
 
 ## Sources
 
-- [Executive LinkedIn Strategy: Build Trust Without Becoming a Content Machine](https://www.rachitmishra.in/2026/10/23/executive-linkedin-strategy/)
+- [AI Content Review Checklist: What a Human Must Verify Before Publishing](https://www.rachitmishra.in/2026/10/27/ai-content-review-checklist/)
