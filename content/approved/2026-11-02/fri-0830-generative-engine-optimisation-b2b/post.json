@@ -102,7 +102,7 @@
   "cta": "Send this to whoever owns your website's technical content.",
   "failure_mode": "Readers may apply Google-specific eligibility guidance to every AI service; the caption explicitly limits the claim and makes no inclusion guarantee.",
   "scheduled_for": "2026-11-06T08:30:00+05:30",
-  "status": "held",
+  "status": "approved",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -150,8 +150,5 @@
       "title": "AI features and your website — Google Search Central",
       "url": "https://developers.google.com/search/docs/appearance/ai-features"
     }
-  ],
-  "quality_hold": [
-    "Draft review: replace reel.mp4 with the corrected local render before restoring approved status. Do not merge while the old video is present."
   ]
 }
