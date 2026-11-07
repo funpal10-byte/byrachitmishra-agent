@@ -146,7 +146,7 @@
   "cta": "Send this to whoever is defending the brand budget in the next planning cycle.",
   "failure_mode": "If the reader works in consumer D2C where top-of-funnel reach directly drives instant sales volume, framing awareness as a weak metric might read as counterintuitive unless they operate in B2B heavy industry.",
   "scheduled_for": "2026-11-07T10:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -188,5 +188,7 @@
     "checklist",
     "comparison"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-11-07T15:26:41.218180+05:30",
+  "media_id": "18122290864943301"
 }
