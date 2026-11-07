@@ -1,0 +1,186 @@
+{
+  "title": "october_2026_reading_roundup_frameworks",
+  "pillar": "inside_the_org",
+  "format": "carousel",
+  "primary_keyword": "defending a marketing budget",
+  "claim": "Marketing measurement must connect to specific organisational decisions rather than aggregate reach metrics.",
+  "hook": "Impressions do not defend a marketing budget.",
+  "evidence": {
+    "type": "framework",
+    "detail": "A 4-tier communication scorecard separating outputs, out-takes, outcomes, and impact combined with a 3-part source review test published in October 2026."
+  },
+  "slides": [
+    {
+      "headline": "Impressions do not defend a marketing budget."
+    },
+    {
+      "kicker": "01. MEASUREMENT GATE",
+      "headline": "Define the decision before building the report",
+      "body": "Start with what leadership will decide: change the message, keep funding, or fix operations. Metrics follow decisions.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Reach Report",
+            "detail": "1M impressions with zero action"
+          },
+          {
+            "label": "Decision Gate",
+            "detail": "Board asks whether to reallocate spend"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "02. SCORECARD LAYERS",
+      "headline": "Separate distribution from understanding",
+      "body": "Track outputs, out-takes, and outcomes separately. Combining them into one reach figure hides operational failure.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Output vs Out-take",
+            "detail": "Distribution delivered vs accurate recall"
+          },
+          {
+            "label": "Outcome vs Impact",
+            "detail": "Qualified enquiry vs retention change"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "03. AI REVIEW GATE",
+      "headline": "Run a three-part source test on AI drafts",
+      "body": "Check existence, fit, and currency. Plausible prose from an AI model is not proof that a claim is accurate or usable.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Existence Test",
+            "detail": "Verify source document and exact wording"
+          },
+          {
+            "label": "Scope Fit Test",
+            "detail": "Ensure market, period, and context match"
+          },
+          {
+            "label": "Currency Test",
+            "detail": "Confirm regulation or feature remains valid"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "04. CASE STUDY PROOF",
+      "headline": "Document limits alongside customer results",
+      "body": "A serious B2B buyer needs baseline, scope, and trade-offs. Unexplained percentages create skepticism, not trust.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Weak Case Study",
+            "detail": "Logo plus unexplained 40% growth"
+          },
+          {
+            "label": "Defensible Case",
+            "detail": "Baseline context, scope, limits, permissions"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "05. AUDIT CHECKLIST",
+      "headline": "Four questions to ask before publishing",
+      "body": "Audit your content against concrete operational criteria. Stop publishing material that cannot survive scrutiny.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Target Decision",
+            "detail": "Is the post-report business action explicit?"
+          },
+          {
+            "label": "Source Verification",
+            "detail": "Did a reviewer open the primary link?"
+          },
+          {
+            "label": "Operational Fit",
+            "detail": "Can the business deliver the exact claim?"
+          },
+          {
+            "label": "Evidence Limits",
+            "detail": "Are alternative explanations documented?"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "headline": "Measurement is a decision engine, not a scoreboard.",
+      "body": "Send this to whoever is defending the brand budget this quarter. October reading roundup on rachitmishra.in."
+    }
+  ],
+  "caption": "Impressions do not defend a marketing budget.\n\nWhen defending a marketing budget, reach figures alone will not convince leadership. The October reading roundup highlights three practical frameworks on rachitmishra.in for in-house teams.\n\nFirst, separate reach from understanding. Distribution metrics only show material was delivered; out-takes verify whether the buyer retained the core message.\n\nSecond, verify claims before publishing. Plausible AI output still requires human confirmation of existence, fit, and currency against primary sources.\n\nThird, share limits in customer stories. B2B buying committees ignore unexplained growth percentages that hide baseline context and operational trade-offs.\n\nA report that only shows numbers went up is an unfinished report.\n\nSend this to whoever is defending the brand budget this quarter.\n\n[defending a marketing budget, in-house marketing, brand governance, marketing leadership]",
+  "alt_text": "Carousel detailing brand measurement frameworks, AI review checks, and B2B evidence criteria.",
+  "hashtags": [
+    "#marketingleadership",
+    "#inhousemarketing",
+    "#brandgovernance"
+  ],
+  "cta": "Send this to whoever is defending the brand budget this quarter.",
+  "failure_mode": "It could be mistaken for a simple headline roundup if the reader skims past the visual scorecards and source tests.",
+  "sources": [
+    {
+      "title": "Communication Measurement Framework: From Reach to Decisions",
+      "url": "https://www.rachitmishra.in/2026/10/20/communication-measurement-framework/"
+    },
+    {
+      "title": "AI Content Review Checklist: What a Human Must Verify Before Publishing",
+      "url": "https://www.rachitmishra.in/2026/10/27/ai-content-review-checklist/"
+    },
+    {
+      "title": "B2B Case Study Template: Build Buyer Confidence With Evidence",
+      "url": "https://www.rachitmishra.in/2026/10/30/b2b-case-study-template/"
+    }
+  ],
+  "status": "draft",
+  "content_version": 2,
+  "scheduled_for": "2026-11-05T19:30:00+05:30",
+  "source": "newsletter",
+  "newsletter_month": "2026-10",
+  "newsletter_name": "Brands, Reputation & Beyond",
+  "newsletter_article_count": 6,
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "carousel",
+    "pillar": "inside_the_org",
+    "hook_words": 7,
+    "hook_characters": 45,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {}
+  },
+  "images": [
+    "content/queue/newsletter-2026-10/monthly-reading-roundup/slide-01.jpg",
+    "content/queue/newsletter-2026-10/monthly-reading-roundup/slide-02.jpg",
+    "content/queue/newsletter-2026-10/monthly-reading-roundup/slide-03.jpg",
+    "content/queue/newsletter-2026-10/monthly-reading-roundup/slide-04.jpg",
+    "content/queue/newsletter-2026-10/monthly-reading-roundup/slide-05.jpg",
+    "content/queue/newsletter-2026-10/monthly-reading-roundup/slide-06.jpg",
+    "content/queue/newsletter-2026-10/monthly-reading-roundup/slide-07.jpg"
+  ],
+  "rendered_visuals": [
+    "bottleneck",
+    "comparison",
+    "checklist",
+    "comparison",
+    "checklist"
+  ],
+  "warnings": []
+}
