@@ -1,0 +1,155 @@
+{
+  "title": "commodity_price_premium_test",
+  "pillar": "b2b_brand",
+  "format": "reel",
+  "primary_keyword": "how to brand a commodity product",
+  "claim": "A commodity price premium is earned by reducing the buyer's internal risk, not by adding marketing adjectives.",
+  "hook": "Why pay more for identical steel?",
+  "evidence": {
+    "type": "framework",
+    "detail": "A three-part procurement risk test that identifies operational guarantees capable of supporting a price premium on undifferentiated goods."
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "Why pay more for identical steel?",
+      "voiceover": "Why pay more for identical steel? Procurement committees do not pay extra for brand stories.",
+      "direction": "Text on dark slate background with a stark high-contrast layout."
+    },
+    {
+      "timecode": "0:03-0:07",
+      "onscreen": "Commodities are priced on risk, not product.",
+      "voiceover": "When two industrial products hit the exact same technical specification, the buyer is no longer evaluating the material.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Material Spec",
+            "detail": "Identical grade across both suppliers"
+          },
+          {
+            "label": "Buyer Choice",
+            "detail": "Evaluates supplier risk, not steel quality"
+          }
+        ],
+        "note": "Illustrative workflow"
+      },
+      "direction": "Comparison visual contrasting identical material specs with supplier risk factors."
+    },
+    {
+      "timecode": "0:07-0:12",
+      "onscreen": "The buyer defends the choice to a committee.",
+      "voiceover": "They are evaluating what happens to their own job if your delivery is three days late.",
+      "direction": "Graphic showing buyer sitting between supplier and procurement board."
+    },
+    {
+      "timecode": "0:12-0:18",
+      "onscreen": "Audit your margin against operational risk.",
+      "voiceover": "If you want to understand how to brand a commodity product, run this risk audit before you change your messaging.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Delivery SLA",
+            "detail": "Guaranteed window protects plant schedule"
+          },
+          {
+            "label": "Reject Protocol",
+            "detail": "Instant replacement cuts downtime liability"
+          },
+          {
+            "label": "Compliance Audit",
+            "detail": "Pre-cleared paperwork saves legal delays"
+          }
+        ],
+        "note": "Suggested check for premium positioning"
+      },
+      "direction": "Interactive checklist visual animating three operational risk checks."
+    },
+    {
+      "timecode": "0:18-0:24",
+      "onscreen": "Branding a commodity means underwriting delay.",
+      "voiceover": "Every point of price premium on an undifferentiated commodity comes from underwriting operational friction for the buyer.",
+      "direction": "Text highlighting operational guarantees over traditional ad copy."
+    },
+    {
+      "timecode": "0:24-0:28",
+      "onscreen": "B2B brand is an operational guarantee.",
+      "voiceover": "In heavy industry, your brand is not your slogan. It is the cost you absorb so your customer does not have to.",
+      "direction": "Final clean text frame displaying the core principle."
+    }
+  ],
+  "reel_cover": {
+    "headline": "Same steel. Higher price.",
+    "signal": "Risk vs Premium",
+    "layout": "split",
+    "visual": {
+      "kind": "comparison",
+      "items": [
+        {
+          "label": "Product Spec",
+          "detail": "Identical grade and chemical composition"
+        },
+        {
+          "label": "Vendor Risk",
+          "detail": "Guaranteed delivery window and penalty clause"
+        }
+      ],
+      "note": "Illustrative workflow"
+    }
+  },
+  "caption": "Why pay more for identical steel?\n\nIf you are working on how to brand a commodity product, the first mistake is treating it like a consumer exercise. Consumer brands add emotional value to create differentiation. Industrial buyers do not buy emotion; they manage downside.\n\nWhen a procurement committee looks at two suppliers offering identical technical specifications, the purchase order goes to the vendor that removes personal risk for the buyer.\n\nThat buyer has to defend their decision to a plant manager, a finance director, and an auditor. If your shipment is late, their production line stops. If your paperwork is wrong, their compliance audit fails.\n\nYour margin premium does not come from your ad copy. It comes from your willingness to guarantee delivery windows, streamline reject protocols, and absorb operational risk.\n\nIndustrial brand strength is measured by how much friction you remove from the purchasing committee's internal review.\n\nSend this to the commercial head currently trying to rebrand a raw material.\n\n[how to brand a commodity product, industrial marketing, b2b branding, commodity pricing]\n\n#b2bmarketing #industrialmarketing #b2bbranding",
+  "alt_text": "Text graphic outlining operational risk factors in industrial commodity procurement.",
+  "hashtags": [
+    "#b2bmarketing",
+    "#industrialmarketing",
+    "#b2bbranding"
+  ],
+  "cta": "Send this to the commercial head currently trying to rebrand a raw material.",
+  "failure_mode": "It risks being dismissed as operational advice rather than marketing advice if the reader does not accept that risk reduction is the core function of B2B branding.",
+  "sources": [],
+  "scheduled_for": "2026-11-09T08:30:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "08:30"
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "reel",
+    "pillar": "b2b_brand",
+    "hook_words": 6,
+    "hook_characters": 33,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "comparison",
+    "schedule": {
+      "active": false,
+      "selected_time": "08:30"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "reel_assets": {
+    "background": {
+      "source": "designed_gradient"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (1).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-11-09/mon-0830-commodity-price-premium-test/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "comparison",
+    "checklist"
+  ],
+  "warnings": []
+}

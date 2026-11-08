@@ -1,0 +1,218 @@
+{
+  "title": "ai_governance_in_enterprise_marketing",
+  "pillar": "ai_marketing",
+  "format": "reel",
+  "primary_keyword": "AI adoption in a large company",
+  "claim": "AI in enterprise marketing fails not because of model capability, but because legal and compliance gatekeepers treat generated copy as an unregulated risk.",
+  "hook": "Generated copy dies in legal compliance gates.",
+  "evidence": {
+    "type": "practitioner_observation",
+    "detail": "Observed review cycles in industrial manufacturing where generative text tools speed up creation by three weeks, only for legal teams to stall publication for six months due to lack of traceable provenance."
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "Generated copy dies in legal compliance gates.",
+      "voiceover": "Generated copy dies in legal compliance gates.",
+      "direction": "Static view of a document marked with red strikethrough at the signature line.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Velocity",
+            "detail": "Content produced in hours by models"
+          },
+          {
+            "label": "Review",
+            "detail": "Six weeks in legal committee"
+          }
+        ],
+        "note": "Enterprise review bottleneck"
+      }
+    },
+    {
+      "timecode": "0:03-0:08",
+      "onscreen": "Speed creates compliance debt.",
+      "voiceover": "AI adoption in a large company usually stumbles here. Speed creates compliance debt that legal must clear before anything goes public.",
+      "direction": "Pan across a corporate compliance flowchart.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Creation",
+            "detail": "Automated text generation"
+          },
+          {
+            "label": "Verification",
+            "detail": "Manual claim-by-claim audit"
+          }
+        ],
+        "note": "The verification gap"
+      }
+    },
+    {
+      "timecode": "0:08-0:14",
+      "onscreen": "Unverified claims block publication.",
+      "voiceover": "A model can draft fifty data sheets in minutes. But without clear source attribution, every claim is a legal risk.",
+      "direction": "Cut to an unverified technical specification draft.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Output",
+            "detail": "Fifty drafts produced"
+          },
+          {
+            "label": "Risk",
+            "detail": "Zero verifiable citations"
+          }
+        ],
+        "note": "Source attribution gap"
+      }
+    },
+    {
+      "timecode": "0:14-0:20",
+      "onscreen": "The four verification checks.",
+      "voiceover": "If your team cannot answer four questions about every generated asset, the workflow is broken.",
+      "direction": "Cut to clean typographic list on screen.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Source",
+            "detail": "Where did the training data come from?"
+          },
+          {
+            "label": "Claim",
+            "detail": "Can the performance metric be verified?"
+          },
+          {
+            "label": "License",
+            "detail": "Is the output commercially indemnified?"
+          },
+          {
+            "label": "Audit",
+            "detail": "Who signed off on the prompt history?"
+          }
+        ],
+        "note": "Required compliance checks"
+      }
+    },
+    {
+      "timecode": "0:20-0:26",
+      "onscreen": "Traceability beats raw speed.",
+      "voiceover": "Traceability beats raw speed every time in regulated markets. Treat generative tools like junior writers who need audit trails.",
+      "direction": "Presenter holding a printed compliance sign-off log.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Writing Aid",
+            "detail": "Focuses purely on output speed"
+          },
+          {
+            "label": "Audited Asset",
+            "detail": "Focuses on regulatory defence"
+          }
+        ],
+        "note": "Operational distinction"
+      }
+    },
+    {
+      "timecode": "0:26-0:30",
+      "onscreen": "Governance is the marketing strategy.",
+      "voiceover": "Governance is the marketing strategy when your buyer is a procurement committee.",
+      "direction": "Close on final principle graphic.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Traditional View",
+            "detail": "AI is a creativity tool"
+          },
+          {
+            "label": "Enterprise Reality",
+            "detail": "AI is a governance test"
+          }
+        ],
+        "note": "Named principle"
+      }
+    }
+  ],
+  "reel_cover": {
+    "headline": "Why generated copy stalls in legal",
+    "signal": "Six-month review delay",
+    "layout": "split",
+    "visual": {
+      "kind": "bottleneck",
+      "items": [
+        {
+          "label": "Prompt output",
+          "detail": "Ready in minutes"
+        },
+        {
+          "label": "Legal clearance",
+          "detail": "Stalled for months"
+        }
+      ],
+      "note": "Enterprise AI bottleneck"
+    }
+  },
+  "caption": "Generated copy dies in legal compliance gates.\n\nAI adoption in a large company fails when marketing treats generative tools as writing aids rather than regulated assets. A model can draft fifty product descriptions in ten minutes, but if none of them carry verifiable provenance, they sit in legal review until the campaign window closes.\n\nGovernance is the marketing strategy when your buyer is a procurement committee that checks every assertion.\n\nSend this to whoever is trying to scale content production without expanding the compliance team.\n\n[ai adoption in a large company, marketing technology, enterprise marketing, brand governance]",
+  "alt_text": "Industrial compliance workflow chart showing marketing generation blocked by legal review gates.",
+  "hashtags": [
+    "#aimarketing",
+    "#martech",
+    "#b2bmarketing"
+  ],
+  "cta": "Send this to whoever is trying to scale content production without expanding the compliance team.",
+  "failure_mode": "Readers might assume this applies only to legal departments rather than the underlying workflow breakdown between marketing speed and risk management.",
+  "scheduled_for": "2026-11-13T08:30:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "08:30"
+  },
+  "experiment": {
+    "hook_type": "claim",
+    "evidence_type": "practitioner_observation",
+    "format": "reel",
+    "pillar": "ai_marketing",
+    "hook_words": 7,
+    "hook_characters": 46,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "bottleneck",
+    "schedule": {
+      "active": false,
+      "selected_time": "08:30"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "reel_assets": {
+    "background": {
+      "source": "designed_gradient"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (13).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-11-09/fri-0830-ai-governance-in-enterprise-marketing/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "bottleneck",
+    "bottleneck",
+    "comparison",
+    "comparison",
+    "checklist",
+    "comparison",
+    "comparison"
+  ],
+  "warnings": []
+}

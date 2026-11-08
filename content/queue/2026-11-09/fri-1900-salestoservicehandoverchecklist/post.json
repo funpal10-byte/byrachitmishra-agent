@@ -1,0 +1,207 @@
+{
+  "title": "salestoservicehandoverchecklist",
+  "pillar": "ai_in_practice",
+  "format": "carousel",
+  "primary_keyword": "AI content workflow",
+  "claim": "A customer promise breaks when sales agreements are handed to operational delivery without an explicit validation checklist.",
+  "hook": "The deal is signed. Now real risk begins.",
+  "evidence": {
+    "type": "source",
+    "source_url": "https://www.rachitmishra.in/2026/11/03/sales-to-service-handover-checklist/",
+    "detail": "Sales-to-service handovers require explicit categorization into agreed scope, conditional requests, and unresolved items to prevent customer experience failure."
+  },
+  "slides": [
+    {
+      "headline": "The deal is signed. Now real risk begins."
+    },
+    {
+      "kicker": "The Operational Gap",
+      "headline": "Signing a deal is not the end of the promise",
+      "body": "For procurement, signing is when promises are tested. Credibility drops when operations does not know what was agreed.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Sales Agreement",
+            "detail": "Promises scattered in proposals and chats"
+          },
+          {
+            "label": "Delivery Kickoff",
+            "detail": "Operations executes without context"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "kicker": "Categorization",
+      "headline": "Separate agreed items from informal discussions",
+      "body": "Never let a demonstration request become a silent commitment. Use three tags: agreed, conditional, and unresolved.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Agreed Scope",
+            "detail": "Binding terms and acceptance criteria"
+          },
+          {
+            "label": "Conditional",
+            "detail": "Requests needing operational signoff"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "Handover Audit",
+      "headline": "Run the handover around exceptions not slides",
+      "body": "Circulate context early. Use the kickoff meeting strictly to debate unusual commitments and unassigned risks.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Scope & Limits",
+            "detail": "Verified by account and delivery leads"
+          },
+          {
+            "label": "Dependencies",
+            "detail": "Customer site inputs confirmed"
+          },
+          {
+            "label": "Open Items",
+            "detail": "Named owner and resolution date"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "Process Feedback",
+      "headline": "Track repeat disputes as process failures",
+      "body": "Log recurring scope disputes after launch. Fix the proposal template rather than coaching individual account managers.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Vague Metrics",
+            "detail": "Hiding causes in satisfaction scores"
+          },
+          {
+            "label": "Process Signals",
+            "detail": "Tracking repeat post-launch surprises"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "Brand Governance",
+      "headline": "Brand alignment requires operational feedback",
+      "body": "Marketing must learn where positioning creates expectations that delivery teams cannot operationally support.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Public Claims",
+            "detail": "Market expectations set by brand"
+          },
+          {
+            "label": "Execution Limits",
+            "detail": "Operational reality on the ground"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "kicker": "Implementation",
+      "headline": "Run these three checks before account kickoff",
+      "body": "Ensure your operational handover prevents repeat customer explanations and protects reputation.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Categorize Terms",
+            "detail": "Tag scope as agreed, conditional, or open"
+          },
+          {
+            "label": "Plain Language",
+            "detail": "Delivery owner explains the promise back"
+          },
+          {
+            "label": "Audit Review",
+            "detail": "Check experience matches at first delivery"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "headline": "Reputation is lost in the gap between sales and operations.",
+      "body": "Read the full handover guide at https://www.rachitmishra.in/2026/11/03/sales-to-service-handover-checklist/"
+    }
+  ],
+  "caption": "The deal is signed. Now real risk begins.\n\nDesigning a structured AI content workflow requires clean inputs, but human sales-to-service handovers fail on the exact same governance blindspot: unverified assumptions.\n\nIn B2B accounts, credibility is rarely lost during the sales pitch. It breaks during the first delivery cycle when operations discovers that informal demonstration chats were interpreted by the customer as binding commitments.\n\nA CRM record is not proof of alignment. If delivery cannot state the customer's expected outcome in plain language without asking them to repeat their requirements, your internal handover failed.\n\nMarketing sets the promise. Operations pays for it. When those two functions do not share an explicit exception framework, reputation erodes long before the contract comes up for renewal.\n\nSend this to whoever is responsible for customer delivery and account handovers this quarter.\n\n[b2b marketing, ai content workflow, brand governance, customer experience, marketing operations]",
+  "alt_text": "Carousel slides outlining a sales-to-service handover framework for industrial B2B companies.",
+  "hashtags": [
+    "#b2bmarketing",
+    "#marketingoperations",
+    "#aigovernance"
+  ],
+  "cta": "Send this to whoever is responsible for customer delivery and account handovers this quarter.",
+  "failure_mode": "The post risks reading like standard account management advice if the link back to brand promises and governance is overlooked.",
+  "sources": [
+    {
+      "title": "Sales-to-Service Handover Checklist: Keep the Promise After the Contract",
+      "url": "https://www.rachitmishra.in/2026/11/03/sales-to-service-handover-checklist/"
+    }
+  ],
+  "scheduled_for": "2026-11-13T19:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2026/11/03/sales-to-service-handover-checklist/",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "19:00"
+  },
+  "experiment": {
+    "hook_type": "claim",
+    "evidence_type": "source",
+    "format": "carousel",
+    "pillar": "ai_in_practice",
+    "hook_words": 8,
+    "hook_characters": 41,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "19:00"
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2026/11/03/sales-to-service-handover-checklist/",
+    "final_url": "https://www.rachitmishra.in/2026/11/03/sales-to-service-handover-checklist/",
+    "http_status": 200
+  },
+  "images": [
+    "content/queue/2026-11-09/fri-1900-salestoservicehandoverchecklist/slide-01.jpg",
+    "content/queue/2026-11-09/fri-1900-salestoservicehandoverchecklist/slide-02.jpg",
+    "content/queue/2026-11-09/fri-1900-salestoservicehandoverchecklist/slide-03.jpg",
+    "content/queue/2026-11-09/fri-1900-salestoservicehandoverchecklist/slide-04.jpg",
+    "content/queue/2026-11-09/fri-1900-salestoservicehandoverchecklist/slide-05.jpg",
+    "content/queue/2026-11-09/fri-1900-salestoservicehandoverchecklist/slide-06.jpg",
+    "content/queue/2026-11-09/fri-1900-salestoservicehandoverchecklist/slide-07.jpg",
+    "content/queue/2026-11-09/fri-1900-salestoservicehandoverchecklist/slide-08.jpg"
+  ],
+  "rendered_visuals": [
+    "bottleneck",
+    "comparison",
+    "checklist",
+    "comparison",
+    "bottleneck",
+    "checklist"
+  ],
+  "warnings": []
+}

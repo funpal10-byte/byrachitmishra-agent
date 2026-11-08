@@ -1,0 +1,159 @@
+{
+  "title": "esg_audit_gate_reputation",
+  "pillar": "reputation",
+  "format": "reel",
+  "primary_keyword": "corporate reputation management",
+  "claim": "In B2B industrial procurement, corporate reputation is tested through ESG supplier audits before marketing ever gets a pitch.",
+  "hook": "Your reputation is decided in procurement.",
+  "evidence": {
+    "type": "practitioner_observation",
+    "detail": "Industrial buyers use standardized ESG vendor assessments (e.g., EcoVadis, ISO 14064 compliance) as mandatory qualification gates before commercial evaluations begin."
+  },
+  "reel_cover": {
+    "headline": "Where B2B reputation is lost",
+    "signal": "Audit pre-qualification",
+    "layout": "stamp",
+    "visual": {
+      "kind": "bottleneck",
+      "items": [
+        {
+          "label": "Audit Gate",
+          "detail": "Scope 3 emissions and safety compliance data"
+        },
+        {
+          "label": "Commercial Pitch",
+          "detail": "Pricing, product specs, and brand pitch deck"
+        }
+      ],
+      "note": "Illustrative workflow"
+    }
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "Your reputation is decided in procurement.",
+      "voiceover": "Your reputation is decided in procurement, long before your sales team presents a slide deck.",
+      "direction": "Text overlay on clean background showing an industrial procurement gate icon."
+    },
+    {
+      "timecode": "0:03-0:08",
+      "onscreen": "Buyers read ads. Procurement audits risk.",
+      "voiceover": "Most B2B brand advice assumes you are selling to a decision-maker who watches your campaign.",
+      "direction": "Split graphic contrasting consumer advertising with corporate procurement audit software."
+    },
+    {
+      "timecode": "0:08-0:14",
+      "onscreen": "Audit scorecards drop non-compliant vendors.",
+      "voiceover": "In heavy industry, corporate reputation management lives in vendor risk assessment forms.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "ESG Audit",
+            "detail": "Safety record and carbon data verification"
+          },
+          {
+            "label": "RFP Access",
+            "detail": "Blocked until audit threshold is passed"
+          }
+        ],
+        "note": "Illustrative workflow"
+      },
+      "direction": "Diagram of audit gate blocking commercial entry."
+    },
+    {
+      "timecode": "0:14-0:20",
+      "onscreen": "Safety and emissions data beat brand slogans.",
+      "voiceover": "If your Scope 3 emissions reporting or plant safety track record fails the preliminary check, you do not get to bid.",
+      "direction": "Checklist showing technical compliance parameters."
+    },
+    {
+      "timecode": "0:20-0:26",
+      "onscreen": "Four-point vendor reputation audit",
+      "voiceover": "Here is the four-point checklist to audit your corporate reputation before your buyers do.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "1. Safety record",
+            "detail": "LTIFR metrics verified against benchmark"
+          },
+          {
+            "label": "2. Carbon data",
+            "detail": "Audited Scope 1 and 2 intensity numbers"
+          },
+          {
+            "label": "3. Supply chain",
+            "detail": "Tier-2 labor and environmental compliance"
+          },
+          {
+            "label": "4. Local impact",
+            "detail": "Documented community dispute resolution logs"
+          }
+        ],
+        "note": "Suggested check"
+      },
+      "direction": "Full checklist graphic for screenshotting."
+    },
+    {
+      "timecode": "0:26-0:30",
+      "onscreen": "Reputation is operational proof, not messaging.",
+      "voiceover": "Reputation is not what you say in an ad. It is the operational proof you submit to stay on the approved vendor list.",
+      "direction": "Text overlay with key takeaway phrase."
+    }
+  ],
+  "caption": "Your reputation is decided in procurement.\n\nEffective corporate reputation management in industrial markets rarely starts with a PR campaign. It starts in the vendor onboarding portal.\n\nBefore a procurement committee opens your proposal, they run your governance, safety, and environmental data through a risk matrix. If your metrics fall outside their threshold, the bid ends there.\n\nBrand building in consumer markets creates desire. Brand building in heavy industry removes administrative reason to reject you.\n\nIf your comms team cannot speak to your safety record or carbon reporting, you are working on decoration while the real reputation decision happens in legal and risk.\n\nSend this to whoever is defending the corporate communications budget this quarter.\n\n[corporate reputation management, corporate communications, b2b reputation, industrial marketing, supplier risk]",
+  "alt_text": "Text graphic listing four procurement ESG audit checks for industrial corporate reputation.",
+  "hashtags": [
+    "#corporatecommunications",
+    "#reputation",
+    "#publicrelations"
+  ],
+  "cta": "Send this to whoever is defending the corporate communications budget this quarter.",
+  "failure_mode": "Could be read as reducing corporate reputation purely to compliance documentation rather than broader stakeholder trust.",
+  "sources": [],
+  "scheduled_for": "2026-11-11T08:30:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "08:30"
+  },
+  "experiment": {
+    "hook_type": "claim",
+    "evidence_type": "practitioner_observation",
+    "format": "reel",
+    "pillar": "reputation",
+    "hook_words": 6,
+    "hook_characters": 42,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "bottleneck",
+    "schedule": {
+      "active": false,
+      "selected_time": "08:30"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "reel_assets": {
+    "background": {
+      "source": "designed_gradient"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (12).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-11-09/wed-0830-esg-audit-gate-reputation/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "bottleneck",
+    "bottleneck",
+    "checklist"
+  ],
+  "warnings": []
+}

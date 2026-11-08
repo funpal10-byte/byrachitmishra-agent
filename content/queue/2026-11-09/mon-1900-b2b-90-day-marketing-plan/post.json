@@ -1,0 +1,194 @@
+{
+  "title": "b2b_90_day_marketing_plan",
+  "pillar": "b2b_brand",
+  "format": "carousel",
+  "primary_keyword": "B2B brand strategy",
+  "claim": "A 90-day B2B marketing plan fails when structured as an activity calendar rather than a tool to resolve buyer decision friction.",
+  "hook": "A 90-day plan is an expensive activity log.",
+  "evidence": {
+    "type": "source",
+    "source_url": "https://www.rachitmishra.in/2026/11/06/90-day-b2b-marketing-plan/",
+    "detail": "Framework for structuring quarterly B2B marketing plans around buyer decision gates and baseline metrics rather than campaign deliverables."
+  },
+  "slides": [
+    {
+      "headline": "A 90-day plan is an expensive activity log."
+    },
+    {
+      "kicker": "THE MISTAKE",
+      "headline": "Filling calendars before locating deal friction",
+      "body": "Completing twelve marketing tasks while remaining unsure why buyers stall is an operational failure.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Work arriving",
+            "detail": "12 scheduled quarterly deliverables"
+          },
+          {
+            "label": "Blocked decision",
+            "detail": "Unclear technical differentiation"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "kicker": "DAYS 1-30",
+      "headline": "Audit won and lost deals for underlying friction",
+      "body": "Review evaluation questions and procurement requests with sales before touching media spend or design.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Won/lost review",
+            "detail": "Audit recent technical evaluation questions"
+          },
+          {
+            "label": "Procurement friction",
+            "detail": "Identify missing sales proof assets"
+          },
+          {
+            "label": "Baseline metrics",
+            "detail": "Agree definition of qualified enquiry"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "DAYS 31-60",
+      "headline": "Build the smallest credible intervention to test",
+      "body": "A technical proof sheet and clear enquiry route beat a full website redesign when testing message fit.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Standard response",
+            "detail": "Full website redesign over six months"
+          },
+          {
+            "label": "Bounded pilot",
+            "detail": "Application guide plus test summary"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "DAYS 61-90",
+      "headline": "Evaluate baseline data to direct the next allocation",
+      "body": "Compare pilot results against starting metrics to determine whether to scale, revise, or stop.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Baseline compare",
+            "detail": "Measure against starting handoff rate"
+          },
+          {
+            "label": "Commercial signal",
+            "detail": "Separate reach from qualification"
+          },
+          {
+            "label": "Allocation choice",
+            "detail": "Recommend stop, revise, or scale"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "APPLICATION",
+      "headline": "Four checks to run before approving quarterly spend",
+      "body": "Ask these questions in your quarterly planning review before signing off on deliverables.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Friction point",
+            "detail": "Which specific deal stage are we fixing?"
+          },
+          {
+            "label": "Baseline metric",
+            "detail": "What is the current conversion rate?"
+          },
+          {
+            "label": "Test bound",
+            "detail": "What evidence stops this pilot?"
+          },
+          {
+            "label": "Capacity check",
+            "detail": "Who owns sales follow-up?"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "headline": "A quarterly plan exists to make the next decision clear.",
+      "body": "Start with the buying bottleneck, build the smallest proof asset, and allocate budget on baseline evidence."
+    }
+  ],
+  "caption": "A 90-day plan is an expensive activity log.\n\nMost B2B brand strategy reviews start with a calendar of activities instead of identifying the specific decision blocking sales.\n\nWhen a team promises webinars, brochures, and trade show booths, every item can land on time while contract win rates remain untouched.\n\nThe cost of campaign-first planning is treating output as progress. Buyers rarely stall for lack of content. They stall on technical risk or procurement terms.\n\nFull framework: https://www.rachitmishra.in/2026/11/06/90-day-b2b-marketing-plan/\n\nMarketing calendars create busyness. Decision gates create accountability.\n\nSend this to whoever is building your team's next quarterly plan.\n\n[b2b brand strategy, industrial marketing, b2b branding, b2b marketing]",
+  "alt_text": "Diagram showing a 90-day B2B marketing planning process focused on buyer decision gates.",
+  "hashtags": [
+    "#b2bmarketing",
+    "#industrialmarketing",
+    "#brandstrategy"
+  ],
+  "cta": "Send this to whoever is building your team's next quarterly plan.",
+  "failure_mode": "It could read as anti-execution advice if the distinction between goal-less activity and targeted testing is not clear.",
+  "sources": [
+    {
+      "title": "90-Day B2B Marketing Plan: Start With Decisions, Not a Campaign Calendar",
+      "url": "https://www.rachitmishra.in/2026/11/06/90-day-b2b-marketing-plan/"
+    }
+  ],
+  "scheduled_for": "2026-11-09T19:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2026/11/06/90-day-b2b-marketing-plan/",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "19:00"
+  },
+  "experiment": {
+    "hook_type": "cost",
+    "evidence_type": "source",
+    "format": "carousel",
+    "pillar": "b2b_brand",
+    "hook_words": 8,
+    "hook_characters": 43,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "19:00"
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2026/11/06/90-day-b2b-marketing-plan/",
+    "final_url": "https://www.rachitmishra.in/2026/11/06/90-day-b2b-marketing-plan/",
+    "http_status": 200
+  },
+  "images": [
+    "content/queue/2026-11-09/mon-1900-b2b-90-day-marketing-plan/slide-01.jpg",
+    "content/queue/2026-11-09/mon-1900-b2b-90-day-marketing-plan/slide-02.jpg",
+    "content/queue/2026-11-09/mon-1900-b2b-90-day-marketing-plan/slide-03.jpg",
+    "content/queue/2026-11-09/mon-1900-b2b-90-day-marketing-plan/slide-04.jpg",
+    "content/queue/2026-11-09/mon-1900-b2b-90-day-marketing-plan/slide-05.jpg",
+    "content/queue/2026-11-09/mon-1900-b2b-90-day-marketing-plan/slide-06.jpg",
+    "content/queue/2026-11-09/mon-1900-b2b-90-day-marketing-plan/slide-07.jpg"
+  ],
+  "rendered_visuals": [
+    "bottleneck",
+    "checklist",
+    "comparison",
+    "checklist",
+    "checklist"
+  ],
+  "warnings": []
+}
