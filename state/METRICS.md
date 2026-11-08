@@ -1,11 +1,11 @@
 # Metrics
 
-_Fetched 2026-11-01T03:06:24+00:00_
+_Fetched 2026-11-08T03:15:00+00:00_
 
 - Posts measured: **50**
-- Total reach: **769**
-- Mean reach per post: **15.4**
-- Best single post: **67**
+- Total reach: **589**
+- Mean reach per post: **11.8**
+- Best single post: **42**
 - Total saves: **5**  ·  sends: **2**
 
 > **Read this before drawing conclusions.** At this volume and
@@ -26,29 +26,38 @@ _Fetched 2026-11-01T03:06:24+00:00_
 
 ## Widest reach
 
-- **67** — Checking visuals first delays every launch.
 - **42** — Your AI tools do not solve the bottleneck.
 - **38** — You lose budget when you defend awareness.
 - **31** — Your board pack fails before slide two.
-- **30** — Reputation is just unpaid risk.
+- **26** — A single apology will not save a B2B contract.
+- **22** — Why pay more for identical steel?
 
 ## Every post
 
 | Posted | Type | Reach | Saves | Sends | Avg watch time | Hook |
 |---|---|---:|---:|---:|---:|---|
-| 2026-10-31 | FEED | 3 | 0 | 0 | 0 | Your marketing budget gets cut on activities. |
-| 2026-10-30 | FEED | 6 | 0 | 0 | 0 | A careers page cannot fix a broken reputation. |
-| 2026-10-30 | REELS | 19 | 0 | 0 | 2392 | 90% of AI risk sits in your vendor contract. |
+| 2026-11-07 | FEED | 3 | 0 | 0 | 0 | You lose budget when you defend awareness. |
+| 2026-11-06 | FEED | 3 | 0 | 0 | 0 | AI copy breaks at facts, not tone. |
+| 2026-11-06 | REELS | 6 | 0 | 0 | 1281 | AI visibility starts with readable evidence. |
+| 2026-11-05 | REELS | 20 | 0 | 0 | 2119 | Reputation is insurance against vendor risk. |
+| 2026-11-04 | FEED | 5 | 0 | 0 | 0 | Adjectives ruin your AI prompts. |
+| 2026-11-04 | REELS | 7 | 0 | 0 | 2705 | Your supply chain is ruining your ESG trust. |
+| 2026-11-03 | REELS | 7 | 0 | 0 | 708 | Faster drafting creates a slower approval queue. |
+| 2026-11-02 | FEED | 4 | 0 | 0 | 0 | Fluent writing is not evidence of a true claim. |
+| 2026-11-01 | FEED | 12 | 0 | 0 | 0 | Publishing got free. Attention got expensive. |
+| 2026-10-31 | FEED | 4 | 0 | 0 | 0 | Your marketing budget gets cut on activities. |
+| 2026-10-30 | FEED | 7 | 0 | 0 | 0 | A careers page cannot fix a broken reputation. |
+| 2026-10-30 | REELS | 20 | 0 | 0 | 2608 | 90% of AI risk sits in your vendor contract. |
 | 2026-10-29 | REELS | 16 | 0 | 0 | 1510 | Holding back bad news costs B2B trust. |
 | 2026-10-28 | FEED | 7 | 0 | 0 | 0 | AI copy fails at signoff, not generation. |
 | 2026-10-28 | REELS | 16 | 0 | 0 | 2668 | ESG claims fail without trade-offs. |
 | 2026-10-27 | REELS | 11 | 0 | 0 | 3223 | AI search ignores your ad copy. |
 | 2026-10-26 | FEED | 8 | 0 | 0 | 0 | Ninety-five percent of buyers are not shopping. |
 | 2026-10-25 | FEED | 9 | 0 | 0 | 0 | Personalization has a hard ceiling. |
-| 2026-10-24 | FEED | 10 | 0 | 0 | 0 | Why the sales team is right to cut your budget |
+| 2026-10-24 | FEED | 11 | 0 | 0 | 0 | Why the sales team is right to cut your budget |
 | 2026-10-23 | FEED | 8 | 0 | 0 | 0 | AI drafts faster than your legal team can read. |
-| 2026-10-23 | REELS | 15 | 0 | 0 | 1569 | AI generated copy fails every procurement audit. |
-| 2026-10-22 | REELS | 11 | 0 | 0 | 2893 | ESG reporting will not protect your reputation. |
+| 2026-10-23 | REELS | 16 | 0 | 0 | 1539 | AI generated copy fails every procurement audit. |
+| 2026-10-22 | REELS | 12 | 0 | 0 | 2893 | ESG reporting will not protect your reputation. |
 | 2026-10-21 | FEED | 12 | 0 | 0 | 0 | Style guides break AI copy. |
 | 2026-10-20 | REELS | 12 | 0 | 0 | 2476 | Prompt libraries will not protect your brand. |
 | 2026-10-19 | FEED | 8 | 0 | 0 | 0 | Your product sheet is not a story. |
@@ -77,15 +86,6 @@ _Fetched 2026-11-01T03:06:24+00:00_
 | 2026-09-26 | FEED | 38 | 1 | 0 | 0 | You lose budget when you defend awareness. |
 | 2026-09-25 | FEED | 31 | 1 | 0 | 0 | Your board pack fails before slide two. |
 | 2026-09-25 | REELS | 42 | 0 | 0 | 2989 | Your AI tools do not solve the bottleneck. |
-| 2026-09-24 | REELS | 26 | 0 | 0 | 2644 | Legal statements destroy trust in a crisis. |
-| 2026-09-23 | FEED | 24 | 0 | 0 | 0 | AI writes copy. It cannot take risk. |
-| 2026-09-23 | REELS | 30 | 0 | 0 | 2897 | Reputation is just unpaid risk. |
-| 2026-09-22 | REELS | 25 | 0 | 0 | 4639 | AI drafts fast. Compliance approvals do not. |
-| 2026-09-21 | FEED | 24 | 0 | 0 | 0 | Most martech audits fail to cut a single tool. |
-| 2026-09-19 | FEED | 22 | 0 | 0 | 0 | Polite positioning doubles your sales cycle. |
-| 2026-09-18 | FEED | 17 | 0 | 0 | 0 | Every approval needs a named owner. |
-| 2026-09-17 | REELS | 67 | 0 | 0 | 3782 | Checking visuals first delays every launch. |
-| 2026-09-16 | REELS | 18 | 0 | 0 | 5207 | Selling time-saving meals to mothers failed. |
 
 # Timing experiments
 
