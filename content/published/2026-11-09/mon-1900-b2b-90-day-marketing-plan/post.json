@@ -146,7 +146,7 @@
     }
   ],
   "scheduled_for": "2026-11-09T19:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "blog",
   "source_url": "https://www.rachitmishra.in/2026/11/06/90-day-b2b-marketing-plan/",
@@ -190,5 +190,7 @@
     "checklist",
     "checklist"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-11-09T22:53:40.354205+05:30",
+  "media_id": "18116381864014133"
 }
