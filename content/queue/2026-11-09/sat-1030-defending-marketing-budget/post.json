@@ -1,0 +1,192 @@
+{
+  "title": "defending_marketing_budget",
+  "pillar": "inside_the_org",
+  "format": "carousel",
+  "primary_keyword": "defending a marketing budget",
+  "claim": "B2B marketing budgets get cut in downturns because teams defend awareness instead of commercial margin protection.",
+  "hook": "You lose budget when you defend awareness.",
+  "evidence": {
+    "type": "framework",
+    "detail": "A board-level budget defense framework shifting metrics from unassigned reach to contract win-rate and margin defense."
+  },
+  "slides": [
+    {
+      "headline": "You lose budget when you defend awareness."
+    },
+    {
+      "kicker": "01 / THE MISTAKE",
+      "headline": "Boards do not buy general reach",
+      "body": "When finance asks what marketing delivered, showing brand awareness scores signals that your spend is discretionary.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Marketing Metric",
+            "detail": "Brand awareness and impressions"
+          },
+          {
+            "label": "Board Metric",
+            "detail": "Customer acquisition cost and EBITDA margin"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "kicker": "02 / THE REALLOCATION",
+      "headline": "Commodity sales run on margin",
+      "body": "Marketing does not create buyers out of thin air. It protects pricing power so sales does not heavily discount.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Price Pressure",
+            "detail": "Procurement demands 15% discount"
+          },
+          {
+            "label": "Brand Defense",
+            "detail": "Proven supply reliability holds firm price"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "03 / THE METRIC SHIFT",
+      "headline": "Measure pipeline velocity instead",
+      "body": "Show how marketing assets shorten sales cycles for key accounts rather than reporting generic top-of-funnel reach.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Weak Defense",
+            "detail": "1M impressions across industry trade press"
+          },
+          {
+            "label": "Strong Defense",
+            "detail": "22% faster deal close on targeted accounts"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "04 / THE GOVERNANCE",
+      "headline": "Tie spend directly to risk",
+      "body": "Position your budget as insurance against account churn and margin erosion during procurement negotiations.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Contract Premium",
+            "detail": "Measure price realised vs unbranded peers"
+          },
+          {
+            "label": "Sales Alignment",
+            "detail": "Audit win-rates in competitive RFPs"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "05 / THE ACTION",
+      "headline": "Run the margin defense audit",
+      "body": "Audit your active campaigns against commercial risks before entering the next annual budget review meeting.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Step 1",
+            "detail": "Identify top 20 accounts contributing margin"
+          },
+          {
+            "label": "Step 2",
+            "detail": "Map marketing touchpoints across RFP cycles"
+          },
+          {
+            "label": "Step 3",
+            "detail": "Replace reach metrics with account win-rate"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "06 / TAKEAWAY",
+      "headline": "Steal these for Monday",
+      "body": "Awareness is an expense item. Margin defense is capital allocation. Speak the language of the board deck.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Cost Centre",
+            "detail": "Defending budget using top-of-funnel reach"
+          },
+          {
+            "label": "Value Centre",
+            "detail": "Defending budget using price premium retention"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "headline": "Marketing defends price, not just reach.",
+      "body": "Stop presenting top-of-funnel metrics to people who manage P&L statements. Link your work to margin retention."
+    }
+  ],
+  "caption": "You lose budget when you defend awareness.\n\nDefending a marketing budget inside an industrial firm fails the moment you bring consumer metrics to a commercial board.\n\nWhen finance looks to cut overhead, top-of-funnel reach looks like excess fat. If your slide deck focuses on impressions, you are inviting them to slice the line item.\n\nIn heavy industry, marketing is not there to make people feel good about the logo. It exists to protect pricing power so commercial teams do not have to give away margin during procurement negotiations.\n\nNext time you sit in a budget review, stop talking about brand health metrics. Show how your work defends price realization in competitive tenders.\n\nMarketing buys sales leverage. Finance understands leverage.\n\nSend this to whoever is defending the brand budget this quarter.\n\n[defending a marketing budget, b2b marketing, brand governance, marketing leadership]",
+  "alt_text": "Slide deck explaining how to defend a B2B marketing budget using commercial margin metrics.",
+  "hashtags": [
+    "#marketingleadership",
+    "#inhousemarketing",
+    "#brandgovernance"
+  ],
+  "cta": "Send this to whoever is defending the brand budget this quarter.",
+  "failure_mode": "Could be misconstrued as saying brand awareness has zero value, rather than clarifying how to frame it commercially to CFOs.",
+  "scheduled_for": "2026-11-14T10:30:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "10:30"
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "carousel",
+    "pillar": "inside_the_org",
+    "hook_words": 7,
+    "hook_characters": 42,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "10:30"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "images": [
+    "content/queue/2026-11-09/sat-1030-defending-marketing-budget/slide-01.jpg",
+    "content/queue/2026-11-09/sat-1030-defending-marketing-budget/slide-02.jpg",
+    "content/queue/2026-11-09/sat-1030-defending-marketing-budget/slide-03.jpg",
+    "content/queue/2026-11-09/sat-1030-defending-marketing-budget/slide-04.jpg",
+    "content/queue/2026-11-09/sat-1030-defending-marketing-budget/slide-05.jpg",
+    "content/queue/2026-11-09/sat-1030-defending-marketing-budget/slide-06.jpg",
+    "content/queue/2026-11-09/sat-1030-defending-marketing-budget/slide-07.jpg",
+    "content/queue/2026-11-09/sat-1030-defending-marketing-budget/slide-08.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "bottleneck",
+    "comparison",
+    "checklist",
+    "checklist",
+    "comparison"
+  ],
+  "warnings": []
+}

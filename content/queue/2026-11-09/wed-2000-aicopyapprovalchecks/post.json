@@ -1,0 +1,175 @@
+{
+  "title": "aicopyapprovalchecks",
+  "pillar": "ai_in_practice",
+  "format": "carousel",
+  "primary_keyword": "checks before AI copy goes live",
+  "claim": "Deploying generative AI copy in B2B requires explicit technical, liability, and positioning checks beyond simple grammar scanning.",
+  "hook": "AI copy passes grammar but fails governance.",
+  "evidence": {
+    "type": "framework",
+    "detail": "A 4-point verification checklist for industrial marketing teams running AI drafting workflows to prevent regulatory, technical, and liability errors."
+  },
+  "slides": [
+    {
+      "headline": "AI copy passes grammar but fails governance."
+    },
+    {
+      "kicker": "The drafting speed trap",
+      "headline": "Drafting fast shifts work down the line",
+      "body": "AI cuts drafting time by eighty percent. It shifts the burden to reviewers who must verify every unsourced claim.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "AI Copy Drafted",
+            "detail": "Generated in 2 minutes without sources"
+          },
+          {
+            "label": "Engineering Review",
+            "detail": "Stuck for 4 days verifying specifications"
+          }
+        ],
+        "note": "Illustrative workflow bottleneck"
+      }
+    },
+    {
+      "kicker": "Check 1: Sourcing",
+      "headline": "Unfounded specs create legal exposure",
+      "body": "Generative models fill technical gaps with plausible figures. Unverified performance stats expose the firm to liability.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Raw AI Copy",
+            "detail": "Reduces fuel consumption by 15 percent"
+          },
+          {
+            "label": "Gated AI Copy",
+            "detail": "Reduces fuel by 15 percent under ISO 8178 test"
+          }
+        ],
+        "note": "Suggested verification check"
+      }
+    },
+    {
+      "kicker": "Check 2: Positioning",
+      "headline": "Generic claims erode pricing power",
+      "body": "AI defaults to consumer buzzwords. Commodity language erodes B2B differentiation in technical proposals.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Consumer AI Phrasing",
+            "detail": "Revolutionary robust heavy equipment solution"
+          },
+          {
+            "label": "B2B Grounded Copy",
+            "detail": "Tier 4 final diesel engine with 500h service"
+          }
+        ],
+        "note": "Suggested vocabulary filter"
+      }
+    },
+    {
+      "kicker": "Check 3: Liability",
+      "headline": "Absolute guarantees break compliance",
+      "body": "Language models generate sweeping promises. Procurement teams turn informal draft claims into binding contract terms.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Filter Warranties",
+            "detail": "Flag words like zero maintenance or guaranteed"
+          },
+          {
+            "label": "Filter Scope",
+            "detail": "Restrict claims to published datasheets"
+          }
+        ],
+        "note": "Suggested risk filter"
+      }
+    },
+    {
+      "kicker": "The Pre-Publish Gate",
+      "headline": "Run four explicit tests on every draft",
+      "body": "Deploy a formal verification gate before AI copy reaches regulatory, legal, or commercial channels.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Source Verification",
+            "detail": "Every metric tied to a published spec sheet"
+          },
+          {
+            "label": "Legal Boundary",
+            "detail": "Zero absolute performance guarantees"
+          },
+          {
+            "label": "Term Alignment",
+            "detail": "Industry standard units and terminology"
+          },
+          {
+            "label": "Differentiation",
+            "detail": "No generic software adjectives"
+          }
+        ],
+        "note": "Suggested pre-publish checklist"
+      }
+    },
+    {
+      "headline": "Governance is the speed controller for AI copy.",
+      "body": "Send this checklist to the team managing your AI content approval workflow."
+    }
+  ],
+  "caption": "AI copy passes grammar but fails governance.\n\nSetting clear checks before AI copy goes live prevents legal rewrites. Generative tools draft fast, but in heavy industry, an unbacked metric in a bid document can derail a contract.\n\nThe bottleneck moves from drafting to compliance. The risk is rarely spelling; it is unverified claims and consumer buzzwords creeping into engineering collateral.\n\nBuild a four-point gate: source every figure, strip absolute warranties, enforce technical units, and remove consumer adjectives.\n\nSpeed without governance is just liability produced faster.\n\nSend this to the team managing your AI content approval workflow.\n\n[checks before AI copy goes live, ai content approval workflow, ai governance, b2b marketing, martech]",
+  "alt_text": "Carousel detailing a four-point AI copy verification checklist for B2B and industrial marketing.",
+  "hashtags": [
+    "#aimarketing",
+    "#martech",
+    "#aigovernance"
+  ],
+  "cta": "Send this to the team managing your AI content approval workflow.",
+  "failure_mode": "Readers might assume basic grammar checking tools are sufficient if they do not manage high-stakes technical or regulatory B2B documentation.",
+  "scheduled_for": "2026-11-11T20:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "20:00"
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "carousel",
+    "pillar": "ai_in_practice",
+    "hook_words": 7,
+    "hook_characters": 44,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "20:00"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "images": [
+    "content/queue/2026-11-09/wed-2000-aicopyapprovalchecks/slide-01.jpg",
+    "content/queue/2026-11-09/wed-2000-aicopyapprovalchecks/slide-02.jpg",
+    "content/queue/2026-11-09/wed-2000-aicopyapprovalchecks/slide-03.jpg",
+    "content/queue/2026-11-09/wed-2000-aicopyapprovalchecks/slide-04.jpg",
+    "content/queue/2026-11-09/wed-2000-aicopyapprovalchecks/slide-05.jpg",
+    "content/queue/2026-11-09/wed-2000-aicopyapprovalchecks/slide-06.jpg",
+    "content/queue/2026-11-09/wed-2000-aicopyapprovalchecks/slide-07.jpg"
+  ],
+  "rendered_visuals": [
+    "bottleneck",
+    "comparison",
+    "comparison",
+    "checklist",
+    "checklist"
+  ],
+  "warnings": []
+}

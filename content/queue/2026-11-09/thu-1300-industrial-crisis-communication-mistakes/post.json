@@ -1,0 +1,168 @@
+{
+  "title": "industrial_crisis_communication_mistakes",
+  "pillar": "reputation",
+  "format": "reel",
+  "primary_keyword": "crisis communication mistakes",
+  "claim": "In B2B industrial crises, issuing boilerplate holding statements destroys customer and regulatory trust faster than operational delays.",
+  "hook": "A generic statement doubles crisis damage.",
+  "evidence": {
+    "type": "framework",
+    "detail": "A 4-gate verification checklist for B2B industrial crisis comms requiring site-level telemetry, shipment volume impact, regulatory filing status, and engineering-backed restart timelines before issuing public statements."
+  },
+  "reel_cover": {
+    "headline": "Holding Statements Backfire",
+    "signal": "4-Gate Verification",
+    "layout": "stamp",
+    "visual": {
+      "kind": "comparison",
+      "items": [
+        {
+          "label": "Boilerplate release",
+          "detail": "Safety is priority, inquiry ongoing"
+        },
+        {
+          "label": "Telemetry-backed update",
+          "detail": "Confirmed timestamp, root cause, volume"
+        }
+      ],
+      "note": "Crisis communication protocol"
+    }
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:05",
+      "onscreen": "A generic statement doubles crisis damage.",
+      "voiceover": "A generic statement doubles crisis damage. In heavy industry, issuing holding statements before confirming engineering facts creates an immediate trust deficit.",
+      "direction": "Text graphic overlay on dark industrial background."
+    },
+    {
+      "timecode": "0:05-0:12",
+      "onscreen": "Procurement checks logs, not PR.",
+      "voiceover": "When an industrial asset goes down, procurement committees look at timestamped operational logs, not your press release.",
+      "direction": "Side-by-side comparison of boilerplate PR draft versus plant operational log."
+    },
+    {
+      "timecode": "0:12-0:20",
+      "onscreen": "Boilerplate creates spec suspicion.",
+      "voiceover": "Saying safety is your top priority while withholding technical detail makes plant managers assume the structural damage is severe.",
+      "direction": "Text card listing buyer assumptions when comms is vague."
+    },
+    {
+      "timecode": "0:20-0:32",
+      "onscreen": "The 4-gate incident verification.",
+      "voiceover": "Before releasing any statement during an operational crisis, run your comms draft through four hard verification gates.",
+      "direction": "Graphic overlay displaying checklist items.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Engineering log check",
+            "detail": "Confirmed failure timestamp by site team"
+          },
+          {
+            "label": "Customer impact scope",
+            "detail": "Exact shipment volumes affected by batch"
+          },
+          {
+            "label": "Regulatory filing",
+            "detail": "Statutory notice dispatched to authorities"
+          },
+          {
+            "label": "Remediation window",
+            "detail": "Stated restart date backed by maintenance"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:32-0:42",
+      "onscreen": "Trade off speed for accuracy.",
+      "voiceover": "A three-hour delay to verify telemetry data with site engineers protects enterprise contracts far better than an instant generic quote.",
+      "direction": "Visual comparison between immediate generic release vs verified technical update.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Instant generic comms",
+            "detail": "High initial speed, zero factual value"
+          },
+          {
+            "label": "Verified technical comms",
+            "detail": "3-hour delay, protects B2B contracts"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "timecode": "0:42-0:50",
+      "onscreen": "Fact density builds reputation.",
+      "voiceover": "Fact density is the real currency of B2B corporate reputation.",
+      "direction": "Closing graphic displaying final principle text."
+    }
+  ],
+  "caption": "A generic statement doubles crisis damage.\n\nMost crisis communication mistakes in heavy industry start when comms issues boilerplate while plant ops checks logs.\n\nWhen a boiler fails or a rail loading line halts, commercial buyers do not read press statements for emotional reassurance. They look for engineering facts, batch impact numbers, and realistic recovery windows.\n\nIssuing generic quotes about safety being a top priority tells a procurement committee that corporate headquarters does not yet understand the operational cause.\n\nThe cost of early boilerplate is lost trust with regulators and long-term customers. Delaying a statement by three hours to verify telemetry data with site engineers protects enterprise contracts.\n\nFact density is what saves B2B reputation when operations fail.\n\nSend this to the corporate communications lead reviewing your incident response playbook this quarter.\n\n[crisis communication mistakes, corporate reputation, corporate communications, b2b crisis management, industrial reputation]",
+  "alt_text": "Text graphic detailing a four-point B2B crisis communication checklist for industrial operations.",
+  "cta": "Send this to the corporate communications lead reviewing your incident response playbook this quarter.",
+  "hashtags": [
+    "#corporatecommunications",
+    "#reputation",
+    "#crisiscommunication"
+  ],
+  "failure_mode": "If the checklist reads as general PR advice rather than specific to heavy industrial plant operations, commercial leaders will dismiss it as communications theory.",
+  "scheduled_for": "2026-11-12T13:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": true,
+    "selected_time": "13:00",
+    "candidates": [
+      "13:00",
+      "17:00"
+    ],
+    "week_index": 0
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "reel",
+    "pillar": "reputation",
+    "hook_words": 6,
+    "hook_characters": 42,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "comparison",
+    "schedule": {
+      "active": true,
+      "selected_time": "13:00",
+      "candidates": [
+        "13:00",
+        "17:00"
+      ],
+      "week_index": 0
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "reel_assets": {
+    "background": {
+      "source": "designed_gradient"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (11).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-11-09/thu-1300-industrial-crisis-communication-mistakes/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "checklist",
+    "comparison"
+  ],
+  "warnings": []
+}
