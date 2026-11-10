@@ -115,7 +115,7 @@
   "failure_mode": "The post risks sounding overly technical for general brand managers if they do not manage web structure or technical documentation.",
   "sources": [],
   "scheduled_for": "2026-11-10T19:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -157,5 +157,7 @@
     "checklist",
     "bottleneck"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-11-10T23:11:50.229152+05:30",
+  "media_id": "17887370688691000"
 }
