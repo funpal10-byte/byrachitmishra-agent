@@ -113,7 +113,7 @@
   "failure_mode": "Could be read as reducing corporate reputation purely to compliance documentation rather than broader stakeholder trust.",
   "sources": [],
   "scheduled_for": "2026-11-11T08:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -155,5 +155,7 @@
     "bottleneck",
     "checklist"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-11-11T11:28:45.101654+05:30",
+  "media_id": "18119639050800103"
 }
