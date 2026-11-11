@@ -131,7 +131,7 @@
   "cta": "Send this to the team managing your AI content approval workflow.",
   "failure_mode": "Readers might assume basic grammar checking tools are sufficient if they do not manage high-stakes technical or regulatory B2B documentation.",
   "scheduled_for": "2026-11-11T20:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -171,5 +171,7 @@
     "checklist",
     "checklist"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-11-12T02:51:33.217597+05:30",
+  "media_id": "18120559121079250"
 }
