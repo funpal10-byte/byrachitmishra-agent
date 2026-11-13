@@ -168,7 +168,7 @@
   "cta": "Send this to whoever is trying to scale content production without expanding the compliance team.",
   "failure_mode": "Readers might assume this applies only to legal departments rather than the underlying workflow breakdown between marketing speed and risk management.",
   "scheduled_for": "2026-11-13T08:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -214,5 +214,7 @@
     "comparison",
     "comparison"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-11-13T13:20:22.441204+05:30",
+  "media_id": "18377636482246342"
 }
