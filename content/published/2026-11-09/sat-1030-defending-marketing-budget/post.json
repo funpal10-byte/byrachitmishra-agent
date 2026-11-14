@@ -146,7 +146,7 @@
   "cta": "Send this to whoever is defending the brand budget this quarter.",
   "failure_mode": "Could be misconstrued as saying brand awareness has zero value, rather than clarifying how to frame it commercially to CFOs.",
   "scheduled_for": "2026-11-14T10:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -188,5 +188,7 @@
     "checklist",
     "comparison"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-11-14T15:44:53.956819+05:30",
+  "media_id": "recovered-duplicate"
 }
