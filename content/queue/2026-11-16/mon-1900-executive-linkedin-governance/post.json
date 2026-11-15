@@ -1,0 +1,207 @@
+{
+  "title": "executive_linkedin_governance",
+  "pillar": "b2b_brand",
+  "format": "carousel",
+  "primary_keyword": "B2B brand strategy",
+  "claim": "Executive visibility without approved decision boundaries damages corporate trust faster than total silence.",
+  "hook": "Activity is not executive visibility",
+  "evidence": {
+    "type": "source",
+    "source_url": "https://www.rachitmishra.in/2026/10/23/executive-linkedin-strategy/",
+    "detail": "Executive LinkedIn Strategy: Build Trust Without Becoming a Content Machine outlines an interview-led framework and clear governance boundaries for leadership communications."
+  },
+  "slides": [
+    {
+      "headline": "Activity is not executive visibility"
+    },
+    {
+      "kicker": "THE MISALIGNMENT",
+      "headline": "Event photos build noise, not trust",
+      "body": "Conference posts show presence, but tell buyers nothing about how leadership evaluates real operational trade-offs.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Low-trust activity",
+            "detail": "Event photos and generic announcements"
+          },
+          {
+            "label": "High-trust insight",
+            "detail": "Generalised operational trade-offs"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "EDITORIAL SCOPE",
+      "headline": "Limit topic territory to real authority",
+      "body": "Select three themes grounded in direct responsibility. Reject trending topics outside operational oversight.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Trending commentary",
+            "detail": "Opinion on topics outside direct authority"
+          },
+          {
+            "label": "Approved territory",
+            "detail": "Operational change, reliability, governance"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "GOVERNANCE",
+      "headline": "Set sign-off guardrails before drafting",
+      "body": "Define clear boundaries for customer disclosures, forward claims and specialist legal reviews before publishing.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Customer permission",
+            "detail": "Anonymise case context unless cleared"
+          },
+          {
+            "label": "Legal boundary",
+            "detail": "Route forward-looking statements early"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "WORKFLOW",
+      "headline": "Extract insights through structured interviews",
+      "body": "Ghostwriting must not fabricate personal memoirs. Use brief interviews to capture real trade-offs and genuine rationale.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Interview beat",
+            "detail": "Capture underlying decision reasoning"
+          },
+          {
+            "label": "Fact check",
+            "detail": "Confirm context with executive before draft"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "METRICS",
+      "headline": "Measure relationship depth over reach",
+      "body": "Track dialogue quality and peer engagement. High impression counts mean little if key partners ignore the content.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Vanity metrics",
+            "detail": "Raw impressions and passive follower growth"
+          },
+          {
+            "label": "Commercial signal",
+            "detail": "Inquiries and dialogue with industry peers"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "OPERATIONAL TEST",
+      "headline": "Run this pre-publish verification audit",
+      "body": "Verify every piece of executive copy against four clear governance gates before it moves to scheduling.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Authority test",
+            "detail": "Does the leader make this decision?"
+          },
+          {
+            "label": "Evidence gate",
+            "detail": "Is the supporting fact cleared?"
+          },
+          {
+            "label": "Voice check",
+            "detail": "Is the phrasing natural to the leader?"
+          },
+          {
+            "label": "Utility filter",
+            "detail": "Does a peer gain practical insight?"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "headline": "Executive trust comes from clarity, not content volume.",
+      "body": "A sustainable leadership presence relies on approved boundaries, interview-led insights and operational relevance."
+    }
+  ],
+  "caption": "Activity is not executive visibility\n\nA clear B2B brand strategy relies on executive positioning that explains business decisions rather than generating noise.\n\nMost leadership communication programmes fail because they turn executives into general content creators. They post conference photos, award acceptances, and generic industry commentary. None of these demonstrate how a leadership team actually handles commercial or operational trade-offs.\n\nA governed approach defines precise boundaries first. You do not need to disclose confidential figures or customer contracts to build credibility. Explaining a generalised decision framework is often far more useful to procurement committees and strategic partners.\n\nEstablish a brief, interview-led drafting routine to extract genuine operational reasoning. Run every draft through a strict approval gate before scheduling.\n\nVisibility without utility degrades institutional reputation.\n\nSend this to whoever manages corporate communications or leadership positioning for your organisation.\n\nRead the full framework on executive communication strategy: https://www.rachitmishra.in/2026/10/23/executive-linkedin-strategy/\n\n[b2b brand strategy, executive communications, industrial marketing, corporate reputation, brand governance]",
+  "alt_text": "Carousel slides illustrating an executive LinkedIn governance framework focusing on B2B trust.",
+  "hashtags": [
+    "#b2bmarketing",
+    "#industrialmarketing",
+    "#brandstrategy"
+  ],
+  "cta": "Send this to whoever manages corporate communications or leadership positioning for your organisation.",
+  "failure_mode": "It could be read as generic social media advice if the emphasis on strict approval gates and operational trade-offs is missed.",
+  "sources": [
+    {
+      "title": "Executive LinkedIn Strategy: Build Trust Without Becoming a Content Machine",
+      "url": "https://www.rachitmishra.in/2026/10/23/executive-linkedin-strategy/"
+    }
+  ],
+  "scheduled_for": "2026-11-16T19:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2026/10/23/executive-linkedin-strategy/",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "19:00"
+  },
+  "experiment": {
+    "hook_type": "distinction",
+    "evidence_type": "source",
+    "format": "carousel",
+    "pillar": "b2b_brand",
+    "hook_words": 5,
+    "hook_characters": 36,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "19:00"
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2026/10/23/executive-linkedin-strategy/",
+    "final_url": "https://www.rachitmishra.in/2026/10/23/executive-linkedin-strategy/",
+    "http_status": 200
+  },
+  "images": [
+    "content/queue/2026-11-16/mon-1900-executive-linkedin-governance/slide-01.jpg",
+    "content/queue/2026-11-16/mon-1900-executive-linkedin-governance/slide-02.jpg",
+    "content/queue/2026-11-16/mon-1900-executive-linkedin-governance/slide-03.jpg",
+    "content/queue/2026-11-16/mon-1900-executive-linkedin-governance/slide-04.jpg",
+    "content/queue/2026-11-16/mon-1900-executive-linkedin-governance/slide-05.jpg",
+    "content/queue/2026-11-16/mon-1900-executive-linkedin-governance/slide-06.jpg",
+    "content/queue/2026-11-16/mon-1900-executive-linkedin-governance/slide-07.jpg",
+    "content/queue/2026-11-16/mon-1900-executive-linkedin-governance/slide-08.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "bottleneck",
+    "checklist",
+    "checklist",
+    "comparison",
+    "checklist"
+  ],
+  "warnings": []
+}

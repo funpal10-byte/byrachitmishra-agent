@@ -1,0 +1,203 @@
+{
+  "title": "ai_positioning_boundary_checks",
+  "pillar": "ai_in_practice",
+  "format": "carousel",
+  "primary_keyword": "what AI cannot do in brand work",
+  "claim": "AI copy generators cannot define operational boundaries, forcing teams to set exclusion criteria before using automated drafts.",
+  "hook": "Generic AI copy is a governance failure.",
+  "evidence": {
+    "type": "source",
+    "source_url": "https://www.rachitmishra.in/2026/10/16/b2b-positioning-statement-template/",
+    "detail": "Framework published in 'B2B Positioning Statement: A One-Page Template That Sales Can Use', demonstrating that positioning requires defining audience, proof, and explicit boundaries before writing."
+  },
+  "slides": [
+    {
+      "headline": "Generic AI copy is a governance failure."
+    },
+    {
+      "kicker": "The AI Trap",
+      "headline": "Language models optimise for consensus",
+      "body": "Prompts generate broad adjectives. They describe any industrial supplier without naming a real advantage.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "AI Draft Output",
+            "detail": "Innovative solutions for a changing world"
+          },
+          {
+            "label": "Commercial Reality",
+            "detail": "Identical promise used by direct competitors"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "The Missing Input",
+      "headline": "Positioning requires explicit exclusions",
+      "body": "AI cannot guess which contracts to reject. Operations must set boundary limits before drafting begins.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Unfiltered Prompting",
+            "detail": "Generates claims beyond operational capacity"
+          },
+          {
+            "label": "Boundary Gating",
+            "detail": "Defines application limits and service caps"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "kicker": "Five Pre-AI Checks",
+      "headline": "Audit the underlying structure first",
+      "body": "Run five practical checks on your core promise before feeding it into marketing automation or brand voice prompts.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Substitution",
+            "detail": "Can a competitor use this line unchanged?"
+          },
+          {
+            "label": "Proof Test",
+            "detail": "Can sales show evidence without marketing?"
+          },
+          {
+            "label": "Exclusion",
+            "detail": "Does it clarify which work to decline?"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "Operational Validation",
+      "headline": "Test comprehension with frontline sales",
+      "body": "Interview sales before approving copy. Record where claims break down when facing procurement committees.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Internal Preference",
+            "detail": "Polished headlines sounding good in isolation"
+          },
+          {
+            "label": "Buyer Friction",
+            "detail": "Switching costs and unverified claims"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "Field Assets",
+      "headline": "Turn positioning into sales tools",
+      "body": "Equip sales with three assets: buying situation context, verified proof sheets, and qualification questions.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Proof Sheet",
+            "detail": "Documented metrics sales can share directly"
+          },
+          {
+            "label": "Qualification",
+            "detail": "Questions that reveal site operational fit"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "Execution Rule",
+      "headline": "Write the sentence only after field audit",
+      "body": "Fill the audience, problem, and proof fields first. The statement is a working structure, not web copy.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Fill Proof Field",
+            "detail": "Verify site records exist before writing"
+          },
+          {
+            "label": "Set Boundaries",
+            "detail": "State capacity limits explicitly in brief"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "headline": "Positioning is an operating choice, not copy.",
+      "body": "Read the complete framework and access the template at rachitmishra.in."
+    }
+  ],
+  "caption": "Generic AI copy is a governance failure.\n\nWhen understanding what AI cannot do in brand work, start with context. Generative models default to broad, pleasant phrasing because they are trained on statistical consensus. Ask a tool to write positioning for a logistics or manufacturing firm, and it produces variations of innovative solutions for a changing world.\n\nThat copy sounds positive while saying nothing. It fails because AI cannot decide which deals your business should decline, or what proof your operations team can actually deliver to a procurement committee.\n\nPositioning is an operational choice. If you do not define the target audience, the specific buying problem, verified proof, and explicit operational boundaries upfront, automated drafts simply hide missing commercial decisions.\n\nFill the structural constraints first. Write the sentence last.\n\nFull framework and template are available on my site: https://www.rachitmishra.in/2026/10/16/b2b-positioning-statement-template/\n\nSend this to whoever is setting up your marketing automation rules this quarter.\n\n[what AI cannot do in brand work, b2b positioning, ai governance, brand architecture, marketing operations]",
+  "alt_text": "Diagram showing pre-AI positioning checks, comparing generic text with operational boundaries.",
+  "hashtags": [
+    "#aimarketing",
+    "#aigovernance",
+    "#b2bmarketing"
+  ],
+  "cta": "Send this to whoever is setting up your marketing automation rules this quarter.",
+  "failure_mode": "The post could be misread as anti-AI rhetoric rather than a practical workflow constraint for B2B brand teams.",
+  "sources": [
+    {
+      "title": "B2B Positioning Statement: A One-Page Template That Sales Can Use",
+      "url": "https://www.rachitmishra.in/2026/10/16/b2b-positioning-statement-template/"
+    }
+  ],
+  "scheduled_for": "2026-11-20T19:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2026/10/16/b2b-positioning-statement-template/",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "19:00"
+  },
+  "experiment": {
+    "hook_type": "claim",
+    "evidence_type": "source",
+    "format": "carousel",
+    "pillar": "ai_in_practice",
+    "hook_words": 7,
+    "hook_characters": 40,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "19:00"
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2026/10/16/b2b-positioning-statement-template/",
+    "final_url": "https://www.rachitmishra.in/2026/10/16/b2b-positioning-statement-template/",
+    "http_status": 200
+  },
+  "images": [
+    "content/queue/2026-11-16/fri-1900-ai-positioning-boundary-checks/slide-01.jpg",
+    "content/queue/2026-11-16/fri-1900-ai-positioning-boundary-checks/slide-02.jpg",
+    "content/queue/2026-11-16/fri-1900-ai-positioning-boundary-checks/slide-03.jpg",
+    "content/queue/2026-11-16/fri-1900-ai-positioning-boundary-checks/slide-04.jpg",
+    "content/queue/2026-11-16/fri-1900-ai-positioning-boundary-checks/slide-05.jpg",
+    "content/queue/2026-11-16/fri-1900-ai-positioning-boundary-checks/slide-06.jpg",
+    "content/queue/2026-11-16/fri-1900-ai-positioning-boundary-checks/slide-07.jpg",
+    "content/queue/2026-11-16/fri-1900-ai-positioning-boundary-checks/slide-08.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "bottleneck",
+    "checklist",
+    "comparison",
+    "checklist",
+    "checklist"
+  ],
+  "warnings": []
+}

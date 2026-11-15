@@ -1,0 +1,150 @@
+{
+  "title": "esg_vendor_audit_gate",
+  "pillar": "reputation",
+  "format": "reel",
+  "primary_keyword": "ESG communication that is not greenwashing",
+  "claim": "In industrial supply chains, corporate reputation is defended by audit checklists, not public sustainability reports.",
+  "hook": "Your PR release won't survive a vendor audit.",
+  "evidence": {
+    "type": "framework",
+    "detail": "A three-part supply chain ESG verification gate used in industrial procurement to validate vendor compliance before contract renewal."
+  },
+  "reel_cover": {
+    "headline": "Vendor audit vs ESG PR",
+    "signal": "3 Audit Gates",
+    "layout": "split",
+    "visual": {
+      "kind": "comparison",
+      "items": [
+        {
+          "label": "ESG PR Claim",
+          "detail": "Unverified corporate sustainability narrative"
+        },
+        {
+          "label": "Procurement Gate",
+          "detail": "Third-party audit of primary emissions data"
+        }
+      ],
+      "note": "Illustrative workflow"
+    }
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "Your PR release won't survive a vendor audit.",
+      "voiceover": "Your PR release won't survive a vendor audit. Procurement committees do not read press releases.",
+      "direction": "Dark minimalist background showing the phrase 'Vendor Audit Gate' in bold typography."
+    },
+    {
+      "timecode": "0:03-0:08",
+      "onscreen": "Reputation is verified at procurement gates.",
+      "voiceover": "In industrial B2B, corporate reputation is decided by audit teams checking regulatory compliance and supply chain data.",
+      "direction": "Text transition emphasizing procurement verification over marketing copy."
+    },
+    {
+      "timecode": "0:08-0:15",
+      "onscreen": "Gate 1: Tier-1 Primary Emissions Data",
+      "voiceover": "Gate one: Primary emissions data. If your sustainability report relies on industry averages rather than site-level metering, procurement rejects it.",
+      "direction": "Onscreen checklist graphic highlighting primary data requirement.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Emissions Metering",
+            "detail": "Site-level metered carbon data required"
+          },
+          {
+            "label": "Industry Averages",
+            "detail": "Rejected by procurement compliance"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:15-0:22",
+      "onscreen": "Gate 2: Sub-tier Safety Audits",
+      "voiceover": "Gate two: Sub-tier safety logs. Corporate comms publishes policy guidelines, but auditors verify lost-time injury rates across sub-contractors.",
+      "direction": "Onscreen graphic displaying safety audit checks.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Sub-tier LTIFR",
+            "detail": "Verified contractor incident records"
+          },
+          {
+            "label": "Policy Guidelines",
+            "detail": "Insufficient without plant audit logs"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:22-0:29",
+      "onscreen": "Gate 3: Downstream Waste Tracking",
+      "voiceover": "Gate three: Chain of custody waste logs. Broad pledge statements fail without manifest records from secondary processors.",
+      "direction": "Visual showing waste tracking manifest requirement."
+    },
+    {
+      "timecode": "0:29-0:35",
+      "onscreen": "Reputation is operational, not aspirational.",
+      "voiceover": "Build ESG communication that is not greenwashing by grounding claims in documentation your procurement team already submits to regulators.",
+      "direction": "Final summary card displaying the core operational principle."
+    }
+  ],
+  "caption": "Your PR release won't survive a vendor audit.\n\nExecuting ESG communication that is not greenwashing requires aligning corporate communications with operational proof.\n\nIn B2B and heavy industry, enterprise buyers do not read slick CSR brochures. Procurement committees run vendor audits using strict compliance checklists.\n\nIf your comms team publishes targets that operations cannot back up with site-level logs, you create commercial risk. The auditor spots the gap, the vendor score drops, and contract renewal stalls.\n\nStop writing broad pledge statements. Use the exact datasets your regulatory teams submit during compliance reviews.\n\nReputation is an operational record, not a promotional campaign.\n\nSend this to whoever is reviewing your corporate comms strategy before the next audit cycle.\n\n[corporate reputation, esg communication, b2b marketing, corporate communications, procurement]",
+  "alt_text": "Text graphic showing a vendor audit checklist comparing ESG PR claims with procurement compliance.",
+  "hashtags": [
+    "#corporatecommunications",
+    "#reputation",
+    "#esg"
+  ],
+  "cta": "Send this to whoever is reviewing your corporate comms strategy before the next audit cycle.",
+  "failure_mode": "If the viewer works in consumer D2C where vendor procurement gates do not exist, the framework will feel overly technical and corporate.",
+  "scheduled_for": "2026-11-18T08:30:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "08:30"
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "reel",
+    "pillar": "reputation",
+    "hook_words": 8,
+    "hook_characters": 45,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "comparison",
+    "schedule": {
+      "active": false,
+      "selected_time": "08:30"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "reel_assets": {
+    "background": {
+      "source": "designed_gradient"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (12).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-11-16/wed-0830-esg-vendor-audit-gate/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "checklist",
+    "checklist"
+  ],
+  "warnings": []
+}

@@ -1,0 +1,167 @@
+{
+  "title": "stakeholder_trust_audit_thresholds",
+  "pillar": "reputation",
+  "format": "reel",
+  "primary_keyword": "corporate reputation management",
+  "claim": "Industrial stakeholder trust erodes when corporate statements lead plant-level operational reality by more than two quarters.",
+  "hook": "Trust breaks when claims outpace plant ops.",
+  "evidence": {
+    "type": "framework",
+    "detail": "A quarterly audit framework for corporate communications teams comparing published commitments against operational verification thresholds."
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "Trust breaks when claims outpace plant ops.",
+      "voiceover": "Trust breaks when claims outpace plant ops. In heavy industry, reputation is lost in the gap between corporate comms and the shop floor.",
+      "direction": "Dark background with high-contrast text overlay displaying the opening hook."
+    },
+    {
+      "timecode": "0:03-0:08",
+      "onscreen": "Auditors test operations, not promises.",
+      "voiceover": "Regulators, communities, and commercial buyers do not evaluate your brand through press releases. They look at operating logs.",
+      "direction": "Text transition emphasizing the divergence between external claims and operational evidence."
+    },
+    {
+      "timecode": "0:08-0:15",
+      "onscreen": "3 Audit Checks for Industrial Comms",
+      "voiceover": "Before publishing any forward commitment, run this three-point audit against actual plant data.",
+      "direction": "Graphic intro introducing the audit framework card.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Data Trail",
+            "detail": "Requires signed audit trail"
+          },
+          {
+            "label": "Time Gap",
+            "detail": "Max 2 quarters ahead of ops"
+          },
+          {
+            "label": "Plant Sign-off",
+            "detail": "Operations head approves text"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:15-0:22",
+      "onscreen": "Check 1: Require a verified data trail",
+      "voiceover": "First: require a verified data trail. If environmental metrics cannot be pulled from an internal log today, do not release them."
+    },
+    {
+      "timecode": "0:22-0:29",
+      "onscreen": "Check 2: Cap statement lead time",
+      "voiceover": "Second: cap your lead time. Communications should never announce a capability more than two quarters before site execution."
+    },
+    {
+      "timecode": "0:29-0:36",
+      "onscreen": "Check 3: Mandatory plant sign-off",
+      "voiceover": "Third: demand plant-level sign-off. The head of operations must approve the claim, not just legal.",
+      "direction": "Visual breakdown of the approval gate bottleneck.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Draft Release",
+            "detail": "Legal approves text claims"
+          },
+          {
+            "label": "Ops Approval",
+            "detail": "Plant head verifies metrics"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "timecode": "0:36-0:42",
+      "onscreen": "Reputation is operational consistency.",
+      "voiceover": "Reputation is operational consistency made visible. Close the gap before you publish."
+    }
+  ],
+  "reel_cover": {
+    "headline": "Comms claims vs plant reality",
+    "signal": "2-quarter max lead",
+    "layout": "split",
+    "visual": {
+      "kind": "comparison",
+      "items": [
+        {
+          "label": "Corporate Statement",
+          "detail": "Announces forward target"
+        },
+        {
+          "label": "Plant Execution",
+          "detail": "Verifiable operating data"
+        }
+      ],
+      "note": "Suggested check"
+    }
+  },
+  "caption": "Trust breaks when claims outpace plant ops.\n\nEffective corporate reputation management inside industrial companies requires keeping corporate comms anchored to physical operations.\n\nWhen external narratives move faster than plant implementation, regulators and commercial buyers notice the gap long before board members do.\n\nThe cost of closing that gap after an investigation or public query is always higher than delaying the announcement.\n\nGood governance means refusing to publish forward statements that operations cannot demonstrate on a site walk.\n\nSend this to whoever approves corporate releases before plant sign-off.\n\n[corporate reputation management, corporate communications, stakeholder trust, industrial brand]\n\n#corporatecommunications #reputation #publicrelations",
+  "alt_text": "Text graphic showing a three-part corporate communications audit checklist on a dark background.",
+  "hashtags": [
+    "#corporatecommunications",
+    "#reputation",
+    "#publicrelations"
+  ],
+  "cta": "Send this to whoever approves corporate releases before plant sign-off.",
+  "failure_mode": "Could be misread as basic advice on corporate compliance rather than a practical governance gate for industrial comms teams.",
+  "scheduled_for": "2026-11-19T17:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": true,
+    "selected_time": "17:00",
+    "candidates": [
+      "13:00",
+      "17:00"
+    ],
+    "week_index": 1
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "reel",
+    "pillar": "reputation",
+    "hook_words": 7,
+    "hook_characters": 43,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "comparison",
+    "schedule": {
+      "active": true,
+      "selected_time": "17:00",
+      "candidates": [
+        "13:00",
+        "17:00"
+      ],
+      "week_index": 1
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "reel_assets": {
+    "background": {
+      "source": "designed_gradient"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (11).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-11-16/thu-1700-stakeholder-trust-audit-thresholds/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "checklist",
+    "bottleneck"
+  ],
+  "warnings": []
+}

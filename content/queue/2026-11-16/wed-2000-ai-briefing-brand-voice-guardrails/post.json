@@ -1,0 +1,176 @@
+{
+  "title": "ai_briefing_brand_voice_guardrails",
+  "pillar": "ai_in_practice",
+  "format": "carousel",
+  "primary_keyword": "briefing AI on brand voice",
+  "claim": "Generic brand voice guidelines produce bland AI copy because LLMs need operational boundaries, not abstract adjectives.",
+  "hook": "Adjectives do not teach AI your brand voice.",
+  "evidence": {
+    "type": "framework",
+    "detail": "A four-part prompt constraint framework that replaces tone adjectives with explicit syntax rules, structural limits, forbidden terms, and mandatory context."
+  },
+  "slides": [
+    {
+      "headline": "Adjectives do not teach AI your brand voice."
+    },
+    {
+      "kicker": "THE PROMPT ERROR",
+      "headline": "Telling an LLM to sound human yields generic corporate copy.",
+      "body": "Prompts like write in an approachable tone give the model zero boundaries. It defaults to web averages.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Adjective Prompt",
+            "detail": "Be authoritative, warm, and innovative."
+          },
+          {
+            "label": "LLM Output",
+            "detail": "In todays fast-paced world, we deliver..."
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "kicker": "RULE 1: SYNTAX RULES",
+      "headline": "Specify sentence structure instead of tone.",
+      "body": "Define maximum sentence lengths and active voice requirements. Models follow grammar better than mood.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Sentence Limit",
+            "detail": "Maximum 18 words per sentence."
+          },
+          {
+            "label": "Voice Constraint",
+            "detail": "Use active voice; object follows verb directly."
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "RULE 2: EXCLUSIONS",
+      "headline": "List forbidden words and structural tropes.",
+      "body": "Explicitly ban hype words and rhetorical openings. Models improve faster by exclusion than instruction.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Banned Vocabulary",
+            "detail": "Ban unlock, elevate, robust, seamless."
+          },
+          {
+            "label": "Banned Structures",
+            "detail": "No rhetorical question openings."
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "RULE 3: CONTEXT STACKING",
+      "headline": "Feed the model buyer reality, not brand values.",
+      "body": "Include the specific business scenario and reader role. AI cannot infer industrial buying dynamics.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Generic Input",
+            "detail": "Write a post about supply chain risk."
+          },
+          {
+            "label": "Context Input",
+            "detail": "Write for a plant chief facing a 12% delay."
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "kicker": "THE FRAMEWORK",
+      "headline": "The four-part system for briefing AI on brand voice.",
+      "body": "Run prompts through structural rules, negative constraints, buyer context, and mandatory proof objects.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "1. Structure",
+            "detail": "Set hard word limits and sentence rules."
+          },
+          {
+            "label": "2. Exclusion",
+            "detail": "List forbidden words and cliches."
+          },
+          {
+            "label": "3. Context",
+            "detail": "Define the buyer decision and stakes."
+          },
+          {
+            "label": "4. Proof",
+            "detail": "Require concrete facts over claims."
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "kicker": "STEAL THESE RULES",
+      "headline": "Brand voice is an operational filter, not a mood board.",
+      "body": "Stop asking models to sound authentic. Give them clear structural boundaries, strict negative constraints, and verifiable domain context."
+    }
+  ],
+  "caption": "Adjectives do not teach AI your brand voice.\n\nWhen briefing AI on brand voice, typing adjectives like authoritative, human, or visionary into a prompt gets you the exact same corporate fluff everyone else produces.\n\nLarge language models operate on probability, not empathy. Telling a model to sound approachable forces it to draw on millions of generic internet samples. That is how you end up with filler phrasing across your drafts.\n\nIf you want usable draft copy in an enterprise environment, stop writing mood boards and start writing operational specifications.\n\nDefine the maximum words per sentence. Ban specific industry buzzwords. Tell the model what structural tropes it cannot use. Give it the exact buyer role and the operational stakes before asking for a single paragraph.\n\nStructure governs tone far more effectively than adjectives ever will.\n\nSend this to whoever is setting up your team's AI writing guidelines this quarter.\n\n[briefing ai on brand voice, ai content workflow, ai governance, b2b marketing]",
+  "alt_text": "Slide deck showing how to brief AI on brand voice using operational rules instead of adjectives.",
+  "hashtags": [
+    "#aimarketing",
+    "#marketingoperations",
+    "#aigovernance"
+  ],
+  "cta": "Send this to whoever is setting up your team's AI writing guidelines this quarter.",
+  "failure_mode": "If the operational rules feel too abstract, it might read like basic prompt engineering advice rather than a brand governance standard.",
+  "scheduled_for": "2026-11-18T20:00:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "20:00"
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "carousel",
+    "pillar": "ai_in_practice",
+    "hook_words": 8,
+    "hook_characters": 44,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "20:00"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "images": [
+    "content/queue/2026-11-16/wed-2000-ai-briefing-brand-voice-guardrails/slide-01.jpg",
+    "content/queue/2026-11-16/wed-2000-ai-briefing-brand-voice-guardrails/slide-02.jpg",
+    "content/queue/2026-11-16/wed-2000-ai-briefing-brand-voice-guardrails/slide-03.jpg",
+    "content/queue/2026-11-16/wed-2000-ai-briefing-brand-voice-guardrails/slide-04.jpg",
+    "content/queue/2026-11-16/wed-2000-ai-briefing-brand-voice-guardrails/slide-05.jpg",
+    "content/queue/2026-11-16/wed-2000-ai-briefing-brand-voice-guardrails/slide-06.jpg",
+    "content/queue/2026-11-16/wed-2000-ai-briefing-brand-voice-guardrails/slide-07.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "checklist",
+    "checklist",
+    "bottleneck",
+    "checklist"
+  ],
+  "warnings": []
+}
