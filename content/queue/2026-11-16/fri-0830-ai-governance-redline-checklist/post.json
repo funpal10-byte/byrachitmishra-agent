@@ -1,0 +1,159 @@
+{
+  "title": "ai_governance_redline_checklist",
+  "pillar": "ai_marketing",
+  "format": "reel",
+  "primary_keyword": "what AI cannot do in marketing",
+  "claim": "Enterprise AI adoption fails in governed industries because teams deploy tools before defining non-negotiable redlines for regulatory and brand protection.",
+  "hook": "Deploying AI without redlines is a liability.",
+  "evidence": {
+    "type": "framework",
+    "detail": "A 3-part operational boundary test for evaluating LLM deployment in regulated B2B marketing workflows: regulatory claim verification, liability assignment, and technical parameter verification."
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:03",
+      "onscreen": "Deploying AI without redlines is a liability.",
+      "voiceover": "Deploying AI without redlines is a liability. Most B2B marketing teams focus on tool speed, but legal and compliance focus on exposed risk."
+    },
+    {
+      "timecode": "0:03-0:07",
+      "onscreen": "Speed without boundaries creates risk.",
+      "voiceover": "Understanding what AI cannot do in marketing starts with defining hard operational boundaries before software reaches your team."
+    },
+    {
+      "timecode": "0:07-0:12",
+      "onscreen": "Pass condition: Zero auto-published text.",
+      "voiceover": "First, demand explicit evidence. Every factual claim, performance metric, or compliance specification requires mandatory human review before publication.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Fact check gate",
+            "detail": "Require named source for every claim"
+          },
+          {
+            "label": "Human signoff",
+            "detail": "Zero automated publishing to channels"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:12-0:17",
+      "onscreen": "Pass condition: Clear liability ownership.",
+      "voiceover": "Second, assign accountability. If output violates regulatory standards or commercial terms, an internal owner must hold explicit approval signoff.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Legal signoff",
+            "detail": "Named owner for regulatory statements"
+          },
+          {
+            "label": "Audit logging",
+            "detail": "Retain prompts and edits for compliance"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:17-0:22",
+      "onscreen": "Pass condition: Data protection verified.",
+      "voiceover": "Third, verify data isolation. Ensure customer data and proprietary engineering files are never used to train external foundation models.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Model isolation",
+            "detail": "Zero data retention on vendor servers"
+          },
+          {
+            "label": "IP protection",
+            "detail": "Block public LLM scrapers on assets"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:22-0:26",
+      "onscreen": "Governance is an operating framework.",
+      "voiceover": "AI governance is an operating boundary, not a software feature."
+    }
+  ],
+  "reel_cover": {
+    "headline": "AI deployment requires clear bounds",
+    "signal": "3 governance checks",
+    "layout": "stamp",
+    "visual": {
+      "kind": "checklist",
+      "items": [
+        {
+          "label": "Claim audit",
+          "detail": "Named source for specs"
+        },
+        {
+          "label": "Data gate",
+          "detail": "Zero model training on inputs"
+        }
+      ],
+      "note": "Suggested check"
+    }
+  },
+  "caption": "Deploying AI without redlines is a liability.\n\nWhen evaluating what AI cannot do in marketing, large industrial organisations rarely fail due to technology limits. They fail because comms and legal teams argue over output after it reaches executive review.\n\nGenerative tools accelerate text generation, but they do not assume legal liability for unverified claims, regulatory non-compliance, or leaked operational data.\n\nIf your marketing tech stack allows unvalidated technical claims to move directly from an LLM prompt to a customer document, your governance is broken.\n\nTrue integration requires hard boundaries: mandatory source verification, named human accountability for regulatory claims, and strict data isolation guarantees.\n\nGovernance is an operating boundary, not a software feature.\n\nSend this to whoever is setting your marketing technology guardrails this quarter.\n\n[ai in marketing, what ai cannot do in marketing, ai governance, martech stack, enterprise marketing]\n\n#aimarketing #martech #marketingtechnology",
+  "alt_text": "Text listing three enterprise AI governance checks: claim audits, human signoff, and data privacy.",
+  "hashtags": [
+    "#aimarketing",
+    "#martech",
+    "#marketingtechnology"
+  ],
+  "cta": "Send this to whoever is setting your marketing technology guardrails this quarter.",
+  "failure_mode": "It risks reading like generic compliance advice if the checklist items are not applied directly to B2B marketing collateral review.",
+  "scheduled_for": "2026-11-20T08:30:00+05:30",
+  "status": "draft",
+  "content_version": 2,
+  "source": "editorial",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "08:30"
+  },
+  "experiment": {
+    "hook_type": "framework",
+    "evidence_type": "framework",
+    "format": "reel",
+    "pillar": "ai_marketing",
+    "hook_words": 7,
+    "hook_characters": 45,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "checklist",
+    "schedule": {
+      "active": false,
+      "selected_time": "08:30"
+    }
+  },
+  "source_preflight": {
+    "status": "not_required"
+  },
+  "reel_assets": {
+    "background": {
+      "source": "designed_gradient"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (13).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-11-16/fri-0830-ai-governance-redline-checklist/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "checklist",
+    "checklist",
+    "checklist",
+    "checklist"
+  ],
+  "warnings": []
+}
