@@ -1,12 +1,12 @@
 # Metrics
 
-_Fetched 2026-11-08T03:15:00+00:00_
+_Fetched 2026-11-15T03:43:22+00:00_
 
 - Posts measured: **50**
-- Total reach: **589**
-- Mean reach per post: **11.8**
-- Best single post: **42**
-- Total saves: **5**  ·  sends: **2**
+- Total reach: **517**
+- Mean reach per post: **10.3**
+- Best single post: **24**
+- Total saves: **2**  ·  sends: **1**
 
 > **Read this before drawing conclusions.** At this volume and
 > reach, the gap between the best and worst post here is noise,
@@ -18,40 +18,48 @@ _Fetched 2026-11-08T03:15:00+00:00_
 
 ## Most sent and saved
 
-- **1 sends · 2 saves · 26 reach** — A single apology will not save a B2B contract.
 - **1 sends · 0 saves · 10 reach** — Prompts make you faster at being wrong.
+- **0 sends · 1 saves · 24 reach** — A generic statement doubles crisis damage.
 - **0 sends · 1 saves · 9 reach** — Reputation is priced in before they call you.
-- **0 sends · 1 saves · 38 reach** — You lose budget when you defend awareness.
-- **0 sends · 1 saves · 31 reach** — Your board pack fails before slide two.
+- **0 sends · 0 saves · 6 reach** — The deal is signed. Now real risk begins.
+- **0 sends · 0 saves · 8 reach** — Generated copy dies in legal compliance gates.
 
 ## Widest reach
 
-- **42** — Your AI tools do not solve the bottleneck.
-- **38** — You lose budget when you defend awareness.
-- **31** — Your board pack fails before slide two.
-- **26** — A single apology will not save a B2B contract.
+- **24** — A generic statement doubles crisis damage.
+- **22** — Reputation is insurance against vendor risk.
 - **22** — Why pay more for identical steel?
+- **20** — 90% of AI risk sits in your vendor contract.
+- **17** — Holding back bad news costs B2B trust.
 
 ## Every post
 
 | Posted | Type | Reach | Saves | Sends | Avg watch time | Hook |
 |---|---|---:|---:|---:|---:|---|
-| 2026-11-07 | FEED | 3 | 0 | 0 | 0 | You lose budget when you defend awareness. |
-| 2026-11-06 | FEED | 3 | 0 | 0 | 0 | AI copy breaks at facts, not tone. |
-| 2026-11-06 | REELS | 6 | 0 | 0 | 1281 | AI visibility starts with readable evidence. |
-| 2026-11-05 | REELS | 20 | 0 | 0 | 2119 | Reputation is insurance against vendor risk. |
-| 2026-11-04 | FEED | 5 | 0 | 0 | 0 | Adjectives ruin your AI prompts. |
-| 2026-11-04 | REELS | 7 | 0 | 0 | 2705 | Your supply chain is ruining your ESG trust. |
-| 2026-11-03 | REELS | 7 | 0 | 0 | 708 | Faster drafting creates a slower approval queue. |
-| 2026-11-02 | FEED | 4 | 0 | 0 | 0 | Fluent writing is not evidence of a true claim. |
-| 2026-11-01 | FEED | 12 | 0 | 0 | 0 | Publishing got free. Attention got expensive. |
-| 2026-10-31 | FEED | 4 | 0 | 0 | 0 | Your marketing budget gets cut on activities. |
-| 2026-10-30 | FEED | 7 | 0 | 0 | 0 | A careers page cannot fix a broken reputation. |
+| 2026-11-13 | FEED | 6 | 0 | 0 | 0 | The deal is signed. Now real risk begins. |
+| 2026-11-13 | REELS | 8 | 0 | 0 | 2530 | Generated copy dies in legal compliance gates. |
+| 2026-11-12 | REELS | 24 | 1 | 0 | 2324 | A generic statement doubles crisis damage. |
+| 2026-11-11 | FEED | 6 | 0 | 0 | 0 | AI copy passes grammar but fails governance. |
+| 2026-11-11 | REELS | 10 | 0 | 0 | 1912 | Your reputation is decided in procurement. |
+| 2026-11-10 | REELS | 7 | 0 | 0 | 1458 | ChatGPT does not care about your blog. |
+| 2026-11-09 | FEED | 9 | 0 | 0 | 0 | A 90-day plan is an expensive activity log. |
+| 2026-11-08 | FEED | 5 | 0 | 0 | 0 | Reach metrics stop decisions. |
+| 2026-11-07 | FEED | 5 | 0 | 0 | 0 | You lose budget when you defend awareness. |
+| 2026-11-06 | FEED | 7 | 0 | 0 | 0 | AI copy breaks at facts, not tone. |
+| 2026-11-06 | REELS | 9 | 0 | 0 | 1412 | AI visibility starts with readable evidence. |
+| 2026-11-05 | REELS | 22 | 0 | 0 | 2031 | Reputation is insurance against vendor risk. |
+| 2026-11-04 | FEED | 8 | 0 | 0 | 0 | Adjectives ruin your AI prompts. |
+| 2026-11-04 | REELS | 8 | 0 | 0 | 2525 | Your supply chain is ruining your ESG trust. |
+| 2026-11-03 | REELS | 8 | 0 | 0 | 775 | Faster drafting creates a slower approval queue. |
+| 2026-11-02 | FEED | 8 | 0 | 0 | 0 | Fluent writing is not evidence of a true claim. |
+| 2026-11-01 | FEED | 14 | 0 | 0 | 0 | Publishing got free. Attention got expensive. |
+| 2026-10-31 | FEED | 6 | 0 | 0 | 0 | Your marketing budget gets cut on activities. |
+| 2026-10-30 | FEED | 9 | 0 | 0 | 0 | A careers page cannot fix a broken reputation. |
 | 2026-10-30 | REELS | 20 | 0 | 0 | 2608 | 90% of AI risk sits in your vendor contract. |
-| 2026-10-29 | REELS | 16 | 0 | 0 | 1510 | Holding back bad news costs B2B trust. |
-| 2026-10-28 | FEED | 7 | 0 | 0 | 0 | AI copy fails at signoff, not generation. |
+| 2026-10-29 | REELS | 17 | 0 | 0 | 1659 | Holding back bad news costs B2B trust. |
+| 2026-10-28 | FEED | 8 | 0 | 0 | 0 | AI copy fails at signoff, not generation. |
 | 2026-10-28 | REELS | 16 | 0 | 0 | 2668 | ESG claims fail without trade-offs. |
-| 2026-10-27 | REELS | 11 | 0 | 0 | 3223 | AI search ignores your ad copy. |
+| 2026-10-27 | REELS | 12 | 0 | 0 | 3220 | AI search ignores your ad copy. |
 | 2026-10-26 | FEED | 8 | 0 | 0 | 0 | Ninety-five percent of buyers are not shopping. |
 | 2026-10-25 | FEED | 9 | 0 | 0 | 0 | Personalization has a hard ceiling. |
 | 2026-10-24 | FEED | 11 | 0 | 0 | 0 | Why the sales team is right to cut your budget |
@@ -78,14 +86,6 @@ _Fetched 2026-11-08T03:15:00+00:00_
 | 2026-10-09 | REELS | 11 | 0 | 0 | 2465 | AI search does not read your marketing copy. |
 | 2026-10-08 | REELS | 9 | 1 | 0 | 3005 | Reputation is priced in before they call you. |
 | 2026-10-07 | FEED | 8 | 0 | 0 | 0 | AI governance is failing your marketing team. |
-| 2026-10-07 | REELS | 11 | 0 | 0 | 1826 | Reputation dies in procurement. |
-| 2026-10-06 | REELS | 10 | 0 | 0 | 1648 | Buy the tool. Argue later. |
-| 2026-10-05 | FEED | 9 | 0 | 0 | 0 | A commodity has no features to sell. |
-| 2026-10-05 | REELS | 9 | 0 | 0 | 5309 | Buyers do not pay more for better messaging. |
-| 2026-09-27 | FEED | 26 | 2 | 1 | 0 | A single apology will not save a B2B contract. |
-| 2026-09-26 | FEED | 38 | 1 | 0 | 0 | You lose budget when you defend awareness. |
-| 2026-09-25 | FEED | 31 | 1 | 0 | 0 | Your board pack fails before slide two. |
-| 2026-09-25 | REELS | 42 | 0 | 0 | 2989 | Your AI tools do not solve the bottleneck. |
 
 # Timing experiments
 

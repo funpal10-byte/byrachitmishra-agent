@@ -1,6 +1,195 @@
 {
-  "fetched_at": "2026-11-08T03:15:00+00:00",
+  "fetched_at": "2026-11-15T03:43:22+00:00",
   "posts": [
+    {
+      "id": "18091910147275708",
+      "posted": "2026-11-13T16:10:11+0000",
+      "hook": "The deal is signed. Now real risk begins.",
+      "experiment": {
+        "hook_type": "claim",
+        "evidence_type": "source",
+        "format": "carousel",
+        "pillar": "ai_in_practice",
+        "hook_words": 8,
+        "hook_characters": 41,
+        "visual_treatment": "carousel",
+        "cover_visual": "",
+        "schedule": {
+          "active": false,
+          "selected_time": "19:00"
+        }
+      },
+      "reach": 6,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
+    },
+    {
+      "id": "18377636482246342",
+      "posted": "2026-11-13T07:50:15+0000",
+      "hook": "Generated copy dies in legal compliance gates.",
+      "experiment": {
+        "hook_type": "claim",
+        "evidence_type": "practitioner_observation",
+        "format": "reel",
+        "pillar": "ai_marketing",
+        "hook_words": 7,
+        "hook_characters": 46,
+        "visual_treatment": "visual_explainer",
+        "cover_visual": "bottleneck",
+        "schedule": {
+          "active": false,
+          "selected_time": "08:30"
+        }
+      },
+      "reach": 8,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 2530
+    },
+    {
+      "id": "18425061703155326",
+      "posted": "2026-11-12T10:55:24+0000",
+      "hook": "A generic statement doubles crisis damage.",
+      "experiment": {
+        "hook_type": "framework",
+        "evidence_type": "framework",
+        "format": "reel",
+        "pillar": "reputation",
+        "hook_words": 6,
+        "hook_characters": 42,
+        "visual_treatment": "visual_explainer",
+        "cover_visual": "comparison",
+        "schedule": {
+          "active": true,
+          "selected_time": "13:00",
+          "candidates": [
+            "13:00",
+            "17:00"
+          ],
+          "week_index": 0
+        }
+      },
+      "reach": 24,
+      "saved": 1,
+      "shares": 0,
+      "avg_watch_time": 2324
+    },
+    {
+      "id": "18120559121079250",
+      "posted": "2026-11-11T21:21:27+0000",
+      "hook": "AI copy passes grammar but fails governance.",
+      "experiment": {
+        "hook_type": "framework",
+        "evidence_type": "framework",
+        "format": "carousel",
+        "pillar": "ai_in_practice",
+        "hook_words": 7,
+        "hook_characters": 44,
+        "visual_treatment": "carousel",
+        "cover_visual": "",
+        "schedule": {
+          "active": false,
+          "selected_time": "20:00"
+        }
+      },
+      "reach": 6,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
+    },
+    {
+      "id": "18119639050800103",
+      "posted": "2026-11-11T05:58:37+0000",
+      "hook": "Your reputation is decided in procurement.",
+      "experiment": {
+        "hook_type": "claim",
+        "evidence_type": "practitioner_observation",
+        "format": "reel",
+        "pillar": "reputation",
+        "hook_words": 6,
+        "hook_characters": 42,
+        "visual_treatment": "visual_explainer",
+        "cover_visual": "bottleneck",
+        "schedule": {
+          "active": false,
+          "selected_time": "08:30"
+        }
+      },
+      "reach": 10,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 1912
+    },
+    {
+      "id": "17887370688691000",
+      "posted": "2026-11-10T17:41:44+0000",
+      "hook": "ChatGPT does not care about your blog.",
+      "experiment": {
+        "hook_type": "framework",
+        "evidence_type": "framework",
+        "format": "reel",
+        "pillar": "ai_marketing",
+        "hook_words": 7,
+        "hook_characters": 38,
+        "visual_treatment": "visual_explainer",
+        "cover_visual": "comparison",
+        "schedule": {
+          "active": false,
+          "selected_time": "19:00"
+        }
+      },
+      "reach": 7,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 1458
+    },
+    {
+      "id": "18116381864014133",
+      "posted": "2026-11-09T17:23:36+0000",
+      "hook": "A 90-day plan is an expensive activity log.",
+      "experiment": {
+        "hook_type": "cost",
+        "evidence_type": "source",
+        "format": "carousel",
+        "pillar": "b2b_brand",
+        "hook_words": 8,
+        "hook_characters": 43,
+        "visual_treatment": "carousel",
+        "cover_visual": "",
+        "schedule": {
+          "active": false,
+          "selected_time": "19:00"
+        }
+      },
+      "reach": 9,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
+    },
+    {
+      "id": "18437313625194746",
+      "posted": "2026-11-08T07:13:02+0000",
+      "hook": "Reach metrics stop decisions.",
+      "experiment": {
+        "hook_type": "claim",
+        "evidence_type": "source",
+        "format": "carousel",
+        "pillar": "inside_the_org",
+        "hook_words": 4,
+        "hook_characters": 29,
+        "visual_treatment": "carousel",
+        "cover_visual": "",
+        "schedule": {
+          "active": false,
+          "selected_time": "10:30"
+        }
+      },
+      "reach": 5,
+      "saved": 0,
+      "shares": 0,
+      "avg_watch_time": 0
+    },
     {
       "id": "18122290864943301",
       "posted": "2026-11-07T09:56:37+0000",
@@ -19,7 +208,7 @@
           "selected_time": "10:30"
         }
       },
-      "reach": 3,
+      "reach": 5,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
@@ -42,7 +231,7 @@
           "selected_time": "19:00"
         }
       },
-      "reach": 3,
+      "reach": 7,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
@@ -65,10 +254,10 @@
           "selected_time": "08:30"
         }
       },
-      "reach": 6,
+      "reach": 9,
       "saved": 0,
       "shares": 0,
-      "avg_watch_time": 1281
+      "avg_watch_time": 1412
     },
     {
       "id": "18287097469290443",
@@ -93,10 +282,10 @@
           "week_index": 1
         }
       },
-      "reach": 20,
+      "reach": 22,
       "saved": 0,
       "shares": 0,
-      "avg_watch_time": 2119
+      "avg_watch_time": 2031
     },
     {
       "id": "18106213286575306",
@@ -116,7 +305,7 @@
           "selected_time": "20:00"
         }
       },
-      "reach": 5,
+      "reach": 8,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
@@ -139,10 +328,10 @@
           "selected_time": "08:30"
         }
       },
-      "reach": 7,
+      "reach": 8,
       "saved": 0,
       "shares": 0,
-      "avg_watch_time": 2705
+      "avg_watch_time": 2525
     },
     {
       "id": "18077476376468649",
@@ -162,10 +351,10 @@
           "selected_time": "19:00"
         }
       },
-      "reach": 7,
+      "reach": 8,
       "saved": 0,
       "shares": 0,
-      "avg_watch_time": 708
+      "avg_watch_time": 775
     },
     {
       "id": "18032484251855207",
@@ -185,7 +374,7 @@
           "selected_time": "19:00"
         }
       },
-      "reach": 4,
+      "reach": 8,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
@@ -208,7 +397,7 @@
           "selected_time": "10:30"
         }
       },
-      "reach": 12,
+      "reach": 14,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
@@ -231,7 +420,7 @@
           "selected_time": "10:30"
         }
       },
-      "reach": 4,
+      "reach": 6,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
@@ -254,7 +443,7 @@
           "selected_time": "19:00"
         }
       },
-      "reach": 7,
+      "reach": 9,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
@@ -305,10 +494,10 @@
           "week_index": 0
         }
       },
-      "reach": 16,
+      "reach": 17,
       "saved": 0,
       "shares": 0,
-      "avg_watch_time": 1510
+      "avg_watch_time": 1659
     },
     {
       "id": "17911923354309801",
@@ -328,7 +517,7 @@
           "selected_time": "20:00"
         }
       },
-      "reach": 7,
+      "reach": 8,
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
@@ -374,10 +563,10 @@
           "selected_time": "19:00"
         }
       },
-      "reach": 11,
+      "reach": 12,
       "saved": 0,
       "shares": 0,
-      "avg_watch_time": 3223
+      "avg_watch_time": 3220
     },
     {
       "id": "17894801010440079",
@@ -991,190 +1180,6 @@
       "saved": 0,
       "shares": 0,
       "avg_watch_time": 0
-    },
-    {
-      "id": "18117461206978816",
-      "posted": "2026-10-07T07:09:42+0000",
-      "hook": "Reputation dies in procurement.",
-      "experiment": {
-        "hook_type": "claim",
-        "evidence_type": "practitioner_observation",
-        "format": "reel",
-        "pillar": "reputation",
-        "hook_words": 4,
-        "hook_characters": 31,
-        "visual_treatment": "visual_explainer",
-        "cover_visual": "checklist",
-        "schedule": {
-          "active": false,
-          "selected_time": "08:30"
-        }
-      },
-      "reach": 11,
-      "saved": 0,
-      "shares": 0,
-      "avg_watch_time": 1826
-    },
-    {
-      "id": "17933633124144111",
-      "posted": "2026-10-06T15:02:52+0000",
-      "hook": "Buy the tool. Argue later.",
-      "experiment": {
-        "hook_type": "claim",
-        "evidence_type": "practitioner_observation",
-        "format": "reel",
-        "pillar": "ai_marketing",
-        "hook_words": 5,
-        "hook_characters": 26,
-        "visual_treatment": "visual_explainer",
-        "cover_visual": "comparison",
-        "schedule": {
-          "active": false,
-          "selected_time": "19:00"
-        }
-      },
-      "reach": 10,
-      "saved": 0,
-      "shares": 0,
-      "avg_watch_time": 1648
-    },
-    {
-      "id": "17874354783636829",
-      "posted": "2026-10-05T18:20:24+0000",
-      "hook": "A commodity has no features to sell.",
-      "experiment": {
-        "hook_type": "claim",
-        "evidence_type": "practitioner_observation",
-        "format": "carousel",
-        "pillar": "b2b_brand",
-        "hook_words": 7,
-        "hook_characters": 36,
-        "visual_treatment": "carousel",
-        "cover_visual": "",
-        "schedule": {
-          "active": false,
-          "selected_time": "19:00"
-        }
-      },
-      "reach": 9,
-      "saved": 0,
-      "shares": 0,
-      "avg_watch_time": 0
-    },
-    {
-      "id": "18032044616906390",
-      "posted": "2026-10-05T08:52:46+0000",
-      "hook": "Buyers do not pay more for better messaging.",
-      "experiment": {
-        "hook_type": "cost",
-        "evidence_type": "practitioner_observation",
-        "format": "reel",
-        "pillar": "b2b_brand",
-        "hook_words": 8,
-        "hook_characters": 44,
-        "visual_treatment": "visual_explainer",
-        "cover_visual": "comparison",
-        "schedule": {
-          "active": false,
-          "selected_time": "08:30"
-        }
-      },
-      "reach": 9,
-      "saved": 0,
-      "shares": 0,
-      "avg_watch_time": 5309
-    },
-    {
-      "id": "17969308026174525",
-      "posted": "2026-09-27T08:02:14+0000",
-      "hook": "A single apology will not save a B2B contract.",
-      "experiment": {
-        "hook_type": "distinction",
-        "evidence_type": "source",
-        "format": "carousel",
-        "pillar": "inside_the_org",
-        "hook_words": 9,
-        "hook_characters": 46,
-        "visual_treatment": "carousel",
-        "cover_visual": "",
-        "schedule": {
-          "active": false,
-          "selected_time": "10:30"
-        }
-      },
-      "reach": 26,
-      "saved": 2,
-      "shares": 1,
-      "avg_watch_time": 0
-    },
-    {
-      "id": "17893370301428625",
-      "posted": "2026-09-26T07:33:43+0000",
-      "hook": "You lose budget when you defend awareness.",
-      "experiment": {
-        "hook_type": "cost",
-        "evidence_type": "practitioner_observation",
-        "format": "carousel",
-        "pillar": "inside_the_org",
-        "hook_words": 7,
-        "hook_characters": 42,
-        "visual_treatment": "carousel",
-        "cover_visual": "",
-        "schedule": {
-          "active": false,
-          "selected_time": "10:30"
-        }
-      },
-      "reach": 38,
-      "saved": 1,
-      "shares": 0,
-      "avg_watch_time": 0
-    },
-    {
-      "id": "18167591872461217",
-      "posted": "2026-09-25T13:39:42+0000",
-      "hook": "Your board pack fails before slide two.",
-      "experiment": {
-        "hook_type": "correction",
-        "evidence_type": "source",
-        "format": "carousel",
-        "pillar": "ai_in_practice",
-        "hook_words": 7,
-        "hook_characters": 38,
-        "visual_treatment": "carousel",
-        "cover_visual": "",
-        "schedule": {
-          "active": false,
-          "selected_time": "19:00"
-        }
-      },
-      "reach": 31,
-      "saved": 1,
-      "shares": 0,
-      "avg_watch_time": 0
-    },
-    {
-      "id": "18112085633329679",
-      "posted": "2026-09-25T07:40:43+0000",
-      "hook": "Your AI tools do not solve the bottleneck.",
-      "experiment": {
-        "hook_type": "distinction",
-        "evidence_type": "practitioner_observation",
-        "format": "reel",
-        "pillar": "ai_marketing",
-        "hook_words": 8,
-        "hook_characters": 42,
-        "visual_treatment": "visual_explainer",
-        "cover_visual": "bottleneck",
-        "schedule": {
-          "active": false,
-          "selected_time": "08:30"
-        }
-      },
-      "reach": 42,
-      "saved": 0,
-      "shares": 0,
-      "avg_watch_time": 2989
     }
   ]
 }
