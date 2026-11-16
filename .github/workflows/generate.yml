@@ -11,6 +11,11 @@ on:
         description: "Recovery only: Monday to generate (YYYY-MM-DD). Leave blank for next week."
         required: false
         type: string
+      draft_review:
+        description: "Keep the PR in draft while the generated posts receive an editorial review."
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -97,10 +102,19 @@ jobs:
           echo "::error::The batch remained incomplete after 3 attempts."
           exit 1
 
+      - name: Preserve batch for review and recovery
+        if: always() && steps.batch.outcome != 'skipped'
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-batch-${{ github.run_id }}
+          path: content/queue/
+          retention-days: 7
+
       - name: Open review pull request
         if: success() && steps.batch.outputs.count != '' && steps.batch.outputs.count != '0'
         uses: peter-evans/create-pull-request@v6
         with:
+          draft: ${{ inputs.draft_review || false }}
           branch: draft/week-${{ steps.batch.outputs.week }}
           commit-message: "Draft: week of ${{ steps.batch.outputs.week }}"
           title: "📅 Week of ${{ steps.batch.outputs.week }} — ${{ steps.batch.outputs.count }} posts ready"
