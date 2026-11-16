@@ -6,8 +6,8 @@ consecutive covers, seen together in a profile grid, must read as one account.
 
 ## The frames
 
-**Frame 1 — cover.** A claim, four to seven words, no subject named. No time
-promise ("in 5 minutes"), no topic label, no question. It states the stakes.
+**Frame 1 — cover.** A claim or specific question, four to seven words, naming
+a recognisable situation and its tension. No unsupported time promise or topic label.
 Nothing else on the frame competes with it.
 
 **Frames 2 to 6 — value frames.** Three at minimum, five at most. Each one:
@@ -61,9 +61,8 @@ reader now have that they did not have before?**
 
 A checklist. A set of questions. A threshold. A decision tree. A sequence.
 
-If the honest answer is "a point of view", the deck is not finished. Points
-of view belong in Reels. Carousels are where things people keep live, and
-saves and sends are the whole reason this format is on the calendar.
+If the honest answer is "a point of view", the deck is not finished. Reels
+also need a visible practical tool; neither format can stop at opinion.
 
 ## Copy rules specific to this format
 

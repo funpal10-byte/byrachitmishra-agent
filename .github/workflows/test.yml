@@ -5,6 +5,7 @@ on:
     paths:
       - "agent/**"
       - "brand/**"
+      - "brand.yml"
       - "prompts/**"
       - "tests/**"
       - "requirements.txt"
@@ -13,6 +14,7 @@ on:
     paths:
       - "agent/**"
       - "brand/**"
+      - "brand.yml"
       - "prompts/**"
       - "tests/**"
       - "requirements.txt"

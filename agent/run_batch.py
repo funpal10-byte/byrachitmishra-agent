@@ -1,4 +1,4 @@
-"""Weekly batch: research once, write five posts, render the images, and lay
+"""Weekly batch: plan ten blog sources, write ten posts, render the images, and lay
 everything out so it can be reviewed on a phone and posted with a copy-paste.
 
 Run by .github/workflows/generate.yml every Sunday morning IST.
@@ -13,7 +13,7 @@ import re
 import sys
 from pathlib import Path
 
-from . import blog_pool, config, experiments, generate, render, research, sources, video
+from . import blog_pool, config, editorial, experiments, generate, render, sources, video
 from .schema import check_voice, validate
 
 DAY_INDEX = {"mon": 0, "tue": 1, "wed": 2, "thu": 3, "fri": 4, "sat": 5, "sun": 6}
@@ -49,14 +49,7 @@ def next_week_dates(brand, today: dt.date) -> dict[str, dt.date]:
 
 def recent_titles(limit: int = 25) -> list[str]:
     """So the agent stops re-writing the same post every third week."""
-    titles: list[str] = []
-    for base in (config.PUBLISHED_DIR, config.APPROVED_DIR, config.QUEUE_DIR):
-        for f in sorted(base.rglob("post.json"), reverse=True):
-            try:
-                titles.append(json.loads(f.read_text(encoding="utf-8")).get("title", ""))
-            except Exception:
-                continue
-    return [t for t in titles if t][:limit]
+    return [p["title"] for p in editorial.history() if p.get("title")][:limit]
 
 
 def write_readable(post: dict, folder: Path, images: list[Path], problems: list[str]) -> None:
@@ -72,6 +65,10 @@ def write_readable(post: dict, folder: Path, images: list[Path], problems: list[
     if post.get("claim"):
         a(f">")
         a(f"> Claim: {post['claim']}")
+    if post.get("useful_takeaway"):
+        payoff = post["useful_takeaway"]
+        a(f"> Useful takeaway ({payoff['kind']}): " + " / ".join(payoff['visible_steps']))
+        a("> Editorial review: passed novelty, visible payoff and source-fidelity checks")
     evidence = post.get("evidence") or {}
     if isinstance(evidence, dict) and evidence.get("detail"):
         a(f">")
@@ -195,27 +192,17 @@ def main() -> int:
     today = dt.datetime.now(brand.timezone).date()
     dates = next_week_dates(brand, today)
 
-    print(f"[research] gathering signals for week of {dates['mon']}")
-    try:
-        brief = research.weekly_brief(brand)
-    except Exception as exc:  # research is a nice-to-have, not a blocker
-        print(f"[research] failed, falling back to evergreen: {exc}", file=sys.stderr)
-        brief = ""
-
     batch_dir = config.QUEUE_DIR / f"{dates['mon']:%Y-%m-%d}"
     batch_dir.mkdir(parents=True, exist_ok=True)
-    if brief:
-        (batch_dir / "SIGNALS.md").write_text(
-            f"# Signal brief — week of {dates['mon']}\n\n{brief}\n", encoding="utf-8"
-        )
-
     seen = recent_titles()
+    memory = editorial.history()
+    automated_slots = [s for s in brand.slots if pillars.get(s["pillar"]) and pillars[s["pillar"]].automate]
     try:
-        articles = blog_pool.unused_articles()
-        print(f"[blog] {len(articles)} unused articles available for weekly blog slots")
+        plan = blog_pool.week_plan(batch_dir, automated_slots, pillars, memory)
+        print(f"[blog] {len(plan)} distinct full blog articles planned; retries reuse SOURCE_PLAN.json")
     except Exception as exc:
-        articles = []
-        print(f"[blog] feed unavailable; using evergreen for reserved slots: {exc}")
+        print(f"[blog] Cannot build a source-backed week: {exc}", file=sys.stderr)
+        return 1
     summary: list[str] = []
     failures: list[str] = []
     reel_count = 0      # rotates music/background so two Reels differ
@@ -239,13 +226,14 @@ def main() -> int:
             old = json.loads(existing[0].read_text(encoding="utf-8"))
             summary.append(f"- **{when}** — [{old.get('title')}]({existing[0].parent.name}/POST.md)")
             continue
-        article = articles[0] if slot.get("source") == "blog" and articles else None
-        slot_brief = blog_pool.article_brief(article) if article else brief
+        article = plan[f"{slot['day']}-{slot['time']}"]
+        slot_brief = blog_pool.article_brief(article)
         print(f"[write] {pillar.name} · {slot['format']} · {when}")
 
         try:
             post = generate.generate_post(
-                brand, system_prompt, pillar, slot["format"], when, slot_brief, seen
+                brand, system_prompt, pillar, slot["format"], when, slot_brief, seen,
+                editorial_history=memory, source_article=article,
             )
         except Exception as exc:
             failures.append(f"{pillar.name}: {type(exc).__name__}: {exc}")
@@ -259,14 +247,10 @@ def main() -> int:
         )
         post["scheduled_for"] = scheduled.isoformat()
         post["status"] = "draft"
-        post["content_version"] = 2
-        post["source"] = "blog" if article else "editorial"
-        if article:
-            post["source_url"] = article["link"]
-            post["evidence"] = {"type": "source", "source_url": article["link"],
-                                "detail": post["evidence"]["detail"]}
-        elif slot.get("source") == "blog":
-            post["blog_fallback"] = "No unused full article available; evergreen replacement"
+        post["content_version"] = 3
+        post["source"] = "blog"
+        post["source_url"] = article["link"]
+        post["source_title"] = article["title"]
         post["schedule_experiment"] = schedule_experiment
         post["experiment"] = experiments.post_metadata(post, schedule_experiment)
         post["source_preflight"] = sources.preflight(post.get("evidence") or {})
@@ -310,12 +294,14 @@ def main() -> int:
             continue
         post["rendered_visuals"] = experiments.visual_manifest(post)
         problems = validate(post) + check_voice(post, brand.voice.get("banned_phrases", []))
+        if problems:
+            failures.append(f"{folder.name}: final quality check failed: {'; '.join(problems)}")
+            continue
         post["warnings"] = problems
 
         (folder / "post.json").write_text(json.dumps(post, indent=2, ensure_ascii=False), encoding="utf-8")
         write_readable(post, folder, images, problems)
-        if article:
-            articles.pop(0)
+        memory.append(editorial.snapshot(post))
 
         flag = " ⚠️" if problems else ""
         summary.append(

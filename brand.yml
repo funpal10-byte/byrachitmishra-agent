@@ -283,14 +283,14 @@ voice:
 schedule:
   timezone: Asia/Kolkata
   slots:
-    - { day: mon, time: "08:30", pillar: b2b_brand,      format: reel }
-    - { day: tue, time: "19:00", pillar: ai_marketing,   format: reel }
-    - { day: wed, time: "20:00", pillar: ai_in_practice, format: carousel }
-    - { day: thu, time: "13:00", time_candidates: ["13:00", "17:00"], pillar: reputation, format: reel }
-    - { day: sat, time: "10:30", pillar: inside_the_org, format: carousel }
+    - { day: mon, time: "08:30", pillar: b2b_brand,      format: reel, source: blog }
+    - { day: tue, time: "19:00", pillar: ai_marketing,   format: reel, source: blog }
+    - { day: wed, time: "20:00", pillar: ai_in_practice, format: carousel, source: blog }
+    - { day: thu, time: "13:00", time_candidates: ["13:00", "17:00"], pillar: reputation, format: reel, source: blog }
+    - { day: sat, time: "10:30", pillar: inside_the_org, format: carousel, source: blog }
     - { day: mon, time: "19:00", pillar: b2b_brand, format: carousel, source: blog }
-    - { day: wed, time: "08:30", pillar: reputation, format: reel }
-    - { day: fri, time: "08:30", pillar: ai_marketing, format: reel }
+    - { day: wed, time: "08:30", pillar: reputation, format: reel, source: blog }
+    - { day: fri, time: "08:30", pillar: ai_marketing, format: reel, source: blog }
     - { day: fri, time: "19:00", pillar: ai_in_practice, format: carousel, source: blog }
     - { day: sun, time: "10:30", pillar: inside_the_org, format: carousel, source: blog }
   weekly_target: 10

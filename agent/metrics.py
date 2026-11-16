@@ -249,55 +249,25 @@ def summarise(data: dict) -> str:
 
 
 def brief_context(max_examples: int = 5) -> str:
-    """A block the generator can paste into its prompt. Empty when there is
-    not enough data to say anything true — an empty string is much better
-    than a confident lie about what is working."""
+    """Report evidence limits without feeding old winning hooks back as templates."""
     if not JSON_PATH.exists():
         return ""
     try:
-        data = json.loads(JSON_PATH.read_text(encoding="utf-8"))
-    except json.JSONDecodeError:
+        rows = json.loads(JSON_PATH.read_text(encoding="utf-8")).get("posts", [])
+    except (ValueError, OSError):
         return ""
-
-    rows = data.get("posts", [])
     if len(rows) < MIN_POSTS_FOR_SIGNAL:
         return ""
-
-    engaged = [r for r in rows if (r.get("shares") or 0) or (r.get("saved") or 0)]
-    if not engaged:
-        return (
-            "PERFORMANCE SO FAR: nothing published has been saved or sent by "
-            "anyone. Do not interpret this as a topic problem — the account is "
-            "reaching a test audience only. Keep writing for the reader you "
-            "want, not for the algorithm."
-        )
-
-    engaged.sort(key=lambda r: (r.get("shares") or 0) + (r.get("saved") or 0),
-                 reverse=True)
-    top = engaged[:max_examples]
-    lines = [
-        "PERFORMANCE SO FAR — the posts people actually saved or sent on. "
-        "Sends and saves matter; likes do not. Note what these have in common "
-        "and do more of it, without repeating the posts themselves:",
-    ]
-    for r in top:
-        experiment = r.get("experiment")
-        experiment = experiment if isinstance(experiment, dict) else {}
-        pattern = ", ".join(
-            f"{name}={experiment[name]}"
-            for name in ("hook_type", "evidence_type", "format", "pillar")
-            if experiment.get(name)
-        )
-        lines.append(
-            f"  - [{r.get('shares', 0)} sends, {r.get('saved', 0)} saves] "
-            f"{r['hook']}" + (f" ({pattern})" if pattern else "")
-        )
-    dead = [r for r in rows if not (r.get("shares") or 0) and not (r.get("saved") or 0)]
-    if dead:
-        lines.append(
-            f"  ({len(dead)} of {len(rows)} posts got neither a save nor a send.)"
-        )
-    return "\n".join(lines)
+    reach = sum(r.get("reach") or 0 for r in rows)
+    saves = sum(r.get("saved") or 0 for r in rows)
+    sends = sum(r.get("shares") or 0 for r in rows)
+    return (
+        f"PERFORMANCE CONTEXT: {len(rows)} posts, {reach} total reach, "
+        f"{saves} saves, {sends} sends. These totals do not establish a winning "
+        "topic or causal effect. Do not copy previous hooks or interpret one "
+        "save as a proven formula. Prioritise new source-backed tools and "
+        "distinct reader decisions; measure their results over time."
+    )
 
 
 def main() -> int:

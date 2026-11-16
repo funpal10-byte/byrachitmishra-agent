@@ -38,6 +38,13 @@ POST_SCHEMA: dict = {
         "failure_mode",
     ],
     "properties": {
+        "useful_takeaway": {
+            "type": "object", "required": ["kind", "visible_steps"],
+            "properties": {
+                "kind": {"type": "string", "enum": ["prompt", "template", "checklist", "worked_example", "decision_test"]},
+                "visible_steps": {"type": "array", "minItems": 2, "maxItems": 5, "items": {"type": "string"}},
+            },
+        },
         "title": {
             "type": "string",
             "description": "Short internal label for this post. Used as the folder name. Lowercase, no punctuation.",
@@ -212,6 +219,9 @@ def validate(post: dict, require_visuals: bool = True) -> list[str]:
     borderline post is visible rather than silently shipped.
     """
     problems: list[str] = []
+    if post.get("content_version", 0) >= 3:
+        from .editorial import payoff_problems
+        problems.extend(payoff_problems(post))
 
     def too_long(label: str, text: str, limit: int) -> None:
         if text and len(text) > limit:

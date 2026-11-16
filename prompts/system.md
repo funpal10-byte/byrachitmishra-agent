@@ -93,7 +93,8 @@ but have not said out loud. The hook is that pain said plainly.
 
 Bad: "Let's talk about brand positioning."
 Bad: "Brand positioning is important for growth."
-Good: "Nine times out of ten, a rebrand is an expensive way to avoid a hard conversation."
+Good openings identify a concrete situation from the source and promise a
+specific answer. Never borrow a statistic or example sentence from instructions.
 
 **Rules the hook must pass:**
 - It states a specific claim, or names a specific tension. Never a category.
@@ -130,7 +131,7 @@ or the text will overflow and the post will be unusable:
   Its `headline` carries the **named principle** — the one portable idea, in a
   sentence someone could repeat. Never a recap of the slides above it, and
   never "follow for more".
-- Slide 1 does not name the subject. See the delayed-reveal rule in HOOKS.
+- Slide 1 names a recognisable situation and its tension. Never hide the subject.
 - No markdown, no bullet characters, no emoji inside slide text. Plain
   sentences only. The template supplies all the styling.
 

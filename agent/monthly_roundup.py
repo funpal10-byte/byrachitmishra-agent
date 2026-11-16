@@ -147,7 +147,7 @@ def main():
             raise ValueError("The existing agent model API key is required")
         post = generate.generate_post(brand, config.load_system_prompt(brand), brand.pillars["inside_the_org"],
                                       "carousel", when.isoformat(), source_brief(articles, start), recent_titles())
-    post.update(status="preview" if args.preview else "draft", content_version=2,
+    post.update(status="preview" if args.preview else "draft", content_version=2 if args.preview else 3,
                 scheduled_for=when.isoformat(), source="newsletter", newsletter_month=month,
                 newsletter_name=NAME, newsletter_article_count=len(articles))
     post["experiment"] = experiments.post_metadata(post, {})

@@ -6,7 +6,7 @@ import json
 import re
 from pathlib import Path
 
-from . import llm
+from . import editorial, llm
 from .schema import POST_SCHEMA, check_voice, validate
 
 # Both of these are additive and both fail soft. A missing hook library or an
@@ -70,9 +70,8 @@ Suggested hashtags for this pillar (you may swap up to two for something more
 specific to this post, but never exceed five total):
   {hashtags}
 
-THIS WEEK'S SIGNAL BRIEF — use it if something here genuinely fits this pillar.
-If nothing fits, write an evergreen post instead rather than forcing a
-connection. A forced news hook is worse than no news hook.
+ASSIGNED SOURCE BRIEF — derive the topic and useful tool from this material.
+Do not substitute a generic evergreen opinion or force a pillar connection.
 
 {brief}
 
@@ -105,13 +104,27 @@ The hook sharpens that SAME tension; beat two begins its explanation, and
 the rest provides a concrete check the reader can use. Do not reveal a
 different subject after the viewer taps. Carousel slide one and slide two
 must follow the same promise-to-payoff relationship.
-Example: cover "Same steel. Higher price."; hook "Why pay more for identical
-steel?"; beat two explains how delivery reliability reduces buyer risk.
-Use this structure only where the post actually supports it.
+Do not copy example hooks from any instruction or reuse a recent premise.
 The short `signal` supports the SAME promise. Never invent a precise number
 for a thumbnail, even if another generated field repeats it. A number needs
 evidence from the supplied source; otherwise use a plain-language contrast.
 Choose `layout` from `signal`, `split`, or `stamp` to fit the visual.
+
+BLOG-FIRST EDITORIAL CONTRACT (takes precedence over illustrative examples):
+The supplied article determines the topic. Pillar keywords are suggestions,
+not a reason to turn every article into procurement, compliance or budget advice.
+Select a concrete tool, decision, example or disagreement from the source.
+Put the useful part on screen early; do not spend most panels explaining why
+the topic matters. Preserve specific steps and caveats from the article.
+Supply `useful_takeaway`: `kind` (prompt/template/checklist/worked_example/
+decision_test), and `visible_steps` (2-5 exact text snippets copied from the
+rendered slide/beat text or visual items). These must collectively let someone
+DO something: a prompt they can copy, fields they can fill, a test with a pass
+condition, or an example that demonstrates a decision. Generic advice fails.
+Reels have music, NOT spoken narration. All necessary explanation and the
+takeaway must be in onscreen/visual fields; voiceover and direction are not seen.
+Use only source-supported numbers. Never turn a percentage of respondents into
+a performance improvement. Do not invent experience to make a hook interesting.
 """
 
 
@@ -168,12 +181,15 @@ def generate_post(
     when: str,
     brief: str,
     recent_titles: list[str],
+    editorial_history: list[dict] | None = None,
+    source_article: dict | None = None,
 ) -> dict:
     # What actually happened to what we published. Returns an empty string
     # until there are enough measured posts to say something true, so early
     # runs are unchanged — feeding the model noise and calling it insight is
     # worse than telling it nothing.
     performance = brief_context()
+    previous = editorial.history() if editorial_history is None else editorial_history
     full_brief = brief or "(no brief available this week — write evergreen)"
     if ideas := idea_context():
         full_brief = f"{ideas}\n\n{full_brief}"
@@ -188,7 +204,7 @@ def generate_post(
         long_tail="; ".join(pillar.long_tail),
         hashtags=" ".join(pillar.hashtags),
         brief=full_brief,
-        recent="\n".join(f"- {t}" for t in recent_titles) or "(nothing yet)",
+        recent=json.dumps(previous, ensure_ascii=False) if previous else "\n".join(recent_titles),
         schema=json.dumps(POST_SCHEMA, indent=2),
     )
 
@@ -205,6 +221,14 @@ def generate_post(
         if grammar:
             system_prompt = f"{system_prompt}\n\n---\n\n{grammar}"
 
+    system_prompt += (
+        "\n\nEditorial priority: the assigned source controls the topic. Pillars and "
+        "brand examples guide tone, not the argument. Never copy an example hook. "
+        "Every post must deliver a distinct, concrete tool in visible text, with "
+        "useful_takeaway.visible_steps copied from that text. Reels have music "
+        "but no spoken voiceover. Preserve the source's meaning and caveats. "
+        "Do not replace the source with generic evergreen advice."
+    )
     messages = [{"role": "user", "content": user}]
     post: dict = {}
 
@@ -216,9 +240,30 @@ def generate_post(
         post = _extract_json(raw)
         post["pillar"] = pillar.id
         post["format"] = fmt
+        post["content_version"] = 3
         post = _normalise_generated_opening(post)
 
         problems = validate(post) + check_voice(post, brand.voice.get("banned_phrases", []))
+        problems += editorial.duplicate_problems(post, previous)
+        if source_article:
+            evidence = post.get("evidence") or {}
+            if evidence.get("type") != "source" or evidence.get("source_url", "").rstrip("/") != source_article["link"].rstrip("/"):
+                problems.append("Evidence must cite the assigned blog URL with type=source")
+        if not problems:
+            review = editorial.review_result(llm.generate(
+                system=editorial.REVIEW_SYSTEM,
+                messages=[{"role": "user", "content": json.dumps({
+                    "source": full_brief,
+                    "recent_posts": previous,
+                    "hook": post.get("hook"), "claim": post.get("claim"),
+                    "cover": post.get("reel_cover"), "caption": post.get("caption"),
+                    "visible_panels": editorial.visible_panels(post),
+                    "useful_takeaway": post.get("useful_takeaway"),
+                }, ensure_ascii=False)}], max_tokens=1800))
+            if not review["approved"]:
+                problems.extend(review["issues"])
+            else:
+                post["editorial_review"] = review
         if not problems:
             break
 
@@ -229,7 +274,7 @@ def generate_post(
             )
 
         messages += [
-            {"role": "assistant", "content": raw},
+            {"role": "assistant", "content": json.dumps(post, ensure_ascii=False)},
             {
                 "role": "user",
                 "content": (

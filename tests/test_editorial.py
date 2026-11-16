@@ -14,7 +14,7 @@ class EditorialContractTests(unittest.TestCase):
         self.assertEqual(brand.design["accent"], "#006A4E")
         self.assertTrue(all(s["pillar"] in brand.pillars for s in brand.slots))
         self.assertEqual(len(brand.slots), 10)
-        self.assertEqual(sum(s.get("source") == "blog" for s in brand.slots), 3)
+        self.assertEqual(sum(s.get("source") == "blog" for s in brand.slots), 10)
         self.assertEqual(len({(s['day'], s['time']) for s in brand.slots}), 10)
 
     def test_comparison_rejects_extra_items_and_missing_basis(self):
