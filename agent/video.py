@@ -15,6 +15,7 @@ Requires ffmpeg, which is preinstalled on GitHub's Ubuntu runners.
 from __future__ import annotations
 
 import os
+import math
 import re
 import shutil
 import subprocess
@@ -61,8 +62,17 @@ def _seconds(timecode: str) -> float | None:
     return end - start if end > start else None
 
 
-def beat_durations(beats: list[dict]) -> list[float]:
+def beat_durations(beats: list[dict], *, readable: bool = False) -> list[float]:
     """Prefer the script's own timings, fall back to reading speed."""
+    if readable:
+        from .editorial import visible_panels
+        panels = visible_panels({'format': 'reel', 'reel_script': beats})
+        durations = [math.ceil(max(MIN_BEAT, _seconds(b.get('timecode', '')) or 0,
+                         1.2 + len(panel.split()) / 2.6))
+                     for b, panel in zip(beats, panels)]
+        if sum(durations) > TARGET_MAX_SECONDS:
+            raise VideoError('Visible Reel copy needs more than 88 seconds; shorten or split the content')
+        return durations
     out: list[float] = []
     for b in beats:
         d = _seconds(b.get("timecode", ""))
@@ -301,7 +311,8 @@ def render_cards(post: dict, brand, out_dir: Path, bg: Path | None) -> list[Path
                 text=text,
                 visual=beat.get("visual"),
                 size=_fit_size(text),
-                kicker=(pillar.name if pillar and i == 0 else ""),
+                kicker=((post.get('primary_keyword') if post.get('source') == 'blog'
+                         else pillar.name if pillar else '') if i == 0 else ''),
                 bg_image=assets.data_uri(bg),
                 logo=logo_uri,
                 pct=round((i + 1) / len(beats) * 100),
@@ -441,11 +452,18 @@ def build_reel(post: dict, brand, folder: Path, index: int = 0) -> Path | None:
     work = folder / ".frames"
     work.mkdir(parents=True, exist_ok=True)
     try:
+        durations = beat_durations(beats, readable=post.get('content_version', 0) >= 3)
+        if post.get('content_version', 0) >= 3:
+            elapsed = 0
+            for beat, duration in zip(beats, durations):
+                end = elapsed + int(duration)
+                beat['timecode'] = f'{elapsed // 60}:{elapsed % 60:02d}-{end // 60}:{end % 60:02d}'
+                elapsed = end
         bg = choose_background(post, brand, work, index)
         cards = render_cards(post, brand, work, bg)
         if not cards:
             return None
-        durations = beat_durations(beats)[: len(cards)]
+        durations = durations[:len(cards)]
 
         # A track you supplied beats one Lyria generates, because a consistent
         # bed across Reels is worth more than novelty in each one.

@@ -89,7 +89,8 @@ def render_carousel(post: dict, brand, out_dir: Path, index: int = 0) -> list[Pa
                 headline=slide.get("headline", ""),
                 body=slide.get("body", ""),
                 visual=slide.get("visual"),
-                pillar=pillar_name.name if pillar_name else "",
+                pillar=(post.get('primary_keyword', '') if post.get('source') == 'blog'
+                        else pillar_name.name if pillar_name else ''),
                 index=i + 1,
                 total=len(slides),
                 bg_image=(assets.data_uri(hook_bg) if i == 0 else ""),

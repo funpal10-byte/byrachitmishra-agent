@@ -3,10 +3,21 @@ import types
 import unittest
 from unittest.mock import Mock, patch
 
-from agent import llm
+from agent import llm, video
 
 
 class RecoveryTests(unittest.TestCase):
+    def test_visible_infographic_gets_reading_time(self):
+        beats = [{'timecode':'0:00-0:03', 'onscreen':'Use this checklist',
+                  'visual': {'items':[{'label':'Read', 'detail':'word ' * 25}]}}]
+        self.assertGreater(video.beat_durations(beats, readable=True)[0], 10)
+        self.assertEqual(video.beat_durations(beats), [3.0])
+
+    def test_dense_reel_is_not_sped_up_to_hide_excess_copy(self):
+        beats = [{'onscreen':'word ' * 30}] * 10
+        with self.assertRaisesRegex(video.VideoError, 'shorten or split'):
+            video.beat_durations(beats, readable=True)
+
     def test_truncated_text_is_not_accepted_as_complete_json(self):
         response = types.SimpleNamespace(text='{"partial":', candidates=[
             types.SimpleNamespace(finish_reason='MAX_TOKENS')])
