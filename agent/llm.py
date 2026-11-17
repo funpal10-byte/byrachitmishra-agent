@@ -191,7 +191,7 @@ def _gemini_generate(
 
     problems: list[str] = []
 
-    for model in _gemini_candidates(client)[:3]:
+    for model in _gemini_candidates(client):
         quota_hit = False
         for label, conf in variants:
             for attempt in range(2):
@@ -203,8 +203,9 @@ def _gemini_generate(
                         config=types.GenerateContentConfig(**conf),
                     )
                     return _gemini_text(resp)
-                except LLMError:
-                    raise
+                except LLMError as exc:
+                    problems.append(f"{model} [{label}]: {exc}")
+                    break
                 except Exception as exc:
                     code = _status_code(exc)
                     if code == 429:
@@ -226,6 +227,9 @@ def _gemini_generate(
 
 def _gemini_text(resp) -> str:
     """Pull the text out, and explain clearly when there isn't any."""
+    if any("MAX_TOKENS" in str(getattr(c, "finish_reason", "")).upper()
+           for c in getattr(resp, "candidates", None) or []):
+        raise LLMError("Gemini truncated its response at the output token limit")
     if getattr(resp, "text", None):
         return resp.text
 

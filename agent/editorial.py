@@ -102,6 +102,10 @@ same meaning, denominator and caveats. A share of respondents is not a percentag
 improvement. Do not invent evidence or personal experience. Source assertions
 without verifiable support should be omitted or clearly attributed and qualified.
 5. No unsupported absolutes or inflated fear. The hook, cover and payoff connect.
+Do not convert a possible risk into a guaranteed outcome. Check elementary
+arithmetic independently; being printed in a source does not make a calculation
+correct. Distinguish percentage points from percent and hypothetical examples
+from measured outcomes. Reject off-topic SEO keywords and hashtags.
 6. No forced procurement/compliance/budget angle when the article is about something
 else. No topic labels disguised as hooks. Copy is complete and readable.
 Do not reward a draft for merely satisfying JSON or length requirements.

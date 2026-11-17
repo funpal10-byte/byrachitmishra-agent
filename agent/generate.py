@@ -197,12 +197,12 @@ def generate_post(
         full_brief = f"{full_brief}\n\n{performance}"
 
     user = USER_TEMPLATE.format(
-        pillar_name=pillar.name,
+        pillar_name=(f"Blog adaptation: {source_article['title']}" if source_article else pillar.name),
         fmt=fmt,
         when=when,
-        keywords=", ".join(pillar.keywords),
-        long_tail="; ".join(pillar.long_tail),
-        hashtags=" ".join(pillar.hashtags),
+        keywords=("Choose a natural phrase from the assigned article's actual subject" if source_article else ", ".join(pillar.keywords)),
+        long_tail=("Derive from the source; the calendar pillar does not determine the topic" if source_article else "; ".join(pillar.long_tail)),
+        hashtags=("Choose three hashtags that describe this article; do not force AI or industry tags" if source_article else " ".join(pillar.hashtags)),
         brief=full_brief,
         recent=json.dumps(previous, ensure_ascii=False) if previous else "\n".join(recent_titles),
         schema=json.dumps(POST_SCHEMA, indent=2),

@@ -16,8 +16,13 @@ on:
         required: false
         type: boolean
         default: false
+      recovery_run_id:
+        description: "Resume saved queue artifacts from a failed generation run."
+        required: false
+        type: string
 
 permissions:
+  actions: read
   contents: write
   pull-requests: write
 
@@ -67,6 +72,15 @@ jobs:
         run: |
           python -m compileall -q agent tests
           python -m unittest discover -s tests -v
+
+      - name: Restore incomplete batch
+        if: inputs.recovery_run_id != ''
+        uses: actions/download-artifact@v4
+        with:
+          name: weekly-batch-${{ inputs.recovery_run_id }}
+          path: content/queue/
+          run-id: ${{ inputs.recovery_run_id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate batch
         id: batch
