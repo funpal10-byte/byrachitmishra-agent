@@ -311,7 +311,7 @@ def render_cards(post: dict, brand, out_dir: Path, bg: Path | None) -> list[Path
                 text=text,
                 visual=beat.get("visual"),
                 size=_fit_size(text),
-                kicker=((post.get('primary_keyword') if post.get('source') == 'blog'
+                kicker=((post.get('primary_keyword') if post.get('source') in {'blog', 'recent_development'}
                          else pillar.name if pillar else '') if i == 0 else ''),
                 bg_image=assets.data_uri(bg),
                 logo=logo_uri,

@@ -32,7 +32,7 @@ def _anthropic_generate(
 ) -> str:
     import anthropic
 
-    client = anthropic.Anthropic(api_key=config.ANTHROPIC_API_KEY)
+    client = anthropic.Anthropic(api_key=config.ANTHROPIC_API_KEY, timeout=120, max_retries=1)
     kwargs: dict = {
         "model": config.model_name(),
         "max_tokens": max_tokens,
@@ -65,6 +65,8 @@ _GEMINI_PREFERENCE = (
 )
 
 _gemini_candidates_cache: list[str] | None = None
+_working_variant: dict[bool, tuple[str, str]] = {}
+_cooldown_until: dict[str, float] = {}
 
 # Free-tier quotas are per-minute as well as per-day, and a batch fires five
 # posts back to back. A small gap between calls is the difference between a
@@ -151,7 +153,8 @@ def _gemini_generate(
     from google.genai import types
 
     client = genai.Client(api_key=config.GOOGLE_API_KEY,
-                          http_options=types.HttpOptions(timeout=120_000))
+                          http_options=types.HttpOptions(timeout=120_000,
+                              retry_options=types.HttpRetryOptions(attempts=1)))
 
     contents = [
         types.Content(
@@ -192,23 +195,43 @@ def _gemini_generate(
 
     problems: list[str] = []
 
-    for model in _gemini_candidates(client):
+    candidates = list(_gemini_candidates(client))
+    working = _working_variant.get(bool(web_search))
+    if working and working[0] in candidates:
+        candidates.remove(working[0])
+        candidates.insert(0, working[0])
+    deadline = time.monotonic() + 480
+    for model in candidates:
+        if _cooldown_until.get(model, 0) > time.monotonic():
+            problems.append(f"{model}: cooling down after quota/service failure")
+            continue
         quota_hit = False
-        for label, conf in variants:
+        choices = list(variants)
+        if model.startswith('gemini-3'):
+            choices = [v for v in choices if v[0] != 'thinking off']
+        if working and working[0] == model:
+            choices.sort(key=lambda v: v[0] != working[1])
+        for label, conf in choices:
             for attempt in range(2):
+                if time.monotonic() >= deadline:
+                    raise LLMError("Gemini request exhausted its eight-minute recovery budget")
                 try:
                     _pace()
+                    print(f"[llm] requesting {model} [{label}]", flush=True)
                     resp = client.models.generate_content(
                         model=model,
                         contents=contents,
                         config=types.GenerateContentConfig(**conf),
                     )
-                    return _gemini_text(resp)
+                    text = _gemini_text(resp)
+                    _working_variant[bool(web_search)] = (model, label)
+                    return text
                 except LLMError as exc:
                     problems.append(f"{model} [{label}]: {exc}")
                     break
                 except Exception as exc:
                     code = _status_code(exc)
+                    print(f"[llm] {model}: {type(exc).__name__} status={code}", flush=True)
                     if code == 429:
                         if attempt == 0:
                             print(f"[llm] {model}: rate limited, waiting 30s")
@@ -217,6 +240,11 @@ def _gemini_generate(
                         # Out of quota on this model — a different config
                         # won't help, so move on to the next model.
                         quota_hit = True
+                        _cooldown_until[model] = time.monotonic() + 900
+                    elif code in (403, 404, 500, 503) or code is None:
+                        # A new output format cannot fix an outage or timeout.
+                        quota_hit = True
+                        _cooldown_until[model] = time.monotonic() + 300
                     problems.append(f"{model} [{label}]: {str(exc)[:160]}")
                     break
             if quota_hit:

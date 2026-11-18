@@ -248,7 +248,9 @@ def main() -> int:
         post["scheduled_for"] = scheduled.isoformat()
         post["status"] = "draft"
         post["content_version"] = 3
-        post["source"] = "blog"
+        post["source"] = article.get("source", "blog")
+        if article.get('research_angle'):
+            post['research_angle'] = article['research_angle']
         post["source_url"] = article["link"]
         post["source_title"] = article["title"]
         post["schedule_experiment"] = schedule_experiment

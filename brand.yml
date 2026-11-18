@@ -340,6 +340,20 @@ music:
 #  consumer marketing news, which produced consumer marketing posts.
 # ---------------------------------------------------------------------------
 research:
+  # Public publisher feeds; collection does not use Instagram login or scrape private pages.
+  feeds:
+    - https://www.marketingdive.com/feeds/news/
+    - https://blog.google/rss/
+    - https://about.fb.com/news/feed/
+  relevance_terms:
+    - brand
+    - marketing
+    - advertising
+    - campaign
+    - reputation
+    - measurement
+    - enterprise
+    - India
   max_searches: 8
   queries:
     - "B2B industrial marketing news this week"

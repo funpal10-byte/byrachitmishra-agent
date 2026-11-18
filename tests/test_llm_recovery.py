@@ -7,6 +7,10 @@ from agent import llm, video
 
 
 class RecoveryTests(unittest.TestCase):
+    def setUp(self):
+        llm._working_variant.clear()
+        llm._cooldown_until.clear()
+
     def test_visible_infographic_gets_reading_time(self):
         beats = [{'timecode':'0:00-0:03', 'onscreen':'Use this checklist',
                   'visual': {'items':[{'label':'Read', 'detail':'word ' * 25}]}}]
@@ -35,7 +39,7 @@ class RecoveryTests(unittest.TestCase):
         client.models.generate_content.side_effect = respond
         fake_types = types.SimpleNamespace(**{
             name: (lambda **kwargs: kwargs)
-            for name in ('Content', 'Part', 'ThinkingConfig', 'GenerateContentConfig', 'HttpOptions')})
+            for name in ('Content', 'Part', 'ThinkingConfig', 'GenerateContentConfig', 'HttpOptions', 'HttpRetryOptions')})
         genai = types.ModuleType('google.genai')
         genai.Client = Mock(return_value=client)
         genai.types = fake_types
@@ -46,6 +50,10 @@ class RecoveryTests(unittest.TestCase):
              patch.object(llm, '_gemini_candidates', return_value=['first','second','third','fourth']), \
              patch.object(llm, '_pace'), patch.object(llm.time, 'sleep'):
             result = llm._gemini_generate('system', [{'role':'user','content':'draft'}], 100)
+            calls = client.models.generate_content.call_count
+            llm._gemini_generate('system', [{'role':'user','content':'next draft'}], 100)
+            self.assertEqual(client.models.generate_content.call_count, calls + 1)
         self.assertEqual(result, '{"ok":true}')
         self.assertEqual(genai.Client.call_args.kwargs['http_options']['timeout'], 120_000)
+        self.assertEqual(genai.Client.call_args.kwargs['http_options']['retry_options']['attempts'], 1)
         self.assertEqual(client.models.generate_content.call_args.kwargs['model'], 'fourth')

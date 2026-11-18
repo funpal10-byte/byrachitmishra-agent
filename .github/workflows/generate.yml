@@ -1,10 +1,10 @@
 name: Draft the week
 
-# Sundays at 06:00 IST (00:30 UTC). Also runnable on demand from the Actions
-# tab, which is how you should test it the first time.
+# Start Saturday at 06:00 IST, retry unfinished work at 12:00/18:00 and Sunday.
+# A complete review PR or approved week is skipped without spending model quota.
 on:
   schedule:
-    - cron: "30 0 * * 0"
+    - cron: "30 0,6,12 * * 0,6"
   workflow_dispatch:
     inputs:
       week_start:
@@ -26,16 +26,51 @@ permissions:
   contents: write
   pull-requests: write
 
-# A duplicate manual dispatch can spend a full extra batch of model quota and
-# race to open the same review branch. Keep the newest request; it has the
-# same resumable queue and is therefore the safest one to continue.
+# Do not cancel work already generating. Queued runs inspect the saved result.
 concurrency:
   group: weekly-content-draft
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
-  draft:
+  prepare:
     runs-on: ubuntu-latest
+    outputs:
+      week: ${{ steps.target.outputs.week }}
+      needed: ${{ steps.target.outputs.needed }}
+    steps:
+      - uses: actions/github-script@v7
+        id: target
+        env:
+          REQUESTED_WEEK: ${{ inputs.week_start }}
+        with:
+          script: |
+            const now = new Date(Date.now() + 330 * 60000);
+            let week = process.env.REQUESTED_WEEK;
+            if (!week) {
+              now.setUTCDate(now.getUTCDate() + ((8 - now.getUTCDay()) % 7 || 7));
+              week = now.toISOString().slice(0,10);
+            }
+            if (!/^\d{4}-\d{2}-\d{2}$/.test(week) || new Date(week+'T00:00:00Z').getUTCDay() !== 1)
+              throw new Error('week_start must be a Monday YYYY-MM-DD');
+            core.setOutput('week', week);
+            const tree = await github.rest.git.getTree({...context.repo, tree_sha:'main', recursive:'true'});
+            if (tree.data.truncated) throw new Error('Cannot verify complete content tree');
+            const complete = tree.data.tree.filter(p =>
+              (p.path.startsWith(`content/approved/${week}/`) || p.path.startsWith(`content/published/${week}/`))
+              && p.path.endsWith('/post.json')).length;
+            const prs = await github.rest.pulls.list({...context.repo, state:'all', head:`${context.repo.owner}:draft/week-${week}`});
+            const review = prs.data.find(p => p.state === 'open');
+            if (complete === 10 || review) {
+              core.notice(`Week ${week} already approved or awaiting review; no duplicate generation.`);
+              core.setOutput('needed', 'false');
+            } else if (prs.data.some(p => p.state === 'closed' && !p.merged_at)) {
+              throw new Error('This batch was rejected. Reopen its PR before regenerating it.');
+            } else core.setOutput('needed', 'true');
+  draft:
+    needs: prepare
+    if: needs.prepare.outputs.needed == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 65
     steps:
       - uses: actions/checkout@v4
 
@@ -73,6 +108,14 @@ jobs:
           python -m compileall -q agent tests
           python -m unittest discover -s tests -v
 
+      - name: Resume latest automatic checkpoint
+        uses: actions/cache/restore@v4
+        with:
+          path: content/queue/${{ needs.prepare.outputs.week }}/
+          key: weekly-v2-${{ needs.prepare.outputs.week }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            weekly-v2-${{ needs.prepare.outputs.week }}-
+
       - name: Restore incomplete batch
         if: inputs.recovery_run_id != ''
         uses: actions/download-artifact@v4
@@ -104,7 +147,7 @@ jobs:
           SLIDE_PHOTO_HOOK: ${{ vars.SLIDE_PHOTO_HOOK }}
           # A manual recovery can fill the week that a scheduled run missed,
           # instead of calculating the following Monday.
-          BATCH_WEEK_START: ${{ inputs.week_start }}
+          BATCH_WEEK_START: ${{ needs.prepare.outputs.week }}
         run: |
           # run_batch writes completed slots before it exits. A retry therefore
           # resumes only the failed slot instead of spending a second batch's
@@ -116,6 +159,13 @@ jobs:
           done
           echo "::error::The batch remained incomplete after 3 attempts."
           exit 1
+
+      - name: Save completed slots for the next scheduled attempt
+        if: always() && steps.batch.outcome != 'skipped'
+        uses: actions/cache/save@v4
+        with:
+          path: content/queue/${{ needs.prepare.outputs.week }}/
+          key: weekly-v2-${{ needs.prepare.outputs.week }}-${{ github.run_id }}-${{ github.run_attempt }}
 
       - name: Preserve batch for review and recovery
         if: always() && steps.batch.outcome != 'skipped'

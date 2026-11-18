@@ -197,7 +197,7 @@ def generate_post(
         full_brief = f"{full_brief}\n\n{performance}"
 
     user = USER_TEMPLATE.format(
-        pillar_name=(f"Blog adaptation: {source_article['title']}" if source_article else pillar.name),
+        pillar_name=(f"Source adaptation: {source_article['title']}" if source_article else pillar.name),
         fmt=fmt,
         when=when,
         keywords=("Choose a natural phrase from the assigned article's actual subject" if source_article else ", ".join(pillar.keywords)),
@@ -237,7 +237,16 @@ def generate_post(
     # warnings are too easy to merge and then become auto-approved content.
     for attempt in range(3):
         raw = llm.generate(system=system_prompt, messages=messages, max_tokens=6000)
-        post = _extract_json(raw)
+        try:
+            post = _extract_json(raw)
+            if not isinstance(post, dict):
+                raise ValueError('Expected a JSON object')
+        except (ValueError, TypeError) as exc:
+            if attempt == 2:
+                raise ValueError('Model returned invalid JSON after two corrections') from exc
+            messages += [{'role': 'assistant', 'content': raw},
+                         {'role': 'user', 'content': 'Return a complete valid JSON object matching the schema. Your last response could not be parsed.'}]
+            continue
         post["pillar"] = pillar.id
         post["format"] = fmt
         post["content_version"] = 3
