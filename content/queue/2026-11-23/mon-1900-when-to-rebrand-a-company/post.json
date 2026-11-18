@@ -1,0 +1,234 @@
+{
+  "title": "when_to_rebrand_a_company",
+  "pillar": "b2b_brand",
+  "format": "carousel",
+  "primary_keyword": "rebrand or refresh",
+  "claim": "Distinguish a structural reason to rename from an identity refresh, then audit the recognition cues buyers use.",
+  "hook": "New logo. Why change the name?",
+  "evidence": {
+    "type": "source",
+    "detail": "The article separates four structural rename triggers from aesthetic fatigue and proposes a distinctive-asset audit.",
+    "source_url": "https://www.rachitmishra.in/2026/08/29/when-to-rebrand-a-company/"
+  },
+  "useful_takeaway": {
+    "kind": "decision_test",
+    "visible_steps": [
+      "Name the constraint a refresh cannot fix",
+      "Record what buyers recognise today",
+      "List which names actually need changing",
+      "Assign owner and budget for reintroduction"
+    ]
+  },
+  "slides": [
+    {
+      "headline": "New logo. Why change the name?"
+    },
+    {
+      "headline": "Separate the two decisions before the pitch.",
+      "body": "A tired visual identity does not automatically require a new company name.",
+      "kicker": "01 / THE DISTINCTION",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Refresh",
+            "detail": "Keep the name; update visual expression"
+          },
+          {
+            "label": "Rename",
+            "detail": "Change the identity buyers remember"
+          }
+        ],
+        "note": "Practical checklist"
+      }
+    },
+    {
+      "headline": "Write the trigger without the word modern.",
+      "body": "What becomes possible after the name changes that is impossible today?",
+      "kicker": "02 / THE TRIGGER",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Structural reason",
+            "detail": "Name no longer describes the business"
+          },
+          {
+            "label": "Preference",
+            "detail": "The leadership team wants a new look"
+          }
+        ],
+        "note": "Practical checklist"
+      }
+    },
+    {
+      "headline": "Check for a constraint a refresh cannot fix.",
+      "body": "Legal rights, a merger or lasting name damage may justify a rename. Write down the specific constraint.",
+      "kicker": "03 / THE TEST",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Legal",
+            "detail": "Do we still have rights to the name?"
+          },
+          {
+            "label": "Structure",
+            "detail": "Are two identities competing?"
+          },
+          {
+            "label": "Business scope",
+            "detail": "Does the name block buyer consideration?"
+          }
+        ],
+        "note": "Practical checklist"
+      }
+    },
+    {
+      "headline": "Ask buyers what they use to recognise you.",
+      "body": "Audit the name, colour, packaging and product cues before discarding them.",
+      "kicker": "04 / THE ASSET",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Buyer question",
+            "detail": "What tells you this product is ours?"
+          },
+          {
+            "label": "Record",
+            "detail": "Name the cue before showing the new design"
+          }
+        ],
+        "note": "Practical checklist"
+      }
+    },
+    {
+      "headline": "Separate parent-company and product names.",
+      "body": "The article uses Eternal and Zomato to show that the corporate name and customer-facing name can differ.",
+      "kicker": "05 / THE SCOPE",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Parent company",
+            "detail": "Identity can reflect the group portfolio"
+          },
+          {
+            "label": "Customer-facing name",
+            "detail": "Recognisable product name can remain"
+          }
+        ],
+        "note": "Example discussed in the source article"
+      }
+    },
+    {
+      "headline": "Put four answers on the approval sheet.",
+      "body": "If the trigger is only boredom, test a refresh before proposing a rename.",
+      "kicker": "06 / USE THIS",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Trigger",
+            "detail": "Name the constraint a refresh cannot fix"
+          },
+          {
+            "label": "Buyer cue",
+            "detail": "Record what buyers recognise today"
+          },
+          {
+            "label": "Scope",
+            "detail": "List which names actually need changing"
+          },
+          {
+            "label": "Transition",
+            "detail": "Assign owner and budget for reintroduction"
+          }
+        ],
+        "note": "Practical checklist"
+      }
+    },
+    {
+      "headline": "Change the constraint. Preserve useful recognition.",
+      "body": "Send this to the person writing your next rebrand brief. Full decision checklist on the blog."
+    }
+  ],
+  "caption": "New logo. Why change the name?\n\nA rebrand or refresh starts with a scope decision. A parent-company rename need not erase a familiar product name.\n\nAsk the sponsor to finish this sentence: our current name prevents us from ___. If the answer is only that it feels dated, test a visual refresh first.\n\nFull checklist: https://www.rachitmishra.in/2026/08/29/when-to-rebrand-a-company/\n\nSend this to whoever is writing the rebrand brief.\n\n[rebrand or refresh, brand identity, brand architecture]",
+  "alt_text": "A rebrand-versus-refresh decision checklist with structural triggers and buyer recognition cues.",
+  "hashtags": [
+    "#brandstrategy",
+    "#brandidentity",
+    "#brandarchitecture"
+  ],
+  "cta": "Send this to whoever is arguing for a new logo this quarter.",
+  "failure_mode": "Readers might confuse a corporate rename with a minor logo update and miss the structural distinction.",
+  "sources": [
+    {
+      "title": "When to Rebrand a Company: The Case for Not Doing It",
+      "url": "https://www.rachitmishra.in/2026/08/29/when-to-rebrand-a-company/"
+    }
+  ],
+  "content_version": 3,
+  "editorial_review": {
+    "approved": true,
+    "issues": [],
+    "reviewer": "Codex editorial review",
+    "reviewed_on": "2026-11-18",
+    "scope": "Source fidelity, novelty against 90-day history, hook-to-payoff connection, visible utility, rendered slides and Reel frames."
+  },
+  "scheduled_for": "2026-11-23T19:00:00+05:30",
+  "status": "draft",
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2026/08/29/when-to-rebrand-a-company/",
+  "source_title": "When to Rebrand a Company: The Case for Not Doing It",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "19:00"
+  },
+  "experiment": {
+    "hook_type": "claim",
+    "evidence_type": "source",
+    "format": "carousel",
+    "pillar": "b2b_brand",
+    "hook_words": 6,
+    "hook_characters": 30,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "19:00"
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2026/08/29/when-to-rebrand-a-company/",
+    "final_url": "https://www.rachitmishra.in/2026/08/29/when-to-rebrand-a-company/",
+    "http_status": 200
+  },
+  "images": [
+    "content/queue/2026-11-23/mon-1900-when-to-rebrand-a-company/slide-01.jpg",
+    "content/queue/2026-11-23/mon-1900-when-to-rebrand-a-company/slide-02.jpg",
+    "content/queue/2026-11-23/mon-1900-when-to-rebrand-a-company/slide-03.jpg",
+    "content/queue/2026-11-23/mon-1900-when-to-rebrand-a-company/slide-04.jpg",
+    "content/queue/2026-11-23/mon-1900-when-to-rebrand-a-company/slide-05.jpg",
+    "content/queue/2026-11-23/mon-1900-when-to-rebrand-a-company/slide-06.jpg",
+    "content/queue/2026-11-23/mon-1900-when-to-rebrand-a-company/slide-07.jpg",
+    "content/queue/2026-11-23/mon-1900-when-to-rebrand-a-company/slide-08.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "comparison",
+    "checklist",
+    "checklist",
+    "comparison",
+    "checklist"
+  ],
+  "warnings": [],
+  "generation_provenance": {
+    "method": "Gemini draft, rewritten during Codex editorial review",
+    "initial_run_id": 43885030408,
+    "recovery_run_id": 44053357731,
+    "note": "The initial run completed five posts; the recovery run timed out. This final batch was completed and reviewed editorially."
+  }
+}
