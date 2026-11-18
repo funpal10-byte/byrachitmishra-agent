@@ -128,6 +128,33 @@ class ContentPipelineTests(unittest.TestCase):
         self.assertTrue(result['editorial_review']['approved'])
         self.assertEqual(call.call_count, 3)
 
+    def test_source_attribution_preserves_caption_and_normalises_tag_prefix(self):
+        post = {'caption':'Hook\n\nKeep the full first paragraph.', 'hashtags':['branding','#strategy']}
+        source = {'link':'https://example.com/article/'}
+        generate._normalise_attribution(post, source)
+        self.assertTrue(post['caption'].startswith('Hook\n\nKeep the full first paragraph.'))
+        self.assertEqual(post['hashtags'], ['#branding','#strategy'])
+        generate._normalise_attribution(post, source)
+        self.assertEqual(post['caption'].count(source['link']), 1)
+
+    def test_takeaway_repair_selects_existing_text_without_changing_panels(self):
+        post = useful_post()
+        original = copy.deepcopy(post['reel_script'])
+        post['useful_takeaway']['visible_steps'] = ['A paraphrase not actually shown', 'Another invented transcription']
+        with patch.object(generate.llm, 'generate', return_value='{"indices":[1,2]}'):
+            generate._repair_takeaway_quotes(post)
+        self.assertEqual(post['reel_script'], original)
+        self.assertEqual(editorial.payoff_problems(post), [])
+
+    def test_takeaway_repair_cannot_invent_or_accept_out_of_range_quotes(self):
+        post = useful_post()
+        steps = ['A paraphrase not actually shown', 'Another invented transcription']
+        post['useful_takeaway']['visible_steps'] = steps[:]
+        with patch.object(generate.llm, 'generate', return_value='{"indices":[1,999]}'):
+            generate._repair_takeaway_quotes(post)
+        self.assertEqual(post['useful_takeaway']['visible_steps'], steps)
+        self.assertTrue(editorial.payoff_problems(post))
+
     def test_recent_developments_keep_eight_blogs_and_persist_plan(self):
         brand = config.load_brand()
         news = [dict(article(20+i), source='recent_development') for i in range(2)]

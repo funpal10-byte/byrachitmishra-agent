@@ -248,7 +248,7 @@ def _gemini_generate(
                     problems.append(f"{model} [{label}]: {str(exc)[:160]}")
                     break
             if quota_hit:
-                print(f"[llm] {model}: quota exhausted, trying next model")
+                print(f"[llm] {model}: unavailable; cooling down and trying next model")
                 break
 
     raise LLMError("every Gemini attempt failed:\n  " + "\n  ".join(problems))
