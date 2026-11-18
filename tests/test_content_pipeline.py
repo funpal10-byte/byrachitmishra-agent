@@ -155,6 +155,22 @@ class ContentPipelineTests(unittest.TestCase):
         self.assertEqual(post['useful_takeaway']['visible_steps'], steps)
         self.assertTrue(editorial.payoff_problems(post))
 
+    def test_visual_repair_rewrites_only_overlong_fields(self):
+        post = {'slides':[{'body':'Preserve complete prose.', 'visual': {'items':[
+            {'label':'A very long infographic label that will not fit', 'detail':'Keep this specific action'}]}}]}
+        with patch.object(generate.llm, 'generate', return_value='{"replacements":{"0":"Short action label"}}'):
+            generate._repair_visual_lengths(post)
+        self.assertEqual(post['slides'][0]['visual']['items'][0],
+                         {'label':'Short action label', 'detail':'Keep this specific action'})
+        self.assertEqual(post['slides'][0]['body'], 'Preserve complete prose.')
+
+    def test_visual_repair_never_truncates_an_invalid_replacement(self):
+        label = 'This infographic label is much too long'
+        post = {'slides':[{'visual':{'items':[{'label':label, 'detail':'Keep'}]}}]}
+        with patch.object(generate.llm, 'generate', return_value=json.dumps({'replacements':{'0':label}})):
+            generate._repair_visual_lengths(post)
+        self.assertEqual(post['slides'][0]['visual']['items'][0]['label'], label)
+
     def test_recent_developments_keep_eight_blogs_and_persist_plan(self):
         brand = config.load_brand()
         news = [dict(article(20+i), source='recent_development') for i in range(2)]
@@ -187,7 +203,7 @@ class ContentPipelineTests(unittest.TestCase):
             self.assertNotIn('Copy me', prompt)
             self.assertIn('do not establish', prompt)
 
-    def test_complete_batch_and_retry_preserve_ten_posts(self):
+    def test_partial_batch_recovers_only_failed_slot_then_skips_complete_week(self):
         brand = config.load_brand()
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)
@@ -198,6 +214,8 @@ class ContentPipelineTests(unittest.TestCase):
                 p = useful_post()
                 p.update(title=f'post {len(calls)}', format=args[3], pillar=args[2].id)
                 calls.append(len(kwargs['editorial_history']))
+                if len(calls) == 3:
+                    raise RuntimeError('simulated transient provider failure')
                 p['source_url'] = kwargs['source_article']['link']
                 return p
             def pictures(post, brand, target, **kwargs):
@@ -218,9 +236,10 @@ class ContentPipelineTests(unittest.TestCase):
                  patch.object(run_batch, 'validate', return_value=[]), \
                  patch.object(run_batch, 'check_voice', return_value=[]), \
                  patch.dict('os.environ', {'BATCH_WEEK_START': '2026-11-23'}):
+                self.assertEqual(run_batch.main(), 1)
                 self.assertEqual(run_batch.main(), 0)
                 self.assertEqual(run_batch.main(), 0)
-            self.assertEqual(calls, list(range(10)))
+            self.assertEqual(calls, [0,1,2,2,3,4,5,6,7,8,9])
             posts = [json.loads(p.read_text()) for p in queue.rglob('post.json')]
             self.assertEqual(len(posts), 10)
             self.assertEqual(len({p['source_url'] for p in posts}), 10)
