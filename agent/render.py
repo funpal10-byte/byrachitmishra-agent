@@ -135,7 +135,8 @@ def render_reel_cover(post: dict, brand, out_dir: Path) -> Path | None:
         # grid crops it to 4:5 (and sometimes closer to square).
         page = browser.new_page(viewport={"width": 1080, "height": 1920}, device_scale_factor=1)
         html = tpl.render(
-            pillar=pillar_name.name if pillar_name else "",
+            pillar=(post.get('primary_keyword', '') if post.get('source') == 'blog'
+                    else pillar_name.name if pillar_name else ''),
             headline=cover.get("headline", ""),
             signal=cover.get("signal", ""),
             layout=cover.get("layout", "signal"),

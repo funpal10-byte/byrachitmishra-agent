@@ -84,6 +84,7 @@ jobs:
 
       - name: Generate batch
         id: batch
+        timeout-minutes: 45
         env:
           # Supply whichever key you have. With only GOOGLE_API_KEY set the
           # agent runs on Gemini's free tier; with only ANTHROPIC_API_KEY it
@@ -109,7 +110,7 @@ jobs:
           # resumes only the failed slot instead of spending a second batch's
           # API quota or duplicating posts.
           for attempt in 1 2 3; do
-            python -m agent.run_batch && exit 0
+            python -u -m agent.run_batch && exit 0
             echo "Batch attempt $attempt failed; retrying any unfinished slot."
             sleep $((attempt * 15))
           done

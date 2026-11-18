@@ -35,7 +35,7 @@ class RecoveryTests(unittest.TestCase):
         client.models.generate_content.side_effect = respond
         fake_types = types.SimpleNamespace(**{
             name: (lambda **kwargs: kwargs)
-            for name in ('Content', 'Part', 'ThinkingConfig', 'GenerateContentConfig')})
+            for name in ('Content', 'Part', 'ThinkingConfig', 'GenerateContentConfig', 'HttpOptions')})
         genai = types.ModuleType('google.genai')
         genai.Client = Mock(return_value=client)
         genai.types = fake_types
@@ -47,4 +47,5 @@ class RecoveryTests(unittest.TestCase):
              patch.object(llm, '_pace'), patch.object(llm.time, 'sleep'):
             result = llm._gemini_generate('system', [{'role':'user','content':'draft'}], 100)
         self.assertEqual(result, '{"ok":true}')
+        self.assertEqual(genai.Client.call_args.kwargs['http_options']['timeout'], 120_000)
         self.assertEqual(client.models.generate_content.call_args.kwargs['model'], 'fourth')

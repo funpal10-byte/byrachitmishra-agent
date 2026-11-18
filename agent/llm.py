@@ -150,7 +150,8 @@ def _gemini_generate(
     from google import genai
     from google.genai import types
 
-    client = genai.Client(api_key=config.GOOGLE_API_KEY)
+    client = genai.Client(api_key=config.GOOGLE_API_KEY,
+                          http_options=types.HttpOptions(timeout=120_000))
 
     contents = [
         types.Content(
