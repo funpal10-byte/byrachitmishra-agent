@@ -39,6 +39,12 @@ class ContentPipelineTests(unittest.TestCase):
             {"claim": "Assign a customer update owner separately from the repair owner."},
             [{"claim": "Price premiums require documented delivery reliability."}]), [])
 
+    def test_same_send_prompt_is_not_recycled_across_different_topics(self):
+        caption = 'Send this to whoever is defending the brand budget this quarter.'
+        old = editorial.snapshot({'caption': caption, 'hook':'One topic'})
+        issues = editorial.duplicate_problems({'caption':caption, 'hook':'Another topic'}, [old])
+        self.assertTrue(any('Repeated cta' in issue for issue in issues))
+
     def test_history_uses_dates_and_includes_future_queue(self):
         with tempfile.TemporaryDirectory() as folder:
             base = Path(folder)

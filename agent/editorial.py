@@ -14,8 +14,15 @@ def normalise(value):
 
 
 def snapshot(post):
-    return {key: post.get(key, "") for key in (
+    item = {key: post.get(key, "") for key in (
         "scheduled_for", "title", "hook", "claim", "source_url", "useful_takeaway")}
+    item['cta'] = call_to_action(post)
+    return item
+
+
+def call_to_action(post):
+    return next((line.strip() for line in str(post.get('caption') or '').splitlines()
+                 if re.match(r'^(send|share) this\b', line.strip(), re.I)), post.get('cta', ''))
 
 
 def history(now=None, days=90):
@@ -55,8 +62,9 @@ def visible_panels(post):
 def duplicate_problems(post, previous):
     problems = []
     for old in previous:
-        for field in ("hook", "claim"):
-            left, right = normalise(post.get(field)), normalise(old.get(field))
+        for field in ("hook", "claim", "cta"):
+            left = normalise(call_to_action(post) if field == 'cta' else post.get(field))
+            right = normalise(old.get(field))
             if not left or not right:
                 continue
             words_l, words_r = set(left.split()), set(right.split())
@@ -108,6 +116,18 @@ correct. Distinguish percentage points from percent and hypothetical examples
 from measured outcomes. Reject off-topic SEO keywords and hashtags.
 6. No forced procurement/compliance/budget angle when the article is about something
 else. No topic labels disguised as hooks. Copy is complete and readable.
+7. Reject checklist labels masquerading as instructions: 'assess category maturity',
+'benchmark the split' and 'attach a leading indicator' do not explain HOW. Require
+visible source-derived questions, inputs/time windows, contrasting conditions or
+an example that lets a peer apply the tool immediately. Do not approve a summary
+that strips out the source's actual method. Repeating the heading in the visual
+detail is not additional substance.
+8. Check units and scope explicitly: a six-percentage-point lift is NOT a 6% lift;
+a sample of large firms is NOT a benchmark for every company. Reject universal
+claims such as 'guarantees a budget cut', 'zero warning', 'tells you nothing', or
+'beats it every time'. Source rhetoric does not establish universal causality.
+9. Calls to action must relate to this exact tool and recipient. Do not reuse the
+same generic brand-budget CTA across unrelated posts.
 Do not reward a draft for merely satisfying JSON or length requirements.
 If any condition fails, approved must be false and issues must explain the repair.
 """

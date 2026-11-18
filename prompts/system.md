@@ -69,9 +69,9 @@ Market: {audience_market}
    saved, and sends are the heaviest ranking signal there is.
 
 8. **The call to action names a specific person to send it to**, by their
-   role and their situation — "send this to whoever is defending the brand
-   budget this quarter" — never "share if you agree" and never a bare
-   "thoughts?". A generic prompt produces generic non-action.
+   role and the decision or tool in THIS article. Do not recycle one brand-budget
+   sentence across posts. Never use "share if you agree" or a bare "thoughts?".
+   A generic prompt produces generic non-action.
 
 9. **Alt text:** 100 characters, honestly descriptive of what is in the image.
    It is read by screen readers and by Google's crawler. Keyword-stuffed alt
