@@ -132,7 +132,7 @@
   "cta": "Send this to whoever is setting up your team's AI writing guidelines this quarter.",
   "failure_mode": "If the operational rules feel too abstract, it might read like basic prompt engineering advice rather than a brand governance standard.",
   "scheduled_for": "2026-11-18T20:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -172,5 +172,7 @@
     "bottleneck",
     "checklist"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-11-19T03:20:29.907965+05:30",
+  "media_id": "18126745357914988"
 }
