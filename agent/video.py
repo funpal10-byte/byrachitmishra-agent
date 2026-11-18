@@ -388,7 +388,9 @@ def assemble(
             ("(iw-ow)*0.5", f"(ih-oh)*(1-t/{d})"),
         ][i % 4]
         filters.append(
-            f"[{i}:v]scale={int(W * 1.1)}:{int(H * 1.1)},"
+            # A 10% zoom pushes the bottom logo outside the frame at the
+            # top of a vertical pan. Keep motion inside the 120px safe margin.
+            f"[{i}:v]scale={int(W * 1.04) // 2 * 2}:{int(H * 1.04) // 2 * 2},"
             f"crop={W}:{H}:'{x}':'{y}',setsar=1[v{i}]"
         )
 
