@@ -119,6 +119,29 @@ class ContentPipelineTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 editorial.review_result(raw)
 
+    def test_invalid_generation_json_is_corrected_in_same_slot(self):
+        brand = config.load_brand()
+        with patch.object(generate.llm, 'generate', side_effect=[
+                '{invalid', json.dumps(useful_post()), '{"approved":true,"issues":[]}']) as call:
+            result = generate.generate_post(brand, 'system', brand.pillars['ai_marketing'],
+                'reel', 'Monday', 'source', [], editorial_history=[])
+        self.assertTrue(result['editorial_review']['approved'])
+        self.assertEqual(call.call_count, 3)
+
+    def test_recent_developments_keep_eight_blogs_and_persist_plan(self):
+        brand = config.load_brand()
+        news = [dict(article(20+i), source='recent_development') for i in range(2)]
+        with tempfile.TemporaryDirectory() as folder:
+            batch = Path(folder)/'2026-11-30'
+            batch.mkdir()
+            with patch.object(blog_pool, 'available_articles', return_value=[article(i) for i in range(10)]), \
+                 patch('agent.daily_research.select', return_value=news):
+                plan = blog_pool.week_plan(batch, brand.slots, brand.pillars, [])
+            self.assertEqual(sum(a.get('source') == 'recent_development' for a in plan.values()), 2)
+            self.assertEqual(len(plan), 10)
+            with patch('agent.daily_research.select', side_effect=AssertionError('reselected on retry')):
+                self.assertEqual(blog_pool.week_plan(batch, brand.slots, brand.pillars, []), plan)
+
     def test_repeated_hook_is_rejected_before_critic(self):
         brand = config.load_brand()
         post = useful_post()
