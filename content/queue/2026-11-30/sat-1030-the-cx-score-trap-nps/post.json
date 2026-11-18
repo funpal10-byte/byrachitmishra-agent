@@ -1,0 +1,545 @@
+{
+  "type": "object",
+  "required": [
+    "title",
+    "pillar",
+    "format",
+    "primary_keyword",
+    "claim",
+    "hook",
+    "evidence",
+    "caption",
+    "alt_text",
+    "hashtags",
+    "failure_mode"
+  ],
+  "properties": {
+    "useful_takeaway": {
+      "type": "object",
+      "required": [
+        "kind",
+        "visible_steps"
+      ],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "prompt",
+            "template",
+            "checklist",
+            "worked_example",
+            "decision_test"
+          ]
+        },
+        "visible_steps": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 5,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "title": {
+      "type": "string",
+      "description": "Short internal label for this post. Used as the folder name. Lowercase, no punctuation."
+    },
+    "pillar": {
+      "type": "string"
+    },
+    "format": {
+      "type": "string",
+      "enum": [
+        "carousel",
+        "reel",
+        "still"
+      ]
+    },
+    "primary_keyword": {
+      "type": "string",
+      "description": "The single search term this post targets."
+    },
+    "claim": {
+      "type": "string",
+      "description": "The one specific claim this post makes, in a sentence."
+    },
+    "hook": {
+      "type": "string",
+      "description": "The single opening promise. Under 48 characters and 10 words. It must be the caption's first line and the exact first on-screen line for a Reel or slide one headline for a carousel."
+    },
+    "evidence": {
+      "type": "object",
+      "required": [
+        "type",
+        "detail"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "source",
+            "case_study",
+            "practitioner_observation",
+            "framework"
+          ]
+        },
+        "detail": {
+          "type": "string",
+          "description": "The specific proof behind the claim: a source finding, named case, observed situation, or usable framework. Never invent a statistic."
+        },
+        "source_url": {
+          "type": "string",
+          "description": "Required when type is source. A direct URL for the factual claim."
+        }
+      }
+    },
+    "slides": {
+      "type": "array",
+      "description": "Required when format is carousel. 6-8 items.",
+      "items": {
+        "type": "object",
+        "required": [
+          "headline"
+        ],
+        "properties": {
+          "kicker": {
+            "type": "string",
+            "description": "Max 24 chars. Omit on slide 1."
+          },
+          "headline": {
+            "type": "string",
+            "description": "Max 70 chars (60 on slides 1 and last)."
+          },
+          "body": {
+            "type": "string",
+            "description": "Max 200 chars. Omit on slide 1."
+          },
+          "visual": {
+            "type": "object",
+            "required": [
+              "kind",
+              "items",
+              "note"
+            ],
+            "properties": {
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "bottleneck",
+                  "comparison",
+                  "checklist"
+                ]
+              },
+              "items": {
+                "type": "array",
+                "minItems": 2,
+                "maxItems": 4,
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "label",
+                    "detail"
+                  ],
+                  "properties": {
+                    "label": {
+                      "type": "string",
+                      "maxLength": 24
+                    },
+                    "detail": {
+                      "type": "string",
+                      "maxLength": 48
+                    }
+                  }
+                }
+              },
+              "note": {
+                "type": "string",
+                "maxLength": 60
+              }
+            }
+          }
+        }
+      }
+    },
+    "reel_script": {
+      "type": "array",
+      "description": "Required when format is reel. 6-10 beats, total under 90 seconds.",
+      "items": {
+        "type": "object",
+        "required": [
+          "timecode",
+          "onscreen",
+          "voiceover"
+        ],
+        "properties": {
+          "timecode": {
+            "type": "string",
+            "description": "e.g. 0:00-0:03"
+          },
+          "onscreen": {
+            "type": "string",
+            "description": "Max 48 chars. Burned onto the video."
+          },
+          "voiceover": {
+            "type": "string"
+          },
+          "direction": {
+            "type": "string",
+            "description": "What is on camera during this beat."
+          },
+          "visual": {
+            "type": "object",
+            "required": [
+              "kind",
+              "items",
+              "note"
+            ],
+            "properties": {
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "bottleneck",
+                  "comparison",
+                  "checklist"
+                ]
+              },
+              "items": {
+                "type": "array",
+                "minItems": 2,
+                "maxItems": 4,
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "label",
+                    "detail"
+                  ],
+                  "properties": {
+                    "label": {
+                      "type": "string",
+                      "maxLength": 24
+                    },
+                    "detail": {
+                      "type": "string",
+                      "maxLength": 48
+                    }
+                  }
+                }
+              },
+              "note": {
+                "type": "string",
+                "maxLength": 60
+              }
+            }
+          }
+        }
+      }
+    },
+    "reel_cover": {
+      "type": "object",
+      "description": "Required for Reels only. The separate profile-grid cover; it must package the tension without repeating the first frame.",
+      "required": [
+        "headline",
+        "signal",
+        "layout",
+        "visual"
+      ],
+      "properties": {
+        "visual": {
+          "type": "object",
+          "required": [
+            "kind",
+            "items",
+            "note"
+          ],
+          "properties": {
+            "kind": {
+              "type": "string",
+              "enum": [
+                "bottleneck",
+                "comparison",
+                "checklist"
+              ]
+            },
+            "items": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 4,
+              "items": {
+                "type": "object",
+                "required": [
+                  "label",
+                  "detail"
+                ],
+                "properties": {
+                  "label": {
+                    "type": "string",
+                    "maxLength": 24
+                  },
+                  "detail": {
+                    "type": "string",
+                    "maxLength": 48
+                  }
+                }
+              }
+            },
+            "note": {
+              "type": "string",
+              "maxLength": 60
+            }
+          }
+        },
+        "headline": {
+          "type": "string",
+          "description": "2-6 words, max 36 characters. A concrete situation with an unresolved tension. Must connect to the hook's subject and payoff; paraphrasing is welcome."
+        },
+        "signal": {
+          "type": "string",
+          "description": "Max 24 characters. A concrete number, trade-off, or proof fragment from the Reel, shown as a visual label."
+        },
+        "layout": {
+          "type": "string",
+          "enum": [
+            "signal",
+            "split",
+            "stamp"
+          ],
+          "description": "Choose the visual device that best fits the tension. Vary it deliberately across Reels."
+        }
+      }
+    },
+    "caption": {
+      "type": "string",
+      "description": "Full caption WITHOUT hashtags. Structure: hook, payoff, substance, POV line, send-oriented CTA."
+    },
+    "alt_text": {
+      "type": "string",
+      "description": "Max 100 characters. Honestly descriptive."
+    },
+    "hashtags": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 5,
+      "items": {
+        "type": "string"
+      },
+      "description": "Exactly 5 or fewer. Instagram enforces a hard cap of 5."
+    },
+    "cta": {
+      "type": "string",
+      "description": "The send-oriented call to action, repeated separately for reference."
+    },
+    "failure_mode": {
+      "type": "string",
+      "description": "The honest reason this post might land badly or read as generic."
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "title": "the cx score trap nps",
+  "pillar": "inside_the_org",
+  "format": "carousel",
+  "primary_keyword": "nps limitations in b2b",
+  "claim": "An NPS of 62 measures an individual respondent's mood on a Tuesday rather than predicting whether a multi-stakeholder B2B account will renew.",
+  "hook": "Good NPS won't stop churn.",
+  "evidence": {
+    "type": "source",
+    "detail": "Gartner's research puts the average B2B buying group at six to ten people, while NPS surveys typically reach one friendly contact in the CRM.",
+    "source_url": "https://www.rachitmishra.in/2026/07/27/nps-limitations-b2b/"
+  },
+  "useful_takeaway": {
+    "kind": "checklist",
+    "visible_steps": [
+      "Net revenue retention",
+      "Expansion or contraction trend",
+      "Stakeholder breadth count",
+      "Executive sponsor signal"
+    ]
+  },
+  "slides": [
+    {
+      "headline": "Good NPS won't stop churn."
+    },
+    {
+      "kicker": "Single-Respondent Flaw",
+      "headline": "NPS measures one contact, not the buying committee.",
+      "body": "Gartner puts B2B buying groups at six to ten people. NPS surveys usually reach whoever answers emails fastest.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "What NPS measures",
+            "detail": "One respondent in the CRM"
+          },
+          {
+            "label": "Who buys in B2B",
+            "detail": "Six to ten stakeholders across departments"
+          }
+        ],
+        "note": "Based on Gartner buying group research"
+      }
+    },
+    {
+      "kicker": "The Missing Signal",
+      "headline": "A high score gives zero warning before an account lapses.",
+      "body": "Champions leave, procurement leads change, and silent accounts drop contracts while the quarterly dashboard shows a 58.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Survey Result",
+            "detail": "Score of 9 from departing champion"
+          },
+          {
+            "label": "Commercial Outcome",
+            "detail": "Contract lapses at procurement review"
+          }
+        ],
+        "note": "Illustrative workflow of enterprise churn"
+      }
+    },
+    {
+      "kicker": "Boardroom Comfort",
+      "headline": "Teams keep reporting NPS because building health models is hard.",
+      "body": "NPS is cheap to collect and easy to chart. Replacing it requires building a multi-stakeholder health score.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Easy metric",
+            "detail": "NPS survey collected quarterly"
+          },
+          {
+            "label": "Hard work",
+            "detail": "Tracking cross-departmental stakeholder breadth"
+          }
+        ],
+        "note": "Observed reporting patterns in industrial firms"
+      }
+    },
+    {
+      "kicker": "The Transition Plan",
+      "headline": "Do not kill NPS overnight. Report the gap instead.",
+      "body": "Keep NPS on the board deck for context. Put net revenue retention directly next to it to show the real story.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "NPS Score",
+            "detail": "Regional score sits at 58"
+          },
+          {
+            "label": "NRR Reality",
+            "detail": "Net revenue retention sits at 91 percent"
+          }
+        ],
+        "note": "Suggested gap reporting structure"
+      }
+    },
+    {
+      "kicker": "Account Health Audit",
+      "headline": "Replace single-score dashboards with four account signals.",
+      "body": "Combine actual revenue retention, recent contract trends, stakeholder breadth, and direct executive sponsor feedback.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Expansion Trend",
+            "detail": "Expansion or contraction trend"
+          },
+          {
+            "label": "Stakeholder Count",
+            "detail": "Stakeholder breadth count"
+          },
+          {
+            "label": "Sponsor Signal",
+            "detail": "Executive sponsor signal"
+          }
+        ],
+        "note": "Core signals for B2B account health"
+      }
+    },
+    {
+      "headline": "An account health model beats a survey score every time.",
+      "body": "Read the long version and methodology notes on https://www.rachitmishra.in/2026/07/27/nps-limitations-b2b/"
+    }
+  ],
+  "caption": "Good NPS won't stop churn.\n\nUnderstanding nps limitations in b2b starts with accepting that a single survey response tells you nothing about procurement committees or upcoming contract renewals.\n\nWhen a friendly day-to-day contact scores you a 9 and then changes teams, your dashboard records a win while the account quietly lapses. The score wasn't fake; it was just measuring someone who no longer had a vote in the buying committee.\n\nBuilding an honest account-health model takes operational work that standard CX dashboards avoid.\n\nSend this to whoever is defending the quarterly customer satisfaction metrics to the board.\n\n[nps limitations, b2b customer experience, account health score, net revenue retention]",
+  "alt_text": "Carousel slides explaining why NPS fails in B2B accounts and what to track instead.",
+  "hashtags": [
+    "#b2bmarketing",
+    "#customerexperience",
+    "#b2bstrategy"
+  ],
+  "cta": "Send this to whoever is defending the quarterly customer satisfaction metrics to the board.",
+  "failure_mode": "Readers might dismiss this as anti-survey cynicism if they don't implement the four-part account health check.",
+  "content_version": 3,
+  "editorial_review": {
+    "approved": true,
+    "issues": []
+  },
+  "scheduled_for": "2026-12-05T10:30:00+05:30",
+  "status": "draft",
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2026/07/27/nps-limitations-b2b/",
+  "source_title": "The CX Score Trap: What NPS Never Tells You",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "10:30"
+  },
+  "experiment": {
+    "hook_type": "claim",
+    "evidence_type": "source",
+    "format": "carousel",
+    "pillar": "inside_the_org",
+    "hook_words": 5,
+    "hook_characters": 26,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "10:30"
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2026/07/27/nps-limitations-b2b/",
+    "final_url": "https://www.rachitmishra.in/2026/07/27/nps-limitations-b2b/",
+    "http_status": 200
+  },
+  "sources": [
+    {
+      "title": "Gartner's research puts the average B2B buying group at six to ten people, while NPS surveys typically reach one friendly contact in the CRM.",
+      "url": "https://www.rachitmishra.in/2026/07/27/nps-limitations-b2b/"
+    }
+  ],
+  "images": [
+    "content/queue/2026-11-30/sat-1030-the-cx-score-trap-nps/slide-01.jpg",
+    "content/queue/2026-11-30/sat-1030-the-cx-score-trap-nps/slide-02.jpg",
+    "content/queue/2026-11-30/sat-1030-the-cx-score-trap-nps/slide-03.jpg",
+    "content/queue/2026-11-30/sat-1030-the-cx-score-trap-nps/slide-04.jpg",
+    "content/queue/2026-11-30/sat-1030-the-cx-score-trap-nps/slide-05.jpg",
+    "content/queue/2026-11-30/sat-1030-the-cx-score-trap-nps/slide-06.jpg",
+    "content/queue/2026-11-30/sat-1030-the-cx-score-trap-nps/slide-07.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "bottleneck",
+    "comparison",
+    "comparison",
+    "checklist"
+  ],
+  "warnings": []
+}

@@ -1,0 +1,583 @@
+{
+  "type": "object",
+  "required": [
+    "title",
+    "pillar",
+    "format",
+    "primary_keyword",
+    "claim",
+    "hook",
+    "evidence",
+    "caption",
+    "alt_text",
+    "hashtags",
+    "failure_mode"
+  ],
+  "properties": {
+    "useful_takeaway": {
+      "type": "object",
+      "required": [
+        "kind",
+        "visible_steps"
+      ],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "prompt",
+            "template",
+            "checklist",
+            "worked_example",
+            "decision_test"
+          ]
+        },
+        "visible_steps": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 5,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "title": {
+      "type": "string",
+      "description": "Short internal label for this post. Used as the folder name. Lowercase, no punctuation."
+    },
+    "pillar": {
+      "type": "string"
+    },
+    "format": {
+      "type": "string",
+      "enum": [
+        "carousel",
+        "reel",
+        "still"
+      ]
+    },
+    "primary_keyword": {
+      "type": "string",
+      "description": "The single search term this post targets."
+    },
+    "claim": {
+      "type": "string",
+      "description": "The one specific claim this post makes, in a sentence."
+    },
+    "hook": {
+      "type": "string",
+      "description": "The single opening promise. Under 48 characters and 10 words. It must be the caption's first line and the exact first on-screen line for a Reel or slide one headline for a carousel."
+    },
+    "evidence": {
+      "type": "object",
+      "required": [
+        "type",
+        "detail"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "source",
+            "case_study",
+            "practitioner_observation",
+            "framework"
+          ]
+        },
+        "detail": {
+          "type": "string",
+          "description": "The specific proof behind the claim: a source finding, named case, observed situation, or usable framework. Never invent a statistic."
+        },
+        "source_url": {
+          "type": "string",
+          "description": "Required when type is source. A direct URL for the factual claim."
+        }
+      }
+    },
+    "slides": {
+      "type": "array",
+      "description": "Required when format is carousel. 6-8 items.",
+      "items": {
+        "type": "object",
+        "required": [
+          "headline"
+        ],
+        "properties": {
+          "kicker": {
+            "type": "string",
+            "description": "Max 24 chars. Omit on slide 1."
+          },
+          "headline": {
+            "type": "string",
+            "description": "Max 70 chars (60 on slides 1 and last)."
+          },
+          "body": {
+            "type": "string",
+            "description": "Max 200 chars. Omit on slide 1."
+          },
+          "visual": {
+            "type": "object",
+            "required": [
+              "kind",
+              "items",
+              "note"
+            ],
+            "properties": {
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "bottleneck",
+                  "comparison",
+                  "checklist"
+                ]
+              },
+              "items": {
+                "type": "array",
+                "minItems": 2,
+                "maxItems": 4,
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "label",
+                    "detail"
+                  ],
+                  "properties": {
+                    "label": {
+                      "type": "string",
+                      "maxLength": 24
+                    },
+                    "detail": {
+                      "type": "string",
+                      "maxLength": 48
+                    }
+                  }
+                }
+              },
+              "note": {
+                "type": "string",
+                "maxLength": 60
+              }
+            }
+          }
+        }
+      }
+    },
+    "reel_script": {
+      "type": "array",
+      "description": "Required when format is reel. 6-10 beats, total under 90 seconds.",
+      "items": {
+        "type": "object",
+        "required": [
+          "timecode",
+          "onscreen",
+          "voiceover"
+        ],
+        "properties": {
+          "timecode": {
+            "type": "string",
+            "description": "e.g. 0:00-0:03"
+          },
+          "onscreen": {
+            "type": "string",
+            "description": "Max 48 chars. Burned onto the video."
+          },
+          "voiceover": {
+            "type": "string"
+          },
+          "direction": {
+            "type": "string",
+            "description": "What is on camera during this beat."
+          },
+          "visual": {
+            "type": "object",
+            "required": [
+              "kind",
+              "items",
+              "note"
+            ],
+            "properties": {
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "bottleneck",
+                  "comparison",
+                  "checklist"
+                ]
+              },
+              "items": {
+                "type": "array",
+                "minItems": 2,
+                "maxItems": 4,
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "label",
+                    "detail"
+                  ],
+                  "properties": {
+                    "label": {
+                      "type": "string",
+                      "maxLength": 24
+                    },
+                    "detail": {
+                      "type": "string",
+                      "maxLength": 48
+                    }
+                  }
+                }
+              },
+              "note": {
+                "type": "string",
+                "maxLength": 60
+              }
+            }
+          }
+        }
+      }
+    },
+    "reel_cover": {
+      "type": "object",
+      "description": "Required for Reels only. The separate profile-grid cover; it must package the tension without repeating the first frame.",
+      "required": [
+        "headline",
+        "signal",
+        "layout",
+        "visual"
+      ],
+      "properties": {
+        "visual": {
+          "type": "object",
+          "required": [
+            "kind",
+            "items",
+            "note"
+          ],
+          "properties": {
+            "kind": {
+              "type": "string",
+              "enum": [
+                "bottleneck",
+                "comparison",
+                "checklist"
+              ]
+            },
+            "items": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 4,
+              "items": {
+                "type": "object",
+                "required": [
+                  "label",
+                  "detail"
+                ],
+                "properties": {
+                  "label": {
+                    "type": "string",
+                    "maxLength": 24
+                  },
+                  "detail": {
+                    "type": "string",
+                    "maxLength": 48
+                  }
+                }
+              }
+            },
+            "note": {
+              "type": "string",
+              "maxLength": 60
+            }
+          }
+        },
+        "headline": {
+          "type": "string",
+          "description": "2-6 words, max 36 characters. A concrete situation with an unresolved tension. Must connect to the hook's subject and payoff; paraphrasing is welcome."
+        },
+        "signal": {
+          "type": "string",
+          "description": "Max 24 characters. A concrete number, trade-off, or proof fragment from the Reel, shown as a visual label."
+        },
+        "layout": {
+          "type": "string",
+          "enum": [
+            "signal",
+            "split",
+            "stamp"
+          ],
+          "description": "Choose the visual device that best fits the tension. Vary it deliberately across Reels."
+        }
+      }
+    },
+    "caption": {
+      "type": "string",
+      "description": "Full caption WITHOUT hashtags. Structure: hook, payoff, substance, POV line, send-oriented CTA."
+    },
+    "alt_text": {
+      "type": "string",
+      "description": "Max 100 characters. Honestly descriptive."
+    },
+    "hashtags": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 5,
+      "items": {
+        "type": "string"
+      },
+      "description": "Exactly 5 or fewer. Instagram enforces a hard cap of 5."
+    },
+    "cta": {
+      "type": "string",
+      "description": "The send-oriented call to action, repeated separately for reference."
+    },
+    "failure_mode": {
+      "type": "string",
+      "description": "The honest reason this post might land badly or read as generic."
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "title": "ai_marketing_bottleneck_review",
+  "pillar": "ai_marketing",
+  "format": "reel",
+  "primary_keyword": "ai marketing bottleneck",
+  "claim": "AI accelerated content production volume but shifted the core bottleneck from generation speed to strategic judgment.",
+  "hook": "Faster drafting just built a bigger queue.",
+  "evidence": {
+    "type": "source",
+    "detail": "An 18-month review of marketing technology shows that content generation speed outpaced expectations, shifting the primary bottleneck from production capacity to strategic judgment about what is worth producing.",
+    "source_url": "https://www.rachitmishra.in/2025/01/20/future-of-marketing-ai-agility-social-media/"
+  },
+  "useful_takeaway": {
+    "kind": "checklist",
+    "visible_steps": [
+      "Audit first-party data quality",
+      "Evaluate AI output for strategy",
+      "Kill low-value assets weekly"
+    ]
+  },
+  "reel_cover": {
+    "headline": "The AI Bottleneck Shift",
+    "signal": "Speed vs Judgment",
+    "layout": "split",
+    "visual": {
+      "kind": "comparison",
+      "items": [
+        {
+          "label": "18 Months Ago",
+          "detail": "Production speed was the main bottleneck"
+        },
+        {
+          "label": "Today",
+          "detail": "Strategic judgment is the scarce resource"
+        }
+      ],
+      "note": "Martech stack evolution analysis"
+    }
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:11",
+      "onscreen": "Faster drafting just built a bigger queue.",
+      "voiceover": "Faster drafting just built a bigger queue.",
+      "direction": "Static text on screen highlighting the shift in AI marketing bottlenecks.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Input Volume",
+            "detail": "AI compresses multi-week tasks into days"
+          },
+          {
+            "label": "Approval Queue",
+            "detail": "Teams produce more unneeded content"
+          }
+        ],
+        "note": "Production speed observation"
+      }
+    },
+    {
+      "timecode": "0:11-0:22",
+      "onscreen": "Speed is solved. Judgment is scarce.",
+      "voiceover": "Speed is solved. Judgment is scarce.",
+      "direction": "Transition to comparison graphic between old and new marketing constraints.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Old Constraint",
+            "detail": "Writing speed and translation capacity"
+          },
+          {
+            "label": "New Constraint",
+            "detail": "Deciding what is worth publishing"
+          }
+        ],
+        "note": "Strategy shift over 18 months"
+      }
+    },
+    {
+      "timecode": "0:22-0:31",
+      "onscreen": "Audit first-party data quality",
+      "voiceover": "Audit first-party data quality",
+      "direction": "Displaying first checklist item for modern martech stack requirements.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Data Cleanliness",
+            "detail": "Personalization requires clean data"
+          },
+          {
+            "label": "Infrastructure",
+            "detail": "Treat data engineering as a prerequisite"
+          }
+        ],
+        "note": "First-party data constraint"
+      }
+    },
+    {
+      "timecode": "0:31-0:41",
+      "onscreen": "Evaluate AI output for strategy",
+      "voiceover": "Evaluate AI output for strategy",
+      "direction": "Displaying second checklist item focused on originality and differentiation.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Original Angles",
+            "detail": "Check if output mirrors competitors"
+          },
+          {
+            "label": "Buyer Relevance",
+            "detail": "Verify if the segment needs this"
+          }
+        ],
+        "note": "Differentiation check"
+      }
+    },
+    {
+      "timecode": "0:41-0:52",
+      "onscreen": "Kill low-value assets weekly",
+      "voiceover": "Kill low-value assets weekly",
+      "direction": "Displaying third checklist item on review discipline and killing unneeded work.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Kill Criteria",
+            "detail": "Set thresholds to drop weak projects"
+          },
+          {
+            "label": "Execution Audit",
+            "detail": "Review test results without bias"
+          }
+        ],
+        "note": "Agility and review discipline"
+      }
+    },
+    {
+      "timecode": "0:52-1:02",
+      "onscreen": "Shift investment from speed to judgment.",
+      "voiceover": "Shift investment from speed to judgment.",
+      "direction": "Final framing shot summarizing the core takeaway on AI tooling investments.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Low Leverage",
+            "detail": "Buying more writing tools"
+          },
+          {
+            "label": "High Leverage",
+            "detail": "Training critical evaluation skills"
+          }
+        ],
+        "note": "Investment priority principle"
+      }
+    }
+  ],
+  "caption": "Faster drafting just built a bigger queue.\n\nThe real ai marketing bottleneck shifted over the last eighteen months from production capacity to strategic judgment.\n\nWhen content generation becomes cheap and fast, volume stops being a useful metric. The martech stack has consolidated into broader platforms, turning personalization into a data engineering problem rather than a creative one.\n\nInvesting in speed solves a problem that was mostly addressed years ago. The higher leverage investment is training teams to evaluate outputs critically and killing mediocre work before publication.\n\nThe complete 18-month review and stack analysis is published on my site: https://www.rachitmishra.in/2025/01/20/future-of-marketing-ai-agility-social-media/\n\nSend this to whoever is still defending their team's AI strategy using output volume metrics.\n\n[ai marketing bottleneck, martech stack consolidation, strategic judgment, B2B content strategy]",
+  "alt_text": "A comparison showing marketing bottlenecks shifting from production speed to strategic judgment.",
+  "hashtags": [
+    "#b2bmarketing",
+    "#martech",
+    "#contentstrategy"
+  ],
+  "cta": "Send this to whoever is still defending their team's AI strategy using output volume metrics.",
+  "failure_mode": "Readers might mistake this for a general technology review rather than a specific operational warning about where marketing teams waste budget.",
+  "sources": [
+    {
+      "title": "What AI Actually Changed in Marketing: An 18-Month Review",
+      "url": "https://www.rachitmishra.in/2025/01/20/future-of-marketing-ai-agility-social-media/"
+    }
+  ],
+  "content_version": 3,
+  "editorial_review": {
+    "approved": true,
+    "issues": []
+  },
+  "scheduled_for": "2026-12-04T08:30:00+05:30",
+  "status": "draft",
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2025/01/20/future-of-marketing-ai-agility-social-media/",
+  "source_title": "What AI Actually Changed in Marketing: An 18-Month Review",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "08:30"
+  },
+  "experiment": {
+    "hook_type": "claim",
+    "evidence_type": "source",
+    "format": "reel",
+    "pillar": "ai_marketing",
+    "hook_words": 7,
+    "hook_characters": 42,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "comparison",
+    "schedule": {
+      "active": false,
+      "selected_time": "08:30"
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2025/01/20/future-of-marketing-ai-agility-social-media/",
+    "final_url": "https://www.rachitmishra.in/2025/01/20/future-of-marketing-ai-agility-social-media/",
+    "http_status": 200
+  },
+  "reel_assets": {
+    "background": {
+      "source": "designed_gradient"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (1).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-11-30/fri-0830-ai-marketing-bottleneck-review/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "bottleneck",
+    "comparison",
+    "checklist",
+    "checklist",
+    "checklist",
+    "comparison"
+  ],
+  "warnings": []
+}
