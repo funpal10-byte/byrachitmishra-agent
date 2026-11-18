@@ -19,7 +19,7 @@
 
 8 rendered images sit in this folder — upload them in filename order.
 
-**1.** 
+**1.**
 ### Who publishes when the approver is asleep?
 
 ![slide 1](slide-01.jpg)
@@ -60,7 +60,7 @@ The useful output is a working backup route, not a revised presentation.
 
 ![slide 7](slide-07.jpg)
 
-**8.** 
+**8.**
 ### An alternate is useful only if they can act.
 Send this to the team running your next crisis rehearsal. Full planning guide on the blog.
 

@@ -19,7 +19,7 @@
 
 8 rendered images sit in this folder — upload them in filename order.
 
-**1.** 
+**1.**
 ### The ticket closed. Did the account stay?
 
 ![slide 1](slide-01.jpg)
@@ -60,7 +60,7 @@ Start with your own failure logs. Replace every example assumption with evidence
 
 ![slide 7](slide-07.jpg)
 
-**8.** 
+**8.**
 ### Close the ticket. Keep watching the account.
 Send this to your customer-operations lead and finance partner. The full model is on the blog.
 

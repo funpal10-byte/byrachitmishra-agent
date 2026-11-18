@@ -19,7 +19,7 @@
 
 8 rendered images sit in this folder — upload them in filename order.
 
-**1.** 
+**1.**
 ### Two logos. Which name does the buyer trust?
 
 ![slide 1](slide-01.jpg)
@@ -60,7 +60,7 @@ If the team cannot explain what each name contributes, a smaller logo will not s
 
 ![slide 7](slide-07.jpg)
 
-**8.** 
+**8.**
 ### Choose the relationship before the lock-up.
 Send this to the team debating the parent logo on your next launch. Full framework on the blog.
 

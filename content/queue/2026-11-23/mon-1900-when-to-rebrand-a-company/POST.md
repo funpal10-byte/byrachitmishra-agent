@@ -19,7 +19,7 @@
 
 8 rendered images sit in this folder — upload them in filename order.
 
-**1.** 
+**1.**
 ### New logo. Why change the name?
 
 ![slide 1](slide-01.jpg)
@@ -60,7 +60,7 @@ If the trigger is only boredom, test a refresh before proposing a rename.
 
 ![slide 7](slide-07.jpg)
 
-**8.** 
+**8.**
 ### Change the constraint. Preserve useful recognition.
 Send this to the person writing your next rebrand brief. Full decision checklist on the blog.
 

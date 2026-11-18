@@ -19,7 +19,7 @@
 
 8 rendered images sit in this folder — upload them in filename order.
 
-**1.** 
+**1.**
 ### What would make you stop this campaign?
 
 ![slide 1](slide-01.jpg)
@@ -60,7 +60,7 @@ Record uncertainty too. An inconclusive test is a finding, not permission to inv
 
 ![slide 7](slide-07.jpg)
 
-**8.** 
+**8.**
 ### Choose the success test before seeing the score.
 Send this to the colleague writing your next campaign brief. Full practitioner account on the blog.
 
