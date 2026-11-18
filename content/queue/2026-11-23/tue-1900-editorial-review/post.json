@@ -1,0 +1,242 @@
+{
+  "title": "fast reply still no resolution",
+  "pillar": "ai_marketing",
+  "format": "reel",
+  "primary_keyword": "service standards",
+  "claim": "A service promise should distinguish acknowledgment, substantive update and resolution, with explicit clock-start and operating-hour conditions.",
+  "hook": "Fast reply. Still no resolution?",
+  "evidence": {
+    "type": "source",
+    "source_url": "https://www.rachitmishra.in/2026/11/10/brand-values-service-standards/",
+    "detail": "Adapted practical tool from From Brand Values to Service Standards: Make Each Promise Observable. A service promise should distinguish acknowledgment, substantive update and resolution, with explicit clock-start and operating-hour conditions."
+  },
+  "useful_takeaway": {
+    "kind": "template",
+    "visible_steps": [
+      "For [request], we will [observable action].",
+      "Within [time] during [operating hours].",
+      "If blocked, [owner] explains the next step."
+    ]
+  },
+  "reel_cover": {
+    "headline": "Fast reply. Problem still open?",
+    "signal": "Separate the promises",
+    "layout": "split",
+    "visual": {
+      "kind": "comparison",
+      "items": [
+        {
+          "label": "Received",
+          "detail": "Your request has arrived"
+        },
+        {
+          "label": "Resolved",
+          "detail": "Your issue has been fixed"
+        }
+      ],
+      "note": "Working template; adapt to your context"
+    }
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:05",
+      "onscreen": "Fast reply. Still no resolution?",
+      "voiceover": "Fast reply. Still no resolution?",
+      "direction": "Current green editorial design with a readable practical graphic."
+    },
+    {
+      "timecode": "0:05-0:16",
+      "onscreen": "Define what your response promise means.",
+      "voiceover": "Define what your response promise means.",
+      "direction": "Current green editorial design with a readable practical graphic.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Acknowledgment",
+            "detail": "We have received your request."
+          },
+          {
+            "label": "Resolution",
+            "detail": "The underlying issue is fixed."
+          }
+        ],
+        "note": "Working template; adapt to your context"
+      }
+    },
+    {
+      "timecode": "0:16-0:30",
+      "onscreen": "A receipt is not a substantive update.",
+      "voiceover": "A receipt is not a substantive update.",
+      "direction": "Current green editorial design with a readable practical graphic.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Update should explain",
+            "detail": "What is known and what is being checked"
+          },
+          {
+            "label": "Next commitment",
+            "detail": "When the next useful update is due"
+          }
+        ],
+        "note": "Working template; adapt to your context"
+      }
+    },
+    {
+      "timecode": "0:30-0:44",
+      "onscreen": "Write the conditions beside the promise.",
+      "voiceover": "Write the conditions beside the promise.",
+      "direction": "Current green editorial design with a readable practical graphic.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Clock starts",
+            "detail": "When a complete request arrives"
+          },
+          {
+            "label": "Clock runs",
+            "detail": "During the stated operating hours"
+          },
+          {
+            "label": "Dependencies",
+            "detail": "Which customer information is needed"
+          }
+        ],
+        "note": "Working template; adapt to your context"
+      }
+    },
+    {
+      "timecode": "0:44-0:58",
+      "onscreen": "Try this service-standard sentence.",
+      "voiceover": "Try this service-standard sentence.",
+      "direction": "Current green editorial design with a readable practical graphic.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Action",
+            "detail": "For [request], we will [observable action]."
+          },
+          {
+            "label": "Conditions",
+            "detail": "Within [time] during [operating hours]."
+          },
+          {
+            "label": "Exception",
+            "detail": "If blocked, [owner] explains the next step."
+          }
+        ],
+        "note": "Working template; adapt to your context"
+      }
+    },
+    {
+      "timecode": "0:58-1:11",
+      "onscreen": "Pilot one request type before rollout.",
+      "voiceover": "Pilot one request type before rollout.",
+      "direction": "Current green editorial design with a readable practical graphic.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Check the process",
+            "detail": "Did we meet the stated commitment?"
+          },
+          {
+            "label": "Check usefulness",
+            "detail": "Could the customer act on the update?"
+          }
+        ],
+        "note": "Working template; adapt to your context"
+      }
+    },
+    {
+      "timecode": "1:11-1:16",
+      "onscreen": "Promise the stage you can actually deliver.",
+      "voiceover": "Promise the stage you can actually deliver.",
+      "direction": "Current green editorial design with a readable practical graphic."
+    }
+  ],
+  "caption": "Fast reply. Still no resolution?\n\nService standards need precise definitions. A quick acknowledgment and a solved problem are different commitments.\n\nAgree targets with the people delivering them. Make operating hours and dependencies visible before you publish a promise.\n\nSend this to your service lead.\n\nFull article: https://www.rachitmishra.in/2026/11/10/brand-values-service-standards/\n\n[service standards, practical marketing, b2b marketing]",
+  "alt_text": "Practical service standards template shown in green-accented text and diagrams.",
+  "hashtags": [
+    "#servicestandards",
+    "#customerexperience",
+    "#serviceoperations"
+  ],
+  "cta": "Send this to the colleague who owns this decision.",
+  "failure_mode": "The tool needs adaptation to the reader's context; it must not be treated as a universal rule or a measured result.",
+  "sources": [
+    {
+      "title": "From Brand Values to Service Standards: Make Each Promise Observable",
+      "url": "https://www.rachitmishra.in/2026/11/10/brand-values-service-standards/"
+    }
+  ],
+  "content_version": 3,
+  "editorial_review": {
+    "approved": true,
+    "issues": [],
+    "reviewer": "Codex editorial review",
+    "reviewed_on": "2026-11-18",
+    "scope": "Source fidelity, novelty against 90-day history, hook-to-payoff connection, visible utility, rendered slides and Reel frames."
+  },
+  "scheduled_for": "2026-11-24T19:00:00+05:30",
+  "status": "draft",
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2026/11/10/brand-values-service-standards/",
+  "source_title": "From Brand Values to Service Standards: Make Each Promise Observable",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "19:00"
+  },
+  "experiment": {
+    "hook_type": "claim",
+    "evidence_type": "source",
+    "format": "reel",
+    "pillar": "ai_marketing",
+    "hook_words": 5,
+    "hook_characters": 32,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "comparison",
+    "schedule": {
+      "active": false,
+      "selected_time": "19:00"
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2026/11/10/brand-values-service-standards/",
+    "final_url": "https://www.rachitmishra.in/2026/11/10/brand-values-service-standards/",
+    "http_status": 200
+  },
+  "reel_assets": {
+    "background": {
+      "source": "designed_gradient"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (12).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-11-23/tue-1900-editorial-review/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "comparison",
+    "checklist",
+    "checklist",
+    "checklist",
+    "comparison"
+  ],
+  "warnings": [],
+  "generation_provenance": {
+    "method": "Codex-authored recovery draft",
+    "initial_run_id": 43885030408,
+    "recovery_run_id": 44053357731,
+    "note": "The initial run completed five posts; the recovery run timed out. This final batch was completed and reviewed editorially."
+  }
+}

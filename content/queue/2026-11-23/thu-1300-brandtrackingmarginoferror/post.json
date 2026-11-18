@@ -1,0 +1,252 @@
+{
+  "title": "brandtrackingmarginoferror",
+  "pillar": "reputation",
+  "format": "reel",
+  "primary_keyword": "brand tracking",
+  "claim": "A three-percentage-point change is inconclusive in the illustrated comparison of two independent random samples of 300 near 50%.",
+  "hook": "Is a 3-point brand lift just noise?",
+  "useful_takeaway": {
+    "kind": "worked_example",
+    "visible_steps": [
+      "Are waves independent or paired?",
+      "Show uncertainty around the change",
+      "If zero is included, call it inconclusive"
+    ]
+  },
+  "evidence": {
+    "type": "source",
+    "detail": "Source sample-size example, with corrected interpretation: independent random samples n=300 each, proportions near 0.5, normal 95% margin on the difference = 1.96 sqrt(0.5/300), approximately 8.0 percentage points, not twice the single-wave margin.",
+    "source_url": "https://www.rachitmishra.in/2026/09/04/brand-tracking-study-b2b/"
+  },
+  "reel_cover": {
+    "headline": "Brand lift or survey noise?",
+    "signal": "Check the error bars",
+    "layout": "split",
+    "visual": {
+      "kind": "comparison",
+      "items": [
+        {
+          "label": "Reported change",
+          "detail": "Plus 3 percentage points"
+        },
+        {
+          "label": "Question",
+          "detail": "Does the interval include zero?"
+        }
+      ],
+      "note": "Illustrative independent-sample comparison"
+    }
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:04",
+      "onscreen": "Is a 3-point brand lift just noise?",
+      "voiceover": "Is a 3-point brand lift just noise?",
+      "direction": "Readable type and bottle-green infographic on the current plain background."
+    },
+    {
+      "timecode": "0:04-0:15",
+      "onscreen": "Start with the sample, not the headline.",
+      "voiceover": "Start with the sample, not the headline.",
+      "direction": "Readable type and bottle-green infographic on the current plain background.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Wave one",
+            "detail": "300 randomly sampled respondents"
+          },
+          {
+            "label": "Wave two",
+            "detail": "300 independent respondents"
+          }
+        ],
+        "note": "Proportions near 50%; illustrative case"
+      }
+    },
+    {
+      "timecode": "0:15-0:24",
+      "onscreen": "One wave: about +/- 5.7 points.",
+      "voiceover": "One wave: about +/- 5.7 points.",
+      "direction": "Readable type and bottle-green infographic on the current plain background.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Single-wave margin",
+            "detail": "1.96 x sqrt(0.25 / 300)"
+          },
+          {
+            "label": "Confidence level",
+            "detail": "Approximate 95% interval"
+          }
+        ],
+        "note": "Practical checklist"
+      }
+    },
+    {
+      "timecode": "0:24-0:34",
+      "onscreen": "Two waves: about +/- 8.0 points.",
+      "voiceover": "Two waves: about +/- 8.0 points.",
+      "direction": "Readable type and bottle-green infographic on the current plain background.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Difference margin",
+            "detail": "1.96 x sqrt(0.5 / 300)"
+          },
+          {
+            "label": "Why larger?",
+            "detail": "Both independent estimates have error"
+          }
+        ],
+        "note": "Practical checklist"
+      }
+    },
+    {
+      "timecode": "0:34-0:46",
+      "onscreen": "A 3-point rise is inconclusive here.",
+      "voiceover": "A 3-point rise is inconclusive here.",
+      "direction": "Readable type and bottle-green infographic on the current plain background.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Observed rise",
+            "detail": "Plus 3 percentage points"
+          },
+          {
+            "label": "Approximate interval",
+            "detail": "Minus 5 to plus 11 points"
+          }
+        ],
+        "note": "Includes zero; this does not prove no effect"
+      }
+    },
+    {
+      "timecode": "0:46-1:02",
+      "onscreen": "Ask these before the next tracker report.",
+      "voiceover": "Ask these before the next tracker report.",
+      "direction": "Readable type and bottle-green infographic on the current plain background.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Sample design",
+            "detail": "Are waves independent or paired?"
+          },
+          {
+            "label": "Respondents",
+            "detail": "Do they actually buy this category?"
+          },
+          {
+            "label": "Chart",
+            "detail": "Show uncertainty around the change"
+          },
+          {
+            "label": "Interpretation",
+            "detail": "If zero is included, call it inconclusive"
+          }
+        ],
+        "note": "Practical checklist"
+      }
+    },
+    {
+      "timecode": "1:02-1:06",
+      "onscreen": "Error bars belong beside the headline.",
+      "voiceover": "Error bars belong beside the headline.",
+      "direction": "Readable type and bottle-green infographic on the current plain background."
+    }
+  ],
+  "caption": "Is a 3-point brand lift just noise?\n\nBrand tracking needs uncertainty beside the change. In this simplified example, two independent samples of 300 near 50% give a margin of about 8 points on their difference.\n\nThat is about 1.41 times one wave, not twice. Weighted, clustered or paired samples need a design-specific calculation. An inconclusive result does not prove no effect.\n\nFull article: https://www.rachitmishra.in/2026/09/04/brand-tracking-study-b2b/\n\n[brand tracking, survey design, measurement]",
+  "alt_text": "Split screen graph detailing margin of error calculations and B2B brand tracker sample limits.",
+  "hashtags": [
+    "#brandtracking",
+    "#marketresearch",
+    "#marketingmeasurement"
+  ],
+  "cta": "Send this to whoever is approving the market research budget this quarter.",
+  "failure_mode": "If the post focuses abstractly on research philosophy rather than the worked survey arithmetic, B2B communicators will dismiss it as generic advice.",
+  "sources": [
+    {
+      "title": "Brand Tracking Study: Why Yours Hasn’t Moved in Two Years",
+      "url": "https://www.rachitmishra.in/2026/09/04/brand-tracking-study-b2b/"
+    }
+  ],
+  "content_version": 3,
+  "editorial_review": {
+    "approved": true,
+    "issues": [],
+    "reviewer": "Codex editorial review",
+    "reviewed_on": "2026-11-18",
+    "scope": "Source fidelity, novelty against 90-day history, hook-to-payoff connection, visible utility, rendered slides and Reel frames."
+  },
+  "scheduled_for": "2026-11-26T13:00:00+05:30",
+  "status": "draft",
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2026/09/04/brand-tracking-study-b2b/",
+  "source_title": "Brand Tracking Study: Why Yours Hasn’t Moved in Two Years",
+  "schedule_experiment": {
+    "active": true,
+    "selected_time": "13:00",
+    "candidates": [
+      "13:00",
+      "17:00"
+    ],
+    "week_index": 0
+  },
+  "experiment": {
+    "hook_type": "claim",
+    "evidence_type": "source",
+    "format": "reel",
+    "pillar": "reputation",
+    "hook_words": 7,
+    "hook_characters": 35,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "comparison",
+    "schedule": {
+      "active": true,
+      "selected_time": "13:00",
+      "candidates": [
+        "13:00",
+        "17:00"
+      ],
+      "week_index": 0
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2026/09/04/brand-tracking-study-b2b/",
+    "final_url": "https://www.rachitmishra.in/2026/09/04/brand-tracking-study-b2b/",
+    "http_status": 200
+  },
+  "reel_assets": {
+    "background": {
+      "source": "designed_gradient"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (12).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-11-23/thu-1300-brandtrackingmarginoferror/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "comparison",
+    "checklist",
+    "checklist",
+    "comparison",
+    "checklist"
+  ],
+  "warnings": [],
+  "generation_provenance": {
+    "method": "Gemini draft, rewritten during Codex editorial review",
+    "initial_run_id": 43885030408,
+    "recovery_run_id": 44053357731,
+    "note": "The initial run completed five posts; the recovery run timed out. This final batch was completed and reviewed editorially."
+  }
+}

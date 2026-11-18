@@ -1,0 +1,250 @@
+{
+  "title": "firstsixtyminutesprotocol",
+  "pillar": "inside_the_org",
+  "format": "carousel",
+  "primary_keyword": "crisis communication plan",
+  "claim": "A practical crisis rehearsal should test whether a named alternate can publish a verified holding update when the primary approver is unreachable.",
+  "hook": "Who publishes when the approver is asleep?",
+  "evidence": {
+    "type": "source",
+    "detail": "The article calls for a named lead and alternate, written authority, pre-approved holding copy, an employee route and a live rehearsal.",
+    "source_url": "https://www.rachitmishra.in/2026/09/02/crisis-communication-plan/"
+  },
+  "useful_takeaway": {
+    "kind": "template",
+    "visible_steps": [
+      "We are aware of [verified incident].",
+      "Our next update is due at [time].",
+      "Name an alternate with written authority",
+      "Test the alternate can access the channel"
+    ]
+  },
+  "slides": [
+    {
+      "headline": "Who publishes when the approver is asleep?"
+    },
+    {
+      "headline": "Test the backup, not the slide deck.",
+      "body": "In your next rehearsal, make the primary approver unavailable. Can the alternate find their authority?",
+      "kicker": "01 / THE REHEARSAL",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Scenario",
+            "detail": "Primary approver cannot be reached"
+          },
+          {
+            "label": "Pass condition",
+            "detail": "Alternate can act within written scope"
+          }
+        ],
+        "note": "Practical checklist"
+      }
+    },
+    {
+      "headline": "Put the publishing decision on one page.",
+      "body": "Agree roles and escalation limits before an incident, with the relevant operational and legal teams.",
+      "kicker": "02 / THE CARD",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Lead",
+            "detail": "Name and current contact details"
+          },
+          {
+            "label": "Alternate",
+            "detail": "Name and current contact details"
+          },
+          {
+            "label": "Authority",
+            "detail": "What each person may publish"
+          },
+          {
+            "label": "Boundary",
+            "detail": "What must escalate for further review"
+          }
+        ],
+        "note": "Practical checklist"
+      }
+    },
+    {
+      "headline": "Pre-approve the structure. Verify each statement.",
+      "body": "A holding update can acknowledge uncertainty. It must not invent causes, safety facts or actions.",
+      "kicker": "03 / THE COPY",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Known",
+            "detail": "State only what has been verified"
+          },
+          {
+            "label": "Unknown",
+            "detail": "Say what is still being checked"
+          },
+          {
+            "label": "Next update",
+            "detail": "Give a time the team can honour"
+          }
+        ],
+        "note": "Practical checklist"
+      }
+    },
+    {
+      "headline": "Use this short holding-update skeleton.",
+      "body": "Fill in confirmed details only. Remove any line the team cannot substantiate.",
+      "kicker": "04 / COPY THIS",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Acknowledgment",
+            "detail": "We are aware of [verified incident]."
+          },
+          {
+            "label": "Current action",
+            "detail": "We are checking [unconfirmed detail]."
+          },
+          {
+            "label": "Commitment",
+            "detail": "Our next update is due at [time]."
+          },
+          {
+            "label": "Contact",
+            "detail": "For questions: [named contact]."
+          }
+        ],
+        "note": "Adapt within your approved incident process"
+      }
+    },
+    {
+      "headline": "Run the drill with the people who will act.",
+      "body": "Use a fictional incident. Record where the decision stalled and who can remove the obstacle.",
+      "kicker": "05 / THE DRILL",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Start",
+            "detail": "Trigger the rehearsal scenario"
+          },
+          {
+            "label": "Observe",
+            "detail": "Time each handoff and approval"
+          },
+          {
+            "label": "Debrief",
+            "detail": "Record each delay and its owner"
+          }
+        ],
+        "note": "Practical checklist"
+      }
+    },
+    {
+      "headline": "Leave the rehearsal with three concrete fixes.",
+      "body": "The useful output is a working backup route, not a revised presentation.",
+      "kicker": "06 / USE THIS",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Role",
+            "detail": "Name an alternate with written authority"
+          },
+          {
+            "label": "Copy",
+            "detail": "Verify every claim in the holding update"
+          },
+          {
+            "label": "Route",
+            "detail": "Test the alternate can access the channel"
+          }
+        ],
+        "note": "Practical checklist"
+      }
+    },
+    {
+      "headline": "An alternate is useful only if they can act.",
+      "body": "Send this to the team running your next crisis rehearsal. Full planning guide on the blog."
+    }
+  ],
+  "caption": "Who publishes when the approver is asleep?\n\nA crisis communication plan needs a working alternate. Test that person in a rehearsal with the primary approver unavailable.\n\nA short holding update may acknowledge uncertainty; it must still be accurate. Do not claim a cause, safety outcome or action you have not verified.\n\nGuide: https://www.rachitmishra.in/2026/09/02/crisis-communication-plan/\n\nSend this to whoever runs your next rehearsal.\n\n[crisis communication plan, holding statement, incident rehearsal]",
+  "alt_text": "Crisis communication 60-minute protocol framework diagram showing five timed decision boxes.",
+  "hashtags": [
+    "#crisiscommunication",
+    "#corporatecommunications",
+    "#crisisplanning"
+  ],
+  "cta": "Send this to whoever is responsible for updating your organisation's risk management protocols this quarter.",
+  "failure_mode": "Readers might confuse a factless holding statement with avoiding accountability, missing the distinction between confirming operational oversight and stating unverified facts.",
+  "sources": [
+    {
+      "title": "Crisis Communication Plan: The First 60 Minutes",
+      "url": "https://www.rachitmishra.in/2026/09/02/crisis-communication-plan/"
+    }
+  ],
+  "content_version": 3,
+  "editorial_review": {
+    "approved": true,
+    "issues": [],
+    "reviewer": "Codex editorial review",
+    "reviewed_on": "2026-11-18",
+    "scope": "Source fidelity, novelty against 90-day history, hook-to-payoff connection, visible utility, rendered slides and Reel frames."
+  },
+  "scheduled_for": "2026-11-28T10:30:00+05:30",
+  "status": "draft",
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2026/09/02/crisis-communication-plan/",
+  "source_title": "Crisis Communication Plan: The First 60 Minutes",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "10:30"
+  },
+  "experiment": {
+    "hook_type": "claim",
+    "evidence_type": "source",
+    "format": "carousel",
+    "pillar": "inside_the_org",
+    "hook_words": 7,
+    "hook_characters": 42,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "10:30"
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2026/09/02/crisis-communication-plan/",
+    "final_url": "https://www.rachitmishra.in/2026/09/02/crisis-communication-plan/",
+    "http_status": 200
+  },
+  "images": [
+    "content/queue/2026-11-23/sat-1030-firstsixtyminutesprotocol/slide-01.jpg",
+    "content/queue/2026-11-23/sat-1030-firstsixtyminutesprotocol/slide-02.jpg",
+    "content/queue/2026-11-23/sat-1030-firstsixtyminutesprotocol/slide-03.jpg",
+    "content/queue/2026-11-23/sat-1030-firstsixtyminutesprotocol/slide-04.jpg",
+    "content/queue/2026-11-23/sat-1030-firstsixtyminutesprotocol/slide-05.jpg",
+    "content/queue/2026-11-23/sat-1030-firstsixtyminutesprotocol/slide-06.jpg",
+    "content/queue/2026-11-23/sat-1030-firstsixtyminutesprotocol/slide-07.jpg",
+    "content/queue/2026-11-23/sat-1030-firstsixtyminutesprotocol/slide-08.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "checklist",
+    "checklist",
+    "checklist",
+    "checklist",
+    "checklist"
+  ],
+  "warnings": [],
+  "generation_provenance": {
+    "method": "Gemini draft, rewritten during Codex editorial review",
+    "initial_run_id": 43885030408,
+    "recovery_run_id": 44053357731,
+    "note": "The initial run completed five posts; the recovery run timed out. This final batch was completed and reviewed editorially."
+  }
+}

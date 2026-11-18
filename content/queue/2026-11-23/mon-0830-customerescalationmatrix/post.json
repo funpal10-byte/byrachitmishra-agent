@@ -1,0 +1,217 @@
+{
+  "title": "customerescalationmatrix",
+  "pillar": "b2b_brand",
+  "format": "reel",
+  "primary_keyword": "customer escalation matrix",
+  "claim": "Separating technical resolution from customer communication gives each update commitment an explicit owner during a service disruption.",
+  "hook": "Nobody owns the next customer update.",
+  "evidence": {
+    "type": "source",
+    "detail": "An escalation matrix separates technical resolution ownership from communication ownership across explicit severity triggers and agreed update times.",
+    "source_url": "https://www.rachitmishra.in/2026/11/13/b2b-customer-escalation-matrix/"
+  },
+  "useful_takeaway": {
+    "kind": "template",
+    "visible_steps": [
+      "Resolution owner: coordinates technical fix",
+      "Communication owner: owns customer updates",
+      "Escalation trigger: missed update window",
+      "Next update time: explicit customer commitment"
+    ]
+  },
+  "reel_cover": {
+    "headline": "Who owns the customer update?",
+    "signal": "Dual Ownership Rule",
+    "layout": "split",
+    "visual": {
+      "kind": "bottleneck",
+      "items": [
+        {
+          "label": "Technical Fix",
+          "detail": "Operations checks facts"
+        },
+        {
+          "label": "Customer Update",
+          "detail": "No named comms owner"
+        }
+      ],
+      "note": "Illustrative workflow"
+    }
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:04",
+      "onscreen": "Nobody owns the next customer update.",
+      "voiceover": "Nobody owns the next customer update.",
+      "direction": "Text on dark slate background showing a split internal workflow diagram."
+    },
+    {
+      "timecode": "0:04-0:12",
+      "onscreen": "Separate resolution from communication.",
+      "voiceover": "Separate the technical fix from customer updates. Name two explicit owners for every issue.",
+      "direction": "Diagram highlighting dual ownership roles.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Resolution Owner",
+            "detail": "Coordinates technical fix"
+          },
+          {
+            "label": "Communication Owner",
+            "detail": "Owns customer updates"
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "timecode": "0:12-0:23",
+      "onscreen": "Define observable escalation triggers.",
+      "voiceover": "Never rely on unhappy customers as a trigger. Use missed windows, changing impact, or repeat issues.",
+      "direction": "Text checklist overlay showing operational triggers.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Missed window",
+            "detail": "Escalation trigger: missed update window"
+          },
+          {
+            "label": "Impact change",
+            "detail": "Uncertain recovery timeline"
+          },
+          {
+            "label": "Repeat failure",
+            "detail": "Cross-functional owner assigned"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:23-0:27",
+      "onscreen": "Commit to the next update time.",
+      "voiceover": "Make the next update time an explicit commitment, even when the fix date is still unknown.",
+      "direction": "Graphic showing update commitment distinction."
+    },
+    {
+      "timecode": "0:27-0:41",
+      "onscreen": "B2B Customer Escalation Matrix",
+      "voiceover": "Record an accountable lead and backup for every severity level before confusion becomes a second crisis.",
+      "direction": "Matrix view showing roles and update commitments.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Resolution owner",
+            "detail": "Resolution owner: coordinates technical fix"
+          },
+          {
+            "label": "Comm owner",
+            "detail": "Communication owner: owns customer updates"
+          },
+          {
+            "label": "Trigger",
+            "detail": "Escalation trigger: missed update window"
+          },
+          {
+            "label": "Commitment",
+            "detail": "Next update time: explicit customer commitment"
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:41-0:45",
+      "onscreen": "Can the backup find the last promise?",
+      "voiceover": "Can the backup find the last promise?",
+      "direction": "Rehearsal scenario graphic."
+    },
+    {
+      "timecode": "0:45-0:49",
+      "onscreen": "Reputation is an operating outcome.",
+      "voiceover": "Reputation is an operating outcome. Check whether your last escalated issue had a named communication owner.",
+      "direction": "Final summary slide."
+    }
+  ],
+  "caption": "Nobody owns the next customer update.\n\nA customer escalation matrix needs two names: who coordinates the fix, and who tells the customer what happens next.\n\nAn update time is a promise you can keep even when the repair date is uncertain. Record the last commitment where the backup contact can find it.\n\nFull matrix: https://www.rachitmishra.in/2026/11/13/b2b-customer-escalation-matrix/\n\nSend this to your service and account leads.\n\n[customer escalation matrix, customer updates, service recovery]",
+  "alt_text": "Diagram of a B2B customer escalation matrix showing separate technical and communication owners.",
+  "hashtags": [
+    "#customerexperience",
+    "#accountmanagement",
+    "#serviceoperations"
+  ],
+  "cta": "Send this to whoever owns customer operations and account management in your organisation.",
+  "failure_mode": "This post could land poorly if presented as generic customer service advice rather than a structural B2B governance framework with explicit role separation.",
+  "sources": [
+    {
+      "title": "Who Owns the Customer Update? A B2B Escalation Matrix",
+      "url": "https://www.rachitmishra.in/2026/11/13/b2b-customer-escalation-matrix/"
+    }
+  ],
+  "content_version": 3,
+  "editorial_review": {
+    "approved": true,
+    "issues": [],
+    "reviewer": "Codex editorial review",
+    "reviewed_on": "2026-11-18",
+    "scope": "Source fidelity, novelty against 90-day history, hook-to-payoff connection, visible utility, rendered slides and Reel frames."
+  },
+  "scheduled_for": "2026-11-23T08:30:00+05:30",
+  "status": "draft",
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2026/11/13/b2b-customer-escalation-matrix/",
+  "source_title": "Who Owns the Customer Update? A B2B Escalation Matrix",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "08:30"
+  },
+  "experiment": {
+    "hook_type": "claim",
+    "evidence_type": "source",
+    "format": "reel",
+    "pillar": "b2b_brand",
+    "hook_words": 6,
+    "hook_characters": 37,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "bottleneck",
+    "schedule": {
+      "active": false,
+      "selected_time": "08:30"
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2026/11/13/b2b-customer-escalation-matrix/",
+    "final_url": "https://www.rachitmishra.in/2026/11/13/b2b-customer-escalation-matrix/",
+    "http_status": 200
+  },
+  "reel_assets": {
+    "background": {
+      "source": "designed_gradient"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (1).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-11-23/mon-0830-customerescalationmatrix/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "bottleneck",
+    "comparison",
+    "checklist",
+    "checklist"
+  ],
+  "warnings": [],
+  "generation_provenance": {
+    "method": "Gemini draft, rewritten during Codex editorial review",
+    "initial_run_id": 43885030408,
+    "recovery_run_id": 44053357731,
+    "note": "The initial run completed five posts; the recovery run timed out. This final batch was completed and reviewed editorially."
+  }
+}
