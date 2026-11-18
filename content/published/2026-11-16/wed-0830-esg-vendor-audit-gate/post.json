@@ -104,7 +104,7 @@
   "cta": "Send this to whoever is reviewing your corporate comms strategy before the next audit cycle.",
   "failure_mode": "If the viewer works in consumer D2C where vendor procurement gates do not exist, the framework will feel overly technical and corporate.",
   "scheduled_for": "2026-11-18T08:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -146,5 +146,7 @@
     "checklist",
     "checklist"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-11-18T09:41:17.120287+05:30",
+  "media_id": "18130709017870573"
 }
