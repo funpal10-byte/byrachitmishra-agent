@@ -111,7 +111,7 @@
   "cta": "Send this to whoever approves corporate releases before plant sign-off.",
   "failure_mode": "Could be misread as basic advice on corporate compliance rather than a practical governance gate for industrial comms teams.",
   "scheduled_for": "2026-11-19T17:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -163,5 +163,7 @@
     "checklist",
     "bottleneck"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-11-19T18:22:22.984998+05:30",
+  "media_id": "18082542431727594"
 }
