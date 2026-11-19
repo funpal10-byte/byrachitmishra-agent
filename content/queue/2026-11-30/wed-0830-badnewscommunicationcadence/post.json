@@ -1,0 +1,234 @@
+{
+  "title": "badnewscommunicationcadence",
+  "pillar": "reputation",
+  "format": "reel",
+  "primary_keyword": "crisis communication",
+  "claim": "Waiting for complete information during a corporate crisis backfires because silence is filled with speculation, making an early honest holding update essential.",
+  "hook": "Silence is read as the worst case.",
+  "evidence": {
+    "type": "source",
+    "detail": "Edelman Trust Barometer research shows that communicating early and honestly during a crisis affects trust recovery more than the severity of the incident itself.",
+    "source_url": "https://www.rachitmishra.in/2025/01/20/the-art-of-effective-communication-unlocking-the-power-of-connection/"
+  },
+  "useful_takeaway": {
+    "kind": "checklist",
+    "visible_steps": [
+      "Acknowledge fast without full facts",
+      "Commit to a next-update date",
+      "Update on schedule even when nothing is new"
+    ]
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:10",
+      "onscreen": "Silence is read as the worst case.",
+      "voiceover": "Silence is read as the worst case. Waiting for complete information during a crisis backfires because stakeholders fill the gap with speculation.",
+      "direction": "Static view of an unlit meeting room table with a printed memo.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Gathering facts",
+            "detail": "Takes days while silence deepens."
+          },
+          {
+            "label": "Speculation",
+            "detail": "Defaults to the worst interpretation."
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "timecode": "0:10-0:22",
+      "onscreen": "Acknowledge fast without full facts",
+      "voiceover": "The first statement does not explain everything. It confirms awareness and active investigation.",
+      "direction": "Close-up of a hand highlighting a drafted holding statement.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Confirm awareness",
+            "detail": "State clearly that you know of the issue."
+          },
+          {
+            "label": "State investigation",
+            "detail": "Confirm an active internal review is underway."
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:22-0:32",
+      "onscreen": "Commit to a next-update date",
+      "voiceover": "Instead of a premature conclusion you might have to walk back, set a concrete time for the next update.",
+      "direction": "Shot of a calendar invite set for a scheduled status release.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Premature promise",
+            "detail": "Damages trust when walked back later."
+          },
+          {
+            "label": "Concrete cadence",
+            "detail": "Replaces open-ended silence with structure."
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "timecode": "0:32-0:44",
+      "onscreen": "Update on schedule even when nothing is new",
+      "voiceover": "If the deadline arrives and investigations continue, state that explicitly. Going quiet again destroys credibility.",
+      "direction": "Flipping through a project status tracker showing repeated checkpoints.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Meet the deadline",
+            "detail": "Issue an update on schedule."
+          },
+          {
+            "label": "Admit ongoing work",
+            "detail": "State you are still investigating."
+          }
+        ],
+        "note": "Suggested check"
+      }
+    },
+    {
+      "timecode": "0:44-0:54",
+      "onscreen": "Separate legal risk from human tone.",
+      "voiceover": "Legal reviews for liability exposure. Communications owns whether the statement sounds like it was written by an accountable person.",
+      "direction": "Flipping a printed document between two reviewers.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Legal review",
+            "detail": "Minimises liability and factual risk."
+          },
+          {
+            "label": "Communications",
+            "detail": "Ensures tone sounds human and honest."
+          }
+        ],
+        "note": "Illustrative workflow"
+      }
+    },
+    {
+      "timecode": "0:54-1:04",
+      "onscreen": "Discipline builds trust before a crisis hits.",
+      "voiceover": "The organisations that build a reputation for straight talk on routine bad news are the ones whose crisis communication gets believed.",
+      "direction": "Closing shot of a governance playbook open on a desk.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Routine bad news",
+            "detail": "Practice straight talk daily."
+          },
+          {
+            "label": "Crisis credibility",
+            "detail": "Earned through prior transparency."
+          }
+        ],
+        "note": "Suggested check"
+      }
+    }
+  ],
+  "reel_cover": {
+    "visual": {
+      "kind": "bottleneck",
+      "items": [
+        {
+          "label": "Incomplete facts",
+          "detail": "Investigation takes weeks."
+        },
+        {
+          "label": "Silence",
+          "detail": "Invites damaging speculation."
+        }
+      ],
+      "note": "Illustrative workflow"
+    },
+    "headline": "Bad news breaks early",
+    "signal": "Acknowledge fast",
+    "layout": "split"
+  },
+  "caption": "Silence is read as the worst case.\n\nEffective crisis communication requires acting before facts are complete.\n\nMost teams wait for a full picture before issuing a statement. That instinct protects the organisation internally but destroys trust externally, because silence leaves stakeholders to assume the worst.\n\nThe fix is an acknowledge-commit-update cadence. Acknowledge within hours with an honest holding statement, commit to a specific time for the next update rather than a premature conclusion, and publish on schedule even if you only have progress to report.\n\nThe long version of this framework and the source research from Edelman and HBR are available in the full article: https://www.rachitmishra.in/2025/01/20/the-art-of-effective-communication-unlocking-the-power-of-connection/\n\nLegal reviews for liability. Communications owns whether a human being wrote it.\n\nSend this to whoever is drafting your next holding statement.\n\n[crisis communication, corporate reputation, crisis management, stakeholder trust]",
+  "alt_text": "Close-up of a crisis communication plan document with marked checklist items on a dark wooden desk.",
+  "hashtags": [
+    "#crisiscommunication",
+    "#corporatereputation",
+    "#internalcomms"
+  ],
+  "cta": "Send this to whoever is drafting your next holding statement.",
+  "failure_mode": "Readers might assume this only applies to major corporate scandals rather than routine commercial bad news like delayed launches or missed targets.",
+  "sources": [
+    {
+      "title": "Corporate Communication When the News Is Bad",
+      "url": "https://www.rachitmishra.in/2025/01/20/the-art-of-effective-communication-unlocking-the-power-of-connection/"
+    }
+  ],
+  "content_version": 3,
+  "editorial_review": {
+    "approved": true,
+    "issues": []
+  },
+  "scheduled_for": "2026-12-02T08:30:00+05:30",
+  "status": "draft",
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2025/01/20/the-art-of-effective-communication-unlocking-the-power-of-connection/",
+  "source_title": "Corporate Communication When the News Is Bad",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "08:30"
+  },
+  "experiment": {
+    "hook_type": "claim",
+    "evidence_type": "source",
+    "format": "reel",
+    "pillar": "reputation",
+    "hook_words": 7,
+    "hook_characters": 34,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "bottleneck",
+    "schedule": {
+      "active": false,
+      "selected_time": "08:30"
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2025/01/20/the-art-of-effective-communication-unlocking-the-power-of-connection/",
+    "final_url": "https://www.rachitmishra.in/2025/01/20/the-art-of-effective-communication-unlocking-the-power-of-connection/",
+    "http_status": 200
+  },
+  "reel_assets": {
+    "background": {
+      "source": "designed_gradient"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (12).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-11-30/wed-0830-badnewscommunicationcadence/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "bottleneck",
+    "bottleneck",
+    "checklist",
+    "comparison",
+    "checklist",
+    "comparison",
+    "checklist"
+  ],
+  "warnings": []
+}

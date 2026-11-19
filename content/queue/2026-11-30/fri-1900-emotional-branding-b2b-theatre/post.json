@@ -1,0 +1,390 @@
+{
+  "type": "object",
+  "required": [
+    "title",
+    "pillar",
+    "format",
+    "primary_keyword",
+    "claim",
+    "hook",
+    "evidence",
+    "caption",
+    "alt_text",
+    "hashtags",
+    "failure_mode"
+  ],
+  "properties": {
+    "useful_takeaway": {
+      "type": "object",
+      "required": [
+        "kind",
+        "visible_steps"
+      ],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "prompt",
+            "template",
+            "checklist",
+            "worked_example",
+            "decision_test"
+          ]
+        },
+        "visible_steps": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 5,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "title": {
+      "type": "string"
+    },
+    "pillar": {
+      "type": "string"
+    },
+    "format": {
+      "type": "string",
+      "enum": [
+        "carousel",
+        "reel",
+        "still"
+      ]
+    },
+    "primary_keyword": {
+      "type": "string"
+    },
+    "claim": {
+      "type": "string"
+    },
+    "hook": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "object",
+      "required": [
+        "type",
+        "detail"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "source",
+            "case_study",
+            "practitioner_observation",
+            "framework"
+          ]
+        },
+        "detail": {
+          "type": "string"
+        },
+        "source_url": {
+          "type": "string"
+        }
+      }
+    },
+    "slides": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "headline"
+        ],
+        "properties": {
+          "kicker": {
+            "type": "string"
+          },
+          "headline": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          },
+          "visual": {
+            "type": "object",
+            "required": [
+              "kind",
+              "items",
+              "note"
+            ],
+            "properties": {
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "bottleneck",
+                  "comparison",
+                  "checklist"
+                ]
+              },
+              "items": {
+                "type": "array",
+                "minItems": 2,
+                "maxItems": 4,
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "label",
+                    "detail"
+                  ],
+                  "properties": {
+                    "label": {
+                      "type": "string",
+                      "maxLength": 24
+                    },
+                    "detail": {
+                      "type": "string",
+                      "maxLength": 48
+                    }
+                  }
+                }
+              },
+              "note": {
+                "type": "string",
+                "maxLength": 60
+              }
+            }
+          }
+        }
+      }
+    },
+    "caption": {
+      "type": "string"
+    },
+    "alt_text": {
+      "type": "string"
+    },
+    "hashtags": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 5,
+      "items": {
+        "type": "string"
+      }
+    },
+    "cta": {
+      "type": "string"
+    },
+    "failure_mode": {
+      "type": "string"
+    }
+  },
+  "title": "emotional_branding_b2b_theatre",
+  "pillar": "ai_in_practice",
+  "format": "carousel",
+  "primary_keyword": "emotional branding in b2b",
+  "claim": "Emotional branding in B2B fails when it copies consumer aspiration instead of addressing the buyer's career risk.",
+  "hook": "Consumer emotional branding is B2B theatre.",
+  "evidence": {
+    "type": "source",
+    "detail": "Bain's Harvard Business Review research shows reducing personal and professional risk ranks highest for B2B buyers, far above aspirational brand-image elements.",
+    "source_url": "https://www.rachitmishra.in/2025/01/20/harnessing-the-power-of-emotional-branding-the-key-to-lasting-connections/"
+  },
+  "useful_takeaway": {
+    "kind": "decision_test",
+    "visible_steps": [
+      "Remove all imagery and read only the words.",
+      "Check if aspirational language lacks proof.",
+      "Verify if it stands alone in a budget review."
+    ]
+  },
+  "slides": [
+    {
+      "headline": "Consumer emotional branding is B2B theatre."
+    },
+    {
+      "kicker": "The Buyer's Reality",
+      "headline": "Career risk drives B2B choices, not aspiration.",
+      "body": "The buyer isn't asking if a brand feels good. They are asking if a vendor failure takes their job with it.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Consumer purchase",
+            "detail": "Personal choice with immediate emotional payoff"
+          },
+          {
+            "label": "B2B purchase",
+            "detail": "Spending company money with severe career risk"
+          }
+        ],
+        "note": "Based on B2B Institute and Bain HBR findings"
+      }
+    },
+    {
+      "kicker": "The Wrong Emotion",
+      "headline": "Aspirational campaigns test flat with buyers.",
+      "body": "Borrowing lifestyle messaging for industrial software or equipment creates confusion instead of connection.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Creative review",
+            "detail": "Aspirational lifestyle messaging approved"
+          },
+          {
+            "label": "Buyer reaction",
+            "detail": "Tested flat and viewed as irrelevant"
+          }
+        ],
+        "note": "Observed creative review pattern"
+      }
+    },
+    {
+      "kicker": "The Right Emotion",
+      "headline": "Trust and safety are the real B2B levers.",
+      "body": "Edelman's Trust Barometer confirms that vendor trust directly influences B2B purchase intent as much as core features.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Theatre",
+            "detail": "Belonging, identity, and lifestyle association"
+          },
+          {
+            "label": "Substance",
+            "detail": "Trust, safety, and de-risking recommendations"
+          }
+        ],
+        "note": "Derived from Edelman Trust Barometer data"
+      }
+    },
+    {
+      "kicker": "Evidence Over Mood",
+      "headline": "Make the recommendation easy to defend.",
+      "body": "Validation lets risk-averse buyers externalize recommendation risk.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Case studies",
+            "detail": "Show someone took the risk first"
+          },
+          {
+            "label": "Analyst validation",
+            "detail": "Provide boardroom-safe external backing"
+          }
+        ],
+        "note": "Gartner B2B buying journey insights"
+      }
+    },
+    {
+      "kicker": "The Audit Test",
+      "headline": "Is your emotional branding theatre or substance?",
+      "body": "Remove the design and read just the text. If there is no proof underneath, it is theatre.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Remove imagery",
+            "detail": "Remove all imagery and read only the words."
+          },
+          {
+            "label": "Check for proof",
+            "detail": "Check if aspirational language lacks proof."
+          },
+          {
+            "label": "Budget check",
+            "detail": "Verify if it stands alone in a budget review."
+          }
+        ],
+        "note": "The B2B copy substance test"
+      }
+    },
+    {
+      "kicker": "Application",
+      "headline": "Audit your last three campaigns against risk.",
+      "body": "Swap lifestyle messaging for transparent track records and peer proof that a risk-averse buyer can defend to leadership.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Review messaging",
+            "detail": "Identify unsupported lifestyle claims"
+          },
+          {
+            "label": "Attach evidence",
+            "detail": "Insert reference proof and case studies"
+          }
+        ],
+        "note": "Forrester B2B content trust patterns"
+      }
+    },
+    {
+      "headline": "De-risk the recommendation before selling the feeling.",
+      "body": "Read the full analysis on emotional branding in B2B at https://www.rachitmishra.in/2025/01/20/harnessing-the-power-of-emotional-branding-the-key-to-lasting-connections/"
+    }
+  ],
+  "caption": "Consumer emotional branding is B2B theatre.\n\nUsing emotional branding in b2b requires focusing on career risk instead of consumer aspiration.\n\nMost industrial marketing borrows consumer language like aspiration and belonging while ignoring that the actual buyer emotional driver is career risk.\n\nWhen you build campaigns around safety and trust instead of lifestyle, pipeline quality improves because buyers can defend the choice internally.\n\nRead the full analysis at https://www.rachitmishra.in/2025/01/20/harnessing-the-power-of-emotional-branding-the-key-to-lasting-connections/\n\nSend this to whoever is defending the brand messaging budget this quarter.\n\n[emotional branding in b2b, b2b marketing, brand trust, risk aversion]",
+  "alt_text": "Carousel slides explaining emotional branding in b2b.",
+  "hashtags": [
+    "#b2bmarketing",
+    "#brandstrategy",
+    "#industrialmarketing"
+  ],
+  "cta": "Send this to whoever is defending the brand messaging budget this quarter.",
+  "failure_mode": "Readers might mistake this for an anti-creativity argument rather than a call to target the correct emotional driver in enterprise sales.",
+  "content_version": 3,
+  "editorial_review": {
+    "approved": true,
+    "issues": []
+  },
+  "scheduled_for": "2026-12-04T19:00:00+05:30",
+  "status": "draft",
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2025/01/20/harnessing-the-power-of-emotional-branding-the-key-to-lasting-connections/",
+  "source_title": "Emotional Branding in B2B: Where It Works and Where It’s Theatre",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "19:00"
+  },
+  "experiment": {
+    "hook_type": "claim",
+    "evidence_type": "source",
+    "format": "carousel",
+    "pillar": "ai_in_practice",
+    "hook_words": 6,
+    "hook_characters": 43,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "19:00"
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2025/01/20/harnessing-the-power-of-emotional-branding-the-key-to-lasting-connections/",
+    "final_url": "https://www.rachitmishra.in/2025/01/20/harnessing-the-power-of-emotional-branding-the-key-to-lasting-connections/",
+    "http_status": 200
+  },
+  "sources": [
+    {
+      "title": "Bain's Harvard Business Review research shows reducing personal and professional risk ranks highest for B2B buyers, far above aspirational brand-image elements.",
+      "url": "https://www.rachitmishra.in/2025/01/20/harnessing-the-power-of-emotional-branding-the-key-to-lasting-connections/"
+    }
+  ],
+  "images": [
+    "content/queue/2026-11-30/fri-1900-emotional-branding-b2b-theatre/slide-01.jpg",
+    "content/queue/2026-11-30/fri-1900-emotional-branding-b2b-theatre/slide-02.jpg",
+    "content/queue/2026-11-30/fri-1900-emotional-branding-b2b-theatre/slide-03.jpg",
+    "content/queue/2026-11-30/fri-1900-emotional-branding-b2b-theatre/slide-04.jpg",
+    "content/queue/2026-11-30/fri-1900-emotional-branding-b2b-theatre/slide-05.jpg",
+    "content/queue/2026-11-30/fri-1900-emotional-branding-b2b-theatre/slide-06.jpg",
+    "content/queue/2026-11-30/fri-1900-emotional-branding-b2b-theatre/slide-07.jpg",
+    "content/queue/2026-11-30/fri-1900-emotional-branding-b2b-theatre/slide-08.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "bottleneck",
+    "comparison",
+    "checklist",
+    "checklist",
+    "checklist"
+  ],
+  "warnings": []
+}

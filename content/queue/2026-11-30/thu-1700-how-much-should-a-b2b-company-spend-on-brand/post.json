@@ -1,0 +1,245 @@
+{
+  "title": "how_much_should_a_b2b_company_spend_on_brand",
+  "pillar": "reputation",
+  "format": "reel",
+  "primary_keyword": "b2b brand budget percentage",
+  "claim": "B2B brand spend is a calculated formula tied to category maturity, not an inherited percentage or a zero-sum fight against demand generation.",
+  "hook": "Why your brand budget is an inherited guess.",
+  "evidence": {
+    "type": "source",
+    "detail": "Gartner's 2026 CMO Spend Survey puts average marketing budgets at 7.8% of revenue, with brand spend running around a third of that. The IPA and LinkedIn's B2B Institute point to a balanced brand-to-activation split.",
+    "source_url": "https://www.rachitmishra.in/2026/07/30/b2b-brand-marketing-budget-percentage/"
+  },
+  "useful_takeaway": {
+    "kind": "checklist",
+    "visible_steps": [
+      "Assess category maturity stage",
+      "Benchmark against Gartner and IPA splits",
+      "Attach a leading indicator",
+      "Defend objective over percentage"
+    ]
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:12",
+      "onscreen": "Why your brand budget is an inherited guess.",
+      "voiceover": "Why your brand budget is an inherited guess.",
+      "direction": "Static shot of a blank corporate spreadsheet budget tab.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Last year's number",
+            "detail": "Carried forward without logic or review."
+          },
+          {
+            "label": "Board defense",
+            "detail": "Zero category benchmark or growth objective."
+          }
+        ],
+        "note": "Default budgeting trap"
+      }
+    },
+    {
+      "timecode": "0:12-0:24",
+      "onscreen": "Gartner: Marketing averages 7.8% revenue.",
+      "voiceover": "Gartner's 2026 CMO Spend Survey puts average marketing budgets at 7.8% of company revenue across large enterprises.",
+      "direction": "Zoom in on survey metric callout.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Total marketing",
+            "detail": "7.8 percent of company revenue on average."
+          },
+          {
+            "label": "Brand building",
+            "detail": "Roughly one third of total marketing spend."
+          }
+        ],
+        "note": "Gartner 2026 benchmark"
+      }
+    },
+    {
+      "timecode": "0:24-0:33",
+      "onscreen": "Assess category maturity stage",
+      "voiceover": "A percentage rule treats every company the same, but category maturity dictates your actual required spend.",
+      "direction": "Display category stage breakdown table.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "New entrant",
+            "detail": "Assess category maturity stage"
+          },
+          {
+            "label": "Category leader",
+            "detail": "Below average due to compounding."
+          }
+        ],
+        "note": "Maturity logic"
+      }
+    },
+    {
+      "timecode": "0:33-0:43",
+      "onscreen": "Benchmark against Gartner and IPA splits",
+      "voiceover": "Treating brand and demand generation as a zero-sum fight guarantees brand loses because demand-gen has a shorter attribution story.",
+      "direction": "Side-by-side comparison of budget allocation arguments.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "IPA split",
+            "detail": "Benchmark against Gartner and IPA splits"
+          },
+          {
+            "label": "Brand building",
+            "detail": "Protects long-term market share."
+          }
+        ],
+        "note": "Allocation conflict"
+      }
+    },
+    {
+      "timecode": "0:43-0:52",
+      "onscreen": "Attach a leading indicator",
+      "voiceover": "When defending to a CFO, lead with the objective, attach the percentage as a mechanism, and report on leading indicators.",
+      "direction": "Highlighting a one-page budgetary rationale.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "State objective",
+            "detail": "Defending share or entering new markets."
+          },
+          {
+            "label": "Metrics",
+            "detail": "Attach a leading indicator"
+          }
+        ],
+        "note": "CFO defense framework"
+      }
+    },
+    {
+      "timecode": "0:52-1:01",
+      "onscreen": "Defend objective over percentage",
+      "voiceover": "Tie your brand budget logic to category maturity so it survives a board conversation.",
+      "direction": "Final summary slide showing the complete formula.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Board rule",
+            "detail": "Defend objective over percentage"
+          },
+          {
+            "label": "Full brief",
+            "detail": "Read the linked article in caption."
+          }
+        ],
+        "note": "Summary takeaway"
+      }
+    }
+  ],
+  "reel_cover": {
+    "headline": "Defending your B2B brand budget",
+    "signal": "7.8% avg",
+    "layout": "signal",
+    "visual": {
+      "kind": "bottleneck",
+      "items": [
+        {
+          "label": "Inherited %",
+          "detail": "Carried forward without category logic."
+        },
+        {
+          "label": "CFO review",
+          "detail": "Requires objective and leading indicators."
+        }
+      ],
+      "note": "Budget defense framework"
+    }
+  },
+  "caption": "Why your brand budget is an inherited guess.\n\nSetting a b2b brand budget percentage requires category logic and benchmarks rather than an inherited guess.\n\nWhen finance asks why marketing needs capital, quoting top-line awareness guarantees a budget cut. You have to anchor the number in category maturity and leading indicators instead of a blind percentage.\n\nThe complete breakdown on building a defensible industrial marketing budget is on my site: https://www.rachitmishra.in/2026/07/30/b2b-brand-marketing-budget-percentage/\n\nSend this to whoever is defending the brand budget this quarter.\n\n[b2b brand budget percentage, marketing budget allocation, b2b marketing strategy, cfo stakeholder management]",
+  "alt_text": "An industrial enterprise budget spreadsheet showing brand versus demand generation.",
+  "hashtags": [
+    "#b2bmarketing",
+    "#brandstrategy",
+    "#marketingbudget"
+  ],
+  "cta": "Send this to whoever is defending the brand budget this quarter.",
+  "failure_mode": "Readers might assume the Gartner benchmark applies equally to early-stage startups and established manufacturers without adjusting for category maturity.",
+  "sources": [
+    {
+      "title": "How Much Should a B2B Company Spend on Brand?",
+      "url": "https://www.rachitmishra.in/2026/07/30/b2b-brand-marketing-budget-percentage/"
+    }
+  ],
+  "content_version": 3,
+  "editorial_review": {
+    "approved": true,
+    "issues": []
+  },
+  "scheduled_for": "2026-12-03T17:00:00+05:30",
+  "status": "draft",
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2026/07/30/b2b-brand-marketing-budget-percentage/",
+  "source_title": "How Much Should a B2B Company Spend on Brand?",
+  "schedule_experiment": {
+    "active": true,
+    "selected_time": "17:00",
+    "candidates": [
+      "13:00",
+      "17:00"
+    ],
+    "week_index": 1
+  },
+  "experiment": {
+    "hook_type": "cost",
+    "evidence_type": "source",
+    "format": "reel",
+    "pillar": "reputation",
+    "hook_words": 8,
+    "hook_characters": 44,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "bottleneck",
+    "schedule": {
+      "active": true,
+      "selected_time": "17:00",
+      "candidates": [
+        "13:00",
+        "17:00"
+      ],
+      "week_index": 1
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2026/07/30/b2b-brand-marketing-budget-percentage/",
+    "final_url": "https://www.rachitmishra.in/2026/07/30/b2b-brand-marketing-budget-percentage/",
+    "http_status": 200
+  },
+  "reel_assets": {
+    "background": {
+      "source": "designed_gradient"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (11).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-11-30/thu-1700-how-much-should-a-b2b-company-spend-on-brand/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "bottleneck",
+    "bottleneck",
+    "comparison",
+    "checklist",
+    "checklist",
+    "checklist",
+    "checklist"
+  ],
+  "warnings": []
+}

@@ -1,0 +1,237 @@
+{
+  "type": "object",
+  "useful_takeaway": {
+    "kind": "checklist",
+    "visible_steps": [
+      "Pick five to eight buying triggers",
+      "Test unprompted brand recall for each",
+      "Pair leading indicator with win rates",
+      "Drop top-line awareness from board decks"
+    ],
+    "visible_steps_checks": true
+  },
+  "title": "brandawarenessiswrongmetric",
+  "pillar": "ai_marketing",
+  "format": "reel",
+  "primary_keyword": "brand awareness metrics",
+  "claim": "Brand awareness scores fail as primary KPIs because they measure name recognition instead of retrieval at the exact moment of need.",
+  "hook": "Awareness scores don't touch purchase moments.",
+  "evidence": {
+    "type": "source",
+    "detail": "Ehrenberg-Bass Institute research shows purchase is predicted by mental availability linked to category entry points, not abstract name recognition.",
+    "source_url": "https://www.rachitmishra.in/2026/08/05/b2b-brand-awareness-metrics/"
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:12",
+      "onscreen": "Awareness scores don't touch purchase moments.",
+      "voiceover": "Awareness scores don't touch purchase moments.",
+      "direction": "Static view of a standard marketing KPI dashboard slide showing an awareness percentage lift.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Quarterly KPI lift",
+            "detail": "+6% prompted awareness score"
+          },
+          {
+            "label": "Commercial result",
+            "detail": "Sales head asks if volume moved"
+          }
+        ],
+        "note": "Reported review metric versus commercial reality"
+      }
+    },
+    {
+      "timecode": "0:12-0:24",
+      "onscreen": "Recognition is not recall at moment of need.",
+      "voiceover": "Recognition is not recall at moment of need.",
+      "direction": "Close-up on a split comparison graphic illustrating recognition versus category retrieval.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Brand Awareness",
+            "detail": "Whether buyers know your name when asked"
+          },
+          {
+            "label": "Mental Availability",
+            "detail": "Whether you are retrieved during a trigger"
+          }
+        ],
+        "note": "Ehrenberg-Bass distinction"
+      }
+    },
+    {
+      "timecode": "0:24-0:35",
+      "onscreen": "Ninety-five percent are not shopping today.",
+      "voiceover": "Ninety-five percent are not shopping today.",
+      "direction": "Graphic showing the 95-5 rule proportion across a standard B2B buying cycle.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "95% Out-of-market",
+            "detail": "Reaching them builds long-term memory"
+          },
+          {
+            "label": "5% Active buyers",
+            "detail": "Already have a short-list built"
+          }
+        ],
+        "note": "LinkedIn B2B Institute proportions"
+      }
+    },
+    {
+      "timecode": "0:35-0:47",
+      "onscreen": "Pick five to eight buying triggers",
+      "voiceover": "Pick five to eight buying triggers",
+      "direction": "Checklist graphic showing operational setup steps.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Pick triggers",
+            "detail": "Pick five to eight buying triggers"
+          },
+          {
+            "label": "Test recall",
+            "detail": "Test unprompted brand recall for each"
+          }
+        ],
+        "note": "Operational replacement for awareness"
+      }
+    },
+    {
+      "timecode": "0:47-0:59",
+      "onscreen": "Pair leading indicator with win rates",
+      "voiceover": "Pair leading indicator with win rates",
+      "direction": "Checklist graphic displaying board reporting steps.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Pair metrics",
+            "detail": "Pair leading indicator with win rates"
+          },
+          {
+            "label": "Drop top-line",
+            "detail": "Drop top-line awareness from board decks"
+          }
+        ],
+        "note": "Defensible board reporting model"
+      }
+    },
+    {
+      "timecode": "0:59-1:09",
+      "onscreen": "Track entry points instead.",
+      "voiceover": "Track entry points instead.",
+      "direction": "Final display showing the two-part board story combining leading and lagging metrics.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Leading metrics",
+            "detail": "Category entry point coverage"
+          },
+          {
+            "label": "Lagging metrics",
+            "detail": "Win rate against named rivals"
+          }
+        ],
+        "note": "Defensible board reporting model"
+      }
+    }
+  ],
+  "reel_cover": {
+    "visual": {
+      "kind": "comparison",
+      "items": [
+        {
+          "label": "Awareness score",
+          "detail": "Easy to raise, impossible to defend"
+        },
+        {
+          "label": "Entry points",
+          "detail": "Tied to real purchasing triggers"
+        }
+      ],
+      "note": "Metric comparison"
+    },
+    "headline": "Why awareness fails boards",
+    "signal": "6% lift ignored",
+    "layout": "split"
+  },
+  "caption": "Awareness scores don't touch purchase moments.\n\nBrand awareness metrics are easy to inflate and impossible to defend.\n\nWhen you present a six-point awareness lift to a commercial committee, the first question is whether sales moved. Brand awareness metrics fail when pipeline stalls because they measure recognition rather than retrieval during an actual buying trigger.\n\nRead the full breakdown on the site: https://www.rachitmishra.in/2026/08/05/b2b-brand-awareness-metrics/\n\nMetrics should survive the second question in the room.\n\nSend this to whoever is defending the brand budget this quarter.\n\n[b2b brand awareness metrics, industrial marketing, mental availability, category entry points, B2B KPIs]",
+  "alt_text": "Comparison chart showing B2B awareness versus entry points.",
+  "hashtags": [
+    "#b2bmarketing",
+    "#brandstrategy",
+    "#industrialmarketing"
+  ],
+  "cta": "Send this to whoever is defending the brand budget this quarter.",
+  "failure_mode": "Readers may dismiss the shift from awareness to entry points as academic if they lack the qualitative research budget to map buying triggers.",
+  "sources": [
+    {
+      "title": "Why B2B Brand Awareness Is the Wrong Metric to Track",
+      "url": "https://www.rachitmishra.in/2026/08/05/b2b-brand-awareness-metrics/"
+    }
+  ],
+  "content_version": 3,
+  "editorial_review": {
+    "approved": true,
+    "issues": []
+  },
+  "scheduled_for": "2026-12-01T19:00:00+05:30",
+  "status": "draft",
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2026/08/05/b2b-brand-awareness-metrics/",
+  "source_title": "Why B2B Brand Awareness Is the Wrong Metric to Track",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "19:00"
+  },
+  "experiment": {
+    "hook_type": "claim",
+    "evidence_type": "source",
+    "format": "reel",
+    "pillar": "ai_marketing",
+    "hook_words": 6,
+    "hook_characters": 46,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "comparison",
+    "schedule": {
+      "active": false,
+      "selected_time": "19:00"
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2026/08/05/b2b-brand-awareness-metrics/",
+    "final_url": "https://www.rachitmishra.in/2026/08/05/b2b-brand-awareness-metrics/",
+    "http_status": 200
+  },
+  "reel_assets": {
+    "background": {
+      "source": "designed_gradient"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (10).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-11-30/tue-1900-brandawarenessiswrongmetric/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "bottleneck",
+    "comparison",
+    "comparison",
+    "checklist",
+    "checklist",
+    "comparison"
+  ],
+  "warnings": []
+}
