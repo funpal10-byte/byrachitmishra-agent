@@ -112,7 +112,7 @@
   "cta": "Send this to whoever is setting your marketing technology guardrails this quarter.",
   "failure_mode": "It risks reading like generic compliance advice if the checklist items are not applied directly to B2B marketing collateral review.",
   "scheduled_for": "2026-11-20T08:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "content_version": 2,
   "source": "editorial",
   "schedule_experiment": {
@@ -155,5 +155,7 @@
     "checklist",
     "checklist"
   ],
-  "warnings": []
+  "warnings": [],
+  "published_at": "2026-11-20T08:32:24.681568+05:30",
+  "media_id": "18180210106452185"
 }
