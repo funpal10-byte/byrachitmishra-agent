@@ -1,0 +1,378 @@
+{
+  "type": "object",
+  "required": [
+    "title",
+    "pillar",
+    "format",
+    "primary_keyword",
+    "claim",
+    "hook",
+    "evidence",
+    "caption",
+    "alt_text",
+    "hashtags",
+    "failure_mode"
+  ],
+  "properties": {
+    "useful_takeaway": {
+      "type": "object",
+      "required": [
+        "kind",
+        "visible_steps"
+      ],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "prompt",
+            "template",
+            "checklist",
+            "worked_example",
+            "decision_test"
+          ]
+        },
+        "visible_steps": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 5,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "title": {
+      "type": "string"
+    },
+    "pillar": {
+      "type": "string"
+    },
+    "format": {
+      "type": "string",
+      "enum": [
+        "carousel",
+        "reel",
+        "still"
+      ]
+    },
+    "primary_keyword": {
+      "type": "string"
+    },
+    "claim": {
+      "type": "string"
+    },
+    "hook": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "object",
+      "required": [
+        "type",
+        "detail"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "source",
+            "case_study",
+            "practitioner_observation",
+            "framework"
+          ]
+        },
+        "detail": {
+          "type": "string"
+        },
+        "source_url": {
+          "type": "string"
+        }
+      }
+    },
+    "slides": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "headline"
+        ],
+        "properties": {
+          "kicker": {
+            "type": "string"
+          },
+          "headline": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          },
+          "visual": {
+            "type": "object",
+            "required": [
+              "kind",
+              "items",
+              "note"
+            ],
+            "properties": {
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "bottleneck",
+                  "comparison",
+                  "checklist"
+                ]
+              },
+              "items": {
+                "type": "array",
+                "minItems": 2,
+                "maxItems": 4,
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "label",
+                    "detail"
+                  ],
+                  "properties": {
+                    "label": {
+                      "type": "string",
+                      "maxLength": 24
+                    },
+                    "detail": {
+                      "type": "string",
+                      "maxLength": 48
+                    }
+                  }
+                }
+              },
+              "note": {
+                "type": "string",
+                "maxLength": 60
+              }
+            }
+          }
+        }
+      }
+    },
+    "caption": {
+      "type": "string"
+    },
+    "alt_text": {
+      "type": "string"
+    },
+    "hashtags": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 5,
+      "items": {
+        "type": "string"
+      }
+    },
+    "cta": {
+      "type": "string"
+    },
+    "failure_mode": {
+      "type": "string"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "useful_takeaway": {
+    "kind": "checklist",
+    "visible_steps": [
+      "Automate research data Pull competitor public communications faster",
+      "Verify facts manually Check every stat before approval"
+    ]
+  },
+  "title": "aiinbrandmanagement",
+  "pillar": "ai_in_practice",
+  "format": "carousel",
+  "primary_keyword": "ai in brand management",
+  "claim": "Generative AI speeds up content drafting and research synthesis but fails at strategic positioning and category judgement.",
+  "hook": "AI fixed draft speed. It broke positioning.",
+  "evidence": {
+    "type": "source",
+    "detail": "McKinsey 2024 and Gartner studies show generative AI productivity gains cluster in execution and synthesis, while strategic positioning and category judgement remain strictly human bottlenecks.",
+    "source_url": "https://www.rachitmishra.in/2026/08/02/ai-in-brand-management/"
+  },
+  "slides": [
+    {
+      "headline": "AI fixed draft speed. It broke positioning."
+    },
+    {
+      "kicker": "OPERATIONAL REALITY",
+      "headline": "Drafting got faster. Judgement stayed slow.",
+      "body": "First-draft time dropped 60 percent, but positioning decisions and category judgement did not accelerate.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Drafting & research",
+            "detail": "60% time cut on first drafts and synthesis"
+          },
+          {
+            "label": "Positioning & strategy",
+            "detail": "Zero speed gain; defaults to generic copy"
+          }
+        ],
+        "note": "Based on 18-month brand function tracking"
+      }
+    },
+    {
+      "kicker": "DIFFERENTIATION TRAP",
+      "headline": "AI defaults to category-generic blandness.",
+      "body": "Language models generate defensible, average positioning that fits any competitor, eroding brand differentiation.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Prompted AI output",
+            "detail": "Produces category-safe, interchangeable copy"
+          },
+          {
+            "label": "Brand differentiation",
+            "detail": "Requires human trade-offs and audience context"
+          }
+        ],
+        "note": "Content Marketing Institute pattern-matching finding"
+      }
+    },
+    {
+      "kicker": "RESEARCH VS STRATEGY",
+      "headline": "Use automation for data, not decisions.",
+      "body": "Synthesis takes hours instead of days, but humans must verify facts and decide what matters.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Automate research data",
+            "detail": "Pull competitor public communications faster"
+          },
+          {
+            "label": "Verify facts manually",
+            "detail": "Check every stat before approval"
+          }
+        ],
+        "note": "Research verification workflow"
+      }
+    },
+    {
+      "kicker": "THE AI BRAND AUDIT",
+      "headline": "Audit your brand team's AI workload.",
+      "body": "Separate high-volume execution tasks from strategic brand governance before deploying automated tools.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Automate execution",
+            "detail": "First drafts, competitor synthesis, localisation"
+          },
+          {
+            "label": "Protect human control",
+            "detail": "Original positioning, category judgment, signoff"
+          }
+        ],
+        "note": "Suggested team task audit"
+      }
+    },
+    {
+      "kicker": "TASK ALLOCATION",
+      "headline": "Redeploy saved hours into strategy.",
+      "body": "Hours saved on drafting should fund customer conversations and trade-offs, not higher content volume.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Saved drafting hours",
+            "detail": "Redirect into direct customer interviews"
+          },
+          {
+            "label": "Output volume focus",
+            "detail": "Avoid chasing empty content metrics"
+          }
+        ],
+        "note": "Time reallocation standard"
+      }
+    },
+    {
+      "headline": "Automate content execution. Retain strategic judgement.",
+      "body": "Audit your team's AI split. Send this to whoever manages brand strategy or marketing workflows."
+    }
+  ],
+  "caption": "AI fixed draft speed. It broke positioning.\n\nUsing ai in brand management speeds up initial drafting by 60%, but it cannot replace category judgement.\n\nWhen you ask a model to position a brand, it defaults to the average of your entire category. The copy sounds safe, defensible, and identical to three of your competitors.\n\nThe real risk of generative tools isn't poor grammar; it's brand erosion through generic messaging.\n\nHold the line on strategy, trade-offs, and final signoff. Automate the drafting, not the thinking. Full article details: https://www.rachitmishra.in/2026/08/02/ai-in-brand-management/\n\nSend this to whoever manages brand strategy or marketing workflows on your team.\n\n[ai in brand management, b2b marketing, brand governance, generative ai]",
+  "alt_text": "Infographic showing which brand tasks can be automated with AI and which require human judgement.",
+  "hashtags": [
+    "#b2bmarketing",
+    "#brandstrategy",
+    "#aiinmarketing"
+  ],
+  "cta": "Send this to whoever manages brand strategy or marketing workflows on your team.",
+  "failure_mode": "If read superficially, this post might sound like a generic warning against AI rather than a clear operational division between execution speed and strategic judgement.",
+  "sources": [
+    {
+      "title": "What AI Actually Changed in Brand Work, and What It Didn’t",
+      "url": "https://www.rachitmishra.in/2026/08/02/ai-in-brand-management/"
+    }
+  ],
+  "content_version": 3,
+  "editorial_review": {
+    "approved": true,
+    "issues": []
+  },
+  "scheduled_for": "2026-12-02T20:00:00+05:30",
+  "status": "draft",
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2026/08/02/ai-in-brand-management/",
+  "source_title": "What AI Actually Changed in Brand Work, and What It Didn’t",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "20:00"
+  },
+  "experiment": {
+    "hook_type": "claim",
+    "evidence_type": "source",
+    "format": "carousel",
+    "pillar": "ai_in_practice",
+    "hook_words": 7,
+    "hook_characters": 43,
+    "visual_treatment": "carousel",
+    "cover_visual": "",
+    "schedule": {
+      "active": false,
+      "selected_time": "20:00"
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2026/08/02/ai-in-brand-management/",
+    "final_url": "https://www.rachitmishra.in/2026/08/02/ai-in-brand-management/",
+    "http_status": 200
+  },
+  "images": [
+    "content/queue/2026-11-30/wed-2000-aiinbrandmanagement/slide-01.jpg",
+    "content/queue/2026-11-30/wed-2000-aiinbrandmanagement/slide-02.jpg",
+    "content/queue/2026-11-30/wed-2000-aiinbrandmanagement/slide-03.jpg",
+    "content/queue/2026-11-30/wed-2000-aiinbrandmanagement/slide-04.jpg",
+    "content/queue/2026-11-30/wed-2000-aiinbrandmanagement/slide-05.jpg",
+    "content/queue/2026-11-30/wed-2000-aiinbrandmanagement/slide-06.jpg",
+    "content/queue/2026-11-30/wed-2000-aiinbrandmanagement/slide-07.jpg"
+  ],
+  "rendered_visuals": [
+    "comparison",
+    "bottleneck",
+    "checklist",
+    "checklist",
+    "comparison"
+  ],
+  "warnings": []
+}

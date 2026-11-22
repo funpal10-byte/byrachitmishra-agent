@@ -1,0 +1,495 @@
+{
+  "type": "object",
+  "required": [
+    "title",
+    "pillar",
+    "format",
+    "primary_keyword",
+    "claim",
+    "hook",
+    "evidence",
+    "caption",
+    "alt_text",
+    "hashtags",
+    "failure_mode"
+  ],
+  "properties": {
+    "useful_takeaway": {
+      "type": "object",
+      "required": [
+        "kind",
+        "visible_steps"
+      ],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "prompt",
+            "template",
+            "checklist",
+            "worked_example",
+            "decision_test"
+          ]
+        },
+        "visible_steps": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 5,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "title": {
+      "type": "string"
+    },
+    "pillar": {
+      "type": "string"
+    },
+    "format": {
+      "type": "string",
+      "enum": [
+        "carousel",
+        "reel",
+        "still"
+      ]
+    },
+    "primary_keyword": {
+      "type": "string"
+    },
+    "claim": {
+      "type": "string"
+    },
+    "hook": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "object",
+      "required": [
+        "type",
+        "detail"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "source",
+            "case_study",
+            "practitioner_observation",
+            "framework"
+          ]
+        },
+        "detail": {
+          "type": "string"
+        },
+        "source_url": {
+          "type": "string"
+        }
+      }
+    },
+    "reel_script": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "timecode",
+          "onscreen",
+          "voiceover"
+        ],
+        "properties": {
+          "timecode": {
+            "type": "string"
+          },
+          "onscreen": {
+            "type": "string"
+          },
+          "voiceover": {
+            "type": "string"
+          },
+          "direction": {
+            "type": "string"
+          },
+          "visual": {
+            "type": "object",
+            "required": [
+              "kind",
+              "items",
+              "note"
+            ],
+            "properties": {
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "bottleneck",
+                  "comparison",
+                  "checklist"
+                ]
+              },
+              "items": {
+                "type": "array",
+                "minItems": 2,
+                "maxItems": 4,
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "label",
+                    "detail"
+                  ],
+                  "properties": {
+                    "label": {
+                      "type": "string",
+                      "maxLength": 24
+                    },
+                    "detail": {
+                      "type": "string",
+                      "maxLength": 48
+                    }
+                  }
+                }
+              },
+              "note": {
+                "type": "string",
+                "maxLength": 60
+              }
+            }
+          }
+        }
+      }
+    },
+    "reel_cover": {
+      "type": "object",
+      "required": [
+        "headline",
+        "signal",
+        "layout",
+        "visual"
+      ],
+      "properties": {
+        "visual": {
+          "type": "object",
+          "required": [
+            "kind",
+            "items",
+            "note"
+          ],
+          "properties": {
+            "kind": {
+              "type": "string",
+              "enum": [
+                "bottleneck",
+                "comparison",
+                "checklist"
+              ]
+            },
+            "items": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 4,
+              "items": {
+                "type": "object",
+                "required": [
+                  "label",
+                  "detail"
+                ],
+                "properties": {
+                  "label": {
+                    "type": "string",
+                    "maxLength": 24
+                  },
+                  "detail": {
+                    "type": "string",
+                    "maxLength": 48
+                  }
+                }
+              }
+            },
+            "note": {
+              "type": "string",
+              "maxLength": 60
+            }
+          }
+        },
+        "headline": {
+          "type": "string"
+        },
+        "signal": {
+          "type": "string"
+        },
+        "layout": {
+          "type": "string",
+          "enum": [
+            "signal",
+            "split",
+            "stamp"
+          ]
+        }
+      }
+    },
+    "caption": {
+      "type": "string"
+    },
+    "alt_text": {
+      "type": "string"
+    },
+    "hashtags": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 5,
+      "items": {
+        "type": "string"
+      }
+    },
+    "cta": {
+      "type": "string"
+    },
+    "failure_mode": {
+      "type": "string"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "title": "internal readiness checklist before launch",
+  "pillar": "b2b_brand",
+  "format": "reel",
+  "primary_keyword": "internal launch readiness checklist",
+  "claim": "Testing internal readiness before a public launch exposes delivery gaps while teams can still change scope.",
+  "hook": "Launch the website. Break the service team.",
+  "evidence": {
+    "type": "source",
+    "detail": "An internal readiness checklist tests whether delivery teams can explain offers, fulfil conditions and handle exceptions before public announcements, exposing gaps in scope, support routing, and eligibility.",
+    "source_url": "https://www.rachitmishra.in/2026/11/17/internal-launch-readiness-checklist/"
+  },
+  "useful_takeaway": {
+    "kind": "checklist",
+    "visible_steps": [
+      "Can we explain inclusions?",
+      "Where does routing go?"
+    ]
+  },
+  "reel_cover": {
+    "headline": "Can your team explain the offer?",
+    "signal": "7 readiness areas",
+    "layout": "stamp",
+    "visual": {
+      "kind": "checklist",
+      "items": [
+        {
+          "label": "Promise test",
+          "detail": "Can support explain exact inclusions?"
+        },
+        {
+          "label": "Exception check",
+          "detail": "Where does routing go?"
+        }
+      ],
+      "note": "Readiness gate verification"
+    }
+  },
+  "reel_script": [
+    {
+      "timecode": "0:00-0:11",
+      "onscreen": "Launch the website. Break the service team.",
+      "voiceover": "Launch the website. Break the service team.",
+      "direction": "Static view of an unverified announcement schedule alongside an unread support guide.",
+      "visual": {
+        "kind": "bottleneck",
+        "items": [
+          {
+            "label": "Calendar date",
+            "detail": "Public launch scheduled for Monday"
+          },
+          {
+            "label": "Support desk",
+            "detail": "Eligibility conditions unread"
+          }
+        ],
+        "note": "Calendar readiness vs operational capacity"
+      }
+    },
+    {
+      "timecode": "0:11-0:22",
+      "onscreen": "Approvals sign dates. Support gets surprised.",
+      "voiceover": "Approvals sign dates. Support gets surprised.",
+      "direction": "Showing a department head approval stamp next to a local service desk queue.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Approvals",
+            "detail": "Department heads sign the slide deck"
+          },
+          {
+            "label": "Reality",
+            "detail": "First customer enquiry becomes the rehearsal"
+          }
+        ],
+        "note": "Operational gap before announcement"
+      }
+    },
+    {
+      "timecode": "0:22-0:30",
+      "onscreen": "Run the four-part readiness rehearsal.",
+      "voiceover": "Run the four-part readiness rehearsal.",
+      "direction": "Panning across a structured checklist template for industrial offer deployment.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Promise",
+            "detail": "Can we explain inclusions?"
+          },
+          {
+            "label": "Delivery",
+            "detail": "What limits availability?"
+          }
+        ],
+        "note": "First rehearsal check"
+      }
+    },
+    {
+      "timecode": "0:30-0:39",
+      "onscreen": "Test the exception: unlisted coverage.",
+      "voiceover": "Test the exception: unlisted coverage.",
+      "direction": "Highlighting exception routing on an enquiry handling flow.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Service",
+            "detail": "Where does routing go?"
+          },
+          {
+            "label": "People",
+            "detail": "Who takes action across shifts?"
+          }
+        ],
+        "note": "Exception handling test"
+      }
+    },
+    {
+      "timecode": "0:39-0:50",
+      "onscreen": "Record states: ready, limited, or blocked.",
+      "voiceover": "Record states: ready, limited, or blocked.",
+      "direction": "Marking an item as blocked with a named owner and explicit review date.",
+      "visual": {
+        "kind": "comparison",
+        "items": [
+          {
+            "label": "Green slide",
+            "detail": "Colour does not prove operational readiness"
+          },
+          {
+            "label": "Explicit state",
+            "detail": "Ready, limited with owner, or blocked"
+          }
+        ],
+        "note": "Decision gate rule"
+      }
+    },
+    {
+      "timecode": "0:50-1:01",
+      "onscreen": "Fix the gap before the public announcement.",
+      "voiceover": "Fix the gap before the public announcement.",
+      "direction": "Closing on the published article reference and governance principle.",
+      "visual": {
+        "kind": "checklist",
+        "items": [
+          {
+            "label": "Proceed or pause",
+            "detail": "Align scope before external release"
+          },
+          {
+            "label": "Full guide",
+            "detail": "Read the checklist at rachitmishra.in"
+          }
+        ],
+        "note": "Final readiness principle"
+      }
+    }
+  ],
+  "caption": "Launch the website. Break the service team.\n\nAn internal launch readiness checklist tests whether teams can deliver an offer before public announcements force unhandled exceptions into the first customer call. The full article is available at https://www.rachitmishra.in/2026/11/17/internal-launch-readiness-checklist/\n\nDepartment sign-offs prove little about operational capacity. Rehearsing the first customer conversation exposes missing eligibility rules, unassigned out-of-hours contacts, and outdated distributor presentations while leadership can still pause or adjust scope.\n\nSend this to whoever is approving next quarter's product launch schedule.\n\n[internal launch readiness checklist, b2b product launch, operational governance, industrial marketing]",
+  "alt_text": "Readiness checklist showing promise, delivery, and service tests.",
+  "hashtags": [
+    "#b2bmarketing",
+    "#brandgovernance",
+    "#operations"
+  ],
+  "cta": "Send this to whoever is approving next quarter's product launch schedule.",
+  "failure_mode": "Readers might view readiness checklists as standard project management rather than a distinct commercial risk gate.",
+  "content_version": 3,
+  "editorial_review": {
+    "approved": true,
+    "issues": []
+  },
+  "scheduled_for": "2026-11-30T08:30:00+05:30",
+  "status": "draft",
+  "source": "blog",
+  "source_url": "https://www.rachitmishra.in/2026/11/17/internal-launch-readiness-checklist/",
+  "source_title": "Before the External Launch: An Internal Readiness Checklist",
+  "schedule_experiment": {
+    "active": false,
+    "selected_time": "08:30"
+  },
+  "experiment": {
+    "hook_type": "claim",
+    "evidence_type": "source",
+    "format": "reel",
+    "pillar": "b2b_brand",
+    "hook_words": 7,
+    "hook_characters": 43,
+    "visual_treatment": "visual_explainer",
+    "cover_visual": "checklist",
+    "schedule": {
+      "active": false,
+      "selected_time": "08:30"
+    }
+  },
+  "source_preflight": {
+    "status": "reachable",
+    "url": "https://www.rachitmishra.in/2026/11/17/internal-launch-readiness-checklist/",
+    "final_url": "https://www.rachitmishra.in/2026/11/17/internal-launch-readiness-checklist/",
+    "http_status": 200
+  },
+  "sources": [
+    {
+      "title": "An internal readiness checklist tests whether delivery teams can explain offers, fulfil conditions and handle exceptions before public announcements, exposing gaps in scope, support routing, and eligibility.",
+      "url": "https://www.rachitmishra.in/2026/11/17/internal-launch-readiness-checklist/"
+    }
+  ],
+  "reel_assets": {
+    "background": {
+      "source": "designed_gradient"
+    },
+    "music": {
+      "source": "music_folder",
+      "file": "bed-something (1).mp3"
+    }
+  },
+  "video": "reel.mp4",
+  "images": [
+    "content/queue/2026-11-30/mon-0830-internal-readiness-checklist-before-launch/reel-cover.jpg"
+  ],
+  "rendered_visuals": [
+    "checklist",
+    "bottleneck",
+    "comparison",
+    "checklist",
+    "checklist",
+    "comparison",
+    "checklist"
+  ],
+  "warnings": []
+}
