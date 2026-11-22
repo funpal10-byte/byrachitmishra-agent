@@ -1,12 +1,12 @@
 # Metrics
 
-_Fetched 2026-11-15T03:43:22+00:00_
+_Fetched 2026-11-22T03:57:52+00:00_
 
 - Posts measured: **50**
 - Total reach: **517**
 - Mean reach per post: **10.3**
 - Best single post: **24**
-- Total saves: **2**  ·  sends: **1**
+- Total saves: **1**  ·  sends: **1**
 
 > **Read this before drawing conclusions.** At this volume and
 > reach, the gap between the best and worst post here is noise,
@@ -20,9 +20,9 @@ _Fetched 2026-11-15T03:43:22+00:00_
 
 - **1 sends · 0 saves · 10 reach** — Prompts make you faster at being wrong.
 - **0 sends · 1 saves · 24 reach** — A generic statement doubles crisis damage.
-- **0 sends · 1 saves · 9 reach** — Reputation is priced in before they call you.
-- **0 sends · 0 saves · 6 reach** — The deal is signed. Now real risk begins.
-- **0 sends · 0 saves · 8 reach** — Generated copy dies in legal compliance gates.
+- **0 sends · 0 saves · 4 reach** — Your marketing budget is the first to be cut.
+- **0 sends · 0 saves · 3 reach** — Generic AI copy is a governance failure.
+- **0 sends · 0 saves · 13 reach** — Deploying AI without redlines is a liability.
 
 ## Widest reach
 
@@ -36,19 +36,28 @@ _Fetched 2026-11-15T03:43:22+00:00_
 
 | Posted | Type | Reach | Saves | Sends | Avg watch time | Hook |
 |---|---|---:|---:|---:|---:|---|
-| 2026-11-13 | FEED | 6 | 0 | 0 | 0 | The deal is signed. Now real risk begins. |
+| 2026-11-21 | FEED | 4 | 0 | 0 | 0 | Your marketing budget is the first to be cut. |
+| 2026-11-20 | FEED | 3 | 0 | 0 | 0 | Generic AI copy is a governance failure. |
+| 2026-11-20 | REELS | 13 | 0 | 0 | 7717 | Deploying AI without redlines is a liability. |
+| 2026-11-19 | REELS | 10 | 0 | 0 | 1109 | Trust breaks when claims outpace plant ops. |
+| 2026-11-18 | FEED | 5 | 0 | 0 | 0 | Adjectives do not teach AI your brand voice. |
+| 2026-11-18 | REELS | 6 | 0 | 0 | 2812 | Your PR release won't survive a vendor audit. |
+| 2026-11-17 | REELS | 12 | 0 | 0 | 2121 | AI search ignores your official website. |
+| 2026-11-16 | FEED | 7 | 0 | 0 | 0 | Activity is not executive visibility |
+| 2026-11-15 | FEED | 7 | 0 | 0 | 0 | Most case studies hide the messy middle. |
+| 2026-11-13 | FEED | 7 | 0 | 0 | 0 | The deal is signed. Now real risk begins. |
 | 2026-11-13 | REELS | 8 | 0 | 0 | 2530 | Generated copy dies in legal compliance gates. |
 | 2026-11-12 | REELS | 24 | 1 | 0 | 2324 | A generic statement doubles crisis damage. |
-| 2026-11-11 | FEED | 6 | 0 | 0 | 0 | AI copy passes grammar but fails governance. |
-| 2026-11-11 | REELS | 10 | 0 | 0 | 1912 | Your reputation is decided in procurement. |
-| 2026-11-10 | REELS | 7 | 0 | 0 | 1458 | ChatGPT does not care about your blog. |
+| 2026-11-11 | FEED | 8 | 0 | 0 | 0 | AI copy passes grammar but fails governance. |
+| 2026-11-11 | REELS | 11 | 0 | 0 | 1796 | Your reputation is decided in procurement. |
+| 2026-11-10 | REELS | 8 | 0 | 0 | 1590 | ChatGPT does not care about your blog. |
 | 2026-11-09 | FEED | 9 | 0 | 0 | 0 | A 90-day plan is an expensive activity log. |
 | 2026-11-08 | FEED | 5 | 0 | 0 | 0 | Reach metrics stop decisions. |
 | 2026-11-07 | FEED | 5 | 0 | 0 | 0 | You lose budget when you defend awareness. |
 | 2026-11-06 | FEED | 7 | 0 | 0 | 0 | AI copy breaks at facts, not tone. |
 | 2026-11-06 | REELS | 9 | 0 | 0 | 1412 | AI visibility starts with readable evidence. |
 | 2026-11-05 | REELS | 22 | 0 | 0 | 2031 | Reputation is insurance against vendor risk. |
-| 2026-11-04 | FEED | 8 | 0 | 0 | 0 | Adjectives ruin your AI prompts. |
+| 2026-11-04 | FEED | 10 | 0 | 0 | 0 | Adjectives ruin your AI prompts. |
 | 2026-11-04 | REELS | 8 | 0 | 0 | 2525 | Your supply chain is ruining your ESG trust. |
 | 2026-11-03 | REELS | 8 | 0 | 0 | 775 | Faster drafting creates a slower approval queue. |
 | 2026-11-02 | FEED | 8 | 0 | 0 | 0 | Fluent writing is not evidence of a true claim. |
@@ -77,20 +86,7 @@ _Fetched 2026-11-15T03:43:22+00:00_
 | 2026-10-15 | REELS | 9 | 0 | 0 | 11082 | Your legal team is ruining your crisis response. |
 | 2026-10-14 | FEED | 7 | 0 | 0 | 0 | AI copy will pass grammar and still ruin you. |
 | 2026-10-14 | REELS | 14 | 0 | 0 | 1870 | Your reputation ledger has no line item. |
-| 2026-10-13 | REELS | 7 | 0 | 0 | 4102 | AI search ignores your marketing blog. |
-| 2026-10-12 | FEED | 6 | 0 | 0 | 0 | Your brand is changing at every manager's desk. |
-| 2026-10-12 | REELS | 9 | 0 | 0 | 6370 | Spec sheets do not command a premium. |
-| 2026-10-11 | FEED | 10 | 0 | 0 | 0 | Sales collateral almost never closes B2B deals. |
-| 2026-10-10 | FEED | 7 | 0 | 0 | 0 | Awareness is not a metric that protects budget. |
-| 2026-10-09 | FEED | 7 | 0 | 0 | 0 | AI content lacks unwritten operational rules. |
-| 2026-10-09 | REELS | 11 | 0 | 0 | 2465 | AI search does not read your marketing copy. |
-| 2026-10-08 | REELS | 9 | 1 | 0 | 3005 | Reputation is priced in before they call you. |
-| 2026-10-07 | FEED | 8 | 0 | 0 | 0 | AI governance is failing your marketing team. |
 
 # Timing experiments
 
-These are descriptive results, not automatic schedule changes. Compare windows only after enough like-for-like posts exist.
-
-| IST window | Posts | Median saves + shares / 1,000 reach | Mean Reel watch time |
-|---|---:|---:|---:|
-| Sun 11:00 · inside_the_org/carousel | 3 | 0.0 | — |
+Not enough comparable posts yet. The agent will report a window only after it has at least three observations.

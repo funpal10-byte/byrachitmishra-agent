@@ -1,15 +1,290 @@
 {
-  "fetched_at": "2026-11-15T03:43:22+00:00",
+  "fetched_at": "2026-11-22T03:57:52+00:00",
   "count": 50,
   "posts": [
+    {
+      "id": "18102135425086672",
+      "posted": "2026-11-21T09:38:30+0000",
+      "type": "FEED",
+      "permalink": "https://www.instagram.com/p/Df_7UvZlYmt/",
+      "hook": "Your marketing budget is the first to be cut.",
+      "reach": 4,
+      "views": 15,
+      "likes": 0,
+      "comments": 0,
+      "saved": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "avg_watch_time": 0,
+      "total_watch_time": 0,
+      "experiment": {
+        "hook_type": "framework",
+        "evidence_type": "framework",
+        "format": "carousel",
+        "pillar": "inside_the_org",
+        "hook_words": 9,
+        "hook_characters": 45,
+        "visual_treatment": "carousel",
+        "cover_visual": "",
+        "schedule": {
+          "active": false,
+          "selected_time": "10:30"
+        }
+      }
+    },
+    {
+      "id": "18094143557218093",
+      "posted": "2026-11-20T20:00:26+0000",
+      "type": "FEED",
+      "permalink": "https://www.instagram.com/p/Df-dsW8Gkzv/",
+      "hook": "Generic AI copy is a governance failure.",
+      "reach": 3,
+      "views": 10,
+      "likes": 0,
+      "comments": 0,
+      "saved": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "avg_watch_time": 0,
+      "total_watch_time": 0,
+      "experiment": {
+        "hook_type": "claim",
+        "evidence_type": "source",
+        "format": "carousel",
+        "pillar": "ai_in_practice",
+        "hook_words": 7,
+        "hook_characters": 40,
+        "visual_treatment": "carousel",
+        "cover_visual": "",
+        "schedule": {
+          "active": false,
+          "selected_time": "19:00"
+        }
+      }
+    },
+    {
+      "id": "18180210106452185",
+      "posted": "2026-11-20T03:02:18+0000",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/Df8pJLJk0AE/",
+      "hook": "Deploying AI without redlines is a liability.",
+      "reach": 13,
+      "views": 17,
+      "likes": 1,
+      "comments": 0,
+      "saved": 0,
+      "shares": 0,
+      "total_interactions": 1,
+      "avg_watch_time": 7717,
+      "total_watch_time": 100325,
+      "experiment": {
+        "hook_type": "framework",
+        "evidence_type": "framework",
+        "format": "reel",
+        "pillar": "ai_marketing",
+        "hook_words": 7,
+        "hook_characters": 45,
+        "visual_treatment": "visual_explainer",
+        "cover_visual": "checklist",
+        "schedule": {
+          "active": false,
+          "selected_time": "08:30"
+        }
+      }
+    },
+    {
+      "id": "18082542431727594",
+      "posted": "2026-11-19T12:52:15+0000",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/Df7H3UOlwHC/",
+      "hook": "Trust breaks when claims outpace plant ops.",
+      "reach": 10,
+      "views": 10,
+      "likes": 0,
+      "comments": 0,
+      "saved": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "avg_watch_time": 1109,
+      "total_watch_time": 11093,
+      "experiment": {
+        "hook_type": "framework",
+        "evidence_type": "framework",
+        "format": "reel",
+        "pillar": "reputation",
+        "hook_words": 7,
+        "hook_characters": 43,
+        "visual_treatment": "visual_explainer",
+        "cover_visual": "comparison",
+        "schedule": {
+          "active": true,
+          "selected_time": "17:00",
+          "candidates": [
+            "13:00",
+            "17:00"
+          ],
+          "week_index": 1
+        }
+      }
+    },
+    {
+      "id": "18126745357914988",
+      "posted": "2026-11-18T21:50:24+0000",
+      "type": "FEED",
+      "permalink": "https://www.instagram.com/p/Df5gstbjy7f/",
+      "hook": "Adjectives do not teach AI your brand voice.",
+      "reach": 5,
+      "views": 19,
+      "likes": 0,
+      "comments": 0,
+      "saved": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "avg_watch_time": 0,
+      "total_watch_time": 0,
+      "experiment": {
+        "hook_type": "framework",
+        "evidence_type": "framework",
+        "format": "carousel",
+        "pillar": "ai_in_practice",
+        "hook_words": 8,
+        "hook_characters": 44,
+        "visual_treatment": "carousel",
+        "cover_visual": "",
+        "schedule": {
+          "active": false,
+          "selected_time": "20:00"
+        }
+      }
+    },
+    {
+      "id": "18130709017870573",
+      "posted": "2026-11-18T04:11:10+0000",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/Df3ncbwHPjm/",
+      "hook": "Your PR release won't survive a vendor audit.",
+      "reach": 6,
+      "views": 9,
+      "likes": 0,
+      "comments": 0,
+      "saved": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "avg_watch_time": 2812,
+      "total_watch_time": 14063,
+      "experiment": {
+        "hook_type": "framework",
+        "evidence_type": "framework",
+        "format": "reel",
+        "pillar": "reputation",
+        "hook_words": 8,
+        "hook_characters": 45,
+        "visual_treatment": "visual_explainer",
+        "cover_visual": "comparison",
+        "schedule": {
+          "active": false,
+          "selected_time": "08:30"
+        }
+      }
+    },
+    {
+      "id": "18028329590942777",
+      "posted": "2026-11-17T22:12:28+0000",
+      "type": "REELS",
+      "permalink": "https://www.instagram.com/reel/Df2-Y67k5qP/",
+      "hook": "AI search ignores your official website.",
+      "reach": 12,
+      "views": 13,
+      "likes": 1,
+      "comments": 0,
+      "saved": 0,
+      "shares": 0,
+      "total_interactions": 1,
+      "avg_watch_time": 2121,
+      "total_watch_time": 27585,
+      "experiment": {
+        "hook_type": "framework",
+        "evidence_type": "framework",
+        "format": "reel",
+        "pillar": "ai_marketing",
+        "hook_words": 6,
+        "hook_characters": 40,
+        "visual_treatment": "visual_explainer",
+        "cover_visual": "comparison",
+        "schedule": {
+          "active": false,
+          "selected_time": "19:00"
+        }
+      }
+    },
+    {
+      "id": "17971343010191899",
+      "posted": "2026-11-16T20:20:30+0000",
+      "type": "FEED",
+      "permalink": "https://www.instagram.com/p/Df0MzzXASe_/",
+      "hook": "Activity is not executive visibility",
+      "reach": 7,
+      "views": 15,
+      "likes": 0,
+      "comments": 0,
+      "saved": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "avg_watch_time": 0,
+      "total_watch_time": 0,
+      "experiment": {
+        "hook_type": "distinction",
+        "evidence_type": "source",
+        "format": "carousel",
+        "pillar": "b2b_brand",
+        "hook_words": 5,
+        "hook_characters": 36,
+        "visual_treatment": "carousel",
+        "cover_visual": "",
+        "schedule": {
+          "active": false,
+          "selected_time": "19:00"
+        }
+      }
+    },
+    {
+      "id": "18134453077878985",
+      "posted": "2026-11-15T09:13:36+0000",
+      "type": "FEED",
+      "permalink": "https://www.instagram.com/p/DfwbsgEETbL/",
+      "hook": "Most case studies hide the messy middle.",
+      "reach": 7,
+      "views": 21,
+      "likes": 0,
+      "comments": 0,
+      "saved": 0,
+      "shares": 0,
+      "total_interactions": 0,
+      "avg_watch_time": 0,
+      "total_watch_time": 0,
+      "experiment": {
+        "hook_type": "claim",
+        "evidence_type": "source",
+        "format": "carousel",
+        "pillar": "inside_the_org",
+        "hook_words": 7,
+        "hook_characters": 40,
+        "visual_treatment": "carousel",
+        "cover_visual": "",
+        "schedule": {
+          "active": false,
+          "selected_time": "10:30"
+        }
+      }
+    },
     {
       "id": "18091910147275708",
       "posted": "2026-11-13T16:10:11+0000",
       "type": "FEED",
       "permalink": "https://www.instagram.com/p/DfsByAsFA2U/",
       "hook": "The deal is signed. Now real risk begins.",
-      "reach": 6,
-      "views": 15,
+      "reach": 7,
+      "views": 19,
       "likes": 0,
       "comments": 0,
       "saved": 0,
@@ -103,8 +378,8 @@
       "type": "FEED",
       "permalink": "https://www.instagram.com/p/DfnbzwMAcw3/",
       "hook": "AI copy passes grammar but fails governance.",
-      "reach": 6,
-      "views": 24,
+      "reach": 8,
+      "views": 30,
       "likes": 0,
       "comments": 0,
       "saved": 0,
@@ -133,15 +408,15 @@
       "type": "REELS",
       "permalink": "https://www.instagram.com/reel/DflyK8xmQeB/",
       "hook": "Your reputation is decided in procurement.",
-      "reach": 10,
-      "views": 13,
+      "reach": 11,
+      "views": 14,
       "likes": 0,
       "comments": 0,
       "saved": 0,
       "shares": 0,
       "total_interactions": 0,
-      "avg_watch_time": 1912,
-      "total_watch_time": 21036,
+      "avg_watch_time": 1796,
+      "total_watch_time": 21560,
       "experiment": {
         "hook_type": "claim",
         "evidence_type": "practitioner_observation",
@@ -163,15 +438,15 @@
       "type": "REELS",
       "permalink": "https://www.instagram.com/reel/Dfkd13DAG1Q/",
       "hook": "ChatGPT does not care about your blog.",
-      "reach": 7,
-      "views": 11,
+      "reach": 8,
+      "views": 13,
       "likes": 0,
       "comments": 0,
       "saved": 0,
       "shares": 0,
       "total_interactions": 0,
-      "avg_watch_time": 1458,
-      "total_watch_time": 13129,
+      "avg_watch_time": 1590,
+      "total_watch_time": 15907,
       "experiment": {
         "hook_type": "framework",
         "evidence_type": "framework",
@@ -378,8 +653,8 @@
       "type": "FEED",
       "permalink": "https://www.instagram.com/p/DfU9LZEmoVp/",
       "hook": "Adjectives ruin your AI prompts.",
-      "reach": 8,
-      "views": 21,
+      "reach": 10,
+      "views": 23,
       "likes": 0,
       "comments": 0,
       "saved": 0,
@@ -1256,289 +1531,7 @@
           "selected_time": "08:30"
         }
       }
-    },
-    {
-      "id": "18121172704869107",
-      "posted": "2026-10-13T17:33:41+0000",
-      "type": "REELS",
-      "permalink": "https://www.instagram.com/reel/DecWqZ8jqCV/",
-      "hook": "AI search ignores your marketing blog.",
-      "reach": 7,
-      "views": 12,
-      "likes": 0,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 0,
-      "avg_watch_time": 4102,
-      "total_watch_time": 32819,
-      "experiment": {
-        "hook_type": "framework",
-        "evidence_type": "framework",
-        "format": "reel",
-        "pillar": "ai_marketing",
-        "hook_words": 6,
-        "hook_characters": 38,
-        "visual_treatment": "visual_explainer",
-        "cover_visual": "comparison",
-        "schedule": {
-          "active": false,
-          "selected_time": "19:00"
-        }
-      }
-    },
-    {
-      "id": "18491186971100670",
-      "posted": "2026-10-12T18:58:42+0000",
-      "type": "FEED",
-      "permalink": "https://www.instagram.com/p/DeZ7oDfGbei/",
-      "hook": "Your brand is changing at every manager's desk.",
-      "reach": 6,
-      "views": 30,
-      "likes": 0,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 0,
-      "avg_watch_time": 0,
-      "total_watch_time": 0,
-      "experiment": {
-        "hook_type": "claim",
-        "evidence_type": "source",
-        "format": "carousel",
-        "pillar": "b2b_brand",
-        "hook_words": 8,
-        "hook_characters": 47,
-        "visual_treatment": "carousel",
-        "cover_visual": "",
-        "schedule": {
-          "active": false,
-          "selected_time": "19:00"
-        }
-      }
-    },
-    {
-      "id": "18490812493110259",
-      "posted": "2026-10-12T09:05:14+0000",
-      "type": "REELS",
-      "permalink": "https://www.instagram.com/reel/DeY3of-CmP8/",
-      "hook": "Spec sheets do not command a premium.",
-      "reach": 9,
-      "views": 10,
-      "likes": 0,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 0,
-      "avg_watch_time": 6370,
-      "total_watch_time": 70079,
-      "experiment": {
-        "hook_type": "framework",
-        "evidence_type": "framework",
-        "format": "reel",
-        "pillar": "b2b_brand",
-        "hook_words": 7,
-        "hook_characters": 37,
-        "visual_treatment": "visual_explainer",
-        "cover_visual": "comparison",
-        "schedule": {
-          "active": false,
-          "selected_time": "08:30"
-        }
-      }
-    },
-    {
-      "id": "17938109907377782",
-      "posted": "2026-10-11T05:36:42+0000",
-      "type": "FEED",
-      "permalink": "https://www.instagram.com/p/DeV7DN9m3sS/",
-      "hook": "Sales collateral almost never closes B2B deals.",
-      "reach": 10,
-      "views": 30,
-      "likes": 0,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 0,
-      "avg_watch_time": 0,
-      "total_watch_time": 0,
-      "experiment": {
-        "hook_type": "framework",
-        "evidence_type": "framework",
-        "format": "carousel",
-        "pillar": "inside_the_org",
-        "hook_words": 7,
-        "hook_characters": 47,
-        "visual_treatment": "carousel",
-        "cover_visual": "",
-        "schedule": {
-          "active": false,
-          "selected_time": "10:30"
-        }
-      }
-    },
-    {
-      "id": "18062669030549188",
-      "posted": "2026-10-10T08:24:34+0000",
-      "type": "FEED",
-      "permalink": "https://www.instagram.com/p/DeTpemdFlMW/",
-      "hook": "Awareness is not a metric that protects budget.",
-      "reach": 7,
-      "views": 25,
-      "likes": 1,
-      "comments": 1,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 2,
-      "avg_watch_time": 0,
-      "total_watch_time": 0,
-      "experiment": {
-        "hook_type": "cost",
-        "evidence_type": "practitioner_observation",
-        "format": "carousel",
-        "pillar": "inside_the_org",
-        "hook_words": 8,
-        "hook_characters": 47,
-        "visual_treatment": "carousel",
-        "cover_visual": "",
-        "schedule": {
-          "active": false,
-          "selected_time": "10:30"
-        }
-      }
-    },
-    {
-      "id": "17907229089591092",
-      "posted": "2026-10-09T16:07:16+0000",
-      "type": "FEED",
-      "permalink": "https://www.instagram.com/p/DeR5n4IljK2/",
-      "hook": "AI content lacks unwritten operational rules.",
-      "reach": 7,
-      "views": 29,
-      "likes": 0,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 0,
-      "avg_watch_time": 0,
-      "total_watch_time": 0,
-      "experiment": {
-        "hook_type": "framework",
-        "evidence_type": "framework",
-        "format": "carousel",
-        "pillar": "ai_in_practice",
-        "hook_words": 6,
-        "hook_characters": 45,
-        "visual_treatment": "carousel",
-        "cover_visual": "",
-        "schedule": {
-          "active": false,
-          "selected_time": "19:00"
-        }
-      }
-    },
-    {
-      "id": "17973415626129878",
-      "posted": "2026-10-09T08:56:10+0000",
-      "type": "REELS",
-      "permalink": "https://www.instagram.com/reel/DeRIQmvAS95/",
-      "hook": "AI search does not read your marketing copy.",
-      "reach": 11,
-      "views": 20,
-      "likes": 0,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 0,
-      "avg_watch_time": 2465,
-      "total_watch_time": 32057,
-      "experiment": {
-        "hook_type": "framework",
-        "evidence_type": "framework",
-        "format": "reel",
-        "pillar": "ai_marketing",
-        "hook_words": 8,
-        "hook_characters": 44,
-        "visual_treatment": "visual_explainer",
-        "cover_visual": "comparison",
-        "schedule": {
-          "active": false,
-          "selected_time": "08:30"
-        }
-      }
-    },
-    {
-      "id": "17992968594058816",
-      "posted": "2026-10-08T16:24:04+0000",
-      "type": "REELS",
-      "permalink": "https://www.instagram.com/reel/DePWuEJD9Pb/",
-      "hook": "Reputation is priced in before they call you.",
-      "reach": 9,
-      "views": 12,
-      "likes": 0,
-      "comments": 0,
-      "saved": 1,
-      "shares": 0,
-      "total_interactions": 1,
-      "avg_watch_time": 3005,
-      "total_watch_time": 24041,
-      "experiment": {
-        "hook_type": "cost",
-        "evidence_type": "practitioner_observation",
-        "format": "reel",
-        "pillar": "reputation",
-        "hook_words": 8,
-        "hook_characters": 45,
-        "visual_treatment": "visual_explainer",
-        "cover_visual": "bottleneck",
-        "schedule": {
-          "active": true,
-          "selected_time": "17:00",
-          "candidates": [
-            "13:00",
-            "17:00"
-          ],
-          "week_index": 1
-        }
-      }
-    },
-    {
-      "id": "18629977225041086",
-      "posted": "2026-10-07T15:30:59+0000",
-      "type": "FEED",
-      "permalink": "https://www.instagram.com/p/DeMr4dhlGnP/",
-      "hook": "AI governance is failing your marketing team.",
-      "reach": 8,
-      "views": 23,
-      "likes": 0,
-      "comments": 0,
-      "saved": 0,
-      "shares": 0,
-      "total_interactions": 0,
-      "avg_watch_time": 0,
-      "total_watch_time": 0,
-      "experiment": {
-        "hook_type": "claim",
-        "evidence_type": "practitioner_observation",
-        "format": "carousel",
-        "pillar": "ai_in_practice",
-        "hook_words": 7,
-        "hook_characters": 45,
-        "visual_treatment": "carousel",
-        "cover_visual": "",
-        "schedule": {
-          "active": false,
-          "selected_time": "20:00"
-        }
-      }
     }
   ],
-  "timing": [
-    {
-      "window": "Sun 11:00 \u00b7 inside_the_org/carousel",
-      "posts": 3,
-      "median_save_share_per_1000_reach": 0.0,
-      "mean_avg_watch_time": null
-    }
-  ]
+  "timing": []
 }
