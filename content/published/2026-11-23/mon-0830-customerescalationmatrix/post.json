@@ -160,7 +160,7 @@
     "scope": "Source fidelity, novelty against 90-day history, hook-to-payoff connection, visible utility, rendered slides and Reel frames."
   },
   "scheduled_for": "2026-11-23T08:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "source": "blog",
   "source_url": "https://www.rachitmishra.in/2026/11/13/b2b-customer-escalation-matrix/",
   "source_title": "Who Owns the Customer Update? A B2B Escalation Matrix",
@@ -213,5 +213,7 @@
     "initial_run_id": 43885030408,
     "recovery_run_id": 44053357731,
     "note": "The initial run completed five posts; the recovery run timed out. This final batch was completed and reviewed editorially."
-  }
+  },
+  "published_at": "2026-11-23T14:26:45.618535+05:30",
+  "media_id": "18134851642789001"
 }
