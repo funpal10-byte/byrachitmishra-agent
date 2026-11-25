@@ -178,7 +178,7 @@
     "scope": "Source fidelity, novelty against 90-day history, hook-to-payoff connection, visible utility, rendered slides and Reel frames."
   },
   "scheduled_for": "2026-11-25T20:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "source": "blog",
   "source_url": "https://www.rachitmishra.in/2026/09/06/poor-customer-experience-cost/",
   "source_title": "The Cost of Poor Customer Experience, in Numbers",
@@ -230,5 +230,7 @@
     "initial_run_id": 43885030408,
     "recovery_run_id": 44053357731,
     "note": "The initial run completed five posts; the recovery run timed out. This final batch was completed and reviewed editorially."
-  }
+  },
+  "published_at": "2026-11-26T03:55:52.039332+05:30",
+  "media_id": "18134830981895772"
 }
