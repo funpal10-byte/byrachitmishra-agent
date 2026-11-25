@@ -180,7 +180,7 @@
     "scope": "Source fidelity, novelty against 90-day history, hook-to-payoff connection, visible utility, rendered slides and Reel frames."
   },
   "scheduled_for": "2026-11-25T08:30:00+05:30",
-  "status": "approved",
+  "status": "published",
   "source": "blog",
   "source_url": "https://www.rachitmishra.in/2026/08/24/generative-engine-optimization/",
   "source_title": "Generative Engine Optimization: How Brands Actually Get Cited",
@@ -235,5 +235,7 @@
     "initial_run_id": 43885030408,
     "recovery_run_id": 44053357731,
     "note": "The initial run completed five posts; the recovery run timed out. This final batch was completed and reviewed editorially."
-  }
+  },
+  "published_at": "2026-11-25T18:09:57.043170+05:30",
+  "media_id": "17908463385602635"
 }
