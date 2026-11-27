@@ -42,7 +42,7 @@
     "scope": "Source fidelity, novelty against 90-day history, hook-to-payoff connection, visible utility, rendered slides and Reel frames."
   },
   "scheduled_for": "2026-11-27T19:00:00+05:30",
-  "status": "approved",
+  "status": "published",
   "source": "blog",
   "source_url": "https://www.rachitmishra.in/2026/08/15/marketing-in-manufacturing-company/",
   "source_title": "Marketing in a Manufacturing Company: What I Got Wrong",
@@ -233,5 +233,7 @@
     "initial_run_id": 43885030408,
     "recovery_run_id": 44053357731,
     "note": "The initial run completed five posts; the recovery run timed out. This final batch was completed and reviewed editorially."
-  }
+  },
+  "published_at": "2026-11-28T00:22:36.622169+05:30",
+  "media_id": "18137346433665102"
 }
