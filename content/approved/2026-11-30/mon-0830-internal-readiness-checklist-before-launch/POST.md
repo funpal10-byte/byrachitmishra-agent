@@ -5,7 +5,7 @@
 > Targeting: `internal launch readiness checklist`
 >
 > Claim: Testing internal readiness before a public launch exposes delivery gaps while teams can still change scope.
-> Useful takeaway (checklist): Can we explain inclusions? / Where does routing go?
+> Useful takeaway (checklist): Explain inclusions and exclusions / Name availability limits before launch / Route a request outside normal coverage / Name who acts on the next shift
 > Editorial review: passed novelty, visible payoff and source-fidelity checks
 >
 > Proof (source): An internal readiness checklist tests whether delivery teams can explain offers, fulfil conditions and handle exceptions before public announcements, exposing gaps in scope, support routing, and eligibility.
@@ -15,7 +15,7 @@
 >
 > Rendered infographics: 7 — checklist, bottleneck, comparison, checklist, checklist, comparison, checklist
 >
-> Reel assets: image `designed_gradient` · music `bed-something (1).mp3`
+> Reel assets: image `designed_gradient` · music `bed-something (11).mp3`
 
 ## Cover
 
@@ -27,25 +27,25 @@
 
 | Time | On screen | Voiceover | Direction |
 |---|---|---|---|
-| 0:00-0:11 | **Launch the website. Break the service team.** | Launch the website. Break the service team. | Static view of an unverified announcement schedule alongside an unread support guide. |
+| 0:00-0:11 | **Your launch is ready. Is support?** | Your launch is ready. Is support? | Static view of an unverified announcement schedule alongside an unread support guide. |
 | 0:11-0:22 | **Approvals sign dates. Support gets surprised.** | Approvals sign dates. Support gets surprised. | Showing a department head approval stamp next to a local service desk queue. |
-| 0:22-0:30 | **Run the four-part readiness rehearsal.** | Run the four-part readiness rehearsal. | Panning across a structured checklist template for industrial offer deployment. |
-| 0:30-0:39 | **Test the exception: unlisted coverage.** | Test the exception: unlisted coverage. | Highlighting exception routing on an enquiry handling flow. |
-| 0:39-0:50 | **Record states: ready, limited, or blocked.** | Record states: ready, limited, or blocked. | Marking an item as blocked with a named owner and explicit review date. |
-| 0:50-1:01 | **Fix the gap before the public announcement.** | Fix the gap before the public announcement. | Closing on the published article reference and governance principle. |
+| 0:22-0:31 | **Run the four-part readiness rehearsal.** | Run the four-part readiness rehearsal. | Panning across a structured checklist template for industrial offer deployment. |
+| 0:31-0:41 | **Test the exception: unlisted coverage.** | Test the exception: unlisted coverage. | Highlighting exception routing on an enquiry handling flow. |
+| 0:41-0:52 | **Record states: ready, limited, or blocked.** | Record states: ready, limited, or blocked. | Marking an item as blocked with a named owner and explicit review date. |
+| 0:52-1:03 | **Fix the gap before the public announcement.** | Fix the gap before the public announcement. | Closing on the published article reference and governance principle. |
 
 ## Caption — copy from here
 
 ```
-Launch the website. Break the service team.
+Your launch is ready. Is support?
 
-An internal launch readiness checklist tests whether teams can deliver an offer before public announcements force unhandled exceptions into the first customer call. The full article is available at https://www.rachitmishra.in/2026/11/17/internal-launch-readiness-checklist/
+An internal launch readiness checklist should test the first customer conversation, not just collect departmental sign-offs.
 
-Department sign-offs prove little about operational capacity. Rehearsing the first customer conversation exposes missing eligibility rules, unassigned out-of-hours contacts, and outdated distributor presentations while leadership can still pause or adjust scope.
+Rehearse an ordinary enquiry and an exception. Can the team explain inclusions, delivery limits, routing and the next-shift owner? Record each gap as ready, limited with an owner, or blocked before agreeing the public scope.
 
-Send this to whoever is approving next quarter's product launch schedule.
+Read the source: https://www.rachitmishra.in/2026/11/17/internal-launch-readiness-checklist/
 
-[internal launch readiness checklist, b2b product launch, operational governance, industrial marketing]
+Send this to the service lead rehearsing your next launch.
 
 #b2bmarketing #brandgovernance #operations
 ```

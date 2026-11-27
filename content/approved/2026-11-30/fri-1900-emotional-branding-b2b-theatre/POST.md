@@ -20,7 +20,7 @@
 8 rendered images sit in this folder — upload them in filename order.
 
 **1.** 
-### Consumer emotional branding is B2B theatre.
+### Can your buyer defend the recommendation?
 
 ![slide 1](slide-01.jpg)
 
@@ -31,14 +31,14 @@ The buyer isn't asking if a brand feels good. They are asking if a vendor failur
 ![slide 2](slide-02.jpg)
 
 **3.** The Wrong Emotion
-### Aspirational campaigns test flat with buyers.
+### Does the campaign address the buyer’s risk?
 Borrowing lifestyle messaging for industrial software or equipment creates confusion instead of connection.
 
 ![slide 3](slide-03.jpg)
 
 **4.** The Right Emotion
 ### Trust and safety are the real B2B levers.
-Edelman's Trust Barometer confirms that vendor trust directly influences B2B purchase intent as much as core features.
+Trust matters alongside features when a buyer must justify a recommendation; mood alone is not evidence.
 
 ![slide 4](slide-04.jpg)
 
@@ -69,19 +69,15 @@ Read the full analysis on emotional branding in B2B at https://www.rachitmishra.
 ## Caption — copy from here
 
 ```
-Consumer emotional branding is B2B theatre.
+Can your buyer defend the recommendation?
 
-Using emotional branding in b2b requires focusing on career risk instead of consumer aspiration.
+Emotional branding in B2B can address the risk of making a recommendation, as well as aspiration.
 
-Most industrial marketing borrows consumer language like aspiration and belonging while ignoring that the actual buyer emotional driver is career risk.
+Remove the imagery from a campaign and read the words. Which claim could a buyer defend in an internal review? Attach relevant case evidence or an independently verifiable reference to that claim. Emotional connection and proof can work together; neither guarantees a sale.
 
-When you build campaigns around safety and trust instead of lifestyle, pipeline quality improves because buyers can defend the choice internally.
+Read the source: https://www.rachitmishra.in/2025/01/20/harnessing-the-power-of-emotional-branding-the-key-to-lasting-connections/
 
-Read the full analysis at https://www.rachitmishra.in/2025/01/20/harnessing-the-power-of-emotional-branding-the-key-to-lasting-connections/
-
-Send this to whoever is defending the brand messaging budget this quarter.
-
-[emotional branding in b2b, b2b marketing, brand trust, risk aversion]
+Send this to the strategist reviewing the evidence behind a campaign.
 
 #b2bmarketing #brandstrategy #industrialmarketing
 ```

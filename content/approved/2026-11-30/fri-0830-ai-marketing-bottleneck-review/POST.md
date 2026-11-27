@@ -5,7 +5,7 @@
 > Targeting: `ai marketing bottleneck`
 >
 > Claim: AI accelerated content production volume but shifted the core bottleneck from generation speed to strategic judgment.
-> Useful takeaway (checklist): Audit first-party data quality / Evaluate AI output for strategy / Kill low-value assets weekly
+> Useful takeaway (checklist): Could a rival publish this unchanged? / Which buyer question does it answer? / Revise or drop work with no clear answer / Check whether the next test changes a decision
 > Editorial review: passed novelty, visible payoff and source-fidelity checks
 >
 > Proof (source): An 18-month review of marketing technology shows that content generation speed outpaced expectations, shifting the primary bottleneck from production capacity to strategic judgment about what is worth producing.
@@ -39,17 +39,13 @@
 ```
 Faster drafting just built a bigger queue.
 
-The real ai marketing bottleneck shifted over the last eighteen months from production capacity to strategic judgment.
+The AI marketing bottleneck can move from writing capacity to editorial judgement.
 
-When content generation becomes cheap and fast, volume stops being a useful metric. The martech stack has consolidated into broader platforms, turning personalization into a data engineering problem rather than a creative one.
+Before approving another asset, ask: could a rival publish this unchanged, and which buyer question does it answer? Revise or drop work that has no clear answer. Faster production is useful only when the team can select worthwhile work and learn from its tests.
 
-Investing in speed solves a problem that was mostly addressed years ago. The higher leverage investment is training teams to evaluate outputs critically and killing mediocre work before publication.
+Read the source: https://www.rachitmishra.in/2025/01/20/future-of-marketing-ai-agility-social-media/
 
-The complete 18-month review and stack analysis is published on my site: https://www.rachitmishra.in/2025/01/20/future-of-marketing-ai-agility-social-media/
-
-Send this to whoever is still defending their team's AI strategy using output volume metrics.
-
-[ai marketing bottleneck, martech stack consolidation, strategic judgment, B2B content strategy]
+Send this to the editor managing your content approval queue.
 
 #b2bmarketing #martech #contentstrategy
 ```

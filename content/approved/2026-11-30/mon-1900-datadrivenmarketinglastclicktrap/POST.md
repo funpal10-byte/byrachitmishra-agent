@@ -5,7 +5,7 @@
 > Targeting: `data-driven marketing`
 >
 > Claim: Last-click attribution models systematically starve long-term brand-building because they cannot see multi-month buying journeys.
-> Useful takeaway (checklist): Audit last two quarters of budget reallocation decisions. / Identify if all cut activities had a measurement lag over 30 days. / Ring-fence brand spend before quarterly reviews.
+> Useful takeaway (checklist): Audit last two quarters of budget reallocation. / Check the measurement window behind each cut. / Ring-fence brand spend before quarterly reviews.
 > Editorial review: passed novelty, visible payoff and source-fidelity checks
 >
 > Proof (source): Data-driven last-click attribution over-rewards final touchpoints while invisible touchpoints and long-lag activity get systematically underfunded.
@@ -31,8 +31,8 @@ It counts the touchpoint right before conversion, treating earlier awareness and
 ![slide 2](slide-02.jpg)
 
 **3.** The mechanism
-### AI content generation compounds the imbalance.
-Generative tools make it cheaper to produce short-term retargeting assets, starving long-term brand equity further.
+### More retargeting assets can hide the imbalance.
+Cheaper retargeting assets can reinforce short-term reporting if the team ignores longer-lag activity.
 
 ![slide 3](slide-03.jpg)
 
@@ -49,14 +49,14 @@ Audit last two quarters of budget reallocation decisions to spot where attributi
 ![slide 5](slide-05.jpg)
 
 **6.** The lag check
-### Identify if all cut activities had a lag over 30 days.
-Identify if all cut activities had a measurement lag over 30 days, proving attribution blind spots.
+### Check the measurement window behind each cut.
+A lag beyond the reporting window is a reason to investigate, not proof that the activity worked.
 
 ![slide 6](slide-06.jpg)
 
 **7.** The governance fix
 ### Ring-fence brand spend before quarterly reviews.
-Ring-fence brand spend before quarterly reviews so long-term investments are never left unprotected.
+Ring-fence brand spend before quarterly reviews and state when the evidence would justify changing it.
 
 ![slide 7](slide-07.jpg)
 
@@ -71,13 +71,13 @@ Read the full analysis on data-driven marketing and measurement blind spots at h
 ```
 Your attribution model is starving your brand.
 
-When teams rely on data-driven marketing models that only see last-click conversions, they quietly defund the brand-building work that drives long-term pipeline. Simplicity is not accuracy.
+Data-driven marketing can miss earlier brand influence when reporting only credits the final click.
 
-The fix is not abandoning data. It is recognising where your measurement stack is blind and ring-fencing brand investment before quarterly budget reallocation conversations begin.
+Audit the last two quarters of budget cuts: what window measured each activity, and did the buying journey extend beyond it? A mismatch flags a question; it does not prove effectiveness. Use an appropriate incrementality test and agree the evidence required before reallocating spend.
 
-Send this to whoever is defending the brand budget this quarter.
+Read the source: https://www.rachitmishra.in/2025/01/20/data-driven-marketing-unlocking-insights/
 
-[data-driven marketing, attribution models, brand governance, B2B marketing]
+Send this to the analyst explaining your latest attribution report.
 
 #b2bmarketing #marketingstrategy #brandbuilding
 ```

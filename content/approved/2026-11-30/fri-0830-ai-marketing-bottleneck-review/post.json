@@ -362,28 +362,29 @@
   "useful_takeaway": {
     "kind": "checklist",
     "visible_steps": [
-      "Audit first-party data quality",
-      "Evaluate AI output for strategy",
-      "Kill low-value assets weekly"
+      "Could a rival publish this unchanged?",
+      "Which buyer question does it answer?",
+      "Revise or drop work with no clear answer",
+      "Check whether the next test changes a decision"
     ]
   },
   "reel_cover": {
-    "headline": "The AI Bottleneck Shift",
-    "signal": "Speed vs Judgment",
+    "headline": "More drafts. Longer queues.",
+    "signal": "Where work gets stuck",
     "layout": "split",
     "visual": {
       "kind": "comparison",
       "items": [
         {
-          "label": "18 Months Ago",
-          "detail": "Production speed was the main bottleneck"
+          "label": "Production",
+          "detail": "Drafts arrive faster"
         },
         {
-          "label": "Today",
-          "detail": "Strategic judgment is the scarce resource"
+          "label": "Editorial review",
+          "detail": "Which work deserves to be published?"
         }
       ],
-      "note": "Martech stack evolution analysis"
+      "note": "The source’s editorial argument"
     }
   },
   "reel_script": [
@@ -456,15 +457,15 @@
         "kind": "checklist",
         "items": [
           {
-            "label": "Original Angles",
-            "detail": "Check if output mirrors competitors"
+            "label": "Distinctiveness",
+            "detail": "Could a rival publish this unchanged?"
           },
           {
-            "label": "Buyer Relevance",
-            "detail": "Verify if the segment needs this"
+            "label": "Relevance",
+            "detail": "Which buyer question does it answer?"
           }
         ],
-        "note": "Differentiation check"
+        "note": "Suggested check"
       }
     },
     {
@@ -476,15 +477,15 @@
         "kind": "checklist",
         "items": [
           {
-            "label": "Kill Criteria",
-            "detail": "Set thresholds to drop weak projects"
+            "label": "Decision",
+            "detail": "Revise or drop work with no clear answer"
           },
           {
-            "label": "Execution Audit",
-            "detail": "Review test results without bias"
+            "label": "Review",
+            "detail": "Check whether the next test changes a decision"
           }
         ],
-        "note": "Agility and review discipline"
+        "note": "Suggested check"
       }
     },
     {
@@ -508,14 +509,14 @@
       }
     }
   ],
-  "caption": "Faster drafting just built a bigger queue.\n\nThe real ai marketing bottleneck shifted over the last eighteen months from production capacity to strategic judgment.\n\nWhen content generation becomes cheap and fast, volume stops being a useful metric. The martech stack has consolidated into broader platforms, turning personalization into a data engineering problem rather than a creative one.\n\nInvesting in speed solves a problem that was mostly addressed years ago. The higher leverage investment is training teams to evaluate outputs critically and killing mediocre work before publication.\n\nThe complete 18-month review and stack analysis is published on my site: https://www.rachitmishra.in/2025/01/20/future-of-marketing-ai-agility-social-media/\n\nSend this to whoever is still defending their team's AI strategy using output volume metrics.\n\n[ai marketing bottleneck, martech stack consolidation, strategic judgment, B2B content strategy]",
+  "caption": "Faster drafting just built a bigger queue.\n\nThe AI marketing bottleneck can move from writing capacity to editorial judgement.\n\nBefore approving another asset, ask: could a rival publish this unchanged, and which buyer question does it answer? Revise or drop work that has no clear answer. Faster production is useful only when the team can select worthwhile work and learn from its tests.\n\nRead the source: https://www.rachitmishra.in/2025/01/20/future-of-marketing-ai-agility-social-media/\n\nSend this to the editor managing your content approval queue.",
   "alt_text": "A comparison showing marketing bottlenecks shifting from production speed to strategic judgment.",
   "hashtags": [
     "#b2bmarketing",
     "#martech",
     "#contentstrategy"
   ],
-  "cta": "Send this to whoever is still defending their team's AI strategy using output volume metrics.",
+  "cta": "Send this to the editor managing your content approval queue.",
   "failure_mode": "Readers might mistake this for a general technology review rather than a specific operational warning about where marketing teams waste budget.",
   "sources": [
     {
@@ -526,7 +527,9 @@
   "content_version": 3,
   "editorial_review": {
     "approved": true,
-    "issues": []
+    "issues": [],
+    "review_notes": "Reviewed source scope, useful visible steps, numeric wording and distinct CTA on 2026-11-25.",
+    "reviewed_by": "Codex"
   },
   "scheduled_for": "2026-12-04T08:30:00+05:30",
   "status": "approved",
@@ -568,7 +571,7 @@
   },
   "video": "reel.mp4",
   "images": [
-    "content/queue/2026-11-30/fri-0830-ai-marketing-bottleneck-review/reel-cover.jpg"
+    "content/approved/2026-11-30/fri-0830-ai-marketing-bottleneck-review/reel-cover.jpg"
   ],
   "rendered_visuals": [
     "comparison",

@@ -15,7 +15,7 @@
 >
 > Rendered infographics: 7 — bottleneck, bottleneck, checklist, comparison, checklist, comparison, checklist
 >
-> Reel assets: image `designed_gradient` · music `bed-something (12).mp3`
+> Reel assets: image `designed_gradient` · music `bed-something (17).mp3`
 
 ## Cover
 
@@ -39,19 +39,13 @@
 ```
 Silence is read as the worst case.
 
-Effective crisis communication requires acting before facts are complete.
+Crisis communication needs a reliable update cadence, even when the facts are incomplete.
 
-Most teams wait for a full picture before issuing a statement. That instinct protects the organisation internally but destroys trust externally, because silence leaves stakeholders to assume the worst.
+State what is known, distinguish what remains under review, and give a specific time for the next update. Meet that commitment even if the update is that the investigation continues. Have legal review factual and liability risks while communications checks clarity and tone.
 
-The fix is an acknowledge-commit-update cadence. Acknowledge within hours with an honest holding statement, commit to a specific time for the next update rather than a premature conclusion, and publish on schedule even if you only have progress to report.
+Read the source: https://www.rachitmishra.in/2025/01/20/the-art-of-effective-communication-unlocking-the-power-of-connection/
 
-The long version of this framework and the source research from Edelman and HBR are available in the full article: https://www.rachitmishra.in/2025/01/20/the-art-of-effective-communication-unlocking-the-power-of-connection/
-
-Legal reviews for liability. Communications owns whether a human being wrote it.
-
-Send this to whoever is drafting your next holding statement.
-
-[crisis communication, corporate reputation, crisis management, stakeholder trust]
+Send this to the communications owner drafting a holding update.
 
 #crisiscommunication #corporatereputation #internalcomms
 ```

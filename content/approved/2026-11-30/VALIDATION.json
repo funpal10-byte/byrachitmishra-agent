@@ -1,0 +1,82 @@
+[
+  {
+    "folder": "fri-0830-ai-marketing-bottleneck-review",
+    "hook": "Faster drafting just built a bigger queue.",
+    "when": "2026-12-04T08:30:00+05:30",
+    "format": "reel",
+    "duration": 62.0,
+    "images": 1
+  },
+  {
+    "folder": "fri-1900-emotional-branding-b2b-theatre",
+    "hook": "Can your buyer defend the recommendation?",
+    "when": "2026-12-04T19:00:00+05:30",
+    "format": "carousel",
+    "duration": null,
+    "images": 8
+  },
+  {
+    "folder": "mon-0830-internal-readiness-checklist-before-launch",
+    "hook": "Your launch is ready. Is support?",
+    "when": "2026-11-30T08:30:00+05:30",
+    "format": "reel",
+    "duration": 63.0,
+    "images": 1
+  },
+  {
+    "folder": "mon-1900-datadrivenmarketinglastclicktrap",
+    "hook": "Your attribution model is starving your brand.",
+    "when": "2026-11-30T19:00:00+05:30",
+    "format": "carousel",
+    "duration": null,
+    "images": 8
+  },
+  {
+    "folder": "sat-1030-the-cx-score-trap-nps",
+    "hook": "Good NPS won't stop churn.",
+    "when": "2026-12-05T10:30:00+05:30",
+    "format": "carousel",
+    "duration": null,
+    "images": 7
+  },
+  {
+    "folder": "sun-1030-supply-chain-marketing-proof-sequence",
+    "hook": "Logistics marketing fails without proof.",
+    "when": "2026-12-06T10:30:00+05:30",
+    "format": "carousel",
+    "duration": null,
+    "images": 8
+  },
+  {
+    "folder": "thu-1700-how-much-should-a-b2b-company-spend-on-brand",
+    "hook": "Why your brand budget is an inherited guess.",
+    "when": "2026-12-03T17:00:00+05:30",
+    "format": "reel",
+    "duration": 65.0,
+    "images": 1
+  },
+  {
+    "folder": "tue-1900-brandawarenessiswrongmetric",
+    "hook": "Awareness scores don't touch purchase moments.",
+    "when": "2026-12-01T19:00:00+05:30",
+    "format": "reel",
+    "duration": 70.0,
+    "images": 1
+  },
+  {
+    "folder": "wed-0830-badnewscommunicationcadence",
+    "hook": "Silence is read as the worst case.",
+    "when": "2026-12-02T08:30:00+05:30",
+    "format": "reel",
+    "duration": 64.0,
+    "images": 1
+  },
+  {
+    "folder": "wed-2000-aiinbrandmanagement",
+    "hook": "AI drafts faster. Who owns positioning?",
+    "when": "2026-12-02T20:00:00+05:30",
+    "format": "carousel",
+    "duration": null,
+    "images": 7
+  }
+]

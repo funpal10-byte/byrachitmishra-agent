@@ -3,12 +3,11 @@
   "useful_takeaway": {
     "kind": "checklist",
     "visible_steps": [
-      "Pick five to eight buying triggers",
-      "Test unprompted brand recall for each",
-      "Pair leading indicator with win rates",
-      "Drop top-line awareness from board decks"
-    ],
-    "visible_steps_checks": true
+      "What event made you look for a vendor?",
+      "Which brands came to mind at that event?",
+      "Track recall for each buying trigger",
+      "Pair it with win rates against rivals"
+    ]
   },
   "title": "brandawarenessiswrongmetric",
   "pillar": "ai_marketing",
@@ -32,7 +31,7 @@
         "items": [
           {
             "label": "Quarterly KPI lift",
-            "detail": "+6% prompted awareness score"
+            "detail": "Six-point prompted awareness lift"
           },
           {
             "label": "Commercial result",
@@ -63,27 +62,27 @@
       }
     },
     {
-      "timecode": "0:24-0:35",
-      "onscreen": "Ninety-five percent are not shopping today.",
-      "voiceover": "Ninety-five percent are not shopping today.",
+      "timecode": "0:24-0:36",
+      "onscreen": "Most buyers are not shopping today.",
+      "voiceover": "Most buyers are not shopping today.",
       "direction": "Graphic showing the 95-5 rule proportion across a standard B2B buying cycle.",
       "visual": {
         "kind": "comparison",
         "items": [
           {
-            "label": "95% Out-of-market",
+            "label": "Out-of-market buyers",
             "detail": "Reaching them builds long-term memory"
           },
           {
-            "label": "5% Active buyers",
+            "label": "Active buyers",
             "detail": "Already have a short-list built"
           }
         ],
-        "note": "LinkedIn B2B Institute proportions"
+        "note": "95:5 is a rough guide; categories vary"
       }
     },
     {
-      "timecode": "0:35-0:47",
+      "timecode": "0:36-0:48",
       "onscreen": "Pick five to eight buying triggers",
       "voiceover": "Pick five to eight buying triggers",
       "direction": "Checklist graphic showing operational setup steps.",
@@ -91,19 +90,19 @@
         "kind": "checklist",
         "items": [
           {
-            "label": "Pick triggers",
-            "detail": "Pick five to eight buying triggers"
+            "label": "Ask buyers",
+            "detail": "What event made you look for a vendor?"
           },
           {
             "label": "Test recall",
-            "detail": "Test unprompted brand recall for each"
+            "detail": "Which brands came to mind at that event?"
           }
         ],
-        "note": "Operational replacement for awareness"
+        "note": "Suggested check"
       }
     },
     {
-      "timecode": "0:47-0:59",
+      "timecode": "0:48-1:00",
       "onscreen": "Pair leading indicator with win rates",
       "voiceover": "Pair leading indicator with win rates",
       "direction": "Checklist graphic displaying board reporting steps.",
@@ -111,19 +110,19 @@
         "kind": "checklist",
         "items": [
           {
-            "label": "Pair metrics",
-            "detail": "Pair leading indicator with win rates"
+            "label": "Leading signal",
+            "detail": "Track recall for each buying trigger"
           },
           {
-            "label": "Drop top-line",
-            "detail": "Drop top-line awareness from board decks"
+            "label": "Lagging signal",
+            "detail": "Pair it with win rates against rivals"
           }
         ],
-        "note": "Defensible board reporting model"
+        "note": "Suggested check"
       }
     },
     {
-      "timecode": "0:59-1:09",
+      "timecode": "1:00-1:10",
       "onscreen": "Track entry points instead.",
       "voiceover": "Track entry points instead.",
       "direction": "Final display showing the two-part board story combining leading and lagging metrics.",
@@ -149,7 +148,7 @@
       "items": [
         {
           "label": "Awareness score",
-          "detail": "Easy to raise, impossible to defend"
+          "detail": "Shows recognition when asked"
         },
         {
           "label": "Entry points",
@@ -158,18 +157,18 @@
       ],
       "note": "Metric comparison"
     },
-    "headline": "Why awareness fails boards",
-    "signal": "6% lift ignored",
+    "headline": "Known, but not shortlisted?",
+    "signal": "Test buying triggers",
     "layout": "split"
   },
-  "caption": "Awareness scores don't touch purchase moments.\n\nBrand awareness metrics are easy to inflate and impossible to defend.\n\nWhen you present a six-point awareness lift to a commercial committee, the first question is whether sales moved. Brand awareness metrics fail when pipeline stalls because they measure recognition rather than retrieval during an actual buying trigger.\n\nRead the full breakdown on the site: https://www.rachitmishra.in/2026/08/05/b2b-brand-awareness-metrics/\n\nMetrics should survive the second question in the room.\n\nSend this to whoever is defending the brand budget this quarter.\n\n[b2b brand awareness metrics, industrial marketing, mental availability, category entry points, B2B KPIs]",
+  "caption": "Awareness scores don't touch purchase moments.\n\nBrand awareness metrics show recognition; they do not directly show which brand buyers retrieve at a buying trigger.\n\nAsk buyers what happened when they began a vendor search. For each recurring trigger, ask which brands came to mind without prompting. Track those associations alongside win rates. Keep awareness for context; avoid treating it as a quarterly revenue forecast.\n\nRead the source: https://www.rachitmishra.in/2026/08/05/b2b-brand-awareness-metrics/\n\nSend this to the researcher designing your next brand tracker.",
   "alt_text": "Comparison chart showing B2B awareness versus entry points.",
   "hashtags": [
     "#b2bmarketing",
     "#brandstrategy",
     "#industrialmarketing"
   ],
-  "cta": "Send this to whoever is defending the brand budget this quarter.",
+  "cta": "Send this to the researcher designing your next brand tracker.",
   "failure_mode": "Readers may dismiss the shift from awareness to entry points as academic if they lack the qualitative research budget to map buying triggers.",
   "sources": [
     {
@@ -180,7 +179,9 @@
   "content_version": 3,
   "editorial_review": {
     "approved": true,
-    "issues": []
+    "issues": [],
+    "review_notes": "Reviewed source scope, useful visible steps, numeric wording and distinct CTA on 2026-11-25.",
+    "reviewed_by": "Codex"
   },
   "scheduled_for": "2026-12-01T19:00:00+05:30",
   "status": "approved",
@@ -217,12 +218,12 @@
     },
     "music": {
       "source": "music_folder",
-      "file": "bed-something (10).mp3"
+      "file": "bed-something (16).mp3"
     }
   },
   "video": "reel.mp4",
   "images": [
-    "content/queue/2026-11-30/tue-1900-brandawarenessiswrongmetric/reel-cover.jpg"
+    "content/approved/2026-11-30/tue-1900-brandawarenessiswrongmetric/reel-cover.jpg"
   ],
   "rendered_visuals": [
     "comparison",

@@ -266,7 +266,7 @@
   "format": "reel",
   "primary_keyword": "internal launch readiness checklist",
   "claim": "Testing internal readiness before a public launch exposes delivery gaps while teams can still change scope.",
-  "hook": "Launch the website. Break the service team.",
+  "hook": "Your launch is ready. Is support?",
   "evidence": {
     "type": "source",
     "detail": "An internal readiness checklist tests whether delivery teams can explain offers, fulfil conditions and handle exceptions before public announcements, exposing gaps in scope, support routing, and eligibility.",
@@ -275,13 +275,15 @@
   "useful_takeaway": {
     "kind": "checklist",
     "visible_steps": [
-      "Can we explain inclusions?",
-      "Where does routing go?"
+      "Explain inclusions and exclusions",
+      "Name availability limits before launch",
+      "Route a request outside normal coverage",
+      "Name who acts on the next shift"
     ]
   },
   "reel_cover": {
     "headline": "Can your team explain the offer?",
-    "signal": "7 readiness areas",
+    "signal": "Rehearse before launch",
     "layout": "stamp",
     "visual": {
       "kind": "checklist",
@@ -301,8 +303,8 @@
   "reel_script": [
     {
       "timecode": "0:00-0:11",
-      "onscreen": "Launch the website. Break the service team.",
-      "voiceover": "Launch the website. Break the service team.",
+      "onscreen": "Your launch is ready. Is support?",
+      "voiceover": "Your launch is ready. Is support?",
       "direction": "Static view of an unverified announcement schedule alongside an unread support guide.",
       "visual": {
         "kind": "bottleneck",
@@ -340,7 +342,7 @@
       }
     },
     {
-      "timecode": "0:22-0:30",
+      "timecode": "0:22-0:31",
       "onscreen": "Run the four-part readiness rehearsal.",
       "voiceover": "Run the four-part readiness rehearsal.",
       "direction": "Panning across a structured checklist template for industrial offer deployment.",
@@ -349,18 +351,18 @@
         "items": [
           {
             "label": "Promise",
-            "detail": "Can we explain inclusions?"
+            "detail": "Explain inclusions and exclusions"
           },
           {
             "label": "Delivery",
-            "detail": "What limits availability?"
+            "detail": "Name availability limits before launch"
           }
         ],
-        "note": "First rehearsal check"
+        "note": "Suggested check"
       }
     },
     {
-      "timecode": "0:30-0:39",
+      "timecode": "0:31-0:41",
       "onscreen": "Test the exception: unlisted coverage.",
       "voiceover": "Test the exception: unlisted coverage.",
       "direction": "Highlighting exception routing on an enquiry handling flow.",
@@ -368,19 +370,19 @@
         "kind": "checklist",
         "items": [
           {
-            "label": "Service",
-            "detail": "Where does routing go?"
+            "label": "Exception",
+            "detail": "Route a request outside normal coverage"
           },
           {
-            "label": "People",
-            "detail": "Who takes action across shifts?"
+            "label": "Owner",
+            "detail": "Name who acts on the next shift"
           }
         ],
-        "note": "Exception handling test"
+        "note": "Suggested check"
       }
     },
     {
-      "timecode": "0:39-0:50",
+      "timecode": "0:41-0:52",
       "onscreen": "Record states: ready, limited, or blocked.",
       "voiceover": "Record states: ready, limited, or blocked.",
       "direction": "Marking an item as blocked with a named owner and explicit review date.",
@@ -400,7 +402,7 @@
       }
     },
     {
-      "timecode": "0:50-1:01",
+      "timecode": "0:52-1:03",
       "onscreen": "Fix the gap before the public announcement.",
       "voiceover": "Fix the gap before the public announcement.",
       "direction": "Closing on the published article reference and governance principle.",
@@ -420,19 +422,21 @@
       }
     }
   ],
-  "caption": "Launch the website. Break the service team.\n\nAn internal launch readiness checklist tests whether teams can deliver an offer before public announcements force unhandled exceptions into the first customer call. The full article is available at https://www.rachitmishra.in/2026/11/17/internal-launch-readiness-checklist/\n\nDepartment sign-offs prove little about operational capacity. Rehearsing the first customer conversation exposes missing eligibility rules, unassigned out-of-hours contacts, and outdated distributor presentations while leadership can still pause or adjust scope.\n\nSend this to whoever is approving next quarter's product launch schedule.\n\n[internal launch readiness checklist, b2b product launch, operational governance, industrial marketing]",
+  "caption": "Your launch is ready. Is support?\n\nAn internal launch readiness checklist should test the first customer conversation, not just collect departmental sign-offs.\n\nRehearse an ordinary enquiry and an exception. Can the team explain inclusions, delivery limits, routing and the next-shift owner? Record each gap as ready, limited with an owner, or blocked before agreeing the public scope.\n\nRead the source: https://www.rachitmishra.in/2026/11/17/internal-launch-readiness-checklist/\n\nSend this to the service lead rehearsing your next launch.",
   "alt_text": "Readiness checklist showing promise, delivery, and service tests.",
   "hashtags": [
     "#b2bmarketing",
     "#brandgovernance",
     "#operations"
   ],
-  "cta": "Send this to whoever is approving next quarter's product launch schedule.",
+  "cta": "Send this to the service lead rehearsing your next launch.",
   "failure_mode": "Readers might view readiness checklists as standard project management rather than a distinct commercial risk gate.",
   "content_version": 3,
   "editorial_review": {
     "approved": true,
-    "issues": []
+    "issues": [],
+    "review_notes": "Reviewed source scope, useful visible steps, numeric wording and distinct CTA on 2026-11-25.",
+    "reviewed_by": "Codex"
   },
   "scheduled_for": "2026-11-30T08:30:00+05:30",
   "status": "approved",
@@ -448,8 +452,8 @@
     "evidence_type": "source",
     "format": "reel",
     "pillar": "b2b_brand",
-    "hook_words": 7,
-    "hook_characters": 43,
+    "hook_words": 6,
+    "hook_characters": 33,
     "visual_treatment": "visual_explainer",
     "cover_visual": "checklist",
     "schedule": {
@@ -475,12 +479,12 @@
     },
     "music": {
       "source": "music_folder",
-      "file": "bed-something (1).mp3"
+      "file": "bed-something (11).mp3"
     }
   },
   "video": "reel.mp4",
   "images": [
-    "content/queue/2026-11-30/mon-0830-internal-readiness-checklist-before-launch/reel-cover.jpg"
+    "content/approved/2026-11-30/mon-0830-internal-readiness-checklist-before-launch/reel-cover.jpg"
   ],
   "rendered_visuals": [
     "checklist",

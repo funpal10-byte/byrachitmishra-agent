@@ -178,7 +178,7 @@
   "format": "carousel",
   "primary_keyword": "emotional branding in b2b",
   "claim": "Emotional branding in B2B fails when it copies consumer aspiration instead of addressing the buyer's career risk.",
-  "hook": "Consumer emotional branding is B2B theatre.",
+  "hook": "Can your buyer defend the recommendation?",
   "evidence": {
     "type": "source",
     "detail": "Bain's Harvard Business Review research shows reducing personal and professional risk ranks highest for B2B buyers, far above aspirational brand-image elements.",
@@ -194,7 +194,7 @@
   },
   "slides": [
     {
-      "headline": "Consumer emotional branding is B2B theatre."
+      "headline": "Can your buyer defend the recommendation?"
     },
     {
       "kicker": "The Buyer's Reality",
@@ -209,7 +209,7 @@
           },
           {
             "label": "B2B purchase",
-            "detail": "Spending company money with severe career risk"
+            "detail": "Company spend with professional accountability"
           }
         ],
         "note": "Based on B2B Institute and Bain HBR findings"
@@ -217,7 +217,7 @@
     },
     {
       "kicker": "The Wrong Emotion",
-      "headline": "Aspirational campaigns test flat with buyers.",
+      "headline": "Does the campaign address the buyer’s risk?",
       "body": "Borrowing lifestyle messaging for industrial software or equipment creates confusion instead of connection.",
       "visual": {
         "kind": "bottleneck",
@@ -228,16 +228,16 @@
           },
           {
             "label": "Buyer reaction",
-            "detail": "Tested flat and viewed as irrelevant"
+            "detail": "May not answer the buyer’s concerns"
           }
         ],
-        "note": "Observed creative review pattern"
+        "note": "Illustrative messaging contrast"
       }
     },
     {
       "kicker": "The Right Emotion",
       "headline": "Trust and safety are the real B2B levers.",
-      "body": "Edelman's Trust Barometer confirms that vendor trust directly influences B2B purchase intent as much as core features.",
+      "body": "Trust matters alongside features when a buyer must justify a recommendation; mood alone is not evidence.",
       "visual": {
         "kind": "comparison",
         "items": [
@@ -319,19 +319,21 @@
       "body": "Read the full analysis on emotional branding in B2B at https://www.rachitmishra.in/2025/01/20/harnessing-the-power-of-emotional-branding-the-key-to-lasting-connections/"
     }
   ],
-  "caption": "Consumer emotional branding is B2B theatre.\n\nUsing emotional branding in b2b requires focusing on career risk instead of consumer aspiration.\n\nMost industrial marketing borrows consumer language like aspiration and belonging while ignoring that the actual buyer emotional driver is career risk.\n\nWhen you build campaigns around safety and trust instead of lifestyle, pipeline quality improves because buyers can defend the choice internally.\n\nRead the full analysis at https://www.rachitmishra.in/2025/01/20/harnessing-the-power-of-emotional-branding-the-key-to-lasting-connections/\n\nSend this to whoever is defending the brand messaging budget this quarter.\n\n[emotional branding in b2b, b2b marketing, brand trust, risk aversion]",
+  "caption": "Can your buyer defend the recommendation?\n\nEmotional branding in B2B can address the risk of making a recommendation, as well as aspiration.\n\nRemove the imagery from a campaign and read the words. Which claim could a buyer defend in an internal review? Attach relevant case evidence or an independently verifiable reference to that claim. Emotional connection and proof can work together; neither guarantees a sale.\n\nRead the source: https://www.rachitmishra.in/2025/01/20/harnessing-the-power-of-emotional-branding-the-key-to-lasting-connections/\n\nSend this to the strategist reviewing the evidence behind a campaign.",
   "alt_text": "Carousel slides explaining emotional branding in b2b.",
   "hashtags": [
     "#b2bmarketing",
     "#brandstrategy",
     "#industrialmarketing"
   ],
-  "cta": "Send this to whoever is defending the brand messaging budget this quarter.",
+  "cta": "Send this to the strategist reviewing the evidence behind a campaign.",
   "failure_mode": "Readers might mistake this for an anti-creativity argument rather than a call to target the correct emotional driver in enterprise sales.",
   "content_version": 3,
   "editorial_review": {
     "approved": true,
-    "issues": []
+    "issues": [],
+    "review_notes": "Reviewed source scope, useful visible steps, numeric wording and distinct CTA on 2026-11-25.",
+    "reviewed_by": "Codex"
   },
   "scheduled_for": "2026-12-04T19:00:00+05:30",
   "status": "approved",
@@ -348,7 +350,7 @@
     "format": "carousel",
     "pillar": "ai_in_practice",
     "hook_words": 6,
-    "hook_characters": 43,
+    "hook_characters": 41,
     "visual_treatment": "carousel",
     "cover_visual": "",
     "schedule": {
@@ -369,14 +371,14 @@
     }
   ],
   "images": [
-    "content/queue/2026-11-30/fri-1900-emotional-branding-b2b-theatre/slide-01.jpg",
-    "content/queue/2026-11-30/fri-1900-emotional-branding-b2b-theatre/slide-02.jpg",
-    "content/queue/2026-11-30/fri-1900-emotional-branding-b2b-theatre/slide-03.jpg",
-    "content/queue/2026-11-30/fri-1900-emotional-branding-b2b-theatre/slide-04.jpg",
-    "content/queue/2026-11-30/fri-1900-emotional-branding-b2b-theatre/slide-05.jpg",
-    "content/queue/2026-11-30/fri-1900-emotional-branding-b2b-theatre/slide-06.jpg",
-    "content/queue/2026-11-30/fri-1900-emotional-branding-b2b-theatre/slide-07.jpg",
-    "content/queue/2026-11-30/fri-1900-emotional-branding-b2b-theatre/slide-08.jpg"
+    "content/approved/2026-11-30/fri-1900-emotional-branding-b2b-theatre/slide-01.jpg",
+    "content/approved/2026-11-30/fri-1900-emotional-branding-b2b-theatre/slide-02.jpg",
+    "content/approved/2026-11-30/fri-1900-emotional-branding-b2b-theatre/slide-03.jpg",
+    "content/approved/2026-11-30/fri-1900-emotional-branding-b2b-theatre/slide-04.jpg",
+    "content/approved/2026-11-30/fri-1900-emotional-branding-b2b-theatre/slide-05.jpg",
+    "content/approved/2026-11-30/fri-1900-emotional-branding-b2b-theatre/slide-06.jpg",
+    "content/approved/2026-11-30/fri-1900-emotional-branding-b2b-theatre/slide-07.jpg",
+    "content/approved/2026-11-30/fri-1900-emotional-branding-b2b-theatre/slide-08.jpg"
   ],
   "rendered_visuals": [
     "comparison",

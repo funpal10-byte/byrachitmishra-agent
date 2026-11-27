@@ -98,8 +98,8 @@
   "useful_takeaway": {
     "kind": "checklist",
     "visible_steps": [
-      "Audit last two quarters of budget reallocation decisions.",
-      "Identify if all cut activities had a measurement lag over 30 days.",
+      "Audit last two quarters of budget reallocation.",
+      "Check the measurement window behind each cut.",
       "Ring-fence brand spend before quarterly reviews."
     ]
   },
@@ -128,8 +128,8 @@
     },
     {
       "kicker": "The mechanism",
-      "headline": "AI content generation compounds the imbalance.",
-      "body": "Generative tools make it cheaper to produce short-term retargeting assets, starving long-term brand equity further.",
+      "headline": "More retargeting assets can hide the imbalance.",
+      "body": "Cheaper retargeting assets can reinforce short-term reporting if the team ignores longer-lag activity.",
       "visual": {
         "kind": "comparison",
         "items": [
@@ -158,7 +158,7 @@
           },
           {
             "label": "Incrementality",
-            "detail": "Reveals true causal lift"
+            "detail": "Estimates lift under test assumptions"
           }
         ],
         "note": "Model capability split"
@@ -185,8 +185,8 @@
     },
     {
       "kicker": "The lag check",
-      "headline": "Identify if all cut activities had a lag over 30 days.",
-      "body": "Identify if all cut activities had a measurement lag over 30 days, proving attribution blind spots.",
+      "headline": "Check the measurement window behind each cut.",
+      "body": "A lag beyond the reporting window is a reason to investigate, not proof that the activity worked.",
       "visual": {
         "kind": "checklist",
         "items": [
@@ -205,7 +205,7 @@
     {
       "kicker": "The governance fix",
       "headline": "Ring-fence brand spend before quarterly reviews.",
-      "body": "Ring-fence brand spend before quarterly reviews so long-term investments are never left unprotected.",
+      "body": "Ring-fence brand spend before quarterly reviews and state when the evidence would justify changing it.",
       "visual": {
         "kind": "checklist",
         "items": [
@@ -226,14 +226,14 @@
       "body": "Read the full analysis on data-driven marketing and measurement blind spots at https://www.rachitmishra.in/2025/01/20/data-driven-marketing-unlocking-insights/"
     }
   ],
-  "caption": "Your attribution model is starving your brand.\n\nWhen teams rely on data-driven marketing models that only see last-click conversions, they quietly defund the brand-building work that drives long-term pipeline. Simplicity is not accuracy.\n\nThe fix is not abandoning data. It is recognising where your measurement stack is blind and ring-fencing brand investment before quarterly budget reallocation conversations begin.\n\nSend this to whoever is defending the brand budget this quarter.\n\n[data-driven marketing, attribution models, brand governance, B2B marketing]",
+  "caption": "Your attribution model is starving your brand.\n\nData-driven marketing can miss earlier brand influence when reporting only credits the final click.\n\nAudit the last two quarters of budget cuts: what window measured each activity, and did the buying journey extend beyond it? A mismatch flags a question; it does not prove effectiveness. Use an appropriate incrementality test and agree the evidence required before reallocating spend.\n\nRead the source: https://www.rachitmishra.in/2025/01/20/data-driven-marketing-unlocking-insights/\n\nSend this to the analyst explaining your latest attribution report.",
   "alt_text": "Carousel slides explaining how last-click attribution starves brand-building and how to fix it.",
   "hashtags": [
     "#b2bmarketing",
     "#marketingstrategy",
     "#brandbuilding"
   ],
-  "cta": "Send this to whoever is defending the brand budget this quarter.",
+  "cta": "Send this to the analyst explaining your latest attribution report.",
   "failure_mode": "Readers might dismiss this as basic marketing theory if they do not connect last-click attribution failures to their own quarterly budget cuts.",
   "sources": [
     {
@@ -244,7 +244,9 @@
   "content_version": 3,
   "editorial_review": {
     "approved": true,
-    "issues": []
+    "issues": [],
+    "review_notes": "Reviewed source scope, useful visible steps, numeric wording and distinct CTA on 2026-11-25.",
+    "reviewed_by": "Codex"
   },
   "scheduled_for": "2026-11-30T19:00:00+05:30",
   "status": "approved",
@@ -276,14 +278,14 @@
     "http_status": 200
   },
   "images": [
-    "content/queue/2026-11-30/mon-1900-datadrivenmarketinglastclicktrap/slide-01.jpg",
-    "content/queue/2026-11-30/mon-1900-datadrivenmarketinglastclicktrap/slide-02.jpg",
-    "content/queue/2026-11-30/mon-1900-datadrivenmarketinglastclicktrap/slide-03.jpg",
-    "content/queue/2026-11-30/mon-1900-datadrivenmarketinglastclicktrap/slide-04.jpg",
-    "content/queue/2026-11-30/mon-1900-datadrivenmarketinglastclicktrap/slide-05.jpg",
-    "content/queue/2026-11-30/mon-1900-datadrivenmarketinglastclicktrap/slide-06.jpg",
-    "content/queue/2026-11-30/mon-1900-datadrivenmarketinglastclicktrap/slide-07.jpg",
-    "content/queue/2026-11-30/mon-1900-datadrivenmarketinglastclicktrap/slide-08.jpg"
+    "content/approved/2026-11-30/mon-1900-datadrivenmarketinglastclicktrap/slide-01.jpg",
+    "content/approved/2026-11-30/mon-1900-datadrivenmarketinglastclicktrap/slide-02.jpg",
+    "content/approved/2026-11-30/mon-1900-datadrivenmarketinglastclicktrap/slide-03.jpg",
+    "content/approved/2026-11-30/mon-1900-datadrivenmarketinglastclicktrap/slide-04.jpg",
+    "content/approved/2026-11-30/mon-1900-datadrivenmarketinglastclicktrap/slide-05.jpg",
+    "content/approved/2026-11-30/mon-1900-datadrivenmarketinglastclicktrap/slide-06.jpg",
+    "content/approved/2026-11-30/mon-1900-datadrivenmarketinglastclicktrap/slide-07.jpg",
+    "content/approved/2026-11-30/mon-1900-datadrivenmarketinglastclicktrap/slide-08.jpg"
   ],
   "rendered_visuals": [
     "bottleneck",

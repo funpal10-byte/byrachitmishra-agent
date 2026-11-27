@@ -61,7 +61,7 @@ Audit your SLA readiness, map outreach to triggers, build multi-stakeholder proo
 ![slide 7](slide-07.jpg)
 
 **8.** 
-### Proof before promotion, every time.
+### Give sales proof they can use.
 
 ![slide 8](slide-08.jpg)
 
@@ -70,15 +70,13 @@ Audit your SLA readiness, map outreach to triggers, build multi-stakeholder proo
 ```
 Logistics marketing fails without proof.
 
-Effective logistics brand marketing requires sales-ready operational proof. Running awareness campaigns before your sales team has SLA data leaves deals stranded when procurement asks for numbers. Differentiation requires an operating model that backs every promise.
+Logistics brand marketing needs operational evidence that sales can use.
 
-Read the complete practitioner's breakdown on logistics marketing at https://www.rachitmishra.in/2023/05/23/marketing-alchemy-supply-chain-innovation/
+Start with defensible delivery and damage data. Connect it to the buyer’s trigger, give operations and finance the evidence relevant to their questions, and equip the customer champion for renewal. The same generic awareness deck rarely does all four jobs.
 
-Proof beats promotion every single time.
+Read the source: https://www.rachitmishra.in/2023/05/23/marketing-alchemy-supply-chain-innovation/
 
-Send this to whoever is defending the supply chain marketing budget this quarter.
-
-[supply chain marketing, logistics marketing, operational proof, procurement committee, b2b brand strategy]
+Send this to the logistics sales lead assembling a customer proof pack.
 
 #supplychain #b2bmarketing #logistics
 ```

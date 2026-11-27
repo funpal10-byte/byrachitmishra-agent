@@ -5,10 +5,10 @@
 > Targeting: `ai in brand management`
 >
 > Claim: Generative AI speeds up content drafting and research synthesis but fails at strategic positioning and category judgement.
-> Useful takeaway (checklist): Automate research data Pull competitor public communications faster / Verify facts manually Check every stat before approval
+> Useful takeaway (checklist): Open the original source for every statistic / Check date, denominator and scope / Use AI for drafts, synthesis and localisation / Keep positioning and final sign-off assigned
 > Editorial review: passed novelty, visible payoff and source-fidelity checks
 >
-> Proof (source): McKinsey 2024 and Gartner studies show generative AI productivity gains cluster in execution and synthesis, while strategic positioning and category judgement remain strictly human bottlenecks.
+> Proof (source): The author describes faster drafting and synthesis alongside continued human responsibility for positioning, verification and category judgement.
 > Source: https://www.rachitmishra.in/2026/08/02/ai-in-brand-management/
 >
 > Source preflight: reachable (HTTP 200)
@@ -20,13 +20,13 @@
 7 rendered images sit in this folder — upload them in filename order.
 
 **1.** 
-### AI fixed draft speed. It broke positioning.
+### AI drafts faster. Who owns positioning?
 
 ![slide 1](slide-01.jpg)
 
 **2.** OPERATIONAL REALITY
 ### Drafting got faster. Judgement stayed slow.
-First-draft time dropped 60 percent, but positioning decisions and category judgement did not accelerate.
+The author reports faster first drafts and synthesis; strategic decisions still required substantive human work.
 
 ![slide 2](slide-02.jpg)
 
@@ -63,19 +63,15 @@ Audit your team's AI split. Send this to whoever manages brand strategy or marke
 ## Caption — copy from here
 
 ```
-AI fixed draft speed. It broke positioning.
+AI drafts faster. Who owns positioning?
 
-Using ai in brand management speeds up initial drafting by 60%, but it cannot replace category judgement.
+AI in brand management can speed up drafting without resolving positioning decisions.
 
-When you ask a model to position a brand, it defaults to the average of your entire category. The copy sounds safe, defensible, and identical to three of your competitors.
+Split the work explicitly: AI can assist drafts, synthesis and localisation; a named person owns positioning and final sign-off. For every statistic, open the original source and check its date, denominator and scope. The blog describes the author’s experience, not a universal productivity promise.
 
-The real risk of generative tools isn't poor grammar; it's brand erosion through generic messaging.
+Read the source: https://www.rachitmishra.in/2026/08/02/ai-in-brand-management/
 
-Hold the line on strategy, trade-offs, and final signoff. Automate the drafting, not the thinking. Full article details: https://www.rachitmishra.in/2026/08/02/ai-in-brand-management/
-
-Send this to whoever manages brand strategy or marketing workflows on your team.
-
-[ai in brand management, b2b marketing, brand governance, generative ai]
+Send this to the brand lead assigning AI and human responsibilities.
 
 #b2bmarketing #brandstrategy #aiinmarketing
 ```

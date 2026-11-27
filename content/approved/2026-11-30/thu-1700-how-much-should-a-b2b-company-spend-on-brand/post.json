@@ -3,7 +3,7 @@
   "pillar": "reputation",
   "format": "reel",
   "primary_keyword": "b2b brand budget percentage",
-  "claim": "B2B brand spend is a calculated formula tied to category maturity, not an inherited percentage or a zero-sum fight against demand generation.",
+  "claim": "A brand-budget rationale should state category position, objective, allocation logic and a leading indicator.",
   "hook": "Why your brand budget is an inherited guess.",
   "evidence": {
     "type": "source",
@@ -13,10 +13,10 @@
   "useful_takeaway": {
     "kind": "checklist",
     "visible_steps": [
-      "Assess category maturity stage",
-      "Benchmark against Gartner and IPA splits",
-      "Attach a leading indicator",
-      "Defend objective over percentage"
+      "Defend share or enter a new category?",
+      "Explain why the allocation fits that goal",
+      "Track trigger recall or branded search",
+      "Revisit the logic as category position changes"
     ]
   },
   "reel_script": [
@@ -42,26 +42,26 @@
     },
     {
       "timecode": "0:12-0:24",
-      "onscreen": "Gartner: Marketing averages 7.8% revenue.",
+      "onscreen": "A benchmark is a starting point.",
       "voiceover": "Gartner's 2026 CMO Spend Survey puts average marketing budgets at 7.8% of company revenue across large enterprises.",
       "direction": "Zoom in on survey metric callout.",
       "visual": {
-        "kind": "comparison",
+        "kind": "checklist",
         "items": [
           {
-            "label": "Total marketing",
-            "detail": "7.8 percent of company revenue on average."
+            "label": "Sample",
+            "detail": "Large-company averages may not fit you"
           },
           {
-            "label": "Brand building",
-            "detail": "Roughly one third of total marketing spend."
+            "label": "Decision",
+            "detail": "State your category objective first"
           }
         ],
-        "note": "Gartner 2026 benchmark"
+        "note": "Source discusses benchmark limitations"
       }
     },
     {
-      "timecode": "0:24-0:33",
+      "timecode": "0:24-0:34",
       "onscreen": "Assess category maturity stage",
       "voiceover": "A percentage rule treats every company the same, but category maturity dictates your actual required spend.",
       "direction": "Display category stage breakdown table.",
@@ -70,18 +70,18 @@
         "items": [
           {
             "label": "New entrant",
-            "detail": "Assess category maturity stage"
+            "detail": "Build recognition from a low base"
           },
           {
-            "label": "Category leader",
-            "detail": "Below average due to compounding."
+            "label": "Established leader",
+            "detail": "Check what past investment sustains"
           }
         ],
-        "note": "Maturity logic"
+        "note": "Suggested check"
       }
     },
     {
-      "timecode": "0:33-0:43",
+      "timecode": "0:34-0:45",
       "onscreen": "Benchmark against Gartner and IPA splits",
       "voiceover": "Treating brand and demand generation as a zero-sum fight guarantees brand loses because demand-gen has a shorter attribution story.",
       "direction": "Side-by-side comparison of budget allocation arguments.",
@@ -89,19 +89,19 @@
         "kind": "checklist",
         "items": [
           {
-            "label": "IPA split",
-            "detail": "Benchmark against Gartner and IPA splits"
+            "label": "Objective",
+            "detail": "Defend share or enter a new category?"
           },
           {
-            "label": "Brand building",
-            "detail": "Protects long-term market share."
+            "label": "Rationale",
+            "detail": "Explain why the allocation fits that goal"
           }
         ],
-        "note": "Allocation conflict"
+        "note": "Suggested check"
       }
     },
     {
-      "timecode": "0:43-0:52",
+      "timecode": "0:45-0:56",
       "onscreen": "Attach a leading indicator",
       "voiceover": "When defending to a CFO, lead with the objective, attach the percentage as a mechanism, and report on leading indicators.",
       "direction": "Highlighting a one-page budgetary rationale.",
@@ -109,19 +109,19 @@
         "kind": "checklist",
         "items": [
           {
-            "label": "State objective",
-            "detail": "Defending share or entering new markets."
+            "label": "Choose a signal",
+            "detail": "Track trigger recall or branded search"
           },
           {
-            "label": "Metrics",
-            "detail": "Attach a leading indicator"
+            "label": "Review",
+            "detail": "Revisit the logic as category position changes"
           }
         ],
-        "note": "CFO defense framework"
+        "note": "Suggested check"
       }
     },
     {
-      "timecode": "0:52-1:01",
+      "timecode": "0:56-1:05",
       "onscreen": "Defend objective over percentage",
       "voiceover": "Tie your brand budget logic to category maturity so it survives a board conversation.",
       "direction": "Final summary slide showing the complete formula.",
@@ -142,8 +142,8 @@
     }
   ],
   "reel_cover": {
-    "headline": "Defending your B2B brand budget",
-    "signal": "7.8% avg",
+    "headline": "Same budget. New category?",
+    "signal": "Write the rationale",
     "layout": "signal",
     "visual": {
       "kind": "bottleneck",
@@ -160,14 +160,14 @@
       "note": "Budget defense framework"
     }
   },
-  "caption": "Why your brand budget is an inherited guess.\n\nSetting a b2b brand budget percentage requires category logic and benchmarks rather than an inherited guess.\n\nWhen finance asks why marketing needs capital, quoting top-line awareness guarantees a budget cut. You have to anchor the number in category maturity and leading indicators instead of a blind percentage.\n\nThe complete breakdown on building a defensible industrial marketing budget is on my site: https://www.rachitmishra.in/2026/07/30/b2b-brand-marketing-budget-percentage/\n\nSend this to whoever is defending the brand budget this quarter.\n\n[b2b brand budget percentage, marketing budget allocation, b2b marketing strategy, cfo stakeholder management]",
+  "caption": "Why your brand budget is an inherited guess.\n\nA B2B brand budget percentage needs a rationale, not just last year’s number.\n\nBuild a one-page case: category position, objective, allocation logic and the leading indicator you will track. A new entrant and an established leader face different jobs. Use benchmarks as context, not a universal formula, and revisit the rationale when the competitive situation changes.\n\nRead the source: https://www.rachitmishra.in/2026/07/30/b2b-brand-marketing-budget-percentage/\n\nSend this to the finance partner reviewing your allocation rationale.",
   "alt_text": "An industrial enterprise budget spreadsheet showing brand versus demand generation.",
   "hashtags": [
     "#b2bmarketing",
     "#brandstrategy",
     "#marketingbudget"
   ],
-  "cta": "Send this to whoever is defending the brand budget this quarter.",
+  "cta": "Send this to the finance partner reviewing your allocation rationale.",
   "failure_mode": "Readers might assume the Gartner benchmark applies equally to early-stage startups and established manufacturers without adjusting for category maturity.",
   "sources": [
     {
@@ -178,7 +178,9 @@
   "content_version": 3,
   "editorial_review": {
     "approved": true,
-    "issues": []
+    "issues": [],
+    "review_notes": "Reviewed source scope, useful visible steps, numeric wording and distinct CTA on 2026-11-25.",
+    "reviewed_by": "Codex"
   },
   "scheduled_for": "2026-12-03T17:00:00+05:30",
   "status": "approved",
@@ -225,17 +227,17 @@
     },
     "music": {
       "source": "music_folder",
-      "file": "bed-something (11).mp3"
+      "file": "bed-something (15).mp3"
     }
   },
   "video": "reel.mp4",
   "images": [
-    "content/queue/2026-11-30/thu-1700-how-much-should-a-b2b-company-spend-on-brand/reel-cover.jpg"
+    "content/approved/2026-11-30/thu-1700-how-much-should-a-b2b-company-spend-on-brand/reel-cover.jpg"
   ],
   "rendered_visuals": [
     "bottleneck",
     "bottleneck",
-    "comparison",
+    "checklist",
     "checklist",
     "checklist",
     "checklist",

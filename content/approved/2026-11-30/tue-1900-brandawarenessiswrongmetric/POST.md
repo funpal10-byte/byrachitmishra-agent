@@ -5,7 +5,7 @@
 > Targeting: `brand awareness metrics`
 >
 > Claim: Brand awareness scores fail as primary KPIs because they measure name recognition instead of retrieval at the exact moment of need.
-> Useful takeaway (checklist): Pick five to eight buying triggers / Test unprompted brand recall for each / Pair leading indicator with win rates / Drop top-line awareness from board decks
+> Useful takeaway (checklist): What event made you look for a vendor? / Which brands came to mind at that event? / Track recall for each buying trigger / Pair it with win rates against rivals
 > Editorial review: passed novelty, visible payoff and source-fidelity checks
 >
 > Proof (source): Ehrenberg-Bass Institute research shows purchase is predicted by mental availability linked to category entry points, not abstract name recognition.
@@ -15,7 +15,7 @@
 >
 > Rendered infographics: 7 — comparison, bottleneck, comparison, comparison, checklist, checklist, comparison
 >
-> Reel assets: image `designed_gradient` · music `bed-something (10).mp3`
+> Reel assets: image `designed_gradient` · music `bed-something (16).mp3`
 
 ## Cover
 
@@ -29,27 +29,23 @@
 |---|---|---|---|
 | 0:00-0:12 | **Awareness scores don't touch purchase moments.** | Awareness scores don't touch purchase moments. | Static view of a standard marketing KPI dashboard slide showing an awareness percentage lift. |
 | 0:12-0:24 | **Recognition is not recall at moment of need.** | Recognition is not recall at moment of need. | Close-up on a split comparison graphic illustrating recognition versus category retrieval. |
-| 0:24-0:35 | **Ninety-five percent are not shopping today.** | Ninety-five percent are not shopping today. | Graphic showing the 95-5 rule proportion across a standard B2B buying cycle. |
-| 0:35-0:47 | **Pick five to eight buying triggers** | Pick five to eight buying triggers | Checklist graphic showing operational setup steps. |
-| 0:47-0:59 | **Pair leading indicator with win rates** | Pair leading indicator with win rates | Checklist graphic displaying board reporting steps. |
-| 0:59-1:09 | **Track entry points instead.** | Track entry points instead. | Final display showing the two-part board story combining leading and lagging metrics. |
+| 0:24-0:36 | **Most buyers are not shopping today.** | Most buyers are not shopping today. | Graphic showing the 95-5 rule proportion across a standard B2B buying cycle. |
+| 0:36-0:48 | **Pick five to eight buying triggers** | Pick five to eight buying triggers | Checklist graphic showing operational setup steps. |
+| 0:48-1:00 | **Pair leading indicator with win rates** | Pair leading indicator with win rates | Checklist graphic displaying board reporting steps. |
+| 1:00-1:10 | **Track entry points instead.** | Track entry points instead. | Final display showing the two-part board story combining leading and lagging metrics. |
 
 ## Caption — copy from here
 
 ```
 Awareness scores don't touch purchase moments.
 
-Brand awareness metrics are easy to inflate and impossible to defend.
+Brand awareness metrics show recognition; they do not directly show which brand buyers retrieve at a buying trigger.
 
-When you present a six-point awareness lift to a commercial committee, the first question is whether sales moved. Brand awareness metrics fail when pipeline stalls because they measure recognition rather than retrieval during an actual buying trigger.
+Ask buyers what happened when they began a vendor search. For each recurring trigger, ask which brands came to mind without prompting. Track those associations alongside win rates. Keep awareness for context; avoid treating it as a quarterly revenue forecast.
 
-Read the full breakdown on the site: https://www.rachitmishra.in/2026/08/05/b2b-brand-awareness-metrics/
+Read the source: https://www.rachitmishra.in/2026/08/05/b2b-brand-awareness-metrics/
 
-Metrics should survive the second question in the room.
-
-Send this to whoever is defending the brand budget this quarter.
-
-[b2b brand awareness metrics, industrial marketing, mental availability, category entry points, B2B KPIs]
+Send this to the researcher designing your next brand tracker.
 
 #b2bmarketing #brandstrategy #industrialmarketing
 ```

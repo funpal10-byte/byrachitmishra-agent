@@ -155,18 +155,18 @@
       ],
       "note": "Illustrative workflow"
     },
-    "headline": "Bad news breaks early",
+    "headline": "No answers. No update?",
     "signal": "Acknowledge fast",
     "layout": "split"
   },
-  "caption": "Silence is read as the worst case.\n\nEffective crisis communication requires acting before facts are complete.\n\nMost teams wait for a full picture before issuing a statement. That instinct protects the organisation internally but destroys trust externally, because silence leaves stakeholders to assume the worst.\n\nThe fix is an acknowledge-commit-update cadence. Acknowledge within hours with an honest holding statement, commit to a specific time for the next update rather than a premature conclusion, and publish on schedule even if you only have progress to report.\n\nThe long version of this framework and the source research from Edelman and HBR are available in the full article: https://www.rachitmishra.in/2025/01/20/the-art-of-effective-communication-unlocking-the-power-of-connection/\n\nLegal reviews for liability. Communications owns whether a human being wrote it.\n\nSend this to whoever is drafting your next holding statement.\n\n[crisis communication, corporate reputation, crisis management, stakeholder trust]",
+  "caption": "Silence is read as the worst case.\n\nCrisis communication needs a reliable update cadence, even when the facts are incomplete.\n\nState what is known, distinguish what remains under review, and give a specific time for the next update. Meet that commitment even if the update is that the investigation continues. Have legal review factual and liability risks while communications checks clarity and tone.\n\nRead the source: https://www.rachitmishra.in/2025/01/20/the-art-of-effective-communication-unlocking-the-power-of-connection/\n\nSend this to the communications owner drafting a holding update.",
   "alt_text": "Close-up of a crisis communication plan document with marked checklist items on a dark wooden desk.",
   "hashtags": [
     "#crisiscommunication",
     "#corporatereputation",
     "#internalcomms"
   ],
-  "cta": "Send this to whoever is drafting your next holding statement.",
+  "cta": "Send this to the communications owner drafting a holding update.",
   "failure_mode": "Readers might assume this only applies to major corporate scandals rather than routine commercial bad news like delayed launches or missed targets.",
   "sources": [
     {
@@ -177,7 +177,9 @@
   "content_version": 3,
   "editorial_review": {
     "approved": true,
-    "issues": []
+    "issues": [],
+    "review_notes": "Reviewed source scope, useful visible steps, numeric wording and distinct CTA on 2026-11-25.",
+    "reviewed_by": "Codex"
   },
   "scheduled_for": "2026-12-02T08:30:00+05:30",
   "status": "approved",
@@ -214,12 +216,12 @@
     },
     "music": {
       "source": "music_folder",
-      "file": "bed-something (12).mp3"
+      "file": "bed-something (17).mp3"
     }
   },
   "video": "reel.mp4",
   "images": [
-    "content/queue/2026-11-30/wed-0830-badnewscommunicationcadence/reel-cover.jpg"
+    "content/approved/2026-11-30/wed-0830-badnewscommunicationcadence/reel-cover.jpg"
   ],
   "rendered_visuals": [
     "bottleneck",

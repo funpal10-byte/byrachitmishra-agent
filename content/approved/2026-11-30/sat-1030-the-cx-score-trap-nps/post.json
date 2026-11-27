@@ -352,7 +352,7 @@
   "pillar": "inside_the_org",
   "format": "carousel",
   "primary_keyword": "nps limitations in b2b",
-  "claim": "An NPS of 62 measures an individual respondent's mood on a Tuesday rather than predicting whether a multi-stakeholder B2B account will renew.",
+  "claim": "A single contact’s NPS response cannot reliably represent every stakeholder or predict an account renewal.",
   "hook": "Good NPS won't stop churn.",
   "evidence": {
     "type": "source",
@@ -362,10 +362,10 @@
   "useful_takeaway": {
     "kind": "checklist",
     "visible_steps": [
-      "Net revenue retention",
-      "Expansion or contraction trend",
-      "Stakeholder breadth count",
-      "Executive sponsor signal"
+      "Review the last two renewal cycles",
+      "Count people contacted in the last 90 days",
+      "Record their current concerns separately",
+      "Read NRR as a lagging outcome"
     ]
   },
   "slides": [
@@ -393,7 +393,7 @@
     },
     {
       "kicker": "The Missing Signal",
-      "headline": "A high score gives zero warning before an account lapses.",
+      "headline": "A high score can miss a changing buying group.",
       "body": "Champions leave, procurement leads change, and silent accounts drop contracts while the quarterly dashboard shows a 58.",
       "visual": {
         "kind": "bottleneck",
@@ -451,44 +451,50 @@
     {
       "kicker": "Account Health Audit",
       "headline": "Replace single-score dashboards with four account signals.",
-      "body": "Combine actual revenue retention, recent contract trends, stakeholder breadth, and direct executive sponsor feedback.",
+      "body": "Track retention, the last two renewal cycles, stakeholder contact in 90 days and the executive sponsor’s view.",
       "visual": {
         "kind": "checklist",
         "items": [
           {
-            "label": "Expansion Trend",
-            "detail": "Expansion or contraction trend"
+            "label": "Commercial trend",
+            "detail": "Review the last two renewal cycles"
           },
           {
-            "label": "Stakeholder Count",
-            "detail": "Stakeholder breadth count"
+            "label": "Stakeholder breadth",
+            "detail": "Count people contacted in the last 90 days"
           },
           {
-            "label": "Sponsor Signal",
-            "detail": "Executive sponsor signal"
+            "label": "Executive sponsor",
+            "detail": "Record their current concerns separately"
+          },
+          {
+            "label": "Retention",
+            "detail": "Read NRR as a lagging outcome"
           }
         ],
-        "note": "Core signals for B2B account health"
+        "note": "Suggested check"
       }
     },
     {
-      "headline": "An account health model beats a survey score every time.",
+      "headline": "Read the score alongside account signals.",
       "body": "Read the long version and methodology notes on https://www.rachitmishra.in/2026/07/27/nps-limitations-b2b/"
     }
   ],
-  "caption": "Good NPS won't stop churn.\n\nUnderstanding nps limitations in b2b starts with accepting that a single survey response tells you nothing about procurement committees or upcoming contract renewals.\n\nWhen a friendly day-to-day contact scores you a 9 and then changes teams, your dashboard records a win while the account quietly lapses. The score wasn't fake; it was just measuring someone who no longer had a vote in the buying committee.\n\nBuilding an honest account-health model takes operational work that standard CX dashboards avoid.\n\nSend this to whoever is defending the quarterly customer satisfaction metrics to the board.\n\n[nps limitations, b2b customer experience, account health score, net revenue retention]",
+  "caption": "Good NPS won't stop churn.\n\nNPS limitations in B2B begin with the gap between one respondent and a whole buying group.\n\nKeep the score for context. Alongside it, review revenue retention, the last two renewal cycles, stakeholder contact over 90 days and the executive sponsor’s concerns. These signals add context; none is a guaranteed churn forecast. Make the account view broader than the easiest person to survey.\n\nRead the source: https://www.rachitmishra.in/2026/07/27/nps-limitations-b2b/\n\nSend this to the account owner preparing the next renewal review.",
   "alt_text": "Carousel slides explaining why NPS fails in B2B accounts and what to track instead.",
   "hashtags": [
     "#b2bmarketing",
     "#customerexperience",
     "#b2bstrategy"
   ],
-  "cta": "Send this to whoever is defending the quarterly customer satisfaction metrics to the board.",
+  "cta": "Send this to the account owner preparing the next renewal review.",
   "failure_mode": "Readers might dismiss this as anti-survey cynicism if they don't implement the four-part account health check.",
   "content_version": 3,
   "editorial_review": {
     "approved": true,
-    "issues": []
+    "issues": [],
+    "review_notes": "Reviewed source scope, useful visible steps, numeric wording and distinct CTA on 2026-11-25.",
+    "reviewed_by": "Codex"
   },
   "scheduled_for": "2026-12-05T10:30:00+05:30",
   "status": "approved",
@@ -526,13 +532,13 @@
     }
   ],
   "images": [
-    "content/queue/2026-11-30/sat-1030-the-cx-score-trap-nps/slide-01.jpg",
-    "content/queue/2026-11-30/sat-1030-the-cx-score-trap-nps/slide-02.jpg",
-    "content/queue/2026-11-30/sat-1030-the-cx-score-trap-nps/slide-03.jpg",
-    "content/queue/2026-11-30/sat-1030-the-cx-score-trap-nps/slide-04.jpg",
-    "content/queue/2026-11-30/sat-1030-the-cx-score-trap-nps/slide-05.jpg",
-    "content/queue/2026-11-30/sat-1030-the-cx-score-trap-nps/slide-06.jpg",
-    "content/queue/2026-11-30/sat-1030-the-cx-score-trap-nps/slide-07.jpg"
+    "content/approved/2026-11-30/sat-1030-the-cx-score-trap-nps/slide-01.jpg",
+    "content/approved/2026-11-30/sat-1030-the-cx-score-trap-nps/slide-02.jpg",
+    "content/approved/2026-11-30/sat-1030-the-cx-score-trap-nps/slide-03.jpg",
+    "content/approved/2026-11-30/sat-1030-the-cx-score-trap-nps/slide-04.jpg",
+    "content/approved/2026-11-30/sat-1030-the-cx-score-trap-nps/slide-05.jpg",
+    "content/approved/2026-11-30/sat-1030-the-cx-score-trap-nps/slide-06.jpg",
+    "content/approved/2026-11-30/sat-1030-the-cx-score-trap-nps/slide-07.jpg"
   ],
   "rendered_visuals": [
     "comparison",

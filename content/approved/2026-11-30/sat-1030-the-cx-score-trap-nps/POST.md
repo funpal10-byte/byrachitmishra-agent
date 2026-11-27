@@ -4,8 +4,8 @@
 
 > Targeting: `nps limitations in b2b`
 >
-> Claim: An NPS of 62 measures an individual respondent's mood on a Tuesday rather than predicting whether a multi-stakeholder B2B account will renew.
-> Useful takeaway (checklist): Net revenue retention / Expansion or contraction trend / Stakeholder breadth count / Executive sponsor signal
+> Claim: A single contact’s NPS response cannot reliably represent every stakeholder or predict an account renewal.
+> Useful takeaway (checklist): Review the last two renewal cycles / Count people contacted in the last 90 days / Record their current concerns separately / Read NRR as a lagging outcome
 > Editorial review: passed novelty, visible payoff and source-fidelity checks
 >
 > Proof (source): Gartner's research puts the average B2B buying group at six to ten people, while NPS surveys typically reach one friendly contact in the CRM.
@@ -31,7 +31,7 @@ Gartner puts B2B buying groups at six to ten people. NPS surveys usually reach w
 ![slide 2](slide-02.jpg)
 
 **3.** The Missing Signal
-### A high score gives zero warning before an account lapses.
+### A high score can miss a changing buying group.
 Champions leave, procurement leads change, and silent accounts drop contracts while the quarterly dashboard shows a 58.
 
 ![slide 3](slide-03.jpg)
@@ -50,12 +50,12 @@ Keep NPS on the board deck for context. Put net revenue retention directly next 
 
 **6.** Account Health Audit
 ### Replace single-score dashboards with four account signals.
-Combine actual revenue retention, recent contract trends, stakeholder breadth, and direct executive sponsor feedback.
+Track retention, the last two renewal cycles, stakeholder contact in 90 days and the executive sponsor’s view.
 
 ![slide 6](slide-06.jpg)
 
 **7.** 
-### An account health model beats a survey score every time.
+### Read the score alongside account signals.
 Read the long version and methodology notes on https://www.rachitmishra.in/2026/07/27/nps-limitations-b2b/
 
 ![slide 7](slide-07.jpg)
@@ -65,15 +65,13 @@ Read the long version and methodology notes on https://www.rachitmishra.in/2026/
 ```
 Good NPS won't stop churn.
 
-Understanding nps limitations in b2b starts with accepting that a single survey response tells you nothing about procurement committees or upcoming contract renewals.
+NPS limitations in B2B begin with the gap between one respondent and a whole buying group.
 
-When a friendly day-to-day contact scores you a 9 and then changes teams, your dashboard records a win while the account quietly lapses. The score wasn't fake; it was just measuring someone who no longer had a vote in the buying committee.
+Keep the score for context. Alongside it, review revenue retention, the last two renewal cycles, stakeholder contact over 90 days and the executive sponsor’s concerns. These signals add context; none is a guaranteed churn forecast. Make the account view broader than the easiest person to survey.
 
-Building an honest account-health model takes operational work that standard CX dashboards avoid.
+Read the source: https://www.rachitmishra.in/2026/07/27/nps-limitations-b2b/
 
-Send this to whoever is defending the quarterly customer satisfaction metrics to the board.
-
-[nps limitations, b2b customer experience, account health score, net revenue retention]
+Send this to the account owner preparing the next renewal review.
 
 #b2bmarketing #customerexperience #b2bstrategy
 ```
